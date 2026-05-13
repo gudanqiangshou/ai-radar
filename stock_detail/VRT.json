@@ -1,0 +1,299 @@
+{
+  "ticker": "VRT",
+  "name": "Vertiv",
+  "header": {
+    "name": "Vertiv",
+    "ticker": "VRT",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 1,
+    "ai_role": "数据中心热管理 + 电源管理，高密度机柜液冷领先",
+    "price": 367.1300048828125,
+    "change_1d": 0.0,
+    "composite": 56.76288323548597,
+    "tier_letter": "A",
+    "description": [
+      "Vertiv 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：数据中心热管理 + 电源管理，高密度机柜液冷领先。当前内部综合评分 56。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$367.13",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+7.99%",
+        "1月涨跌": "+22.39%",
+        "3月涨跌": "+55.23%",
+        "6月涨跌": "+114.73%",
+        "1年涨跌": "+247.73%",
+        "YTD涨跌": "+109.06%",
+        "20日均线": "325.81",
+        "50日均线": "289.21",
+        "200日均线": "199.68",
+        "RSI 14": "72.35",
+        "MACD": "18.95",
+        "20日波动率": "60.34%",
+        "成交量": "6,544,200",
+        "量比20日": "1.11",
+        "52周高点": "367.92",
+        "52周低点": "101.05",
+        "距52周高点": "-0.21%",
+        "距52周低点": "+263.32%",
+        "20日支撑": "294.13",
+        "20日压力": "367.92"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "数据中心热管理 + 电源管理，高密度机柜液冷领先",
+        "投资确定性": "—",
+        "收入": "$2.65B",
+        "收入同比": "30.10%",
+        "毛利率": "37.15%",
+        "经营利润率": "16.36%",
+        "净利率": "14.37%",
+        "经营现金流": "—",
+        "资本开支": "-$114.00M",
+        "自由现金流": "$652.80M",
+        "FCF利润率": "24.64%",
+        "现金及短投": "$2.15B",
+        "总债务": "$3.26B",
+        "净现金/债务": "-$771.60M",
+        "流通股本": "384.11M",
+        "ROE": "45.10%",
+        "债务/权益": "0.02",
+        "市值": "$141.02B",
+        "企业价值": "$141.78B",
+        "P/E TTM": "92.48",
+        "Forward P/E": "41.97",
+        "P/S": "13.00",
+        "EV/Sales": "13.07",
+        "EV/EBITDA": "59.50",
+        "EV/FCF": "217.19",
+        "FCF收益率": "0.46%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 76.07142857142857,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "Vertiv在高密度液冷和电源管理领域积累深厚Know-how与专利，超大型数据中心客户切换成本高、合同周期长；ROE 45%印证规模效益显著。但竞争对手（Eaton、施耐德、华为）追赶加速，核电/电网直接敞口有限，品牌护城河主要集中在数据中心垂直赛道，整体护城河宽但不深。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 82.0,
+          "reasoning": "Vertiv是AI数据中心热管理与电源管理的核心基础设施供应商，液冷解决方案直接受益于GPU高密度部署。AI capex驱动其订单积压与营收高速增长，管理层明确将AI数据中心列为首要增长引擎，AI需求占新增订单比例持续扩大，业务与AI capex周期高度绑定。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 68.33333333333333,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 25.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 66.07142857142857,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 42.0,
+          "reasoning": "VRT财务杠杆适中（净债约7.7亿），但估值偏高（PE>40x），高度依赖AI数据中心资本支出周期，客户集中于超大规模云厂商，地缘政治出口管制风险显著，液冷技术竞争加剧，周期性回撤风险较大。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 56.76288323548597,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 329.88,
+        "target_high": 414.0,
+        "target_low": 155.0,
+        "upside_pct": -10.15,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 25,
+        "next_earnings": "2026-07-29",
+        "eps_estimate": 1.42783,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Vertiv（VRT）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Vertiv在高密度液冷和电源管理领域积累深厚Know-how与专利，超大型数据中心客户切换成本高、合同周期长；ROE 45%印证规模效益显著。但竞争对手（Eaton、施耐德、华为）追赶加速，核电/电网直接敞口有限，品牌护城河主要集中在数据中心垂直赛道，整体护城河宽但不深。 【ai_exposure】Vertiv是AI数据中心热管理与电源管理的核心基础设施供应商，液冷解决方案直接受益于GPU高密度部署。AI capex驱动其订单积压与营收高速增长，管理层明确将AI数据中心列为首要增长引擎，AI需求占新增订单比例持续扩大，业务与AI capex周期高度绑定。 【risk】VRT财务杠杆适中（净债约7.7亿），但估值偏高（PE>40x），高度依赖AI数据中心资本支出周期，客户集中于超大规模云厂商，地缘政治出口管制风险显著，液冷技术竞争加剧，周期性回撤风险较大。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VRT/",
+          "title": "Vertiv Holdings Co (VRT) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/VRT",
+          "title": "Vertiv Holdings Co (VRT) Stock Price, Quote, News & Analysis | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VRT/news/",
+          "title": "Vertiv Holdings Co (VRT) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VRT/history/",
+          "title": "Vertiv Holdings Co (VRT) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/VRT",
+          "title": "VRT: Vertiv Holdings Co - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VRT/latest-news/",
+          "title": "META_TITLE_QUOTE - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VRT/press-releases/",
+          "title": "Vertiv Holdings Co (VRT) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/news/vertiv-holdings-co-vrt-among-212113174.html",
+          "title": "Vertiv Holdings Co (VRT) Among the Best Liquid Cooling Stocks For AI Data Centers",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-names-cpo-support-ai-151203565.html",
+          "title": "Vertiv Names New CPO To Support AI Data Center Supply Chain",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-momentum-stocks-long-term-095655216.html",
+          "title": "2 Momentum  Stocks for Long-Term Investors and 1 Facing Headwinds",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 56.76288323548597
+        },
+        {
+          "date": "2026-05-13",
+          "value": 59.57690476190477
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

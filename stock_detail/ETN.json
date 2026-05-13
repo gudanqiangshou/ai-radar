@@ -1,0 +1,299 @@
+{
+  "ticker": "ETN",
+  "name": "Eaton",
+  "header": {
+    "name": "Eaton",
+    "ticker": "ETN",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 1,
+    "ai_role": "配电 + UPS + 数据中心电气系统，AI capex 直接受益",
+    "price": 401.5299987792969,
+    "change_1d": 0.0,
+    "composite": 55.11252446183953,
+    "tier_letter": "A",
+    "description": [
+      "Eaton 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：配电 + UPS + 数据中心电气系统，AI capex 直接受益。当前内部综合评分 55。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$401.53",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+0.00%",
+        "1月涨跌": "-0.45%",
+        "3月涨跌": "+2.87%",
+        "6月涨跌": "+13.94%",
+        "1年涨跌": "+21.40%",
+        "YTD涨跌": "+22.68%",
+        "20日均线": "412.43",
+        "50日均线": "384.33",
+        "200日均线": "363.76",
+        "RSI 14": "45.56",
+        "MACD": "6.44",
+        "20日波动率": "42.85%",
+        "成交量": "2,951,200",
+        "量比20日": "1.02",
+        "52周高点": "433.01",
+        "52周低点": "315.82",
+        "距52周高点": "-7.27%",
+        "距52周低点": "+27.14%",
+        "20日支撑": "392.73",
+        "20日压力": "433.01"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "配电 + UPS + 数据中心电气系统，AI capex 直接受益",
+        "投资确定性": "—",
+        "收入": "$7.45B",
+        "收入同比": "16.80%",
+        "毛利率": "37.10%",
+        "经营利润率": "16.10%",
+        "净利率": "13.99%",
+        "经营现金流": "—",
+        "资本开支": "-$193.00M",
+        "自由现金流": "$314.00M",
+        "FCF利润率": "4.21%",
+        "现金及短投": "$565.00M",
+        "总债务": "$21.83B",
+        "净现金/债务": "-$17.97B",
+        "流通股本": "388.30M",
+        "ROE": "20.84%",
+        "债务/权益": "0.14",
+        "市值": "$155.91B",
+        "企业价值": "$177.04B",
+        "P/E TTM": "39.21",
+        "Forward P/E": "25.59",
+        "P/S": "5.47",
+        "EV/Sales": "6.21",
+        "EV/EBITDA": "27.91",
+        "EV/FCF": "563.82",
+        "FCF收益率": "0.20%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 67.26190476190476,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "Eaton在配电、UPS及数据中心电气系统拥有深厚专利积累与工程Know-how，客户切换成本高（系统集成认证周期长），品牌在工业电气领域心智占位强。但面临ABB、施耐德、伊顿竞争，毛利率37%尚可，ROE 21%健康，规模效应中等，无垄断性牌照壁垒，综合护城河偏宽但非顶级。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 62.0,
+          "reasoning": "Eaton数据中心电气业务（配电、UPS、母线槽）直接受益AI capex浪潮，该细分约占总收入25-30%且增速显著高于整体。但工业、航空、汽车等传统业务仍占大头，AI并非唯一驱动。AI退潮将明显拖累估值，但不致业务崩塌。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 58.80952380952381,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 45.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 30.357142857142854,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "ETN受益AI数据中心电气需求，业务多元化强，但长期负债188亿美元偏高、现金仅5.65亿覆盖比低；估值已充分反映AI溢价（P/E偏高），回撤风险显著；地缘政治与供应链暴露中等；技术替代风险低，整体中低风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 55.11252446183953,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 447.59964,
+        "target_high": 514.0,
+        "target_low": 321.0,
+        "upside_pct": 11.47,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 28,
+        "next_earnings": "2026-08-04",
+        "eps_estimate": 3.07123,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Eaton（ETN）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Eaton在配电、UPS及数据中心电气系统拥有深厚专利积累与工程Know-how，客户切换成本高（系统集成认证周期长），品牌在工业电气领域心智占位强。但面临ABB、施耐德、伊顿竞争，毛利率37%尚可，ROE 21%健康，规模效应中等，无垄断性牌照壁垒，综合护城河偏宽但非顶级。 【ai_exposure】Eaton数据中心电气业务（配电、UPS、母线槽）直接受益AI capex浪潮，该细分约占总收入25-30%且增速显著高于整体。但工业、航空、汽车等传统业务仍占大头，AI并非唯一驱动。AI退潮将明显拖累估值，但不致业务崩塌。 【risk】ETN受益AI数据中心电气需求，业务多元化强，但长期负债188亿美元偏高、现金仅5.65亿覆盖比低；估值已充分反映AI溢价（P/E偏高），回撤风险显著；地缘政治与供应链暴露中等；技术替代风险低，整体中低风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ETN/",
+          "title": "Eaton Corporation plc (ETN) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ETN",
+          "title": "ETN: Eaton Corporation PLC - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ETN/press-releases/",
+          "title": "Eaton Corporation plc (ETN) Latest Press Releases & Corporate News - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ETN",
+          "title": "Eaton Corporation plc (ETN) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-corp-etn-one-best-060032416.html",
+          "title": "Is Eaton Corp. (ETN) One of the Best Industrial Stocks Benefiting from the Data Center Boom?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ETN/news/",
+          "title": "Eaton Corporation plc (ETN) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/ETN.N/",
+          "title": "(ETN.N) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/eaton-corporation-plc-etn-leveraging-141424980.html",
+          "title": "Is Eaton Corporation plc (ETN) Leveraging Secular Tailwinds?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/news/keybanc-raises-pt-eaton-corporation-212121708.html",
+          "title": "KeyBanc Raises PT on Eaton Corporation (ETN), Keeps a Buy Rating",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/look-eaton-etn-valuation-raised-181549695.html",
+          "title": "A Look At Eaton (ETN) Valuation After Raised 2026 Guidance And AI Data Center Momentum",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 55.11252446183953
+        },
+        {
+          "date": "2026-05-13",
+          "value": 58.97214285714286
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

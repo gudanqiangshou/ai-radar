@@ -1,0 +1,299 @@
+{
+  "ticker": "VST",
+  "name": "Vistra Energy",
+  "header": {
+    "name": "Vistra Energy",
+    "ticker": "VST",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 1,
+    "ai_role": "Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益",
+    "price": 146.8699951171875,
+    "change_1d": 0.0,
+    "composite": 63.3610567514677,
+    "tier_letter": "A",
+    "description": [
+      "Vistra Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益。当前内部综合评分 63。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$146.87",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "-0.58%",
+        "1月涨跌": "-7.16%",
+        "3月涨跌": "-9.95%",
+        "6月涨跌": "-15.93%",
+        "1年涨跌": "-5.25%",
+        "YTD涨跌": "-11.11%",
+        "20日均线": "157.91",
+        "50日均线": "157.64",
+        "200日均线": "176.59",
+        "RSI 14": "42.36",
+        "MACD": "-1.36",
+        "20日波动率": "42.88%",
+        "成交量": "4,891,900",
+        "量比20日": "1.07",
+        "52周高点": "217.92",
+        "52周低点": "142.52",
+        "距52周高点": "-32.60%",
+        "距52周低点": "+3.05%",
+        "20日支撑": "146.87",
+        "20日压力": "166.58"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益",
+        "投资确定性": "—",
+        "收入": "$5.64B",
+        "收入同比": "43.40%",
+        "毛利率": "38.64%",
+        "经营利润率": "26.58%",
+        "净利率": "11.53%",
+        "经营现金流": "—",
+        "资本开支": "-$883.00M",
+        "自由现金流": "$316.00M",
+        "FCF利润率": "5.60%",
+        "现金及短投": "$634.00M",
+        "总债务": "$19.93B",
+        "净现金/债务": "-$16.63B",
+        "流通股本": "337.18M",
+        "ROE": "42.90%",
+        "债务/权益": "0.40",
+        "市值": "$49.52B",
+        "企业价值": "$71.28B",
+        "P/E TTM": "24.56",
+        "Forward P/E": "13.02",
+        "P/S": "2.55",
+        "EV/Sales": "3.67",
+        "EV/EBITDA": "10.50",
+        "EV/FCF": "225.57",
+        "FCF收益率": "0.64%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 73.92857142857143,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "Comanche Peak核电牌照+ERCOT市场地位构成高监管壁垒；AI数据中心PPA锁定长期现金流提升客户粘性；但Merchant Power模式受电价波动影响，缺乏垄断性网络效应，品牌溢价有限，规模优势不及公用事业巨头，护城河宽度中上。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 62.0,
+          "reasoning": "VST通过核电（Comanche Peak）和天然气机组向AI数据中心签署长期PPA，AI数据中心需求是当前估值重估的核心驱动力，但基础业务仍为传统电力批发市场，AI PPA占总收入比例尚未过半，属于AI是主要增长催化剂但非全部的结构。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 75.71428571428572,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 60.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 19.642857142857142,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 38.0,
+          "reasoning": "VST长期负债高达172亿美元，现金仅6.34亿，财务杠杆极高；电力批发价格波动大，核电运营成本刚性；AI数据中心PPA需求虽利好但集中度风险上升；估值已大幅溢价，对利率和政策敏感；德州ERCOT监管环境存在不确定性，综合风险偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 63.3610567514677,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 229.11111,
+        "target_high": 320.0,
+        "target_low": 97.0,
+        "upside_pct": 56.0,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 18,
+        "next_earnings": "2026-08-06",
+        "eps_estimate": 2.59081,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Vistra Energy（VST）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Comanche Peak核电牌照+ERCOT市场地位构成高监管壁垒；AI数据中心PPA锁定长期现金流提升客户粘性；但Merchant Power模式受电价波动影响，缺乏垄断性网络效应，品牌溢价有限，规模优势不及公用事业巨头，护城河宽度中上。 【ai_exposure】VST通过核电（Comanche Peak）和天然气机组向AI数据中心签署长期PPA，AI数据中心需求是当前估值重估的核心驱动力，但基础业务仍为传统电力批发市场，AI PPA占总收入比例尚未过半，属于AI是主要增长催化剂但非全部的结构。 【risk】VST长期负债高达172亿美元，现金仅6.34亿，财务杠杆极高；电力批发价格波动大，核电运营成本刚性；AI数据中心PPA需求虽利好但集中度风险上升；估值已大幅溢价，对利率和政策敏感；德州ERCOT监管环境存在不确定性，综合风险偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/vst",
+          "title": "VST | Vistra Corp. Stock Overview (U.S.: NYSE) - Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/vistra-corp-vst-among-10-141628923.html",
+          "title": "Vistra Corp. (VST) – Among the 10 Best Nuclear Energy Stocks to ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VST/latest-news/",
+          "title": "Vistra Corp. (VST) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/VST",
+          "title": "Vistra Corp. (VST) Stock Price, Quote, News & Analysis | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VST/",
+          "title": "Vistra Corp. (VST) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/VST/historical-prices",
+          "title": "Vistra Corp. Price & News - WSJ | VST",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/vst",
+          "title": "Vistra Corp. Stock Quote (U.S.: NYSE) - VST - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/vistra-vst-slightly-jim-cramer-163028873.html",
+          "title": "Vistra (VST) Up Slightly After Jim Cramer Warned Against Getting ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/vistra-expands-gas-capacity-data-141313862.html",
+          "title": "Vistra Expands Gas Capacity And Data Center Ties With AI Power Deals",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-corp-vst-among-10-064450663.html",
+          "title": "Vistra Corp. (VST) – Among the 10 Best Robinhood Stocks to Buy According to Billionaires",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 63.3610567514677
+        },
+        {
+          "date": "2026-05-13",
+          "value": 63.79357142857143
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

@@ -1,0 +1,299 @@
+{
+  "ticker": "PWR",
+  "name": "Quanta Services",
+  "header": {
+    "name": "Quanta Services",
+    "ticker": "PWR",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "电网 EPC 工程龙头，AI 电力扩张铲子",
+    "price": 765.8099975585938,
+    "change_1d": 0.0,
+    "composite": 36.79223744292237,
+    "tier_letter": "B",
+    "description": [
+      "Quanta Services 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：电网 EPC 工程龙头，AI 电力扩张铲子。当前内部综合评分 36。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$765.81",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+2.79%",
+        "1月涨跌": "+28.53%",
+        "3月涨跌": "+48.45%",
+        "6月涨跌": "+78.39%",
+        "1年涨跌": "+122.89%",
+        "YTD涨跌": "+74.17%",
+        "20日均线": "679.40",
+        "50日均线": "611.02",
+        "200日均线": "480.66",
+        "RSI 14": "75.49",
+        "MACD": "70.17",
+        "20日波动率": "63.20%",
+        "成交量": "1,343,300",
+        "量比20日": "1.12",
+        "52周高点": "785.24",
+        "52周低点": "330.83",
+        "距52周高点": "-2.47%",
+        "距52周低点": "+131.48%",
+        "20日支撑": "587.42",
+        "20日压力": "785.24"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "电网 EPC 工程龙头，AI 电力扩张铲子",
+        "投资确定性": "—",
+        "收入": "$7.87B",
+        "收入同比": "26.30%",
+        "毛利率": "15.10%",
+        "经营利润率": "4.24%",
+        "净利率": "3.67%",
+        "经营现金流": "—",
+        "资本开支": "-$220.09M",
+        "自由现金流": "$171.65M",
+        "FCF利润率": "2.18%",
+        "现金及短投": "$364.76M",
+        "总债务": "$6.32B",
+        "净现金/债务": "-$4.84B",
+        "流通股本": "150.06M",
+        "ROE": "13.53%",
+        "债务/权益": "0.05",
+        "市值": "$114.92B",
+        "企业价值": "$120.97B",
+        "P/E TTM": "105.34",
+        "Forward P/E": "46.68",
+        "P/S": "3.82",
+        "EV/Sales": "4.02",
+        "EV/EBITDA": "45.49",
+        "EV/FCF": "704.75",
+        "FCF收益率": "0.15%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 46.07142857142856,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "PWR凭借全美最大电网EPC规模、稀缺持证电工队伍及长期MSA合约构建强护城河；AI数据中心电力扩张带来结构性需求。但毛利率仅15%、净利率4%显示定价权有限，技术专利壁垒偏弱，竞争对手可复制执行能力，护城河宽度中上但深度不足。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 52.0,
+          "reasoning": "PWR是电网EPC龙头，AI数据中心电力需求扩张直接拉动其输配电工程订单，但核心业务覆盖可再生能源、传统电网升级、管道等多元领域。AI驱动的数据中心电力基础设施约占收入20-30%，是重要增量但非主导。AI退潮影响有限，因电网老化改造需求独立存在。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 31.19047619047619,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 10.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 76.78571428571428,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 52.0,
+          "reasoning": "PWR受益AI电网扩张需求强劲，但长期负债52亿美元而现金仅3.65亿，杠杆偏高；估值已充分反映增长预期（P/E偏高），回撤风险显著；业务依赖大型公用事业客户集中度较高；监管政策变动（IRA补贴调整）构成中等风险。综合评定为中等风险区间。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 36.79223744292237,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 747.8408,
+        "target_high": 901.0,
+        "target_low": 420.0,
+        "upside_pct": -2.35,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 24,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 3.30801,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Quanta Services（PWR）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】PWR凭借全美最大电网EPC规模、稀缺持证电工队伍及长期MSA合约构建强护城河；AI数据中心电力扩张带来结构性需求。但毛利率仅15%、净利率4%显示定价权有限，技术专利壁垒偏弱，竞争对手可复制执行能力，护城河宽度中上但深度不足。 【ai_exposure】PWR是电网EPC龙头，AI数据中心电力需求扩张直接拉动其输配电工程订单，但核心业务覆盖可再生能源、传统电网升级、管道等多元领域。AI驱动的数据中心电力基础设施约占收入20-30%，是重要增量但非主导。AI退潮影响有限，因电网老化改造需求独立存在。 【risk】PWR受益AI电网扩张需求强劲，但长期负债52亿美元而现金仅3.65亿，杠杆偏高；估值已充分反映增长预期（P/E偏高），回撤风险显著；业务依赖大型公用事业客户集中度较高；监管政策变动（IRA补贴调整）构成中等风险。综合评定为中等风险区间。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PWR/news/",
+          "title": "Quanta Services, Inc. (PWR) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/PWR",
+          "title": "PWR: Quanta Services Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/quanta-services-pwr-laps-stock-220004306.html",
+          "title": "Quanta Services (PWR) Laps the Stock Market: Here's Why",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PWR/",
+          "title": "Quanta Services, Inc. (PWR) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/PWR",
+          "title": "Quanta Services, Inc. (PWR) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/quanta-services-pwr-suffers-larger-231506578.html",
+          "title": "Quanta Services (PWR) Suffers a Larger Drop Than the General ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/PWR/latest-news/",
+          "title": "Quanta Services, Inc. (PWR) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PWR/insider-transactions/",
+          "title": "Quanta Services, Inc. (PWR) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/quantas-mission-critical-strategy-outrun-153400086.html",
+          "title": "Can Quanta's Mission-Critical Strategy Outrun Economic Slowdowns?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-unitedhealth-merck-211800561.html",
+          "title": "Top Research Reports for UnitedHealth, Merck & Qualcomm",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 36.79223744292237
+        },
+        {
+          "date": "2026-05-13",
+          "value": 44.89833333333333
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

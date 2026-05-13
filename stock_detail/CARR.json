@@ -1,0 +1,299 @@
+{
+  "ticker": "CARR",
+  "name": "Carrier Global",
+  "header": {
+    "name": "Carrier Global",
+    "ticker": "CARR",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "HVAC + 制冷，AI 数据中心间接受益",
+    "price": 65.55999755859375,
+    "change_1d": 0.0,
+    "composite": 40.72570123939986,
+    "tier_letter": "C",
+    "description": [
+      "Carrier Global 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：HVAC + 制冷，AI 数据中心间接受益。当前内部综合评分 40。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$65.56",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "-1.90%",
+        "1月涨跌": "+1.93%",
+        "3月涨跌": "+1.03%",
+        "6月涨跌": "+21.18%",
+        "1年涨跌": "-12.18%",
+        "YTD涨跌": "+22.50%",
+        "20日均线": "63.50",
+        "50日均线": "60.36",
+        "200日均线": "59.73",
+        "RSI 14": "63.54",
+        "MACD": "2.34",
+        "20日波动率": "56.10%",
+        "成交量": "3,907,100",
+        "量比20日": "0.54",
+        "52周高点": "80.73",
+        "52周低点": "50.36",
+        "距52周高点": "-18.79%",
+        "距52周低点": "+30.18%",
+        "20日支撑": "58.55",
+        "20日压力": "67.90"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "HVAC + 制冷，AI 数据中心间接受益",
+        "投资确定性": "—",
+        "收入": "$5.34B",
+        "收入同比": "2.40%",
+        "毛利率": "25.18%",
+        "经营利润率": "6.57%",
+        "净利率": "5.99%",
+        "经营现金流": "—",
+        "资本开支": "-$94.00M",
+        "自由现金流": "-$15.00M",
+        "FCF利润率": "-0.28%",
+        "现金及短投": "$1.37B",
+        "总债务": "$12.57B",
+        "净现金/债务": "-$9.05B",
+        "流通股本": "830.58M",
+        "ROE": "9.91%",
+        "债务/权益": "0.23",
+        "市值": "$54.45B",
+        "企业价值": "$66.00B",
+        "P/E TTM": "43.71",
+        "Forward P/E": "20.51",
+        "P/S": "2.49",
+        "EV/Sales": "3.02",
+        "EV/EBITDA": "21.01",
+        "EV/FCF": "-4400.26",
+        "FCF收益率": "-0.03%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 33.45238095238095,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 42.0,
+          "reasoning": "CARR在HVAC领域有品牌和渠道优势，但Power/Grid/Nuclear并非其核心赛道，技术壁垒有限。AI数据中心冷却需求提供增量机会，但面临特灵、约克等强竞争。毛利率25%、净利率6%偏低，规模效应和客户锁定力中等，护城河宽度不突出。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 28.0,
+          "reasoning": "CARR通过数据中心冷却（液冷/精密空调）间接受益于AI capex扩张，但核心业务仍是商业/住宅HVAC与制冷，AI数据中心收入占比估计低于15%。AI是增量驱动而非核心叙事，业务多元化使其对AI退潮抵御力较强但弹性也有限。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 29.523809523809522,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 48.21428571428571,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 52.0,
+          "reasoning": "长期负债104亿美元偏高，现金13.7亿覆盖有限，杠杆率承压。HVAC业务受益AI数据中心冷却需求，但客户集中度数据缺失、地缘政治风险（中国业务）及制冷剂监管转型带来不确定性。估值已反映部分AI预期，回撤风险中等。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 40.72570123939986,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 75.51217,
+        "target_high": 90.0,
+        "target_low": 55.0,
+        "upside_pct": 15.18,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 23,
+        "next_earnings": "2026-07-28",
+        "eps_estimate": 0.81552,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Carrier Global（CARR）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】CARR在HVAC领域有品牌和渠道优势，但Power/Grid/Nuclear并非其核心赛道，技术壁垒有限。AI数据中心冷却需求提供增量机会，但面临特灵、约克等强竞争。毛利率25%、净利率6%偏低，规模效应和客户锁定力中等，护城河宽度不突出。 【ai_exposure】CARR通过数据中心冷却（液冷/精密空调）间接受益于AI capex扩张，但核心业务仍是商业/住宅HVAC与制冷，AI数据中心收入占比估计低于15%。AI是增量驱动而非核心叙事，业务多元化使其对AI退潮抵御力较强但弹性也有限。 【risk】长期负债104亿美元偏高，现金13.7亿覆盖有限，杠杆率承压。HVAC业务受益AI数据中心冷却需求，但客户集中度数据缺失、地缘政治风险（中国业务）及制冷剂监管转型带来不确定性。估值已反映部分AI预期，回撤风险中等。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CARR/",
+          "title": "Carrier Global Corporation (CARR) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CARR",
+          "title": "CARR Carrier Global Corporation Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CARR/latest-news/",
+          "title": "Carrier Global Corporation (CARR) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/carr",
+          "title": "CARR Stock Price | Carrier Global Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CARR/news/",
+          "title": "Carrier Global Corporation (CARR) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/carrier-global-carr-sold-off-134224929.html",
+          "title": "Carrier Global (CARR) Sold Off Due to Guidance Cut - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/CARR",
+          "title": "CARR: Carrier Global Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/carrier-global-corporation-carr-posts-212106626.html",
+          "title": "Carrier Global Corporation (CARR) Posts Q1 2026 Earnings, Driven ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-raises-pt-carrier-global-174305661.html",
+          "title": "Barclays Raises PT on Carrier Global (CARR) Stock",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/argus-research-raises-carrier-global-060033294.html",
+          "title": "Argus Research Raises Carrier Global (CARR) Price Target on Valuation and Portfolio Alignment Opportunities",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 40.72570123939986
+        },
+        {
+          "date": "2026-05-13",
+          "value": 41.2897619047619
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

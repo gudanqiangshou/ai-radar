@@ -1,0 +1,299 @@
+{
+  "ticker": "MOD",
+  "name": "Modine Manufacturing",
+  "header": {
+    "name": "Modine Manufacturing",
+    "ticker": "MOD",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "数据中心液冷 + 热管理，规模较小但高弹性",
+    "price": 276.2699890136719,
+    "change_1d": 0.0,
+    "composite": 54.8679060665362,
+    "tier_letter": "B",
+    "description": [
+      "Modine Manufacturing 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：数据中心液冷 + 热管理，规模较小但高弹性。当前内部综合评分 54。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$276.27",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+1.20%",
+        "1月涨跌": "+7.50%",
+        "3月涨跌": "+28.23%",
+        "6月涨跌": "+109.26%",
+        "1年涨跌": "+163.94%",
+        "YTD涨跌": "+96.20%",
+        "20日均线": "255.88",
+        "50日均线": "230.57",
+        "200日均线": "173.16",
+        "RSI 14": "60.98",
+        "MACD": "9.87",
+        "20日波动率": "57.89%",
+        "成交量": "1,097,500",
+        "量比20日": "1.23",
+        "52周高点": "284.80",
+        "52周低点": "88.79",
+        "距52周高点": "-3.00%",
+        "距52周低点": "+211.15%",
+        "20日支撑": "233.39",
+        "20日压力": "284.80"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "数据中心液冷 + 热管理，规模较小但高弹性",
+        "投资确定性": "—",
+        "收入": "$805.00M",
+        "收入同比": "30.50%",
+        "毛利率": "23.85%",
+        "经营利润率": "11.91%",
+        "净利率": "3.40%",
+        "经营现金流": "—",
+        "资本开支": "-$41.80M",
+        "自由现金流": "-$17.10M",
+        "FCF利润率": "-2.12%",
+        "现金及短投": "$98.70M",
+        "总债务": "$753.10M",
+        "净现金/债务": "-$472.00M",
+        "流通股本": "52.73M",
+        "ROE": "10.02%",
+        "债务/权益": "0.05",
+        "市值": "$14.57B",
+        "企业价值": "$15.23B",
+        "P/E TTM": "151.80",
+        "Forward P/E": "37.45",
+        "P/S": "5.07",
+        "EV/Sales": "5.30",
+        "EV/EBITDA": "36.30",
+        "EV/FCF": "-890.67",
+        "FCF收益率": "-0.12%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 32.738095238095234,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 42.0,
+          "reasoning": "Modine在液冷热管理领域有一定技术积累和客户关系，但专利壁垒薄弱、规模偏小（TTM营收仅8亿），面临Vertiv、Alfa Laval等巨头竞争。毛利率24%尚可但净利率仅3%，显示定价权有限。数据中心液冷需求高增长提供弹性，但护城河整体偏窄。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 62.0,
+          "reasoning": "Modine数据中心液冷业务（Climate Solutions板块）是当前核心增长引擎，受AI capex直接驱动，营收占比约30-40%且高速增长。但工业HVAC、汽车热管理等传统业务仍占大头，AI并非唯一支柱。AI退潮将显著拖累增长预期，但不致业务崩溃。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 31.19047619047619,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 100.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 55.357142857142854,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 42.0,
+          "reasoning": "长期负债5.71亿vs现金0.99亿，杠杆偏高；数据中心液冷赛道竞争加剧，客户集中度不明；规模较小抗风险能力有限；但AI基础设施需求强劲提供增长支撑，估值已反映高预期，回撤风险不可忽视。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 54.8679060665362,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 265.57144,
+        "target_high": 310.0,
+        "target_low": 250.0,
+        "upside_pct": -3.87,
+        "rating": "none",
+        "rating_letter": "—",
+        "rating_change": "维持",
+        "previous_rating_letter": "—",
+        "n_analysts": 7,
+        "next_earnings": "2026-05-20",
+        "eps_estimate": 1.55447,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Modine Manufacturing（MOD）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Modine在液冷热管理领域有一定技术积累和客户关系，但专利壁垒薄弱、规模偏小（TTM营收仅8亿），面临Vertiv、Alfa Laval等巨头竞争。毛利率24%尚可但净利率仅3%，显示定价权有限。数据中心液冷需求高增长提供弹性，但护城河整体偏窄。 【ai_exposure】Modine数据中心液冷业务（Climate Solutions板块）是当前核心增长引擎，受AI capex直接驱动，营收占比约30-40%且高速增长。但工业HVAC、汽车热管理等传统业务仍占大头，AI并非唯一支柱。AI退潮将显著拖累增长预期，但不致业务崩溃。 【risk】长期负债5.71亿vs现金0.99亿，杠杆偏高；数据中心液冷赛道竞争加剧，客户集中度不明；规模较小抗风险能力有限；但AI基础设施需求强劲提供增长支撑，估值已反映高预期，回撤风险不可忽视。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MOD/news/",
+          "title": "Modine Manufacturing Company (MOD) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/MOD",
+          "title": "MOD: Modine Manufacturing Co - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MOD/",
+          "title": "Modine Manufacturing Company (MOD) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MOD/news?page=3",
+          "title": "Page 3 | Modine Manufacturing Company (MOD) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MOD/community/",
+          "title": "Modine Manufacturing Company (MOD) Stock Forum & Discussion",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MOD",
+          "title": "MOD Modine Manufacturing Company Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/modine-manufacturing-mod-evaluating-valuation-161741519.html",
+          "title": "Modine Manufacturing (MOD): Evaluating Valuation After Strong ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/modine-manufacturing-company-mod-trending-130002825.html",
+          "title": "Modine Manufacturing Company (MOD) Is a Trending Stock",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/news/modine-mod-suffers-larger-drop-214504412.html",
+          "title": "Modine (MOD) Suffers a Larger Drop Than the General Market: Key Insights",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-07",
+          "source": "Motley Fool",
+          "url": "https://www.fool.com/coverage/filings/2026/05/07/why-this-fund-s-usd8-million-patterson-uti-bet-looks-like-a-bullish-oil-recovery-trade/",
+          "title": "Why This Fund’s $8 Million Patterson-UTI Bet Looks Like a Bullish Oil Recovery Trade",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 54.8679060665362
+        },
+        {
+          "date": "2026-05-13",
+          "value": 51.79357142857143
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

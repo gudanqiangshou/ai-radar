@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Radar — BeWin Quant 仿制</title>
+<link rel="stylesheet" href="css/theme.css">
+</head>
+<body>
+<div class="dashboard">
+  <div class="left">
+    <div class="panel topbar" id="topbar"></div>
+    <div class="panel" id="movers-panel">
+      <div class="panel-title">异动板块</div>
+      <div class="panel-sub">绿=看多信号 · 红=看空信号 · 灰=中性观察</div>
+      <div class="movers-container"><div class="movers" id="movers"></div></div>
+    </div>
+    <div class="panel" id="core30-panel">
+      <div class="panel-title">Core Research 30</div>
+      <div class="panel-sub">状态颜色：🟢买入区 · 🟡持有 · 🔵观察 · 🟣减持 · ⚫退出 — 拖动卡片调整顺序</div>
+      <div class="core30" id="core30"></div>
+    </div>
+    <div class="panel" id="heatmap-panel">
+      <div class="panel-title">AI 子板块热力图</div>
+      <div class="panel-sub">按 BewinQuant AI Stock Universe v0.4 · 20 个 AI Layer 聚合</div>
+      <div class="heatmap" id="heatmap"></div>
+    </div>
+    <div class="panel" id="news-panel">
+      <div class="panel-title">最新事件 — AI 产业链相关</div>
+      <div id="news-feed"></div>
+    </div>
+    <div class="panel" id="screener-panel">
+      <div class="panel-title" id="screener-title">22 股票筛选表</div>
+      <div class="filter-row" id="filter-row"></div>
+      <div class="filter-table-body" id="screener-table"></div>
+    </div>
+  </div>
+  <div class="detail" id="detail-panel">
+    <div class="ai-text">点击任意股票查看详情</div>
+  </div>
+</div>
+<script src="js/dashboard.js"></script>
+<script src="js/detail.js"></script>
+<script src="js/filters.js"></script>
+<script src="js/drag.js"></script>
+<script>window.addEventListener('DOMContentLoaded', () => initDashboard());</script>
+</body>
+</html>

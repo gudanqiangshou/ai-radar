@@ -1,0 +1,283 @@
+{
+  "ticker": "HUBB",
+  "name": "Hubbell",
+  "header": {
+    "name": "Hubbell",
+    "ticker": "HUBB",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "电气配电 + 工业连接，数据中心电气整合",
+    "price": 485.9800109863281,
+    "change_1d": 0.0,
+    "composite": 46.52478799739074,
+    "tier_letter": "B",
+    "description": [
+      "Hubbell 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：电气配电 + 工业连接，数据中心电气整合。当前内部综合评分 46。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$485.98",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "-1.34%",
+        "1月涨跌": "-9.97%",
+        "3月涨跌": "-5.82%",
+        "6月涨跌": "+12.28%",
+        "1年涨跌": "+25.69%",
+        "YTD涨跌": "+4.96%",
+        "20日均线": "524.54",
+        "50日均线": "505.74",
+        "200日均线": "465.57",
+        "RSI 14": "18.93",
+        "MACD": "-13.36",
+        "20日波动率": "33.13%",
+        "成交量": "646,563",
+        "量比20日": "1.02",
+        "52周高点": "557.85",
+        "52周低点": "378.41",
+        "距52周高点": "-12.88%",
+        "距52周低点": "+28.43%",
+        "20日支撑": "485.98",
+        "20日压力": "557.85"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "电气配电 + 工业连接，数据中心电气整合",
+        "投资确定性": "—",
+        "收入": "$1.52B",
+        "收入同比": "11.10%",
+        "毛利率": "35.69%",
+        "经营利润率": "17.75%",
+        "净利率": "15.10%",
+        "经营现金流": "—",
+        "资本开支": "-$40.60M",
+        "自由现金流": "$46.00M",
+        "FCF利润率": "3.03%",
+        "现金及短投": "$501.60M",
+        "总债务": "$2.74B",
+        "净现金/债务": "-$1.54B",
+        "流通股本": "52.84M",
+        "ROE": "25.82%",
+        "债务/权益": "0.11",
+        "市值": "$25.68B",
+        "企业价值": "$27.91B",
+        "P/E TTM": "28.74",
+        "Forward P/E": "22.34",
+        "P/S": "4.28",
+        "EV/Sales": "4.66",
+        "EV/EBITDA": "19.03",
+        "EV/FCF": "606.79",
+        "FCF收益率": "0.18%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 64.64285714285714,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "Hubbell在电气配电领域拥有深厚的技术积累与品牌认知，UL/NEC认证体系构成监管壁垒，公用事业与数据中心客户切换成本高。但产品标准化程度较高，竞争对手（Eaton、ABB）实力强劲，规模效应有限，护城河属于中高水平但非顶级。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 42.0,
+          "reasoning": "Hubbell的数据中心电气业务（配电、连接器、母线槽）直接受益于AI基础设施建设，约占收入20-30%，是近年增长亮点。但公司核心仍是工业/公用事业电气，电网现代化和非AI工业需求占主导。AI capex放缓会影响增长但不致命。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 72.38095238095238,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 15.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 12.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "Hubbell财务结构稳健，现金5亿美元，长期负债20亿可控，受益数据中心与电网升级需求。但估值偏高（P/E约20x），工业周期性波动、关税成本压力及电气设备竞争加剧构成中等风险，客户集中度数据缺失增加不确定性。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 46.52478799739074,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 547.1539,
+        "target_high": 600.0,
+        "target_low": 479.0,
+        "upside_pct": 12.59,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 13,
+        "next_earnings": "2026-07-28",
+        "eps_estimate": 5.35889,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Hubbell（HUBB）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Hubbell在电气配电领域拥有深厚的技术积累与品牌认知，UL/NEC认证体系构成监管壁垒，公用事业与数据中心客户切换成本高。但产品标准化程度较高，竞争对手（Eaton、ABB）实力强劲，规模效应有限，护城河属于中高水平但非顶级。 【ai_exposure】Hubbell的数据中心电气业务（配电、连接器、母线槽）直接受益于AI基础设施建设，约占收入20-30%，是近年增长亮点。但公司核心仍是工业/公用事业电气，电网现代化和非AI工业需求占主导。AI capex放缓会影响增长但不致命。 【risk】Hubbell财务结构稳健，现金5亿美元，长期负债20亿可控，受益数据中心与电网升级需求。但估值偏高（P/E约20x），工业周期性波动、关税成本压力及电气设备竞争加剧构成中等风险，客户集中度数据缺失增加不确定性。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/HUBB.P/financials/",
+          "title": "HUBB.P - | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/HUBB/news",
+          "title": "Hubbell Incorporated (HUBB) Latest Stock News - Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/HUBB/latest-news/",
+          "title": "Hubbell Incorporated (HUBB) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HUBB/?p=HUBB",
+          "title": "Hubbell Incorporated (HUBB) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/HUBB.N/",
+          "title": "(HUBB.N) | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HUBB.MX/news/",
+          "title": "Hubbell Incorporated (HUBB.MX) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HUBB/research-reports/",
+          "title": "Hubbell Incorporated (HUBB) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HUBB.MX/latest-news/",
+          "title": "Hubbell Incorporated (HUBB.MX) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 46.52478799739074
+        },
+        {
+          "date": "2026-05-13",
+          "value": 52.303095238095246
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

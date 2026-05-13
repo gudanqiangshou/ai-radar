@@ -1,0 +1,299 @@
+{
+  "ticker": "CCJ",
+  "name": "Cameco",
+  "header": {
+    "name": "Cameco",
+    "ticker": "CCJ",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "全球最大铀生产商 + 核燃料服务",
+    "price": 116.93000030517578,
+    "change_1d": 0.0,
+    "composite": 43.61545988258316,
+    "tier_letter": "C",
+    "description": [
+      "Cameco 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：全球最大铀生产商 + 核燃料服务。当前内部综合评分 43。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$116.93",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+0.15%",
+        "1月涨跌": "+0.20%",
+        "3月涨跌": "+0.46%",
+        "6月涨跌": "+37.95%",
+        "1年涨跌": "+125.04%",
+        "YTD涨跌": "+18.64%",
+        "20日均线": "119.96",
+        "50日均线": "114.85",
+        "200日均线": "98.87",
+        "RSI 14": "41.22",
+        "MACD": "0.03",
+        "20日波动率": "66.68%",
+        "成交量": "3,890,700",
+        "量比20日": "1.19",
+        "52周高点": "134.09",
+        "52周低点": "51.16",
+        "距52周高点": "-12.80%",
+        "距52周低点": "+128.56%",
+        "20日支撑": "114.29",
+        "20日压力": "126.47"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "全球最大铀生产商 + 核燃料服务",
+        "投资确定性": "—",
+        "收入": "$845.37M",
+        "收入同比": "7.10%",
+        "毛利率": "36.78%",
+        "经营利润率": "18.19%",
+        "净利率": "18.39%",
+        "经营现金流": "—",
+        "资本开支": "-$77.74M",
+        "自由现金流": "-$100.02M",
+        "FCF利润率": "-11.83%",
+        "现金及短投": "$1.08B",
+        "总债务": "$1.01B",
+        "净现金/债务": "$78.57M",
+        "流通股本": "435.53M",
+        "ROE": "9.60%",
+        "债务/权益": "0.02",
+        "市值": "$50.93B",
+        "企业价值": "$50.83B",
+        "P/E TTM": "107.28",
+        "Forward P/E": "60.24",
+        "P/S": "14.39",
+        "EV/Sales": "14.37",
+        "EV/EBITDA": "56.86",
+        "EV/FCF": "-508.21",
+        "FCF收益率": "-0.20%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 43.45238095238095,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 82.0,
+          "reasoning": "Cameco控制全球约15%铀产量，McArthur River等高品位矿山构成资源壁垒；核燃料长期合约（10年+）锁定客户，切换成本极高；铀矿开采许可证审批周期长达十年，监管壁垒极深。主要风险是铀价周期性波动及地缘政治风险（哈萨克斯坦竞争）。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 32.0,
+          "reasoning": "Cameco是全球最大铀生产商，AI数据中心电力需求推动核电复兴间接利好铀价，但其收入来自铀矿开采和核燃料服务，与AI capex无直接合同绑定。AI是边际需求催化剂而非核心驱动，传统核电、能源转型、地缘政治才是主要定价因素。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 66.19047619047619,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 30.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 41.07142857142857,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 42.0,
+          "reasoning": "财务结构尚可（现金>长期负债），但铀价波动剧烈、地缘政治风险高（哈萨克斯坦/俄罗斯供应链）、客户集中于少数核电运营商、监管壁垒双刃剑、估值溢价显著（核能复苏预期已充分定价），近期股价下跌6%反映市场分歧，综合风险中等偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 43.61545988258316,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 138.54135,
+        "target_high": 174.05412,
+        "target_low": 82.38375,
+        "upside_pct": 18.48,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 9,
+        "next_earnings": "2026-07-31",
+        "eps_estimate": 0.38124,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Cameco（CCJ）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Cameco控制全球约15%铀产量，McArthur River等高品位矿山构成资源壁垒；核燃料长期合约（10年+）锁定客户，切换成本极高；铀矿开采许可证审批周期长达十年，监管壁垒极深。主要风险是铀价周期性波动及地缘政治风险（哈萨克斯坦竞争）。 【ai_exposure】Cameco是全球最大铀生产商，AI数据中心电力需求推动核电复兴间接利好铀价，但其收入来自铀矿开采和核燃料服务，与AI capex无直接合同绑定。AI是边际需求催化剂而非核心驱动，传统核电、能源转型、地缘政治才是主要定价因素。 【risk】财务结构尚可（现金>长期负债），但铀价波动剧烈、地缘政治风险高（哈萨克斯坦/俄罗斯供应链）、客户集中于少数核电运营商、监管壁垒双刃剑、估值溢价显著（核能复苏预期已充分定价），近期股价下跌6%反映市场分歧，综合风险中等偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CCJ/",
+          "title": "Cameco Corporation (CCJ) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/CCJ",
+          "title": "CCJ: Cameco Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/cameco-stock-ccj-falls-6-180914515.html",
+          "title": "Cameco Stock (CCJ) Falls 6% But Retail Traders Stay Bullish",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CCJ",
+          "title": "Cameco Corporation (CCJ) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CCJ/news/",
+          "title": "Cameco Corporation (CCJ) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CCO.TO/news/",
+          "title": "Cameco Corporation (CCO.TO) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ccj",
+          "title": "Cameco Corp. Stock Quote (U.S.: NYSE) - CCJ - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130725999.html",
+          "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Monday as Trump Rejects Reported Iran Proposal",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/cameco-eyes-nuclear-capacity-boom-121027819.html",
+          "title": "Cameco Eyes Nuclear Capacity Boom While Valuation Risks Remain",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cameco-down-1-7-us-115645844.html",
+          "title": "Update: Cameco Down 1.7% In US Premarket After Providing Northern Saskatchewan Ops Update; Adds National Bk Commentary",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 43.61545988258316
+        },
+        {
+          "date": "2026-05-13",
+          "value": 50.97928571428572
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

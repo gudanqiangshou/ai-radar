@@ -1,0 +1,299 @@
+{
+  "ticker": "DUK",
+  "name": "Duke Energy",
+  "header": {
+    "name": "Duke Energy",
+    "ticker": "DUK",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷",
+    "price": 125.06999969482422,
+    "change_1d": 0.0,
+    "composite": 55.360404435746894,
+    "tier_letter": "B",
+    "description": [
+      "Duke Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷。当前内部综合评分 55。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$125.07",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+0.72%",
+        "1月涨跌": "-4.09%",
+        "3月涨跌": "-0.82%",
+        "6月涨跌": "+1.92%",
+        "1年涨跌": "+10.61%",
+        "YTD涨跌": "+6.50%",
+        "20日均线": "126.89",
+        "50日均线": "129.25",
+        "200日均线": "124.00",
+        "RSI 14": "49.41",
+        "MACD": "-1.34",
+        "20日波动率": "17.13%",
+        "成交量": "3,337,900",
+        "量比20日": "1.09",
+        "52周高点": "133.46",
+        "52周低点": "112.46",
+        "距52周高点": "-6.29%",
+        "距52周低点": "+11.21%",
+        "20日支撑": "124.17",
+        "20日压力": "129.55"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷",
+        "投资确定性": "—",
+        "收入": "$9.18B",
+        "收入同比": "11.30%",
+        "毛利率": "51.05%",
+        "经营利润率": "25.51%",
+        "净利率": "15.71%",
+        "经营现金流": "—",
+        "资本开支": "-$4.09B",
+        "自由现金流": "-$2.58B",
+        "FCF利润率": "-28.07%",
+        "现金及短投": "$2.14B",
+        "总债务": "$91.21B",
+        "净现金/债务": "-$78.34B",
+        "流通股本": "779.60M",
+        "ROE": "9.66%",
+        "债务/权益": "0.94",
+        "市值": "$97.50B",
+        "企业价值": "$189.57B",
+        "P/E TTM": "19.24",
+        "Forward P/E": "17.45",
+        "P/S": "2.98",
+        "EV/Sales": "5.79",
+        "EV/EBITDA": "11.50",
+        "EV/FCF": "-73.59",
+        "FCF收益率": "-2.64%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 52.26190476190476,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 82.0,
+          "reasoning": "Duke Energy凭借卡罗来纳/佛州独家特许经营权构建强监管壁垒，输配电网络具备天然垄断属性，客户切换成本极高。AI数据中心负荷增长强化长期合约粘性。核电运营Know-how稀缺。主要弱点是ROE偏低（10%）、资本密集度高、受监管定价限制盈利弹性。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 38.0,
+          "reasoning": "Duke Energy是传统受监管电力公司，AI数据中心负荷增长是其卡罗来纳/佛州服务区的新增需求驱动之一，但核心收入仍来自居民/商业用电。AI相关PPA和数据中心连接协议贡献增量，但占总收入比例有限，AI退潮对其影响远小于纯AI基础设施标的。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 69.76190476190476,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 65.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 16.07142857142857,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "Duke Energy作为受监管公用事业公司，现金流稳定、股息可靠，但长期负债高达804亿美元、负债率偏高，利息覆盖压力显著。AI数据中心新增负荷带来增长机会，但同时加大资本支出需求。监管审批风险、核电运营成本及利率上升构成主要压力，整体属低中风险区间。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 55.360404435746894,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 140.0,
+        "target_high": 146.0,
+        "target_low": 131.0,
+        "upside_pct": 11.94,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 18,
+        "next_earnings": "2026-08-04",
+        "eps_estimate": 1.25601,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Duke Energy（DUK）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Duke Energy凭借卡罗来纳/佛州独家特许经营权构建强监管壁垒，输配电网络具备天然垄断属性，客户切换成本极高。AI数据中心负荷增长强化长期合约粘性。核电运营Know-how稀缺。主要弱点是ROE偏低（10%）、资本密集度高、受监管定价限制盈利弹性。 【ai_exposure】Duke Energy是传统受监管电力公司，AI数据中心负荷增长是其卡罗来纳/佛州服务区的新增需求驱动之一，但核心收入仍来自居民/商业用电。AI相关PPA和数据中心连接协议贡献增量，但占总收入比例有限，AI退潮对其影响远小于纯AI基础设施标的。 【risk】Duke Energy作为受监管公用事业公司，现金流稳定、股息可靠，但长期负债高达804亿美元、负债率偏高，利息覆盖压力显著。AI数据中心新增负荷带来增长机会，但同时加大资本支出需求。监管审批风险、核电运营成本及利率上升构成主要压力，整体属低中风险区间。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/DUK.N/",
+          "title": "(DUK.N) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUK/latest-news/",
+          "title": "Duke Energy Corporation (DUK) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/duk",
+          "title": "DUK | Duke Energy Corp. Stock Overview (U.S.: NYSE) - Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUK/community/",
+          "title": "Duke Energy Corporation (DUK) Stock Forum & Discussion",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUK/news/",
+          "title": "Duke Energy Corporation (DUK) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUK/",
+          "title": "Duke Energy Corporation (DUK) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/DUK",
+          "title": "DUK: Duke Energy Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUK-PA/",
+          "title": "Duke Energy Corporation (DUK-PA) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/news/investors-reacting-duke-energy-duk-201612961.html",
+          "title": "How Investors Are Reacting To Duke Energy (DUK) Earnings Beat, Massive Capex Plan And DOE Loan Bid",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Fortune",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-cfo-admits-she-joined-152700188.html",
+          "title": "Microsoft’s CFO admits she joined the tech giant without even knowing her salary—and then missed her first day of work",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 55.360404435746894
+        },
+        {
+          "date": "2026-05-13",
+          "value": 60.67309523809524
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

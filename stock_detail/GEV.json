@@ -1,0 +1,299 @@
+{
+  "ticker": "GEV",
+  "name": "GE Vernova",
+  "header": {
+    "name": "GE Vernova",
+    "ticker": "GEV",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 1,
+    "ai_role": "燃气轮机 + 电网设备双轮驱动，AI 电力扩张铲子",
+    "price": 1071.97998046875,
+    "change_1d": 0.0,
+    "composite": 59.56784083496411,
+    "tier_letter": "A",
+    "description": [
+      "GE Vernova 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：燃气轮机 + 电网设备双轮驱动，AI 电力扩张铲子。当前内部综合评分 59。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$1,071.98",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+3.06%",
+        "1月涨跌": "+8.16%",
+        "3月涨跌": "+31.28%",
+        "6月涨跌": "+85.36%",
+        "1年涨跌": "+147.38%",
+        "YTD涨跌": "+57.75%",
+        "20日均线": "1065.62",
+        "50日均线": "952.40",
+        "200日均线": "725.49",
+        "RSI 14": "41.26",
+        "MACD": "35.94",
+        "20日波动率": "61.65%",
+        "成交量": "2,096,700",
+        "量比20日": "0.79",
+        "52周高点": "1149.53",
+        "52周低点": "416.63",
+        "距52周高点": "-6.75%",
+        "距52周低点": "+157.30%",
+        "20日支撑": "978.32",
+        "20日压力": "1149.53"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "燃气轮机 + 电网设备双轮驱动，AI 电力扩张铲子",
+        "投资确定性": "—",
+        "收入": "$9.34B",
+        "收入同比": "16.30%",
+        "毛利率": "20.28%",
+        "经营利润率": "5.46%",
+        "净利率": "23.81%",
+        "经营现金流": "—",
+        "资本开支": "-$397.00M",
+        "自由现金流": "$4.79B",
+        "FCF利润率": "51.31%",
+        "现金及短投": "$10.17B",
+        "总债务": "$3.76B",
+        "净现金/债务": "$7.37B",
+        "流通股本": "268.72M",
+        "ROE": "75.71%",
+        "债务/权益": "0.01",
+        "市值": "$288.06B",
+        "企业价值": "$283.19B",
+        "P/E TTM": "31.32",
+        "Forward P/E": "43.78",
+        "P/S": "7.32",
+        "EV/Sales": "7.19",
+        "EV/EBITDA": "82.92",
+        "EV/FCF": "59.11",
+        "FCF收益率": "1.66%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 65.35714285714285,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 82.0,
+          "reasoning": "GEV在重型燃气轮机（HA级）和高压直流输电设备拥有深厚专利与工艺积累，客户长期服务合约（LTA）锁定粘性强；核电SMR布局形成监管牌照壁垒；GE百年品牌背书电力行业心智；主要风险是毛利率偏低（20%）及Siemens Energy、三菱等竞争压力。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 52.0,
+          "reasoning": "GEV是AI数据中心电力扩张的核心基础设施供应商（燃气轮机+电网设备），AI驱动的电力需求是其订单增长的重要催化剂，但业务基本盘覆盖工业、可再生能源、核电等多元领域，AI capex并非唯一驱动，估值已部分定价AI溢价，退潮风险中等。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 65.95238095238095,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 55.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 51.78571428571429,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 52.0,
+          "reasoning": "财务结构健康（现金101亿 vs 长期债28亿，净现金充裕），但估值偏高（AI电力叙事溢价显著），燃气轮机订单积压强劲却面临交付执行风险，电网设备受地缘政治与出口管制压力，核能板块监管周期长，近期股价下滑反映市场对增长兑现的疑虑，综合风险中等。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 59.56784083496411,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 1206.5575,
+        "target_high": 1424.0,
+        "target_low": 836.0,
+        "upside_pct": 12.55,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 32,
+        "next_earnings": "2026-07-29",
+        "eps_estimate": 2.90576,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "GE Vernova（GEV）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】GEV在重型燃气轮机（HA级）和高压直流输电设备拥有深厚专利与工艺积累，客户长期服务合约（LTA）锁定粘性强；核电SMR布局形成监管牌照壁垒；GE百年品牌背书电力行业心智；主要风险是毛利率偏低（20%）及Siemens Energy、三菱等竞争压力。 【ai_exposure】GEV是AI数据中心电力扩张的核心基础设施供应商（燃气轮机+电网设备），AI驱动的电力需求是其订单增长的重要催化剂，但业务基本盘覆盖工业、可再生能源、核电等多元领域，AI capex并非唯一驱动，估值已部分定价AI溢价，退潮风险中等。 【risk】财务结构健康（现金101亿 vs 长期债28亿，净现金充裕），但估值偏高（AI电力叙事溢价显著），燃气轮机订单积压强劲却面临交付执行风险，电网设备受地缘政治与出口管制压力，核能板块监管周期长，近期股价下滑反映市场对增长兑现的疑虑，综合风险中等。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GEV/latest-news/",
+          "title": "GE Vernova Inc. (GEV) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GEV/news/",
+          "title": "GE Vernova Inc. (GEV) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/GEV",
+          "title": "GE Vernova Inc. (GEV) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-ge-vernova-gev-shares-012455132.html",
+          "title": "Why GE Vernova (GEV) Shares Are Sliding Today - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/GEV",
+          "title": "GE Vernova Inc. (GEV) Stock Price Today - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/ge-vernova-gev-partners-blue-060030036.html",
+          "title": "GE Vernova (GEV) Partners with Blue Energy for 2.5 GW Texas ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/gev",
+          "title": "GE Vernova Inc. Stock Quote (U.S.: NYSE) - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-ge-vernova-stock-rocketed-175304672.html",
+          "title": "Why GE Vernova Stock Rocketed to a 52-Week High Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/meet-the-nvidias-of-power-5-stocks-winning-big-techs-700-billion-ai-energy-grab-9226157a",
+          "title": "Meet the Nvidias of power — 5 stocks winning Big Tech’s $700 billion AI energy grab",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Bloomberg",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-mania-makes-old-school-114453119.html",
+          "title": "AI Mania Makes Old-School Industrials Behave Like Chip Stocks",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 59.56784083496411
+        },
+        {
+          "date": "2026-05-13",
+          "value": 63.524523809523814
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

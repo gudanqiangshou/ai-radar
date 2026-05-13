@@ -1,0 +1,299 @@
+{
+  "ticker": "NEE",
+  "name": "NextEra Energy",
+  "header": {
+    "name": "NextEra Energy",
+    "ticker": "NEE",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "可再生能源龙头 + 大型科技公司长期 PPA",
+    "price": 94.58999633789062,
+    "change_1d": 0.0,
+    "composite": 64.58414872798434,
+    "tier_letter": "B",
+    "description": [
+      "NextEra Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：可再生能源龙头 + 大型科技公司长期 PPA。当前内部综合评分 64。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$94.59",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+1.60%",
+        "1月涨跌": "+2.48%",
+        "3月涨跌": "+2.89%",
+        "6月涨跌": "+12.77%",
+        "1年涨跌": "+31.17%",
+        "YTD涨跌": "+16.88%",
+        "20日均线": "94.13",
+        "50日均线": "92.94",
+        "200日均线": "83.93",
+        "RSI 14": "59.68",
+        "MACD": "1.34",
+        "20日波动率": "34.43%",
+        "成交量": "6,921,800",
+        "量比20日": "0.77",
+        "52周高点": "97.88",
+        "52周低点": "66.94",
+        "距52周高点": "-3.36%",
+        "距52周低点": "+41.31%",
+        "20日支撑": "90.00",
+        "20日压力": "97.88"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "可再生能源龙头 + 大型科技公司长期 PPA",
+        "投资确定性": "—",
+        "收入": "$6.70B",
+        "收入同比": "7.30%",
+        "毛利率": "61.40%",
+        "经营利润率": "30.18%",
+        "净利率": "29.37%",
+        "经营现金流": "—",
+        "资本开支": "-$3.19B",
+        "自由现金流": "-$580.00M",
+        "FCF利润率": "-8.66%",
+        "现金及短投": "$2.00B",
+        "总债务": "$104.40B",
+        "净现金/债务": "-$91.95B",
+        "流通股本": "2.09B",
+        "ROE": "10.32%",
+        "债务/权益": "0.53",
+        "市值": "$197.25B",
+        "企业价值": "$311.07B",
+        "P/E TTM": "24.01",
+        "Forward P/E": "21.55",
+        "P/S": "7.08",
+        "EV/Sales": "11.16",
+        "EV/EBITDA": "21.97",
+        "EV/FCF": "-536.32",
+        "FCF收益率": "-0.29%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 59.64285714285714,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "NEE凭借全球最大可再生能源装机规模（~35GW风光）、与科技巨头签订的长期PPA合约组合、FPL受监管垄断电网及多年积累的开发运营Know-how构建深厚护城河；但高资本杠杆、利率敏感性及可再生能源技术同质化限制了评分上限。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 38.0,
+          "reasoning": "NEE通过长期PPA向科技巨头（微软、谷歌等）供应可再生电力，AI数据中心需求是其增长叙事的重要组成部分，但核心业务仍是受监管的公用事业（FPL）和多元化可再生能源组合。AI驱动的PPA占总收入比例有限，即便AI需求放缓，电力基本需求支撑下行空间，AI暴露度属间接受益层级。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 85.71428571428571,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 75.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 37.49999999999999,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 52.0,
+          "reasoning": "NEE长期负债近940亿美元、债务/权益比极高，利率上升压力显著；可再生能源扩张依赖持续融资；受益于AI数据中心PPA需求，但监管审批、联邦补贴政策（IRA）变动风险较大；估值溢价明显，利率敏感性高，回撤风险不可忽视。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 64.58414872798434,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 98.93,
+        "target_high": 112.0,
+        "target_low": 55.0,
+        "upside_pct": 4.59,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 22,
+        "next_earnings": "2026-07-22",
+        "eps_estimate": 1.0881,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "NextEra Energy（NEE）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】NEE凭借全球最大可再生能源装机规模（~35GW风光）、与科技巨头签订的长期PPA合约组合、FPL受监管垄断电网及多年积累的开发运营Know-how构建深厚护城河；但高资本杠杆、利率敏感性及可再生能源技术同质化限制了评分上限。 【ai_exposure】NEE通过长期PPA向科技巨头（微软、谷歌等）供应可再生电力，AI数据中心需求是其增长叙事的重要组成部分，但核心业务仍是受监管的公用事业（FPL）和多元化可再生能源组合。AI驱动的PPA占总收入比例有限，即便AI需求放缓，电力基本需求支撑下行空间，AI暴露度属间接受益层级。 【risk】NEE长期负债近940亿美元、债务/权益比极高，利率上升压力显著；可再生能源扩张依赖持续融资；受益于AI数据中心PPA需求，但监管审批、联邦补贴政策（IRA）变动风险较大；估值溢价明显，利率敏感性高，回撤风险不可忽视。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/NEE-PT/news/",
+          "title": "NextEra Energy, Inc. (NEE-PT) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NEE.NE/",
+          "title": "NextEra Energy, Inc. (NEE.NE) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NEE/",
+          "title": "NextEra Energy, Inc. (NEE) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/nee",
+          "title": "NextEra Energy Inc. Stock Quote (U.S.: NYSE) - NEE - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/NEE.MX/news/",
+          "title": "NextEra Energy, Inc. (NEE.MX) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NEE-PS/news/",
+          "title": "NextEra Energy, Inc. (NEE-PS) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/NEE.NE/news/",
+          "title": "NextEra Energy, Inc. (NEE.NE) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/NEE",
+          "title": "NextEra Energy, Inc. (NEE) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/utility-etfs-bet-enter-age-182500981.html",
+          "title": "Utility ETFs to Bet on as We Enter the Age of Electricity",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/nextera-energy-nee-price-target-025627453.html",
+          "title": "NextEra Energy (NEE) Price Target Raised by Analysts",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 64.58414872798434
+        },
+        {
+          "date": "2026-05-13",
+          "value": 64.90642857142856
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

@@ -1,0 +1,299 @@
+{
+  "ticker": "POWL",
+  "name": "Powell Industries",
+  "header": {
+    "name": "Powell Industries",
+    "ticker": "POWL",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "开关设备 + 中压电气，电网设备小盘股",
+    "price": 308.04998779296875,
+    "change_1d": 0.0,
+    "composite": 48.66112198303979,
+    "tier_letter": "B",
+    "description": [
+      "Powell Industries 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：开关设备 + 中压电气，电网设备小盘股。当前内部综合评分 48。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$308.05",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "-0.43%",
+        "1月涨跌": "+34.53%",
+        "3月涨跌": "+55.87%",
+        "6月涨跌": "+180.33%",
+        "1年涨跌": "+374.21%",
+        "YTD涨跌": "+162.16%",
+        "20日均线": "269.32",
+        "50日均线": "218.79",
+        "200日均线": "142.70",
+        "RSI 14": "71.66",
+        "MACD": "28.81",
+        "20日波动率": "64.58%",
+        "成交量": "876,400",
+        "量比20日": "1.22",
+        "52周高点": "322.05",
+        "52周低点": "56.53",
+        "距52周高点": "-4.35%",
+        "距52周低点": "+444.93%",
+        "20日支撑": "229.73",
+        "20日压力": "322.05"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "开关设备 + 中压电气，电网设备小盘股",
+        "投资确定性": "—",
+        "收入": "$296.62M",
+        "收入同比": "6.50%",
+        "毛利率": "30.10%",
+        "经营利润率": "19.41%",
+        "净利率": "16.51%",
+        "经营现金流": "—",
+        "资本开支": "-$1.83M",
+        "自由现金流": "$49.34M",
+        "FCF利润率": "16.63%",
+        "现金及短投": "$537.71M",
+        "总债务": "$1.96M",
+        "净现金/债务": "—",
+        "流通股本": "36.43M",
+        "ROE": "29.90%",
+        "债务/权益": "0.00",
+        "市值": "$11.22B",
+        "企业价值": "$10.68B",
+        "P/E TTM": "60.17",
+        "Forward P/E": "44.81",
+        "P/S": "9.91",
+        "EV/Sales": "9.43",
+        "EV/EBITDA": "46.06",
+        "EV/FCF": "216.45",
+        "FCF收益率": "0.44%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 65.83333333333333,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "POWL深耕中压开关设备数十年，客户以石化/电力公用事业为主，切换成本高、认证周期长；30%毛利率与17%净利率印证定价权。但规模偏小（TTM约3亿美元），无显著专利护城河，面临ABB/Eaton等巨头竞争，品牌影响力局限北美细分市场。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 52.0,
+          "reasoning": "Powell的中压开关设备直接受益于AI数据中心电力基础设施建设，数据中心已成为重要订单来源，但公司同时服务石油天然气、工业、公用事业等多元终端市场，AI驱动占比估计30-45%，非唯一增长引擎，AI退潮影响显著但不致命。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 80.71428571428571,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 0.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 80.35714285714286,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 52.0,
+          "reasoning": "POWL现金充裕（~5.4亿）、无明显长期负债，财务结构健康。但作为电网设备小盘股，客户集中度高、产品线窄、依赖资本支出周期，估值弹性大（小盘溢价易回撤）。核电/电网政策敏感，地缘出口管制存在潜在扰动。综合评定为中等风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 48.66112198303979,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 316.25,
+        "target_high": 360.0,
+        "target_low": 252.0,
+        "upside_pct": 2.66,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 4,
+        "next_earnings": "2026-08-05",
+        "eps_estimate": 1.4871,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Powell Industries（POWL）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】POWL深耕中压开关设备数十年，客户以石化/电力公用事业为主，切换成本高、认证周期长；30%毛利率与17%净利率印证定价权。但规模偏小（TTM约3亿美元），无显著专利护城河，面临ABB/Eaton等巨头竞争，品牌影响力局限北美细分市场。 【ai_exposure】Powell的中压开关设备直接受益于AI数据中心电力基础设施建设，数据中心已成为重要订单来源，但公司同时服务石油天然气、工业、公用事业等多元终端市场，AI驱动占比估计30-45%，非唯一增长引擎，AI退潮影响显著但不致命。 【risk】POWL现金充裕（~5.4亿）、无明显长期负债，财务结构健康。但作为电网设备小盘股，客户集中度高、产品线窄、依赖资本支出周期，估值弹性大（小盘溢价易回撤）。核电/电网政策敏感，地缘出口管制存在潜在扰动。综合评定为中等风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/POWL/",
+          "title": "Powell Industries, Inc. (POWL) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/POWL",
+          "title": "POWL: Powell Industries Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/POWL",
+          "title": "Powell Industries, Inc. (POWL) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/POWL/news",
+          "title": "Powell Industries, Inc. (POWL) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/PW2.DU/news/",
+          "title": "Powell Industries Inc (PW2.DU) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/us/XNAS/POWL",
+          "title": "POWL | Powell Industries Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/powell-industries-powl-rallied-improved-123546386.html",
+          "title": "Powell Industries (POWL) Rallied on an Improved, Robust Outlook",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/powell-industries-powl-price-target-060040834.html",
+          "title": "Powell Industries (POWL) Price Target Increased to $360 by JPMorgan",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-08",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/powell-industries-inc-powl-trending-130004570.html",
+          "title": "Powell Industries, Inc. (POWL) Is a Trending Stock: Facts to Know Before Betting on It",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-07",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/powell-industries-inc-just-missed-191351150.html",
+          "title": "Powell Industries, Inc. Just Missed Earnings - But Analysts Have Updated Their Models",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 48.66112198303979
+        },
+        {
+          "date": "2026-05-13",
+          "value": 51.56261904761905
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

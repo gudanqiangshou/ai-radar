@@ -1,0 +1,299 @@
+{
+  "ticker": "TT",
+  "name": "Trane Technologies",
+  "header": {
+    "name": "Trane Technologies",
+    "ticker": "TT",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "HVAC + 数据中心制冷，规模大但 AI 弹性低",
+    "price": 467.6600036621094,
+    "change_1d": 0.0,
+    "composite": 51.99119373776907,
+    "tier_letter": "C",
+    "description": [
+      "Trane Technologies 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：HVAC + 数据中心制冷，规模大但 AI 弹性低。当前内部综合评分 51。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$467.66",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+0.32%",
+        "1月涨跌": "-1.12%",
+        "3月涨跌": "+1.57%",
+        "6月涨跌": "+11.84%",
+        "1年涨跌": "+10.85%",
+        "YTD涨跌": "+17.50%",
+        "20日均线": "478.09",
+        "50日均线": "450.41",
+        "200日均线": "426.74",
+        "RSI 14": "45.06",
+        "MACD": "6.22",
+        "20日波动率": "28.29%",
+        "成交量": "1,427,500",
+        "量比20日": "1.04",
+        "52周高点": "492.54",
+        "52周低点": "376.43",
+        "距52周高点": "-5.05%",
+        "距52周低点": "+24.24%",
+        "20日支撑": "460.27",
+        "20日压力": "492.54"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "HVAC + 数据中心制冷，规模大但 AI 弹性低",
+        "投资确定性": "—",
+        "收入": "$4.97B",
+        "收入同比": "6.00%",
+        "毛利率": "35.92%",
+        "经营利润率": "15.52%",
+        "净利率": "13.41%",
+        "经营现金流": "—",
+        "资本开支": "-$79.70M",
+        "自由现金流": "$546.50M",
+        "FCF利润率": "11.00%",
+        "现金及短投": "$1.07B",
+        "总债务": "$4.62B",
+        "净现金/债务": "-$2.85B",
+        "流通股本": "221.06M",
+        "ROE": "36.63%",
+        "债务/权益": "0.04",
+        "市值": "$103.38B",
+        "企业价值": "$106.94B",
+        "P/E TTM": "35.73",
+        "Forward P/E": "27.50",
+        "P/S": "4.79",
+        "EV/Sales": "4.95",
+        "EV/EBITDA": "25.26",
+        "EV/FCF": "195.69",
+        "FCF收益率": "0.53%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 66.30952380952381,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "Trane在商业HVAC拥有强品牌与服务网络，切换成本中等偏高；但Power/Grid/Nuclear并非其核心赛道，技术壁垒有限，竞争对手（Carrier、JCI、Vertiv）压力显著。数据中心制冷增长驱动营收，但AI弹性低意味着差异化不足，护城河宽度中等。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 32.0,
+          "reasoning": "TT数据中心制冷业务（Chiller/液冷）受AI算力扩张驱动，约占收入10-15%且增速较快，但核心仍是商业楼宇、工业HVAC等传统业务（占80%+）。AI是增量催化剂而非主驱动，AI退潮对整体业绩冲击有限。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 56.90476190476191,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 35.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 33.92857142857143,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 52.0,
+          "reasoning": "TT财务结构尚可（现金10.7亿 vs 长债39.2亿），但估值偏高（P/E ~30x），数据中心制冷需求强劲但AI弹性低意味着技术替代风险上升；地缘政治与出口管制对HVAC设备影响有限，主要风险来自高估值回撤与竞争格局变化。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 51.99119373776907,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 517.6878,
+        "target_high": 585.0,
+        "target_low": 402.0,
+        "upside_pct": 10.7,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 23,
+        "next_earnings": "2026-07-29",
+        "eps_estimate": 4.26473,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Trane Technologies（TT）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Trane在商业HVAC拥有强品牌与服务网络，切换成本中等偏高；但Power/Grid/Nuclear并非其核心赛道，技术壁垒有限，竞争对手（Carrier、JCI、Vertiv）压力显著。数据中心制冷增长驱动营收，但AI弹性低意味着差异化不足，护城河宽度中等。 【ai_exposure】TT数据中心制冷业务（Chiller/液冷）受AI算力扩张驱动，约占收入10-15%且增速较快，但核心仍是商业楼宇、工业HVAC等传统业务（占80%+）。AI是增量催化剂而非主驱动，AI退潮对整体业绩冲击有限。 【risk】TT财务结构尚可（现金10.7亿 vs 长债39.2亿），但估值偏高（P/E ~30x），数据中心制冷需求强劲但AI弹性低意味着技术替代风险上升；地缘政治与出口管制对HVAC设备影响有限，主要风险来自高估值回撤与竞争格局变化。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/TT",
+          "title": "TT: Trane Technologies PLC - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TT/",
+          "title": "Trane Technologies plc (TT) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/tt",
+          "title": "Trane Technologies PLC Stock Quote (U.S.: NYSE) - TT - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TT/community/",
+          "title": "Trane Technologies plc (TT) Stock Forum & Discussion",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/tt",
+          "title": "TT | Trane Technologies PLC Stock Overview (U.S.: NYSE) - Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TT/dividends/",
+          "title": "Trane Technologies plc (TT) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TT/profile/",
+          "title": "Trane Technologies plc (TT) Company Profile & Facts - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/TT",
+          "title": "Trane Technologies plc (TT) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/news/keybanc-raises-pt-trane-technologies-212136262.html",
+          "title": "KeyBanc Raises PT on Trane Technologies (TT), Maintains an Overweight Rating",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-10",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trane-technologies-tt-upgraded-2026-211639917.html",
+          "title": "What Trane Technologies (TT)'s Upgraded 2026 Earnings Outlook Means For Shareholders",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 51.99119373776907
+        },
+        {
+          "date": "2026-05-13",
+          "value": 53.59357142857143
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

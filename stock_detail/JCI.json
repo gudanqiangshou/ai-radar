@@ -1,0 +1,299 @@
+{
+  "ticker": "JCI",
+  "name": "Johnson Controls",
+  "header": {
+    "name": "Johnson Controls",
+    "ticker": "JCI",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "楼宇自控 + 数据中心制冷集成",
+    "price": 141.0399932861328,
+    "change_1d": 0.0,
+    "composite": 53.820754716981135,
+    "tier_letter": "C",
+    "description": [
+      "Johnson Controls 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：楼宇自控 + 数据中心制冷集成。当前内部综合评分 53。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$141.04",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+1.09%",
+        "1月涨跌": "-1.25%",
+        "3月涨跌": "+1.78%",
+        "6月涨跌": "+18.80%",
+        "1年涨跌": "+46.82%",
+        "YTD涨跌": "+15.31%",
+        "20日均线": "141.56",
+        "50日均线": "137.50",
+        "200日均线": "121.04",
+        "RSI 14": "52.91",
+        "MACD": "1.36",
+        "20日波动率": "24.75%",
+        "成交量": "3,748,600",
+        "量比20日": "1.16",
+        "52周高点": "146.03",
+        "52周低点": "95.28",
+        "距52周高点": "-3.42%",
+        "距52周低点": "+48.03%",
+        "20日支撑": "137.21",
+        "20日压力": "146.03"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "楼宇自控 + 数据中心制冷集成",
+        "投资确定性": "—",
+        "收入": "—",
+        "收入同比": "8.20%",
+        "毛利率": "36.56%",
+        "经营利润率": "14.02%",
+        "净利率": "14.45%",
+        "经营现金流": "—",
+        "资本开支": "-$80.00M",
+        "自由现金流": "$464.00M",
+        "FCF利润率": "—",
+        "现金及短投": "$552.00M",
+        "总债务": "$9.52B",
+        "净现金/债务": "-$8.15B",
+        "流通股本": "610.12M",
+        "ROE": "13.45%",
+        "债务/权益": "0.11",
+        "市值": "$86.05B",
+        "企业价值": "$94.90B",
+        "P/E TTM": "43.13",
+        "Forward P/E": "24.80",
+        "P/S": "3.52",
+        "EV/Sales": "3.88",
+        "EV/EBITDA": "21.97",
+        "EV/FCF": "204.53",
+        "FCF收益率": "0.54%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 60.357142857142854,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "JCI在楼宇自控领域拥有深度系统集成Know-how与长期服务合约（高切换成本），数据中心制冷AI定位契合需求侧增长。但Power/Grid/Nuclear并非其核心护城河，核电资质壁垒有限，竞争对手（西门子、霍尼韦尔）同样强劲，规模优势中等，整体护城河稳固但非顶级。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 38.0,
+          "reasoning": "JCI数据中心制冷业务受AI capex驱动，增长明显，但楼宇自控、暖通、安防仍是营收主体。数据中心相关收入占比估计15-25%，AI是重要增量但非核心驱动。AI退潮影响有限，传统楼宇业务提供缓冲。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 52.857142857142854,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 26.785714285714285,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 42.0,
+          "reasoning": "JCI长期负债87亿美元而现金仅5.52亿，杠杆偏高流动性承压；楼宇自控业务增长稳健但数据中心制冷竞争加剧；地缘政治与出口管制对全球业务构成中等压力；AI驱动需求提供结构性支撑，但估值已反映较多预期，综合风险中等偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 53.820754716981135,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 151.19048,
+        "target_high": 173.0,
+        "target_low": 111.0,
+        "upside_pct": 7.2,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 21,
+        "next_earnings": "2026-07-28",
+        "eps_estimate": 1.29396,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Johnson Controls（JCI）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】JCI在楼宇自控领域拥有深度系统集成Know-how与长期服务合约（高切换成本），数据中心制冷AI定位契合需求侧增长。但Power/Grid/Nuclear并非其核心护城河，核电资质壁垒有限，竞争对手（西门子、霍尼韦尔）同样强劲，规模优势中等，整体护城河稳固但非顶级。 【ai_exposure】JCI数据中心制冷业务受AI capex驱动，增长明显，但楼宇自控、暖通、安防仍是营收主体。数据中心相关收入占比估计15-25%，AI是重要增量但非核心驱动。AI退潮影响有限，传统楼宇业务提供缓冲。 【risk】JCI长期负债87亿美元而现金仅5.52亿，杠杆偏高流动性承压；楼宇自控业务增长稳健但数据中心制冷竞争加剧；地缘政治与出口管制对全球业务构成中等压力；AI驱动需求提供结构性支撑，但估值已反映较多预期，综合风险中等偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/JCI",
+          "title": "JCI Johnson Controls International plc Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/JCI.BA/news",
+          "title": "Johnson Controls International plc (JCI.BA) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/JCI/historical-prices",
+          "title": "Johnson Controls International PLC Price & News - WSJ | JCI",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/JCI/latest-news/",
+          "title": "Johnson Controls International plc (JCI) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/JCI/dividends/",
+          "title": "Johnson Controls International plc (JCI) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/JCI/holders/",
+          "title": "Johnson Controls International plc (JCI) Stock Major Holders",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/johnson-controls-stock-outperforming-dow-151156957.html",
+          "title": "Is Johnson Controls Stock Outperforming the Dow? - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/JCI/press-releases/",
+          "title": "Johnson Controls International plc (JCI) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/johnson-controls-international-jci-price-060035491.html",
+          "title": "Johnson Controls International (JCI) Price Target Increased to $170 from $160 by UBS",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/look-johnson-controls-international-jci-141718609.html",
+          "title": "A Look At Johnson Controls International (JCI) Valuation After Mixed Recent Share Price Performance",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 53.820754716981135
+        },
+        {
+          "date": "2026-05-13",
+          "value": 54.731249999999996
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

@@ -1,0 +1,542 @@
+{
+  "date": "2026-05-13",
+  "profile_id": "warren",
+  "topbar": {
+    "ai_universe": 22,
+    "core_30": 3,
+    "high_52w": 0,
+    "ew_today": 0.0,
+    "ew_ytd": 0.0,
+    "spx_today": 0.0,
+    "qqq_today": 0.0,
+    "up_count": 2,
+    "down_count": 20,
+    "risk_regime": "偏进攻"
+  },
+  "sectors": [
+    {
+      "sector_id": "power_grid_nuclear",
+      "name": "Power / Grid / Nuclear",
+      "change_today": -1.92,
+      "change_5d": 0.59,
+      "change_1m": 4.99,
+      "change_3m": 2.39,
+      "change_ytd": 17.87,
+      "stock_count": 22,
+      "quotes_count": 22,
+      "up_count": 2,
+      "down_count": 20,
+      "name_zh": "电力 / 电网 / 核电",
+      "core_count": 3,
+      "placeholder": false,
+      "rs_value": 4.99,
+      "rs_rank": 1
+    },
+    {
+      "sector_id": "compute_gpu_asic",
+      "name": "Compute / GPU / ASIC",
+      "name_zh": "算力 / GPU / 定制芯片",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "memory_storage",
+      "name": "Memory / Storage",
+      "name_zh": "存储",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "foundry_packaging",
+      "name": "Foundry / Packaging",
+      "name_zh": "代工 / 封装",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "semiconductor_equipment",
+      "name": "Semiconductor Equipment",
+      "name_zh": "半导体设备",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "eda_design",
+      "name": "EDA / Design Software",
+      "name_zh": "EDA / 芯片设计",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "networking_optical",
+      "name": "Networking / Optical",
+      "name_zh": "网络 / 光模块",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "data_center_infra",
+      "name": "Data Center Infrastructure",
+      "name_zh": "数据中心基建",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "cloud_hyperscaler",
+      "name": "Cloud / Hyperscaler",
+      "name_zh": "云厂商",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "ai_cloud_gpu",
+      "name": "AI Cloud / GPU Cloud",
+      "name_zh": "AI 云 / GPU 云",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "data_software_platform",
+      "name": "Data / Software Platform",
+      "name_zh": "数据软件平台",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "ai_application",
+      "name": "AI Application",
+      "name_zh": "AI 应用",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "cybersecurity",
+      "name": "Cybersecurity",
+      "name_zh": "网络安全",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "industrial_automation",
+      "name": "Industrial Automation / Robotics",
+      "name_zh": "工业自动化 / 机器人",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "autonomous_mobility",
+      "name": "Autonomous / Mobility",
+      "name_zh": "自动驾驶",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "healthcare_ai",
+      "name": "Healthcare AI",
+      "name_zh": "医疗 AI",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "financial_research_data",
+      "name": "Financial / Research Data",
+      "name_zh": "金融数据",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "consumer_ai_device",
+      "name": "Consumer AI / Device",
+      "name_zh": "消费 AI / 设备",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "quantum_frontier",
+      "name": "Quantum / Frontier Computing",
+      "name_zh": "量子 / 前沿计算",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    },
+    {
+      "sector_id": "critical_minerals",
+      "name": "Critical Minerals / Rare Earths",
+      "name_zh": "关键矿产 / 稀土",
+      "change_today": 0,
+      "stock_count": 0,
+      "core_count": 0,
+      "rs_rank": null,
+      "placeholder": true
+    }
+  ],
+  "core30": [
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "sector_id": "power_grid_nuclear",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 293.6,
+      "change_1d": 0.0,
+      "change_1m": 0.64,
+      "change_ytd": -19.84,
+      "composite": 54.31023809523809,
+      "status": "hold"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra Energy",
+      "sector_id": "power_grid_nuclear",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 146.87,
+      "change_1d": 0.0,
+      "change_1m": -7.16,
+      "change_ytd": -11.11,
+      "composite": 63.79357142857143,
+      "status": "hold"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "sector_id": "power_grid_nuclear",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 1071.98,
+      "change_1d": 0.0,
+      "change_1m": 8.16,
+      "change_ytd": 57.75,
+      "composite": 63.524523809523814,
+      "status": "hold"
+    }
+  ],
+  "movers": [
+    {
+      "ticker": "SMR",
+      "change_1d": -9.71,
+      "type": "big_down",
+      "name": "NuScale Power",
+      "tier": 3
+    }
+  ],
+  "top_news": [
+    {
+      "ticker": "CEG",
+      "date": "2026-05-13",
+      "source": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/CEG/press-releases/",
+      "title": "Constellation Energy Corporation (CEG) Latest Press Releases ..."
+    },
+    {
+      "ticker": "CEG",
+      "date": "2026-05-13",
+      "source": "ca.finance.yahoo.com",
+      "url": "https://ca.finance.yahoo.com/quote/CEG/news/",
+      "title": "Constellation Energy Corporation (CEG) Latest Stock News & Headlines - Yahoo Finance"
+    },
+    {
+      "ticker": "CEG",
+      "date": "2026-05-13",
+      "source": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/CEG/chart/",
+      "title": "Constellation Energy Corporation (CEG) - Yahoo Finance"
+    },
+    {
+      "ticker": "CEG",
+      "date": "2026-05-13",
+      "source": "wsj.com",
+      "url": "https://www.wsj.com/market-data/quotes/us/xnas/ceg",
+      "title": "CEG | Constellation Energy Corp. Stock Price & News - WSJ"
+    },
+    {
+      "ticker": "CEG",
+      "date": "2026-05-13",
+      "source": "seekingalpha.com",
+      "url": "https://seekingalpha.com/symbol/CEG",
+      "title": "CEG Constellation Energy Corporation Stock Price & Overview"
+    },
+    {
+      "ticker": "CEG",
+      "date": "2026-05-13",
+      "source": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/news/constellation-energy-corporation-ceg-trending-130007586.html",
+      "title": "Constellation Energy Corporation (CEG) Is a Trending Stock"
+    }
+  ],
+  "screener": [
+    {
+      "ticker": "CEG",
+      "name": "Constellation Energy",
+      "ai_role": "核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头",
+      "sector": "power_grid_nuclear",
+      "tier": 1,
+      "price": 293.6,
+      "change_1d": 0.0,
+      "composite": 54.31023809523809
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra Energy",
+      "ai_role": "Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益",
+      "sector": "power_grid_nuclear",
+      "tier": 1,
+      "price": 146.87,
+      "change_1d": 0.0,
+      "composite": 63.79357142857143
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova",
+      "ai_role": "燃气轮机 + 电网设备双轮驱动，AI 电力扩张铲子",
+      "sector": "power_grid_nuclear",
+      "tier": 1,
+      "price": 1071.98,
+      "change_1d": 0.0,
+      "composite": 63.524523809523814
+    },
+    {
+      "ticker": "TLN",
+      "name": "Talen Energy",
+      "ai_role": "Susquehanna 核电 + AWS 数据中心直接 PPA",
+      "sector": "power_grid_nuclear",
+      "tier": 1,
+      "price": 374.61,
+      "change_1d": 0.0,
+      "composite": 59.13166666666667
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton",
+      "ai_role": "配电 + UPS + 数据中心电气系统，AI capex 直接受益",
+      "sector": "power_grid_nuclear",
+      "tier": 1,
+      "price": 401.53,
+      "change_1d": 0.0,
+      "composite": 58.97214285714286
+    },
+    {
+      "ticker": "VRT",
+      "name": "Vertiv",
+      "ai_role": "数据中心热管理 + 电源管理，高密度机柜液冷领先",
+      "sector": "power_grid_nuclear",
+      "tier": 1,
+      "price": 367.13,
+      "change_1d": 0.0,
+      "composite": 59.57690476190477
+    },
+    {
+      "ticker": "NEE",
+      "name": "NextEra Energy",
+      "ai_role": "可再生能源龙头 + 大型科技公司长期 PPA",
+      "sector": "power_grid_nuclear",
+      "tier": 2,
+      "price": 94.59,
+      "change_1d": 0.0,
+      "composite": 64.90642857142856
+    },
+    {
+      "ticker": "SO",
+      "name": "Southern Company",
+      "ai_role": "Vogtle 核电 + 受监管公用事业稳健底仓",
+      "sector": "power_grid_nuclear",
+      "tier": 2,
+      "price": 93.47,
+      "change_1d": 0.0,
+      "composite": 63.16357142857144
+    },
+    {
+      "ticker": "DUK",
+      "name": "Duke Energy",
+      "ai_role": "卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷",
+      "sector": "power_grid_nuclear",
+      "tier": 2,
+      "price": 125.07,
+      "change_1d": 0.0,
+      "composite": 60.67309523809524
+    },
+    {
+      "ticker": "BE",
+      "name": "Bloom Energy",
+      "ai_role": "SOFC 燃料电池 — behind-the-meter 数据中心分布式电力",
+      "sector": "power_grid_nuclear",
+      "tier": 2,
+      "price": 280.69,
+      "change_1d": 0.0,
+      "composite": 36.73404761904762
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "ai_role": "电网 EPC 工程龙头，AI 电力扩张铲子",
+      "sector": "power_grid_nuclear",
+      "tier": 2,
+      "price": 765.81,
+      "change_1d": 0.0,
+      "composite": 44.89833333333333
+    },
+    {
+      "ticker": "MOD",
+      "name": "Modine Manufacturing",
+      "ai_role": "数据中心液冷 + 热管理，规模较小但高弹性",
+      "sector": "power_grid_nuclear",
+      "tier": 2,
+      "price": 276.27,
+      "change_1d": 0.0,
+      "composite": 51.79357142857143
+    },
+    {
+      "ticker": "NVT",
+      "name": "nVent Electric",
+      "ai_role": "电气连接 + 配电柜，数据中心电气化",
+      "sector": "power_grid_nuclear",
+      "tier": 2,
+      "price": 170.74,
+      "change_1d": 0.0,
+      "composite": 50.115
+    },
+    {
+      "ticker": "POWL",
+      "name": "Powell Industries",
+      "ai_role": "开关设备 + 中压电气，电网设备小盘股",
+      "sector": "power_grid_nuclear",
+      "tier": 2,
+      "price": 308.05,
+      "change_1d": 0.0,
+      "composite": 51.56261904761905
+    },
+    {
+      "ticker": "HUBB",
+      "name": "Hubbell",
+      "ai_role": "电气配电 + 工业连接，数据中心电气整合",
+      "sector": "power_grid_nuclear",
+      "tier": 2,
+      "price": 485.98,
+      "change_1d": 0.0,
+      "composite": 52.303095238095246
+    },
+    {
+      "ticker": "TT",
+      "name": "Trane Technologies",
+      "ai_role": "HVAC + 数据中心制冷，规模大但 AI 弹性低",
+      "sector": "power_grid_nuclear",
+      "tier": 3,
+      "price": 467.66,
+      "change_1d": 0.0,
+      "composite": 53.59357142857143
+    },
+    {
+      "ticker": "CARR",
+      "name": "Carrier Global",
+      "ai_role": "HVAC + 制冷，AI 数据中心间接受益",
+      "sector": "power_grid_nuclear",
+      "tier": 3,
+      "price": 65.56,
+      "change_1d": 0.0,
+      "composite": 41.2897619047619
+    },
+    {
+      "ticker": "JCI",
+      "name": "Johnson Controls",
+      "ai_role": "楼宇自控 + 数据中心制冷集成",
+      "sector": "power_grid_nuclear",
+      "tier": 3,
+      "price": 141.04,
+      "change_1d": 0.0,
+      "composite": 54.731249999999996
+    },
+    {
+      "ticker": "UEC",
+      "name": "Uranium Energy Corp",
+      "ai_role": "铀矿 — 核电燃料上游，AI 电力主题受益",
+      "sector": "power_grid_nuclear",
+      "tier": 3,
+      "price": 15.5,
+      "change_1d": 0.0,
+      "composite": 43.80166666666667
+    },
+    {
+      "ticker": "CCJ",
+      "name": "Cameco",
+      "ai_role": "全球最大铀生产商 + 核燃料服务",
+      "sector": "power_grid_nuclear",
+      "tier": 3,
+      "price": 116.93,
+      "change_1d": 0.0,
+      "composite": 50.97928571428572
+    },
+    {
+      "ticker": "OKLO",
+      "name": "Oklo Inc",
+      "ai_role": "小型模块化反应堆（SMR）— AI 长期电力解决方案",
+      "sector": "power_grid_nuclear",
+      "tier": 3,
+      "price": 73.63,
+      "change_1d": 0.0,
+      "composite": 47.40309523809524
+    },
+    {
+      "ticker": "SMR",
+      "name": "NuScale Power",
+      "ai_role": "SMR 核电 — DOE 认证领先，长期主题",
+      "sector": "power_grid_nuclear",
+      "tier": 3,
+      "price": 12.0,
+      "change_1d": 0.0,
+      "composite": 44.38880952380952
+    }
+  ]
+}

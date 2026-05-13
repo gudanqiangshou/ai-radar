@@ -1,0 +1,299 @@
+{
+  "ticker": "CEG",
+  "name": "Constellation Energy",
+  "header": {
+    "name": "Constellation Energy",
+    "ticker": "CEG",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 1,
+    "ai_role": "核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头",
+    "price": 293.6000061035156,
+    "change_1d": 0.0,
+    "composite": 45.71265492498368,
+    "tier_letter": "A",
+    "description": [
+      "Constellation Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头。当前内部综合评分 45。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$293.60",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "-3.30%",
+        "1月涨跌": "+0.64%",
+        "3月涨跌": "+6.33%",
+        "6月涨跌": "-13.27%",
+        "1年涨跌": "+0.71%",
+        "YTD涨跌": "-19.84%",
+        "20日均线": "303.00",
+        "50日均线": "300.67",
+        "200日均线": "326.76",
+        "RSI 14": "52.86",
+        "MACD": "10.34",
+        "20日波动率": "49.18%",
+        "成交量": "3,758,200",
+        "量比20日": "1.29",
+        "52周高点": "403.95",
+        "52周低点": "247.06",
+        "距52周高点": "-27.32%",
+        "距52周低点": "+18.84%",
+        "20日支撑": "277.70",
+        "20日压力": "322.78"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头",
+        "投资确定性": "—",
+        "收入": "$6.07B",
+        "收入同比": "63.80%",
+        "毛利率": "23.26%",
+        "经营利润率": "21.86%",
+        "净利率": "12.69%",
+        "经营现金流": "—",
+        "资本开支": "-$986.00M",
+        "自由现金流": "-$181.00M",
+        "FCF利润率": "-2.98%",
+        "现金及短投": "$3.64B",
+        "总债务": "$22.47B",
+        "净现金/债务": "-$3.61B",
+        "流通股本": "361.19M",
+        "ROE": "16.10%",
+        "债务/权益": "0.21",
+        "市值": "$106.05B",
+        "企业价值": "$127.98B",
+        "P/E TTM": "25.51",
+        "Forward P/E": "21.63",
+        "P/S": "3.55",
+        "EV/Sales": "4.29",
+        "EV/EBITDA": "16.09",
+        "EV/FCF": "-707.10",
+        "FCF收益率": "-0.17%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 41.3095238095238,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 82.0,
+          "reasoning": "CEG拥有全美最大核电机组群（约21GW），不可复制的运营Know-how与执照壁垒极高；与微软、Meta签订长期clean firm power PPA形成强客户锁定；核电新建成本与监管周期构成极高进入壁垒。主要弱点：毛利率偏低（23%）、电价波动敞口及政策依赖。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 72.0,
+          "reasoning": "CEG与微软、Meta签订长期核电PPA，AI数据中心用电需求是其增长核心叙事，但基础负荷核电本质上服务于全电网，非AI专属。AI退潮将压制溢价PPA续签预期，但现有合同锁定收益提供缓冲，AI暴露度高但非纯AI标的。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 65.71428571428571,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 40.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 44.64285714285714,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "CEG拥有稳定核电PPA（微软/Meta长约）和充裕现金（36亿），clean firm power需求强劲。但长期负债72.5亿、估值偏高（核电溢价显著）、监管政策依赖（IRA补贴/核能政策）、客户集中度风险及核电运营合规压力构成中等风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 45.71265492498368,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 367.6815,
+        "target_high": 441.0,
+        "target_low": 272.4,
+        "upside_pct": 25.23,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 20,
+        "next_earnings": "2026-08-10",
+        "eps_estimate": 2.52649,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Constellation Energy（CEG）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】CEG拥有全美最大核电机组群（约21GW），不可复制的运营Know-how与执照壁垒极高；与微软、Meta签订长期clean firm power PPA形成强客户锁定；核电新建成本与监管周期构成极高进入壁垒。主要弱点：毛利率偏低（23%）、电价波动敞口及政策依赖。 【ai_exposure】CEG与微软、Meta签订长期核电PPA，AI数据中心用电需求是其增长核心叙事，但基础负荷核电本质上服务于全电网，非AI专属。AI退潮将压制溢价PPA续签预期，但现有合同锁定收益提供缓冲，AI暴露度高但非纯AI标的。 【risk】CEG拥有稳定核电PPA（微软/Meta长约）和充裕现金（36亿），clean firm power需求强劲。但长期负债72.5亿、估值偏高（核电溢价显著）、监管政策依赖（IRA补贴/核能政策）、客户集中度风险及核电运营合规压力构成中等风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CEG/press-releases/",
+          "title": "Constellation Energy Corporation (CEG) Latest Press Releases ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CEG/news/",
+          "title": "Constellation Energy Corporation (CEG) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CEG/chart/",
+          "title": "Constellation Energy Corporation (CEG) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/us/xnas/ceg",
+          "title": "CEG | Constellation Energy Corp. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CEG",
+          "title": "CEG Constellation Energy Corporation Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/constellation-energy-corporation-ceg-trending-130007586.html",
+          "title": "Constellation Energy Corporation (CEG) Is a Trending Stock",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CEG.MX/",
+          "title": "Constellation Energy Corporation (CEG.MX) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CEG/",
+          "title": "Constellation Energy Corporation (CEG) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CEG/news?p=CEG&ncid=mbr_yfnacqad00000025",
+          "title": "Constellation Energy Corporation (CEG) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/constellation-energy-corporation-ceg-trending-140005668.html",
+          "title": "Constellation Energy Corporation (CEG) Is a Trending Stock: Facts to Know Before Betting on It",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 45.71265492498368
+        },
+        {
+          "date": "2026-05-13",
+          "value": 54.31023809523809
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

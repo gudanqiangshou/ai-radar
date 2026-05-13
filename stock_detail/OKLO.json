@@ -1,0 +1,299 @@
+{
+  "ticker": "OKLO",
+  "name": "Oklo Inc",
+  "header": {
+    "name": "Oklo Inc",
+    "ticker": "OKLO",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "小型模块化反应堆（SMR）— AI 长期电力解决方案",
+    "price": 73.62999725341797,
+    "change_1d": 0.0,
+    "composite": 45.42889758643183,
+    "tier_letter": "C",
+    "description": [
+      "Oklo Inc 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：小型模块化反应堆（SMR）— AI 长期电力解决方案。当前内部综合评分 45。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$73.63",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+1.54%",
+        "1月涨跌": "+36.50%",
+        "3月涨跌": "+15.19%",
+        "6月涨跌": "-24.54%",
+        "1年涨跌": "+129.88%",
+        "YTD涨跌": "-5.36%",
+        "20日均线": "70.53",
+        "50日均线": "61.30",
+        "200日均线": "86.50",
+        "RSI 14": "50.91",
+        "MACD": "6.06",
+        "20日波动率": "126.86%",
+        "成交量": "15,496,000",
+        "量比20日": "0.91",
+        "52周高点": "174.14",
+        "52周低点": "28.85",
+        "距52周高点": "-57.72%",
+        "距52周低点": "+155.22%",
+        "20日支撑": "62.61",
+        "20日压力": "79.62"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "小型模块化反应堆（SMR）— AI 长期电力解决方案",
+        "投资确定性": "—",
+        "收入": "$0",
+        "收入同比": "—",
+        "毛利率": "0.00%",
+        "经营利润率": "0.00%",
+        "净利率": "0.00%",
+        "经营现金流": "—",
+        "资本开支": "-$26.95M",
+        "自由现金流": "-$60.38M",
+        "FCF利润率": "—",
+        "现金及短投": "$788.45M",
+        "总债务": "$1.45M",
+        "净现金/债务": "—",
+        "流通股本": "173.92M",
+        "ROE": "-12.24%",
+        "债务/权益": "0.00",
+        "市值": "$12.81B",
+        "企业价值": "$11.55B",
+        "P/E TTM": "—",
+        "Forward P/E": "-80.39",
+        "P/S": "—",
+        "EV/Sales": "—",
+        "EV/EBITDA": "-83.25",
+        "EV/FCF": "-191.35",
+        "FCF收益率": "-0.47%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 14.761904761904763,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "Oklo拥有Aurora快堆专利技术与NRC许可证申请先发优势，Sam Altman背书带来品牌溢价，已签署多份LOI锁定AI数据中心客户。但零营收、无商业堆运营记录、监管路径仍存不确定性，技术壁垒尚未转化为真实竞争壁垒，护城河处于'建设中'阶段。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 62.0,
+          "reasoning": "Oklo的SMR定位高度依赖AI数据中心电力需求叙事，已签署多项AI科技公司PPA意向（含Sam Altman背书），但目前零商业收入、首座反应堆2027年前无法并网，AI驱动的订单管道是核心估值逻辑，实际收入兑现前属于'AI概念高暴露'而非真实AI收入标的。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 8.333333333333332,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 95.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 83.92857142857142,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 12.0,
+          "reasoning": "Oklo尚无商业收入，依赖~7.9亿现金维持运营，首座反应堆预计2027年前后才能并网。面临NRC监管不确定性、核燃料供应链风险、技术未经商业验证、客户合同多为LOI非约束性协议，估值已大幅透支未来预期，回撤风险极高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 45.42889758643183,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 90.92105,
+        "target_high": 140.0,
+        "target_low": 14.0,
+        "upside_pct": 23.48,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 19,
+        "next_earnings": "2026-05-13",
+        "eps_estimate": -0.18215,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Oklo Inc（OKLO）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Oklo拥有Aurora快堆专利技术与NRC许可证申请先发优势，Sam Altman背书带来品牌溢价，已签署多份LOI锁定AI数据中心客户。但零营收、无商业堆运营记录、监管路径仍存不确定性，技术壁垒尚未转化为真实竞争壁垒，护城河处于'建设中'阶段。 【ai_exposure】Oklo的SMR定位高度依赖AI数据中心电力需求叙事，已签署多项AI科技公司PPA意向（含Sam Altman背书），但目前零商业收入、首座反应堆2027年前无法并网，AI驱动的订单管道是核心估值逻辑，实际收入兑现前属于'AI概念高暴露'而非真实AI收入标的。 【risk】Oklo尚无商业收入，依赖~7.9亿现金维持运营，首座反应堆预计2027年前后才能并网。面临NRC监管不确定性、核燃料供应链风险、技术未经商业验证、客户合同多为LOI非约束性协议，估值已大幅透支未来预期，回撤风险极高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/OKLO",
+          "title": "OKLO: Oklo Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/OKLO/research-reports/",
+          "title": "Oklo Inc. (OKLO) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/US/XNYS/OKLO",
+          "title": "Oklo Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/OKLO.MX/community/",
+          "title": "OKLO INC (OKLO.MX) Stock Forum & Discussion - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/OKLO/history/",
+          "title": "Oklo Inc. (OKLO) Stock Historical Prices & Data - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/OKLO.N/profile/",
+          "title": "(OKLO.N) | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/OKLO/latest-news/",
+          "title": "META_TITLE_QUOTE - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/oklos-regulatory-nuclear-earnings-stock-8228360e?siteid=yhoof2&yptr=yahoo",
+          "title": "Oklo’s Losses Widen. A Major Regulatory Win Keeps the Nuclear Dream Alive.",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Investing.com",
+          "url": "https://finance.yahoo.com/news/oklo-posts-wider-q1-loss-211627384.html",
+          "title": "Oklo posts wider Q1 loss as commercial progress remains elusive",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/oklo-earnings-q1-oklo-stock-nuclear-stocks/?src=A00220&yptr=yahoo",
+          "title": "Nuclear Reactor Startup Oklo Reports Wider Losses Amid AI Boom",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 45.42889758643183
+        },
+        {
+          "date": "2026-05-13",
+          "value": 47.40309523809524
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

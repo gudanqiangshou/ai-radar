@@ -1,0 +1,299 @@
+{
+  "ticker": "BE",
+  "name": "Bloom Energy",
+  "header": {
+    "name": "Bloom Energy",
+    "ticker": "BE",
+    "sector": "Power / Grid / Nuclear",
+    "sector_id": "power_grid_nuclear",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "SOFC 燃料电池 — behind-the-meter 数据中心分布式电力",
+    "price": 280.69000244140625,
+    "change_1d": 0.0,
+    "composite": 32.45759947814742,
+    "tier_letter": "B",
+    "description": [
+      "Bloom Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
+      "AI 角色：SOFC 燃料电池 — behind-the-meter 数据中心分布式电力。当前内部综合评分 32。",
+      "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$280.69",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
+        "5日涨跌": "+7.53%",
+        "1月涨跌": "+58.88%",
+        "3月涨跌": "+101.89%",
+        "6月涨跌": "+150.86%",
+        "1年涨跌": "+1364.98%",
+        "YTD涨跌": "+184.42%",
+        "20日均线": "252.30",
+        "50日均线": "191.80",
+        "200日均线": "123.18",
+        "RSI 14": "64.72",
+        "MACD": "40.31",
+        "20日波动率": "113.80%",
+        "成交量": "7,453,200",
+        "量比20日": "0.70",
+        "52周高点": "295.25",
+        "52周低点": "18.21",
+        "距52周高点": "-4.93%",
+        "距52周低点": "+1441.41%",
+        "20日支撑": "207.86",
+        "20日压力": "295.25"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Power / Grid / Nuclear",
+        "AI角色": "SOFC 燃料电池 — behind-the-meter 数据中心分布式电力",
+        "投资确定性": "—",
+        "收入": "$751.05M",
+        "收入同比": "130.40%",
+        "毛利率": "30.09%",
+        "经营利润率": "9.61%",
+        "净利率": "0.25%",
+        "经营现金流": "—",
+        "资本开支": "-$26.18M",
+        "自由现金流": "$47.43M",
+        "FCF利润率": "6.31%",
+        "现金及短投": "$2.49B",
+        "总债务": "$2.95B",
+        "净现金/债务": "-$107.24M",
+        "流通股本": "284.44M",
+        "ROE": "1.29%",
+        "债务/权益": "0.04",
+        "市值": "$79.84B",
+        "企业价值": "$80.33B",
+        "P/E TTM": "—",
+        "Forward P/E": "66.90",
+        "P/S": "32.60",
+        "EV/Sales": "32.80",
+        "EV/EBITDA": "346.86",
+        "EV/FCF": "1693.69",
+        "FCF收益率": "0.06%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 39.404761904761905,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 52.0,
+          "reasoning": "Bloom拥有SOFC专有陶瓷技术与专利积累，客户以长期PPA合约锁定，切换成本较高。但规模效应弱、制造成本居高不下（毛利率仅30%、净利率趋零），竞争者（燃气轮机、PEMFC）持续施压，品牌局限企业级市场，护城河中等偏窄。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 52.0,
+          "reasoning": "Bloom Energy的SOFC产品直接对接AI数据中心behind-the-meter电力需求，微软、CoreWeave等大客户订单驱动近期增长，AI数据中心是其最重要的新增量市场。但公司仍有工业、医疗、公用事业等多元客户，AI占比估计30-50%，非全部依赖。AI退潮将显著压制增长预期但不致命。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 22.857142857142858,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 5.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+        },
+        {
+          "label": "Momentum",
+          "value": 87.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 32.0,
+          "reasoning": "长期负债(~26亿)接近现金储备(~25亿)，净债务接近零但利息覆盖压力大；SOFC技术路线面临电池储能与廉价太阳能替代威胁；客户集中度历史偏高（韩国SK等大客户依赖）；数据中心需求提供短期催化剂但政策补贴（ITC/IRA）变动风险显著；估值弹性大、波动率高，整体偏高风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 32.45759947814742,
+          "is_composite": true,
+          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "data": {
+        "target_mean": 234.175,
+        "target_high": 335.0,
+        "target_low": 55.0,
+        "upside_pct": -16.57,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 24,
+        "next_earnings": "2026-04-29",
+        "eps_estimate": 0.38743,
+        "revenue_estimate": null
+      },
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Bloom Energy（BE）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Bloom拥有SOFC专有陶瓷技术与专利积累，客户以长期PPA合约锁定，切换成本较高。但规模效应弱、制造成本居高不下（毛利率仅30%、净利率趋零），竞争者（燃气轮机、PEMFC）持续施压，品牌局限企业级市场，护城河中等偏窄。 【ai_exposure】Bloom Energy的SOFC产品直接对接AI数据中心behind-the-meter电力需求，微软、CoreWeave等大客户订单驱动近期增长，AI数据中心是其最重要的新增量市场。但公司仍有工业、医疗、公用事业等多元客户，AI占比估计30-50%，非全部依赖。AI退潮将显著压制增长预期但不致命。 【risk】长期负债(~26亿)接近现金储备(~25亿)，净债务接近零但利息覆盖压力大；SOFC技术路线面临电池储能与廉价太阳能替代威胁；客户集中度历史偏高（韩国SK等大客户依赖）；数据中心需求提供短期催化剂但政策补贴（ITC/IRA）变动风险显著；估值弹性大、波动率高，整体偏高风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/BE",
+          "title": "BE: Bloom Energy Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bloom-energy-stock-sinks-market-220003525.html",
+          "title": "Bloom Energy (BE) Stock Sinks As Market Gains: Here's Why",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/BE/news/",
+          "title": "Bloom Energy Corporation (BE) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/BE/news?page=5",
+          "title": "Page 5 | Bloom Energy Corporation (BE) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/BE/",
+          "title": "Bloom Energy Corporation (BE) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/1ZB.DE/news/",
+          "title": "Bloom Energy Corp. R (1ZB.DE) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/BE.VI/news/",
+          "title": "Bloom Energy Corporation (BE.VI) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/0A4L.L/news",
+          "title": "Bloom Energy Corporation (0A4L.L) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/12/barclays-just-hiked-bloom-energy-price-target-to-254-ai-data-center-power-story-just-got-bigger/",
+          "title": "Barclays Just Hiked Bloom Energy Price Target to $254: AI Data Center Power Story Just Got Bigger",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/12/canaccord-hikes-plug-power-price-target-to-4-as-project-quantum-leap-pays-off/",
+          "title": "Canaccord Hikes Plug Power Price Target to $4 as Project Quantum Leap Pays Off",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 32.45759947814742
+        },
+        {
+          "date": "2026-05-13",
+          "value": 36.73404761904762
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}
