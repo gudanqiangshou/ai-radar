@@ -1,0 +1,201 @@
+{
+  "ticker": "DELL",
+  "name": "Dell Technologies",
+  "header": {
+    "name": "Dell Technologies",
+    "ticker": "DELL",
+    "sector": "Consumer AI / Device",
+    "sector_id": "consumer_ai_device",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴",
+    "price": 238.94000244140625,
+    "change_1d": -3.28,
+    "composite": 86.66666666666666,
+    "tier_letter": "B",
+    "description": [
+      "Dell Technologies 的 AI 产业链位置为 Consumer AI / Device。",
+      "AI 角色：AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴。当前内部综合评分 86。",
+      "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:38:31",
+    "status_label": "买入区"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$238.94",
+        "日内涨跌": "-3.28%",
+        "1日涨跌": "-3.28%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-3.28%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "7,134,500",
+        "量比20日": "0.62",
+        "52周高点": "255.45",
+        "52周低点": "228.50",
+        "距52周高点": "-6.46%",
+        "距52周低点": "+4.57%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Consumer AI / Device",
+        "AI角色": "AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴",
+        "投资确定性": "—",
+        "收入": "$113.54B",
+        "收入同比": "39.50%",
+        "毛利率": "20.12%",
+        "经营利润率": "9.62%",
+        "净利率": "5.23%",
+        "经营现金流": "—",
+        "资本开支": "-$2.63B",
+        "自由现金流": "$6.61B",
+        "FCF利润率": "5.82%",
+        "现金及短投": "$11.53B",
+        "总债务": "$32.26B",
+        "净现金/债务": "-$11.98B",
+        "流通股本": "325.65M",
+        "ROE": "—",
+        "债务/权益": "0.21",
+        "市值": "$155.36B",
+        "企业价值": "$175.02B",
+        "P/E TTM": "27.56",
+        "Forward P/E": "16.21",
+        "P/S": "1.37",
+        "EV/Sales": "1.54",
+        "EV/EBITDA": "15.28",
+        "EV/FCF": "26.49",
+        "FCF收益率": "4.25%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 60.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 100.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 86.66666666666666,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:38:31",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Dell Technologies（DELL）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 86.66666666666666
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-12"
+}

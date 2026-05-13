@@ -1,0 +1,201 @@
+{
+  "ticker": "CIEN",
+  "name": "Ciena",
+  "header": {
+    "name": "Ciena",
+    "ticker": "CIEN",
+    "sector": "Networking / Optical",
+    "sector_id": "networking_optical",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "数据中心互联 (DCI) + 光网络系统",
+    "price": 577.1500244140625,
+    "change_1d": -0.74,
+    "composite": 26.410256410256405,
+    "tier_letter": "B",
+    "description": [
+      "Ciena 的 AI 产业链位置为 Networking / Optical。",
+      "AI 角色：数据中心互联 (DCI) + 光网络系统。当前内部综合评分 26。",
+      "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:38:30",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$577.15",
+        "日内涨跌": "-0.74%",
+        "1日涨跌": "-0.74%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-0.74%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "1,600,000",
+        "量比20日": "0.67",
+        "52周高点": "593.00",
+        "52周低点": "546.98",
+        "距52周高点": "-2.67%",
+        "距52周低点": "+5.52%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Networking / Optical",
+        "AI角色": "数据中心互联 (DCI) + 光网络系统",
+        "投资确定性": "—",
+        "收入": "$5.12B",
+        "收入同比": "33.10%",
+        "毛利率": "42.12%",
+        "经营利润率": "13.40%",
+        "净利率": "4.47%",
+        "经营现金流": "—",
+        "资本开支": "-$187.80M",
+        "自由现金流": "$699.30M",
+        "FCF利润率": "13.65%",
+        "现金及短投": "$1.30B",
+        "总债务": "$1.59B",
+        "净现金/债务": "-$225.02M",
+        "流通股本": "141.40M",
+        "ROE": "8.20%",
+        "债务/权益": "0.02",
+        "市值": "$81.61B",
+        "企业价值": "$81.90B",
+        "P/E TTM": "369.97",
+        "Forward P/E": "66.71",
+        "P/S": "15.93",
+        "EV/Sales": "15.98",
+        "EV/EBITDA": "143.55",
+        "EV/FCF": "117.11",
+        "FCF收益率": "0.86%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 29.999999999999993,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 46.66666666666666,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 9.999999999999998,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 20.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 26.410256410256405,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:38:30",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Ciena（CIEN）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 26.410256410256405
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-12"
+}

@@ -1,0 +1,201 @@
+{
+  "ticker": "LRCX",
+  "name": "Lam Research",
+  "header": {
+    "name": "Lam Research",
+    "ticker": "LRCX",
+    "sector": "Semiconductor Equipment",
+    "sector_id": "semiconductor_equipment",
+    "market": "US",
+    "tier": 1,
+    "ai_role": "刻蚀 / 沉积 — HBM 制造关键设备供应商",
+    "price": 289.239990234375,
+    "change_1d": -2.3,
+    "composite": 46.92307692307691,
+    "tier_letter": "A",
+    "description": [
+      "Lam Research 的 AI 产业链位置为 Semiconductor Equipment。",
+      "AI 角色：刻蚀 / 沉积 — HBM 制造关键设备供应商。当前内部综合评分 46。",
+      "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:38:30",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$289.24",
+        "日内涨跌": "-2.30%",
+        "1日涨跌": "-2.30%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-2.30%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "9,336,500",
+        "量比20日": "1.02",
+        "52周高点": "300.00",
+        "52周低点": "277.77",
+        "距52周高点": "-3.59%",
+        "距52周低点": "+4.13%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Semiconductor Equipment",
+        "AI角色": "刻蚀 / 沉积 — HBM 制造关键设备供应商",
+        "投资确定性": "—",
+        "收入": "$21.68B",
+        "收入同比": "23.80%",
+        "毛利率": "49.98%",
+        "经营利润率": "35.04%",
+        "净利率": "30.94%",
+        "经营现金流": "—",
+        "资本开支": "-$949.79M",
+        "自由现金流": "$4.35B",
+        "FCF利润率": "20.07%",
+        "现金及短投": "$4.75B",
+        "总债务": "$3.73B",
+        "净现金/债务": "$1.02B",
+        "流通股本": "1.25B",
+        "ROE": "66.76%",
+        "债务/权益": "0.01",
+        "市值": "$361.72B",
+        "企业价值": "$360.70B",
+        "P/E TTM": "54.68",
+        "Forward P/E": "36.55",
+        "P/S": "16.68",
+        "EV/Sales": "16.64",
+        "EV/EBITDA": "45.96",
+        "EV/FCF": "82.87",
+        "FCF收益率": "1.20%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 49.99999999999999,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 86.66666666666666,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 53.33333333333333,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 20.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 46.92307692307691,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:38:30",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Lam Research（LRCX）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 46.92307692307691
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-12"
+}

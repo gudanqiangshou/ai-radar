@@ -1,0 +1,201 @@
+{
+  "ticker": "SNPS",
+  "name": "Synopsys",
+  "header": {
+    "name": "Synopsys",
+    "ticker": "SNPS",
+    "sector": "EDA / Design Software",
+    "sector_id": "eda_design",
+    "market": "US",
+    "tier": 1,
+    "ai_role": "EDA 龙头 + Ansys 合并增强多物理仿真",
+    "price": 513.2100219726562,
+    "change_1d": -0.58,
+    "composite": 36.92307692307692,
+    "tier_letter": "A",
+    "description": [
+      "Synopsys 的 AI 产业链位置为 EDA / Design Software。",
+      "AI 角色：EDA 龙头 + Ansys 合并增强多物理仿真。当前内部综合评分 36。",
+      "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:38:30",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$513.21",
+        "日内涨跌": "-0.58%",
+        "1日涨跌": "-0.58%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-0.58%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "1,217,400",
+        "量比20日": "0.93",
+        "52周高点": "519.71",
+        "52周低点": "508.16",
+        "距52周高点": "-1.25%",
+        "距52周低点": "+0.99%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "EDA / Design Software",
+        "AI角色": "EDA 龙头 + Ansys 合并增强多物理仿真",
+        "投资确定性": "—",
+        "收入": "$8.01B",
+        "收入同比": "65.50%",
+        "毛利率": "82.02%",
+        "经营利润率": "13.34%",
+        "净利率": "13.76%",
+        "经营现金流": "—",
+        "资本开支": "-$164.06M",
+        "自由现金流": "$3.10B",
+        "FCF利润率": "38.67%",
+        "现金及短投": "$2.20B",
+        "总债务": "$10.87B",
+        "净现金/债务": "-$7.82B",
+        "流通股本": "191.56M",
+        "ROE": "5.54%",
+        "债务/权益": "0.11",
+        "市值": "$98.31B",
+        "企业价值": "$106.98B",
+        "P/E TTM": "78.71",
+        "Forward P/E": "30.10",
+        "P/S": "12.28",
+        "EV/Sales": "13.36",
+        "EV/EBITDA": "66.24",
+        "EV/FCF": "34.55",
+        "FCF收益率": "3.15%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 0.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 100.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 0.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 70.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 36.92307692307692,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:38:30",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Synopsys（SNPS）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 36.92307692307692
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-12"
+}

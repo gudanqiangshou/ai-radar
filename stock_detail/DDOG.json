@@ -1,0 +1,201 @@
+{
+  "ticker": "DDOG",
+  "name": "Datadog",
+  "header": {
+    "name": "Datadog",
+    "ticker": "DDOG",
+    "sector": "Data / Software Platform",
+    "sector_id": "data_software_platform",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "可观测性平台 — AI 工作负载监控扩张",
+    "price": 199.94000244140625,
+    "change_1d": -1.18,
+    "composite": 63.07692307692307,
+    "tier_letter": "B",
+    "description": [
+      "Datadog 的 AI 产业链位置为 Data / Software Platform。",
+      "AI 角色：可观测性平台 — AI 工作负载监控扩张。当前内部综合评分 63。",
+      "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:38:30",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$199.94",
+        "日内涨跌": "-1.18%",
+        "1日涨跌": "-1.18%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-1.18%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "4,793,200",
+        "量比20日": "0.62",
+        "52周高点": "203.58",
+        "52周低点": "193.16",
+        "距52周高点": "-1.79%",
+        "距52周低点": "+3.51%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Data / Software Platform",
+        "AI角色": "可观测性平台 — AI 工作负载监控扩张",
+        "投资确定性": "—",
+        "收入": "$3.67B",
+        "收入同比": "32.20%",
+        "毛利率": "79.91%",
+        "经营利润率": "0.80%",
+        "净利率": "3.69%",
+        "经营现金流": "—",
+        "资本开支": "-$153.80M",
+        "自由现金流": "$936.73M",
+        "FCF利润率": "25.51%",
+        "现金及短投": "$4.76B",
+        "总债务": "$1.29B",
+        "净现金/债务": "$3.77B",
+        "流通股本": "330.83M",
+        "ROE": "3.93%",
+        "债务/权益": "0.02",
+        "市值": "$71.17B",
+        "企业价值": "$67.70B",
+        "P/E TTM": "499.85",
+        "Forward P/E": "70.44",
+        "P/S": "19.38",
+        "EV/Sales": "18.44",
+        "EV/EBITDA": "1954.36",
+        "EV/FCF": "72.27",
+        "FCF收益率": "1.32%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 100.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 60.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 100.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 0.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 63.07692307692307,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:38:30",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Datadog（DDOG）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 63.07692307692307
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-12"
+}

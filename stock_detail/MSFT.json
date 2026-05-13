@@ -19,7 +19,7 @@
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:19:18",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:38:30",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:19:18",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:38:30",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
