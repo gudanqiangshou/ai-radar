@@ -11,16 +11,16 @@
     "ai_role": "EDA 龙头 + Ansys 合并增强多物理仿真",
     "price": 513.2100219726562,
     "change_1d": -0.58,
-    "composite": 36.92307692307692,
+    "composite": 49.26315789473684,
     "tier_letter": "A",
     "description": [
       "Synopsys 的 AI 产业链位置为 EDA / Design Software。",
-      "AI 角色：EDA 龙头 + Ansys 合并增强多物理仿真。当前内部综合评分 36。",
+      "AI 角色：EDA 龙头 + Ansys 合并增强多物理仿真。当前内部综合评分 49。",
       "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
-    "status_label": "减持"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "1,217,400",
-        "量比20日": "0.93",
+        "量比20日": "0.96",
         "52周高点": "519.71",
         "52周低点": "508.16",
         "距52周高点": "-1.25%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 88.0,
+          "reasoning": "EDA三寡头之一，工具链深度嵌入芯片设计流程，切换成本极高；专利与Know-how积累数十年；Ansys合并后多物理仿真协同强化壁垒。主要风险：监管审查延迟合并落地，净利率偏低（14%）反映高研发投入压力。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Synopsys EDA工具直接受益于AI芯片设计需求激增（HBM、GPU、NPU流片量大增），AI相关芯片设计占EDA收入比例持续提升，估计AI驱动收入占比35-45%。但传统汽车、工业芯片设计仍是基本盘，Ansys合并拓展多物理仿真降低单一AI依赖，AI退潮冲击可控但非免疫。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "Ansys合并带来100亿长期负债，财务杠杆显著上升；中国出口管制持续压制营收（约15%敞口）；EDA市场寡头格局稳固但反垄断审查风险犹存；AI芯片设计需求长期利好，但高估值（P/E>50x）在利率高企环境下回撤风险较大。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 36.92307692307692,
+          "value": 49.26315789473684,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Synopsys（SNPS）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】EDA三寡头之一，工具链深度嵌入芯片设计流程，切换成本极高；专利与Know-how积累数十年；Ansys合并后多物理仿真协同强化壁垒。主要风险：监管审查延迟合并落地，净利率偏低（14%）反映高研发投入压力。 【ai_exposure】Synopsys EDA工具直接受益于AI芯片设计需求激增（HBM、GPU、NPU流片量大增），AI相关芯片设计占EDA收入比例持续提升，估计AI驱动收入占比35-45%。但传统汽车、工业芯片设计仍是基本盘，Ansys合并拓展多物理仿真降低单一AI依赖，AI退潮冲击可控但非免疫。 【risk】Ansys合并带来100亿长期负债，财务杠杆显著上升；中国出口管制持续压制营收（约15%敞口）；EDA市场寡头格局稳固但反垄断审查风险犹存；AI芯片设计需求长期利好，但高估值（P/E>50x）在利率高企环境下回撤风险较大。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 36.92307692307692
+        },
+        {
+          "date": "2026-05-13",
+          "value": 49.26315789473684
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

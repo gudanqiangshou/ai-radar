@@ -11,16 +11,16 @@
     "ai_role": "指数 + ESG + 风险分析 — 数据壁垒高",
     "price": 581.0900268554688,
     "change_1d": -0.61,
-    "composite": 19.999999999999996,
+    "composite": 47.666666666666664,
     "tier_letter": "B",
     "description": [
       "MSCI Inc 的 AI 产业链位置为 Financial / Research Data。",
-      "AI 角色：指数 + ESG + 风险分析 — 数据壁垒高。当前内部综合评分 19。",
+      "AI 角色：指数 + ESG + 风险分析 — 数据壁垒高。当前内部综合评分 47。",
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
-    "status_label": "退出"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "850,700",
-        "量比20日": "1.28",
+        "量比20日": "1.12",
         "52周高点": "589.88",
         "52周低点": "576.11",
         "距52周高点": "-1.49%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 88.0,
+          "reasoning": "MSCI指数被动资金深度绑定（ETF追踪规模逾18万亿美元），切换成本极高；ESG与风险分析数据积累形成知识壁垒；毛利率83%印证定价权；品牌在机构投资者中具有标准制定地位；唯一风险是监管对指数垄断的潜在审查。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "MSCI核心收入来自指数授权、ESG评级和风险分析订阅，AI主要用于内部效率提升和产品增强，而非直接AI capex驱动的收入来源。数据壁垒高但AI并非增长主引擎，属于间接受益——AI繁荣带动资管规模扩大，进而提升指数授权费，传导链条较长。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "MSCI护城河深厚，订阅模式收入稳定，ESG与指数业务黏性极高。但长期负债64亿美元偏重，利息压力不可忽视；估值历史偏高，回撤风险存在；监管层对ESG评级透明度审查趋严；整体属低中风险区间。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 19.999999999999996,
+          "value": 47.666666666666664,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "MSCI Inc（MSCI）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】MSCI指数被动资金深度绑定（ETF追踪规模逾18万亿美元），切换成本极高；ESG与风险分析数据积累形成知识壁垒；毛利率83%印证定价权；品牌在机构投资者中具有标准制定地位；唯一风险是监管对指数垄断的潜在审查。 【ai_exposure】MSCI核心收入来自指数授权、ESG评级和风险分析订阅，AI主要用于内部效率提升和产品增强，而非直接AI capex驱动的收入来源。数据壁垒高但AI并非增长主引擎，属于间接受益——AI繁荣带动资管规模扩大，进而提升指数授权费，传导链条较长。 【risk】MSCI护城河深厚，订阅模式收入稳定，ESG与指数业务黏性极高。但长期负债64亿美元偏重，利息压力不可忽视；估值历史偏高，回撤风险存在；监管层对ESG评级透明度审查趋严；整体属低中风险区间。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 19.999999999999996
+        },
+        {
+          "date": "2026-05-13",
+          "value": 47.666666666666664
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

@@ -11,15 +11,15 @@
     "ai_role": "HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股",
     "price": 766.5800170898438,
     "change_1d": -3.61,
-    "composite": 70.0,
+    "composite": 69.05263157894736,
     "tier_letter": "A",
     "description": [
       "Micron Technology 的 AI 产业链位置为 Memory / Storage。",
-      "AI 角色：HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股。当前内部综合评分 70。",
+      "AI 角色：HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股。当前内部综合评分 69。",
       "Memory / Storage 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "73,115,800",
-        "量比20日": "1.03",
+        "量比20日": "1.01",
         "52周高点": "818.67",
         "52周低点": "706.60",
         "距52周高点": "-6.36%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "HBM3E进入NVIDIA供应链构建技术壁垒，DRAM/NAND寡头格局提供规模护城河，毛利率58%/净利率41%印证定价权。但三星/SK海力士竞争激烈，HBM市占率仍落后，NAND同质化严重，客户集中度高且周期性强，护城河宽度有限但深度尚可。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "HBM3E已进入NVIDIA供应链，HBM及数据中心DRAM是当前最强增长引擎，预计FY2025数据中心收入占比超50%。但消费级DRAM/NAND仍占相当比重，PC/手机周期性需求稀释AI纯度，非纯AI标的。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "HBM3E进入NVIDIA供应链是重大催化剂，但内存行业周期性极强、资本开支巨大。中国市场监管打压（2023年被禁）造成地缘政治敞口，三星/SK海力士竞争激烈，客户集中度高（苹果/NVIDIA/云厂商），估值随周期波动剧烈，整体属中等偏高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 70.0,
+          "value": 69.05263157894736,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Micron Technology（MU）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】HBM3E进入NVIDIA供应链构建技术壁垒，DRAM/NAND寡头格局提供规模护城河，毛利率58%/净利率41%印证定价权。但三星/SK海力士竞争激烈，HBM市占率仍落后，NAND同质化严重，客户集中度高且周期性强，护城河宽度有限但深度尚可。 【ai_exposure】HBM3E已进入NVIDIA供应链，HBM及数据中心DRAM是当前最强增长引擎，预计FY2025数据中心收入占比超50%。但消费级DRAM/NAND仍占相当比重，PC/手机周期性需求稀释AI纯度，非纯AI标的。 【risk】HBM3E进入NVIDIA供应链是重大催化剂，但内存行业周期性极强、资本开支巨大。中国市场监管打压（2023年被禁）造成地缘政治敞口，三星/SK海力士竞争激烈，客户集中度高（苹果/NVIDIA/云厂商），估值随周期波动剧烈，整体属中等偏高风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 70.0
+        },
+        {
+          "date": "2026-05-13",
+          "value": 69.05263157894736
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

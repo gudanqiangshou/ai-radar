@@ -11,15 +11,15 @@
     "ai_role": "数据中心光通信 + 3D 感测 — Apple/AI 双概念",
     "price": 992.3699951171875,
     "change_1d": -5.77,
-    "composite": 48.46153846153846,
+    "composite": 52.94736842105263,
     "tier_letter": "B",
     "description": [
       "Lumentum Holdings 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：数据中心光通信 + 3D 感测 — Apple/AI 双概念。当前内部综合评分 48。",
+      "AI 角色：数据中心光通信 + 3D 感测 — Apple/AI 双概念。当前内部综合评分 52。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "观察"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "7,523,300",
-        "量比20日": "0.79",
+        "量比20日": "0.88",
         "52周高点": "1085.68",
         "52周低点": "937.64",
         "距52周高点": "-8.59%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 68.0,
+          "reasoning": "Lumentum在EML/VCSEL/3D感测拥有深厚专利与工艺壁垒，Apple独家供应商地位带来高客户粘性；但光模块竞争激烈（II-VI/Coherent等），规模不及头部，品牌溢价有限。毛利率41%、ROE 23%印证中等偏强护城河，非不可撼动。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Lumentum数据中心光收发器（EML、硅光）直接受益于AI超大规模capex扩张，占收入比重持续提升，预计FY25超40%；但电信/3D感测（Apple Face ID）仍贡献约50%+收入，AI非唯一驱动。AI退潮将显著冲击数据中心业务，但电信基本盘提供缓冲。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "现金充裕（31.7亿）、长期负债极低（4320万），财务结构健康。但客户高度集中于Apple（3D感测）和少数数据中心客户，地缘政治/出口管制风险显著，光通信竞争激烈，营收波动大，AI概念估值溢价存在回撤风险，综合评定中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 48.46153846153846,
+          "value": 52.94736842105263,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Lumentum Holdings（LITE）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Lumentum在EML/VCSEL/3D感测拥有深厚专利与工艺壁垒，Apple独家供应商地位带来高客户粘性；但光模块竞争激烈（II-VI/Coherent等），规模不及头部，品牌溢价有限。毛利率41%、ROE 23%印证中等偏强护城河，非不可撼动。 【ai_exposure】Lumentum数据中心光收发器（EML、硅光）直接受益于AI超大规模capex扩张，占收入比重持续提升，预计FY25超40%；但电信/3D感测（Apple Face ID）仍贡献约50%+收入，AI非唯一驱动。AI退潮将显著冲击数据中心业务，但电信基本盘提供缓冲。 【risk】现金充裕（31.7亿）、长期负债极低（4320万），财务结构健康。但客户高度集中于Apple（3D感测）和少数数据中心客户，地缘政治/出口管制风险显著，光通信竞争激烈，营收波动大，AI概念估值溢价存在回撤风险，综合评定中等风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 48.46153846153846
+        },
+        {
+          "date": "2026-05-13",
+          "value": 52.94736842105263
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

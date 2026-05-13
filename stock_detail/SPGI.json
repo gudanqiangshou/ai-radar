@@ -11,15 +11,15 @@
     "ai_role": "评级 + 数据 + 指数 — AI 推动金融研究自动化",
     "price": 424.1700134277344,
     "change_1d": 0.75,
-    "composite": 41.53846153846154,
+    "composite": 52.421052631578945,
     "tier_letter": "A",
     "description": [
       "S&P Global 的 AI 产业链位置为 Financial / Research Data。",
-      "AI 角色：评级 + 数据 + 指数 — AI 推动金融研究自动化。当前内部综合评分 41。",
+      "AI 角色：评级 + 数据 + 指数 — AI 推动金融研究自动化。当前内部综合评分 52。",
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
     "status_label": "观察"
   },
   "panels": [
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 88.0,
+          "reasoning": "SPGI拥有标普评级、道琼斯指数等不可复制的品牌资产，数据网络效应极强；评级业务受监管认可形成牌照壁垒；客户合约长期且切换成本极高；70%毛利率印证规模优势。AI自动化进一步强化数据护城河，但双寡头格局（与穆迪）限制绝对定价权。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 32.0,
+          "reasoning": "SPGI核心收入来自评级、指数授权和市场数据，AI主要用于内部效率提升和产品增强（如Kensho），并非直接AI capex受益标的。AI退潮对其主营业务冲击有限，属于间接/辅助受益，护城河来自数据垄断而非AI。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "SPGI护城河深厚，评级/指数业务具强定价权与高转换成本。但长期负债106亿较高，债务/现金比约5.9x，利息覆盖需关注。监管风险持续（反垄断审查、评级机构监管），AI替代威胁评级业务边际竞争力，估值历史偏高，回撤风险存在。整体属低中风险蓝筹。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 41.53846153846154,
+          "value": 52.421052631578945,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "S&P Global（SPGI）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】SPGI拥有标普评级、道琼斯指数等不可复制的品牌资产，数据网络效应极强；评级业务受监管认可形成牌照壁垒；客户合约长期且切换成本极高；70%毛利率印证规模优势。AI自动化进一步强化数据护城河，但双寡头格局（与穆迪）限制绝对定价权。 【ai_exposure】SPGI核心收入来自评级、指数授权和市场数据，AI主要用于内部效率提升和产品增强（如Kensho），并非直接AI capex受益标的。AI退潮对其主营业务冲击有限，属于间接/辅助受益，护城河来自数据垄断而非AI。 【risk】SPGI护城河深厚，评级/指数业务具强定价权与高转换成本。但长期负债106亿较高，债务/现金比约5.9x，利息覆盖需关注。监管风险持续（反垄断审查、评级机构监管），AI替代威胁评级业务边际竞争力，估值历史偏高，回撤风险存在。整体属低中风险蓝筹。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 41.53846153846154
+        },
+        {
+          "date": "2026-05-13",
+          "value": 52.421052631578945
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

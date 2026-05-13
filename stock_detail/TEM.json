@@ -11,16 +11,16 @@
     "ai_role": "肿瘤 AI 数据平台 — 多模态临床+基因数据",
     "price": 46.95000076293945,
     "change_1d": -3.12,
-    "composite": 35.38461538461539,
+    "composite": 44.63157894736842,
     "tier_letter": "B",
     "description": [
       "Tempus AI 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：肿瘤 AI 数据平台 — 多模态临床+基因数据。当前内部综合评分 35。",
+      "AI 角色：肿瘤 AI 数据平台 — 多模态临床+基因数据。当前内部综合评分 44。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
-    "status_label": "减持"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "6,389,700",
-        "量比20日": "0.78",
+        "量比20日": "0.87",
         "52周高点": "49.50",
         "52周低点": "45.72",
         "距52周高点": "-5.15%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Tempus拥有业内最大规模多模态肿瘤临床+基因数据库，数据飞轮效应显著，与医院/药企深度集成形成高切换成本。但盈利能力仍为负，竞争者（Foundation Medicine、Flatiron）持续施压，数据独占性存在监管不确定性，护城河宽但尚未完全固化。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Tempus AI核心业务是AI驱动的肿瘤基因组数据平台，AI分析直接产生收入（基因组测序+数据授权+AI应用），占营收主体。但底层仍依赖实验室服务和数据授权，非纯AI capex受益标的。AI退潮将显著冲击估值倍数和数据业务增长预期。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "Tempus AI财务压力显著：长期负债12.4亿远超现金6.4亿，利息覆盖存疑；公司尚未盈利，烧钱持续。医疗AI监管风险高（FDA审批、数据隐私HIPAA）；客户集中度数据缺失但医院系统采购周期长。估值溢价明显，市场情绪波动可致大幅回撤。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 35.38461538461539,
+          "value": 44.63157894736842,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Tempus AI（TEM）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Tempus拥有业内最大规模多模态肿瘤临床+基因数据库，数据飞轮效应显著，与医院/药企深度集成形成高切换成本。但盈利能力仍为负，竞争者（Foundation Medicine、Flatiron）持续施压，数据独占性存在监管不确定性，护城河宽但尚未完全固化。 【ai_exposure】Tempus AI核心业务是AI驱动的肿瘤基因组数据平台，AI分析直接产生收入（基因组测序+数据授权+AI应用），占营收主体。但底层仍依赖实验室服务和数据授权，非纯AI capex受益标的。AI退潮将显著冲击估值倍数和数据业务增长预期。 【risk】Tempus AI财务压力显著：长期负债12.4亿远超现金6.4亿，利息覆盖存疑；公司尚未盈利，烧钱持续。医疗AI监管风险高（FDA审批、数据隐私HIPAA）；客户集中度数据缺失但医院系统采购周期长。估值溢价明显，市场情绪波动可致大幅回撤。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 35.38461538461539
+        },
+        {
+          "date": "2026-05-13",
+          "value": 44.63157894736842
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

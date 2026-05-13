@@ -11,15 +11,15 @@
     "ai_role": "数据中心扩张 + 文档存储 — 老业务转型 AI 数据中心 REIT",
     "price": 126.20999908447266,
     "change_1d": -2.89,
-    "composite": 61.66666666666666,
+    "composite": 57.833333333333314,
     "tier_letter": "B",
     "description": [
       "Iron Mountain 的 AI 产业链位置为 Data Center Infrastructure。",
-      "AI 角色：数据中心扩张 + 文档存储 — 老业务转型 AI 数据中心 REIT。当前内部综合评分 61。",
+      "AI 角色：数据中心扩张 + 文档存储 — 老业务转型 AI 数据中心 REIT。当前内部综合评分 57。",
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "2,047,400",
-        "量比20日": "1.51",
+        "量比20日": "1.20",
         "52周高点": "131.55",
         "52周低点": "125.00",
         "距52周高点": "-4.06%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "IRM护城河中等偏强：物理资产稀缺性（选址许可、电力容量）构成资源壁垒；老客户文档存储粘性高、合约长；但数据中心技术壁垒弱，面临Equinix/Digital Realty直接竞争；AI转型尚早，规模效应未充分体现；净利率仅4%显示运营效率偏低。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "IRM数据中心业务（约占收入15-20%）受AI capex驱动增长，但核心仍是实体文档存储/信息管理（占收入~70%）。AI数据中心扩张是增长亮点而非主体，转型故事尚在早期，AI退潮冲击有限但上行弹性也受限。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "长期负债近170亿美元，现金仅2.5亿，杠杆极高；老业务（实体文档存储）面临长期萎缩压力；数据中心转型资本开支巨大且竞争激烈；REIT结构依赖持续融资；估值已反映转型溢价，回撤风险显著。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 61.66666666666666,
+          "value": 57.833333333333314,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Iron Mountain（IRM）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】IRM护城河中等偏强：物理资产稀缺性（选址许可、电力容量）构成资源壁垒；老客户文档存储粘性高、合约长；但数据中心技术壁垒弱，面临Equinix/Digital Realty直接竞争；AI转型尚早，规模效应未充分体现；净利率仅4%显示运营效率偏低。 【ai_exposure】IRM数据中心业务（约占收入15-20%）受AI capex驱动增长，但核心仍是实体文档存储/信息管理（占收入~70%）。AI数据中心扩张是增长亮点而非主体，转型故事尚在早期，AI退潮冲击有限但上行弹性也受限。 【risk】长期负债近170亿美元，现金仅2.5亿，杠杆极高；老业务（实体文档存储）面临长期萎缩压力；数据中心转型资本开支巨大且竞争激烈；REIT结构依赖持续融资；估值已反映转型溢价，回撤风险显著。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 61.66666666666666
+        },
+        {
+          "date": "2026-05-13",
+          "value": 57.833333333333314
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

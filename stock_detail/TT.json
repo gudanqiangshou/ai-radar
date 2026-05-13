@@ -11,15 +11,15 @@
     "ai_role": "HVAC + 数据中心制冷，规模大但 AI 弹性低",
     "price": 467.6600036621094,
     "change_1d": -1.86,
-    "composite": 51.33398564905414,
+    "composite": 53.415000000000006,
     "tier_letter": "C",
     "description": [
       "Trane Technologies 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：HVAC + 数据中心制冷，规模大但 AI 弹性低。当前内部综合评分 51。",
+      "AI 角色：HVAC + 数据中心制冷，规模大但 AI 弹性低。当前内部综合评分 53。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "持有"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 60.47619047619048,
+          "value": 66.30952380952381,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Trane在商业HVAC拥有强品牌与服务网络，切换成本中等偏高；但Power/Grid/Nuclear并非其核心赛道，技术壁垒有限，竞争对手（Carrier、JCI、Vertiv）压力显著。数据中心制冷增长驱动营收，但AI弹性低意味着差异化不足，护城河宽度中等。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 32.0,
+          "reasoning": "TT数据中心制冷业务（Chiller/液冷）受AI算力扩张驱动，约占收入10-15%且增速较快，但核心仍是商业楼宇、工业HVAC等传统业务（占80%+）。AI是增量催化剂而非主驱动，AI退潮对整体业绩冲击有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 28.047619047619047,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 58.57142857142857,
+          "value": 56.90476190476191,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 50.52380952380952,
+          "value": 35.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 35.476190476190474,
+          "value": 30.357142857142854,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "TT财务结构尚可（现金10.7亿 vs 长债39.2亿），但估值偏高（P/E ~30x），数据中心制冷需求强劲但AI弹性低意味着技术替代风险上升；地缘政治与出口管制对HVAC设备影响有限，主要风险来自高估值回撤与竞争格局变化。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 51.33398564905414,
+          "value": 53.415000000000006,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
       "data": {
         "target_mean": 517.6878,
         "target_high": 585.0,
@@ -189,7 +189,7 @@
       "title": "Trane Technologies（TT）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Trane在商业HVAC拥有强品牌与服务网络，切换成本中等偏高；但Power/Grid/Nuclear并非其核心赛道，技术壁垒有限，竞争对手（Carrier、JCI、Vertiv）压力显著。数据中心制冷增长驱动营收，但AI弹性低意味着差异化不足，护城河宽度中等。 【ai_exposure】TT数据中心制冷业务（Chiller/液冷）受AI算力扩张驱动，约占收入10-15%且增速较快，但核心仍是商业楼宇、工业HVAC等传统业务（占80%+）。AI是增量催化剂而非主驱动，AI退潮对整体业绩冲击有限。 【risk】TT财务结构尚可（现金10.7亿 vs 长债39.2亿），但估值偏高（P/E ~30x），数据中心制冷需求强劲但AI弹性低意味着技术替代风险上升；地缘政治与出口管制对HVAC设备影响有限，主要风险来自高估值回撤与竞争格局变化。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

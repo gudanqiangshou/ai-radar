@@ -11,15 +11,15 @@
     "ai_role": "通用数据库 + Atlas Vector Search 切入 RAG",
     "price": 308.7200012207031,
     "change_1d": 4.78,
-    "composite": 68.97435897435896,
+    "composite": 64.14035087719297,
     "tier_letter": "B",
     "description": [
       "MongoDB 的 AI 产业链位置为 Data / Software Platform。",
-      "AI 角色：通用数据库 + Atlas Vector Search 切入 RAG。当前内部综合评分 68。",
+      "AI 角色：通用数据库 + Atlas Vector Search 切入 RAG。当前内部综合评分 64。",
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "2,652,500",
-        "量比20日": "1.84",
+        "量比20日": "1.30",
         "52周高点": "317.21",
         "52周低点": "289.72",
         "距52周高点": "-2.68%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "MongoDB凭借文档模型开发者心智、Atlas云托管粘性及Vector Search切入RAG生态构建差异化；但开源核心降低技术壁垒，AWS/Google自建兼容服务持续施压，净利率为负显示规模效应尚未成熟，护城河中等偏强但竞争侵蚀风险显著。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 32.0,
+          "reasoning": "MongoDB核心收入来自通用文档数据库，Atlas Vector Search是AI切入点但占比仍小。AI workload带来增量需求，但大多数客户用MDB做传统OLTP/应用数据存储。AI退潮对其冲击有限，但AI上行弹性也较弱，属间接受益标的。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "MongoDB现金充裕(~24亿)但持续亏损，竞争激烈(AWS DocumentDB、PostgreSQL JSON、Firestore)。Atlas占收入70%+，云厂商既是合作方也是竞争对手。AI/RAG赛道Vector Search有潜力但尚未规模化变现。估值偏高(PS ~10x)，宏观收紧时回撤风险显著。整体中等偏高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 68.97435897435896,
+          "value": 64.14035087719297,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "MongoDB（MDB）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】MongoDB凭借文档模型开发者心智、Atlas云托管粘性及Vector Search切入RAG生态构建差异化；但开源核心降低技术壁垒，AWS/Google自建兼容服务持续施压，净利率为负显示规模效应尚未成熟，护城河中等偏强但竞争侵蚀风险显著。 【ai_exposure】MongoDB核心收入来自通用文档数据库，Atlas Vector Search是AI切入点但占比仍小。AI workload带来增量需求，但大多数客户用MDB做传统OLTP/应用数据存储。AI退潮对其冲击有限，但AI上行弹性也较弱，属间接受益标的。 【risk】MongoDB现金充裕(~24亿)但持续亏损，竞争激烈(AWS DocumentDB、PostgreSQL JSON、Firestore)。Atlas占收入70%+，云厂商既是合作方也是竞争对手。AI/RAG赛道Vector Search有潜力但尚未规模化变现。估值偏高(PS ~10x)，宏观收紧时回撤风险显著。整体中等偏高风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 68.97435897435896
+        },
+        {
+          "date": "2026-05-13",
+          "value": 64.14035087719297
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

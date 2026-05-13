@@ -11,15 +11,15 @@
     "ai_role": "AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断",
     "price": 220.77999877929688,
     "change_1d": 0.61,
-    "composite": 89.84615384615385,
+    "composite": 87.94736842105264,
     "tier_letter": "A",
     "description": [
       "NVIDIA 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断。当前内部综合评分 89。",
+      "AI 角色：AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断。当前内部综合评分 87。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "买入区"
   },
   "panels": [
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 92.0,
+          "reasoning": "CUDA生态锁定效应极强，开发者迁移成本极高；H100/B200几乎垄断数据中心AI训练市场；毛利率71%、ROE 101%印证定价权；台积电先进制程优先供给形成资源壁垒；唯一风险是AMD/自研ASIC（谷歌TPU、亚马逊Trainium）长期侵蚀推理市场份额。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 97.0,
+          "reasoning": "数据中心业务占总营收约87%（FY2025），其中绝大部分由AI训练/推理GPU驱动。H100/H200/B200几乎垄断大模型训练市场，微软、谷歌、Meta、亚马逊等超大规模云厂商AI capex直接转化为NVDA营收。AI退潮将导致营收断崖式下跌，是最纯粹的AI基础设施标的。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "NVIDIA财务健康（现金625亿远超负债75亿），但风险集中：1）客户高度集中于少数超大规模云厂商；2）美国对华出口管制持续收紧，中国市场收入受压；3）AMD/自研ASIC（Google TPU、AWS Trainium）竞争加剧；4）当前估值极高（P/E 40-50x远期），任何需求放缓将引发剧烈回撤；5）地缘政治风险持续升级。综合评定为偏高风险区间。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 89.84615384615385,
+          "value": 87.94736842105264,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "NVIDIA（NVDA）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】CUDA生态锁定效应极强，开发者迁移成本极高；H100/B200几乎垄断数据中心AI训练市场；毛利率71%、ROE 101%印证定价权；台积电先进制程优先供给形成资源壁垒；唯一风险是AMD/自研ASIC（谷歌TPU、亚马逊Trainium）长期侵蚀推理市场份额。 【ai_exposure】数据中心业务占总营收约87%（FY2025），其中绝大部分由AI训练/推理GPU驱动。H100/H200/B200几乎垄断大模型训练市场，微软、谷歌、Meta、亚马逊等超大规模云厂商AI capex直接转化为NVDA营收。AI退潮将导致营收断崖式下跌，是最纯粹的AI基础设施标的。 【risk】NVIDIA财务健康（现金625亿远超负债75亿），但风险集中：1）客户高度集中于少数超大规模云厂商；2）美国对华出口管制持续收紧，中国市场收入受压；3）AMD/自研ASIC（Google TPU、AWS Trainium）竞争加剧；4）当前估值极高（P/E 40-50x远期），任何需求放缓将引发剧烈回撤；5）地缘政治风险持续升级。综合评定为偏高风险区间。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 89.84615384615385
+        },
+        {
+          "date": "2026-05-13",
+          "value": 87.94736842105264
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

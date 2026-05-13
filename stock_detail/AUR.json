@@ -11,15 +11,15 @@
     "ai_role": "L4 自动驾驶卡车 — Uber/Volvo 合作",
     "price": 7.21999979019165,
     "change_1d": -0.55,
-    "composite": 27.27272727272727,
+    "composite": 34.17647058823529,
     "tier_letter": "C",
     "description": [
       "Aurora Innovation 的 AI 产业链位置为 Autonomous / Mobility。",
-      "AI 角色：L4 自动驾驶卡车 — Uber/Volvo 合作。当前内部综合评分 27。",
+      "AI 角色：L4 自动驾驶卡车 — Uber/Volvo 合作。当前内部综合评分 34。",
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
     "status_label": "减持"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "25,222,500",
-        "量比20日": "0.80",
+        "量比20日": "0.89",
         "52周高点": "7.51",
         "52周低点": "6.90",
         "距52周高点": "-3.86%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "Aurora拥有L4卡车核心技术栈与Uber/Volvo战略合作，专利积累和监管资质构成一定壁垒；但营收仅400万、毛利率为零、持续烧钱，商业化落地极慢，规模效应尚未形成，竞争对手（Waymo Via、Kodiak）压力大，护城河仍处早期构建阶段。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 95.0,
+          "reasoning": "Aurora的全部业务即L4自动驾驶技术本身，无传统收入来源，商业化完全依赖AI感知/决策系统落地。与Uber Freight、Volvo的合作均以Aurora Driver为核心。AI技术失败=公司归零，属于纯AI押注标的。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 18.0,
+          "reasoning": "Aurora仍处于预商业化阶段，持续大额亏损（年烧钱约6-7亿），现金约12.2亿仅够约2年，无稳定营收。L4卡车商业化时间表不确定，监管路径复杂，竞争对手（Waymo、特斯拉FSD）压力大，客户集中度高，估值依赖未来预期，下行风险极大。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 27.27272727272727,
+          "value": 34.17647058823529,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Aurora Innovation（AUR）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Aurora拥有L4卡车核心技术栈与Uber/Volvo战略合作，专利积累和监管资质构成一定壁垒；但营收仅400万、毛利率为零、持续烧钱，商业化落地极慢，规模效应尚未形成，竞争对手（Waymo Via、Kodiak）压力大，护城河仍处早期构建阶段。 【ai_exposure】Aurora的全部业务即L4自动驾驶技术本身，无传统收入来源，商业化完全依赖AI感知/决策系统落地。与Uber Freight、Volvo的合作均以Aurora Driver为核心。AI技术失败=公司归零，属于纯AI押注标的。 【risk】Aurora仍处于预商业化阶段，持续大额亏损（年烧钱约6-7亿），现金约12.2亿仅够约2年，无稳定营收。L4卡车商业化时间表不确定，监管路径复杂，竞争对手（Waymo、特斯拉FSD）压力大，客户集中度高，估值依赖未来预期，下行风险极大。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 27.27272727272727
+        },
+        {
+          "date": "2026-05-13",
+          "value": 34.17647058823529
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

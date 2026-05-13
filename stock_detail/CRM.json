@@ -11,15 +11,15 @@
     "ai_role": "Agentforce — 企业 SaaS + Agent 工作流",
     "price": 171.30999755859375,
     "change_1d": -3.48,
-    "composite": 44.42307692307692,
+    "composite": 51.55263157894736,
     "tier_letter": "A",
     "description": [
       "Salesforce 的 AI 产业链位置为 AI Application。",
-      "AI 角色：Agentforce — 企业 SaaS + Agent 工作流。当前内部综合评分 44。",
+      "AI 角色：Agentforce — 企业 SaaS + Agent 工作流。当前内部综合评分 51。",
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
     "status_label": "观察"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "10,201,400",
-        "量比20日": "0.92",
+        "量比20日": "0.96",
         "52周高点": "182.50",
         "52周低点": "170.58",
         "距52周高点": "-6.13%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Salesforce凭借深度CRM数据积累、高切换成本和Einstein/Agentforce生态构建技术壁垒，但AI层面面临微软Copilot、ServiceNow等强竞争；78%毛利率支撑研发投入，然而AI Agent差异化尚未形成决定性护城河，客户粘性是核心优势。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "Agentforce是Salesforce当前核心增长叙事，AI附加层正推动ARPU提升，但核心收入仍来自传统CRM订阅。AI功能失败不会摧毁基础业务，属于增强型而非替代型依赖。AI占比估计30-40%，处于重要但非主导地位。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Salesforce现金约96亿但长期负债104亿，杠杆适中。Agentforce押注AI转型方向正确，但企业SaaS竞争加剧（微软Copilot直接竞争），客户留存依赖高切换成本。估值仍偏高（P/E ~30x），监管风险温和。整体中低风险，AI战略执行是关键变量。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 44.42307692307692,
+          "value": 51.55263157894736,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Salesforce（CRM）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Salesforce凭借深度CRM数据积累、高切换成本和Einstein/Agentforce生态构建技术壁垒，但AI层面面临微软Copilot、ServiceNow等强竞争；78%毛利率支撑研发投入，然而AI Agent差异化尚未形成决定性护城河，客户粘性是核心优势。 【ai_exposure】Agentforce是Salesforce当前核心增长叙事，AI附加层正推动ARPU提升，但核心收入仍来自传统CRM订阅。AI功能失败不会摧毁基础业务，属于增强型而非替代型依赖。AI占比估计30-40%，处于重要但非主导地位。 【risk】Salesforce现金约96亿但长期负债104亿，杠杆适中。Agentforce押注AI转型方向正确，但企业SaaS竞争加剧（微软Copilot直接竞争），客户留存依赖高切换成本。估值仍偏高（P/E ~30x），监管风险温和。整体中低风险，AI战略执行是关键变量。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 44.42307692307692
+        },
+        {
+          "date": "2026-05-13",
+          "value": 51.55263157894736
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

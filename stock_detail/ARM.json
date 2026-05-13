@@ -11,16 +11,16 @@
     "ai_role": "IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座",
     "price": 207.9199981689453,
     "change_1d": -2.22,
-    "composite": 39.23076923076923,
+    "composite": 50.42105263157895,
     "tier_letter": "B",
     "description": [
       "ARM Holdings 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座。当前内部综合评分 39。",
+      "AI 角色：IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座。当前内部综合评分 50。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
-    "status_label": "减持"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "7,814,400",
-        "量比20日": "0.74",
+        "量比20日": "0.85",
         "52周高点": "216.50",
         "52周低点": "200.89",
         "距52周高点": "-3.96%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 87.0,
+          "reasoning": "ARM指令集架构形成行业标准，生态锁定效应极强；Neoverse渗透云/HPC，终端SoC几乎垄断移动端；97%毛利率印证IP模式高壁垒。主要风险：RISC-V开源替代长期侵蚀低端市场，英特尔/AMD x86在服务器仍具竞争力。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "ARM通过Neoverse平台深度受益于AI数据中心capex扩张，CSS for AI及v9架构授权费溢价明显；终端侧NPU集成推动版税提升。但收入仍依赖广泛授权生态（手机、汽车、IoT），AI直接驱动占比约30-40%，非纯AI标的，AI退潮冲击有限但增长逻辑受损显著。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "ARM估值极高（P/E>100x），严重依赖高通/苹果/英伟达等少数大客户，软银控股带来治理风险，中美科技脱钩威胁中国授权收入（占比~25%），RISC-V开源替代持续侵蚀低端市场，大客户自研芯片（苹果/亚马逊）长期压缩授权需求，综合风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 39.23076923076923,
+          "value": 50.42105263157895,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "ARM Holdings（ARM）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】ARM指令集架构形成行业标准，生态锁定效应极强；Neoverse渗透云/HPC，终端SoC几乎垄断移动端；97%毛利率印证IP模式高壁垒。主要风险：RISC-V开源替代长期侵蚀低端市场，英特尔/AMD x86在服务器仍具竞争力。 【ai_exposure】ARM通过Neoverse平台深度受益于AI数据中心capex扩张，CSS for AI及v9架构授权费溢价明显；终端侧NPU集成推动版税提升。但收入仍依赖广泛授权生态（手机、汽车、IoT），AI直接驱动占比约30-40%，非纯AI标的，AI退潮冲击有限但增长逻辑受损显著。 【risk】ARM估值极高（P/E>100x），严重依赖高通/苹果/英伟达等少数大客户，软银控股带来治理风险，中美科技脱钩威胁中国授权收入（占比~25%），RISC-V开源替代持续侵蚀低端市场，大客户自研芯片（苹果/亚马逊）长期压缩授权需求，综合风险偏高。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 39.23076923076923
+        },
+        {
+          "date": "2026-05-13",
+          "value": 50.42105263157895
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

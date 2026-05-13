@@ -11,15 +11,15 @@
     "ai_role": "开关设备 + 中压电气，电网设备小盘股",
     "price": 308.04998779296875,
     "change_1d": -4.35,
-    "composite": 56.37964774951076,
+    "composite": 51.56261904761905,
     "tier_letter": "B",
     "description": [
       "Powell Industries 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：开关设备 + 中压电气，电网设备小盘股。当前内部综合评分 56。",
+      "AI 角色：开关设备 + 中压电气，电网设备小盘股。当前内部综合评分 51。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "27.55",
         "20日波动率": "64.58%",
         "成交量": "876,400",
-        "量比20日": "1.24",
+        "量比20日": "1.22",
         "52周高点": "328.00",
         "52周低点": "54.75",
         "距52周高点": "-6.08%",
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 69.52380952380952,
+          "value": 65.83333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "POWL深耕中压开关设备数十年，客户以石化/电力公用事业为主，切换成本高、认证周期长；30%毛利率与17%净利率印证定价权。但规模偏小（TTM约3亿美元），无显著专利护城河，面临ABB/Eaton等巨头竞争，品牌影响力局限北美细分市场。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "Powell的中压开关设备直接受益于AI数据中心电力基础设施建设，数据中心已成为重要订单来源，但公司同时服务石油天然气、工业、公用事业等多元终端市场，AI驱动占比估计30-45%，非唯一增长引擎，AI退潮影响显著但不致命。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.095238095238095,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 80.47619047619048,
+          "value": 80.71428571428571,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 20.42857142857143,
+          "value": 0.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 90.95238095238095,
+          "value": 80.35714285714286,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "POWL现金充裕（~5.4亿）、无明显长期负债，财务结构健康。但作为电网设备小盘股，客户集中度高、产品线窄、依赖资本支出周期，估值弹性大（小盘溢价易回撤）。核电/电网政策敏感，地缘出口管制存在潜在扰动。综合评定为中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 56.37964774951076,
+          "value": 51.56261904761905,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:01",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
       "data": {
         "target_mean": 316.25,
         "target_high": 360.0,
@@ -189,7 +189,7 @@
       "title": "Powell Industries（POWL）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】POWL深耕中压开关设备数十年，客户以石化/电力公用事业为主，切换成本高、认证周期长；30%毛利率与17%净利率印证定价权。但规模偏小（TTM约3亿美元），无显著专利护城河，面临ABB/Eaton等巨头竞争，品牌影响力局限北美细分市场。 【ai_exposure】Powell的中压开关设备直接受益于AI数据中心电力基础设施建设，数据中心已成为重要订单来源，但公司同时服务石油天然气、工业、公用事业等多元终端市场，AI驱动占比估计30-45%，非唯一增长引擎，AI退潮影响显著但不致命。 【risk】POWL现金充裕（~5.4亿）、无明显长期负债，财务结构健康。但作为电网设备小盘股，客户集中度高、产品线窄、依赖资本支出周期，估值弹性大（小盘溢价易回撤）。核电/电网政策敏感，地缘出口管制存在潜在扰动。综合评定为中等风险。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

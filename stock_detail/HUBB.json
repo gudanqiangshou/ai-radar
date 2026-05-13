@@ -11,15 +11,15 @@
     "ai_role": "电气配电 + 工业连接，数据中心电气整合",
     "price": 485.9800109863281,
     "change_1d": -0.85,
-    "composite": 58.35616438356164,
+    "composite": 52.303095238095246,
     "tier_letter": "B",
     "description": [
       "Hubbell 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：电气配电 + 工业连接，数据中心电气整合。当前内部综合评分 58。",
+      "AI 角色：电气配电 + 工业连接，数据中心电气整合。当前内部综合评分 52。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "-6.77",
         "20日波动率": "33.13%",
         "成交量": "698,392",
-        "量比20日": "1.12",
+        "量比20日": "1.10",
         "52周高点": "565.50",
         "52周低点": "373.18",
         "距52周高点": "-14.06%",
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 65.71428571428571,
+          "value": 64.64285714285714,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Hubbell在电气配电领域拥有深厚的技术积累与品牌认知，UL/NEC认证体系构成监管壁垒，公用事业与数据中心客户切换成本高。但产品标准化程度较高，竞争对手（Eaton、ABB）实力强劲，规模效应有限，护城河属于中高水平但非顶级。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "Hubbell的数据中心电气业务（配电、连接器、母线槽）直接受益于AI基础设施建设，约占收入20-30%，是近年增长亮点。但公司核心仍是工业/公用事业电气，电网现代化和非AI工业需求占主导。AI capex放缓会影响增长但不致命。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 36.523809523809526,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 63.452380952380956,
+          "value": 15.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 12.38095238095238,
+          "value": 12.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Hubbell财务结构稳健，现金5亿美元，长期负债20亿可控，受益数据中心与电网升级需求。但估值偏高（P/E约20x），工业周期性波动、关税成本压力及电气设备竞争加剧构成中等风险，客户集中度数据缺失增加不确定性。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 58.35616438356164,
+          "value": 52.303095238095246,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:01",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
       "data": {
         "target_mean": 547.1539,
         "target_high": 600.0,
@@ -179,7 +179,7 @@
         "previous_rating_letter": "A-",
         "n_analysts": 13,
         "next_earnings": "2026-07-28",
-        "eps_estimate": 5.36001,
+        "eps_estimate": 5.35889,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -189,7 +189,7 @@
       "title": "Hubbell（HUBB）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Hubbell在电气配电领域拥有深厚的技术积累与品牌认知，UL/NEC认证体系构成监管壁垒，公用事业与数据中心客户切换成本高。但产品标准化程度较高，竞争对手（Eaton、ABB）实力强劲，规模效应有限，护城河属于中高水平但非顶级。 【ai_exposure】Hubbell的数据中心电气业务（配电、连接器、母线槽）直接受益于AI基础设施建设，约占收入20-30%，是近年增长亮点。但公司核心仍是工业/公用事业电气，电网现代化和非AI工业需求占主导。AI capex放缓会影响增长但不致命。 【risk】Hubbell财务结构稳健，现金5亿美元，长期负债20亿可控，受益数据中心与电网升级需求。但估值偏高（P/E约20x），工业周期性波动、关税成本压力及电气设备竞争加剧构成中等风险，客户集中度数据缺失增加不确定性。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

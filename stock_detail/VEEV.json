@@ -11,15 +11,15 @@
     "ai_role": "生命科学 SaaS — 临床试验 / 药企 CRM 标准",
     "price": 159.4199981689453,
     "change_1d": 0.06,
-    "composite": 61.92307692307692,
+    "composite": 64.36842105263158,
     "tier_letter": "B",
     "description": [
       "Veeva Systems 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：生命科学 SaaS — 临床试验 / 药企 CRM 标准。当前内部综合评分 61。",
+      "AI 角色：生命科学 SaaS — 临床试验 / 药企 CRM 标准。当前内部综合评分 64。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "1,873,000",
-        "量比20日": "0.79",
+        "量比20日": "0.88",
         "52周高点": "166.66",
         "52周低点": "158.05",
         "距52周高点": "-4.34%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 82.0,
+          "reasoning": "Veeva深度嵌入药企合规流程，Vault与CRM数据互联形成生态锁定，切换成本极高；生命科学垂直领域Know-how积累深厚，监管合规要求强化壁垒；但客户集中于大型药企，增长天花板可见，竞争来自Salesforce Health及内部自建系统。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "Veeva是生命科学垂直SaaS，核心收入来自Vault平台和CRM订阅，AI（如Vault CoPilot）是功能增强而非独立收入驱动。客户采购决策基于合规/监管需求而非AI capex，AI退潮对续约率影响有限。AI暴露属辅助受益层级。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Veeva现金充裕（~65亿）、无长期负债，财务稳健。但高度依赖生命科学单一垂直行业，客户集中于大型药企，Salesforce竞争威胁持续存在，AI原生CRM替代风险上升。估值历史偏高，回撤风险中等。整体低中风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 61.92307692307692,
+          "value": 64.36842105263158,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Veeva Systems（VEEV）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Veeva深度嵌入药企合规流程，Vault与CRM数据互联形成生态锁定，切换成本极高；生命科学垂直领域Know-how积累深厚，监管合规要求强化壁垒；但客户集中于大型药企，增长天花板可见，竞争来自Salesforce Health及内部自建系统。 【ai_exposure】Veeva是生命科学垂直SaaS，核心收入来自Vault平台和CRM订阅，AI（如Vault CoPilot）是功能增强而非独立收入驱动。客户采购决策基于合规/监管需求而非AI capex，AI退潮对续约率影响有限。AI暴露属辅助受益层级。 【risk】Veeva现金充裕（~65亿）、无长期负债，财务稳健。但高度依赖生命科学单一垂直行业，客户集中于大型药企，Salesforce竞争威胁持续存在，AI原生CRM替代风险上升。估值历史偏高，回撤风险中等。整体低中风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 61.92307692307692
+        },
+        {
+          "date": "2026-05-13",
+          "value": 64.36842105263158
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

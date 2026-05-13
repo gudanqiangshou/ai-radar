@@ -11,15 +11,15 @@
     "ai_role": "量子退火 — 优化问题特化路线",
     "price": 22.350000381469727,
     "change_1d": -6.99,
-    "composite": 36.53846153846154,
+    "composite": 39.63157894736842,
     "tier_letter": "C",
     "description": [
       "D-Wave Quantum 的 AI 产业链位置为 Quantum / Frontier Computing。",
-      "AI 角色：量子退火 — 优化问题特化路线。当前内部综合评分 36。",
+      "AI 角色：量子退火 — 优化问题特化路线。当前内部综合评分 39。",
       "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
     "status_label": "减持"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "46,780,600",
-        "量比20日": "1.29",
+        "量比20日": "1.13",
         "52周高点": "24.78",
         "52周低点": "20.88",
         "距52周高点": "-9.81%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "D-Wave在量子退火领域拥有20年先发优势与深厚专利积累，客户含政府/企业级长期合约，品牌认知度高。但营收规模极小（1244万TTM）、ROE深度负值，通用量子计算（IBM/Google）路线对其形成替代威胁，规模效应与盈利能力护城河薄弱。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "D-Wave量子退火机直接服务于AI/ML优化问题（调度、物流、金融），与AI capex浪潮有间接关联，但客户群体小众、商业化进展缓慢，收入规模极小且非主流AI基础设施。量子计算尚未被AI主流采纳，AI退潮对其影响有限但增长叙事高度依赖AI热度。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 18.0,
+          "reasoning": "D-Wave持续亏损、营收规模极小、量子退火路线面临通用量子计算替代威胁、客户集中度高、市场认可度存疑。现金约5.88亿尚可支撑运营，但长期商业化路径不明朗，估值高度投机，综合风险极高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 36.53846153846154,
+          "value": 39.63157894736842,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "D-Wave Quantum（QBTS）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】D-Wave在量子退火领域拥有20年先发优势与深厚专利积累，客户含政府/企业级长期合约，品牌认知度高。但营收规模极小（1244万TTM）、ROE深度负值，通用量子计算（IBM/Google）路线对其形成替代威胁，规模效应与盈利能力护城河薄弱。 【ai_exposure】D-Wave量子退火机直接服务于AI/ML优化问题（调度、物流、金融），与AI capex浪潮有间接关联，但客户群体小众、商业化进展缓慢，收入规模极小且非主流AI基础设施。量子计算尚未被AI主流采纳，AI退潮对其影响有限但增长叙事高度依赖AI热度。 【risk】D-Wave持续亏损、营收规模极小、量子退火路线面临通用量子计算替代威胁、客户集中度高、市场认可度存疑。现金约5.88亿尚可支撑运营，但长期商业化路径不明朗，估值高度投机，综合风险极高。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 36.53846153846154
+        },
+        {
+          "date": "2026-05-13",
+          "value": 39.63157894736842
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

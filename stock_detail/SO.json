@@ -11,7 +11,7 @@
     "ai_role": "Vogtle 核电 + 受监管公用事业稳健底仓",
     "price": 93.47000122070312,
     "change_1d": 0.4,
-    "composite": 63.49641226353554,
+    "composite": 63.16357142857144,
     "tier_letter": "B",
     "description": [
       "Southern Company 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "-0.54",
         "20日波动率": "21.49%",
         "成交量": "4,509,400",
-        "量比20日": "0.92",
+        "量比20日": "0.93",
         "52周高点": "100.84",
         "52周低点": "83.09",
         "距52周高点": "-7.31%",
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 73.80952380952381,
+          "value": 55.833333333333336,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 82.0,
+          "reasoning": "受监管垄断特许经营构成最强护城河：服务区域独占、监管准入极高、客户无切换选项。Vogtle核电站提供稀缺核能Know-how与长期低碳基荷优势。规模效应显著，毛利率48%健康。主要弱点是ROE偏低（11%）及核电超支历史带来的资本效率隐忧。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "SO是受监管电力公用事业，AI数据中心用电增长带来需求侧利好，Vogtle核电提供稳定基荷支撑。但收入主要来自传统零售/工业电力，AI驱动的负荷增长占比有限，监管定价机制平滑了上行弹性，AI退潮对基本面冲击较小。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 34.33333333333333,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 71.9047619047619,
+          "value": 73.0952380952381,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 67.92857142857143,
+          "value": 70.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 29.523809523809526,
+          "value": 23.214285714285715,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Vogtle核电已投运提供稳定现金流，受监管业务收入可预期。但长期负债高达671亿美元、现金仅9.81亿，财务杠杆极高；利率上升压力显著；核电超支历史遗留成本仍存；估值相对公用事业同行偏高，回撤空间有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 63.49641226353554,
+          "value": 63.16357142857144,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:01",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
       "data": {
         "target_mean": 101.76316,
         "target_high": 114.0,
@@ -189,7 +189,7 @@
       "title": "Southern Company（SO）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】受监管垄断特许经营构成最强护城河：服务区域独占、监管准入极高、客户无切换选项。Vogtle核电站提供稀缺核能Know-how与长期低碳基荷优势。规模效应显著，毛利率48%健康。主要弱点是ROE偏低（11%）及核电超支历史带来的资本效率隐忧。 【ai_exposure】SO是受监管电力公用事业，AI数据中心用电增长带来需求侧利好，Vogtle核电提供稳定基荷支撑。但收入主要来自传统零售/工业电力，AI驱动的负荷增长占比有限，监管定价机制平滑了上行弹性，AI退潮对基本面冲击较小。 【risk】Vogtle核电已投运提供稳定现金流，受监管业务收入可预期。但长期负债高达671亿美元、现金仅9.81亿，财务杠杆极高；利率上升压力显著；核电超支历史遗留成本仍存；估值相对公用事业同行偏高，回撤空间有限。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

@@ -11,16 +11,16 @@
     "ai_role": "全球最大铀生产商 + 核燃料服务",
     "price": 116.93000030517578,
     "change_1d": -2.67,
-    "composite": 41.617742987606,
+    "composite": 50.80071428571429,
     "tier_letter": "C",
     "description": [
       "Cameco 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：全球最大铀生产商 + 核燃料服务。当前内部综合评分 41。",
+      "AI 角色：全球最大铀生产商 + 核燃料服务。当前内部综合评分 50。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 58.095238095238095,
+          "value": 43.45238095238095,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 82.0,
+          "reasoning": "Cameco控制全球约15%铀产量，McArthur River等高品位矿山构成资源壁垒；核燃料长期合约（10年+）锁定客户，切换成本极高；铀矿开采许可证审批周期长达十年，监管壁垒极深。主要风险是铀价周期性波动及地缘政治风险（哈萨克斯坦竞争）。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 32.0,
+          "reasoning": "Cameco是全球最大铀生产商，AI数据中心电力需求推动核电复兴间接利好铀价，但其收入来自铀矿开采和核燃料服务，与AI capex无直接合同绑定。AI是边际需求催化剂而非核心驱动，传统核电、能源转型、地缘政治才是主要定价因素。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 37.85714285714286,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 62.857142857142854,
+          "value": 66.19047619047619,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 10.69047619047619,
+          "value": 30.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 38.095238095238095,
+          "value": 37.49999999999999,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "财务结构尚可（现金>长期负债），但铀价波动剧烈、地缘政治风险高（哈萨克斯坦/俄罗斯供应链）、客户集中于少数核电运营商、监管壁垒双刃剑、估值溢价显著（核能复苏预期已充分定价），近期股价下跌6%反映市场分歧，综合风险中等偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 41.617742987606,
+          "value": 50.80071428571429,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
       "data": {
-        "target_mean": 138.45538,
-        "target_high": 173.94612,
-        "target_low": 82.332634,
-        "upside_pct": 18.41,
+        "target_mean": 138.46548,
+        "target_high": 173.95882,
+        "target_low": 82.33864,
+        "upside_pct": 18.42,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -189,7 +189,7 @@
       "title": "Cameco（CCJ）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Cameco控制全球约15%铀产量，McArthur River等高品位矿山构成资源壁垒；核燃料长期合约（10年+）锁定客户，切换成本极高；铀矿开采许可证审批周期长达十年，监管壁垒极深。主要风险是铀价周期性波动及地缘政治风险（哈萨克斯坦竞争）。 【ai_exposure】Cameco是全球最大铀生产商，AI数据中心电力需求推动核电复兴间接利好铀价，但其收入来自铀矿开采和核燃料服务，与AI capex无直接合同绑定。AI是边际需求催化剂而非核心驱动，传统核电、能源转型、地缘政治才是主要定价因素。 【risk】财务结构尚可（现金>长期负债），但铀价波动剧烈、地缘政治风险高（哈萨克斯坦/俄罗斯供应链）、客户集中于少数核电运营商、监管壁垒双刃剑、估值溢价显著（核能复苏预期已充分定价），近期股价下跌6%反映市场分歧，综合风险中等偏高。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

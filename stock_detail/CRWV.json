@@ -11,15 +11,15 @@
     "ai_role": "GPU 云第一 — 2025 IPO，Microsoft/NVIDIA 战略合作",
     "price": 107.75,
     "change_1d": -6.06,
-    "composite": 56.15384615384615,
+    "composite": 57.631578947368425,
     "tier_letter": "A",
     "description": [
       "CoreWeave 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：GPU 云第一 — 2025 IPO，Microsoft/NVIDIA 战略合作。当前内部综合评分 56。",
+      "AI 角色：GPU 云第一 — 2025 IPO，Microsoft/NVIDIA 战略合作。当前内部综合评分 57。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "32,711,100",
-        "量比20日": "1.18",
+        "量比20日": "1.08",
         "52周高点": "119.49",
         "52周低点": "101.12",
         "距52周高点": "-9.83%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "CoreWeave凭借NVIDIA深度绑定（H100/H200优先供应）、微软长期合约（约占营收60%+）及69%高毛利率构建差异化壁垒；但客户高度集中、净亏损持续、重资产模式债务压力大，且AWS/Azure/GCP随时可复制GPU云能力，护城河宽度有限但短期竞争地位稳固。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 95.0,
+          "reasoning": "CoreWeave是纯GPU云公司，收入几乎100%来自AI/ML工作负载的GPU算力租赁。微软签署数十亿美元长期合同，NVIDIA战略持股，2025年IPO时营收约19亿美元且高度依赖AI capex周期。无AI需求则业务模式归零，是最纯粹的AI基础设施标的之一。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 22.0,
+          "reasoning": "财务风险极高：长期负债146亿美元远超现金22亿，利息压力沉重；客户高度集中于Microsoft（占收比超60%）；GPU云竞争激烈，大客户自建算力趋势明显；2025年IPO估值偏高，市场情绪波动风险大；出口管制政策随时可能冲击GPU供应链。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 56.15384615384615,
+          "value": 57.631578947368425,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "CoreWeave（CRWV）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】CoreWeave凭借NVIDIA深度绑定（H100/H200优先供应）、微软长期合约（约占营收60%+）及69%高毛利率构建差异化壁垒；但客户高度集中、净亏损持续、重资产模式债务压力大，且AWS/Azure/GCP随时可复制GPU云能力，护城河宽度有限但短期竞争地位稳固。 【ai_exposure】CoreWeave是纯GPU云公司，收入几乎100%来自AI/ML工作负载的GPU算力租赁。微软签署数十亿美元长期合同，NVIDIA战略持股，2025年IPO时营收约19亿美元且高度依赖AI capex周期。无AI需求则业务模式归零，是最纯粹的AI基础设施标的之一。 【risk】财务风险极高：长期负债146亿美元远超现金22亿，利息压力沉重；客户高度集中于Microsoft（占收比超60%）；GPU云竞争激烈，大客户自建算力趋势明显；2025年IPO估值偏高，市场情绪波动风险大；出口管制政策随时可能冲击GPU供应链。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 56.15384615384615
+        },
+        {
+          "date": "2026-05-13",
+          "value": 57.631578947368425
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

@@ -11,16 +11,16 @@
     "ai_role": "光器件 / 激光 — 数据中心收发器核心元件",
     "price": 374.010009765625,
     "change_1d": -1.5,
-    "composite": 34.35897435897436,
+    "composite": 42.35087719298246,
     "tier_letter": "B",
     "description": [
       "Coherent 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：光器件 / 激光 — 数据中心收发器核心元件。当前内部综合评分 34。",
+      "AI 角色：光器件 / 激光 — 数据中心收发器核心元件。当前内部综合评分 42。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
-    "status_label": "减持"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "5,971,400",
-        "量比20日": "0.61",
+        "量比20日": "0.75",
         "52周高点": "384.85",
         "52周低点": "338.00",
         "距52周高点": "-2.82%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Coherent在800G/1.6T收发器及垂直腔面发射激光器(VCSEL)拥有深厚专利与工艺积累，客户切换成本高，但行业竞争激烈（II-VI整合后仍面临Lumentum、InPhi等压力）。毛利率37%偏低，ROE仅5%，规模效应尚未充分转化为财务护城河，整体护城河中等偏上。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Coherent的数据中心收发器（400G/800G光模块）直接受AI超大规模建设驱动，占收入比例持续提升，预计FY2025超40-50%。但公司仍有电信、工业激光等传统业务分散风险。AI capex放缓将显著冲击其增长预期，属于AI主要驱动但非纯AI标的。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "Coherent财务杠杆较高（长期负债32亿 vs 现金24亿），净负债约8亿；光器件行业客户集中度高（依赖少数超大规模云厂商）；中美出口管制持续施压；客户自研硅光子威胁长期格局；当前AI基建热潮推高估值，回撤风险显著。综合评定为偏高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 34.35897435897436,
+          "value": 42.35087719298246,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Coherent（COHR）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Coherent在800G/1.6T收发器及垂直腔面发射激光器(VCSEL)拥有深厚专利与工艺积累，客户切换成本高，但行业竞争激烈（II-VI整合后仍面临Lumentum、InPhi等压力）。毛利率37%偏低，ROE仅5%，规模效应尚未充分转化为财务护城河，整体护城河中等偏上。 【ai_exposure】Coherent的数据中心收发器（400G/800G光模块）直接受AI超大规模建设驱动，占收入比例持续提升，预计FY2025超40-50%。但公司仍有电信、工业激光等传统业务分散风险。AI capex放缓将显著冲击其增长预期，属于AI主要驱动但非纯AI标的。 【risk】Coherent财务杠杆较高（长期负债32亿 vs 现金24亿），净负债约8亿；光器件行业客户集中度高（依赖少数超大规模云厂商）；中美出口管制持续施压；客户自研硅光子威胁长期格局；当前AI基建热潮推高估值，回撤风险显著。综合评定为偏高风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 34.35897435897436
+        },
+        {
+          "date": "2026-05-13",
+          "value": 42.35087719298246
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

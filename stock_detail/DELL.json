@@ -11,16 +11,16 @@
     "ai_role": "AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴",
     "price": 238.94000244140625,
     "change_1d": -3.28,
-    "composite": 86.66666666666666,
+    "composite": 65.16666666666666,
     "tier_letter": "B",
     "description": [
       "Dell Technologies 的 AI 产业链位置为 Consumer AI / Device。",
-      "AI 角色：AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴。当前内部综合评分 86。",
+      "AI 角色：AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴。当前内部综合评分 65。",
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
-    "status_label": "买入区"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "7,134,500",
-        "量比20日": "0.62",
+        "量比20日": "0.77",
         "52周高点": "255.45",
         "52周低点": "228.50",
         "距52周高点": "-6.46%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "Dell在AI服务器端依赖NVIDIA生态，技术壁垒有限；企业客户粘性较强但消费PC端切换成本低；规模效应存在但毛利率仅20%显示议价能力弱；品牌认知度高但溢价空间有限；整体护城河偏浅，竞争差异化不足。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "Dell AI服务器（PowerEdge+NVIDIA GPU）是当前最强增长引擎，ISG部门AI订单激增，但传统PC（CSG）和企业存储仍占总收入约50%+。AI capex周期直接拉动服务器出货，但Dell本质是硬件组装分销商，毛利薄，AI退潮时订单弹性大但利润损伤相对可控。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "Dell财务杠杆高（长期负债234亿，负债率偏高），AI服务器增长强劲但依赖NVIDIA供应链，PC业务周期性强。客户集中度存疑，中美贸易摩擦带来出口管制风险。AI基础设施需求支撑中期增长，但估值已反映较多乐观预期，整体中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 86.66666666666666,
+          "value": 65.16666666666666,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Dell Technologies（DELL）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Dell在AI服务器端依赖NVIDIA生态，技术壁垒有限；企业客户粘性较强但消费PC端切换成本低；规模效应存在但毛利率仅20%显示议价能力弱；品牌认知度高但溢价空间有限；整体护城河偏浅，竞争差异化不足。 【ai_exposure】Dell AI服务器（PowerEdge+NVIDIA GPU）是当前最强增长引擎，ISG部门AI订单激增，但传统PC（CSG）和企业存储仍占总收入约50%+。AI capex周期直接拉动服务器出货，但Dell本质是硬件组装分销商，毛利薄，AI退潮时订单弹性大但利润损伤相对可控。 【risk】Dell财务杠杆高（长期负债234亿，负债率偏高），AI服务器增长强劲但依赖NVIDIA供应链，PC业务周期性强。客户集中度存疑，中美贸易摩擦带来出口管制风险。AI基础设施需求支撑中期增长，但估值已反映较多乐观预期，整体中等风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 86.66666666666666
+        },
+        {
+          "date": "2026-05-13",
+          "value": 65.16666666666666
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

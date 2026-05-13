@@ -11,15 +11,15 @@
     "ai_role": "卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷",
     "price": 125.06999969482422,
     "change_1d": 0.14,
-    "composite": 63.3235485975212,
+    "composite": 60.85166666666667,
     "tier_letter": "B",
     "description": [
       "Duke Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷。当前内部综合评分 63。",
+      "AI 角色：卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷。当前内部综合评分 60。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "-1.10",
         "20日波动率": "17.13%",
         "成交量": "3,337,900",
-        "量比20日": "1.11",
+        "量比20日": "1.09",
         "52周高点": "134.49",
         "52周低点": "111.22",
         "距52周高点": "-7.00%",
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 70.47619047619047,
+          "value": 52.26190476190476,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 82.0,
+          "reasoning": "Duke Energy凭借卡罗来纳/佛州独家特许经营权构建强监管壁垒，输配电网络具备天然垄断属性，客户切换成本极高。AI数据中心负荷增长强化长期合约粘性。核电运营Know-how稀缺。主要弱点是ROE偏低（10%）、资本密集度高、受监管定价限制盈利弹性。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "Duke Energy是传统受监管电力公司，AI数据中心负荷增长是其卡罗来纳/佛州服务区的新增需求驱动之一，但核心收入仍来自居民/商业用电。AI相关PPA和数据中心连接协议贡献增量，但占总收入比例有限，AI退潮对其影响远小于纯AI基础设施标的。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 41.42857142857143,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 67.14285714285714,
+          "value": 69.76190476190476,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 72.76190476190476,
+          "value": 65.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 21.666666666666664,
+          "value": 19.642857142857142,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Duke Energy作为受监管公用事业公司，现金流稳定、股息可靠，但长期负债高达804亿美元、负债率偏高，利息覆盖压力显著。AI数据中心新增负荷带来增长机会，但同时加大资本支出需求。监管审批风险、核电运营成本及利率上升构成主要压力，整体属低中风险区间。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 63.3235485975212,
+          "value": 60.85166666666667,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:01",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
       "data": {
-        "target_mean": 139.66667,
+        "target_mean": 140.0,
         "target_high": 146.0,
         "target_low": 131.0,
-        "upside_pct": 11.67,
+        "upside_pct": 11.94,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -189,7 +189,7 @@
       "title": "Duke Energy（DUK）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Duke Energy凭借卡罗来纳/佛州独家特许经营权构建强监管壁垒，输配电网络具备天然垄断属性，客户切换成本极高。AI数据中心负荷增长强化长期合约粘性。核电运营Know-how稀缺。主要弱点是ROE偏低（10%）、资本密集度高、受监管定价限制盈利弹性。 【ai_exposure】Duke Energy是传统受监管电力公司，AI数据中心负荷增长是其卡罗来纳/佛州服务区的新增需求驱动之一，但核心收入仍来自居民/商业用电。AI相关PPA和数据中心连接协议贡献增量，但占总收入比例有限，AI退潮对其影响远小于纯AI基础设施标的。 【risk】Duke Energy作为受监管公用事业公司，现金流稳定、股息可靠，但长期负债高达804亿美元、负债率偏高，利息覆盖压力显著。AI数据中心新增负荷带来增长机会，但同时加大资本支出需求。监管审批风险、核电运营成本及利率上升构成主要压力，整体属低中风险区间。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

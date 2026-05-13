@@ -11,16 +11,16 @@
     "ai_role": "超导量子计算 — 通用门量子设计",
     "price": 19.06999969482422,
     "change_1d": -7.02,
-    "composite": 40.76923076923077,
+    "composite": 38.36842105263158,
     "tier_letter": "C",
     "description": [
       "Rigetti Computing 的 AI 产业链位置为 Quantum / Frontier Computing。",
-      "AI 角色：超导量子计算 — 通用门量子设计。当前内部综合评分 40。",
+      "AI 角色：超导量子计算 — 通用门量子设计。当前内部综合评分 38。",
       "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "49,374,700",
-        "量比20日": "1.11",
+        "量比20日": "1.05",
         "52周高点": "21.02",
         "52周低点": "18.23",
         "距52周高点": "-9.28%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "Rigetti拥有自研超导量子芯片工艺与专利积累，技术壁垒有一定基础，但面临IBM、Google等巨头正面竞争；营收仅1000万美元级别，规模效应极弱；客户粘性低，量子云服务可替代性高；ROE深度负值显示商业化尚早，护城河整体偏窄。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 35.0,
+          "reasoning": "Rigetti是量子计算硬件公司，与AI的关联是间接的——量子计算被视为未来AI加速的潜在路径，但目前收入极小且主要来自政府/研究合同，并非AI capex驱动。量子优势尚未实现，AI繁荣对其营收无直接拉动，属于概念性受益而非实质性暴露。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 12.0,
+          "reasoning": "Rigetti持续亏损、无稳定营收、依赖政府合同与融资续命，量子计算商业化遥遥无期。技术路线面临IBM/Google超导竞争及离子阱替代威胁，估值严重脱离基本面，现金虽有4.18亿但消耗速度快，极高投机风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 40.76923076923077,
+          "value": 38.36842105263158,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Rigetti Computing（RGTI）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Rigetti拥有自研超导量子芯片工艺与专利积累，技术壁垒有一定基础，但面临IBM、Google等巨头正面竞争；营收仅1000万美元级别，规模效应极弱；客户粘性低，量子云服务可替代性高；ROE深度负值显示商业化尚早，护城河整体偏窄。 【ai_exposure】Rigetti是量子计算硬件公司，与AI的关联是间接的——量子计算被视为未来AI加速的潜在路径，但目前收入极小且主要来自政府/研究合同，并非AI capex驱动。量子优势尚未实现，AI繁荣对其营收无直接拉动，属于概念性受益而非实质性暴露。 【risk】Rigetti持续亏损、无稳定营收、依赖政府合同与融资续命，量子计算商业化遥遥无期。技术路线面临IBM/Google超导竞争及离子阱替代威胁，估值严重脱离基本面，现金虽有4.18亿但消耗速度快，极高投机风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 40.76923076923077
+        },
+        {
+          "date": "2026-05-13",
+          "value": 38.36842105263158
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

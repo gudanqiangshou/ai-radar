@@ -11,16 +11,16 @@
     "ai_role": "互联型数据中心 REIT — 全球互联枢纽",
     "price": 1080.6300048828125,
     "change_1d": -0.51,
-    "composite": 39.61538461538461,
+    "composite": 49.31578947368422,
     "tier_letter": "A",
     "description": [
       "Equinix 的 AI 产业链位置为 Data Center Infrastructure。",
-      "AI 角色：互联型数据中心 REIT — 全球互联枢纽。当前内部综合评分 39。",
+      "AI 角色：互联型数据中心 REIT — 全球互联枢纽。当前内部综合评分 49。",
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
-    "status_label": "减持"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "464,100",
-        "量比20日": "0.68",
+        "量比20日": "0.81",
         "52周高点": "1094.85",
         "52周低点": "1069.68",
         "距52周高点": "-1.30%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 82.0,
+          "reasoning": "Equinix凭借全球250+数据中心构成的互联生态形成强网络效应，客户一旦接入即面临极高迁移成本（跨连接依赖、延迟敏感）。稀缺地段与电力资源构成监管/资源壁垒。毛利率52%印证定价权，但资本密集、竞争加剧（Digital Realty等）及AI算力需求转向云端略压评分。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "Equinix 作为全球互联枢纽，AI 训练/推理工作负载带动托管需求增长，超大规模云客户（AWS、Azure、GCP）扩容直接受益。但其核心收入仍来自企业互联与传统托管，AI 驱动占比估计 30-40%。高密度 GPU 机柜需求受限于其零售托管模式，非 AI 纯标的。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "EQIX长期负债177亿美元远超现金13.6亿，利息负担重；REIT结构依赖持续融资。全球布局分散地域风险，互联生态护城河强，但AI算力需求推高竞争与资本支出压力；估值溢价明显，利率上行时回撤风险显著。整体中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 39.61538461538461,
+          "value": 49.31578947368422,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Equinix（EQIX）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Equinix凭借全球250+数据中心构成的互联生态形成强网络效应，客户一旦接入即面临极高迁移成本（跨连接依赖、延迟敏感）。稀缺地段与电力资源构成监管/资源壁垒。毛利率52%印证定价权，但资本密集、竞争加剧（Digital Realty等）及AI算力需求转向云端略压评分。 【ai_exposure】Equinix 作为全球互联枢纽，AI 训练/推理工作负载带动托管需求增长，超大规模云客户（AWS、Azure、GCP）扩容直接受益。但其核心收入仍来自企业互联与传统托管，AI 驱动占比估计 30-40%。高密度 GPU 机柜需求受限于其零售托管模式，非 AI 纯标的。 【risk】EQIX长期负债177亿美元远超现金13.6亿，利息负担重；REIT结构依赖持续融资。全球布局分散地域风险，互联生态护城河强，但AI算力需求推高竞争与资本支出压力；估值溢价明显，利率上行时回撤风险显著。整体中等风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 39.61538461538461
+        },
+        {
+          "date": "2026-05-13",
+          "value": 49.31578947368422
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

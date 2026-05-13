@@ -11,15 +11,15 @@
     "ai_role": "Azure + OpenAI 战略股东 — 企业 AI 软件商业化最深",
     "price": 407.7699890136719,
     "change_1d": -1.18,
-    "composite": 67.5,
+    "composite": 71.55263157894736,
     "tier_letter": "A",
     "description": [
       "Microsoft 的 AI 产业链位置为 Cloud / Hyperscaler。",
-      "AI 角色：Azure + OpenAI 战略股东 — 企业 AI 软件商业化最深。当前内部综合评分 67。",
+      "AI 角色：Azure + OpenAI 战略股东 — 企业 AI 软件商业化最深。当前内部综合评分 71。",
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "38,523,400",
-        "量比20日": "1.08",
+        "量比20日": "1.04",
         "52周高点": "415.50",
         "52周低点": "405.50",
         "距52周高点": "-1.86%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 87.0,
+          "reasoning": "Azure与OpenAI深度绑定构建AI技术壁垒；Office/Teams/Azure生态形成极高切换成本；全球数据中心规模效应显著；企业客户心智占位第一梯队；68%毛利率与39%净利率印证护城河变现能力。主要风险：AWS/GCP竞争激烈，AI基础设施资本开支持续高企。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Azure AI服务（含OpenAI）驱动云业务加速增长，占Azure增长约6-7ppt；Copilot渗透Office/GitHub生态；但传统云、Office授权、LinkedIn、Xbox等非AI业务仍占营收大头，AI失败不致命但增长逻辑严重受损。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "微软现金充裕（782亿）、长期负债可控（314亿），财务稳健。但面临反垄断审查（OpenAI持股结构）、云市场AWS/GCP竞争加剧、AI资本支出高企、估值偏高（P/E ~35x）及地缘政治出口管制风险，综合评定为低中风险区间。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 67.5,
+          "value": 71.55263157894736,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Microsoft（MSFT）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Azure与OpenAI深度绑定构建AI技术壁垒；Office/Teams/Azure生态形成极高切换成本；全球数据中心规模效应显著；企业客户心智占位第一梯队；68%毛利率与39%净利率印证护城河变现能力。主要风险：AWS/GCP竞争激烈，AI基础设施资本开支持续高企。 【ai_exposure】Azure AI服务（含OpenAI）驱动云业务加速增长，占Azure增长约6-7ppt；Copilot渗透Office/GitHub生态；但传统云、Office授权、LinkedIn、Xbox等非AI业务仍占营收大头，AI失败不致命但增长逻辑严重受损。 【risk】微软现金充裕（782亿）、长期负债可控（314亿），财务稳健。但面临反垄断审查（OpenAI持股结构）、云市场AWS/GCP竞争加剧、AI资本支出高企、估值偏高（P/E ~35x）及地缘政治出口管制风险，综合评定为低中风险区间。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 67.5
+        },
+        {
+          "date": "2026-05-13",
+          "value": 71.55263157894736
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

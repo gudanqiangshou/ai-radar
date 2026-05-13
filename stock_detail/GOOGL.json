@@ -11,16 +11,16 @@
     "ai_role": "Google Cloud + 自研 TPU + Gemini — 全栈 AI 玩家",
     "price": 387.3500061035156,
     "change_1d": -0.33,
-    "composite": 45.76923076923077,
+    "composite": 55.10526315789474,
     "tier_letter": "A",
     "description": [
       "Alphabet 的 AI 产业链位置为 Cloud / Hyperscaler。",
-      "AI 角色：Google Cloud + 自研 TPU + Gemini — 全栈 AI 玩家。当前内部综合评分 45。",
+      "AI 角色：Google Cloud + 自研 TPU + Gemini — 全栈 AI 玩家。当前内部综合评分 55。",
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
-    "status_label": "观察"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "25,946,800",
-        "量比20日": "0.84",
+        "量比20日": "0.92",
         "52周高点": "397.44",
         "52周低点": "382.77",
         "距52周高点": "-2.54%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 82.0,
+          "reasoning": "Google Cloud凭借自研TPU+Gemini构建全栈AI差异化，搜索/YouTube数据飞轮强化模型训练壁垒；毛利率60%、ROE 39%印证规模效应显著。但云市场份额仍落后AWS/Azure，企业客户迁移惰性弱于竞对，监管反垄断压力持续，护城河宽但非无懈可击。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Google Cloud（含AI服务）占总收入约13%且高速增长，Gemini强化搜索广告护城河，TPU自研降低AI成本依赖。但搜索广告仍占收入55%+，AI颠覆搜索是双刃剑——既是增长引擎也是潜在威胁。AI是核心驱动但非全部。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "现金1268亿美元远超长期负债775亿，财务稳健；但广告收入高度集中（占比~75%）、反垄断诉讼持续施压（DOJ搜索/广告双案）、AI竞争加剧（OpenAI/Meta抢占份额）、监管地缘风险显著，综合拉低安全评级。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 45.76923076923077,
+          "value": 55.10526315789474,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Alphabet（GOOGL）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Google Cloud凭借自研TPU+Gemini构建全栈AI差异化，搜索/YouTube数据飞轮强化模型训练壁垒；毛利率60%、ROE 39%印证规模效应显著。但云市场份额仍落后AWS/Azure，企业客户迁移惰性弱于竞对，监管反垄断压力持续，护城河宽但非无懈可击。 【ai_exposure】Google Cloud（含AI服务）占总收入约13%且高速增长，Gemini强化搜索广告护城河，TPU自研降低AI成本依赖。但搜索广告仍占收入55%+，AI颠覆搜索是双刃剑——既是增长引擎也是潜在威胁。AI是核心驱动但非全部。 【risk】现金1268亿美元远超长期负债775亿，财务稳健；但广告收入高度集中（占比~75%）、反垄断诉讼持续施压（DOJ搜索/广告双案）、AI竞争加剧（OpenAI/Meta抢占份额）、监管地缘风险显著，综合拉低安全评级。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 45.76923076923077
+        },
+        {
+          "date": "2026-05-13",
+          "value": 55.10526315789474
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

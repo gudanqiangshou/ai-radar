@@ -11,16 +11,16 @@
     "ai_role": "工业自动化 + 数字孪生 — 美国本土自动化龙头",
     "price": 455.0799865722656,
     "change_1d": -0.35,
-    "composite": 54.10256410256411,
+    "composite": 56.3859649122807,
     "tier_letter": "B",
     "description": [
       "Rockwell Automation 的 AI 产业链位置为 Industrial Automation / Robotics。",
-      "AI 角色：工业自动化 + 数字孪生 — 美国本土自动化龙头。当前内部综合评分 54。",
+      "AI 角色：工业自动化 + 数字孪生 — 美国本土自动化龙头。当前内部综合评分 56。",
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
-    "status_label": "观察"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "666,700",
-        "量比20日": "0.75",
+        "量比20日": "0.86",
         "52周高点": "462.11",
         "52周低点": "447.00",
         "距52周高点": "-1.52%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "ROK深耕工业自动化逾百年，PLC/DCS生态与Logix平台形成强切换成本，客户设备生命周期长达15-20年锁定效应显著。毛利率49%反映软件化转型成效。但面临西门子/ABB全球竞争，数字孪生布局偏晚，中国市场渗透有限，规模效应弱于欧系巨头。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "ROK核心业务是工厂自动化、PLC/DCS控制系统和数字孪生平台（Plex/Fiix），AI主要以边缘推理和预测性维护形式嵌入现有产品，属于功能增强而非独立收入来源。AI capex浪潮对其拉动有限，主要受益于制造业资本支出周期，AI退潮对基本面冲击较小。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "ROK财务杠杆适中（长期负债25.7亿，现金4.23亿，净债务偏高），工业自动化周期性强，近期制造业资本支出放缓压制需求。地缘政治风险中等（中国市场敞口+出口管制）。估值历史偏高，回撤风险存在。数字孪生赛道竞争加剧（西门子、PTC），但美国本土制造回流提供中期支撑。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 54.10256410256411,
+          "value": 56.3859649122807,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Rockwell Automation（ROK）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】ROK深耕工业自动化逾百年，PLC/DCS生态与Logix平台形成强切换成本，客户设备生命周期长达15-20年锁定效应显著。毛利率49%反映软件化转型成效。但面临西门子/ABB全球竞争，数字孪生布局偏晚，中国市场渗透有限，规模效应弱于欧系巨头。 【ai_exposure】ROK核心业务是工厂自动化、PLC/DCS控制系统和数字孪生平台（Plex/Fiix），AI主要以边缘推理和预测性维护形式嵌入现有产品，属于功能增强而非独立收入来源。AI capex浪潮对其拉动有限，主要受益于制造业资本支出周期，AI退潮对基本面冲击较小。 【risk】ROK财务杠杆适中（长期负债25.7亿，现金4.23亿，净债务偏高），工业自动化周期性强，近期制造业资本支出放缓压制需求。地缘政治风险中等（中国市场敞口+出口管制）。估值历史偏高，回撤风险存在。数字孪生赛道竞争加剧（西门子、PTC），但美国本土制造回流提供中期支撑。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 54.10256410256411
+        },
+        {
+          "date": "2026-05-13",
+          "value": 56.3859649122807
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

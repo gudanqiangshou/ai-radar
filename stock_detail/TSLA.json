@@ -11,16 +11,16 @@
     "ai_role": "FSD + Robotaxi + Optimus — 端到端 AI 物理化",
     "price": 433.45001220703125,
     "change_1d": -2.6,
-    "composite": 52.69230769230769,
+    "composite": 56.47368421052631,
     "tier_letter": "A",
     "description": [
       "Tesla 的 AI 产业链位置为 Autonomous / Mobility。",
-      "AI 角色：FSD + Robotaxi + Optimus — 端到端 AI 物理化。当前内部综合评分 52。",
+      "AI 角色：FSD + Robotaxi + Optimus — 端到端 AI 物理化。当前内部综合评分 56。",
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
-    "status_label": "观察"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "60,379,000",
-        "量比20日": "0.77",
+        "量比20日": "0.87",
         "52周高点": "449.16",
         "52周低点": "416.80",
         "距52周高点": "-3.50%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "FSD端到端模型+数百万辆实车数据飞轮构成核心壁垒，Dojo算力自研强化技术独立性；但毛利率仅19%、净利率4%显示盈利脆弱，Robotaxi商业化未落地，Waymo/百度等竞争加剧，监管不确定性高，护城河仍在建设期而非成熟期。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "FSD订阅、Robotaxi网络、Optimus机器人均为AI驱动的核心增长叙事，但当前收入仍以传统汽车销售为主（>90%）。AI失败将重创估值溢价，但短期业务不会崩溃。AI是特斯拉的增长引擎与估值支柱，而非当期主要收入来源。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "Tesla估值极度依赖FSD/Robotaxi/Optimus兑现，当前P/E超100x，任何技术延迟或监管阻碍均引发大幅回撤。竞争加剧（比亚迪、Waymo）、地缘政治（中国市场占比高）、马斯克个人风险叠加，财务虽现金充裕（447亿）但核心业务利润率持续承压，综合风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 52.69230769230769,
+          "value": 56.47368421052631,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Tesla（TSLA）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】FSD端到端模型+数百万辆实车数据飞轮构成核心壁垒，Dojo算力自研强化技术独立性；但毛利率仅19%、净利率4%显示盈利脆弱，Robotaxi商业化未落地，Waymo/百度等竞争加剧，监管不确定性高，护城河仍在建设期而非成熟期。 【ai_exposure】FSD订阅、Robotaxi网络、Optimus机器人均为AI驱动的核心增长叙事，但当前收入仍以传统汽车销售为主（>90%）。AI失败将重创估值溢价，但短期业务不会崩溃。AI是特斯拉的增长引擎与估值支柱，而非当期主要收入来源。 【risk】Tesla估值极度依赖FSD/Robotaxi/Optimus兑现，当前P/E超100x，任何技术延迟或监管阻碍均引发大幅回撤。竞争加剧（比亚迪、Waymo）、地缘政治（中国市场占比高）、马斯克个人风险叠加，财务虽现金充裕（447亿）但核心业务利润率持续承压，综合风险偏高。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 52.69230769230769
+        },
+        {
+          "date": "2026-05-13",
+          "value": 56.47368421052631
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

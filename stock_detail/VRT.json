@@ -11,7 +11,7 @@
     "ai_role": "数据中心热管理 + 电源管理，高密度机柜液冷领先",
     "price": 367.1300048828125,
     "change_1d": -0.21,
-    "composite": 59.98369210697977,
+    "composite": 59.57690476190477,
     "tier_letter": "A",
     "description": [
       "Vertiv 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "20.65",
         "20日波动率": "60.34%",
         "成交量": "6,544,200",
-        "量比20日": "1.12",
+        "量比20日": "1.11",
         "52周高点": "371.99",
         "52周低点": "99.44",
         "距52周高点": "-1.31%",
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 75.23809523809523,
+          "value": 76.07142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Vertiv在高密度液冷和电源管理领域积累深厚Know-how与专利，超大型数据中心客户切换成本高、合同周期长；ROE 45%印证规模效益显著。但竞争对手（Eaton、施耐德、华为）追赶加速，核电/电网直接敞口有限，品牌护城河主要集中在数据中心垂直赛道，整体护城河宽但不深。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 82.0,
+          "reasoning": "Vertiv是AI数据中心热管理与电源管理的核心基础设施供应商，液冷解决方案直接受益于GPU高密度部署。AI capex驱动其订单积压与营收高速增长，管理层明确将AI数据中心列为首要增长引擎，AI需求占新增订单比例持续扩大，业务与AI capex周期高度绑定。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 78.1904761904762,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 70.0,
+          "value": 68.33333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 18.38095238095238,
+          "value": 25.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 84.52380952380952,
+          "value": 66.07142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "VRT财务杠杆适中（净债约7.7亿），但估值偏高（PE>40x），高度依赖AI数据中心资本支出周期，客户集中于超大规模云厂商，地缘政治出口管制风险显著，液冷技术竞争加剧，周期性回撤风险较大。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 59.98369210697977,
+          "value": 59.57690476190477,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:01",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
       "data": {
         "target_mean": 329.88,
         "target_high": 414.0,
@@ -189,7 +189,7 @@
       "title": "Vertiv（VRT）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Vertiv在高密度液冷和电源管理领域积累深厚Know-how与专利，超大型数据中心客户切换成本高、合同周期长；ROE 45%印证规模效益显著。但竞争对手（Eaton、施耐德、华为）追赶加速，核电/电网直接敞口有限，品牌护城河主要集中在数据中心垂直赛道，整体护城河宽但不深。 【ai_exposure】Vertiv是AI数据中心热管理与电源管理的核心基础设施供应商，液冷解决方案直接受益于GPU高密度部署。AI capex驱动其订单积压与营收高速增长，管理层明确将AI数据中心列为首要增长引擎，AI需求占新增订单比例持续扩大，业务与AI capex周期高度绑定。 【risk】VRT财务杠杆适中（净债约7.7亿），但估值偏高（PE>40x），高度依赖AI数据中心资本支出周期，客户集中于超大规模云厂商，地缘政治出口管制风险显著，液冷技术竞争加剧，周期性回撤风险较大。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

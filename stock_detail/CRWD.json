@@ -11,15 +11,15 @@
     "ai_role": "Falcon AI 驱动端点安全 — 行业标杆",
     "price": 546.1799926757812,
     "change_1d": 0.72,
-    "composite": 57.11538461538461,
+    "composite": 58.28947368421052,
     "tier_letter": "A",
     "description": [
       "CrowdStrike 的 AI 产业链位置为 Cybersecurity。",
-      "AI 角色：Falcon AI 驱动端点安全 — 行业标杆。当前内部综合评分 57。",
+      "AI 角色：Falcon AI 驱动端点安全 — 行业标杆。当前内部综合评分 58。",
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "3,538,300",
-        "量比20日": "1.27",
+        "量比20日": "1.12",
         "52周高点": "552.43",
         "52周低点": "522.00",
         "距52周高点": "-1.13%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Falcon平台云原生架构+AI威胁图谱构成技术壁垒，单一代理多模块设计拉高切换成本，数据网络效应随客户规模增强检测能力。但2024年蓝屏事件损伤品牌信任，净利率仍为负，规模优势尚未完全转化为盈利护城河，竞争对手（SentinelOne、Microsoft）持续施压。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 35.0,
+          "reasoning": "CrowdStrike将AI深度嵌入Falcon平台做威胁检测，但收入驱动力是网络安全需求而非AI capex支出。客户买的是安全结果，不是AI本身。AI退潮不会直接冲击其ARR，竞争护城河来自数据积累和平台粘性，AI是能力增强剂而非独立收入来源。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "CRWD现金充裕(52亿)、负债低，财务健康。但2024年7月全球IT宕机事件重创声誉，客户流失风险上升；估值极高(PS>20x)，盈利压力大；AI原生竞争者(SentinelOne、Microsoft Defender)持续侵蚀市场份额；监管审查趋严。综合风险中等偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 57.11538461538461,
+          "value": 58.28947368421052,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "CrowdStrike（CRWD）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Falcon平台云原生架构+AI威胁图谱构成技术壁垒，单一代理多模块设计拉高切换成本，数据网络效应随客户规模增强检测能力。但2024年蓝屏事件损伤品牌信任，净利率仍为负，规模优势尚未完全转化为盈利护城河，竞争对手（SentinelOne、Microsoft）持续施压。 【ai_exposure】CrowdStrike将AI深度嵌入Falcon平台做威胁检测，但收入驱动力是网络安全需求而非AI capex支出。客户买的是安全结果，不是AI本身。AI退潮不会直接冲击其ARR，竞争护城河来自数据积累和平台粘性，AI是能力增强剂而非独立收入来源。 【risk】CRWD现金充裕(52亿)、负债低，财务健康。但2024年7月全球IT宕机事件重创声誉，客户流失风险上升；估值极高(PS>20x)，盈利压力大；AI原生竞争者(SentinelOne、Microsoft Defender)持续侵蚀市场份额；监管审查趋严。综合风险中等偏高。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 57.11538461538461
+        },
+        {
+          "date": "2026-05-13",
+          "value": 58.28947368421052
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

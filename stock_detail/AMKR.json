@@ -11,15 +11,15 @@
     "ai_role": "美国本土先进封装代表 — Chips Act 受益",
     "price": 73.44999694824219,
     "change_1d": -4.22,
-    "composite": 4.615384615384615,
+    "composite": 20.73684210526316,
     "tier_letter": "C",
     "description": [
       "Amkor Technology 的 AI 产业链位置为 Foundry / Packaging。",
-      "AI 角色：美国本土先进封装代表 — Chips Act 受益。当前内部综合评分 4。",
+      "AI 角色：美国本土先进封装代表 — Chips Act 受益。当前内部综合评分 20。",
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "退出"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "3,410,200",
-        "量比20日": "0.92",
+        "量比20日": "0.96",
         "52周高点": "78.64",
         "52周低点": "70.11",
         "距52周高点": "-6.60%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "AMKR在先进封装（SiP、FOWLP）具备一定技术积累与客户粘性，CHIPS Act带来本土化政策红利；但毛利率仅14%显示定价权弱，面临日月光（ASE）强力竞争，规模与品牌均逊于龙头，护城河属中等偏上但非宽阔。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "AMKR为AI芯片提供先进封装（SiP、FC-BGA），受益于AI算力需求增长，但客户结构多元（手机、汽车、消费电子占大头），AI相关收入估计不超过20-25%。CHIPS Act补贴提升美国产能故事，但AI并非核心驱动，属间接受益标的。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 48.0,
+          "reasoning": "AMKR现金充裕(~18.5亿)、长期负债可控(~12.6亿)，财务结构尚稳。但客户集中度数据缺失（苹果/高通依赖度历史偏高），先进封装竞争激烈（日月光、长电科技），地缘政治风险（韩国/越南产能暴露），Chips Act补贴落地不确定，综合评定中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 4.615384615384615,
+          "value": 20.73684210526316,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Amkor Technology（AMKR）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】AMKR在先进封装（SiP、FOWLP）具备一定技术积累与客户粘性，CHIPS Act带来本土化政策红利；但毛利率仅14%显示定价权弱，面临日月光（ASE）强力竞争，规模与品牌均逊于龙头，护城河属中等偏上但非宽阔。 【ai_exposure】AMKR为AI芯片提供先进封装（SiP、FC-BGA），受益于AI算力需求增长，但客户结构多元（手机、汽车、消费电子占大头），AI相关收入估计不超过20-25%。CHIPS Act补贴提升美国产能故事，但AI并非核心驱动，属间接受益标的。 【risk】AMKR现金充裕(~18.5亿)、长期负债可控(~12.6亿)，财务结构尚稳。但客户集中度数据缺失（苹果/高通依赖度历史偏高），先进封装竞争激烈（日月光、长电科技），地缘政治风险（韩国/越南产能暴露），Chips Act补贴落地不确定，综合评定中等风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 4.615384615384615
+        },
+        {
+          "date": "2026-05-13",
+          "value": 20.73684210526316
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

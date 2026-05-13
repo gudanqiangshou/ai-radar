@@ -11,16 +11,16 @@
     "ai_role": "评级 + Analytics — 长期数据服务",
     "price": 451.75,
     "change_1d": 0.75,
-    "composite": 53.46153846153846,
+    "composite": 60.368421052631575,
     "tier_letter": "B",
     "description": [
       "Moody's 的 AI 产业链位置为 Financial / Research Data。",
-      "AI 角色：评级 + Analytics — 长期数据服务。当前内部综合评分 53。",
+      "AI 角色：评级 + Analytics — 长期数据服务。当前内部综合评分 60。",
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
-    "status_label": "观察"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "1,030,700",
-        "量比20日": "1.11",
+        "量比20日": "1.05",
         "52周高点": "458.67",
         "52周低点": "446.36",
         "距52周高点": "-1.51%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 88.0,
+          "reasoning": "穆迪拥有百年评级品牌与监管认可地位（NRSRO牌照），客户合规依赖形成极高切换成本；历史数据积累构成难以复制的Know-how壁垒；双寡头格局（与S&P）强化定价权。74%毛利率与71% ROE印证护城河深度。主要风险为监管收紧与私信评级替代。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "MCO核心收入来自信用评级（约55%）和传统金融数据分析，AI主要用于内部效率提升和产品增强（如RiskCalc、CreditLens），并非直接受AI capex驱动。AI为辅助增长工具，非独立收入来源，AI退潮对主营业务冲击有限。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "穆迪拥有强劲现金流与护城河，但长期负债63.9亿远超现金15.1亿，杠杆偏高；监管风险持续（反垄断、评级机构监管）；AI替代分析业务存在中期压力；估值历史偏高，回撤风险不可忽视。整体属低中风险区间。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 53.46153846153846,
+          "value": 60.368421052631575,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Moody's（MCO）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】穆迪拥有百年评级品牌与监管认可地位（NRSRO牌照），客户合规依赖形成极高切换成本；历史数据积累构成难以复制的Know-how壁垒；双寡头格局（与S&P）强化定价权。74%毛利率与71% ROE印证护城河深度。主要风险为监管收紧与私信评级替代。 【ai_exposure】MCO核心收入来自信用评级（约55%）和传统金融数据分析，AI主要用于内部效率提升和产品增强（如RiskCalc、CreditLens），并非直接受AI capex驱动。AI为辅助增长工具，非独立收入来源，AI退潮对主营业务冲击有限。 【risk】穆迪拥有强劲现金流与护城河，但长期负债63.9亿远超现金15.1亿，杠杆偏高；监管风险持续（反垄断、评级机构监管）；AI替代分析业务存在中期压力；估值历史偏高，回撤风险不可忽视。整体属低中风险区间。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 53.46153846153846
+        },
+        {
+          "date": "2026-05-13",
+          "value": 60.368421052631575
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

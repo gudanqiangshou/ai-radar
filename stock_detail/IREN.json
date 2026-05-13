@@ -11,15 +11,15 @@
     "ai_role": "矿场转型 GPU 云 — 比特币 + AI 双业务",
     "price": 56.560001373291016,
     "change_1d": 2.56,
-    "composite": 52.30769230769231,
+    "composite": 46.73684210526316,
     "tier_letter": "C",
     "description": [
       "Iris Energy 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：矿场转型 GPU 云 — 比特币 + AI 双业务。当前内部综合评分 52。",
+      "AI 角色：矿场转型 GPU 云 — 比特币 + AI 双业务。当前内部综合评分 46。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "观察"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "75,880,700",
-        "量比20日": "0.67",
+        "量比20日": "0.81",
         "52周高点": "61.72",
         "52周低点": "52.36",
         "距52周高点": "-8.36%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 32.0,
+          "reasoning": "IREN护城河较弱：无专利技术壁垒，GPU云客户切换成本低；优势在于自建低成本可再生能源电力基础设施（约2-3美分/kWh），具备一定规模成本优势，但品牌认知度低，与CoreWeave等专业玩家差距明显，双业务模式灵活性是亮点但非护城河。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "IREN正将比特币矿场算力转型为GPU云服务，AI业务处于快速扩张阶段但仍非主导——比特币挖矿仍贡献大部分收入。双轨业务结构使其AI暴露度中等，GPU云增长潜力大但尚未成为核心收入支柱。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "长期负债36.85亿远超现金22.13亿，杠杆偏高；比特币挖矿收入受币价与减半周期双重压制；GPU云业务尚处早期，客户集中度数据缺失；监管不确定性高；双业务转型期估值溢价存在较大回撤风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 52.30769230769231,
+          "value": 46.73684210526316,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Iris Energy（IREN）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】IREN护城河较弱：无专利技术壁垒，GPU云客户切换成本低；优势在于自建低成本可再生能源电力基础设施（约2-3美分/kWh），具备一定规模成本优势，但品牌认知度低，与CoreWeave等专业玩家差距明显，双业务模式灵活性是亮点但非护城河。 【ai_exposure】IREN正将比特币矿场算力转型为GPU云服务，AI业务处于快速扩张阶段但仍非主导——比特币挖矿仍贡献大部分收入。双轨业务结构使其AI暴露度中等，GPU云增长潜力大但尚未成为核心收入支柱。 【risk】长期负债36.85亿远超现金22.13亿，杠杆偏高；比特币挖矿收入受币价与减半周期双重压制；GPU云业务尚处早期，客户集中度数据缺失；监管不确定性高；双业务转型期估值溢价存在较大回撤风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 52.30769230769231
+        },
+        {
+          "date": "2026-05-13",
+          "value": 46.73684210526316
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

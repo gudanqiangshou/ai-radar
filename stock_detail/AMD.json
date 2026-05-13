@@ -11,16 +11,16 @@
     "ai_role": "MI300/MI355X 数据中心 GPU 第二极，CPU x86 站稳",
     "price": 448.2900085449219,
     "change_1d": -2.29,
-    "composite": 35.230769230769226,
+    "composite": 43.1578947368421,
     "tier_letter": "A",
     "description": [
       "AMD 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：MI300/MI355X 数据中心 GPU 第二极，CPU x86 站稳。当前内部综合评分 35。",
+      "AI 角色：MI300/MI355X 数据中心 GPU 第二极，CPU x86 站稳。当前内部综合评分 43。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
-    "status_label": "减持"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "38,975,300",
-        "量比20日": "0.85",
+        "量比20日": "0.92",
         "52周高点": "469.22",
         "52周低点": "426.11",
         "距52周高点": "-4.46%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "AMD在x86 CPU与GPU双线具备真实技术积累，MI300系列打入超大规模客户，但CUDA生态护城河极深，AMD软件栈ROCm成熟度仍落后；规模与品牌次于英伟达，客户粘性依赖持续迭代而非锁定，护城河属于'挑战者级'而非'统治者级'。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "MI300系列驱动数据中心GPU收入快速增长，2024年AI加速器收入超50亿美元，占总收入约20-25%，但游戏、嵌入式、客户端CPU仍占大头。AI是核心增长引擎但非全部，竞争压力来自NVIDIA垄断地位，AI退潮将显著冲击估值但不致命。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "AMD财务结构尚可（现金123亿 vs 长债23亿），但高度依赖AI GPU增长叙事，MI300系列面临英伟达CUDA生态壁垒与客户自研芯片双重压力，美国对华出口管制持续收紧影响中国市场收入，估值仍含较高成长溢价，回撤风险显著。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 35.230769230769226,
+          "value": 43.1578947368421,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "AMD（AMD）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】AMD在x86 CPU与GPU双线具备真实技术积累，MI300系列打入超大规模客户，但CUDA生态护城河极深，AMD软件栈ROCm成熟度仍落后；规模与品牌次于英伟达，客户粘性依赖持续迭代而非锁定，护城河属于'挑战者级'而非'统治者级'。 【ai_exposure】MI300系列驱动数据中心GPU收入快速增长，2024年AI加速器收入超50亿美元，占总收入约20-25%，但游戏、嵌入式、客户端CPU仍占大头。AI是核心增长引擎但非全部，竞争压力来自NVIDIA垄断地位，AI退潮将显著冲击估值但不致命。 【risk】AMD财务结构尚可（现金123亿 vs 长债23亿），但高度依赖AI GPU增长叙事，MI300系列面临英伟达CUDA生态壁垒与客户自研芯片双重压力，美国对华出口管制持续收紧影响中国市场收入，估值仍含较高成长溢价，回撤风险显著。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 35.230769230769226
+        },
+        {
+          "date": "2026-05-13",
+          "value": 43.1578947368421
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

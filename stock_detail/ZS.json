@@ -11,15 +11,15 @@
     "ai_role": "零信任 SASE 代表 — AI 加速威胁检测",
     "price": 146.1699981689453,
     "change_1d": -1.81,
-    "composite": 73.65384615384615,
+    "composite": 69.23684210526315,
     "tier_letter": "B",
     "description": [
       "Zscaler 的 AI 产业链位置为 Cybersecurity。",
-      "AI 角色：零信任 SASE 代表 — AI 加速威胁检测。当前内部综合评分 73。",
+      "AI 角色：零信任 SASE 代表 — AI 加速威胁检测。当前内部综合评分 69。",
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "2,322,800",
-        "量比20日": "0.91",
+        "量比20日": "0.96",
         "52周高点": "153.45",
         "52周低点": "145.68",
         "距52周高点": "-4.74%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Zscaler凭借云原生零信任架构与全球700+PoP节点构建强网络效应，客户深度集成带来高切换成本。但竞争加剧（Palo Alto、Cloudflare）、持续亏损（净利率-2%）及AI差异化尚未充分验证，限制护城河上限。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "ZS核心收入来自零信任SASE订阅，AI主要用于内部威胁检测增强产品竞争力，而非直接驱动ARR增长。AI capex浪潮间接利好（更多流量需安全防护），但ZS不卖AI基础设施，AI退潮对其主营影响有限。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "ZS现金充裕（35亿）但长期负债17亿，尚未持续盈利，估值偏高（高P/S）回撤风险大。零信任赛道竞争激烈（Palo Alto、Cloudflare、微软），客户集中度数据缺失增加不确定性。监管风险中等，技术护城河较强但替代威胁持续存在。综合评定为中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 73.65384615384615,
+          "value": 69.23684210526315,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Zscaler（ZS）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Zscaler凭借云原生零信任架构与全球700+PoP节点构建强网络效应，客户深度集成带来高切换成本。但竞争加剧（Palo Alto、Cloudflare）、持续亏损（净利率-2%）及AI差异化尚未充分验证，限制护城河上限。 【ai_exposure】ZS核心收入来自零信任SASE订阅，AI主要用于内部威胁检测增强产品竞争力，而非直接驱动ARR增长。AI capex浪潮间接利好（更多流量需安全防护），但ZS不卖AI基础设施，AI退潮对其主营影响有限。 【risk】ZS现金充裕（35亿）但长期负债17亿，尚未持续盈利，估值偏高（高P/S）回撤风险大。零信任赛道竞争激烈（Palo Alto、Cloudflare、微软），客户集中度数据缺失增加不确定性。监管风险中等，技术护城河较强但替代威胁持续存在。综合评定为中等风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 73.65384615384615
+        },
+        {
+          "date": "2026-05-13",
+          "value": 69.23684210526315
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

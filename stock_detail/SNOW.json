@@ -11,16 +11,16 @@
     "ai_role": "云原生数据仓库 + Cortex AI / Snowpark 数据平台",
     "price": 151.97999572753906,
     "change_1d": 0.32,
-    "composite": 22.56410256410257,
+    "composite": 33.01754385964912,
     "tier_letter": "A",
     "description": [
       "Snowflake 的 AI 产业链位置为 Data / Software Platform。",
-      "AI 角色：云原生数据仓库 + Cortex AI / Snowpark 数据平台。当前内部综合评分 22。",
+      "AI 角色：云原生数据仓库 + Cortex AI / Snowpark 数据平台。当前内部综合评分 33。",
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
-    "status_label": "退出"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "4,873,100",
-        "量比20日": "1.02",
+        "量比20日": "1.01",
         "52周高点": "154.85",
         "52周低点": "148.16",
         "距52周高点": "-1.85%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Snowflake凭借多云架构、存算分离及Snowpark/Cortex AI构建中等技术壁垒，数据共享网络效应形成一定生态粘性，但面临Databricks、BigQuery、Redshift激烈竞争，毛利率67%尚可却持续亏损，客户迁移成本中等偏高，整体护城河稳固但非不可逾越。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "Snowflake核心收入仍来自传统数据仓库/存储计算，Cortex AI与Snowpark为增量功能。AI工作负载推动数据平台需求增长，但直接AI收入占比估计低于30%。AI退潮对其冲击中等，基础数据仓库业务提供缓冲。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 34.0,
+          "reasoning": "高估值（PS>15x）叠加持续亏损，竞争压力来自Databricks/BigQuery/Redshift，客户迁移成本虽高但AI工作负载分流风险上升。现金充裕（40亿）但长期负债23亿，增速放缓至30%以下，估值回撤风险显著。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 22.56410256410257,
+          "value": 33.01754385964912,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Snowflake（SNOW）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Snowflake凭借多云架构、存算分离及Snowpark/Cortex AI构建中等技术壁垒，数据共享网络效应形成一定生态粘性，但面临Databricks、BigQuery、Redshift激烈竞争，毛利率67%尚可却持续亏损，客户迁移成本中等偏高，整体护城河稳固但非不可逾越。 【ai_exposure】Snowflake核心收入仍来自传统数据仓库/存储计算，Cortex AI与Snowpark为增量功能。AI工作负载推动数据平台需求增长，但直接AI收入占比估计低于30%。AI退潮对其冲击中等，基础数据仓库业务提供缓冲。 【risk】高估值（PS>15x）叠加持续亏损，竞争压力来自Databricks/BigQuery/Redshift，客户迁移成本虽高但AI工作负载分流风险上升。现金充裕（40亿）但长期负债23亿，增速放缓至30%以下，估值回撤风险显著。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 22.56410256410257
+        },
+        {
+          "date": "2026-05-13",
+          "value": 33.01754385964912
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

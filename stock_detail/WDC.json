@@ -11,15 +11,15 @@
     "ai_role": "企业级 NAND/HDD — AI 训练数据存储受益",
     "price": 488.739990234375,
     "change_1d": -5.25,
-    "composite": 57.69230769230769,
+    "composite": 56.94736842105263,
     "tier_letter": "C",
     "description": [
       "Western Digital 的 AI 产业链位置为 Memory / Storage。",
-      "AI 角色：企业级 NAND/HDD — AI 训练数据存储受益。当前内部综合评分 57。",
+      "AI 角色：企业级 NAND/HDD — AI 训练数据存储受益。当前内部综合评分 56。",
       "Memory / Storage 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "7,738,200",
-        "量比20日": "0.77",
+        "量比20日": "0.87",
         "52周高点": "525.15",
         "52周低点": "466.80",
         "距52周高点": "-6.93%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "WDC在HDD领域拥有深厚制造工艺积累与专利壁垒，NAND与铠侠合作提供规模支撑；但存储行业周期性强、客户议价能力高、三星/SK海力士竞争激烈，切换成本中等。AI训练数据存储需求提供增量，但护城河宽度有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "WDC的NAND闪存和HDD均受益于AI数据中心存储需求扩张，企业级SSD和大容量HDD需求增长明显。但AI收入占比仍低于50%，PC/消费级存储仍是重要基本盘，且WDC为存储介质供应商而非AI算力核心链路，属于间接受益。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "WDC处于存储周期底部复苏阶段，HDD/NAND双业务受AI需求拉动，但半导体周期波动剧烈、长期负债数据缺失、客户集中度不明、中美出口管制风险持续，整体属中等风险，上行潜力与下行波动并存。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 57.69230769230769,
+          "value": 56.94736842105263,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Western Digital（WDC）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】WDC在HDD领域拥有深厚制造工艺积累与专利壁垒，NAND与铠侠合作提供规模支撑；但存储行业周期性强、客户议价能力高、三星/SK海力士竞争激烈，切换成本中等。AI训练数据存储需求提供增量，但护城河宽度有限。 【ai_exposure】WDC的NAND闪存和HDD均受益于AI数据中心存储需求扩张，企业级SSD和大容量HDD需求增长明显。但AI收入占比仍低于50%，PC/消费级存储仍是重要基本盘，且WDC为存储介质供应商而非AI算力核心链路，属于间接受益。 【risk】WDC处于存储周期底部复苏阶段，HDD/NAND双业务受AI需求拉动，但半导体周期波动剧烈、长期负债数据缺失、客户集中度不明、中美出口管制风险持续，整体属中等风险，上行潜力与下行波动并存。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 57.69230769230769
+        },
+        {
+          "date": "2026-05-13",
+          "value": 56.94736842105263
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

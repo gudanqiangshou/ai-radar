@@ -11,16 +11,16 @@
     "ai_role": "小型模块化反应堆（SMR）— AI 长期电力解决方案",
     "price": 73.62999725341797,
     "change_1d": -5.76,
-    "composite": 12.26467331118494,
+    "composite": 47.40309523809524,
     "tier_letter": "C",
     "description": [
       "Oklo Inc 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：小型模块化反应堆（SMR）— AI 长期电力解决方案。当前内部综合评分 12。",
+      "AI 角色：小型模块化反应堆（SMR）— AI 长期电力解决方案。当前内部综合评分 47。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
-    "status_label": "退出"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 5.9523809523809526,
+          "value": 14.761904761904763,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Oklo拥有Aurora快堆专利技术与NRC许可证申请先发优势，Sam Altman背书带来品牌溢价，已签署多份LOI锁定AI数据中心客户。但零营收、无商业堆运营记录、监管路径仍存不确定性，技术壁垒尚未转化为真实竞争壁垒，护城河处于'建设中'阶段。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Oklo的SMR定位高度依赖AI数据中心电力需求叙事，已签署多项AI科技公司PPA意向（含Sam Altman背书），但目前零商业收入、首座反应堆2027年前无法并网，AI驱动的订单管道是核心估值逻辑，实际收入兑现前属于'AI概念高暴露'而非真实AI收入标的。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": null,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 8.095238095238095,
+          "value": 8.333333333333332,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": null,
+          "value": 95.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 55.952380952380935,
+          "value": 83.92857142857142,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 12.0,
+          "reasoning": "Oklo尚无商业收入，依赖~7.9亿现金维持运营，首座反应堆预计2027年前后才能并网。面临NRC监管不确定性、核燃料供应链风险、技术未经商业验证、客户合同多为LOI非约束性协议，估值已大幅透支未来预期，回撤风险极高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 12.26467331118494,
+          "value": 47.40309523809524,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
       "data": {
         "target_mean": 90.92105,
         "target_high": 140.0,
@@ -178,7 +178,7 @@
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 19,
-        "next_earnings": "2026-08-11",
+        "next_earnings": "2026-05-13",
         "eps_estimate": -0.18215,
         "revenue_estimate": null
       },
@@ -189,7 +189,7 @@
       "title": "Oklo Inc（OKLO）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Oklo拥有Aurora快堆专利技术与NRC许可证申请先发优势，Sam Altman背书带来品牌溢价，已签署多份LOI锁定AI数据中心客户。但零营收、无商业堆运营记录、监管路径仍存不确定性，技术壁垒尚未转化为真实竞争壁垒，护城河处于'建设中'阶段。 【ai_exposure】Oklo的SMR定位高度依赖AI数据中心电力需求叙事，已签署多项AI科技公司PPA意向（含Sam Altman背书），但目前零商业收入、首座反应堆2027年前无法并网，AI驱动的订单管道是核心估值逻辑，实际收入兑现前属于'AI概念高暴露'而非真实AI收入标的。 【risk】Oklo尚无商业收入，依赖~7.9亿现金维持运营，首座反应堆预计2027年前后才能并网。面临NRC监管不确定性、核燃料供应链风险、技术未经商业验证、客户合同多为LOI非约束性协议，估值已大幅透支未来预期，回撤风险极高。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

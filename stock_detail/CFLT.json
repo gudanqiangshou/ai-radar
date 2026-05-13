@@ -11,15 +11,15 @@
     "ai_role": "Kafka 商业化 — 数据流处理",
     "price": null,
     "change_1d": null,
-    "composite": 49.99999999999999,
+    "composite": 51.23529411764705,
     "tier_letter": "C",
     "description": [
       "Confluent 的 AI 产业链位置为 Data / Software Platform。",
-      "AI 角色：Kafka 商业化 — 数据流处理。当前内部综合评分 49。",
+      "AI 角色：Kafka 商业化 — 数据流处理。当前内部综合评分 51。",
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "观察"
   },
   "panels": [
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Confluent基于Apache Kafka构建商业化护城河，企业客户切换成本高、生态绑定深；但Kafka本身开源，AWS/Azure/GCP均提供托管竞品，技术壁垒有限。毛利率74%健康，但持续亏损（净利率-25%）显示规模效应尚未成熟，品牌在数据流领域有一定心智占位。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 35.0,
+          "reasoning": "Confluent的Kafka流处理平台是AI数据管道的基础设施之一，AI工作负载增加带动实时数据流需求，但核心客户群仍以传统企业数字化为主。AI为间接受益——提升数据吞吐量需求，但非直接AI capex驱动，且竞争来自云厂商自有流处理服务。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "Confluent现金约20亿但长期负债近11亿，仍处亏损阶段，自由现金流压力较大。产品高度依赖Kafka生态，面临AWS/Azure/GCP托管Kafka及开源自建的替代威胁。估值倍数偏高，利率敏感性强，回撤风险显著。整体风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 49.99999999999999,
+          "value": 51.23529411764705,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Confluent（CFLT）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Confluent基于Apache Kafka构建商业化护城河，企业客户切换成本高、生态绑定深；但Kafka本身开源，AWS/Azure/GCP均提供托管竞品，技术壁垒有限。毛利率74%健康，但持续亏损（净利率-25%）显示规模效应尚未成熟，品牌在数据流领域有一定心智占位。 【ai_exposure】Confluent的Kafka流处理平台是AI数据管道的基础设施之一，AI工作负载增加带动实时数据流需求，但核心客户群仍以传统企业数字化为主。AI为间接受益——提升数据吞吐量需求，但非直接AI capex驱动，且竞争来自云厂商自有流处理服务。 【risk】Confluent现金约20亿但长期负债近11亿，仍处亏损阶段，自由现金流压力较大。产品高度依赖Kafka生态，面临AWS/Azure/GCP托管Kafka及开源自建的替代威胁。估值倍数偏高，利率敏感性强，回撤风险显著。整体风险偏高。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 49.99999999999999
+        },
+        {
+          "date": "2026-05-13",
+          "value": 51.23529411764705
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

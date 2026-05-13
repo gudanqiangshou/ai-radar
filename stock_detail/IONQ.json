@@ -11,15 +11,15 @@
     "ai_role": "离子阱量子计算 — 上市量子第一股",
     "price": 55.869998931884766,
     "change_1d": -1.79,
-    "composite": 72.6923076923077,
+    "composite": 63.47368421052631,
     "tier_letter": "B",
     "description": [
       "IonQ 的 AI 产业链位置为 Quantum / Frontier Computing。",
-      "AI 角色：离子阱量子计算 — 上市量子第一股。当前内部综合评分 72。",
+      "AI 角色：离子阱量子计算 — 上市量子第一股。当前内部综合评分 63。",
       "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "51,557,900",
-        "量比20日": "0.84",
+        "量比20日": "0.91",
         "52周高点": "59.15",
         "52周低点": "47.89",
         "距52周高点": "-5.55%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "IonQ离子阱技术具备一定专利壁垒与学术积累，先发上市占据品牌心智；但量子计算商业化仍早期，客户粘性弱、规模效应缺失，IBM/Google等巨头竞争激烈，毛利率36%偏低，护城河尚在构建阶段。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 35.0,
+          "reasoning": "IonQ是量子计算公司，非直接AI标的。其离子阱硬件可用于AI优化问题，但当前收入极小且主要来自政府/研究合同。AI capex浪潮对其需求拉动有限，量子计算商业化仍需数年，与AI基础设施直接受益标的差距显著。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 18.0,
+          "reasoning": "IonQ处于极高风险区间：无营收盈利、持续烧钱（现金约20亿但年亏损超1亿）、量子商业化时间表高度不确定、客户高度集中于政府/研究机构、估值严重透支未来预期、技术路线面临超导量子等多路竞争、出口管制风险显著。唯一支撑为充裕现金储备。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 72.6923076923077,
+          "value": 63.47368421052631,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "IonQ（IONQ）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】IonQ离子阱技术具备一定专利壁垒与学术积累，先发上市占据品牌心智；但量子计算商业化仍早期，客户粘性弱、规模效应缺失，IBM/Google等巨头竞争激烈，毛利率36%偏低，护城河尚在构建阶段。 【ai_exposure】IonQ是量子计算公司，非直接AI标的。其离子阱硬件可用于AI优化问题，但当前收入极小且主要来自政府/研究合同。AI capex浪潮对其需求拉动有限，量子计算商业化仍需数年，与AI基础设施直接受益标的差距显著。 【risk】IonQ处于极高风险区间：无营收盈利、持续烧钱（现金约20亿但年亏损超1亿）、量子商业化时间表高度不确定、客户高度集中于政府/研究机构、估值严重透支未来预期、技术路线面临超导量子等多路竞争、出口管制风险显著。唯一支撑为充裕现金储备。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 72.6923076923077
+        },
+        {
+          "date": "2026-05-13",
+          "value": 63.47368421052631
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

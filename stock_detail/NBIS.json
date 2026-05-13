@@ -11,16 +11,16 @@
     "ai_role": "GPU 云欧洲玩家 — 原 Yandex 拆分",
     "price": 179.11000061035156,
     "change_1d": -3.76,
-    "composite": 59.48717948717948,
+    "composite": 53.228070175438596,
     "tier_letter": "B",
     "description": [
       "Nebius Group 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：GPU 云欧洲玩家 — 原 Yandex 拆分。当前内部综合评分 59。",
+      "AI 角色：GPU 云欧洲玩家 — 原 Yandex 拆分。当前内部综合评分 53。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
-    "status_label": "持有"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "11,604,400",
-        "量比20日": "0.83",
+        "量比20日": "0.90",
         "52周高点": "196.46",
         "52周低点": "172.25",
         "距52周高点": "-8.83%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 32.0,
+          "reasoning": "Nebius技术壁垒薄弱，无差异化专利；欧洲GPU云市场份额小，品牌认知度低；客户切换成本与AWS/Azure相当但规模远不及；毛利率69%尚可但净利率仅16%显示成本压力；唯一优势是欧洲数据主权监管趋势带来的地域性机会，但护城河整体偏窄。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 82.0,
+          "reasoning": "NBIS核心业务即GPU云基础设施，直接服务AI训练/推理工作负载，收入几乎完全依赖AI capex周期。从Yandex拆分后专注欧洲AI云市场，无传统IT业务对冲，AI需求下行将直接重创营收，属高纯度AI基础设施标的。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "原Yandex拆分带来地缘政治与制裁风险；长期负债(41亿)超现金(37.5亿)，财务杠杆偏高；GPU云欧洲市场竞争激烈，客户集中度数据缺失增加不确定性；英伟达出口管制可能限制GPU供应；早期成长阶段估值泡沫风险显著。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 59.48717948717948,
+          "value": 53.228070175438596,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Nebius Group（NBIS）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Nebius技术壁垒薄弱，无差异化专利；欧洲GPU云市场份额小，品牌认知度低；客户切换成本与AWS/Azure相当但规模远不及；毛利率69%尚可但净利率仅16%显示成本压力；唯一优势是欧洲数据主权监管趋势带来的地域性机会，但护城河整体偏窄。 【ai_exposure】NBIS核心业务即GPU云基础设施，直接服务AI训练/推理工作负载，收入几乎完全依赖AI capex周期。从Yandex拆分后专注欧洲AI云市场，无传统IT业务对冲，AI需求下行将直接重创营收，属高纯度AI基础设施标的。 【risk】原Yandex拆分带来地缘政治与制裁风险；长期负债(41亿)超现金(37.5亿)，财务杠杆偏高；GPU云欧洲市场竞争激烈，客户集中度数据缺失增加不确定性；英伟达出口管制可能限制GPU供应；早期成长阶段估值泡沫风险显著。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 59.48717948717948
+        },
+        {
+          "date": "2026-05-13",
+          "value": 53.228070175438596
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

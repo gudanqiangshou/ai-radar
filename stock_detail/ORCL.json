@@ -11,15 +11,15 @@
     "ai_role": "OCI + AI 数据中心 GPU 租赁 — Stargate / OpenAI 长约",
     "price": 186.8300018310547,
     "change_1d": -3.62,
-    "composite": 43.84615384615385,
+    "composite": 50.94736842105262,
     "tier_letter": "B",
     "description": [
       "Oracle 的 AI 产业链位置为 Cloud / Hyperscaler。",
-      "AI 角色：OCI + AI 数据中心 GPU 租赁 — Stargate / OpenAI 长约。当前内部综合评分 43。",
+      "AI 角色：OCI + AI 数据中心 GPU 租赁 — Stargate / OpenAI 长约。当前内部综合评分 50。",
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "观察"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "22,082,500",
-        "量比20日": "1.31",
+        "量比20日": "1.13",
         "52周高点": "195.68",
         "52周低点": "180.87",
         "距52周高点": "-4.52%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Oracle凭借数据库生态的极高切换成本（ERP/Java深度绑定）构筑核心护城河；OCI借Stargate/OpenAI长约快速补足GPU算力规模；但在纯云IaaS市场份额仍落后AWS/Azure/GCP，品牌心智与规模效应偏弱，整体护城河属中上水平。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 68.0,
+          "reasoning": "OCI GPU云租赁（Stargate/OpenAI长约）是当前最快增长引擎，剩余履约义务中AI基础设施占比持续提升，但Oracle整体收入仍有大量来自传统数据库/ERP授权与支持，AI直接驱动收入占比约30-40%，属于AI主要驱动但非纯AI标的。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "长期负债1247亿美元远超现金391亿，杠杆率极高，利息压力显著。Stargate/OpenAI长约带来集中度风险，合约若变动影响巨大。OCI市场份额落后AWS/Azure/GCP，竞争激烈。AI数据中心资本支出持续扩张，估值已计入高增长预期，回撤风险较大。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 43.84615384615385,
+          "value": 50.94736842105262,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Oracle（ORCL）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Oracle凭借数据库生态的极高切换成本（ERP/Java深度绑定）构筑核心护城河；OCI借Stargate/OpenAI长约快速补足GPU算力规模；但在纯云IaaS市场份额仍落后AWS/Azure/GCP，品牌心智与规模效应偏弱，整体护城河属中上水平。 【ai_exposure】OCI GPU云租赁（Stargate/OpenAI长约）是当前最快增长引擎，剩余履约义务中AI基础设施占比持续提升，但Oracle整体收入仍有大量来自传统数据库/ERP授权与支持，AI直接驱动收入占比约30-40%，属于AI主要驱动但非纯AI标的。 【risk】长期负债1247亿美元远超现金391亿，杠杆率极高，利息压力显著。Stargate/OpenAI长约带来集中度风险，合约若变动影响巨大。OCI市场份额落后AWS/Azure/GCP，竞争激烈。AI数据中心资本支出持续扩张，估值已计入高增长预期，回撤风险较大。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 43.84615384615385
+        },
+        {
+          "date": "2026-05-13",
+          "value": 50.94736842105262
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

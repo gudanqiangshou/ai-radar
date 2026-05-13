@@ -11,16 +11,16 @@
     "ai_role": "Apple Intelligence + Neural Engine — 端侧 AI 入口",
     "price": 294.79998779296875,
     "change_1d": 0.72,
-    "composite": 51.92307692307692,
+    "composite": 58.789473684210535,
     "tier_letter": "A",
     "description": [
       "Apple 的 AI 产业链位置为 Consumer AI / Device。",
-      "AI 角色：Apple Intelligence + Neural Engine — 端侧 AI 入口。当前内部综合评分 51。",
+      "AI 角色：Apple Intelligence + Neural Engine — 端侧 AI 入口。当前内部综合评分 58。",
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
-    "status_label": "观察"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "45,689,300",
-        "量比20日": "1.08",
+        "量比20日": "1.04",
         "52周高点": "295.27",
         "52周低点": "290.23",
         "距52周高点": "-0.16%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 87.0,
+          "reasoning": "Apple凭借自研Neural Engine芯片、iOS生态锁定、8亿+付费用户的高切换成本、以及端侧隐私差异化构建深厚护城河。48%毛利率与141% ROE印证定价权。主要风险在于AI能力相对Google/OpenAI仍有差距，且监管压力（App Store反垄断）持续存在。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 32.0,
+          "reasoning": "Apple Intelligence是iPhone升级周期的催化剂，但AI并非独立收入来源。核心收入仍依赖硬件销售（52%）和服务生态（22%）。AI失败不会颠覆基本盘，更多是错失增长机会而非直接损失。端侧AI定位使其与云端AI capex周期相关性较低。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Apple现金储备充裕（685亿），但长期负债744亿略高于现金。iPhone收入占比约50%集中度偏高，中国市场依赖（约20%营收）面临地缘政治压力，App Store反垄断监管持续，AI端侧布局有竞争力但落后于安卓生态，当前PE约30x估值偏高存在回撤风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 51.92307692307692,
+          "value": 58.789473684210535,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Apple（AAPL）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Apple凭借自研Neural Engine芯片、iOS生态锁定、8亿+付费用户的高切换成本、以及端侧隐私差异化构建深厚护城河。48%毛利率与141% ROE印证定价权。主要风险在于AI能力相对Google/OpenAI仍有差距，且监管压力（App Store反垄断）持续存在。 【ai_exposure】Apple Intelligence是iPhone升级周期的催化剂，但AI并非独立收入来源。核心收入仍依赖硬件销售（52%）和服务生态（22%）。AI失败不会颠覆基本盘，更多是错失增长机会而非直接损失。端侧AI定位使其与云端AI capex周期相关性较低。 【risk】Apple现金储备充裕（685亿），但长期负债744亿略高于现金。iPhone收入占比约50%集中度偏高，中国市场依赖（约20%营收）面临地缘政治压力，App Store反垄断监管持续，AI端侧布局有竞争力但落后于安卓生态，当前PE约30x估值偏高存在回撤风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 51.92307692307692
+        },
+        {
+          "date": "2026-05-13",
+          "value": 58.789473684210535
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

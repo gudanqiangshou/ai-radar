@@ -11,15 +11,15 @@
     "ai_role": "企业存储 + 云数据管理 — AI 数据流转",
     "price": 116.2300033569336,
     "change_1d": -1.27,
-    "composite": 84.61538461538461,
+    "composite": 76.21052631578948,
     "tier_letter": "C",
     "description": [
       "NetApp 的 AI 产业链位置为 Data Center Infrastructure。",
-      "AI 角色：企业存储 + 云数据管理 — AI 数据流转。当前内部综合评分 84。",
+      "AI 角色：企业存储 + 云数据管理 — AI 数据流转。当前内部综合评分 76。",
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "买入区"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "2,043,200",
-        "量比20日": "0.89",
+        "量比20日": "0.94",
         "52周高点": "120.04",
         "52周低点": "113.90",
         "距52周高点": "-3.17%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "NetApp凭借ONTAP操作系统深度绑定企业存储生态，客户迁移成本高；70%毛利率反映技术溢价能力。但面临Pure Storage、云厂商原生存储的持续侵蚀，AI数据管理定位尚未形成差异化护城河，规模效应弱于超大规模云厂商。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "NetApp通过全闪存阵列（AFF）和云存储服务间接受益于AI训练/推理数据需求，AI相关存储需求推动了部分增长。但核心业务仍是传统企业存储和混合云管理，AI并非主要收入驱动，竞争激烈（Pure Storage、Dell），AI退潮影响有限但非免疫。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 58.0,
+          "reasoning": "NetApp现金30亿美元覆盖长期债务25亿，财务尚稳健。但传统存储硬件面临云原生与超融合替代压力，AWS/Azure自建存储威胁持续；企业IT支出周期性波动加剧营收不确定性；AI数据管理转型尚在早期，竞争激烈，整体风险中等偏上。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 84.61538461538461,
+          "value": 76.21052631578948,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "NetApp（NTAP）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】NetApp凭借ONTAP操作系统深度绑定企业存储生态，客户迁移成本高；70%毛利率反映技术溢价能力。但面临Pure Storage、云厂商原生存储的持续侵蚀，AI数据管理定位尚未形成差异化护城河，规模效应弱于超大规模云厂商。 【ai_exposure】NetApp通过全闪存阵列（AFF）和云存储服务间接受益于AI训练/推理数据需求，AI相关存储需求推动了部分增长。但核心业务仍是传统企业存储和混合云管理，AI并非主要收入驱动，竞争激烈（Pure Storage、Dell），AI退潮影响有限但非免疫。 【risk】NetApp现金30亿美元覆盖长期债务25亿，财务尚稳健。但传统存储硬件面临云原生与超融合替代压力，AWS/Azure自建存储威胁持续；企业IT支出周期性波动加剧营收不确定性；AI数据管理转型尚在早期，竞争激烈，整体风险中等偏上。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 84.61538461538461
+        },
+        {
+          "date": "2026-05-13",
+          "value": 76.21052631578948
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

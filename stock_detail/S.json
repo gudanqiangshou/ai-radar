@@ -11,15 +11,15 @@
     "ai_role": "Singularity AI 自治安全 — 端点替代赛道",
     "price": 15.739999771118164,
     "change_1d": -3.61,
-    "composite": 28.846153846153847,
+    "composite": 37.52631578947368,
     "tier_letter": "C",
     "description": [
       "SentinelOne 的 AI 产业链位置为 Cybersecurity。",
-      "AI 角色：Singularity AI 自治安全 — 端点替代赛道。当前内部综合评分 28。",
+      "AI 角色：Singularity AI 自治安全 — 端点替代赛道。当前内部综合评分 37。",
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
     "status_label": "减持"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "4,615,000",
-        "量比20日": "0.47",
+        "量比20日": "0.64",
         "52周高点": "16.72",
         "52周低点": "15.64",
         "距52周高点": "-5.86%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "SentinelOne以AI原生架构和Singularity平台构建技术壁垒，端点代理深度嵌入客户环境切换成本较高；但营收规模仍小于CrowdStrike，持续亏损（净利率-45%）压缩护城河深度，品牌心智和规模效应弱于头部竞争对手，差异化优势尚未转化为定价权。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "SentinelOne将AI深度嵌入核心产品（Purple AI、AI SIEM），AI能力是差异化卖点而非附加模块，直接驱动ARR增长和竞争定位。但收入仍来自传统端点/云安全订阅，AI capex浪潮对其需求拉动间接，AI退潮影响产品竞争力而非直接砍收入。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "S 持续亏损、自由现金流为负，估值仍偏高（PS ratio ~10x+）。端点安全赛道竞争激烈（CrowdStrike、Microsoft Defender），AI 自治安全差异化尚未转化为盈利护城河。现金储备约6.3亿尚可支撑运营，但烧钱速度与增长放缓构成中高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 28.846153846153847,
+          "value": 37.52631578947368,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "SentinelOne（S）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】SentinelOne以AI原生架构和Singularity平台构建技术壁垒，端点代理深度嵌入客户环境切换成本较高；但营收规模仍小于CrowdStrike，持续亏损（净利率-45%）压缩护城河深度，品牌心智和规模效应弱于头部竞争对手，差异化优势尚未转化为定价权。 【ai_exposure】SentinelOne将AI深度嵌入核心产品（Purple AI、AI SIEM），AI能力是差异化卖点而非附加模块，直接驱动ARR增长和竞争定位。但收入仍来自传统端点/云安全订阅，AI capex浪潮对其需求拉动间接，AI退潮影响产品竞争力而非直接砍收入。 【risk】S 持续亏损、自由现金流为负，估值仍偏高（PS ratio ~10x+）。端点安全赛道竞争激烈（CrowdStrike、Microsoft Defender），AI 自治安全差异化尚未转化为盈利护城河。现金储备约6.3亿尚可支撑运营，但烧钱速度与增长放缓构成中高风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 28.846153846153847
+        },
+        {
+          "date": "2026-05-13",
+          "value": 37.52631578947368
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

@@ -11,15 +11,15 @@
     "ai_role": "锂矿龙头 — 电池关键原料",
     "price": 205.52000427246094,
     "change_1d": -2.13,
-    "composite": 63.46153846153846,
+    "composite": 58.89473684210525,
     "tier_letter": "B",
     "description": [
       "Albemarle 的 AI 产业链位置为 Critical Minerals / Rare Earths。",
-      "AI 角色：锂矿龙头 — 电池关键原料。当前内部综合评分 63。",
+      "AI 角色：锂矿龙头 — 电池关键原料。当前内部综合评分 58。",
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:12",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "1,803,100",
-        "量比20日": "0.64",
+        "量比20日": "0.78",
         "52周高点": "219.08",
         "52周低点": "201.65",
         "距52周高点": "-6.19%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Albemarle坐拥智利Atacama等顶级锂矿资源牌照，规模与成本优势显著，长期供应合约提供客户粘性。但锂价暴跌导致盈利承压（净利率-4%），技术壁垒相对有限，竞争对手SQM/Livent/Arcadium持续追赶，护城河以资源垄断为主，技术与品牌护城河偏弱。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 18.0,
+          "reasoning": "ALB是锂矿龙头，锂主要用于EV电池而非AI数据中心。AI服务器对锂需求极小，核心驱动是EV渗透率与储能需求。AI capex扩张对ALB几乎无直接拉动，属于极弱间接受益。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "锂价自2022年高点暴跌超80%，ALB营收利润大幅承压；长期负债31亿美元而现金仅11亿，财务杠杆偏高；业务高度集中于锂矿单一品种；智利、澳洲资源受地缘与政策风险；钠电池等替代技术构成中期威胁，综合风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 63.46153846153846,
+          "value": 58.89473684210525,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:12",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Albemarle（ALB）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Albemarle坐拥智利Atacama等顶级锂矿资源牌照，规模与成本优势显著，长期供应合约提供客户粘性。但锂价暴跌导致盈利承压（净利率-4%），技术壁垒相对有限，竞争对手SQM/Livent/Arcadium持续追赶，护城河以资源垄断为主，技术与品牌护城河偏弱。 【ai_exposure】ALB是锂矿龙头，锂主要用于EV电池而非AI数据中心。AI服务器对锂需求极小，核心驱动是EV渗透率与储能需求。AI capex扩张对ALB几乎无直接拉动，属于极弱间接受益。 【risk】锂价自2022年高点暴跌超80%，ALB营收利润大幅承压；长期负债31亿美元而现金仅11亿，财务杠杆偏高；业务高度集中于锂矿单一品种；智利、澳洲资源受地缘与政策风险；钠电池等替代技术构成中期威胁，综合风险偏高。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 63.46153846153846
+        },
+        {
+          "date": "2026-05-13",
+          "value": 58.89473684210525
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

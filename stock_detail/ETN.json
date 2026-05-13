@@ -11,15 +11,15 @@
     "ai_role": "配电 + UPS + 数据中心电气系统，AI capex 直接受益",
     "price": 401.5299987792969,
     "change_1d": -4.17,
-    "composite": 56.402478799739065,
+    "composite": 59.15071428571429,
     "tier_letter": "A",
     "description": [
       "Eaton 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：配电 + UPS + 数据中心电气系统，AI capex 直接受益。当前内部综合评分 56。",
+      "AI 角色：配电 + UPS + 数据中心电气系统，AI capex 直接受益。当前内部综合评分 59。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:08",
     "status_label": "持有"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "6.52",
         "20日波动率": "42.85%",
         "成交量": "2,951,200",
-        "量比20日": "1.04",
+        "量比20日": "1.02",
         "52周高点": "435.43",
         "52周低点": "311.90",
         "距52周高点": "-7.79%",
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 64.76190476190476,
+          "value": 67.26190476190476,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Eaton在配电、UPS及数据中心电气系统拥有深厚专利积累与工程Know-how，客户切换成本高（系统集成认证周期长），品牌在工业电气领域心智占位强。但面临ABB、施耐德、伊顿竞争，毛利率37%尚可，ROE 21%健康，规模效应中等，无垄断性牌照壁垒，综合护城河偏宽但非顶级。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Eaton数据中心电气业务（配电、UPS、母线槽）直接受益AI capex浪潮，该细分约占总收入25-30%且增速显著高于整体。但工业、航空、汽车等传统业务仍占大头，AI并非唯一驱动。AI退潮将明显拖累估值，但不致业务崩塌。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 62.666666666666664,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 59.52380952380953,
+          "value": 58.80952380952381,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 36.42857142857142,
+          "value": 33.92857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "ETN受益AI数据中心电气需求，业务多元化强，但长期负债188亿美元偏高、现金仅5.65亿覆盖比低；估值已充分反映AI溢价（P/E偏高），回撤风险显著；地缘政治与供应链暴露中等；技术替代风险低，整体中低风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 56.402478799739065,
+          "value": 59.15071428571429,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:01",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:08",
       "data": {
-        "target_mean": 447.92108,
+        "target_mean": 447.59964,
         "target_high": 514.0,
         "target_low": 321.0,
-        "upside_pct": 11.55,
+        "upside_pct": 11.47,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 28,
         "next_earnings": "2026-08-04",
-        "eps_estimate": 3.07736,
+        "eps_estimate": 3.07123,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -189,7 +189,7 @@
       "title": "Eaton（ETN）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Eaton在配电、UPS及数据中心电气系统拥有深厚专利积累与工程Know-how，客户切换成本高（系统集成认证周期长），品牌在工业电气领域心智占位强。但面临ABB、施耐德、伊顿竞争，毛利率37%尚可，ROE 21%健康，规模效应中等，无垄断性牌照壁垒，综合护城河偏宽但非顶级。 【ai_exposure】Eaton数据中心电气业务（配电、UPS、母线槽）直接受益AI capex浪潮，该细分约占总收入25-30%且增速显著高于整体。但工业、航空、汽车等传统业务仍占大头，AI并非唯一驱动。AI退潮将明显拖累估值，但不致业务崩塌。 【risk】ETN受益AI数据中心电气需求，业务多元化强，但长期负债188亿美元偏高、现金仅5.65亿覆盖比低；估值已充分反映AI溢价（P/E偏高），回撤风险显著；地缘政治与供应链暴露中等；技术替代风险低，整体中低风险。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

@@ -11,15 +11,15 @@
     "ai_role": "边缘网络 + Workers AI 推理 — 边缘 AI 平台",
     "price": 186.7899932861328,
     "change_1d": -3.48,
-    "composite": 28.269230769230766,
+    "composite": 38.71052631578947,
     "tier_letter": "B",
     "description": [
       "Cloudflare 的 AI 产业链位置为 Cybersecurity。",
-      "AI 角色：边缘网络 + Workers AI 推理 — 边缘 AI 平台。当前内部综合评分 28。",
+      "AI 角色：边缘网络 + Workers AI 推理 — 边缘 AI 平台。当前内部综合评分 38。",
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
     "status_label": "减持"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "5,566,600",
-        "量比20日": "0.85",
+        "量比20日": "0.92",
         "52周高点": "204.27",
         "52周低点": "186.57",
         "距52周高点": "-8.56%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Cloudflare凭借全球300+PoP边缘网络构建强规模效应与低延迟优势，Workers平台形成开发者生态锁定，Zero Trust+SASE产品线切换成本高。但毛利率73%尚可、净利率仍负，品牌强但企业大客户渗透率不及Palo Alto/Zscaler，专利护城河相对有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "Cloudflare核心收入仍来自CDN/DDoS/Zero Trust等网络安全业务，Workers AI是新兴但占比极小的增量。AI推理边缘平台定位有战略价值，但尚未成为主要收入驱动，AI退潮对其整体业务冲击有限。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "Cloudflare现金充裕(~42亿)、负债可控，但市盈率极高(PS>20x)估值泡沫风险显著；AI推理边缘市场竞争激烈(AWS/Azure/Google)；Workers AI商业化仍早期，盈利路径不确定；监管风险中等，无重大地缘政治敞口。综合评定中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 28.269230769230766,
+          "value": 38.71052631578947,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Cloudflare（NET）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Cloudflare凭借全球300+PoP边缘网络构建强规模效应与低延迟优势，Workers平台形成开发者生态锁定，Zero Trust+SASE产品线切换成本高。但毛利率73%尚可、净利率仍负，品牌强但企业大客户渗透率不及Palo Alto/Zscaler，专利护城河相对有限。 【ai_exposure】Cloudflare核心收入仍来自CDN/DDoS/Zero Trust等网络安全业务，Workers AI是新兴但占比极小的增量。AI推理边缘平台定位有战略价值，但尚未成为主要收入驱动，AI退潮对其整体业务冲击有限。 【risk】Cloudflare现金充裕(~42亿)、负债可控，但市盈率极高(PS>20x)估值泡沫风险显著；AI推理边缘市场竞争激烈(AWS/Azure/Google)；Workers AI商业化仍早期，盈利路径不确定；监管风险中等，无重大地缘政治敞口。综合评定中等风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 28.269230769230766
+        },
+        {
+          "date": "2026-05-13",
+          "value": 38.71052631578947
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

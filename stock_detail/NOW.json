@@ -11,16 +11,16 @@
     "ai_role": "Now Assist — 工单/HR/IT 工作流 AI 化",
     "price": 89.0,
     "change_1d": -2.72,
-    "composite": 35.19230769230769,
+    "composite": 45.23684210526316,
     "tier_letter": "A",
     "description": [
       "ServiceNow 的 AI 产业链位置为 AI Application。",
-      "AI 角色：Now Assist — 工单/HR/IT 工作流 AI 化。当前内部综合评分 35。",
+      "AI 角色：Now Assist — 工单/HR/IT 工作流 AI 化。当前内部综合评分 45。",
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
-    "status_label": "减持"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "22,228,100",
-        "量比20日": "1.04",
+        "量比20日": "1.02",
         "52周高点": "94.75",
         "52周低点": "88.69",
         "距52周高点": "-6.07%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "ServiceNow深度嵌入企业IT/HR工作流，切换成本极高；Now Assist借助现有数据资产和流程图谱构建AI差异化，但底层LLM依赖第三方，技术壁垒中等。规模效应显著，品牌在ITSM领域心智占位第一，监管壁垒有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "Now Assist作为付费附加模块叠加在成熟ITSM/HRSD平台上，AI功能驱动ACV提升但核心收入仍来自传统工作流订阅。AI失败不影响基础业务运转，属于增值层而非基础设施层，AI占比估计30-40%，增长贡献显著但非全部。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "ServiceNow现金充裕（52亿）、长期负债低（15亿），财务健康。但估值偏高（P/E>60x），企业IT支出周期性波动带来收入压力，Now Assist面临Microsoft Copilot等大厂竞争，客户集中度数据缺失增加不确定性，整体属低中风险区间。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 35.19230769230769,
+          "value": 45.23684210526316,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "ServiceNow（NOW）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】ServiceNow深度嵌入企业IT/HR工作流，切换成本极高；Now Assist借助现有数据资产和流程图谱构建AI差异化，但底层LLM依赖第三方，技术壁垒中等。规模效应显著，品牌在ITSM领域心智占位第一，监管壁垒有限。 【ai_exposure】Now Assist作为付费附加模块叠加在成熟ITSM/HRSD平台上，AI功能驱动ACV提升但核心收入仍来自传统工作流订阅。AI失败不影响基础业务运转，属于增值层而非基础设施层，AI占比估计30-40%，增长贡献显著但非全部。 【risk】ServiceNow现金充裕（52亿）、长期负债低（15亿），财务健康。但估值偏高（P/E>60x），企业IT支出周期性波动带来收入压力，Now Assist面临Microsoft Copilot等大厂竞争，客户集中度数据缺失增加不确定性，整体属低中风险区间。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 35.19230769230769
+        },
+        {
+          "date": "2026-05-13",
+          "value": 45.23684210526316
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

@@ -11,16 +11,16 @@
     "ai_role": "沉积 / CMP / 离子注入全栈 — AI 产能扩张直接受益",
     "price": 431.20001220703125,
     "change_1d": -2.8,
-    "composite": 32.82051282051282,
+    "composite": 45.192982456140356,
     "tier_letter": "A",
     "description": [
       "Applied Materials 的 AI 产业链位置为 Semiconductor Equipment。",
-      "AI 角色：沉积 / CMP / 离子注入全栈 — AI 产能扩张直接受益。当前内部综合评分 32。",
+      "AI 角色：沉积 / CMP / 离子注入全栈 — AI 产能扩张直接受益。当前内部综合评分 45。",
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
-    "status_label": "减持"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "9,304,200",
-        "量比20日": "1.12",
+        "量比20日": "1.06",
         "52周高点": "448.45",
         "52周低点": "416.56",
         "距52周高点": "-3.85%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 82.0,
+          "reasoning": "AMAT在CVD/PVD/CMP/离子注入拥有深厚专利壁垒与工艺Know-how，客户切换成本极高（设备认证周期长达数年），规模效应显著（TTM营收282亿，毛利率49%，ROE 39%），品牌心智稳固。主要风险为地缘政治出口管制及LRCX/TEL竞争压力。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "AMAT设备广泛用于HBM、先进逻辑及CoWoS封装，AI capex扩张直接拉动订单。但其收入来源多元——成熟制程、汽车、工业等非AI需求仍占约40-50%。AI是当前主要增长引擎，非全部，AI退潮将显著冲击但不致颠覆基本盘。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "AMAT现金充裕(85亿)但长期负债64亿，净现金有限。最大风险来自美国对华出口管制（中国占营收约30%），地缘政治压力持续。半导体设备周期性强，客户集中于台积电/三星/英特尔。AI资本开支驱动需求是正面因素，但估值已反映乐观预期，回撤风险较高。综合评定为中等偏高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 32.82051282051282,
+          "value": 45.192982456140356,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Applied Materials（AMAT）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】AMAT在CVD/PVD/CMP/离子注入拥有深厚专利壁垒与工艺Know-how，客户切换成本极高（设备认证周期长达数年），规模效应显著（TTM营收282亿，毛利率49%，ROE 39%），品牌心智稳固。主要风险为地缘政治出口管制及LRCX/TEL竞争压力。 【ai_exposure】AMAT设备广泛用于HBM、先进逻辑及CoWoS封装，AI capex扩张直接拉动订单。但其收入来源多元——成熟制程、汽车、工业等非AI需求仍占约40-50%。AI是当前主要增长引擎，非全部，AI退潮将显著冲击但不致颠覆基本盘。 【risk】AMAT现金充裕(85亿)但长期负债64亿，净现金有限。最大风险来自美国对华出口管制（中国占营收约30%），地缘政治压力持续。半导体设备周期性强，客户集中于台积电/三星/英特尔。AI资本开支驱动需求是正面因素，但估值已反映乐观预期，回撤风险较高。综合评定为中等偏高风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 32.82051282051282
+        },
+        {
+          "date": "2026-05-13",
+          "value": 45.192982456140356
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

@@ -11,15 +11,15 @@
     "ai_role": "数据中心互联 (DCI) + 光网络系统",
     "price": 577.1500244140625,
     "change_1d": -0.74,
-    "composite": 26.410256410256405,
+    "composite": 37.64912280701754,
     "tier_letter": "B",
     "description": [
       "Ciena 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：数据中心互联 (DCI) + 光网络系统。当前内部综合评分 26。",
+      "AI 角色：数据中心互联 (DCI) + 光网络系统。当前内部综合评分 37。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "减持"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "1,600,000",
-        "量比20日": "0.67",
+        "量比20日": "0.80",
         "52周高点": "593.00",
         "52周低点": "546.98",
         "距52周高点": "-2.67%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Ciena在相干光技术（WaveLogic芯片）和软件定义网络平台（MCP）上具备深厚专利壁垒与Know-how；大型运营商/云厂商客件粘性高、切换成本大。但规模不及Nokia/华为，净利率偏低（4%）显示定价权有限，品牌主要集中北美市场，整体护城河中等偏强。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "Ciena的光网络/DCI产品直接受益于AI数据中心互联需求（超大规模云厂商是主要客户），但其收入来源多元，包括电信运营商、政府等非AI驱动客户。AI相关需求约占增长驱动的30-40%，非核心全部，AI退潮影响有限但可见。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "Ciena现金约13亿但长期负债15.2亿，杠杆适中；高度依赖少数大型电信运营商客户（AT&T等集中度高）；光网络设备面临中国供应链/出口管制风险；AI驱动数据中心需求提供增长催化剂，但竞争激烈（华为、诺基亚、Infinera），整体风险中等偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 26.410256410256405,
+          "value": 37.64912280701754,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Ciena（CIEN）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Ciena在相干光技术（WaveLogic芯片）和软件定义网络平台（MCP）上具备深厚专利壁垒与Know-how；大型运营商/云厂商客件粘性高、切换成本大。但规模不及Nokia/华为，净利率偏低（4%）显示定价权有限，品牌主要集中北美市场，整体护城河中等偏强。 【ai_exposure】Ciena的光网络/DCI产品直接受益于AI数据中心互联需求（超大规模云厂商是主要客户），但其收入来源多元，包括电信运营商、政府等非AI驱动客户。AI相关需求约占增长驱动的30-40%，非核心全部，AI退潮影响有限但可见。 【risk】Ciena现金约13亿但长期负债15.2亿，杠杆适中；高度依赖少数大型电信运营商客户（AT&T等集中度高）；光网络设备面临中国供应链/出口管制风险；AI驱动数据中心需求提供增长催化剂，但竞争激烈（华为、诺基亚、Infinera），整体风险中等偏高。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 26.410256410256405
+        },
+        {
+          "date": "2026-05-13",
+          "value": 37.64912280701754
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

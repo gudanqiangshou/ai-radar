@@ -11,15 +11,15 @@
     "ai_role": "楼宇自控 + 数据中心制冷集成",
     "price": 141.0399932861328,
     "change_1d": -0.52,
-    "composite": 53.773646444879326,
+    "composite": 56.42309523809524,
     "tier_letter": "C",
     "description": [
       "Johnson Controls 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：楼宇自控 + 数据中心制冷集成。当前内部综合评分 53。",
+      "AI 角色：楼宇自控 + 数据中心制冷集成。当前内部综合评分 56。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "持有"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 55.23809523809524,
+          "value": 60.357142857142854,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "JCI在楼宇自控领域拥有深度系统集成Know-how与长期服务合约（高切换成本），数据中心制冷AI定位契合需求侧增长。但Power/Grid/Nuclear并非其核心护城河，核电资质壁垒有限，竞争对手（西门子、霍尼韦尔）同样强劲，规模优势中等，整体护城河稳固但非顶级。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 38.0,
+          "reasoning": "JCI数据中心制冷业务受AI capex驱动，增长明显，但楼宇自控、暖通、安防仍是营收主体。数据中心相关收入占比估计15-25%，AI是重要增量但非核心驱动。AI退潮影响有限，传统楼宇业务提供缓冲。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 39.23809523809524,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 52.38095238095238,
+          "value": 52.857142857142854,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 63.19047619047619,
+          "value": null,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 39.761904761904766,
+          "value": 26.785714285714285,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "JCI长期负债87亿美元而现金仅5.52亿，杠杆偏高流动性承压；楼宇自控业务增长稳健但数据中心制冷竞争加剧；地缘政治与出口管制对全球业务构成中等压力；AI驱动需求提供结构性支撑，但估值已反映较多预期，综合风险中等偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 53.773646444879326,
+          "value": 56.42309523809524,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
       "data": {
         "target_mean": 151.19048,
         "target_high": 173.0,
@@ -179,7 +179,7 @@
         "previous_rating_letter": "A-",
         "n_analysts": 21,
         "next_earnings": "2026-07-28",
-        "eps_estimate": 1.29361,
+        "eps_estimate": 1.29396,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -189,7 +189,7 @@
       "title": "Johnson Controls（JCI）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】JCI在楼宇自控领域拥有深度系统集成Know-how与长期服务合约（高切换成本），数据中心制冷AI定位契合需求侧增长。但Power/Grid/Nuclear并非其核心护城河，核电资质壁垒有限，竞争对手（西门子、霍尼韦尔）同样强劲，规模优势中等，整体护城河稳固但非顶级。 【ai_exposure】JCI数据中心制冷业务受AI capex驱动，增长明显，但楼宇自控、暖通、安防仍是营收主体。数据中心相关收入占比估计15-25%，AI是重要增量但非核心驱动。AI退潮影响有限，传统楼宇业务提供缓冲。 【risk】JCI长期负债87亿美元而现金仅5.52亿，杠杆偏高流动性承压；楼宇自控业务增长稳健但数据中心制冷竞争加剧；地缘政治与出口管制对全球业务构成中等压力；AI驱动需求提供结构性支撑，但估值已反映较多预期，综合风险中等偏高。"
       }
     },
     {
@@ -290,10 +290,10 @@
         },
         {
           "date": "2026-05-13",
-          "value": 54.731249999999996
+          "value": 56.42309523809524
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

@@ -11,15 +11,15 @@
     "ai_role": "全球代工龙头 — N3/N2 + CoWoS 几乎独家供 NVIDIA/AMD/AAPL",
     "price": 397.2799987792969,
     "change_1d": -1.79,
-    "composite": 90.76923076923076,
+    "composite": 87.89473684210525,
     "tier_letter": "A",
     "description": [
       "Taiwan Semiconductor 的 AI 产业链位置为 Foundry / Packaging。",
-      "AI 角色：全球代工龙头 — N3/N2 + CoWoS 几乎独家供 NVIDIA/AMD/AAPL。当前内部综合评分 90。",
+      "AI 角色：全球代工龙头 — N3/N2 + CoWoS 几乎独家供 NVIDIA/AMD/AAPL。当前内部综合评分 87。",
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
     "status_label": "买入区"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "18,095,900",
-        "量比20日": "1.23",
+        "量比20日": "1.10",
         "52周高点": "407.73",
         "52周低点": "386.12",
         "距52周高点": "-2.56%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 94.0,
+          "reasoning": "TSMC在3nm/2nm节点拥有全球唯一量产能力，CoWoS先进封装几乎垄断AI芯片供应链；客户高度依赖且切换成本极高；62%毛利率与36% ROE印证规模与定价权；地缘风险与资本密集度是主要制约，但短期内无实质竞争者可替代。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "AI相关芯片（HPC含GPU/ASIC）占TSMC收入约50%+，CoWoS先进封装几乎独供AI加速器，N3/N2节点AI需求是主要增长引擎。但消费电子（iPhone/PC）仍占约30-35%收入，非纯AI标的，AI退潮冲击大但有缓冲。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "台积电技术护城河极深、财务稳健（现金3.38万亿台币，长债仅8960亿），但地缘政治风险极高（台海局势、美国出口管制）、客户集中度高（苹果+NVIDIA+AMD占比超50%）、CoWoS产能瓶颈短期难解，综合风险中等偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 90.76923076923076,
+          "value": 87.89473684210525,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Taiwan Semiconductor（TSM）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】TSMC在3nm/2nm节点拥有全球唯一量产能力，CoWoS先进封装几乎垄断AI芯片供应链；客户高度依赖且切换成本极高；62%毛利率与36% ROE印证规模与定价权；地缘风险与资本密集度是主要制约，但短期内无实质竞争者可替代。 【ai_exposure】AI相关芯片（HPC含GPU/ASIC）占TSMC收入约50%+，CoWoS先进封装几乎独供AI加速器，N3/N2节点AI需求是主要增长引擎。但消费电子（iPhone/PC）仍占约30-35%收入，非纯AI标的，AI退潮冲击大但有缓冲。 【risk】台积电技术护城河极深、财务稳健（现金3.38万亿台币，长债仅8960亿），但地缘政治风险极高（台海局势、美国出口管制）、客户集中度高（苹果+NVIDIA+AMD占比超50%）、CoWoS产能瓶颈短期难解，综合风险中等偏高。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 90.76923076923076
+        },
+        {
+          "date": "2026-05-13",
+          "value": 87.89473684210525
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

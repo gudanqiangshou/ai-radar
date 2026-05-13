@@ -11,16 +11,16 @@
     "ai_role": "全球封测第一 — 先进封装多核心客户",
     "price": 34.279998779296875,
     "change_1d": -2.89,
-    "composite": 54.61538461538461,
+    "composite": 58.0,
     "tier_letter": "B",
     "description": [
       "ASE Technology Holding 的 AI 产业链位置为 Foundry / Packaging。",
-      "AI 角色：全球封测第一 — 先进封装多核心客户。当前内部综合评分 54。",
+      "AI 角色：全球封测第一 — 先进封装多核心客户。当前内部综合评分 58。",
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
-    "status_label": "观察"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "9,866,900",
-        "量比20日": "1.20",
+        "量比20日": "1.09",
         "52周高点": "35.32",
         "52周低点": "32.99",
         "距52周高点": "-2.94%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "ASX凭借全球最大封测规模、CoWoS/SiP等先进封装Know-how及与台积电/英伟达深度绑定构建护城河，但毛利率仅19%显示定价权有限，技术壁垒低于晶圆厂，且日月光/安靠竞争激烈，护城河宽度中上但深度不足。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "ASX是全球最大封测厂，先进封装（SiP、CoWoS类）直接服务AI芯片客户（NVIDIA、AMD等），AI驱动先进封装需求快速增长，占营收比例持续提升但传统消费电子/汽车封测仍占相当比重，AI是核心增长引擎但非唯一支柱。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 42.0,
+          "reasoning": "ASX长期负债约2011亿台币远超现金878亿，杠杆偏高；封测行业景气周期性强；客户集中度数据缺失但先进封装依赖少数大客户（苹果、英伟达等）；台海地缘政治风险持续；CoWoS等先进封装需求强劲但资本支出压力大，综合评定中等偏高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 54.61538461538461,
+          "value": 58.0,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "ASE Technology Holding（ASX）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】ASX凭借全球最大封测规模、CoWoS/SiP等先进封装Know-how及与台积电/英伟达深度绑定构建护城河，但毛利率仅19%显示定价权有限，技术壁垒低于晶圆厂，且日月光/安靠竞争激烈，护城河宽度中上但深度不足。 【ai_exposure】ASX是全球最大封测厂，先进封装（SiP、CoWoS类）直接服务AI芯片客户（NVIDIA、AMD等），AI驱动先进封装需求快速增长，占营收比例持续提升但传统消费电子/汽车封测仍占相当比重，AI是核心增长引擎但非唯一支柱。 【risk】ASX长期负债约2011亿台币远超现金878亿，杠杆偏高；封测行业景气周期性强；客户集中度数据缺失但先进封装依赖少数大客户（苹果、英伟达等）；台海地缘政治风险持续；CoWoS等先进封装需求强劲但资本支出压力大，综合评定中等偏高风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 54.61538461538461
+        },
+        {
+          "date": "2026-05-13",
+          "value": 58.0
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

@@ -11,16 +11,16 @@
     "ai_role": "燃气轮机 + 电网设备双轮驱动，AI 电力扩张铲子",
     "price": 1071.97998046875,
     "change_1d": -0.1,
-    "composite": 49.24331376386171,
+    "composite": 63.703095238095244,
     "tier_letter": "A",
     "description": [
       "GE Vernova 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：燃气轮机 + 电网设备双轮驱动，AI 电力扩张铲子。当前内部综合评分 49。",
+      "AI 角色：燃气轮机 + 电网设备双轮驱动，AI 电力扩张铲子。当前内部综合评分 63。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:01",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:08",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 57.14285714285714,
+          "value": 65.35714285714285,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 82.0,
+          "reasoning": "GEV在重型燃气轮机（HA级）和高压直流输电设备拥有深厚专利与工艺积累，客户长期服务合约（LTA）锁定粘性强；核电SMR布局形成监管牌照壁垒；GE百年品牌背书电力行业心智；主要风险是毛利率偏低（20%）及Siemens Energy、三菱等竞争压力。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "GEV是AI数据中心电力扩张的核心基础设施供应商（燃气轮机+电网设备），AI驱动的电力需求是其订单增长的重要催化剂，但业务基本盘覆盖工业、可再生能源、核电等多元领域，AI capex并非唯一驱动，估值已部分定价AI溢价，退潮风险中等。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 61.57142857142857,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 66.19047619047618,
+          "value": 65.95238095238095,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 19.54761904761905,
+          "value": 55.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 65.23809523809524,
+          "value": 55.357142857142854,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "财务结构健康（现金101亿 vs 长期债28亿，净现金充裕），但估值偏高（AI电力叙事溢价显著），燃气轮机订单积压强劲却面临交付执行风险，电网设备受地缘政治与出口管制压力，核能板块监管周期长，近期股价下滑反映市场对增长兑现的疑虑，综合风险中等。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 49.24331376386171,
+          "value": 63.703095238095244,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:01",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:08",
       "data": {
         "target_mean": 1206.5575,
         "target_high": 1424.0,
@@ -189,7 +189,7 @@
       "title": "GE Vernova（GEV）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】GEV在重型燃气轮机（HA级）和高压直流输电设备拥有深厚专利与工艺积累，客户长期服务合约（LTA）锁定粘性强；核电SMR布局形成监管牌照壁垒；GE百年品牌背书电力行业心智；主要风险是毛利率偏低（20%）及Siemens Energy、三菱等竞争压力。 【ai_exposure】GEV是AI数据中心电力扩张的核心基础设施供应商（燃气轮机+电网设备），AI驱动的电力需求是其订单增长的重要催化剂，但业务基本盘覆盖工业、可再生能源、核电等多元领域，AI capex并非唯一驱动，估值已部分定价AI溢价，退潮风险中等。 【risk】财务结构健康（现金101亿 vs 长期债28亿，净现金充裕），但估值偏高（AI电力叙事溢价显著），燃气轮机订单积压强劲却面临交付执行风险，电网设备受地缘政治与出口管制压力，核能板块监管周期长，近期股价下滑反映市场对增长兑现的疑虑，综合风险中等。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

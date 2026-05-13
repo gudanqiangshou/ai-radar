@@ -11,16 +11,16 @@
     "ai_role": "AI 仓储机器人 — Walmart 大单核心客户",
     "price": 51.31999969482422,
     "change_1d": -0.75,
-    "composite": 20.51282051282051,
+    "composite": 32.35087719298245,
     "tier_letter": "C",
     "description": [
       "Symbotic 的 AI 产业链位置为 Industrial Automation / Robotics。",
-      "AI 角色：AI 仓储机器人 — Walmart 大单核心客户。当前内部综合评分 20。",
+      "AI 角色：AI 仓储机器人 — Walmart 大单核心客户。当前内部综合评分 32。",
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
-    "status_label": "退出"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "1,275,700",
-        "量比20日": "0.64",
+        "量比20日": "0.78",
         "52周高点": "53.61",
         "52周低点": "50.11",
         "距52周高点": "-4.27%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Symbotic拥有自研AI软件+机器人硬件一体化技术栈及专利壁垒，Walmart超级大单形成强客户锁定，系统部署后切换成本极高。但高度客户集中（Walmart占比过大）、毛利率仅20%显示规模效应尚未成熟，品牌认知局限B端，护城河宽度有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 72.0,
+          "reasoning": "Symbotic核心产品是AI驱动的仓储自动化系统，Walmart为主要客户占收入大头，AI/机器视觉是其差异化壁垒。但本质是工业自动化硬件+软件集成，受零售capex周期驱动而非AI算力投资，客户集中风险高，AI退潮影响有限但增长依赖Walmart续约扩张。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "Walmart客户集中度极高（占收入80%+），合同执行风险大；公司仍处亏损阶段，依赖现金储备（约20亿）维持运营；长期负债数据缺失增加不确定性；工业自动化竞争加剧（Amazon Robotics等自研威胁）；估值偏高且盈利路径不明，整体风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 20.51282051282051,
+          "value": 32.35087719298245,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Symbotic（SYM）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Symbotic拥有自研AI软件+机器人硬件一体化技术栈及专利壁垒，Walmart超级大单形成强客户锁定，系统部署后切换成本极高。但高度客户集中（Walmart占比过大）、毛利率仅20%显示规模效应尚未成熟，品牌认知局限B端，护城河宽度有限。 【ai_exposure】Symbotic核心产品是AI驱动的仓储自动化系统，Walmart为主要客户占收入大头，AI/机器视觉是其差异化壁垒。但本质是工业自动化硬件+软件集成，受零售capex周期驱动而非AI算力投资，客户集中风险高，AI退潮影响有限但增长依赖Walmart续约扩张。 【risk】Walmart客户集中度极高（占收入80%+），合同执行风险大；公司仍处亏损阶段，依赖现金储备（约20亿）维持运营；长期负债数据缺失增加不确定性；工业自动化竞争加剧（Amazon Robotics等自研威胁）；估值偏高且盈利路径不明，整体风险偏高。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 20.51282051282051
+        },
+        {
+          "date": "2026-05-13",
+          "value": 32.35087719298245
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

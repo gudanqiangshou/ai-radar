@@ -11,15 +11,15 @@
     "ai_role": "全闪存阵列 — Meta AI 大单签约，AI 数据存储",
     "price": 83.33000183105469,
     "change_1d": -4.59,
-    "composite": 45.68181818181818,
+    "composite": 50.85294117647059,
     "tier_letter": "B",
     "description": [
       "Pure Storage 的 AI 产业链位置为 Data Center Infrastructure。",
-      "AI 角色：全闪存阵列 — Meta AI 大单签约，AI 数据存储。当前内部综合评分 45。",
+      "AI 角色：全闪存阵列 — Meta AI 大单签约，AI 数据存储。当前内部综合评分 50。",
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
     "status_label": "观察"
   },
   "panels": [
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "4,149,197",
-        "量比20日": "0.37",
+        "量比20日": "0.54",
         "52周高点": "93.92",
         "52周低点": "80.03",
         "距52周高点": "-11.28%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Pure Storage凭借全闪存专利体系、Evergreen订阅模式形成较强客户粘性，Meta AI大单验证高性能存储定位。但面临Dell/NetApp/HPE激烈竞争，规模效应弱于巨头，品牌溢价有限。毛利率70%健康，净利率仅5%显示盈利转化效率待提升。护城河中等偏上。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Pure Storage全闪存阵列直接受益于AI训练/推理对高速存储的需求，Meta大单验证其AI数据中心定位。但核心业务仍是企业级通用存储，AI占比估计30-40%，非纯AI标的。AI capex放缓会影响增长但不致命。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "Pure Storage AI存储需求强劲，Meta大单提振信心，现金储备约12亿尚可。但负债数据缺失、客户集中度不明、全闪存赛道竞争激烈（NetApp、Dell、云厂商自研），估值偏高（PS ratio较贵），地缘政治出口管制存在潜在压力，综合判定中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 45.68181818181818,
+          "value": 50.85294117647059,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Pure Storage（PSTG）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Pure Storage凭借全闪存专利体系、Evergreen订阅模式形成较强客户粘性，Meta AI大单验证高性能存储定位。但面临Dell/NetApp/HPE激烈竞争，规模效应弱于巨头，品牌溢价有限。毛利率70%健康，净利率仅5%显示盈利转化效率待提升。护城河中等偏上。 【ai_exposure】Pure Storage全闪存阵列直接受益于AI训练/推理对高速存储的需求，Meta大单验证其AI数据中心定位。但核心业务仍是企业级通用存储，AI占比估计30-40%，非纯AI标的。AI capex放缓会影响增长但不致命。 【risk】Pure Storage AI存储需求强劲，Meta大单提振信心，现金储备约12亿尚可。但负债数据缺失、客户集中度不明、全闪存赛道竞争激烈（NetApp、Dell、云厂商自研），估值偏高（PS ratio较贵），地缘政治出口管制存在潜在压力，综合判定中等风险。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 45.68181818181818
+        },
+        {
+          "date": "2026-05-13",
+          "value": 50.85294117647059
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

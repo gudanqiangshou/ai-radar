@@ -11,16 +11,16 @@
     "ai_role": "铀矿 — 核电燃料上游，AI 电力主题受益",
     "price": 15.5,
     "change_1d": -5.89,
-    "composite": 28.610567514677104,
+    "composite": 43.80166666666667,
     "tier_letter": "C",
     "description": [
       "Uranium Energy Corp 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：铀矿 — 核电燃料上游，AI 电力主题受益。当前内部综合评分 28。",
+      "AI 角色：铀矿 — 核电燃料上游，AI 电力主题受益。当前内部综合评分 43。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:02",
-    "status_label": "减持"
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "0.40",
         "20日波动率": "90.14%",
         "成交量": "9,863,900",
-        "量比20日": "1.10",
+        "量比20日": "1.07",
         "52周高点": "20.34",
         "52周低点": "5.03",
         "距52周高点": "-23.80%",
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 6.428571428571429,
+          "value": 16.19047619047619,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -104,21 +104,21 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 52.0,
+          "reasoning": "UEC核心护城河在于ISR采矿许可证稀缺性、怀俄明/德克萨斯资源储量及已建基础设施，监管壁垒较高。但技术差异化弱、无长期锁定合约、规模小（TTM营收仅2020万）、ROE为负，盈利能力尚未验证，护城河宽度中等偏下。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 28.0,
+          "reasoning": "UEC是铀矿上游供应商，核电是AI数据中心电力需求叙事的间接受益者。但铀价驱动因素多元（核电复兴、能源转型、地缘政治），AI数据中心用电仅是需求端之一。公司本身无直接AI收入，属间接/主题性受益，AI退潮对基本面冲击有限但估值溢价会收缩。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 23.952380952380956,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 68.57142857142857,
+          "value": 90.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 44.285714285714285,
+          "value": 58.92857142857142,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 32.0,
+          "reasoning": "UEC为预生产阶段铀矿商，无稳定营收，依赖铀价周期与资本市场融资。现金储备约4.86亿尚可，但长期负债数据缺失、客户集中度不明。铀矿受地缘政治与核监管高度约束，估值受AI核电叙事驱动溢价明显，回撤风险大。综合评定为偏高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 28.610567514677104,
+          "value": 43.80166666666667,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:50:02",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
       "data": {
         "target_mean": 19.16667,
         "target_high": 26.75,
@@ -189,7 +189,7 @@
       "title": "Uranium Energy Corp（UEC）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】UEC核心护城河在于ISR采矿许可证稀缺性、怀俄明/德克萨斯资源储量及已建基础设施，监管壁垒较高。但技术差异化弱、无长期锁定合约、规模小（TTM营收仅2020万）、ROE为负，盈利能力尚未验证，护城河宽度中等偏下。 【ai_exposure】UEC是铀矿上游供应商，核电是AI数据中心电力需求叙事的间接受益者。但铀价驱动因素多元（核电复兴、能源转型、地缘政治），AI数据中心用电仅是需求端之一。公司本身无直接AI收入，属间接/主题性受益，AI退潮对基本面冲击有限但估值溢价会收缩。 【risk】UEC为预生产阶段铀矿商，无稳定营收，依赖铀价周期与资本市场融资。现金储备约4.86亿尚可，但长期负债数据缺失、客户集中度不明。铀矿受地缘政治与核监管高度约束，估值受AI核电叙事驱动溢价明显，回撤风险大。综合评定为偏高风险。"
       }
     },
     {
@@ -295,5 +295,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }

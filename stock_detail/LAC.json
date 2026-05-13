@@ -11,16 +11,16 @@
     "ai_role": "锂矿开发 — Thacker Pass 美国本土项目",
     "price": 5.570000171661377,
     "change_1d": -3.8,
-    "composite": 35.714285714285715,
+    "composite": 41.38461538461537,
     "tier_letter": "C",
     "description": [
       "Lithium Americas 的 AI 产业链位置为 Critical Minerals / Rare Earths。",
-      "AI 角色：锂矿开发 — Thacker Pass 美国本土项目。当前内部综合评分 35。",
+      "AI 角色：锂矿开发 — Thacker Pass 美国本土项目。当前内部综合评分 41。",
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
-    "status_label": "减持"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:12",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -44,7 +44,7 @@
         "MACD": "—",
         "20日波动率": "—",
         "成交量": "10,673,300",
-        "量比20日": "0.81",
+        "量比20日": "0.90",
         "52周高点": "5.89",
         "52周低点": "5.32",
         "距52周高点": "-5.51%",
@@ -104,15 +104,15 @@
         },
         {
           "label": "Moat",
-          "value": null,
-          "reasoning": null,
+          "value": 62.0,
+          "reasoning": "Thacker Pass是美国最大已探明锂矿之一，联邦土地许可+环评已完成，资源壁垒与监管壁垒较强；GM战略入股提供客户粘性与资金背书。但公司尚无营收，工艺规模化未验证，技术护城河依赖Lithium Nevada历史积累，竞争者追赶风险存在。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": null,
-          "reasoning": null,
+          "value": 18.0,
+          "reasoning": "LAC是锂矿开发商，AI数据中心扩张带动电池级锂需求预期，属间接受益。但Thacker Pass项目尚未投产，收入为零，锂需求驱动因素以EV为主而非AI。AI capex对锂的拉动是叙事层面，非直接收入关联。",
           "is_ai": true,
           "is_quant": false
         },
@@ -150,14 +150,14 @@
         },
         {
           "label": "Risk",
-          "value": null,
-          "reasoning": null,
+          "value": 22.0,
+          "reasoning": "LAC为预收入阶段矿企，现金5.68亿尚可但长期负债5.11亿压力显著，Thacker Pass单一项目高度集中，建设周期长、资本需求大。锂价低迷压缩融资空间，监管/原住民诉讼风险犹存，无营收覆盖利息，整体风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 35.714285714285715,
+          "value": 41.38461538461537,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:12",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -176,7 +176,7 @@
       "title": "Lithium Americas（LAC）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+        "text": "【moat】Thacker Pass是美国最大已探明锂矿之一，联邦土地许可+环评已完成，资源壁垒与监管壁垒较强；GM战略入股提供客户粘性与资金背书。但公司尚无营收，工艺规模化未验证，技术护城河依赖Lithium Nevada历史积累，竞争者追赶风险存在。 【ai_exposure】LAC是锂矿开发商，AI数据中心扩张带动电池级锂需求预期，属间接受益。但Thacker Pass项目尚未投产，收入为零，锂需求驱动因素以EV为主而非AI。AI capex对锂的拉动是叙事层面，非直接收入关联。 【risk】LAC为预收入阶段矿企，现金5.68亿尚可但长期负债5.11亿压力显著，Thacker Pass单一项目高度集中，建设周期长、资本需求大。锂价低迷压缩融资空间，监管/原住民诉讼风险犹存，无营收覆盖利息，整体风险偏高。"
       }
     },
     {
@@ -193,9 +193,13 @@
         {
           "date": "2026-05-12",
           "value": 35.714285714285715
+        },
+        {
+          "date": "2026-05-13",
+          "value": 41.38461538461537
         }
       ]
     }
   ],
-  "updated_at": "2026-05-12"
+  "updated_at": "2026-05-13"
 }
