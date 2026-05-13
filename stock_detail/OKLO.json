@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "观察"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 90.92105,
         "target_high": 140.0,
@@ -254,26 +254,26 @@
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/oklos-regulatory-nuclear-earnings-stock-8228360e?siteid=yhoof2&yptr=yahoo",
-          "title": "Oklo’s Losses Widen. A Major Regulatory Win Keeps the Nuclear Dream Alive.",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/OKLO/news",
+          "title": "Oklo Inc. (OKLO) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Investing.com",
-          "url": "https://finance.yahoo.com/news/oklo-posts-wider-q1-loss-211627384.html",
-          "title": "Oklo posts wider Q1 loss as commercial progress remains elusive",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/OKLO/news?ltr=1",
+          "title": "Oklo Inc. (OKLO) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/oklo-earnings-q1-oklo-stock-nuclear-stocks/?src=A00220&yptr=yahoo",
-          "title": "Nuclear Reactor Startup Oklo Reports Wider Losses Amid AI Boom",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/OKLO/latest-news",
+          "title": "Oklo Inc. (OKLO) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }

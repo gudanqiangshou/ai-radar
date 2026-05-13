@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 101.76316,
         "target_high": 114.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/southern-company-reports-q1-2026-174335544.html",
-          "title": "The Southern Company (SO) Reports Q1 2026 Earnings of $1.4 billion",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SO/history/",
+          "title": "The Southern Company (SO) - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/bull-case-southern-could-change-090756760.html",
-          "title": "The Bull Case For Southern (SO) Could Change Following Q1 Beat And FERC Dam Upgrade Approval",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SO.MX/",
+          "title": "The Southern Company (SO.MX) Stock Price, News, Quote & History ...",
           "sentiment": null,
           "impact": null
         }

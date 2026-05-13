@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 98.93,
         "target_high": 112.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/utility-etfs-bet-enter-age-182500981.html",
-          "title": "Utility ETFs to Bet on as We Enter the Age of Electricity",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NEE/press-releases/",
+          "title": "NextEra Energy, Inc. (NEE) Latest Press Releases & Corporate News",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/nextera-energy-nee-price-target-025627453.html",
-          "title": "NextEra Energy (NEE) Price Target Raised by Analysts",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NEE/news/",
+          "title": "NextEra Energy, Inc. (NEE) - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 64.90642857142856
+          "value": 65.44214285714285
         }
       ]
     }

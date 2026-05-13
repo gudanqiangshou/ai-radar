@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "观察"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "18.93",
         "MACD": "-13.36",
         "20日波动率": "33.13%",
-        "成交量": "646,563",
-        "量比20日": "1.02",
+        "成交量": "698,392",
+        "量比20日": "1.10",
         "52周高点": "557.85",
         "52周低点": "378.41",
         "距52周高点": "-12.88%",
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 547.1539,
         "target_high": 600.0,
@@ -258,6 +258,22 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/HUBB.MX/latest-news/",
           "title": "Hubbell Incorporated (HUBB.MX) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HUBB/",
+          "title": "Hubbell Incorporated (HUBB) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/HUBB",
+          "title": "HUBB: Hubbell Inc - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         }

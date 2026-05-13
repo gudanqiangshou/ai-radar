@@ -6,7 +6,7 @@
     "core_30": 3,
     "high_52w": 0,
     "ew_today": 0.0,
-    "ew_ytd": 0.0,
+    "ew_ytd": 45.93183734760598,
     "spx_today": 0.0,
     "qqq_today": 0.0,
     "up_count": 2,
@@ -234,7 +234,7 @@
       "change_1d": 0.0,
       "change_1m": 0.64,
       "change_ytd": -19.84,
-      "composite": 54.31023809523809,
+      "composite": 54.13166666666667,
       "status": "hold"
     },
     {
@@ -247,7 +247,7 @@
       "change_1d": 0.0,
       "change_1m": -7.16,
       "change_ytd": -11.11,
-      "composite": 63.79357142857143,
+      "composite": 63.61500000000001,
       "status": "hold"
     },
     {
@@ -260,7 +260,7 @@
       "change_1d": 0.0,
       "change_1m": 8.16,
       "change_ytd": 57.75,
-      "composite": 63.524523809523814,
+      "composite": 63.703095238095244,
       "status": "hold"
     }
   ],
@@ -326,7 +326,7 @@
       "tier": 1,
       "price": 293.6,
       "change_1d": 0.0,
-      "composite": 54.31023809523809
+      "composite": 54.13166666666667
     },
     {
       "ticker": "VST",
@@ -336,7 +336,7 @@
       "tier": 1,
       "price": 146.87,
       "change_1d": 0.0,
-      "composite": 63.79357142857143
+      "composite": 63.61500000000001
     },
     {
       "ticker": "GEV",
@@ -346,7 +346,7 @@
       "tier": 1,
       "price": 1071.98,
       "change_1d": 0.0,
-      "composite": 63.524523809523814
+      "composite": 63.703095238095244
     },
     {
       "ticker": "TLN",
@@ -366,7 +366,7 @@
       "tier": 1,
       "price": 401.53,
       "change_1d": 0.0,
-      "composite": 58.97214285714286
+      "composite": 59.15071428571429
     },
     {
       "ticker": "VRT",
@@ -386,7 +386,7 @@
       "tier": 2,
       "price": 94.59,
       "change_1d": 0.0,
-      "composite": 64.90642857142856
+      "composite": 65.44214285714285
     },
     {
       "ticker": "SO",
@@ -406,7 +406,7 @@
       "tier": 2,
       "price": 125.07,
       "change_1d": 0.0,
-      "composite": 60.67309523809524
+      "composite": 60.85166666666667
     },
     {
       "ticker": "BE",
@@ -436,7 +436,7 @@
       "tier": 2,
       "price": 276.27,
       "change_1d": 0.0,
-      "composite": 51.79357142857143
+      "composite": 51.615
     },
     {
       "ticker": "NVT",
@@ -476,7 +476,7 @@
       "tier": 3,
       "price": 467.66,
       "change_1d": 0.0,
-      "composite": 53.59357142857143
+      "composite": 53.415000000000006
     },
     {
       "ticker": "CARR",
@@ -486,7 +486,7 @@
       "tier": 3,
       "price": 65.56,
       "change_1d": 0.0,
-      "composite": 41.2897619047619
+      "composite": 41.11119047619047
     },
     {
       "ticker": "JCI",
@@ -516,7 +516,7 @@
       "tier": 3,
       "price": 116.93,
       "change_1d": 0.0,
-      "composite": 50.97928571428572
+      "composite": 50.80071428571429
     },
     {
       "ticker": "OKLO",

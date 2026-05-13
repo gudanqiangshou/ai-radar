@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 140.0,
         "target_high": 146.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/investors-reacting-duke-energy-duk-201612961.html",
-          "title": "How Investors Are Reacting To Duke Energy (DUK) Earnings Beat, Massive Capex Plan And DOE Loan Bid",
+          "date": "2026-05-13",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/DUK",
+          "title": "Duke Energy Corporation (DUK) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Fortune",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/microsoft-cfo-admits-she-joined-152700188.html",
-          "title": "Microsoft’s CFO admits she joined the tech giant without even knowing her salary—and then missed her first day of work",
+          "date": "2026-05-13",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/US/XNYS/DUK",
+          "title": "DUK | Duke Energy Corp. Stock Price & News - WSJ",
           "sentiment": null,
           "impact": null
         }
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 60.67309523809524
+          "value": 60.85166666666667
         }
       ]
     }

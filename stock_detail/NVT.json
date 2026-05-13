@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "观察"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 181.3077,
         "target_high": 200.0,
@@ -254,26 +254,26 @@
           "impact": null
         },
         {
+          "date": "2026-05-13",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/NVT/latest-news/",
+          "title": "nVent Electric plc (NVT) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/nvt",
+          "title": "nVent Electric PLC Stock Quote (U.S.: NYSE) - NVT - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-11",
           "source": "Insider Monkey",
           "url": "https://finance.yahoo.com/markets/stocks/articles/citi-bullish-nvent-electric-plc-140512571.html",
           "title": "Citi is Bullish on nVent Electric plc (NVT)",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-10",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/look-nvent-electric-nvt-valuation-131044633.html",
-          "title": "A Look At nVent Electric (NVT) Valuation After Strong Q1 Earnings And AI Data Center Momentum",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-07",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nvent-nvt-best-european-stock-113258335.html",
-          "title": "nVent (NVT): The Best European Stock That Beat Earnings Estimates to Buy",
           "sentiment": null,
           "impact": null
         }

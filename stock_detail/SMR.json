@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "观察"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 16.64286,
         "target_high": 28.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/11/how-buying-nuscale-power-stock-today-could-10x-you/",
-          "title": "How Buying NuScale Power Stock Today Could 10X Your Net Worth",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SMR/",
+          "title": "NuScale Power Corporation (SMR) - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/fluor-q1-earnings-revenues-miss-135400871.html",
-          "title": "Fluor Q1 Earnings & Revenues Miss Estimates, Stock Down",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SMR/press-releases/",
+          "title": "NuScale Power Corporation (SMR) - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }

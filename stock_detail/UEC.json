@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "观察"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 19.16667,
         "target_high": 26.75,
@@ -254,18 +254,26 @@
           "impact": null
         },
         {
-          "date": "2026-05-09",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-uranium-energy-uec-091242225.html",
-          "title": "Is It Too Late To Consider Uranium Energy (UEC) After Its 179% One-Year Surge?",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/uranium-energy-corp-uec-bull-143017431.html",
+          "title": "Uranium Energy Corp. (UEC): A Bull Case Theory - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-08",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/uranium-energy-corp-uec-8-173457010.html",
-          "title": "Uranium Energy Corp. (UEC): 8 Best Energy Infrastructure Stocks That Will Skyrocket",
+          "date": "2026-05-13",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/UEC/",
+          "title": "(UEC) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/uec/news?ltr=1",
+          "title": "Uranium Energy Corp. (UEC) Latest Stock News & Headlines ...",
           "sentiment": null,
           "impact": null
         }

@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "观察"
   },
   "panels": [
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
-        "target_mean": 138.54135,
-        "target_high": 174.05412,
-        "target_low": 82.38375,
-        "upside_pct": 18.48,
+        "target_mean": 138.46548,
+        "target_high": 173.95882,
+        "target_low": 82.33864,
+        "upside_pct": 18.42,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -254,26 +254,26 @@
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-130725999.html",
-          "title": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Monday as Trump Rejects Reported Iran Proposal",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CCJ/news?ltr=1",
+          "title": "Cameco Corporation (CCJ) Latest Stock News ... - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/cameco-eyes-nuclear-capacity-boom-121027819.html",
-          "title": "Cameco Eyes Nuclear Capacity Boom While Valuation Risks Remain",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/cameco-corporation-ccj-one-best-141557484.html",
+          "title": "Is Cameco Corporation (CCJ) One of the Best Nuclear Energy ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cameco-down-1-7-us-115645844.html",
-          "title": "Update: Cameco Down 1.7% In US Premarket After Providing Northern Saskatchewan Ops Update; Adds National Bk Commentary",
+          "date": "2026-05-13",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CCJ/latest-news/",
+          "title": "Cameco Corporation (CCJ) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         }
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 50.97928571428572
+          "value": 50.80071428571429
         }
       ]
     }

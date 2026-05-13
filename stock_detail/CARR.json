@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "观察"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 75.51217,
         "target_high": 90.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/barclays-raises-pt-carrier-global-174305661.html",
-          "title": "Barclays Raises PT on Carrier Global (CARR) Stock",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CARR/hiring-trends/?p=CARR",
+          "title": "Carrier Global Corporation (CARR) Stock Price, News, Quote ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/argus-research-raises-carrier-global-060033294.html",
-          "title": "Argus Research Raises Carrier Global (CARR) Price Target on Valuation and Portfolio Alignment Opportunities",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CARR.MX/news/",
+          "title": "Carrier Global Corporation (CARR.MX) Latest Stock News ...",
           "sentiment": null,
           "impact": null
         }
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 41.2897619047619
+          "value": 41.11119047619047
         }
       ]
     }

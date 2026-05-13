@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 229.11111,
         "target_high": 320.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/vistra-expands-gas-capacity-data-141313862.html",
-          "title": "Vistra Expands Gas Capacity And Data Center Ties With AI Power Deals",
+          "date": "2026-05-13",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/VST.MX/",
+          "title": "Vistra Corp. (VST.MX) Stock Price, News, Quote & History - Yahoo ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-corp-vst-among-10-064450663.html",
-          "title": "Vistra Corp. (VST) – Among the 10 Best Robinhood Stocks to Buy According to Billionaires",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VST/history/",
+          "title": "Vistra Corp. (VST) Stock Historical Prices & Data - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 63.79357142857143
+          "value": 63.61500000000001
         }
       ]
     }

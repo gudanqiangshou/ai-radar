@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 151.19048,
         "target_high": 173.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/johnson-controls-international-jci-price-060035491.html",
-          "title": "Johnson Controls International (JCI) Price Target Increased to $170 from $160 by UBS",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/JCI/news/",
+          "title": "Johnson Controls International plc (JCI) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/look-johnson-controls-international-jci-141718609.html",
-          "title": "A Look At Johnson Controls International (JCI) Valuation After Mixed Recent Share Price Performance",
+          "date": "2026-05-12",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/johnson-controls-international-jci-price-060035491.html",
+          "title": "Johnson Controls International (JCI) Price Target Increased to $170 from $160 by UBS",
           "sentiment": null,
           "impact": null
         }

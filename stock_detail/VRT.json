@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 329.88,
         "target_high": 414.0,
@@ -254,6 +254,14 @@
           "impact": null
         },
         {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-holdings-co-vrt-outpaces-214505709.html",
+          "title": "Vertiv Holdings Co. (VRT) Outpaces Stock Market Gains",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-12",
           "source": "Insider Monkey",
           "url": "https://finance.yahoo.com/news/vertiv-holdings-co-vrt-among-212113174.html",
@@ -266,14 +274,6 @@
           "source": "Simply Wall St.",
           "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-names-cpo-support-ai-151203565.html",
           "title": "Vertiv Names New CPO To Support AI Data Center Supply Chain",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-momentum-stocks-long-term-095655216.html",
-          "title": "2 Momentum  Stocks for Long-Term Investors and 1 Facing Headwinds",
           "sentiment": null,
           "impact": null
         }

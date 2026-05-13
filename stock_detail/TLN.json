@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 475.1707,
         "target_high": 595.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/junk-rated-firms-rush-reprice-173712539.html",
-          "title": "Junk-Rated Firms Rush to Reprice Risky Debt as Demand Surges",
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/tln?gaa_at=eafs&gaa_n=AWEtsqcmHeDx9r2t-QeELcZBlW07bgGuzGS37_lTT9MuPejgSWmaETHHtKGD&gaa_ts=69be340e&gaa_sig=m9IXaW5aN0pDo4YLEg0-tREYWMy4iQSTgUYyEwYJuH8yGvXYrvQg1n00n2x57abD756CR7_YOGLcg0k8AgOCmA%3D%3D",
+          "title": "TLN Stock Price | Talen Energy Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-09",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/talen-energy-tln-reports-q1-052624044.html",
-          "title": "Talen Energy (TLN) Reports Q1 EPS Beat",
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/tln?gaa_at=eafs&gaa_n=AWEtsqelBoYu5xLVl_BYMEpYMhuewQGD8mnPPsRrAsIHMSZX4SQ5pimI2OIv&gaa_ts=69be34d5&gaa_sig=8gT32Xl-JysCcaVM6i4vh8GSqLZb3Lmrt-sqs7fWQ0thEtV8ssRPnQMWQqfvdL9K_aktGtHgrtTcXS5TrcerKA%3D%3D",
+          "title": "TLN Stock Price | Talen Energy Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
           "sentiment": null,
           "impact": null
         }

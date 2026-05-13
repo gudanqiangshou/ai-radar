@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 265.57144,
         "target_high": 310.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/modine-mod-suffers-larger-drop-214504412.html",
-          "title": "Modine (MOD) Suffers a Larger Drop Than the General Market: Key Insights",
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/mod",
+          "title": "MOD Stock Price | Modine Manufacturing Co. Stock Quote (U.S.: NYSE) | MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-07",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/coverage/filings/2026/05/07/why-this-fund-s-usd8-million-patterson-uti-bet-looks-like-a-bullish-oil-recovery-trade/",
-          "title": "Why This Fund’s $8 Million Patterson-UTI Bet Looks Like a Bullish Oil Recovery Trade",
+          "date": "2026-05-12",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/news/modine-mod-suffers-larger-drop-214504412.html",
+          "title": "Modine (MOD) Suffers a Larger Drop Than the General Market: Key Insights",
           "sentiment": null,
           "impact": null
         }
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 51.79357142857143
+          "value": 51.615
         }
       ]
     }

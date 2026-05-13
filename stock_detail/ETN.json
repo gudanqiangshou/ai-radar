@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 447.59964,
         "target_high": 514.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/keybanc-raises-pt-eaton-corporation-212121708.html",
-          "title": "KeyBanc Raises PT on Eaton Corporation (ETN), Keeps a Buy Rating",
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/etn",
+          "title": "ETN Stock Price | Eaton Corp. PLC Stock Quote (U.S.: NYSE) | MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
           "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/look-eaton-etn-valuation-raised-181549695.html",
-          "title": "A Look At Eaton (ETN) Valuation After Raised 2026 Guidance And AI Data Center Momentum",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/news/keybanc-raises-pt-eaton-corporation-212121708.html",
+          "title": "KeyBanc Raises PT on Eaton Corporation (ETN), Keeps a Buy Rating",
           "sentiment": null,
           "impact": null
         }
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 58.97214285714286
+          "value": 59.15071428571429
         }
       ]
     }

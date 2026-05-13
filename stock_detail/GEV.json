@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 13:51:57",
+    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
     "status_label": "持有"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 13:51:57",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
       "data": {
         "target_mean": 1206.5575,
         "target_high": 1424.0,
@@ -262,18 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/meet-the-nvidias-of-power-5-stocks-winning-big-techs-700-billion-ai-energy-grab-9226157a",
-          "title": "Meet the Nvidias of power — 5 stocks winning Big Tech’s $700 billion AI energy grab",
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/article/ge-vernova-hits-record-high-on-strong-quarter-guidance-raise-132104841.html",
+          "title": "GE Vernova hits record high on strong quarter, guidance raise",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-mania-makes-old-school-114453119.html",
-          "title": "AI Mania Makes Old-School Industrials Behave Like Chip Stocks",
+          "date": "2026-05-13",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/GEV.TO/news/",
+          "title": "GE Vernova Inc. (GEV.TO) latest stock news and headlines – Yahoo ...",
           "sentiment": null,
           "impact": null
         }
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 63.524523809523814
+          "value": 63.703095238095244
         }
       ]
     }
