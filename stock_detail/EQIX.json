@@ -1,0 +1,201 @@
+{
+  "ticker": "EQIX",
+  "name": "Equinix",
+  "header": {
+    "name": "Equinix",
+    "ticker": "EQIX",
+    "sector": "Data Center Infrastructure",
+    "sector_id": "data_center_infra",
+    "market": "US",
+    "tier": 1,
+    "ai_role": "互联型数据中心 REIT — 全球互联枢纽",
+    "price": 1080.6300048828125,
+    "change_1d": -0.51,
+    "composite": 39.61538461538461,
+    "tier_letter": "A",
+    "description": [
+      "Equinix 的 AI 产业链位置为 Data Center Infrastructure。",
+      "AI 角色：互联型数据中心 REIT — 全球互联枢纽。当前内部综合评分 39。",
+      "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$1,080.63",
+        "日内涨跌": "-0.51%",
+        "1日涨跌": "-0.51%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-0.51%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "464,100",
+        "量比20日": "0.68",
+        "52周高点": "1094.85",
+        "52周低点": "1069.68",
+        "距52周高点": "-1.30%",
+        "距52周低点": "+1.02%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Data Center Infrastructure",
+        "AI角色": "互联型数据中心 REIT — 全球互联枢纽",
+        "投资确定性": "—",
+        "收入": "$9.53B",
+        "收入同比": "12.10%",
+        "毛利率": "51.61%",
+        "经营利润率": "24.34%",
+        "净利率": "14.93%",
+        "经营现金流": "—",
+        "资本开支": "-$4.82B",
+        "自由现金流": "$2.73B",
+        "FCF利润率": "28.61%",
+        "现金及短投": "$1.36B",
+        "总债务": "$23.34B",
+        "净现金/债务": "-$16.37B",
+        "流通股本": "98.62M",
+        "ROE": "10.06%",
+        "债务/权益": "0.22",
+        "市值": "$106.58B",
+        "企业价值": "$128.57B",
+        "P/E TTM": "74.63",
+        "Forward P/E": "57.40",
+        "P/S": "11.19",
+        "EV/Sales": "13.50",
+        "EV/EBITDA": "30.03",
+        "EV/FCF": "47.18",
+        "FCF收益率": "2.56%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 35.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 55.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 32.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 39.61538461538461,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Equinix（EQIX）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 39.61538461538461
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-12"
+}

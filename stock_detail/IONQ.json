@@ -1,0 +1,201 @@
+{
+  "ticker": "IONQ",
+  "name": "IonQ",
+  "header": {
+    "name": "IonQ",
+    "ticker": "IONQ",
+    "sector": "Quantum / Frontier Computing",
+    "sector_id": "quantum_frontier",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "离子阱量子计算 — 上市量子第一股",
+    "price": 55.869998931884766,
+    "change_1d": -1.79,
+    "composite": 72.6923076923077,
+    "tier_letter": "B",
+    "description": [
+      "IonQ 的 AI 产业链位置为 Quantum / Frontier Computing。",
+      "AI 角色：离子阱量子计算 — 上市量子第一股。当前内部综合评分 72。",
+      "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$55.87",
+        "日内涨跌": "-1.79%",
+        "1日涨跌": "-1.79%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-1.79%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "51,557,900",
+        "量比20日": "0.84",
+        "52周高点": "59.15",
+        "52周低点": "47.89",
+        "距52周高点": "-5.55%",
+        "距52周低点": "+16.66%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Quantum / Frontier Computing",
+        "AI角色": "离子阱量子计算 — 上市量子第一股",
+        "投资确定性": "—",
+        "收入": "$187.12M",
+        "收入同比": "754.70%",
+        "毛利率": "36.11%",
+        "经营利润率": "-401.75%",
+        "净利率": "174.88%",
+        "经营现金流": "—",
+        "资本开支": "-$16.42M",
+        "自由现金流": "-$91.36M",
+        "FCF利润率": "-48.83%",
+        "现金及短投": "$2.03B",
+        "总债务": "$30.44M",
+        "净现金/债务": "—",
+        "流通股本": "373.27M",
+        "ROE": "11.29%",
+        "债务/权益": "0.00",
+        "市值": "$20.85B",
+        "企业价值": "$18.87B",
+        "P/E TTM": "143.26",
+        "Forward P/E": "-53.60",
+        "P/S": "111.45",
+        "EV/Sales": "100.82",
+        "EV/EBITDA": "-28.48",
+        "EV/FCF": "-206.49",
+        "FCF收益率": "-0.44%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 85.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 100.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 100.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 30.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 72.6923076923077,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "IonQ（IONQ）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 72.6923076923077
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-12"
+}

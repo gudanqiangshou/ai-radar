@@ -1,0 +1,201 @@
+{
+  "ticker": "RGTI",
+  "name": "Rigetti Computing",
+  "header": {
+    "name": "Rigetti Computing",
+    "ticker": "RGTI",
+    "sector": "Quantum / Frontier Computing",
+    "sector_id": "quantum_frontier",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "超导量子计算 — 通用门量子设计",
+    "price": 19.06999969482422,
+    "change_1d": -7.02,
+    "composite": 40.76923076923077,
+    "tier_letter": "C",
+    "description": [
+      "Rigetti Computing 的 AI 产业链位置为 Quantum / Frontier Computing。",
+      "AI 角色：超导量子计算 — 通用门量子设计。当前内部综合评分 40。",
+      "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:04",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$19.07",
+        "日内涨跌": "-7.02%",
+        "1日涨跌": "-7.02%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-7.02%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "49,374,700",
+        "量比20日": "1.11",
+        "52周高点": "21.02",
+        "52周低点": "18.23",
+        "距52周高点": "-9.28%",
+        "距52周低点": "+4.61%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Quantum / Frontier Computing",
+        "AI角色": "超导量子计算 — 通用门量子设计",
+        "投资确定性": "—",
+        "收入": "$10.02M",
+        "收入同比": "198.90%",
+        "毛利率": "29.95%",
+        "经营利润率": "-589.79%",
+        "净利率": "0.00%",
+        "经营现金流": "—",
+        "资本开支": "-$18.68M",
+        "自由现金流": "-$6.21M",
+        "FCF利润率": "-62.00%",
+        "现金及短投": "$418.25M",
+        "总债务": "$6.78M",
+        "净现金/债务": "—",
+        "流通股本": "332.40M",
+        "ROE": "-57.09%",
+        "债务/权益": "0.00",
+        "市值": "$6.34B",
+        "企业价值": "$5.93B",
+        "P/E TTM": "—",
+        "Forward P/E": "-93.79",
+        "P/S": "632.87",
+        "EV/Sales": "591.79",
+        "EV/EBITDA": "-74.07",
+        "EV/FCF": "-954.51",
+        "FCF收益率": "-0.10%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 15.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 30.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 27.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 85.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 40.76923076923077,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:04",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Rigetti Computing（RGTI）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 40.76923076923077
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-12"
+}

@@ -1,0 +1,201 @@
+{
+  "ticker": "PSTG",
+  "name": "Pure Storage",
+  "header": {
+    "name": "Pure Storage",
+    "ticker": "PSTG",
+    "sector": "Data Center Infrastructure",
+    "sector_id": "data_center_infra",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "全闪存阵列 — Meta AI 大单签约，AI 数据存储",
+    "price": 83.33000183105469,
+    "change_1d": -4.59,
+    "composite": 45.68181818181818,
+    "tier_letter": "B",
+    "description": [
+      "Pure Storage 的 AI 产业链位置为 Data Center Infrastructure。",
+      "AI 角色：全闪存阵列 — Meta AI 大单签约，AI 数据存储。当前内部综合评分 45。",
+      "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:50:03",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$83.33",
+        "日内涨跌": "-4.59%",
+        "1日涨跌": "-4.59%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-4.59%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "4,149,197",
+        "量比20日": "0.37",
+        "52周高点": "93.92",
+        "52周低点": "80.03",
+        "距52周高点": "-11.28%",
+        "距52周低点": "+4.12%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Data Center Infrastructure",
+        "AI角色": "全闪存阵列 — Meta AI 大单签约，AI 数据存储",
+        "投资确定性": "—",
+        "收入": "$3.66B",
+        "收入同比": "—",
+        "毛利率": "70.38%",
+        "经营利润率": "-18.45%",
+        "净利率": "5.14%",
+        "经营现金流": "—",
+        "资本开支": "-$264.34M",
+        "自由现金流": "$376.73M",
+        "FCF利润率": "10.29%",
+        "现金及短投": "$1.23B",
+        "总债务": "$911.25M",
+        "净现金/债务": "—",
+        "流通股本": "330.46M",
+        "ROE": "13.68%",
+        "债务/权益": "0.04",
+        "市值": "$22.41B",
+        "企业价值": "$21.81B",
+        "P/E TTM": "123.27",
+        "Forward P/E": "23.88",
+        "P/S": "6.12",
+        "EV/Sales": "5.95",
+        "EV/EBITDA": "83.04",
+        "EV/FCF": "57.89",
+        "FCF收益率": "1.68%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 47.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 27.499999999999996,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 52.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 45.68181818181818,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:50:03",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Pure Storage（PSTG）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 45.68181818181818
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-12"
+}
