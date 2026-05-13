@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 3,
     "ai_role": "SMR 核电 — DOE 认证领先，长期主题",
-    "price": 12.0,
-    "change_1d": -9.71,
-    "composite": 44.38880952380952,
+    "price": 11.960000038146973,
+    "change_1d": -0.33,
+    "composite": 31.518571428571427,
     "tier_letter": "C",
     "description": [
       "NuScale Power 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：SMR 核电 — DOE 认证领先，长期主题。当前内部综合评分 44。",
+      "AI 角色：SMR 核电 — DOE 认证领先，长期主题。当前内部综合评分 31。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$12.00",
-        "日内涨跌": "-9.71%",
-        "1日涨跌": "-9.71%",
-        "5日涨跌": "-4.61%",
-        "1月涨跌": "+30.29%",
-        "3月涨跌": "-22.93%",
-        "6月涨跌": "-48.16%",
-        "1年涨跌": "-32.55%",
-        "YTD涨跌": "-26.43%",
-        "20日均线": "12.34",
-        "50日均线": "11.62",
-        "200日均线": "24.44",
-        "RSI 14": "49.47",
-        "MACD": "0.28",
-        "20日波动率": "131.33%",
-        "成交量": "40,953,100",
-        "量比20日": "1.00",
+        "最新价": "$11.96",
+        "日内涨跌": "-0.33%",
+        "1日涨跌": "-0.33%",
+        "5日涨跌": "-4.70%",
+        "1月涨跌": "+24.84%",
+        "3月涨跌": "-14.51%",
+        "6月涨跌": "-46.73%",
+        "1年涨跌": "-44.73%",
+        "YTD涨跌": "-26.67%",
+        "20日均线": "12.36",
+        "50日均线": "11.61",
+        "200日均线": "24.24",
+        "RSI 14": "49.25",
+        "MACD": "0.23",
+        "20日波动率": "121.84%",
+        "成交量": "27,773,839",
+        "量比20日": "0.70",
         "52周高点": "57.42",
         "52周低点": "8.85",
-        "距52周高点": "-79.10%",
-        "距52周低点": "+35.59%",
-        "20日支撑": "10.77",
+        "距52周高点": "-79.17%",
+        "距52周低点": "+35.14%",
+        "20日支撑": "10.83",
         "20日压力": "14.20"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "346.11M",
         "ROE": "-83.05%",
         "债务/权益": "0.00",
-        "市值": "$4.15B",
+        "市值": "$4.14B",
         "企业价值": "$3.21B",
         "P/E TTM": "—",
-        "Forward P/E": "-19.59",
-        "P/S": "222.47",
+        "Forward P/E": "-19.52",
+        "P/S": "221.73",
         "EV/Sales": "172.04",
         "EV/EBITDA": "-15.81",
         "EV/FCF": "-19.83",
-        "FCF收益率": "-3.90%",
+        "FCF收益率": "-3.91%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 18.69047619047619,
+          "value": 9.047619047619046,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 0.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 3.333333333333333,
+          "value": 2.857142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 80.0,
+          "value": 64.83333333333334,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 69.64285714285714,
+          "value": 27.857142857142858,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 44.38880952380952,
+          "value": 31.518571428571427,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
       "data": {
-        "target_mean": 16.64286,
+        "target_mean": 16.5,
         "target_high": 28.0,
         "target_low": 7.0,
-        "upside_pct": 38.69,
+        "upside_pct": 37.96,
         "rating": "hold",
         "rating_letter": "B",
         "rating_change": "维持",
         "previous_rating_letter": "B",
         "n_analysts": 14,
         "next_earnings": "2026-08-07",
-        "eps_estimate": -0.1217,
+        "eps_estimate": -0.1186,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 44.38880952380952
+        },
+        {
+          "date": "2026-05-14",
+          "value": 31.518571428571427
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Apple Intelligence + Neural Engine — 端侧 AI 入口",
-    "price": 294.79998779296875,
-    "change_1d": 0.72,
+    "price": 298.8699951171875,
+    "change_1d": 1.38,
     "composite": 58.789473684210535,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$294.80",
-        "日内涨跌": "+0.72%",
-        "1日涨跌": "+0.72%",
+        "最新价": "$298.87",
+        "日内涨跌": "+1.38%",
+        "1日涨跌": "+1.38%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "+0.72%",
+        "YTD涨跌": "+2.11%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "45,689,300",
-        "量比20日": "1.04",
-        "52周高点": "295.27",
+        "成交量": "45,313,913",
+        "量比20日": "1.02",
+        "52周高点": "300.92",
         "52周低点": "290.23",
-        "距52周高点": "-0.16%",
-        "距52周低点": "+1.57%",
+        "距52周高点": "-0.68%",
+        "距52周低点": "+2.98%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "14.69B",
         "ROE": "141.47%",
         "债务/权益": "0.02",
-        "市值": "$4.33T",
+        "市值": "$4.39T",
         "企业价值": "$4.35T",
-        "P/E TTM": "35.73",
-        "Forward P/E": "30.84",
-        "P/S": "9.59",
+        "P/E TTM": "36.23",
+        "Forward P/E": "31.26",
+        "P/S": "9.72",
         "EV/Sales": "9.63",
         "EV/EBITDA": "27.17",
         "EV/FCF": "42.99",
-        "FCF收益率": "2.33%",
+        "FCF收益率": "2.30%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
+      "data": {
+        "target_mean": 305.28094,
+        "target_high": 400.0,
+        "target_low": 215.0,
+        "upside_pct": 2.15,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 42,
+        "next_earnings": "2026-07-31",
+        "eps_estimate": 1.89077,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/AAPL",
+          "title": "Apple Inc. (AAPL) Stock Price Today - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAPL.SN/news/",
+          "title": "Apple Inc. (AAPL.SN) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/AAPL.TO/news/",
+          "title": "Apple Inc. (AAPL.TO) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAPL/",
+          "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAPL/news/",
+          "title": "Apple Inc. (AAPL) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAPL.TO/",
+          "title": "Apple Inc. (AAPL.TO) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAPL.BA/news/",
+          "title": "Apple Inc. (AAPL.BA) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/AAPL",
+          "title": "Apple Inc. (AAPL) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Exec Edge",
+          "url": "https://finance.yahoo.com/news/final-panel-agenda-closing-registration-203929392.html",
+          "title": "Final Panel Agenda and Closing Registration: 2nd Princeton CorpGov Forum May 21 – Endowments, Activism and Entertainment",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/news/qnity-electronics-q-14-9-202333462.html",
+          "title": "Qnity Electronics (Q) Is Up 14.9% After Raising 2026 Sales Outlook On AI Packaging Demand",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 58.789473684210535
+        },
+        {
+          "date": "2026-05-14",
+          "value": 58.789473684210535
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "美国本土先进封装代表 — Chips Act 受益",
-    "price": 73.44999694824219,
-    "change_1d": -4.22,
+    "price": 74.61000061035156,
+    "change_1d": 1.58,
     "composite": 20.73684210526316,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
     "status_label": "退出"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$73.45",
-        "日内涨跌": "-4.22%",
-        "1日涨跌": "-4.22%",
+        "最新价": "$74.61",
+        "日内涨跌": "+1.58%",
+        "1日涨跌": "+1.58%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "-4.22%",
+        "YTD涨跌": "-2.71%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "3,410,200",
-        "量比20日": "0.96",
+        "成交量": "3,299,003",
+        "量比20日": "0.95",
         "52周高点": "78.64",
         "52周低点": "70.11",
-        "距52周高点": "-6.60%",
-        "距52周低点": "+4.76%",
+        "距52周高点": "-5.12%",
+        "距52周低点": "+6.42%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "247.87M",
         "ROE": "10.01%",
         "债务/权益": "0.09",
-        "市值": "$18.21B",
+        "市值": "$18.49B",
         "企业价值": "$18.01B",
-        "P/E TTM": "42.21",
-        "Forward P/E": "29.98",
-        "P/S": "2.57",
+        "P/E TTM": "42.88",
+        "Forward P/E": "30.45",
+        "P/S": "2.62",
         "EV/Sales": "2.55",
         "EV/EBITDA": "15.07",
         "EV/FCF": "-382.02",
-        "FCF收益率": "-0.26%",
+        "FCF收益率": "-0.25%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
+      "data": {
+        "target_mean": 75.5,
+        "target_high": 90.0,
+        "target_low": 60.0,
+        "upside_pct": 1.19,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 8,
+        "next_earnings": "2026-07-28",
+        "eps_estimate": 0.47177,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/amkr",
+          "title": "AMKR | Amkor Technology Inc. Stock Overview (U.S. - Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMKR/news/",
+          "title": "Amkor Technology, Inc. (AMKR) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/AMKR/latest-news/",
+          "title": "Amkor Technology, Inc. (AMKR) stock price, news, quote and history",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/AMKR",
+          "title": "AMKR: Amkor Technology Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/AMKR.O/",
+          "title": "(AMKR.O) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/amkor-technology-amkr-laps-stock-220002342.html",
+          "title": "Amkor Technology (AMKR) Laps the Stock Market: Here's Why",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/AMKR",
+          "title": "Amkor Technology, Inc. (AMKR) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMKR/research-reports",
+          "title": "Amkor Technology, Inc. (AMKR) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Benzinga",
+          "url": "https://finance.yahoo.com/news/heres-much-made-owning-amkor-233036267.html",
+          "title": "Here's How Much You Would Have Made Owning Amkor Technology Stock In The Last 10 Years",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-07",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/invested-1000-amkor-technology-10-123002418.html",
+          "title": "If You Invested $1000 in Amkor Technology 10 Years Ago, This Is How Much You'd Have Now",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 20.73684210526316
+        },
+        {
+          "date": "2026-05-14",
+          "value": 20.73684210526316
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

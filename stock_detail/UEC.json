@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 3,
     "ai_role": "铀矿 — 核电燃料上游，AI 电力主题受益",
-    "price": 15.5,
-    "change_1d": -5.89,
-    "composite": 43.80166666666667,
+    "price": 15.369999885559082,
+    "change_1d": -0.84,
+    "composite": 33.719523809523814,
     "tier_letter": "C",
     "description": [
       "Uranium Energy Corp 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：铀矿 — 核电燃料上游，AI 电力主题受益。当前内部综合评分 43。",
+      "AI 角色：铀矿 — 核电燃料上游，AI 电力主题受益。当前内部综合评分 33。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$15.50",
-        "日内涨跌": "-5.89%",
-        "1日涨跌": "-5.89%",
-        "5日涨跌": "-0.58%",
-        "1月涨跌": "+14.56%",
-        "3月涨跌": "-2.52%",
-        "6月涨跌": "+33.74%",
-        "1年涨跌": "+180.29%",
-        "YTD涨跌": "+18.23%",
-        "20日均线": "14.98",
-        "50日均线": "14.12",
-        "200日均线": "13.56",
-        "RSI 14": "54.19",
-        "MACD": "0.40",
-        "20日波动率": "90.14%",
-        "成交量": "9,863,900",
-        "量比20日": "1.07",
+        "最新价": "$15.37",
+        "日内涨跌": "-0.84%",
+        "1日涨跌": "-0.84%",
+        "5日涨跌": "+1.39%",
+        "1月涨跌": "+10.18%",
+        "3月涨跌": "+1.05%",
+        "6月涨跌": "+32.61%",
+        "1年涨跌": "+173.00%",
+        "YTD涨跌": "+17.24%",
+        "20日均线": "15.01",
+        "50日均线": "14.13",
+        "200日均线": "13.59",
+        "RSI 14": "53.36",
+        "MACD": "0.38",
+        "20日波动率": "88.82%",
+        "成交量": "5,649,647",
+        "量比20日": "0.63",
         "52周高点": "20.34",
         "52周低点": "5.03",
-        "距52周高点": "-23.80%",
-        "距52周低点": "+208.15%",
+        "距52周高点": "-24.43%",
+        "距52周低点": "+205.57%",
         "20日支撑": "13.37",
         "20日压力": "16.83"
       }
@@ -76,15 +76,15 @@
         "流通股本": "490.22M",
         "ROE": "-7.12%",
         "债务/权益": "0.00",
-        "市值": "$7.60B",
+        "市值": "$7.53B",
         "企业价值": "$7.11B",
         "P/E TTM": "—",
-        "Forward P/E": "-929.81",
-        "P/S": "376.16",
+        "Forward P/E": "-922.02",
+        "P/S": "373.00",
         "EV/Sales": "352.18",
         "EV/EBITDA": "-68.50",
         "EV/FCF": "-81.28",
-        "FCF收益率": "-1.15%",
+        "FCF收益率": "-1.16%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 16.19047619047619,
+          "value": 6.428571428571429,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 22.047619047619047,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 90.0,
+          "value": 68.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 58.92857142857142,
+          "value": 53.57142857142856,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 43.80166666666667,
+          "value": 33.719523809523814,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
       "data": {
         "target_mean": 19.16667,
         "target_high": 26.75,
         "target_low": 15.0,
-        "upside_pct": 23.66,
+        "upside_pct": 24.7,
         "rating": "none",
         "rating_letter": "—",
         "rating_change": "维持",
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/UEC/press-releases/",
+          "title": "Uranium Energy Corp. (UEC) Latest Press Releases & Corporate ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/UEC/latest-news/",
+          "title": "Uranium Energy Corp. (UEC) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/uec",
+          "title": "Uranium Energy Corp. Stock Quote (U.S. - UEC - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/UEC.VI/latest-news/",
+          "title": "Uranium Energy Corp. (UEC.VI) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-13",
           "source": "cnbc.com",
@@ -244,38 +276,6 @@
           "title": "Uranium Energy Corp. (UEC) Latest Stock News | Seeking Alpha",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "nz.finance.yahoo.com",
-          "url": "https://nz.finance.yahoo.com/quote/UEC.VI/news/",
-          "title": "Uranium Energy Corp. (UEC.VI) latest stock news and headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/uranium-energy-corp-uec-bull-143017431.html",
-          "title": "Uranium Energy Corp. (UEC): A Bull Case Theory - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/markets/companies/UEC/",
-          "title": "(UEC) | Stock Price & Latest News - Reuters",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/uec/news?ltr=1",
-          "title": "Uranium Energy Corp. (UEC) Latest Stock News & Headlines ...",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 43.80166666666667
+        },
+        {
+          "date": "2026-05-14",
+          "value": 33.719523809523814
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

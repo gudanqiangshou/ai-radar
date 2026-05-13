@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Susquehanna 核电 + AWS 数据中心直接 PPA",
-    "price": 374.6099853515625,
-    "change_1d": -2.3,
-    "composite": 59.13166666666667,
+    "price": 351.0299987792969,
+    "change_1d": -6.29,
+    "composite": 51.563809523809525,
     "tier_letter": "A",
     "description": [
       "Talen Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：Susquehanna 核电 + AWS 数据中心直接 PPA。当前内部综合评分 59。",
+      "AI 角色：Susquehanna 核电 + AWS 数据中心直接 PPA。当前内部综合评分 51。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:08",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:18",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$374.61",
-        "日内涨跌": "-2.30%",
-        "1日涨跌": "-2.30%",
-        "5日涨跌": "-4.08%",
-        "1月涨跌": "+16.58%",
-        "3月涨跌": "+5.64%",
-        "6月涨跌": "+5.51%",
-        "1年涨跌": "+58.32%",
-        "YTD涨跌": "-5.58%",
-        "20日均线": "367.39",
-        "50日均线": "341.95",
-        "200日均线": "372.69",
-        "RSI 14": "54.37",
-        "MACD": "12.92",
-        "20日波动率": "55.37%",
-        "成交量": "639,800",
-        "量比20日": "0.98",
+        "最新价": "$351.03",
+        "日内涨跌": "-6.29%",
+        "1日涨跌": "-6.29%",
+        "5日涨跌": "-9.15%",
+        "1月涨跌": "+7.65%",
+        "3月涨跌": "-4.56%",
+        "6月涨跌": "-2.74%",
+        "1年涨跌": "+45.61%",
+        "YTD涨跌": "-11.52%",
+        "20日均线": "367.28",
+        "50日均线": "342.14",
+        "200日均线": "372.66",
+        "RSI 14": "45.91",
+        "MACD": "9.89",
+        "20日波动率": "59.86%",
+        "成交量": "1,469,776",
+        "量比20日": "2.14",
         "52周高点": "451.28",
         "52周低点": "232.34",
-        "距52周高点": "-16.99%",
-        "距52周低点": "+61.23%",
+        "距52周高点": "-22.21%",
+        "距52周低点": "+51.08%",
         "20日支撑": "328.32",
         "20日压力": "416.68"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$5.76B",
         "流通股本": "45.40M",
         "ROE": "-1.86%",
-        "债务/权益": "0.40",
-        "市值": "$17.12B",
+        "债务/权益": "0.43",
+        "市值": "$16.04B",
         "企业价值": "$22.80B",
         "P/E TTM": "—",
-        "Forward P/E": "10.82",
-        "P/S": "5.29",
+        "Forward P/E": "10.26",
+        "P/S": "4.96",
         "EV/Sales": "7.04",
         "EV/EBITDA": "34.86",
         "EV/FCF": "16.44",
-        "FCF收益率": "8.10%",
+        "FCF收益率": "8.65%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 47.976190476190474,
+          "value": 42.38095238095238,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 62.714285714285715,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 28.333333333333336,
+          "value": 29.047619047619047,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 85.0,
+          "value": 56.28571428571429,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 62.499999999999986,
+          "value": 30.476190476190474,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 59.13166666666667,
+          "value": 51.563809523809525,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:08",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:18",
       "data": {
-        "target_mean": 475.1707,
+        "target_mean": 475.104,
         "target_high": 595.0,
         "target_low": 388.56,
-        "upside_pct": 26.84,
+        "upside_pct": 35.35,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -197,6 +197,54 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TLN/",
+          "title": "Talen Energy Corporation (TLN) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/TLN/news?page=2",
+          "title": "Talen Energy Corporation (TLN) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TLN/news/",
+          "title": "Talen Energy Corporation (TLN) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/talen-energy-corporation-tln-bull-181537433.html",
+          "title": "Talen Energy Corporation (TLN): A Bull Case Theory - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/tln",
+          "title": "TLN | Talen Energy Corp. Stock Overview (U.S.: Nasdaq) | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/1TLN.MI/news/",
+          "title": "TALEN ENERGY CORP (1TLN.MI) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-13",
           "source": "finance.yahoo.com",
@@ -228,54 +276,6 @@
           "title": "Talen Energy Corporation (TLN) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/tln",
-          "title": "TLN Stock Price | Talen Energy Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/talen-energy-stock-soars-over-164312743.html",
-          "title": "Talen Energy Stock Soars Over 20% on Purchase of 2 Plants in AI ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/talen-energy-corporation-tln-bull-235413616.html",
-          "title": "Talen Energy Corporation (TLN): A Bull Case Theory - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/talen-energy-corporation-tln-target-121948579.html",
-          "title": "Talen Energy Corporation (TLN) Target Lifted to $474 at Morgan ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/tln?gaa_at=eafs&gaa_n=AWEtsqcmHeDx9r2t-QeELcZBlW07bgGuzGS37_lTT9MuPejgSWmaETHHtKGD&gaa_ts=69be340e&gaa_sig=m9IXaW5aN0pDo4YLEg0-tREYWMy4iQSTgUYyEwYJuH8yGvXYrvQg1n00n2x57abD756CR7_YOGLcg0k8AgOCmA%3D%3D",
-          "title": "TLN Stock Price | Talen Energy Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/tln?gaa_at=eafs&gaa_n=AWEtsqelBoYu5xLVl_BYMEpYMhuewQGD8mnPPsRrAsIHMSZX4SQ5pimI2OIv&gaa_ts=69be34d5&gaa_sig=8gT32Xl-JysCcaVM6i4vh8GSqLZb3Lmrt-sqs7fWQ0thEtV8ssRPnQMWQqfvdL9K_aktGtHgrtTcXS5TrcerKA%3D%3D",
-          "title": "TLN Stock Price | Talen Energy Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 59.13166666666667
+        },
+        {
+          "date": "2026-05-14",
+          "value": 51.563809523809525
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "评级 + 数据 + 指数 — AI 推动金融研究自动化",
-    "price": 424.1700134277344,
-    "change_1d": 0.75,
-    "composite": 52.421052631578945,
+    "price": 406.54998779296875,
+    "change_1d": -4.15,
+    "composite": 48.21052631578947,
     "tier_letter": "A",
     "description": [
       "S&P Global 的 AI 产业链位置为 Financial / Research Data。",
-      "AI 角色：评级 + 数据 + 指数 — AI 推动金融研究自动化。当前内部综合评分 52。",
+      "AI 角色：评级 + 数据 + 指数 — AI 推动金融研究自动化。当前内部综合评分 48。",
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$424.17",
-        "日内涨跌": "+0.75%",
-        "1日涨跌": "+0.75%",
+        "最新价": "$406.55",
+        "日内涨跌": "-4.15%",
+        "1日涨跌": "-4.15%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "+0.75%",
+        "YTD涨跌": "-3.43%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "2,212,000",
-        "量比20日": "1.00",
+        "成交量": "2,587,817",
+        "量比20日": "1.11",
         "52周高点": "430.13",
-        "52周低点": "416.89",
-        "距52周高点": "-1.39%",
-        "距52周低点": "+1.75%",
+        "52周低点": "401.02",
+        "距52周高点": "-5.48%",
+        "距52周低点": "+1.38%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$8.81B",
         "流通股本": "296.00M",
         "ROE": "13.94%",
-        "债务/权益": "0.11",
-        "市值": "$125.55B",
+        "债务/权益": "0.12",
+        "市值": "$120.34B",
         "企业价值": "$142.68B",
-        "P/E TTM": "26.81",
-        "Forward P/E": "19.10",
-        "P/S": "7.98",
+        "P/E TTM": "25.70",
+        "Forward P/E": "18.31",
+        "P/S": "7.65",
         "EV/Sales": "9.07",
         "EV/EBITDA": "18.12",
         "EV/FCF": "26.93",
-        "FCF收益率": "4.22%",
+        "FCF收益率": "4.40%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 70.0,
+          "value": 30.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 52.421052631578945,
+          "value": 48.21052631578947,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
+      "data": {
+        "target_mean": 534.0,
+        "target_high": 575.0,
+        "target_low": 480.0,
+        "upside_pct": 31.35,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 21,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 4.93485,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/US/XNYS/SPGI",
+          "title": "SPGI | S&P Global Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SPGI/news/",
+          "title": "S&P Global Inc. (SPGI) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/p-global-inc-spgi-one-004120146.html",
+          "title": "Is S&P Global Inc. (SPGI) One of the Best Blue Chip Stocks to Buy for the Long Term?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/too-consider-p-global-spgi-180719689.html",
+          "title": "Is It Too Late To Consider S&P Global (SPGI) After Strong Multi Year ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/p-global-spgi-loses-13-143502533.html",
+          "title": "S&P Global (SPGI) Loses 13.2% in 4 Weeks, Here's Why a Trend ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SPGI.VI/",
+          "title": "S&P Global Inc. (SPGI.VI) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/SPGI",
+          "title": "S&P Global Inc. (SPGI) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/3-reasons-fans-p-global-040130256.html",
+          "title": "3 Reasons We’re Fans of S&P Global (SPGI)",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/news/3-reasons-avoid-ait-1-022855054.html",
+          "title": "3 Reasons to Avoid AIT and 1 Stock to Buy Instead",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Reuters",
+          "url": "https://finance.yahoo.com/news/p-revises-mexicos-outlook-negative-215718318.html",
+          "title": "S&P revises Mexico's outlook to 'negative' on debt, growth concerns",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 52.421052631578945
+        },
+        {
+          "date": "2026-05-14",
+          "value": 48.21052631578947
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

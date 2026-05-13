@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座",
-    "price": 207.9199981689453,
-    "change_1d": -2.22,
-    "composite": 50.42105263157895,
+    "price": 221.2100067138672,
+    "change_1d": 6.39,
+    "composite": 51.26315789473684,
     "tier_letter": "B",
     "description": [
       "ARM Holdings 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座。当前内部综合评分 50。",
+      "AI 角色：IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座。当前内部综合评分 51。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$207.92",
-        "日内涨跌": "-2.22%",
-        "1日涨跌": "-2.22%",
+        "最新价": "$221.21",
+        "日内涨跌": "+6.39%",
+        "1日涨跌": "+6.39%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "-2.22%",
+        "YTD涨跌": "+4.03%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "7,814,400",
-        "量比20日": "0.85",
-        "52周高点": "216.50",
+        "成交量": "8,363,611",
+        "量比20日": "0.94",
+        "52周高点": "222.47",
         "52周低点": "200.89",
-        "距52周高点": "-3.96%",
-        "距52周低点": "+3.50%",
+        "距52周高点": "-0.57%",
+        "距52周低点": "+10.11%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "1.06B",
         "ROE": "11.27%",
         "债务/权益": "0.00",
-        "市值": "$221.23B",
+        "市值": "$235.37B",
         "企业价值": "$217.64B",
-        "P/E TTM": "244.61",
-        "Forward P/E": "68.84",
-        "P/S": "47.36",
+        "P/E TTM": "260.25",
+        "Forward P/E": "73.24",
+        "P/S": "50.39",
         "EV/Sales": "46.59",
         "EV/EBITDA": "200.81",
         "EV/FCF": "263.89",
-        "FCF收益率": "0.37%",
+        "FCF收益率": "0.35%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 36.0,
+          "value": 44.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 50.42105263157895,
+          "value": 51.26315789473684,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
+      "data": {
+        "target_mean": 223.14417,
+        "target_high": 326.0,
+        "target_low": 125.0,
+        "upside_pct": 0.87,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 36,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 0.3982,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/ARM.O/",
+          "title": "(ARM.O) | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ARM/news/",
+          "title": "Arm Holdings plc (ARM) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/arm-stock-falls-11-month-170700780.html",
+          "title": "ARM Stock Falls 11% in a Month: Buy Now or Wait for a Cheaper ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ARM",
+          "title": "Arm Holdings plc (ARM) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/arm-holdings-arm-stock-analysts-030103687.html",
+          "title": "Arm Holdings (ARM) Stock: Analysts See Nvidia-Like Strategy ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/why-arm-holdings-arm-among-200953669.html",
+          "title": "Here Is Why Arm Holdings (ARM) Is Among the Best Up and Coming ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/ARM/latest-news/",
+          "title": "Arm Holdings plc (ARM) stock price, news, quote and history",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Bloomberg",
+          "url": "https://finance.yahoo.com/video/arm-softbank-said-tried-buy-163336392.html",
+          "title": "Arm, SoftBank Said to Have Tried to Buy Cerebras",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Benzinga",
+          "url": "https://finance.yahoo.com/news/whats-going-arm-stock-wednesday-160653249.html",
+          "title": "What's Going On With Arm Stock Wednesday?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-price-target-235809458.html",
+          "title": "Arm Holdings (ARM) Price Target Raised to $300 on AI and Data Center Momentum",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 50.42105263157895
+        },
+        {
+          "date": "2026-05-14",
+          "value": 51.26315789473684
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

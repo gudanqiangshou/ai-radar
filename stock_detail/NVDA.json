@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断",
-    "price": 220.77999877929688,
-    "change_1d": 0.61,
-    "composite": 87.94736842105264,
+    "price": 225.8300018310547,
+    "change_1d": 2.29,
+    "composite": 86.26315789473685,
     "tier_letter": "A",
     "description": [
       "NVIDIA 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断。当前内部综合评分 87。",
+      "AI 角色：AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断。当前内部综合评分 86。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
     "status_label": "买入区"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$220.78",
-        "日内涨跌": "+0.61%",
-        "1日涨跌": "+0.61%",
+        "最新价": "$225.83",
+        "日内涨跌": "+2.29%",
+        "1日涨跌": "+2.29%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "+0.61%",
+        "YTD涨跌": "+2.91%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "158,666,400",
-        "量比20日": "0.99",
-        "52周高点": "223.75",
+        "成交量": "142,422,903",
+        "量比20日": "0.92",
+        "52周高点": "227.84",
         "52周低点": "213.89",
-        "距52周高点": "-1.33%",
-        "距52周低点": "+3.22%",
+        "距52周高点": "-0.88%",
+        "距52周低点": "+5.58%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "24.30B",
         "ROE": "101.48%",
         "债务/权益": "0.00",
-        "市值": "$5.37T",
+        "市值": "$5.49T",
         "企业价值": "$5.31T",
-        "P/E TTM": "45.06",
-        "Forward P/E": "19.45",
-        "P/S": "24.85",
+        "P/E TTM": "46.09",
+        "Forward P/E": "19.90",
+        "P/S": "25.42",
         "EV/Sales": "24.61",
         "EV/EBITDA": "39.88",
         "EV/FCF": "91.41",
-        "FCF收益率": "1.08%",
+        "FCF收益率": "1.06%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 100.0,
+          "value": 84.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 87.94736842105264,
+          "value": 86.26315789473685,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
+      "data": {
+        "target_mean": 269.9549,
+        "target_high": 380.0,
+        "target_low": 140.0,
+        "upside_pct": 19.54,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 57,
+        "next_earnings": "2026-05-21",
+        "eps_estimate": 1.77593,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/NVDA",
+          "title": "NVIDIA Corporation (NVDA) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NVDA/news/",
+          "title": "NVIDIA Corporation (NVDA) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NVDA/",
+          "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/quote/NVDA:US",
+          "title": "NVDA: NVIDIA Corp Stock Price Quote - NASDAQ GS - Bloomberg",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/NVDA",
+          "title": "NVDA: NVIDIA Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/nvidias-impressive-rally-faces-one-big-test-163054251.html",
+          "title": "Nvidia's impressive rally faces one big test - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-draws-bullish-goldman-235640305.html",
+          "title": "Nvidia (NVDA) Draws Bullish Goldman Sachs Call Ahead of Earnings",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/nvda",
+          "title": "NVIDIA Corp. Stock Quote (U.S. - NVDA - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/what-elon-musk-hopes-to-gain-from-joining-trumps-china-visit-203340603.html",
+          "title": "What Elon Musk hopes to gain from joining Trump's China visit",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/why-criticism-of-arkks-cathie-wood-might-be-a-bit-harsh-200603491.html",
+          "title": "Why criticism of ARKK's Cathie Wood might be a bit 'harsh'",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 87.94736842105264
+        },
+        {
+          "date": "2026-05-14",
+          "value": 86.26315789473685
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

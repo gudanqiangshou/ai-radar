@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 2,
     "ai_role": "定制 AI ASIC + 高速光网络（800G/1.6T DSP）",
-    "price": 164.5,
-    "change_1d": -3.71,
-    "composite": 54.0,
+    "price": 177.9499969482422,
+    "change_1d": 8.18,
+    "composite": 57.368421052631575,
     "tier_letter": "B",
     "description": [
       "Marvell Technology 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：定制 AI ASIC + 高速光网络（800G/1.6T DSP）。当前内部综合评分 54。",
+      "AI 角色：定制 AI ASIC + 高速光网络（800G/1.6T DSP）。当前内部综合评分 57。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$164.50",
-        "日内涨跌": "-3.71%",
-        "1日涨跌": "-3.71%",
+        "最新价": "$177.95",
+        "日内涨跌": "+8.18%",
+        "1日涨跌": "+8.18%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "-3.71%",
+        "YTD涨跌": "+4.16%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "21,317,800",
-        "量比20日": "0.96",
-        "52周高点": "174.16",
+        "成交量": "31,477,793",
+        "量比20日": "1.25",
+        "52周高点": "182.31",
         "52周低点": "157.96",
-        "距52周高点": "-5.55%",
-        "距52周低点": "+4.14%",
+        "距52周高点": "-2.39%",
+        "距52周低点": "+12.66%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "874.46M",
         "ROE": "19.25%",
         "债务/权益": "0.03",
-        "市值": "$143.85B",
+        "市值": "$155.61B",
         "企业价值": "$145.97B",
-        "P/E TTM": "53.41",
-        "Forward P/E": "30.27",
-        "P/S": "17.55",
+        "P/E TTM": "57.78",
+        "Forward P/E": "32.74",
+        "P/S": "18.99",
         "EV/Sales": "17.81",
         "EV/EBITDA": "55.51",
         "EV/FCF": "101.17",
-        "FCF收益率": "1.00%",
+        "FCF收益率": "0.93%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 32.0,
+          "value": 64.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 54.0,
+          "value": 57.368421052631575,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
+      "data": {
+        "target_mean": 130.28372,
+        "target_high": 195.0,
+        "target_low": 85.0,
+        "upside_pct": -26.79,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 39,
+        "next_earnings": "2026-05-28",
+        "eps_estimate": 0.79663,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MRVL",
+          "title": "Marvell Technology, Inc. (MRVL) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/MRVL",
+          "title": "MRVL: Marvell Technology Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MRVL/",
+          "title": "Marvell Technology, Inc. (MRVL) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MRVL/news/",
+          "title": "Marvell Technology, Inc. (MRVL) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MRVL/news?page=23",
+          "title": "Marvell Technology, Inc. (MRVL) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/MRVL/news?p=MRVL&ncid=yahooproperties_stockrecom_g40boan2td8",
+          "title": "Marvell Technology, Inc. (MRVL) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/mrvl",
+          "title": "Marvell Technology Inc. Stock Quote (U.S. - MRVL - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/news/us-equity-markets-mixed-amid-201037765.html",
+          "title": "US Equity Markets Mixed Amid Gains in Tech Stocks Despite Hot Producer Data",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/news/us-equity-indexes-mixed-communication-195709058.html",
+          "title": "US Equity Indexes Mixed as Communication Services, Tech Gains Offset Impact of Hot Producer Prices",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/news/us-equity-indexes-mixed-amid-173154450.html",
+          "title": "US Equity Indexes Mixed Amid Hot Producer Prices, Tech Gains",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 54.0
+        },
+        {
+          "date": "2026-05-14",
+          "value": 57.368421052631575
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

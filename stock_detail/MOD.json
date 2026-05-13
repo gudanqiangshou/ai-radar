@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 2,
     "ai_role": "数据中心液冷 + 热管理，规模较小但高弹性",
-    "price": 276.2699890136719,
-    "change_1d": -3.0,
-    "composite": 51.615,
+    "price": 279.20001220703125,
+    "change_1d": 1.06,
+    "composite": 43.21380952380953,
     "tier_letter": "B",
     "description": [
       "Modine Manufacturing 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：数据中心液冷 + 热管理，规模较小但高弹性。当前内部综合评分 51。",
+      "AI 角色：数据中心液冷 + 热管理，规模较小但高弹性。当前内部综合评分 43。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
-    "status_label": "持有"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$276.27",
-        "日内涨跌": "-3.00%",
-        "1日涨跌": "-3.00%",
-        "5日涨跌": "+2.46%",
-        "1月涨跌": "+14.42%",
-        "3月涨跌": "+25.86%",
-        "6月涨跌": "+114.61%",
-        "1年涨跌": "+172.38%",
-        "YTD涨跌": "+96.20%",
-        "20日均线": "255.88",
-        "50日均线": "230.57",
-        "200日均线": "173.16",
-        "RSI 14": "62.20",
-        "MACD": "13.02",
-        "20日波动率": "57.89%",
-        "成交量": "1,097,500",
-        "量比20日": "1.23",
+        "最新价": "$279.20",
+        "日内涨跌": "+1.06%",
+        "1日涨跌": "+1.06%",
+        "5日涨跌": "+2.27%",
+        "1月涨跌": "+8.64%",
+        "3月涨跌": "+29.59%",
+        "6月涨跌": "+111.48%",
+        "1年涨跌": "+166.74%",
+        "YTD涨跌": "+98.28%",
+        "20日均线": "257.94",
+        "50日均线": "231.91",
+        "200日均线": "174.03",
+        "RSI 14": "63.29",
+        "MACD": "13.11",
+        "20日波动率": "52.37%",
+        "成交量": "794,628",
+        "量比20日": "0.91",
         "52周高点": "287.30",
         "52周低点": "86.48",
-        "距52周高点": "-3.84%",
-        "距52周低点": "+219.46%",
+        "距52周高点": "-2.82%",
+        "距52周低点": "+222.85%",
         "20日支撑": "227.38",
         "20日压力": "287.30"
       }
@@ -76,15 +76,15 @@
         "流通股本": "52.73M",
         "ROE": "10.02%",
         "债务/权益": "0.05",
-        "市值": "$14.57B",
+        "市值": "$14.72B",
         "企业价值": "$15.23B",
-        "P/E TTM": "151.80",
-        "Forward P/E": "37.45",
-        "P/S": "5.07",
+        "P/E TTM": "153.41",
+        "Forward P/E": "37.85",
+        "P/S": "5.12",
         "EV/Sales": "5.30",
         "EV/EBITDA": "36.30",
         "EV/FCF": "-139.00",
-        "FCF收益率": "-0.75%",
+        "FCF收益率": "-0.74%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 32.738095238095234,
+          "value": 31.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 79.28571428571428,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 31.19047619047619,
+          "value": 31.904761904761905,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 100.0,
+          "value": 39.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 51.78571428571429,
+          "value": 73.0952380952381,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 51.615,
+          "value": 43.21380952380953,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,18 +167,18 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
       "data": {
         "target_mean": 265.57144,
         "target_high": 310.0,
         "target_low": 250.0,
-        "upside_pct": -3.87,
+        "upside_pct": -4.88,
         "rating": "none",
         "rating_letter": "—",
         "rating_change": "维持",
         "previous_rating_letter": "—",
         "n_analysts": 7,
-        "next_earnings": "2026-05-20",
+        "next_earnings": "2026-05-27",
         "eps_estimate": 1.55447,
         "revenue_estimate": null
       },
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MMF.F/",
+          "title": "Modine Manufacturing Company (MMF.F) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/modine-mod-stock-declines-while-225006551.html",
+          "title": "Modine (MOD) Stock Declines While Market Improves",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/mod",
+          "title": "MOD | Modine Manufacturing Co. Stock Overview (U.S.: NYSE) | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/1MOD.MI/news/",
+          "title": "MODINE MANUFACTURING CO (1MOD.MI) latest stock news and ...",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-13",
           "source": "finance.yahoo.com",
@@ -244,38 +276,6 @@
           "title": "MOD Modine Manufacturing Company Stock Price & Overview",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/modine-manufacturing-mod-evaluating-valuation-161741519.html",
-          "title": "Modine Manufacturing (MOD): Evaluating Valuation After Strong ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/modine-manufacturing-company-mod-trending-130002825.html",
-          "title": "Modine Manufacturing Company (MOD) Is a Trending Stock",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/mod",
-          "title": "MOD Stock Price | Modine Manufacturing Co. Stock Quote (U.S.: NYSE) | MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/modine-mod-suffers-larger-drop-214504412.html",
-          "title": "Modine (MOD) Suffers a Larger Drop Than the General Market: Key Insights",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 51.615
+        },
+        {
+          "date": "2026-05-14",
+          "value": 43.21380952380953
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

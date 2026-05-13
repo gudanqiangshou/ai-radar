@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 2,
     "ai_role": "边缘网络 + Workers AI 推理 — 边缘 AI 平台",
-    "price": 186.7899932861328,
-    "change_1d": -3.48,
+    "price": 192.6199951171875,
+    "change_1d": 3.12,
     "composite": 38.71052631578947,
     "tier_letter": "B",
     "description": [
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$186.79",
-        "日内涨跌": "-3.48%",
-        "1日涨跌": "-3.48%",
+        "最新价": "$192.62",
+        "日内涨跌": "+3.12%",
+        "1日涨跌": "+3.12%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "-3.48%",
+        "YTD涨跌": "-0.47%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "5,566,600",
-        "量比20日": "0.92",
+        "成交量": "4,252,628",
+        "量比20日": "0.78",
         "52周高点": "204.27",
-        "52周低点": "186.57",
-        "距52周高点": "-8.56%",
-        "距52周低点": "+0.12%",
+        "52周低点": "185.88",
+        "距52周高点": "-5.70%",
+        "距52周低点": "+3.63%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "319.53M",
         "ROE": "-5.88%",
         "债务/权益": "0.05",
-        "市值": "$66.02B",
+        "市值": "$68.08B",
         "企业价值": "$65.38B",
         "P/E TTM": "—",
-        "Forward P/E": "122.90",
-        "P/S": "28.35",
+        "Forward P/E": "126.73",
+        "P/S": "29.24",
         "EV/Sales": "28.08",
         "EV/EBITDA": "-1802.07",
         "EV/FCF": "86.60",
-        "FCF收益率": "1.14%",
+        "FCF收益率": "1.11%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
+      "data": {
+        "target_mean": 234.17741,
+        "target_high": 300.0,
+        "target_low": 135.0,
+        "upside_pct": 21.57,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 31,
+        "next_earnings": "2026-07-31",
+        "eps_estimate": 0.2698,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NET/news/",
+          "title": "Cloudflare, Inc. (NET) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/NET",
+          "title": "NET: Cloudflare Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-cloudflare-net-stock-trading-214055468.html",
+          "title": "Why Cloudflare (NET) Stock Is Trading Lower Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/net",
+          "title": "NET Stock Price | Cloudflare Inc. Cl A Stock Quote (U.S. - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/NET",
+          "title": "Cloudflare, Inc. (NET) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-cloudflare-net-stock-down-013444570.html",
+          "title": "Why Cloudflare (NET) Stock Is Down Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/news/4588934-cloudflare-plunges-after-q2-revenue-guidance-falls-just-shy-of-expectations",
+          "title": "Cloudflare plunges after Q2 revenue guidance falls just shy of ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-net-shares-tumble-despite-100246681.html",
+          "title": "Cloudflare (NET) shares tumble despite earnings beat and higher ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/news/wall-street-analysts-predict-27-135502922.html",
+          "title": "Wall Street Analysts Predict a 27.73% Upside in Cloudflare (NET): Here's  What You Should Know",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/news/cloudflare-net-valuation-check-recent-011342224.html",
+          "title": "Cloudflare (NET) Valuation Check After Recent Pullback And Conflicting Fair Value Estimates",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 38.71052631578947
+        },
+        {
+          "date": "2026-05-14",
+          "value": 38.71052631578947
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

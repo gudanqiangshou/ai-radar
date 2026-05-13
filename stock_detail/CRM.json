@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Agentforce — 企业 SaaS + Agent 工作流",
-    "price": 171.30999755859375,
-    "change_1d": -3.48,
+    "price": 165.83999633789062,
+    "change_1d": -3.19,
     "composite": 51.55263157894736,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$171.31",
-        "日内涨跌": "-3.48%",
-        "1日涨跌": "-3.48%",
+        "最新价": "$165.84",
+        "日内涨跌": "-3.19%",
+        "1日涨跌": "-3.19%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "-3.48%",
+        "YTD涨跌": "-6.56%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "10,201,400",
-        "量比20日": "0.96",
+        "成交量": "9,526,397",
+        "量比20日": "0.93",
         "52周高点": "182.50",
-        "52周低点": "170.58",
-        "距52周高点": "-6.13%",
-        "距52周低点": "+0.43%",
+        "52周低点": "164.75",
+        "距52周高点": "-9.13%",
+        "距52周低点": "+0.66%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "818.05M",
         "ROE": "12.40%",
         "债务/权益": "0.13",
-        "市值": "$140.14B",
+        "市值": "$135.67B",
         "企业价值": "$166.27B",
-        "P/E TTM": "21.99",
-        "Forward P/E": "11.47",
-        "P/S": "3.37",
+        "P/E TTM": "21.29",
+        "Forward P/E": "11.10",
+        "P/S": "3.27",
         "EV/Sales": "4.00",
         "EV/EBITDA": "13.25",
         "EV/FCF": "10.16",
-        "FCF收益率": "11.68%",
+        "FCF收益率": "12.06%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
+      "data": {
+        "target_mean": 268.2532,
+        "target_high": 475.0,
+        "target_low": 190.0,
+        "upside_pct": 61.75,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 53,
+        "next_earnings": "2026-05-28",
+        "eps_estimate": 3.12301,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRM/",
+          "title": "Salesforce, Inc. (CRM) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/US/XNYS/CRM",
+          "title": "CRM | Salesforce Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/crm",
+          "title": "Salesforce Inc. Stock Quote (U.S.: NYSE) - CRM - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRM/community/",
+          "title": "Salesforce, Inc. (CRM) Stock Forum & Discussion - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/CRM/",
+          "title": "(CRM) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/analyst-says-salesforce-crm-unloved-092137338.html",
+          "title": "Analyst Says Salesforce (CRM) an 'Unloved' AI Stock Amid ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/CRM",
+          "title": "Salesforce Inc. (CRM) Stock Price Today - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/news/1-dow-jones-stock-worth-191655935.html",
+          "title": "1 Dow Jones Stock Worth Your Attention and 2 We Ignore",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Proactive",
+          "url": "https://www.proactiveinvestors.com/companies/news/1092237/rivian-shares-jump-as-ai-robotics-spinout-mind-robotics-closes-400m-round-1092237.html",
+          "title": "Rivian shares jump as AI robotics spinout Mind Robotics closes $400M round",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "TechCrunch",
+          "url": "https://finance.yahoo.com/news/rivian-spinoff-mind-robotics-raises-163421993.html",
+          "title": "Rivian spinoff Mind Robotics raises another $400M",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 51.55263157894736
+        },
+        {
+          "date": "2026-05-14",
+          "value": 51.55263157894736
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

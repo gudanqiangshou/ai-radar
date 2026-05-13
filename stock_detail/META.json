@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Llama 开源 + 自研 MTIA + 最大 AI capex 之一（自用）",
-    "price": 603.0,
-    "change_1d": 0.69,
-    "composite": 70.49999999999999,
+    "price": 616.6300048828125,
+    "change_1d": 2.26,
+    "composite": 69.44736842105262,
     "tier_letter": "A",
     "description": [
       "Meta Platforms 的 AI 产业链位置为 Cloud / Hyperscaler。",
-      "AI 角色：Llama 开源 + 自研 MTIA + 最大 AI capex 之一（自用）。当前内部综合评分 70。",
+      "AI 角色：Llama 开源 + 自研 MTIA + 最大 AI capex 之一（自用）。当前内部综合评分 69。",
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$603.00",
-        "日内涨跌": "+0.69%",
-        "1日涨跌": "+0.69%",
+        "最新价": "$616.63",
+        "日内涨跌": "+2.26%",
+        "1日涨跌": "+2.26%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "+0.69%",
+        "YTD涨跌": "+2.97%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "11,330,300",
-        "量比20日": "0.83",
-        "52周高点": "604.91",
+        "成交量": "14,535,004",
+        "量比20日": "1.04",
+        "52周高点": "619.90",
         "52周低点": "592.60",
-        "距52周高点": "-0.32%",
-        "距52周低点": "+1.75%",
+        "距52周高点": "-0.53%",
+        "距52周低点": "+4.06%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "2.20B",
         "ROE": "32.93%",
         "债务/权益": "0.06",
-        "市值": "$1.53T",
+        "市值": "$1.57T",
         "企业价值": "$1.54T",
-        "P/E TTM": "21.93",
-        "Forward P/E": "16.66",
-        "P/S": "7.12",
+        "P/E TTM": "22.42",
+        "Forward P/E": "17.04",
+        "P/S": "7.28",
         "EV/Sales": "7.15",
         "EV/EBITDA": "14.05",
         "EV/FCF": "60.11",
-        "FCF收益率": "1.67%",
+        "FCF收益率": "1.63%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 100.0,
+          "value": 90.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 70.49999999999999,
+          "value": 69.44736842105262,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
+      "data": {
+        "target_mean": 826.69104,
+        "target_high": 1015.0,
+        "target_low": 614.0,
+        "upside_pct": 34.07,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 58,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 7.48333,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,80 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/META/news/",
+          "title": "Meta Platforms, Inc. (META) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/us/XNAS/META",
+          "title": "META | Meta Platforms Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/META/news?filter=&page=7",
+          "title": "Meta Platforms, Inc. (META) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/META.VI/news/",
+          "title": "Meta Platforms, Inc. (META.VI) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/META/",
+          "title": "Meta Platforms, Inc. (META) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/1FB.MI/news/",
+          "title": "Meta Platforms, Inc. (1FB.MI) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/FB2A.SG/news/",
+          "title": "Meta Platforms Inc (FB2A.SG) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-firms-assert-meta-114425252.html",
+          "title": "Wall Street Firms Assert Meta Platforms, Inc. (META) as a Top ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/cisco-earnings-stock-price-f649ed14?siteid=yhoof2&yptr=yahoo",
+          "title": "Cisco Earnings and Revenue Beat Estimates on Strong AI Demand",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +283,13 @@
         {
           "date": "2026-05-13",
           "value": 70.49999999999999
+        },
+        {
+          "date": "2026-05-14",
+          "value": 69.44736842105262
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "HVAC + 制冷，AI 数据中心间接受益",
-    "price": 65.55999755859375,
-    "change_1d": -0.49,
-    "composite": 41.11119047619047,
+    "price": 65.56999969482422,
+    "change_1d": 0.02,
+    "composite": 43.424285714285716,
     "tier_letter": "C",
     "description": [
       "Carrier Global 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：HVAC + 制冷，AI 数据中心间接受益。当前内部综合评分 41。",
+      "AI 角色：HVAC + 制冷，AI 数据中心间接受益。当前内部综合评分 43。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$65.56",
-        "日内涨跌": "-0.49%",
-        "1日涨跌": "-0.49%",
-        "5日涨跌": "-2.47%",
-        "1月涨跌": "+3.50%",
-        "3月涨跌": "-2.27%",
-        "6月涨跌": "+18.85%",
-        "1年涨跌": "-10.73%",
-        "YTD涨跌": "+22.50%",
-        "20日均线": "63.50",
-        "50日均线": "60.36",
-        "200日均线": "59.73",
-        "RSI 14": "56.78",
-        "MACD": "1.82",
-        "20日波动率": "56.10%",
-        "成交量": "3,907,100",
-        "量比20日": "0.54",
+        "最新价": "$65.57",
+        "日内涨跌": "+0.02%",
+        "1日涨跌": "+0.02%",
+        "5日涨跌": "-1.89%",
+        "1月涨跌": "+1.94%",
+        "3月涨跌": "+1.05%",
+        "6月涨跌": "+21.20%",
+        "1年涨跌": "-12.16%",
+        "YTD涨跌": "+22.51%",
+        "20日均线": "63.85",
+        "50日均线": "60.45",
+        "200日均线": "59.65",
+        "RSI 14": "56.80",
+        "MACD": "1.71",
+        "20日波动率": "43.25%",
+        "成交量": "2,838,219",
+        "量比20日": "0.44",
         "52周高点": "81.09",
         "52周低点": "50.24",
-        "距52周高点": "-19.15%",
-        "距52周低点": "+30.49%",
-        "20日支撑": "57.70",
+        "距52周高点": "-19.14%",
+        "距52周低点": "+30.51%",
+        "20日支撑": "57.85",
         "20日压力": "69.04"
       }
     },
@@ -76,10 +76,10 @@
         "流通股本": "830.58M",
         "ROE": "9.91%",
         "债务/权益": "0.23",
-        "市值": "$54.45B",
+        "市值": "$54.46B",
         "企业价值": "$66.00B",
         "P/E TTM": "43.71",
-        "Forward P/E": "20.51",
+        "Forward P/E": "20.52",
         "P/S": "2.49",
         "EV/Sales": "3.02",
         "EV/EBITDA": "21.01",
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 33.45238095238095,
+          "value": 31.428571428571427,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 30.761904761904763,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 29.523809523809522,
+          "value": 29.52380952380952,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 50.0,
+          "value": 73.33333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 44.64285714285714,
+          "value": 47.38095238095238,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 41.11119047619047,
+          "value": 43.424285714285716,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
       "data": {
         "target_mean": 75.51217,
         "target_high": 90.0,
         "target_low": 55.0,
-        "upside_pct": 15.18,
+        "upside_pct": 15.16,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,14 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/4PN.BE/news/",
+          "title": "Carrier Global Corp (4PN.BE) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-13",
           "source": "finance.yahoo.com",
@@ -268,14 +276,6 @@
           "title": "Carrier Global Corporation (CARR) Stock Price, News, Quote ...",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CARR.MX/news/",
-          "title": "Carrier Global Corporation (CARR.MX) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 41.11119047619047
+        },
+        {
+          "date": "2026-05-14",
+          "value": 43.424285714285716
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

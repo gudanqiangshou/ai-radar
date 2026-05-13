@@ -1,219 +1,379 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-14",
   "profile_id": "warren",
   "topbar": {
     "ai_universe": 93,
     "core_30": 26,
     "high_52w": 0,
-    "ew_today": 0.0,
-    "ew_ytd": 45.93183734760598,
-    "spx_today": 0.0,
-    "qqq_today": 0.0,
-    "spx_ytd": null,
-    "qqq_ytd": null,
-    "up_count": 2,
-    "down_count": 20,
+    "ew_today": 0.7121954160379466,
+    "ew_ytd": 8.395392461265368,
+    "spx_today": 0.5849246488426663,
+    "qqq_today": 1.0562230418850789,
+    "spx_ytd": 8.54096856597044,
+    "qqq_ytd": 16.569354720857135,
+    "up_count": 48,
+    "down_count": 44,
     "risk_regime": "偏进攻"
   },
   "sectors": [
     {
       "sector_id": "power_grid_nuclear",
       "name": "Power / Grid / Nuclear",
-      "name_zh": "电力 / 电网 / 核电",
-      "change_today": 0,
+      "change_today": -0.34,
+      "change_5d": 1.2,
+      "change_1m": 2.7,
+      "change_3m": 1.72,
+      "change_ytd": 17.4,
       "stock_count": 22,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 22,
+      "up_count": 10,
+      "down_count": 12,
+      "rs_value": 2.7,
+      "rs_rank": 4,
+      "name_zh": "电力 / 电网 / 核电",
+      "core_count": 3,
       "placeholder": false
     },
     {
       "sector_id": "compute_gpu_asic",
       "name": "Compute / GPU / ASIC",
-      "name_zh": "算力 / GPU / 定制芯片",
-      "change_today": 0,
+      "change_today": 1.01,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": 0.1,
       "stock_count": 6,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 6,
+      "up_count": 3,
+      "down_count": 3,
+      "rs_value": 1.01,
+      "rs_rank": 11,
+      "name_zh": "算力 / GPU / 定制芯片",
+      "core_count": 3,
       "placeholder": false
     },
     {
       "sector_id": "memory_storage",
       "name": "Memory / Storage",
-      "name_zh": "存储",
-      "change_today": 0,
+      "change_today": 1.09,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -2.0,
       "stock_count": 3,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 3,
+      "up_count": 3,
+      "down_count": 0,
+      "rs_value": 1.09,
+      "rs_rank": 10,
+      "name_zh": "存储",
+      "core_count": 1,
       "placeholder": false
     },
     {
       "sector_id": "foundry_packaging",
       "name": "Foundry / Packaging",
-      "name_zh": "代工 / 封装",
-      "change_today": 0,
+      "change_today": 1.58,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -1.17,
       "stock_count": 3,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 3,
+      "up_count": 3,
+      "down_count": 0,
+      "rs_value": 1.58,
+      "rs_rank": 9,
+      "name_zh": "代工 / 封装",
+      "core_count": 1,
       "placeholder": false
     },
     {
       "sector_id": "semiconductor_equipment",
       "name": "Semiconductor Equipment",
-      "name_zh": "半导体设备",
-      "change_today": 0,
+      "change_today": 2.13,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": 0.02,
       "stock_count": 4,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 4,
+      "up_count": 4,
+      "down_count": 0,
+      "rs_value": 2.13,
+      "rs_rank": 5,
+      "name_zh": "半导体设备",
+      "core_count": 2,
       "placeholder": false
     },
     {
       "sector_id": "eda_design",
       "name": "EDA / Design Software",
-      "name_zh": "EDA / 芯片设计",
-      "change_today": 0,
+      "change_today": -0.87,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -1.99,
       "stock_count": 2,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 2,
+      "up_count": 0,
+      "down_count": 2,
+      "rs_value": -0.87,
+      "rs_rank": 15,
+      "name_zh": "EDA / 芯片设计",
+      "core_count": 2,
       "placeholder": false
     },
     {
       "sector_id": "networking_optical",
       "name": "Networking / Optical",
-      "name_zh": "网络 / 光模块",
-      "change_today": 0,
+      "change_today": 1.98,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": 1.25,
       "stock_count": 4,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 4,
+      "up_count": 3,
+      "down_count": 1,
+      "rs_value": 1.98,
+      "rs_rank": 6,
+      "name_zh": "网络 / 光模块",
+      "core_count": 1,
       "placeholder": false
     },
     {
       "sector_id": "data_center_infra",
       "name": "Data Center Infrastructure",
-      "name_zh": "数据中心基建",
-      "change_today": 0,
+      "change_today": -0.31,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -1.49,
       "stock_count": 5,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 5,
+      "up_count": 1,
+      "down_count": 4,
+      "rs_value": -0.31,
+      "rs_rank": 14,
+      "name_zh": "数据中心基建",
+      "core_count": 2,
       "placeholder": false
     },
     {
       "sector_id": "cloud_hyperscaler",
       "name": "Cloud / Hyperscaler",
-      "name_zh": "云厂商",
-      "change_today": 0,
+      "change_today": 1.62,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": 0.42,
       "stock_count": 5,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 5,
+      "up_count": 4,
+      "down_count": 1,
+      "rs_value": 1.62,
+      "rs_rank": 8,
+      "name_zh": "云厂商",
+      "core_count": 4,
       "placeholder": false
     },
     {
       "sector_id": "ai_cloud_gpu",
       "name": "AI Cloud / GPU Cloud",
-      "name_zh": "AI 云 / GPU 云",
-      "change_today": 0,
+      "change_today": 3.42,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": 1.02,
       "stock_count": 4,
+      "quotes_count": 4,
+      "up_count": 3,
+      "down_count": 1,
+      "rs_value": 3.42,
+      "rs_rank": 2,
+      "name_zh": "AI 云 / GPU 云",
       "core_count": 0,
-      "rs_rank": null,
       "placeholder": false
     },
     {
       "sector_id": "data_software_platform",
       "name": "Data / Software Platform",
-      "name_zh": "数据软件平台",
-      "change_today": 0,
+      "change_today": 0.26,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": 1.48,
       "stock_count": 4,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 3,
+      "up_count": 2,
+      "down_count": 1,
+      "rs_value": 0.26,
+      "rs_rank": 12,
+      "name_zh": "数据软件平台",
+      "core_count": 1,
       "placeholder": false
     },
     {
       "sector_id": "ai_application",
       "name": "AI Application",
-      "name_zh": "AI 应用",
-      "change_today": 0,
+      "change_today": -2.19,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -5.0,
       "stock_count": 5,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 5,
+      "up_count": 0,
+      "down_count": 5,
+      "rs_value": -2.19,
+      "rs_rank": 16,
+      "name_zh": "AI 应用",
+      "core_count": 1,
       "placeholder": false
     },
     {
       "sector_id": "cybersecurity",
       "name": "Cybersecurity",
-      "name_zh": "网络安全",
-      "change_today": 0,
+      "change_today": 3.12,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": 2.39,
       "stock_count": 5,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 5,
+      "up_count": 5,
+      "down_count": 0,
+      "rs_value": 3.12,
+      "rs_rank": 3,
+      "name_zh": "网络安全",
+      "core_count": 1,
       "placeholder": false
     },
     {
       "sector_id": "industrial_automation",
       "name": "Industrial Automation / Robotics",
-      "name_zh": "工业自动化 / 机器人",
-      "change_today": 0,
+      "change_today": -0.14,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -0.86,
       "stock_count": 4,
+      "quotes_count": 4,
+      "up_count": 1,
+      "down_count": 3,
+      "rs_value": -0.14,
+      "rs_rank": 13,
+      "name_zh": "工业自动化 / 机器人",
       "core_count": 0,
-      "rs_rank": null,
       "placeholder": false
     },
     {
       "sector_id": "autonomous_mobility",
       "name": "Autonomous / Mobility",
-      "name_zh": "自动驾驶",
-      "change_today": 0,
+      "change_today": 14.08,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": 13.96,
       "stock_count": 3,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 3,
+      "up_count": 3,
+      "down_count": 0,
+      "rs_value": 14.08,
+      "rs_rank": 1,
+      "name_zh": "自动驾驶",
+      "core_count": 1,
       "placeholder": false
     },
     {
       "sector_id": "healthcare_ai",
       "name": "Healthcare AI",
-      "name_zh": "医疗 AI",
-      "change_today": 0,
+      "change_today": -2.24,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -2.26,
       "stock_count": 3,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 3,
+      "up_count": 1,
+      "down_count": 2,
+      "rs_value": -2.24,
+      "rs_rank": 18,
+      "name_zh": "医疗 AI",
+      "core_count": 1,
       "placeholder": false
     },
     {
       "sector_id": "financial_research_data",
       "name": "Financial / Research Data",
-      "name_zh": "金融数据",
-      "change_today": 0,
+      "change_today": -2.97,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -2.35,
       "stock_count": 3,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 3,
+      "up_count": 0,
+      "down_count": 3,
+      "rs_value": -2.97,
+      "rs_rank": 19,
+      "name_zh": "金融数据",
+      "core_count": 1,
       "placeholder": false
     },
     {
       "sector_id": "consumer_ai_device",
       "name": "Consumer AI / Device",
-      "name_zh": "消费 AI / 设备",
-      "change_today": 0,
+      "change_today": 1.72,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": 0.42,
       "stock_count": 2,
-      "core_count": 0,
-      "rs_rank": null,
+      "quotes_count": 2,
+      "up_count": 2,
+      "down_count": 0,
+      "rs_value": 1.72,
+      "rs_rank": 7,
+      "name_zh": "消费 AI / 设备",
+      "core_count": 1,
       "placeholder": false
     },
     {
       "sector_id": "quantum_frontier",
       "name": "Quantum / Frontier Computing",
-      "name_zh": "量子 / 前沿计算",
-      "change_today": 0,
+      "change_today": -3.43,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -10.21,
       "stock_count": 3,
+      "quotes_count": 3,
+      "up_count": 0,
+      "down_count": 3,
+      "rs_value": -3.43,
+      "rs_rank": 20,
+      "name_zh": "量子 / 前沿计算",
       "core_count": 0,
-      "rs_rank": null,
       "placeholder": false
     },
     {
       "sector_id": "critical_minerals",
       "name": "Critical Minerals / Rare Earths",
-      "name_zh": "关键矿产 / 稀土",
-      "change_today": 0,
+      "change_today": -2.23,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -5.35,
       "stock_count": 3,
+      "quotes_count": 3,
+      "up_count": 0,
+      "down_count": 3,
+      "rs_value": -2.23,
+      "rs_rank": 17,
+      "name_zh": "关键矿产 / 稀土",
       "core_count": 0,
-      "rs_rank": null,
       "placeholder": false
     }
   ],
@@ -224,11 +384,11 @@
       "sector_id": "power_grid_nuclear",
       "tier": 1,
       "tier_letter": "A",
-      "price": 293.6,
-      "change_1d": -2.03,
-      "change_1m": 2.48,
-      "change_ytd": -19.84,
-      "composite": 54.13166666666667,
+      "price": 274.89,
+      "change_1d": -6.37,
+      "change_1m": -5.77,
+      "change_ytd": -24.94,
+      "composite": 62.790000000000006,
       "status": "hold"
     },
     {
@@ -237,12 +397,12 @@
       "sector_id": "power_grid_nuclear",
       "tier": 1,
       "tier_letter": "A",
-      "price": 146.87,
-      "change_1d": -3.41,
-      "change_1m": -5.08,
-      "change_ytd": -11.11,
-      "composite": 63.61500000000001,
-      "status": "hold"
+      "price": 142.61,
+      "change_1d": -2.9,
+      "change_1m": -9.85,
+      "change_ytd": -13.69,
+      "composite": 70.34,
+      "status": "buy_zone"
     },
     {
       "ticker": "GEV",
@@ -250,11 +410,11 @@
       "sector_id": "power_grid_nuclear",
       "tier": 1,
       "tier_letter": "A",
-      "price": 1071.98,
-      "change_1d": -0.1,
-      "change_1m": 8.14,
-      "change_ytd": 57.75,
-      "composite": 63.703095238095244,
+      "price": 1062.57,
+      "change_1d": -0.88,
+      "change_1m": 7.21,
+      "change_ytd": 56.36,
+      "composite": 55.95190476190477,
       "status": "hold"
     },
     {
@@ -263,11 +423,11 @@
       "sector_id": "compute_gpu_asic",
       "tier": 1,
       "tier_letter": "A",
-      "price": 220.78,
-      "change_1d": 0.61,
+      "price": 225.83,
+      "change_1d": 2.29,
       "change_1m": null,
-      "change_ytd": 0.61,
-      "composite": 87.94736842105264,
+      "change_ytd": 2.91,
+      "composite": 86.26315789473685,
       "status": "buy_zone"
     },
     {
@@ -276,11 +436,11 @@
       "sector_id": "compute_gpu_asic",
       "tier": 1,
       "tier_letter": "A",
-      "price": 448.29,
-      "change_1d": -2.29,
+      "price": 445.5,
+      "change_1d": -0.62,
       "change_1m": null,
-      "change_ytd": -2.29,
-      "composite": 43.1578947368421,
+      "change_ytd": -2.9,
+      "composite": 42.31578947368421,
       "status": "watch"
     },
     {
@@ -289,11 +449,11 @@
       "sector_id": "compute_gpu_asic",
       "tier": 1,
       "tier_letter": "A",
-      "price": 419.3,
-      "change_1d": -2.13,
+      "price": 416.79,
+      "change_1d": -0.6,
       "change_1m": null,
-      "change_ytd": -2.13,
-      "composite": 72.21052631578947,
+      "change_ytd": -2.72,
+      "composite": 70.52631578947368,
       "status": "hold"
     },
     {
@@ -302,11 +462,11 @@
       "sector_id": "memory_storage",
       "tier": 1,
       "tier_letter": "A",
-      "price": 766.58,
-      "change_1d": -3.61,
+      "price": 803.63,
+      "change_1d": 4.83,
       "change_1m": null,
-      "change_ytd": -3.61,
-      "composite": 69.05263157894736,
+      "change_ytd": 1.04,
+      "composite": 71.1578947368421,
       "status": "hold"
     },
     {
@@ -315,11 +475,11 @@
       "sector_id": "foundry_packaging",
       "tier": 1,
       "tier_letter": "A",
-      "price": 397.28,
-      "change_1d": -1.79,
+      "price": 399.8,
+      "change_1d": 0.63,
       "change_1m": null,
-      "change_ytd": -1.79,
-      "composite": 87.89473684210525,
+      "change_ytd": -1.17,
+      "composite": 85.7894736842105,
       "status": "buy_zone"
     },
     {
@@ -328,11 +488,11 @@
       "sector_id": "semiconductor_equipment",
       "tier": 1,
       "tier_letter": "A",
-      "price": 1520.94,
-      "change_1d": -2.87,
+      "price": 1581.58,
+      "change_1d": 3.99,
       "change_1m": null,
-      "change_ytd": -2.87,
-      "composite": 58.526315789473685,
+      "change_ytd": 1.01,
+      "composite": 62.73684210526316,
       "status": "hold"
     },
     {
@@ -341,11 +501,11 @@
       "sector_id": "semiconductor_equipment",
       "tier": 1,
       "tier_letter": "A",
-      "price": 431.2,
-      "change_1d": -2.8,
+      "price": 436.61,
+      "change_1d": 1.25,
       "change_1m": null,
-      "change_ytd": -2.8,
-      "composite": 45.192982456140356,
+      "change_ytd": -1.58,
+      "composite": 43.789473684210535,
       "status": "watch"
     },
     {
@@ -354,10 +514,10 @@
       "sector_id": "eda_design",
       "tier": 1,
       "tier_letter": "A",
-      "price": 358.04,
-      "change_1d": -1.69,
+      "price": 354.55,
+      "change_1d": -0.97,
       "change_1m": null,
-      "change_ytd": -1.69,
+      "change_ytd": -2.65,
       "composite": 67.68421052631578,
       "status": "hold"
     },
@@ -367,10 +527,10 @@
       "sector_id": "eda_design",
       "tier": 1,
       "tier_letter": "A",
-      "price": 513.21,
-      "change_1d": -0.58,
+      "price": 509.28,
+      "change_1d": -0.77,
       "change_1m": null,
-      "change_ytd": -0.58,
+      "change_ytd": -1.34,
       "composite": 49.26315789473684,
       "status": "watch"
     },
@@ -380,11 +540,11 @@
       "sector_id": "networking_optical",
       "tier": 1,
       "tier_letter": "A",
-      "price": 142.54,
-      "change_1d": 4.48,
+      "price": 140.69,
+      "change_1d": -1.3,
       "change_1m": null,
-      "change_ytd": 4.48,
-      "composite": 85.89473684210525,
+      "change_ytd": 3.12,
+      "composite": 84.49122807017544,
       "status": "buy_zone"
     },
     {
@@ -393,11 +553,11 @@
       "sector_id": "data_center_infra",
       "tier": 1,
       "tier_letter": "A",
-      "price": 195.27,
-      "change_1d": -0.49,
+      "price": 193.31,
+      "change_1d": -1.0,
       "change_1m": null,
-      "change_ytd": -0.49,
-      "composite": 45.89473684210526,
+      "change_ytd": -1.49,
+      "composite": 43.78947368421053,
       "status": "watch"
     },
     {
@@ -406,10 +566,10 @@
       "sector_id": "data_center_infra",
       "tier": 1,
       "tier_letter": "A",
-      "price": 1080.63,
-      "change_1d": -0.51,
+      "price": 1077.28,
+      "change_1d": -0.31,
       "change_1m": null,
-      "change_ytd": -0.51,
+      "change_ytd": -0.82,
       "composite": 49.31578947368422,
       "status": "watch"
     },
@@ -419,10 +579,10 @@
       "sector_id": "cloud_hyperscaler",
       "tier": 1,
       "tier_letter": "A",
-      "price": 407.77,
-      "change_1d": -1.18,
+      "price": 405.21,
+      "change_1d": -0.63,
       "change_1m": null,
-      "change_ytd": -1.18,
+      "change_ytd": -1.81,
       "composite": 71.55263157894736,
       "status": "hold"
     },
@@ -432,12 +592,12 @@
       "sector_id": "cloud_hyperscaler",
       "tier": 1,
       "tier_letter": "A",
-      "price": 387.35,
-      "change_1d": -0.33,
+      "price": 402.62,
+      "change_1d": 3.94,
       "change_1m": null,
-      "change_ytd": -0.33,
-      "composite": 55.10526315789474,
-      "status": "hold"
+      "change_ytd": 3.6,
+      "composite": 54.05263157894738,
+      "status": "watch"
     },
     {
       "ticker": "AMZN",
@@ -445,11 +605,11 @@
       "sector_id": "cloud_hyperscaler",
       "tier": 1,
       "tier_letter": "A",
-      "price": 265.82,
-      "change_1d": -1.18,
+      "price": 270.13,
+      "change_1d": 1.62,
       "change_1m": null,
-      "change_ytd": -1.18,
-      "composite": 35.89473684210526,
+      "change_ytd": 0.42,
+      "composite": 38.0,
       "status": "reduce"
     },
     {
@@ -458,11 +618,11 @@
       "sector_id": "cloud_hyperscaler",
       "tier": 1,
       "tier_letter": "A",
-      "price": 603.0,
-      "change_1d": 0.69,
+      "price": 616.63,
+      "change_1d": 2.26,
       "change_1m": null,
-      "change_ytd": 0.69,
-      "composite": 70.49999999999999,
+      "change_ytd": 2.97,
+      "composite": 69.44736842105262,
       "status": "hold"
     },
     {
@@ -471,11 +631,11 @@
       "sector_id": "data_software_platform",
       "tier": 1,
       "tier_letter": "A",
-      "price": 151.98,
-      "change_1d": 0.32,
+      "price": 152.37,
+      "change_1d": 0.26,
       "change_1m": null,
-      "change_ytd": 0.32,
-      "composite": 33.01754385964912,
+      "change_ytd": 0.57,
+      "composite": 30.912280701754387,
       "status": "reduce"
     },
     {
@@ -484,11 +644,11 @@
       "sector_id": "ai_application",
       "tier": 1,
       "tier_letter": "A",
-      "price": 136.0,
-      "change_1d": -0.65,
+      "price": 130.05,
+      "change_1d": -4.37,
       "change_1m": null,
-      "change_ytd": -0.65,
-      "composite": 63.26315789473684,
+      "change_ytd": -5.0,
+      "composite": 61.1578947368421,
       "status": "hold"
     },
     {
@@ -497,10 +657,10 @@
       "sector_id": "cybersecurity",
       "tier": 1,
       "tier_letter": "A",
-      "price": 546.18,
-      "change_1d": 0.72,
+      "price": 562.57,
+      "change_1d": 3.0,
       "change_1m": null,
-      "change_ytd": 0.72,
+      "change_ytd": 3.75,
       "composite": 58.28947368421052,
       "status": "hold"
     },
@@ -510,10 +670,10 @@
       "sector_id": "autonomous_mobility",
       "tier": 1,
       "tier_letter": "A",
-      "price": 433.45,
-      "change_1d": -2.6,
+      "price": 445.27,
+      "change_1d": 2.73,
       "change_1m": null,
-      "change_ytd": -2.6,
+      "change_ytd": 0.06,
       "composite": 56.47368421052631,
       "status": "hold"
     },
@@ -523,10 +683,10 @@
       "sector_id": "healthcare_ai",
       "tier": 1,
       "tier_letter": "A",
-      "price": 431.87,
-      "change_1d": 2.81,
+      "price": 432.27,
+      "change_1d": 0.09,
       "change_1m": null,
-      "change_ytd": 2.81,
+      "change_ytd": 2.91,
       "composite": 59.31578947368421,
       "status": "hold"
     },
@@ -536,11 +696,11 @@
       "sector_id": "financial_research_data",
       "tier": 1,
       "tier_letter": "A",
-      "price": 424.17,
-      "change_1d": 0.75,
+      "price": 406.55,
+      "change_1d": -4.15,
       "change_1m": null,
-      "change_ytd": 0.75,
-      "composite": 52.421052631578945,
+      "change_ytd": -3.43,
+      "composite": 48.21052631578947,
       "status": "watch"
     },
     {
@@ -549,57 +709,79 @@
       "sector_id": "consumer_ai_device",
       "tier": 1,
       "tier_letter": "A",
-      "price": 294.8,
-      "change_1d": 0.72,
+      "price": 298.87,
+      "change_1d": 1.38,
       "change_1m": null,
-      "change_ytd": 0.72,
+      "change_ytd": 2.11,
       "composite": 58.789473684210535,
       "status": "hold"
     }
   ],
-  "movers": [],
+  "movers": [
+    {
+      "ticker": "AUR",
+      "type": "big_up",
+      "change_1d": 16.34,
+      "name": "Aurora Innovation",
+      "tier": 3
+    },
+    {
+      "ticker": "NBIS",
+      "type": "big_up",
+      "change_1d": 15.72,
+      "name": "Nebius Group",
+      "tier": 2
+    },
+    {
+      "ticker": "MBLY",
+      "type": "big_up",
+      "change_1d": 14.08,
+      "name": "Mobileye",
+      "tier": 2
+    }
+  ],
   "top_news": [
     {
       "ticker": "CEG",
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "source": "finance.yahoo.com",
-      "url": "https://finance.yahoo.com/quote/CEG/press-releases/",
-      "title": "Constellation Energy Corporation (CEG) Latest Press Releases ..."
+      "url": "https://finance.yahoo.com/news/constellation-energy-corporation-ceg-good-200924094.html",
+      "title": "Is Constellation Energy Corporation (CEG) A Good Stock To Buy ..."
     },
     {
       "ticker": "CEG",
-      "date": "2026-05-13",
-      "source": "ca.finance.yahoo.com",
-      "url": "https://ca.finance.yahoo.com/quote/CEG/news/",
-      "title": "Constellation Energy Corporation (CEG) Latest Stock News & Headlines - Yahoo Finance"
-    },
-    {
-      "ticker": "CEG",
-      "date": "2026-05-13",
-      "source": "finance.yahoo.com",
-      "url": "https://finance.yahoo.com/quote/CEG/chart/",
-      "title": "Constellation Energy Corporation (CEG) - Yahoo Finance"
-    },
-    {
-      "ticker": "CEG",
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "source": "wsj.com",
-      "url": "https://www.wsj.com/market-data/quotes/us/xnas/ceg",
-      "title": "CEG | Constellation Energy Corp. Stock Price & News - WSJ"
+      "url": "https://www.wsj.com/market-data/quotes/CEG/historical-prices",
+      "title": "Constellation Energy Corp. Price & News - WSJ | CEG"
     },
     {
       "ticker": "CEG",
-      "date": "2026-05-13",
+      "date": "2026-05-14",
       "source": "seekingalpha.com",
-      "url": "https://seekingalpha.com/symbol/CEG",
-      "title": "CEG Constellation Energy Corporation Stock Price & Overview"
+      "url": "https://seekingalpha.com/symbol/CEGS%3ACA",
+      "title": "Constellation Energy Corporation (CEGS:CA) Stock Price, Quote ..."
     },
     {
-      "ticker": "CEG",
-      "date": "2026-05-13",
+      "ticker": "VST",
+      "date": "2026-05-14",
+      "source": "cnbc.com",
+      "url": "https://www.cnbc.com/quotes/VST",
+      "title": "VST: Vistra Corp - Stock Price, Quote and News - CNBC"
+    },
+    {
+      "ticker": "VST",
+      "date": "2026-05-14",
       "source": "finance.yahoo.com",
-      "url": "https://finance.yahoo.com/news/constellation-energy-corporation-ceg-trending-130007586.html",
-      "title": "Constellation Energy Corporation (CEG) Is a Trending Stock"
+      "url": "https://finance.yahoo.com/quote/VST/press-releases/",
+      "title": "Vistra Corp. (VST) Latest Press Releases & Corporate News"
+    },
+    {
+      "ticker": "VST",
+      "date": "2026-05-14",
+      "source": "finance.yahoo.com",
+      "url": "https://finance.yahoo.com/quote/VST/news/",
+      "title": "Vistra Corp. (VST) Latest Stock News & Headlines - Yahoo Finance"
     }
   ],
   "screener": [
@@ -609,9 +791,9 @@
       "ai_role": "核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头",
       "sector": "power_grid_nuclear",
       "tier": 1,
-      "price": 293.6,
-      "change_1d": -2.03,
-      "composite": 54.13166666666667
+      "price": 274.89,
+      "change_1d": -6.37,
+      "composite": 62.790000000000006
     },
     {
       "ticker": "VST",
@@ -619,9 +801,9 @@
       "ai_role": "Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益",
       "sector": "power_grid_nuclear",
       "tier": 1,
-      "price": 146.87,
-      "change_1d": -3.41,
-      "composite": 63.61500000000001
+      "price": 142.61,
+      "change_1d": -2.9,
+      "composite": 70.34
     },
     {
       "ticker": "GEV",
@@ -629,9 +811,9 @@
       "ai_role": "燃气轮机 + 电网设备双轮驱动，AI 电力扩张铲子",
       "sector": "power_grid_nuclear",
       "tier": 1,
-      "price": 1071.98,
-      "change_1d": -0.1,
-      "composite": 63.703095238095244
+      "price": 1062.57,
+      "change_1d": -0.88,
+      "composite": 55.95190476190477
     },
     {
       "ticker": "TLN",
@@ -639,9 +821,9 @@
       "ai_role": "Susquehanna 核电 + AWS 数据中心直接 PPA",
       "sector": "power_grid_nuclear",
       "tier": 1,
-      "price": 374.61,
-      "change_1d": -2.3,
-      "composite": 59.13166666666667
+      "price": 351.03,
+      "change_1d": -6.29,
+      "composite": 51.563809523809525
     },
     {
       "ticker": "ETN",
@@ -649,9 +831,9 @@
       "ai_role": "配电 + UPS + 数据中心电气系统，AI capex 直接受益",
       "sector": "power_grid_nuclear",
       "tier": 1,
-      "price": 401.53,
-      "change_1d": -4.17,
-      "composite": 59.15071428571429
+      "price": 406.94,
+      "change_1d": 1.35,
+      "composite": 60.54476190476191
     },
     {
       "ticker": "VRT",
@@ -659,9 +841,9 @@
       "ai_role": "数据中心热管理 + 电源管理，高密度机柜液冷领先",
       "sector": "power_grid_nuclear",
       "tier": 1,
-      "price": 367.13,
-      "change_1d": -0.21,
-      "composite": 59.57690476190477
+      "price": 369.99,
+      "change_1d": 0.78,
+      "composite": 61.99952380952382
     },
     {
       "ticker": "NEE",
@@ -669,9 +851,9 @@
       "ai_role": "可再生能源龙头 + 大型科技公司长期 PPA",
       "sector": "power_grid_nuclear",
       "tier": 2,
-      "price": 94.59,
-      "change_1d": -0.26,
-      "composite": 65.44214285714285
+      "price": 94.85,
+      "change_1d": 0.27,
+      "composite": 64.54571428571428
     },
     {
       "ticker": "SO",
@@ -679,9 +861,9 @@
       "ai_role": "Vogtle 核电 + 受监管公用事业稳健底仓",
       "sector": "power_grid_nuclear",
       "tier": 2,
-      "price": 93.47,
-      "change_1d": 0.4,
-      "composite": 63.16357142857144
+      "price": 93.14,
+      "change_1d": -0.35,
+      "composite": 66.35285714285715
     },
     {
       "ticker": "DUK",
@@ -689,9 +871,9 @@
       "ai_role": "卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷",
       "sector": "power_grid_nuclear",
       "tier": 2,
-      "price": 125.07,
-      "change_1d": 0.14,
-      "composite": 60.85166666666667
+      "price": 123.9,
+      "change_1d": -0.94,
+      "composite": 66.42666666666666
     },
     {
       "ticker": "BE",
@@ -699,9 +881,9 @@
       "ai_role": "SOFC 燃料电池 — behind-the-meter 数据中心分布式电力",
       "sector": "power_grid_nuclear",
       "tier": 2,
-      "price": 280.69,
-      "change_1d": -1.14,
-      "composite": 36.73404761904762
+      "price": 289.76,
+      "change_1d": 3.23,
+      "composite": 38.09476190476191
     },
     {
       "ticker": "PWR",
@@ -709,9 +891,9 @@
       "ai_role": "电网 EPC 工程龙头，AI 电力扩张铲子",
       "sector": "power_grid_nuclear",
       "tier": 2,
-      "price": 765.81,
-      "change_1d": -1.99,
-      "composite": 44.89833333333333
+      "price": 773.72,
+      "change_1d": 1.03,
+      "composite": 48.47571428571428
     },
     {
       "ticker": "MOD",
@@ -719,9 +901,9 @@
       "ai_role": "数据中心液冷 + 热管理，规模较小但高弹性",
       "sector": "power_grid_nuclear",
       "tier": 2,
-      "price": 276.27,
-      "change_1d": -3.0,
-      "composite": 51.615
+      "price": 279.2,
+      "change_1d": 1.06,
+      "composite": 43.21380952380953
     },
     {
       "ticker": "NVT",
@@ -729,9 +911,9 @@
       "ai_role": "电气连接 + 配电柜，数据中心电气化",
       "sector": "power_grid_nuclear",
       "tier": 2,
-      "price": 170.74,
-      "change_1d": -1.53,
-      "composite": 50.115
+      "price": 172.91,
+      "change_1d": 1.27,
+      "composite": 56.14
     },
     {
       "ticker": "POWL",
@@ -739,9 +921,9 @@
       "ai_role": "开关设备 + 中压电气，电网设备小盘股",
       "sector": "power_grid_nuclear",
       "tier": 2,
-      "price": 308.05,
-      "change_1d": -4.35,
-      "composite": 51.56261904761905
+      "price": 300.84,
+      "change_1d": -2.34,
+      "composite": 56.99476190476191
     },
     {
       "ticker": "HUBB",
@@ -749,9 +931,9 @@
       "ai_role": "电气配电 + 工业连接，数据中心电气整合",
       "sector": "power_grid_nuclear",
       "tier": 2,
-      "price": 485.98,
-      "change_1d": -0.85,
-      "composite": 52.303095238095246
+      "price": 483.79,
+      "change_1d": -0.45,
+      "composite": 60.96380952380953
     },
     {
       "ticker": "TT",
@@ -759,9 +941,9 @@
       "ai_role": "HVAC + 数据中心制冷，规模大但 AI 弹性低",
       "sector": "power_grid_nuclear",
       "tier": 3,
-      "price": 467.66,
-      "change_1d": -1.86,
-      "composite": 53.415000000000006
+      "price": 471.02,
+      "change_1d": 0.72,
+      "composite": 53.744761904761916
     },
     {
       "ticker": "CARR",
@@ -769,9 +951,9 @@
       "ai_role": "HVAC + 制冷，AI 数据中心间接受益",
       "sector": "power_grid_nuclear",
       "tier": 3,
-      "price": 65.56,
-      "change_1d": -0.49,
-      "composite": 41.11119047619047
+      "price": 65.57,
+      "change_1d": 0.02,
+      "composite": 43.424285714285716
     },
     {
       "ticker": "JCI",
@@ -779,9 +961,9 @@
       "ai_role": "楼宇自控 + 数据中心制冷集成",
       "sector": "power_grid_nuclear",
       "tier": 3,
-      "price": 141.04,
-      "change_1d": -0.52,
-      "composite": 56.42309523809524
+      "price": 143.8,
+      "change_1d": 1.96,
+      "composite": 55.764761904761905
     },
     {
       "ticker": "UEC",
@@ -789,9 +971,9 @@
       "ai_role": "铀矿 — 核电燃料上游，AI 电力主题受益",
       "sector": "power_grid_nuclear",
       "tier": 3,
-      "price": 15.5,
-      "change_1d": -5.89,
-      "composite": 43.80166666666667
+      "price": 15.37,
+      "change_1d": -0.84,
+      "composite": 33.719523809523814
     },
     {
       "ticker": "CCJ",
@@ -799,9 +981,9 @@
       "ai_role": "全球最大铀生产商 + 核燃料服务",
       "sector": "power_grid_nuclear",
       "tier": 3,
-      "price": 116.93,
-      "change_1d": -2.67,
-      "composite": 50.80071428571429
+      "price": 115.39,
+      "change_1d": -1.32,
+      "composite": 48.55666666666667
     },
     {
       "ticker": "OKLO",
@@ -809,9 +991,9 @@
       "ai_role": "小型模块化反应堆（SMR）— AI 长期电力解决方案",
       "sector": "power_grid_nuclear",
       "tier": 3,
-      "price": 73.63,
-      "change_1d": -5.76,
-      "composite": 47.40309523809524
+      "price": 69.66,
+      "change_1d": -5.39,
+      "composite": 43.19238095238095
     },
     {
       "ticker": "SMR",
@@ -819,9 +1001,9 @@
       "ai_role": "SMR 核电 — DOE 认证领先，长期主题",
       "sector": "power_grid_nuclear",
       "tier": 3,
-      "price": 12.0,
-      "change_1d": -9.71,
-      "composite": 44.38880952380952
+      "price": 11.96,
+      "change_1d": -0.33,
+      "composite": 31.518571428571427
     },
     {
       "ticker": "NVDA",
@@ -829,9 +1011,9 @@
       "ai_role": "AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断",
       "sector": "compute_gpu_asic",
       "tier": 1,
-      "price": 220.78,
-      "change_1d": 0.61,
-      "composite": 87.94736842105264
+      "price": 225.83,
+      "change_1d": 2.29,
+      "composite": 86.26315789473685
     },
     {
       "ticker": "AMD",
@@ -839,9 +1021,9 @@
       "ai_role": "MI300/MI355X 数据中心 GPU 第二极，CPU x86 站稳",
       "sector": "compute_gpu_asic",
       "tier": 1,
-      "price": 448.29,
-      "change_1d": -2.29,
-      "composite": 43.1578947368421
+      "price": 445.5,
+      "change_1d": -0.62,
+      "composite": 42.31578947368421
     },
     {
       "ticker": "AVGO",
@@ -849,9 +1031,9 @@
       "ai_role": "Hyperscaler 定制 ASIC（Google TPU / Meta MTIA）+ AI 网络",
       "sector": "compute_gpu_asic",
       "tier": 1,
-      "price": 419.3,
-      "change_1d": -2.13,
-      "composite": 72.21052631578947
+      "price": 416.79,
+      "change_1d": -0.6,
+      "composite": 70.52631578947368
     },
     {
       "ticker": "MRVL",
@@ -859,9 +1041,9 @@
       "ai_role": "定制 AI ASIC + 高速光网络（800G/1.6T DSP）",
       "sector": "compute_gpu_asic",
       "tier": 2,
-      "price": 164.5,
-      "change_1d": -3.71,
-      "composite": 54.0
+      "price": 177.95,
+      "change_1d": 8.18,
+      "composite": 57.368421052631575
     },
     {
       "ticker": "ARM",
@@ -869,9 +1051,9 @@
       "ai_role": "IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座",
       "sector": "compute_gpu_asic",
       "tier": 2,
-      "price": 207.92,
-      "change_1d": -2.22,
-      "composite": 50.42105263157895
+      "price": 221.21,
+      "change_1d": 6.39,
+      "composite": 51.26315789473684
     },
     {
       "ticker": "INTC",
@@ -879,8 +1061,8 @@
       "ai_role": "Gaudi AI 加速器 + 自有 fab（18A 工艺），转型中",
       "sector": "compute_gpu_asic",
       "tier": 3,
-      "price": 120.61,
-      "change_1d": -6.82,
+      "price": 120.29,
+      "change_1d": -0.27,
       "composite": 23.36842105263158
     },
     {
@@ -889,9 +1071,9 @@
       "ai_role": "HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股",
       "sector": "memory_storage",
       "tier": 1,
-      "price": 766.58,
-      "change_1d": -3.61,
-      "composite": 69.05263157894736
+      "price": 803.63,
+      "change_1d": 4.83,
+      "composite": 71.1578947368421
     },
     {
       "ticker": "WDC",
@@ -899,8 +1081,8 @@
       "ai_role": "企业级 NAND/HDD — AI 训练数据存储受益",
       "sector": "memory_storage",
       "tier": 3,
-      "price": 488.74,
-      "change_1d": -5.25,
+      "price": 494.09,
+      "change_1d": 1.09,
       "composite": 56.94736842105263
     },
     {
@@ -909,9 +1091,9 @@
       "ai_role": "近线大容量 HDD — 数据中心存储扩张直接受益",
       "sector": "memory_storage",
       "tier": 3,
-      "price": 808.8,
-      "change_1d": -3.02,
-      "composite": 33.26315789473684
+      "price": 817.35,
+      "change_1d": 1.06,
+      "composite": 31.157894736842106
     },
     {
       "ticker": "TSM",
@@ -919,9 +1101,9 @@
       "ai_role": "全球代工龙头 — N3/N2 + CoWoS 几乎独家供 NVIDIA/AMD/AAPL",
       "sector": "foundry_packaging",
       "tier": 1,
-      "price": 397.28,
-      "change_1d": -1.79,
-      "composite": 87.89473684210525
+      "price": 399.8,
+      "change_1d": 0.63,
+      "composite": 85.7894736842105
     },
     {
       "ticker": "ASX",
@@ -929,9 +1111,9 @@
       "ai_role": "全球封测第一 — 先进封装多核心客户",
       "sector": "foundry_packaging",
       "tier": 2,
-      "price": 34.28,
-      "change_1d": -2.89,
-      "composite": 58.0
+      "price": 35.47,
+      "change_1d": 3.47,
+      "composite": 60.10526315789473
     },
     {
       "ticker": "AMKR",
@@ -939,8 +1121,8 @@
       "ai_role": "美国本土先进封装代表 — Chips Act 受益",
       "sector": "foundry_packaging",
       "tier": 3,
-      "price": 73.45,
-      "change_1d": -4.22,
+      "price": 74.61,
+      "change_1d": 1.58,
       "composite": 20.73684210526316
     },
     {
@@ -949,9 +1131,9 @@
       "ai_role": "EUV 光刻独家垄断 — N3/N2/A14 必经",
       "sector": "semiconductor_equipment",
       "tier": 1,
-      "price": 1520.94,
-      "change_1d": -2.87,
-      "composite": 58.526315789473685
+      "price": 1581.58,
+      "change_1d": 3.99,
+      "composite": 62.73684210526316
     },
     {
       "ticker": "AMAT",
@@ -959,9 +1141,9 @@
       "ai_role": "沉积 / CMP / 离子注入全栈 — AI 产能扩张直接受益",
       "sector": "semiconductor_equipment",
       "tier": 1,
-      "price": 431.2,
-      "change_1d": -2.8,
-      "composite": 45.192982456140356
+      "price": 436.61,
+      "change_1d": 1.25,
+      "composite": 43.789473684210535
     },
     {
       "ticker": "LRCX",
@@ -969,9 +1151,9 @@
       "ai_role": "刻蚀 / 沉积 — HBM 制造关键设备供应商",
       "sector": "semiconductor_equipment",
       "tier": 1,
-      "price": 289.24,
-      "change_1d": -2.3,
-      "composite": 55.1578947368421
+      "price": 295.44,
+      "change_1d": 2.14,
+      "composite": 53.75438596491228
     },
     {
       "ticker": "KLAC",
@@ -979,9 +1161,9 @@
       "ai_role": "量测 / 缺陷检测垄断 — 先进制程良率把关",
       "sector": "semiconductor_equipment",
       "tier": 2,
-      "price": 1811.35,
-      "change_1d": -1.83,
-      "composite": 74.7017543859649
+      "price": 1849.71,
+      "change_1d": 2.12,
+      "composite": 73.29824561403507
     },
     {
       "ticker": "CDNS",
@@ -989,8 +1171,8 @@
       "ai_role": "EDA 三巨头 — 数字仿真 + AI 芯片设计 IP",
       "sector": "eda_design",
       "tier": 1,
-      "price": 358.04,
-      "change_1d": -1.69,
+      "price": 354.55,
+      "change_1d": -0.97,
       "composite": 67.68421052631578
     },
     {
@@ -999,8 +1181,8 @@
       "ai_role": "EDA 龙头 + Ansys 合并增强多物理仿真",
       "sector": "eda_design",
       "tier": 1,
-      "price": 513.21,
-      "change_1d": -0.58,
+      "price": 509.28,
+      "change_1d": -0.77,
       "composite": 49.26315789473684
     },
     {
@@ -1009,9 +1191,9 @@
       "ai_role": "数据中心 100G/400G/800G 交换机 — Meta/Microsoft 大客户",
       "sector": "networking_optical",
       "tier": 1,
-      "price": 142.54,
-      "change_1d": 4.48,
-      "composite": 85.89473684210525
+      "price": 140.69,
+      "change_1d": -1.3,
+      "composite": 84.49122807017544
     },
     {
       "ticker": "CIEN",
@@ -1019,9 +1201,9 @@
       "ai_role": "数据中心互联 (DCI) + 光网络系统",
       "sector": "networking_optical",
       "tier": 2,
-      "price": 577.15,
-      "change_1d": -0.74,
-      "composite": 37.64912280701754
+      "price": 577.9,
+      "change_1d": 0.13,
+      "composite": 36.24561403508771
     },
     {
       "ticker": "COHR",
@@ -1029,9 +1211,9 @@
       "ai_role": "光器件 / 激光 — 数据中心收发器核心元件",
       "sector": "networking_optical",
       "tier": 2,
-      "price": 374.01,
-      "change_1d": -1.5,
-      "composite": 42.35087719298246
+      "price": 403.71,
+      "change_1d": 7.94,
+      "composite": 45.15789473684211
     },
     {
       "ticker": "LITE",
@@ -1039,8 +1221,8 @@
       "ai_role": "数据中心光通信 + 3D 感测 — Apple/AI 双概念",
       "sector": "networking_optical",
       "tier": 2,
-      "price": 992.37,
-      "change_1d": -5.77,
+      "price": 1030.37,
+      "change_1d": 3.83,
       "composite": 52.94736842105263
     },
     {
@@ -1049,9 +1231,9 @@
       "ai_role": "全球数据中心 REIT 龙头 — Hyperscaler 自建之外的最大第三方",
       "sector": "data_center_infra",
       "tier": 1,
-      "price": 195.27,
-      "change_1d": -0.49,
-      "composite": 45.89473684210526
+      "price": 193.31,
+      "change_1d": -1.0,
+      "composite": 43.78947368421053
     },
     {
       "ticker": "EQIX",
@@ -1059,8 +1241,8 @@
       "ai_role": "互联型数据中心 REIT — 全球互联枢纽",
       "sector": "data_center_infra",
       "tier": 1,
-      "price": 1080.63,
-      "change_1d": -0.51,
+      "price": 1077.28,
+      "change_1d": -0.31,
       "composite": 49.31578947368422
     },
     {
@@ -1069,8 +1251,8 @@
       "ai_role": "数据中心扩张 + 文档存储 — 老业务转型 AI 数据中心 REIT",
       "sector": "data_center_infra",
       "tier": 2,
-      "price": 126.21,
-      "change_1d": -2.89,
+      "price": 126.12,
+      "change_1d": -0.07,
       "composite": 57.833333333333314
     },
     {
@@ -1089,9 +1271,9 @@
       "ai_role": "企业存储 + 云数据管理 — AI 数据流转",
       "sector": "data_center_infra",
       "tier": 3,
-      "price": 116.23,
-      "change_1d": -1.27,
-      "composite": 76.21052631578948
+      "price": 118.58,
+      "change_1d": 2.02,
+      "composite": 78.3157894736842
     },
     {
       "ticker": "MSFT",
@@ -1099,8 +1281,8 @@
       "ai_role": "Azure + OpenAI 战略股东 — 企业 AI 软件商业化最深",
       "sector": "cloud_hyperscaler",
       "tier": 1,
-      "price": 407.77,
-      "change_1d": -1.18,
+      "price": 405.21,
+      "change_1d": -0.63,
       "composite": 71.55263157894736
     },
     {
@@ -1109,9 +1291,9 @@
       "ai_role": "Google Cloud + 自研 TPU + Gemini — 全栈 AI 玩家",
       "sector": "cloud_hyperscaler",
       "tier": 1,
-      "price": 387.35,
-      "change_1d": -0.33,
-      "composite": 55.10526315789474
+      "price": 402.62,
+      "change_1d": 3.94,
+      "composite": 54.05263157894738
     },
     {
       "ticker": "AMZN",
@@ -1119,9 +1301,9 @@
       "ai_role": "AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片",
       "sector": "cloud_hyperscaler",
       "tier": 1,
-      "price": 265.82,
-      "change_1d": -1.18,
-      "composite": 35.89473684210526
+      "price": 270.13,
+      "change_1d": 1.62,
+      "composite": 38.0
     },
     {
       "ticker": "META",
@@ -1129,9 +1311,9 @@
       "ai_role": "Llama 开源 + 自研 MTIA + 最大 AI capex 之一（自用）",
       "sector": "cloud_hyperscaler",
       "tier": 1,
-      "price": 603.0,
-      "change_1d": 0.69,
-      "composite": 70.49999999999999
+      "price": 616.63,
+      "change_1d": 2.26,
+      "composite": 69.44736842105262
     },
     {
       "ticker": "ORCL",
@@ -1139,8 +1321,8 @@
       "ai_role": "OCI + AI 数据中心 GPU 租赁 — Stargate / OpenAI 长约",
       "sector": "cloud_hyperscaler",
       "tier": 2,
-      "price": 186.83,
-      "change_1d": -3.62,
+      "price": 189.76,
+      "change_1d": 1.57,
       "composite": 50.94736842105262
     },
     {
@@ -1149,8 +1331,8 @@
       "ai_role": "GPU 云第一 — 2025 IPO，Microsoft/NVIDIA 战略合作",
       "sector": "ai_cloud_gpu",
       "tier": 1,
-      "price": 107.75,
-      "change_1d": -6.06,
+      "price": 111.31,
+      "change_1d": 3.3,
       "composite": 57.631578947368425
     },
     {
@@ -1159,9 +1341,9 @@
       "ai_role": "GPU 云欧洲玩家 — 原 Yandex 拆分",
       "sector": "ai_cloud_gpu",
       "tier": 2,
-      "price": 179.11,
-      "change_1d": -3.76,
-      "composite": 53.228070175438596
+      "price": 207.27,
+      "change_1d": 15.72,
+      "composite": 56.03508771929824
     },
     {
       "ticker": "IREN",
@@ -1169,9 +1351,9 @@
       "ai_role": "矿场转型 GPU 云 — 比特币 + AI 双业务",
       "sector": "ai_cloud_gpu",
       "tier": 3,
-      "price": 56.56,
-      "change_1d": 2.56,
-      "composite": 46.73684210526316
+      "price": 55.17,
+      "change_1d": -2.46,
+      "composite": 43.92982456140351
     },
     {
       "ticker": "APLD",
@@ -1179,8 +1361,8 @@
       "ai_role": "数据中心 + AI 云 — CoreWeave/Anthropic 合作",
       "sector": "ai_cloud_gpu",
       "tier": 3,
-      "price": 43.93,
-      "change_1d": -1.48,
+      "price": 45.48,
+      "change_1d": 3.53,
       "composite": 34.4561403508772
     },
     {
@@ -1189,9 +1371,9 @@
       "ai_role": "云原生数据仓库 + Cortex AI / Snowpark 数据平台",
       "sector": "data_software_platform",
       "tier": 1,
-      "price": 151.98,
-      "change_1d": 0.32,
-      "composite": 33.01754385964912
+      "price": 152.37,
+      "change_1d": 0.26,
+      "composite": 30.912280701754387
     },
     {
       "ticker": "DDOG",
@@ -1199,9 +1381,9 @@
       "ai_role": "可观测性平台 — AI 工作负载监控扩张",
       "sector": "data_software_platform",
       "tier": 2,
-      "price": 199.94,
-      "change_1d": -1.18,
-      "composite": 63.26315789473684
+      "price": 205.31,
+      "change_1d": 2.69,
+      "composite": 65.36842105263158
     },
     {
       "ticker": "MDB",
@@ -1209,8 +1391,8 @@
       "ai_role": "通用数据库 + Atlas Vector Search 切入 RAG",
       "sector": "data_software_platform",
       "tier": 2,
-      "price": 308.72,
-      "change_1d": 4.78,
+      "price": 303.0,
+      "change_1d": -1.85,
       "composite": 64.14035087719297
     },
     {
@@ -1229,9 +1411,9 @@
       "ai_role": "AIP 企业 AI 平台 — 政府 + 大型企业用 AI 决策",
       "sector": "ai_application",
       "tier": 1,
-      "price": 136.0,
-      "change_1d": -0.65,
-      "composite": 63.26315789473684
+      "price": 130.05,
+      "change_1d": -4.37,
+      "composite": 61.1578947368421
     },
     {
       "ticker": "CRM",
@@ -1239,8 +1421,8 @@
       "ai_role": "Agentforce — 企业 SaaS + Agent 工作流",
       "sector": "ai_application",
       "tier": 1,
-      "price": 171.31,
-      "change_1d": -3.48,
+      "price": 165.84,
+      "change_1d": -3.19,
       "composite": 51.55263157894736
     },
     {
@@ -1249,9 +1431,9 @@
       "ai_role": "Now Assist — 工单/HR/IT 工作流 AI 化",
       "sector": "ai_application",
       "tier": 1,
-      "price": 89.0,
-      "change_1d": -2.72,
-      "composite": 45.23684210526316
+      "price": 87.05,
+      "change_1d": -2.19,
+      "composite": 46.28947368421053
     },
     {
       "ticker": "ADBE",
@@ -1259,9 +1441,9 @@
       "ai_role": "Firefly 创意 AI + Acrobat AI Assistant",
       "sector": "ai_application",
       "tier": 2,
-      "price": 240.83,
-      "change_1d": -2.16,
-      "composite": 73.52631578947367
+      "price": 236.07,
+      "change_1d": -1.98,
+      "composite": 74.57894736842104
     },
     {
       "ticker": "AI",
@@ -1269,8 +1451,8 @@
       "ai_role": "企业 AI 应用 (能源/制造/政府)",
       "sector": "ai_application",
       "tier": 3,
-      "price": 8.79,
-      "change_1d": -7.28,
+      "price": 8.65,
+      "change_1d": -1.59,
       "composite": 34.84210526315789
     },
     {
@@ -1279,8 +1461,8 @@
       "ai_role": "Falcon AI 驱动端点安全 — 行业标杆",
       "sector": "cybersecurity",
       "tier": 1,
-      "price": 546.18,
-      "change_1d": 0.72,
+      "price": 562.57,
+      "change_1d": 3.0,
       "composite": 58.28947368421052
     },
     {
@@ -1289,8 +1471,8 @@
       "ai_role": "平台化整合 — Prisma SASE + Cortex AI XDR",
       "sector": "cybersecurity",
       "tier": 2,
-      "price": 215.6,
-      "change_1d": 0.91,
+      "price": 227.79,
+      "change_1d": 5.65,
       "composite": 62.60526315789473
     },
     {
@@ -1299,8 +1481,8 @@
       "ai_role": "零信任 SASE 代表 — AI 加速威胁检测",
       "sector": "cybersecurity",
       "tier": 2,
-      "price": 146.17,
-      "change_1d": -1.81,
+      "price": 152.43,
+      "change_1d": 4.28,
       "composite": 69.23684210526315
     },
     {
@@ -1309,8 +1491,8 @@
       "ai_role": "边缘网络 + Workers AI 推理 — 边缘 AI 平台",
       "sector": "cybersecurity",
       "tier": 2,
-      "price": 186.79,
-      "change_1d": -3.48,
+      "price": 192.62,
+      "change_1d": 3.12,
       "composite": 38.71052631578947
     },
     {
@@ -1319,8 +1501,8 @@
       "ai_role": "Singularity AI 自治安全 — 端点替代赛道",
       "sector": "cybersecurity",
       "tier": 3,
-      "price": 15.74,
-      "change_1d": -3.61,
+      "price": 16.08,
+      "change_1d": 2.16,
       "composite": 37.52631578947368
     },
     {
@@ -1329,9 +1511,9 @@
       "ai_role": "工业自动化 + 数字孪生 — 美国本土自动化龙头",
       "sector": "industrial_automation",
       "tier": 2,
-      "price": 455.08,
-      "change_1d": -0.35,
-      "composite": 56.3859649122807
+      "price": 454.99,
+      "change_1d": -0.02,
+      "composite": 57.78947368421053
     },
     {
       "ticker": "EMR",
@@ -1339,9 +1521,9 @@
       "ai_role": "过程自动化 + 工业软件 — Aspen Tech 合并增强 AI 化",
       "sector": "industrial_automation",
       "tier": 2,
-      "price": 137.28,
-      "change_1d": -1.54,
-      "composite": 65.71929824561404
+      "price": 137.76,
+      "change_1d": 0.35,
+      "composite": 67.12280701754386
     },
     {
       "ticker": "HON",
@@ -1349,9 +1531,9 @@
       "ai_role": "工业自动化 + 楼宇 + 航空 — 多元化工业巨头",
       "sector": "industrial_automation",
       "tier": 2,
-      "price": 218.54,
-      "change_1d": -0.26,
-      "composite": 60.070175438596486
+      "price": 217.96,
+      "change_1d": -0.27,
+      "composite": 58.66666666666666
     },
     {
       "ticker": "SYM",
@@ -1359,9 +1541,9 @@
       "ai_role": "AI 仓储机器人 — Walmart 大单核心客户",
       "sector": "industrial_automation",
       "tier": 3,
-      "price": 51.32,
-      "change_1d": -0.75,
-      "composite": 32.35087719298245
+      "price": 49.73,
+      "change_1d": -3.1,
+      "composite": 30.947368421052627
     },
     {
       "ticker": "TSLA",
@@ -1369,8 +1551,8 @@
       "ai_role": "FSD + Robotaxi + Optimus — 端到端 AI 物理化",
       "sector": "autonomous_mobility",
       "tier": 1,
-      "price": 433.45,
-      "change_1d": -2.6,
+      "price": 445.27,
+      "change_1d": 2.73,
       "composite": 56.47368421052631
     },
     {
@@ -1379,9 +1561,9 @@
       "ai_role": "ADAS / 自动驾驶视觉芯片 — Intel 系",
       "sector": "autonomous_mobility",
       "tier": 2,
-      "price": 9.23,
-      "change_1d": -0.11,
-      "composite": 64.05263157894737
+      "price": 10.53,
+      "change_1d": 14.08,
+      "composite": 61.94736842105263
     },
     {
       "ticker": "AUR",
@@ -1389,8 +1571,8 @@
       "ai_role": "L4 自动驾驶卡车 — Uber/Volvo 合作",
       "sector": "autonomous_mobility",
       "tier": 3,
-      "price": 7.22,
-      "change_1d": -0.55,
+      "price": 8.4,
+      "change_1d": 16.34,
       "composite": 34.17647058823529
     },
     {
@@ -1399,8 +1581,8 @@
       "ai_role": "达芬奇手术机器人 — 全球垄断 + AI 辅助手术演进",
       "sector": "healthcare_ai",
       "tier": 1,
-      "price": 431.87,
-      "change_1d": 2.81,
+      "price": 432.27,
+      "change_1d": 0.09,
       "composite": 59.31578947368421
     },
     {
@@ -1409,8 +1591,8 @@
       "ai_role": "肿瘤 AI 数据平台 — 多模态临床+基因数据",
       "sector": "healthcare_ai",
       "tier": 2,
-      "price": 46.95,
-      "change_1d": -3.12,
+      "price": 45.9,
+      "change_1d": -2.24,
       "composite": 44.63157894736842
     },
     {
@@ -1419,8 +1601,8 @@
       "ai_role": "生命科学 SaaS — 临床试验 / 药企 CRM 标准",
       "sector": "healthcare_ai",
       "tier": 2,
-      "price": 159.42,
-      "change_1d": 0.06,
+      "price": 155.73,
+      "change_1d": -2.31,
       "composite": 64.36842105263158
     },
     {
@@ -1429,9 +1611,9 @@
       "ai_role": "评级 + 数据 + 指数 — AI 推动金融研究自动化",
       "sector": "financial_research_data",
       "tier": 1,
-      "price": 424.17,
-      "change_1d": 0.75,
-      "composite": 52.421052631578945
+      "price": 406.55,
+      "change_1d": -4.15,
+      "composite": 48.21052631578947
     },
     {
       "ticker": "MSCI",
@@ -1439,9 +1621,9 @@
       "ai_role": "指数 + ESG + 风险分析 — 数据壁垒高",
       "sector": "financial_research_data",
       "tier": 2,
-      "price": 581.09,
-      "change_1d": -0.61,
-      "composite": 47.666666666666664
+      "price": 570.91,
+      "change_1d": -1.75,
+      "composite": 50.99999999999999
     },
     {
       "ticker": "MCO",
@@ -1449,9 +1631,9 @@
       "ai_role": "评级 + Analytics — 长期数据服务",
       "sector": "financial_research_data",
       "tier": 2,
-      "price": 451.75,
-      "change_1d": 0.75,
-      "composite": 60.368421052631575
+      "price": 438.32,
+      "change_1d": -2.97,
+      "composite": 62.473684210526315
     },
     {
       "ticker": "AAPL",
@@ -1459,8 +1641,8 @@
       "ai_role": "Apple Intelligence + Neural Engine — 端侧 AI 入口",
       "sector": "consumer_ai_device",
       "tier": 1,
-      "price": 294.8,
-      "change_1d": 0.72,
+      "price": 298.87,
+      "change_1d": 1.38,
       "composite": 58.789473684210535
     },
     {
@@ -1469,8 +1651,8 @@
       "ai_role": "AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴",
       "sector": "consumer_ai_device",
       "tier": 2,
-      "price": 238.94,
-      "change_1d": -3.28,
+      "price": 243.87,
+      "change_1d": 2.06,
       "composite": 65.16666666666666
     },
     {
@@ -1479,8 +1661,8 @@
       "ai_role": "离子阱量子计算 — 上市量子第一股",
       "sector": "quantum_frontier",
       "tier": 2,
-      "price": 55.87,
-      "change_1d": -1.79,
+      "price": 55.26,
+      "change_1d": -1.09,
       "composite": 63.47368421052631
     },
     {
@@ -1489,9 +1671,9 @@
       "ai_role": "超导量子计算 — 通用门量子设计",
       "sector": "quantum_frontier",
       "tier": 3,
-      "price": 19.07,
-      "change_1d": -7.02,
-      "composite": 38.36842105263158
+      "price": 18.42,
+      "change_1d": -3.43,
+      "composite": 40.473684210526315
     },
     {
       "ticker": "QBTS",
@@ -1499,9 +1681,9 @@
       "ai_role": "量子退火 — 优化问题特化路线",
       "sector": "quantum_frontier",
       "tier": 3,
-      "price": 22.35,
-      "change_1d": -6.99,
-      "composite": 39.63157894736842
+      "price": 21.44,
+      "change_1d": -4.07,
+      "composite": 37.52631578947368
     },
     {
       "ticker": "MP",
@@ -1509,9 +1691,9 @@
       "ai_role": "美国本土稀土矿 — 永磁电机 + 国防供应链",
       "sector": "critical_minerals",
       "tier": 2,
-      "price": 65.59,
-      "change_1d": -2.7,
-      "composite": 46.47368421052631
+      "price": 63.73,
+      "change_1d": -2.84,
+      "composite": 44.368421052631575
     },
     {
       "ticker": "ALB",
@@ -1519,8 +1701,8 @@
       "ai_role": "锂矿龙头 — 电池关键原料",
       "sector": "critical_minerals",
       "tier": 2,
-      "price": 205.52,
-      "change_1d": -2.13,
+      "price": 200.94,
+      "change_1d": -2.23,
       "composite": 58.89473684210525
     },
     {
@@ -1529,8 +1711,8 @@
       "ai_role": "锂矿开发 — Thacker Pass 美国本土项目",
       "sector": "critical_minerals",
       "tier": 3,
-      "price": 5.57,
-      "change_1d": -3.8,
+      "price": 5.48,
+      "change_1d": -1.62,
       "composite": 41.38461538461537
     }
   ]

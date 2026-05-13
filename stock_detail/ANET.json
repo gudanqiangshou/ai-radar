@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "数据中心 100G/400G/800G 交换机 — Meta/Microsoft 大客户",
-    "price": 142.5399932861328,
-    "change_1d": 4.48,
-    "composite": 85.89473684210525,
+    "price": 140.69000244140625,
+    "change_1d": -1.3,
+    "composite": 84.49122807017544,
     "tier_letter": "A",
     "description": [
       "Arista Networks 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：数据中心 100G/400G/800G 交换机 — Meta/Microsoft 大客户。当前内部综合评分 85。",
+      "AI 角色：数据中心 100G/400G/800G 交换机 — Meta/Microsoft 大客户。当前内部综合评分 84。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
     "status_label": "买入区"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$142.54",
-        "日内涨跌": "+4.48%",
-        "1日涨跌": "+4.48%",
+        "最新价": "$140.69",
+        "日内涨跌": "-1.30%",
+        "1日涨跌": "-1.30%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "+4.48%",
+        "YTD涨跌": "+3.12%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "12,761,500",
-        "量比20日": "0.82",
-        "52周高点": "142.94",
+        "成交量": "13,974,775",
+        "量比20日": "0.93",
+        "52周高点": "147.31",
         "52周低点": "135.13",
-        "距52周高点": "-0.28%",
-        "距52周低点": "+5.48%",
+        "距52周高点": "-4.49%",
+        "距52周低点": "+4.11%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "1.26B",
         "ROE": "31.52%",
         "债务/权益": "0.00",
-        "市值": "$179.48B",
+        "市值": "$177.15B",
         "企业价值": "$167.13B",
-        "P/E TTM": "48.98",
-        "Forward P/E": "32.14",
-        "P/S": "18.48",
+        "P/E TTM": "48.35",
+        "Forward P/E": "31.73",
+        "P/S": "18.24",
         "EV/Sales": "17.21",
         "EV/EBITDA": "39.44",
         "EV/FCF": "38.31",
-        "FCF收益率": "2.43%",
+        "FCF收益率": "2.46%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 80.0,
+          "value": 66.66666666666666,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 85.89473684210525,
+          "value": 84.49122807017544,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
+      "data": {
+        "target_mean": 188.902,
+        "target_high": 220.0,
+        "target_low": 173.0,
+        "upside_pct": 34.27,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 26,
+        "next_earnings": "2026-08-05",
+        "eps_estimate": 0.88335,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ANET/news/",
+          "title": "Arista Networks, Inc. (ANET) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ANET",
+          "title": "ANET: Arista Networks Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ANET.NE/news/",
+          "title": "Arista Networks, Inc. (ANET.NE) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ANET/community/",
+          "title": "Arista Networks, Inc. (ANET) Stock Forum & Discussion",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/ANET.TO/news/",
+          "title": "Arista Networks, Inc. (ANET.TO) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/investors-heavily-search-arista-networks-130006268.html",
+          "title": "Investors Heavily Search Arista Networks, Inc. (ANET)",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/ANET.NE/latest-news/",
+          "title": "Arista Networks, Inc. (ANET.NE) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ANET",
+          "title": "Arista Networks, Inc. (ANET) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/news/cisco-joins-ai-data-center-161031588.html",
+          "title": "Cisco Joins AI Data Center Alliance As Stock Trades Above Targets",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Trefis",
+          "url": "https://www.trefis.com/articles/599274/nokia-nok-reset-is-the-infrastructure-giant-still-undervalued-at-13/2026-05-13",
+          "title": "Nokia (NOK) Reset: Is the Infrastructure Giant Still Undervalued At $13?",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 85.89473684210525
+        },
+        {
+          "date": "2026-05-14",
+          "value": 84.49122807017544
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "MI300/MI355X 数据中心 GPU 第二极，CPU x86 站稳",
-    "price": 448.2900085449219,
-    "change_1d": -2.29,
-    "composite": 43.1578947368421,
+    "price": 445.5,
+    "change_1d": -0.62,
+    "composite": 42.31578947368421,
     "tier_letter": "A",
     "description": [
       "AMD 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：MI300/MI355X 数据中心 GPU 第二极，CPU x86 站稳。当前内部综合评分 43。",
+      "AI 角色：MI300/MI355X 数据中心 GPU 第二极，CPU x86 站稳。当前内部综合评分 42。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$448.29",
-        "日内涨跌": "-2.29%",
-        "1日涨跌": "-2.29%",
+        "最新价": "$445.50",
+        "日内涨跌": "-0.62%",
+        "1日涨跌": "-0.62%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "-2.29%",
+        "YTD涨跌": "-2.90%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "38,975,300",
-        "量比20日": "0.92",
+        "成交量": "29,021,704",
+        "量比20日": "0.76",
         "52周高点": "469.22",
         "52周低点": "426.11",
-        "距52周高点": "-4.46%",
-        "距52周低点": "+5.21%",
+        "距52周高点": "-5.06%",
+        "距52周低点": "+4.55%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "1.63B",
         "ROE": "8.06%",
         "债务/权益": "0.01",
-        "市值": "$730.98B",
+        "市值": "$726.43B",
         "企业价值": "$722.51B",
-        "P/E TTM": "149.43",
-        "Forward P/E": "34.73",
-        "P/S": "19.52",
+        "P/E TTM": "148.50",
+        "Forward P/E": "34.51",
+        "P/S": "19.40",
         "EV/Sales": "19.29",
         "EV/EBITDA": "97.24",
         "EV/FCF": "100.72",
-        "FCF收益率": "0.98%",
+        "FCF收益率": "0.99%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 64.0,
+          "value": 56.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 43.1578947368421,
+          "value": 42.31578947368421,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:09",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
+      "data": {
+        "target_mean": 451.58334,
+        "target_high": 625.0,
+        "target_low": 225.0,
+        "upside_pct": 1.37,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 48,
+        "next_earnings": "2026-08-05",
+        "eps_estimate": 1.60552,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/amd",
+          "title": "Advanced Micro Devices Inc. Stock Quote (U.S. - AMD - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/AMD",
+          "title": "AMD: Advanced Micro Devices Inc - Stock Price, Quote and News",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMD/news/",
+          "title": "Advanced Micro Devices, Inc. (AMD) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/AMD",
+          "title": "AMD Advanced Micro Devices, Inc. Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/AMD",
+          "title": "Advanced Micro Devices Inc. (AMD) Stock Price Today - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMD/chart/",
+          "title": "Advanced Micro Devices, Inc. (AMD) Interactive Stock Chart",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/technology/article/amd-stock-soars-on-q1-earnings-beat-better-than-expected-outlook-amid-strong-ai-chip-demand-195252267.html",
+          "title": "AMD stock soars on Q1 earnings beat, better-than-expected outlook ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/AMD.F/news/",
+          "title": "Advanced Micro Devices, Inc. (AMD.F) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/technology/nvidia-stock-chip-peers-resilient-as-trump-visits-china/?src=A00220&yptr=yahoo",
+          "title": "Nvidia Rallies As CEO Jensen Huang Joins Trump's China Trip",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/cerebras-ipo-chip-stocks-eab2b046?siteid=yhoof2&yptr=yahoo",
+          "title": "Cerebras IPO Is Expected to Price Tonight in Major Test for Chip Rally",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 43.1578947368421
+        },
+        {
+          "date": "2026-05-14",
+          "value": 42.31578947368421
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

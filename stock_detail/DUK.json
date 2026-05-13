@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷",
-    "price": 125.06999969482422,
-    "change_1d": 0.14,
-    "composite": 60.85166666666667,
+    "price": 123.9000015258789,
+    "change_1d": -0.94,
+    "composite": 66.42666666666666,
     "tier_letter": "B",
     "description": [
       "Duke Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷。当前内部综合评分 60。",
+      "AI 角色：卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷。当前内部综合评分 66。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$125.07",
-        "日内涨跌": "+0.14%",
-        "1日涨跌": "+0.14%",
-        "5日涨跌": "+0.16%",
-        "1月涨跌": "-5.10%",
-        "3月涨跌": "-0.10%",
-        "6月涨跌": "+1.20%",
-        "1年涨跌": "+7.96%",
-        "YTD涨跌": "+6.50%",
-        "20日均线": "126.89",
-        "50日均线": "129.25",
-        "200日均线": "124.00",
-        "RSI 14": "41.01",
-        "MACD": "-1.10",
-        "20日波动率": "17.13%",
-        "成交量": "3,337,900",
-        "量比20日": "1.09",
+        "最新价": "$123.90",
+        "日内涨跌": "-0.94%",
+        "1日涨跌": "-0.94%",
+        "5日涨跌": "-0.22%",
+        "1月涨跌": "-4.98%",
+        "3月涨跌": "-1.75%",
+        "6月涨跌": "+0.97%",
+        "1年涨跌": "+9.58%",
+        "YTD涨跌": "+5.50%",
+        "20日均线": "126.69",
+        "50日均线": "129.10",
+        "200日均线": "124.03",
+        "RSI 14": "37.57",
+        "MACD": "-1.21",
+        "20日波动率": "16.78%",
+        "成交量": "2,600,591",
+        "量比20日": "0.86",
         "52周高点": "134.49",
         "52周低点": "111.22",
-        "距52周高点": "-7.00%",
-        "距52周低点": "+12.45%",
-        "20日支撑": "123.43",
+        "距52周高点": "-7.87%",
+        "距52周低点": "+11.40%",
+        "20日支撑": "122.88",
         "20日压力": "130.70"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "779.60M",
         "ROE": "9.66%",
         "债务/权益": "0.94",
-        "市值": "$97.50B",
+        "市值": "$96.59B",
         "企业价值": "$189.57B",
-        "P/E TTM": "19.24",
-        "Forward P/E": "17.45",
-        "P/S": "2.98",
+        "P/E TTM": "19.06",
+        "Forward P/E": "17.29",
+        "P/S": "2.95",
         "EV/Sales": "5.79",
         "EV/EBITDA": "11.50",
         "EV/FCF": "-84.38",
-        "FCF收益率": "-2.30%",
+        "FCF收益率": "-2.33%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 52.26190476190476,
+          "value": 70.47619047619047,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 41.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 69.76190476190476,
+          "value": 67.14285714285714,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 65.0,
+          "value": 72.76190476190476,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": 19.642857142857142,
+          "value": 20.476190476190478,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 60.85166666666667,
+          "value": 66.42666666666666,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 19:13:09",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
       "data": {
-        "target_mean": 140.0,
+        "target_mean": 139.66667,
         "target_high": 146.0,
         "target_low": 131.0,
-        "upside_pct": 11.94,
+        "upside_pct": 12.73,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/DUK.P/",
+          "title": "(DUK.P) | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUK-PA/news/",
+          "title": "Duke Energy Corporation (DUK-PA) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-13",
           "source": "reuters.com",
@@ -260,22 +276,6 @@
           "title": "Duke Energy Corporation (DUK-PA) - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/DUK",
-          "title": "Duke Energy Corporation (DUK) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/US/XNYS/DUK",
-          "title": "DUK | Duke Energy Corp. Stock Price & News - WSJ",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 60.85166666666667
+        },
+        {
+          "date": "2026-05-14",
+          "value": 66.42666666666666
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "矿场转型 GPU 云 — 比特币 + AI 双业务",
-    "price": 56.560001373291016,
-    "change_1d": 2.56,
-    "composite": 46.73684210526316,
+    "price": 55.16999816894531,
+    "change_1d": -2.46,
+    "composite": 43.92982456140351,
     "tier_letter": "C",
     "description": [
       "Iris Energy 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：矿场转型 GPU 云 — 比特币 + AI 双业务。当前内部综合评分 46。",
+      "AI 角色：矿场转型 GPU 云 — 比特币 + AI 双业务。当前内部综合评分 43。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:10",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$56.56",
-        "日内涨跌": "+2.56%",
-        "1日涨跌": "+2.56%",
+        "最新价": "$55.17",
+        "日内涨跌": "-2.46%",
+        "1日涨跌": "-2.46%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "+2.56%",
+        "YTD涨跌": "+0.04%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "75,880,700",
-        "量比20日": "0.81",
+        "成交量": "48,806,267",
+        "量比20日": "0.62",
         "52周高点": "61.72",
         "52周低点": "52.36",
-        "距52周高点": "-8.36%",
-        "距52周低点": "+8.02%",
+        "距52周高点": "-10.61%",
+        "距52周低点": "+5.37%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "357.38M",
         "ROE": "7.73%",
         "债务/权益": "0.20",
-        "市值": "$20.21B",
+        "市值": "$19.72B",
         "企业价值": "$21.96B",
-        "P/E TTM": "73.45",
-        "Forward P/E": "-42.05",
-        "P/S": "26.70",
+        "P/E TTM": "71.65",
+        "Forward P/E": "-41.02",
+        "P/S": "26.04",
         "EV/Sales": "29.01",
         "EV/EBITDA": "149.24",
         "EV/FCF": "-9.50",
-        "FCF收益率": "-11.43%",
+        "FCF收益率": "-11.72%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 40.0,
+          "value": 13.333333333333332,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 46.73684210526316,
+          "value": 43.92982456140351,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:10",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
+      "data": {
+        "target_mean": 74.07143,
+        "target_high": 105.0,
+        "target_low": 41.0,
+        "upside_pct": 34.26,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 14,
+        "next_earnings": "2026-05-08",
+        "eps_estimate": -0.46,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/F8P.SG/news/",
+          "title": "Iris Energy Ltd (F8P.SG) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/F8P.DU/news/",
+          "title": "Iris Energy Ltd (F8P.DU) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/IREN/",
+          "title": "IREN Limited (IREN) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/data-center-stock-could-gain-143002473.html",
+          "title": "This Data Center Stock Could Gain Nearly 195% Over the Next 12 ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/look-iris-energy-nasdaqgs-iren-142542657.html",
+          "title": "A Look at Iris Energy (NasdaqGS:IREN) Valuation Following Bold Expansion Into AI Data Centers and GPU Growth",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/F8P.SG/news/",
+          "title": "Iris Energy Ltd (F8P.SG) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/IREN/news?page=4",
+          "title": "IREN Limited (IREN) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/IREN",
+          "title": "IREN Ltd - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/news/iren-limited-iren-good-stock-160252509.html",
+          "title": "Is IREN Limited (IREN) A Good Stock To Buy Now?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/news/iren-trades-premium-valuation-buy-144400416.html",
+          "title": "IREN Trades at Premium Valuation: Buy, Sell or Hold the Stock?",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 46.73684210526316
+        },
+        {
+          "date": "2026-05-14",
+          "value": 43.92982456140351
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

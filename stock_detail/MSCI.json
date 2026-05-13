@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "指数 + ESG + 风险分析 — 数据壁垒高",
-    "price": 581.0900268554688,
-    "change_1d": -0.61,
-    "composite": 47.666666666666664,
+    "price": 570.9099731445312,
+    "change_1d": -1.75,
+    "composite": 50.99999999999999,
     "tier_letter": "B",
     "description": [
       "MSCI Inc 的 AI 产业链位置为 Financial / Research Data。",
-      "AI 角色：指数 + ESG + 风险分析 — 数据壁垒高。当前内部综合评分 47。",
+      "AI 角色：指数 + ESG + 风险分析 — 数据壁垒高。当前内部综合评分 50。",
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$581.09",
-        "日内涨跌": "-0.61%",
-        "1日涨跌": "-0.61%",
+        "最新价": "$570.91",
+        "日内涨跌": "-1.75%",
+        "1日涨跌": "-1.75%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "-0.61%",
+        "YTD涨跌": "-2.35%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "850,700",
-        "量比20日": "1.12",
+        "成交量": "581,977",
+        "量比20日": "0.83",
         "52周高点": "589.88",
-        "52周低点": "576.11",
-        "距52周高点": "-1.49%",
-        "距52周低点": "+0.86%",
+        "52周低点": "554.51",
+        "距52周高点": "-3.22%",
+        "距52周低点": "+2.96%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "72.73M",
         "ROE": "—",
         "债务/权益": "0.16",
-        "市值": "$42.26B",
+        "市值": "$41.52B",
         "企业价值": "$48.49B",
-        "P/E TTM": "33.22",
-        "Forward P/E": "25.87",
-        "P/S": "13.05",
+        "P/E TTM": "32.64",
+        "Forward P/E": "25.42",
+        "P/S": "12.82",
         "EV/Sales": "14.97",
         "EV/EBITDA": "25.54",
         "EV/FCF": "40.21",
-        "FCF收益率": "2.85%",
+        "FCF收益率": "2.90%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 60.0,
+          "value": 80.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 47.666666666666664,
+          "value": 50.99999999999999,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
+      "data": {
+        "target_mean": 685.4375,
+        "target_high": 730.0,
+        "target_low": 550.0,
+        "upside_pct": 20.06,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 16,
+        "next_earnings": "2026-07-21",
+        "eps_estimate": 4.84594,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,80 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/MSCI",
+          "title": "MSCI: MSCI Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MSCI/news/",
+          "title": "MSCI Inc. (MSCI) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/0A8Y.L/news/",
+          "title": "MSCI Inc. (0A8Y.L) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MSCI",
+          "title": "MSCI Inc. (MSCI) Stock Price, Quote, News & Analysis | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/3HM.F/news/",
+          "title": "MSCI Inc. (3HM.F) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MSCI/",
+          "title": "MSCI Inc. (MSCI) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/MSCI.MX/news/",
+          "title": "MSCI Inc. (MSCI.MX) latest stock news and headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MSCI/dividends/",
+          "title": "MSCI Inc. (MSCI) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/msci-inc-nyse-msci-looks-120142110.html",
+          "title": "MSCI Inc. (NYSE:MSCI) Looks Like A Good Stock, And It's Going Ex-Dividend Soon",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +283,13 @@
         {
           "date": "2026-05-13",
           "value": 47.666666666666664
+        },
+        {
+          "date": "2026-05-14",
+          "value": 50.99999999999999
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }

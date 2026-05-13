@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "过程自动化 + 工业软件 — Aspen Tech 合并增强 AI 化",
-    "price": 137.27999877929688,
-    "change_1d": -1.54,
-    "composite": 65.71929824561404,
+    "price": 137.75999450683594,
+    "change_1d": 0.35,
+    "composite": 67.12280701754386,
     "tier_letter": "B",
     "description": [
       "Emerson Electric 的 AI 产业链位置为 Industrial Automation / Robotics。",
-      "AI 角色：过程自动化 + 工业软件 — Aspen Tech 合并增强 AI 化。当前内部综合评分 65。",
+      "AI 角色：过程自动化 + 工业软件 — Aspen Tech 合并增强 AI 化。当前内部综合评分 67。",
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 19:13:11",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$137.28",
-        "日内涨跌": "-1.54%",
-        "1日涨跌": "-1.54%",
+        "最新价": "$137.76",
+        "日内涨跌": "+0.35%",
+        "1日涨跌": "+0.35%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "-1.54%",
+        "YTD涨跌": "-1.20%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "3,433,300",
-        "量比20日": "1.16",
+        "成交量": "2,964,556",
+        "量比20日": "1.00",
         "52周高点": "141.50",
         "52周低点": "134.50",
-        "距52周高点": "-2.98%",
-        "距52周低点": "+2.07%",
+        "距52周高点": "-2.64%",
+        "距52周低点": "+2.42%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -76,15 +76,15 @@
         "流通股本": "560.10M",
         "ROE": "12.33%",
         "债务/权益": "0.18",
-        "市值": "$76.89B",
+        "市值": "$77.16B",
         "企业价值": "$89.17B",
-        "P/E TTM": "31.78",
-        "Forward P/E": "19.19",
-        "P/S": "4.20",
+        "P/E TTM": "31.89",
+        "Forward P/E": "19.26",
+        "P/S": "4.21",
         "EV/Sales": "4.87",
         "EV/EBITDA": "15.18",
         "EV/FCF": "27.25",
-        "FCF收益率": "4.26%",
+        "FCF收益率": "4.24%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 19.999999999999996,
+          "value": 33.33333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 65.71929824561404,
+          "value": 67.12280701754386,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 19:13:11",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
+      "data": {
+        "target_mean": 164.87259,
+        "target_high": 205.0,
+        "target_low": 104.0,
+        "upside_pct": 19.68,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 27,
+        "next_earnings": "2026-08-06",
+        "eps_estimate": 1.68089,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EMR/",
+          "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EMR/latest-news/",
+          "title": "Emerson Electric Co. (EMR) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EMR/press-releases/",
+          "title": "Emerson Electric Co. (EMR) Latest Press Releases & Corporate News - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/EMR",
+          "title": "EMR: Emerson Electric Co - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/EMR",
+          "title": "Emerson Electric Co. (EMR) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EMR/news/",
+          "title": "Emerson Electric Co. (EMR) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/EMR.BE/news/",
+          "title": "Emerson Electric Co (EMR.BE) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/emerson-electric-emr-stock-slides-220003008.html",
+          "title": "Emerson Electric (EMR) Stock Slides as Market Rises: Facts to Know Before You Trade",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/emerson-electric-co-emr-attracting-130004057.html",
+          "title": "Emerson Electric Co. (EMR) is Attracting Investor Attention: Here is What You Should Know",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/theres-lot-emerson-electrics-nyse-103401772.html",
+          "title": "There's A Lot To Like About Emerson Electric's (NYSE:EMR) Upcoming US$0.555 Dividend",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -197,9 +291,13 @@
         {
           "date": "2026-05-13",
           "value": 65.71929824561404
+        },
+        {
+          "date": "2026-05-14",
+          "value": 67.12280701754386
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-14"
 }
