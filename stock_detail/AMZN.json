@@ -1,0 +1,201 @@
+{
+  "ticker": "AMZN",
+  "name": "Amazon",
+  "header": {
+    "name": "Amazon",
+    "ticker": "AMZN",
+    "sector": "Cloud / Hyperscaler",
+    "sector_id": "cloud_hyperscaler",
+    "market": "US",
+    "tier": 1,
+    "ai_role": "AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片",
+    "price": 265.82000732421875,
+    "change_1d": -1.18,
+    "composite": 16.923076923076923,
+    "tier_letter": "A",
+    "description": [
+      "Amazon 的 AI 产业链位置为 Cloud / Hyperscaler。",
+      "AI 角色：AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片。当前内部综合评分 16。",
+      "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:19:18",
+    "status_label": "退出"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$265.82",
+        "日内涨跌": "-1.18%",
+        "1日涨跌": "-1.18%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-1.18%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "36,700,000",
+        "量比20日": "0.96",
+        "52周高点": "273.63",
+        "52周低点": "262.63",
+        "距52周高点": "-2.85%",
+        "距52周低点": "+1.21%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Cloud / Hyperscaler",
+        "AI角色": "AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片",
+        "投资确定性": "—",
+        "收入": "$742.78B",
+        "收入同比": "16.60%",
+        "毛利率": "50.60%",
+        "经营利润率": "13.14%",
+        "净利率": "12.22%",
+        "经营现金流": "—",
+        "资本开支": "-$151.00B",
+        "自由现金流": "$9.81B",
+        "FCF利润率": "1.32%",
+        "现金及短投": "$143.09B",
+        "总债务": "$235.54B",
+        "净现金/债务": "$24.01B",
+        "流通股本": "10.76B",
+        "ROE": "24.29%",
+        "债务/权益": "0.08",
+        "市值": "$2.86T",
+        "企业价值": "$2.95T",
+        "P/E TTM": "31.83",
+        "Forward P/E": "26.93",
+        "P/S": "3.85",
+        "EV/Sales": "3.97",
+        "EV/EBITDA": "18.94",
+        "EV/FCF": "301.01",
+        "FCF收益率": "0.34%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 0.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 20.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 0.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 45.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": null,
+          "reasoning": null,
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 16.923076923076923,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 18:19:18",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Amazon（AMZN）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-12",
+          "value": 16.923076923076923
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-12"
+}

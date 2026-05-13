@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 18:19:18",
     "status_label": "持有"
   },
   "panels": [
@@ -78,7 +78,7 @@
         "债务/权益": "0.06",
         "市值": "$27.61B",
         "企业价值": "$29.12B",
-        "P/E TTM": "57.88",
+        "P/E TTM": "58.07",
         "Forward P/E": "30.66",
         "P/S": "6.38",
         "EV/Sales": "6.73",
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
-      "data": null,
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 18:19:18",
+      "data": {
+        "target_mean": 181.3077,
+        "target_high": 200.0,
+        "target_low": 124.0,
+        "upside_pct": 6.19,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 13,
+        "next_earnings": "2026-07-31",
+        "eps_estimate": 1.15843,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {

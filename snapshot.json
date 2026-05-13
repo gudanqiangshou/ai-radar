@@ -2,8 +2,8 @@
   "date": "2026-05-12",
   "profile_id": "warren",
   "topbar": {
-    "ai_universe": 22,
-    "core_30": 3,
+    "ai_universe": 41,
+    "core_30": 12,
     "high_52w": 0,
     "ew_today": -2.3501146548702074,
     "ew_ytd": 37.53129508809221,
@@ -28,31 +28,47 @@
       "quotes_count": 22,
       "up_count": 2,
       "down_count": 20,
+      "rs_value": 5.82,
+      "rs_rank": 1,
       "name_zh": "电力 / 电网 / 核电",
       "core_count": 3,
-      "placeholder": false,
-      "rs_value": 5.82,
-      "rs_rank": 1
+      "placeholder": false
     },
     {
       "sector_id": "compute_gpu_asic",
       "name": "Compute / GPU / ASIC",
+      "change_today": -2.26,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -2.26,
+      "stock_count": 6,
+      "quotes_count": 6,
+      "up_count": 1,
+      "down_count": 5,
+      "rs_value": -2.26,
+      "rs_rank": 4,
       "name_zh": "算力 / GPU / 定制芯片",
-      "change_today": 0,
-      "stock_count": 0,
-      "core_count": 0,
-      "rs_rank": null,
-      "placeholder": true
+      "core_count": 3,
+      "placeholder": false
     },
     {
       "sector_id": "memory_storage",
       "name": "Memory / Storage",
+      "change_today": -3.61,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -3.61,
+      "stock_count": 3,
+      "quotes_count": 3,
+      "up_count": 0,
+      "down_count": 3,
+      "rs_value": -3.61,
+      "rs_rank": 5,
       "name_zh": "存储",
-      "change_today": 0,
-      "stock_count": 0,
-      "core_count": 0,
-      "rs_rank": null,
-      "placeholder": true
+      "core_count": 1,
+      "placeholder": false
     },
     {
       "sector_id": "foundry_packaging",
@@ -107,12 +123,20 @@
     {
       "sector_id": "cloud_hyperscaler",
       "name": "Cloud / Hyperscaler",
+      "change_today": -1.18,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -1.18,
+      "stock_count": 5,
+      "quotes_count": 5,
+      "up_count": 1,
+      "down_count": 4,
+      "rs_value": -1.18,
+      "rs_rank": 2,
       "name_zh": "云厂商",
-      "change_today": 0,
-      "stock_count": 0,
-      "core_count": 0,
-      "rs_rank": null,
-      "placeholder": true
+      "core_count": 4,
+      "placeholder": false
     },
     {
       "sector_id": "ai_cloud_gpu",
@@ -147,12 +171,20 @@
     {
       "sector_id": "cybersecurity",
       "name": "Cybersecurity",
+      "change_today": -1.81,
+      "change_5d": null,
+      "change_1m": null,
+      "change_3m": null,
+      "change_ytd": -1.81,
+      "stock_count": 5,
+      "quotes_count": 5,
+      "up_count": 2,
+      "down_count": 3,
+      "rs_value": -1.81,
+      "rs_rank": 3,
       "name_zh": "网络安全",
-      "change_today": 0,
-      "stock_count": 0,
-      "core_count": 0,
-      "rs_rank": null,
-      "placeholder": true
+      "core_count": 1,
+      "placeholder": false
     },
     {
       "sector_id": "industrial_automation",
@@ -264,13 +296,130 @@
       "change_ytd": 57.75,
       "composite": 49.24331376386171,
       "status": "watch"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "sector_id": "compute_gpu_asic",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 220.78,
+      "change_1d": 0.61,
+      "change_1m": null,
+      "change_ytd": 0.61,
+      "composite": 89.84615384615385,
+      "status": "buy_zone"
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "sector_id": "compute_gpu_asic",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 448.29,
+      "change_1d": -2.29,
+      "change_1m": null,
+      "change_ytd": -2.29,
+      "composite": 35.230769230769226,
+      "status": "reduce"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "sector_id": "compute_gpu_asic",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 419.3,
+      "change_1d": -2.13,
+      "change_1m": null,
+      "change_ytd": -2.13,
+      "composite": 70.76923076923077,
+      "status": "hold"
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "sector_id": "memory_storage",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 766.58,
+      "change_1d": -3.61,
+      "change_1m": null,
+      "change_ytd": -3.61,
+      "composite": 70.0,
+      "status": "hold"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "sector_id": "cloud_hyperscaler",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 407.77,
+      "change_1d": -1.18,
+      "change_1m": null,
+      "change_ytd": -1.18,
+      "composite": 67.5,
+      "status": "hold"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "sector_id": "cloud_hyperscaler",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 387.35,
+      "change_1d": -0.33,
+      "change_1m": null,
+      "change_ytd": -0.33,
+      "composite": 45.76923076923077,
+      "status": "watch"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "sector_id": "cloud_hyperscaler",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 265.82,
+      "change_1d": -1.18,
+      "change_1m": null,
+      "change_ytd": -1.18,
+      "composite": 16.923076923076923,
+      "status": "exit"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "sector_id": "cloud_hyperscaler",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 603.0,
+      "change_1d": 0.69,
+      "change_1m": null,
+      "change_ytd": 0.69,
+      "composite": 75.96153846153845,
+      "status": "buy_zone"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "sector_id": "cybersecurity",
+      "tier": 1,
+      "tier_letter": "A",
+      "price": 546.18,
+      "change_1d": 0.72,
+      "change_1m": null,
+      "change_ytd": 0.72,
+      "composite": 57.11538461538461,
+      "status": "hold"
     }
   ],
   "movers": [
     {
       "ticker": "SMR",
-      "change_1d": -9.71,
       "type": "big_down",
+      "change_1d": -9.71,
       "name": "NuScale Power",
       "tier": 3
     }
@@ -539,6 +688,196 @@
       "price": 12.0,
       "change_1d": -9.71,
       "composite": 23.581213307240702
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "ai_role": "AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断",
+      "sector": "compute_gpu_asic",
+      "tier": 1,
+      "price": 220.78,
+      "change_1d": 0.61,
+      "composite": 89.84615384615385
+    },
+    {
+      "ticker": "AMD",
+      "name": "AMD",
+      "ai_role": "MI300/MI355X 数据中心 GPU 第二极，CPU x86 站稳",
+      "sector": "compute_gpu_asic",
+      "tier": 1,
+      "price": 448.29,
+      "change_1d": -2.29,
+      "composite": 35.230769230769226
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "ai_role": "Hyperscaler 定制 ASIC（Google TPU / Meta MTIA）+ AI 网络",
+      "sector": "compute_gpu_asic",
+      "tier": 1,
+      "price": 419.3,
+      "change_1d": -2.13,
+      "composite": 70.76923076923077
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "ai_role": "定制 AI ASIC + 高速光网络（800G/1.6T DSP）",
+      "sector": "compute_gpu_asic",
+      "tier": 2,
+      "price": 164.5,
+      "change_1d": -3.71,
+      "composite": 48.30769230769231
+    },
+    {
+      "ticker": "ARM",
+      "name": "ARM Holdings",
+      "ai_role": "IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座",
+      "sector": "compute_gpu_asic",
+      "tier": 2,
+      "price": 207.92,
+      "change_1d": -2.22,
+      "composite": 39.23076923076923
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel",
+      "ai_role": "Gaudi AI 加速器 + 自有 fab（18A 工艺），转型中",
+      "sector": "compute_gpu_asic",
+      "tier": 3,
+      "price": 120.61,
+      "change_1d": -6.82,
+      "composite": 16.615384615384617
+    },
+    {
+      "ticker": "MU",
+      "name": "Micron Technology",
+      "ai_role": "HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股",
+      "sector": "memory_storage",
+      "tier": 1,
+      "price": 766.58,
+      "change_1d": -3.61,
+      "composite": 70.0
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital",
+      "ai_role": "企业级 NAND/HDD — AI 训练数据存储受益",
+      "sector": "memory_storage",
+      "tier": 3,
+      "price": 488.74,
+      "change_1d": -5.25,
+      "composite": 57.69230769230769
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology",
+      "ai_role": "近线大容量 HDD — 数据中心存储扩张直接受益",
+      "sector": "memory_storage",
+      "tier": 3,
+      "price": 808.8,
+      "change_1d": -3.02,
+      "composite": 22.307692307692307
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "ai_role": "Azure + OpenAI 战略股东 — 企业 AI 软件商业化最深",
+      "sector": "cloud_hyperscaler",
+      "tier": 1,
+      "price": 407.77,
+      "change_1d": -1.18,
+      "composite": 67.5
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "ai_role": "Google Cloud + 自研 TPU + Gemini — 全栈 AI 玩家",
+      "sector": "cloud_hyperscaler",
+      "tier": 1,
+      "price": 387.35,
+      "change_1d": -0.33,
+      "composite": 45.76923076923077
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "ai_role": "AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片",
+      "sector": "cloud_hyperscaler",
+      "tier": 1,
+      "price": 265.82,
+      "change_1d": -1.18,
+      "composite": 16.923076923076923
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "ai_role": "Llama 开源 + 自研 MTIA + 最大 AI capex 之一（自用）",
+      "sector": "cloud_hyperscaler",
+      "tier": 1,
+      "price": 603.0,
+      "change_1d": 0.69,
+      "composite": 75.96153846153845
+    },
+    {
+      "ticker": "ORCL",
+      "name": "Oracle",
+      "ai_role": "OCI + AI 数据中心 GPU 租赁 — Stargate / OpenAI 长约",
+      "sector": "cloud_hyperscaler",
+      "tier": 2,
+      "price": 186.83,
+      "change_1d": -3.62,
+      "composite": 43.84615384615385
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike",
+      "ai_role": "Falcon AI 驱动端点安全 — 行业标杆",
+      "sector": "cybersecurity",
+      "tier": 1,
+      "price": 546.18,
+      "change_1d": 0.72,
+      "composite": 57.11538461538461
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "ai_role": "平台化整合 — Prisma SASE + Cortex AI XDR",
+      "sector": "cybersecurity",
+      "tier": 2,
+      "price": 215.6,
+      "change_1d": 0.91,
+      "composite": 62.11538461538461
+    },
+    {
+      "ticker": "ZS",
+      "name": "Zscaler",
+      "ai_role": "零信任 SASE 代表 — AI 加速威胁检测",
+      "sector": "cybersecurity",
+      "tier": 2,
+      "price": 146.17,
+      "change_1d": -1.81,
+      "composite": 73.65384615384615
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare",
+      "ai_role": "边缘网络 + Workers AI 推理 — 边缘 AI 平台",
+      "sector": "cybersecurity",
+      "tier": 2,
+      "price": 186.79,
+      "change_1d": -3.48,
+      "composite": 28.269230769230766
+    },
+    {
+      "ticker": "S",
+      "name": "SentinelOne",
+      "ai_role": "Singularity AI 自治安全 — 端点替代赛道",
+      "sector": "cybersecurity",
+      "tier": 3,
+      "price": 15.74,
+      "change_1d": -3.61,
+      "composite": 28.846153846153847
     }
   ]
 }

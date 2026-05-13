@@ -188,3 +188,78 @@ h2 { color:#fff; margin-bottom:8px; }
 /* === 空状态 === */
 .ai-text { color:#bbb; font-size:12px; line-height:1.7; padding:12px; background:#11243c; border-radius:6px; }
 .empty { color:#888; font-size:13px; text-align:center; padding:40px 20px; }
+
+
+/* =============== 响应式 =============== */
+/* 默认（≥1024px desktop）保持原 6 列 core30 / 5 列 heatmap / 4 列 movers / 9 列 screener
+   平板（768-1023px）：缩窄 detail 列；core30 4 列 / heatmap 3 列 / screener 隐藏低价值列
+   手机（<768px）：detail 移到下方；core30 / heatmap 单列；topbar 2 列；filter 横向滚动 */
+
+@media (max-width: 1023px) {
+    body { padding: 12px; }
+    .dashboard { grid-template-columns: 1fr 260px; gap: 10px; }
+    .topbar { grid-template-columns: 180px repeat(4, 1fr); }
+    .topbar .stat:nth-child(n+6) { display: none; }   /* 5+: AI Universe / Core 30 / 52W High 等次要 stat 在平板下隐藏 */
+    .movers { grid-template-columns: repeat(2, 1fr); }
+    .core30 { grid-template-columns: repeat(4, 1fr); }
+    .heatmap { grid-template-columns: repeat(3, 1fr); }
+    .filter-row { grid-template-columns: 180px repeat(6, 1fr) 60px; }
+    /* 隐藏部分 filter dropdown — 保留 search + 5 个核心 filter + reset */
+    .filter-row .filter-select:nth-of-type(n+6) { display: none; }
+    /* screener 表格：隐藏低价值列（市值），缩窄 ai_role */
+    .table-head, .table-row {
+        grid-template-columns: 60px 90px 1fr 60px 60px 60px 60px 60px;
+    }
+    .table-head > :nth-child(9), .table-row > :nth-child(9) { display: none; }  /* market_cap 列 */
+}
+
+@media (max-width: 767px) {
+    body { padding: 8px; }
+    h2 { font-size: 16px; }
+    .subtitle { font-size: 11px; margin-bottom: 12px; }
+
+    /* 主布局：detail 不再 sticky 在右，改为 stack 在下方 */
+    .dashboard { grid-template-columns: 1fr; gap: 8px; }
+    .detail { position: static; max-height: none; }
+
+    /* topbar：手机上 1 行 brand + 2x2 stat 网格 */
+    .topbar { grid-template-columns: 1fr 1fr; padding: 10px 12px; gap: 6px; }
+    .brand { grid-column: 1 / -1; }   /* brand 独占一行 */
+    .topbar .stat:nth-child(n+4) { display: none; }   /* 只保留首屏关键 stat */
+    .stat-val { font-size: 14px; }
+    .stat-label { font-size: 9px; }
+
+    /* 异动 / Core30 / 板块 全部 stack 1 列 */
+    .movers { grid-template-columns: 1fr; }
+    .movers-container { max-height: none; overflow: visible; }
+    .core30 { grid-template-columns: 1fr; }
+    .heatmap { grid-template-columns: 1fr; }
+
+    /* 卡片字号调小一档 */
+    .stock-card { padding: 7px 9px; }
+    .stock-card .tk { font-size: 12px; }
+    .stock-card .chg { font-size: 12px; }
+
+    /* 筛选器：横向滚动而非 grid */
+    .filter-row {
+        display: flex; flex-wrap: nowrap; overflow-x: auto;
+        gap: 6px; padding-bottom: 4px; -webkit-overflow-scrolling: touch;
+    }
+    .filter-row::-webkit-scrollbar { height: 4px; }
+    .filter-row > * { flex: 0 0 auto; min-width: 90px; }
+
+    /* screener 表格：横向滚动展示所有列 */
+    .filter-table-body { max-height: 400px; overflow: auto; }
+    .table-head, .table-row {
+        grid-template-columns: 60px 90px 140px 70px 60px 60px 60px 60px 70px;
+        min-width: 720px;
+    }
+
+    /* 详情面板内部网格在手机端也缩 */
+    .scores { grid-template-columns: 1fr; }
+    .score-grid-3x3 { grid-template-columns: 1fr 1fr; }
+    .external-grid { grid-template-columns: 1fr; }
+    .grid-3 { grid-template-columns: 1fr 1fr; }
+    .news-item { grid-template-columns: 50px 1fr; }
+    .news-src { display: none; }    /* 手机端隐藏来源标注，标题更宽 */
+}
