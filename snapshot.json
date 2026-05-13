@@ -1,14 +1,16 @@
 {
-  "date": "2026-05-13",
+  "date": "2026-05-12",
   "profile_id": "warren",
   "topbar": {
     "ai_universe": 22,
     "core_30": 3,
     "high_52w": 0,
-    "ew_today": 0.0,
-    "ew_ytd": 45.93183734760598,
-    "spx_today": 0.0,
-    "qqq_today": 0.0,
+    "ew_today": -2.3501146548702074,
+    "ew_ytd": 37.53129508809221,
+    "spx_today": -0.16026088601544933,
+    "qqq_today": -0.8481806809764016,
+    "spx_ytd": 7.90977767782154,
+    "qqq_ytd": 15.350990975134982,
     "up_count": 2,
     "down_count": 20,
     "risk_regime": "偏进攻"
@@ -18,9 +20,9 @@
       "sector_id": "power_grid_nuclear",
       "name": "Power / Grid / Nuclear",
       "change_today": -1.92,
-      "change_5d": 0.59,
-      "change_1m": 4.99,
-      "change_3m": 2.39,
+      "change_5d": 0.64,
+      "change_1m": 5.82,
+      "change_3m": 3.2,
       "change_ytd": 17.87,
       "stock_count": 22,
       "quotes_count": 22,
@@ -29,7 +31,7 @@
       "name_zh": "电力 / 电网 / 核电",
       "core_count": 3,
       "placeholder": false,
-      "rs_value": 4.99,
+      "rs_value": 5.82,
       "rs_rank": 1
     },
     {
@@ -231,10 +233,10 @@
       "tier": 1,
       "tier_letter": "A",
       "price": 293.6,
-      "change_1d": 0.0,
-      "change_1m": 0.64,
+      "change_1d": -2.03,
+      "change_1m": 2.48,
       "change_ytd": -19.84,
-      "composite": 54.13166666666667,
+      "composite": 57.606001304631434,
       "status": "hold"
     },
     {
@@ -244,11 +246,11 @@
       "tier": 1,
       "tier_letter": "A",
       "price": 146.87,
-      "change_1d": 0.0,
-      "change_1m": -7.16,
+      "change_1d": -3.41,
+      "change_1m": -5.08,
       "change_ytd": -11.11,
-      "composite": 63.61500000000001,
-      "status": "hold"
+      "composite": 72.36138290932811,
+      "status": "buy_zone"
     },
     {
       "ticker": "GEV",
@@ -257,11 +259,11 @@
       "tier": 1,
       "tier_letter": "A",
       "price": 1071.98,
-      "change_1d": 0.0,
-      "change_1m": 8.16,
+      "change_1d": -0.1,
+      "change_1m": 8.14,
       "change_ytd": 57.75,
-      "composite": 63.703095238095244,
-      "status": "hold"
+      "composite": 49.24331376386171,
+      "status": "watch"
     }
   ],
   "movers": [
@@ -325,8 +327,8 @@
       "sector": "power_grid_nuclear",
       "tier": 1,
       "price": 293.6,
-      "change_1d": 0.0,
-      "composite": 54.13166666666667
+      "change_1d": -2.03,
+      "composite": 57.606001304631434
     },
     {
       "ticker": "VST",
@@ -335,8 +337,8 @@
       "sector": "power_grid_nuclear",
       "tier": 1,
       "price": 146.87,
-      "change_1d": 0.0,
-      "composite": 63.61500000000001
+      "change_1d": -3.41,
+      "composite": 72.36138290932811
     },
     {
       "ticker": "GEV",
@@ -345,8 +347,8 @@
       "sector": "power_grid_nuclear",
       "tier": 1,
       "price": 1071.98,
-      "change_1d": 0.0,
-      "composite": 63.703095238095244
+      "change_1d": -0.1,
+      "composite": 49.24331376386171
     },
     {
       "ticker": "TLN",
@@ -355,8 +357,8 @@
       "sector": "power_grid_nuclear",
       "tier": 1,
       "price": 374.61,
-      "change_1d": 0.0,
-      "composite": 59.13166666666667
+      "change_1d": -2.3,
+      "composite": 47.76908023483366
     },
     {
       "ticker": "ETN",
@@ -365,8 +367,8 @@
       "sector": "power_grid_nuclear",
       "tier": 1,
       "price": 401.53,
-      "change_1d": 0.0,
-      "composite": 59.15071428571429
+      "change_1d": -4.17,
+      "composite": 56.402478799739065
     },
     {
       "ticker": "VRT",
@@ -375,8 +377,8 @@
       "sector": "power_grid_nuclear",
       "tier": 1,
       "price": 367.13,
-      "change_1d": 0.0,
-      "composite": 59.57690476190477
+      "change_1d": -0.21,
+      "composite": 59.98369210697977
     },
     {
       "ticker": "NEE",
@@ -385,8 +387,8 @@
       "sector": "power_grid_nuclear",
       "tier": 2,
       "price": 94.59,
-      "change_1d": 0.0,
-      "composite": 65.44214285714285
+      "change_1d": -0.26,
+      "composite": 64.23679060665361
     },
     {
       "ticker": "SO",
@@ -395,8 +397,8 @@
       "sector": "power_grid_nuclear",
       "tier": 2,
       "price": 93.47,
-      "change_1d": 0.0,
-      "composite": 63.16357142857144
+      "change_1d": 0.4,
+      "composite": 63.49641226353554
     },
     {
       "ticker": "DUK",
@@ -405,8 +407,8 @@
       "sector": "power_grid_nuclear",
       "tier": 2,
       "price": 125.07,
-      "change_1d": 0.0,
-      "composite": 60.85166666666667
+      "change_1d": 0.14,
+      "composite": 63.3235485975212
     },
     {
       "ticker": "BE",
@@ -415,8 +417,8 @@
       "sector": "power_grid_nuclear",
       "tier": 2,
       "price": 280.69,
-      "change_1d": 0.0,
-      "composite": 36.73404761904762
+      "change_1d": -1.14,
+      "composite": 34.14220482713633
     },
     {
       "ticker": "PWR",
@@ -425,8 +427,8 @@
       "sector": "power_grid_nuclear",
       "tier": 2,
       "price": 765.81,
-      "change_1d": 0.0,
-      "composite": 44.89833333333333
+      "change_1d": -1.99,
+      "composite": 41.562296151337236
     },
     {
       "ticker": "MOD",
@@ -435,8 +437,8 @@
       "sector": "power_grid_nuclear",
       "tier": 2,
       "price": 276.27,
-      "change_1d": 0.0,
-      "composite": 51.615
+      "change_1d": -3.0,
+      "composite": 43.04957599478147
     },
     {
       "ticker": "NVT",
@@ -445,8 +447,8 @@
       "sector": "power_grid_nuclear",
       "tier": 2,
       "price": 170.74,
-      "change_1d": 0.0,
-      "composite": 50.115
+      "change_1d": -1.53,
+      "composite": 54.11611219830397
     },
     {
       "ticker": "POWL",
@@ -455,8 +457,8 @@
       "sector": "power_grid_nuclear",
       "tier": 2,
       "price": 308.05,
-      "change_1d": 0.0,
-      "composite": 51.56261904761905
+      "change_1d": -4.35,
+      "composite": 56.37964774951076
     },
     {
       "ticker": "HUBB",
@@ -465,8 +467,8 @@
       "sector": "power_grid_nuclear",
       "tier": 2,
       "price": 485.98,
-      "change_1d": 0.0,
-      "composite": 52.303095238095246
+      "change_1d": -0.85,
+      "composite": 58.35616438356164
     },
     {
       "ticker": "TT",
@@ -475,8 +477,8 @@
       "sector": "power_grid_nuclear",
       "tier": 3,
       "price": 467.66,
-      "change_1d": 0.0,
-      "composite": 53.415000000000006
+      "change_1d": -1.86,
+      "composite": 51.33398564905414
     },
     {
       "ticker": "CARR",
@@ -485,8 +487,8 @@
       "sector": "power_grid_nuclear",
       "tier": 3,
       "price": 65.56,
-      "change_1d": 0.0,
-      "composite": 41.11119047619047
+      "change_1d": -0.49,
+      "composite": 43.91063274624918
     },
     {
       "ticker": "JCI",
@@ -495,8 +497,8 @@
       "sector": "power_grid_nuclear",
       "tier": 3,
       "price": 141.04,
-      "change_1d": 0.0,
-      "composite": 54.731249999999996
+      "change_1d": -0.52,
+      "composite": 53.773646444879326
     },
     {
       "ticker": "UEC",
@@ -505,8 +507,8 @@
       "sector": "power_grid_nuclear",
       "tier": 3,
       "price": 15.5,
-      "change_1d": 0.0,
-      "composite": 43.80166666666667
+      "change_1d": -5.89,
+      "composite": 28.610567514677104
     },
     {
       "ticker": "CCJ",
@@ -515,8 +517,8 @@
       "sector": "power_grid_nuclear",
       "tier": 3,
       "price": 116.93,
-      "change_1d": 0.0,
-      "composite": 50.80071428571429
+      "change_1d": -2.67,
+      "composite": 41.617742987606
     },
     {
       "ticker": "OKLO",
@@ -525,8 +527,8 @@
       "sector": "power_grid_nuclear",
       "tier": 3,
       "price": 73.63,
-      "change_1d": 0.0,
-      "composite": 47.40309523809524
+      "change_1d": -5.76,
+      "composite": 12.26467331118494
     },
     {
       "ticker": "SMR",
@@ -535,8 +537,8 @@
       "sector": "power_grid_nuclear",
       "tier": 3,
       "price": 12.0,
-      "change_1d": 0.0,
-      "composite": 44.38880952380952
+      "change_1d": -9.71,
+      "composite": 23.581213307240702
     }
   ]
 }

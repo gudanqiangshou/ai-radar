@@ -10,17 +10,17 @@
     "tier": 2,
     "ai_role": "电气配电 + 工业连接，数据中心电气整合",
     "price": 485.9800109863281,
-    "change_1d": 0.0,
-    "composite": 46.52478799739074,
+    "change_1d": -0.85,
+    "composite": 58.35616438356164,
     "tier_letter": "B",
     "description": [
       "Hubbell 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：电气配电 + 工业连接，数据中心电气整合。当前内部综合评分 46。",
+      "AI 角色：电气配电 + 工业连接，数据中心电气整合。当前内部综合评分 58。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$485.98",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "-1.34%",
-        "1月涨跌": "-9.97%",
+        "日内涨跌": "-0.85%",
+        "1日涨跌": "-0.85%",
+        "5日涨跌": "-1.43%",
+        "1月涨跌": "-9.33%",
         "3月涨跌": "-5.82%",
-        "6月涨跌": "+12.28%",
-        "1年涨跌": "+25.69%",
+        "6月涨跌": "+11.04%",
+        "1年涨跌": "+28.43%",
         "YTD涨跌": "+4.96%",
         "20日均线": "524.54",
         "50日均线": "505.74",
         "200日均线": "465.57",
-        "RSI 14": "18.93",
-        "MACD": "-13.36",
+        "RSI 14": "35.47",
+        "MACD": "-6.77",
         "20日波动率": "33.13%",
         "成交量": "698,392",
-        "量比20日": "1.10",
-        "52周高点": "557.85",
-        "52周低点": "378.41",
-        "距52周高点": "-12.88%",
-        "距52周低点": "+28.43%",
-        "20日支撑": "485.98",
-        "20日压力": "557.85"
+        "量比20日": "1.12",
+        "52周高点": "565.50",
+        "52周低点": "373.18",
+        "距52周高点": "-14.06%",
+        "距52周低点": "+30.23%",
+        "20日支撑": "476.21",
+        "20日压力": "565.50"
       }
     },
     {
@@ -61,18 +61,18 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "电气配电 + 工业连接，数据中心电气整合",
         "投资确定性": "—",
-        "收入": "$1.52B",
+        "收入": "$6.00B",
         "收入同比": "11.10%",
         "毛利率": "35.69%",
         "经营利润率": "17.75%",
         "净利率": "15.10%",
         "经营现金流": "—",
-        "资本开支": "-$40.60M",
-        "自由现金流": "$46.00M",
-        "FCF利润率": "3.03%",
-        "现金及短投": "$501.60M",
+        "资本开支": "-$169.70M",
+        "自由现金流": "$541.45M",
+        "FCF利润率": "9.03%",
+        "现金及短投": "$516.90M",
         "总债务": "$2.74B",
-        "净现金/债务": "-$1.54B",
+        "净现金/债务": "-$1.52B",
         "流通股本": "52.84M",
         "ROE": "25.82%",
         "债务/权益": "0.11",
@@ -83,8 +83,8 @@
         "P/S": "4.28",
         "EV/Sales": "4.66",
         "EV/EBITDA": "19.03",
-        "EV/FCF": "606.79",
-        "FCF收益率": "0.18%",
+        "EV/FCF": "51.55",
+        "FCF收益率": "2.11%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,33 +96,33 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 64.64285714285714,
+          "value": 65.71428571428571,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 72.0,
-          "reasoning": "Hubbell在电气配电领域拥有深厚的技术积累与品牌认知，UL/NEC认证体系构成监管壁垒，公用事业与数据中心客户切换成本高。但产品标准化程度较高，竞争对手（Eaton、ABB）实力强劲，规模效应有限，护城河属于中高水平但非顶级。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 42.0,
-          "reasoning": "Hubbell的数据中心电气业务（配电、连接器、母线槽）直接受益于AI基础设施建设，约占收入20-30%，是近年增长亮点。但公司核心仍是工业/公用事业电气，电网现代化和非AI工业需求占主导。AI capex放缓会影响增长但不致命。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 36.523809523809526,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
@@ -130,34 +130,34 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 15.0,
+          "value": 63.452380952380956,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 12.5,
+          "value": 12.38095238095238,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 62.0,
-          "reasoning": "Hubbell财务结构稳健，现金5亿美元，长期负债20亿可控，受益数据中心与电网升级需求。但估值偏高（P/E约20x），工业周期性波动、关税成本压力及电气设备竞争加剧构成中等风险，客户集中度数据缺失增加不确定性。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 46.52478799739074,
+          "value": 58.35616438356164,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 547.1539,
-        "target_high": 600.0,
-        "target_low": 479.0,
-        "upside_pct": 12.59,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 13,
-        "next_earnings": "2026-07-28",
-        "eps_estimate": 5.35889,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Hubbell（HUBB）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】Hubbell在电气配电领域拥有深厚的技术积累与品牌认知，UL/NEC认证体系构成监管壁垒，公用事业与数据中心客户切换成本高。但产品标准化程度较高，竞争对手（Eaton、ABB）实力强劲，规模效应有限，护城河属于中高水平但非顶级。 【ai_exposure】Hubbell的数据中心电气业务（配电、连接器、母线槽）直接受益于AI基础设施建设，约占收入20-30%，是近年增长亮点。但公司核心仍是工业/公用事业电气，电网现代化和非AI工业需求占主导。AI capex放缓会影响增长但不致命。 【risk】Hubbell财务结构稳健，现金5亿美元，长期负债20亿可控，受益数据中心与电网升级需求。但估值偏高（P/E约20x），工业周期性波动、关税成本压力及电气设备竞争加剧构成中等风险，客户集中度数据缺失增加不确定性。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 46.52478799739074
+          "value": 58.35616438356164
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

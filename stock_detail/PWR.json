@@ -10,16 +10,16 @@
     "tier": 2,
     "ai_role": "电网 EPC 工程龙头，AI 电力扩张铲子",
     "price": 765.8099975585938,
-    "change_1d": 0.0,
-    "composite": 36.79223744292237,
+    "change_1d": -1.99,
+    "composite": 41.562296151337236,
     "tier_letter": "B",
     "description": [
       "Quanta Services 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：电网 EPC 工程龙头，AI 电力扩张铲子。当前内部综合评分 36。",
+      "AI 角色：电网 EPC 工程龙头，AI 电力扩张铲子。当前内部综合评分 41。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
     "status_label": "观察"
   },
   "panels": [
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$765.81",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "+2.79%",
-        "1月涨跌": "+28.53%",
-        "3月涨跌": "+48.45%",
-        "6月涨跌": "+78.39%",
-        "1年涨跌": "+122.89%",
+        "日内涨跌": "-1.99%",
+        "1日涨跌": "-1.99%",
+        "5日涨跌": "+2.01%",
+        "1月涨跌": "+30.83%",
+        "3月涨跌": "+46.16%",
+        "6月涨跌": "+79.38%",
+        "1年涨跌": "+130.12%",
         "YTD涨跌": "+74.17%",
         "20日均线": "679.40",
         "50日均线": "611.02",
         "200日均线": "480.66",
-        "RSI 14": "75.49",
-        "MACD": "70.17",
+        "RSI 14": "70.94",
+        "MACD": "51.50",
         "20日波动率": "63.20%",
         "成交量": "1,343,300",
-        "量比20日": "1.12",
-        "52周高点": "785.24",
-        "52周低点": "330.83",
-        "距52周高点": "-2.47%",
-        "距52周低点": "+131.48%",
-        "20日支撑": "587.42",
-        "20日压力": "785.24"
+        "量比20日": "1.15",
+        "52周高点": "788.75",
+        "52周低点": "320.56",
+        "距52周高点": "-2.91%",
+        "距52周低点": "+138.90%",
+        "20日支撑": "580.13",
+        "20日压力": "788.75"
       }
     },
     {
@@ -61,15 +61,15 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "电网 EPC 工程龙头，AI 电力扩张铲子",
         "投资确定性": "—",
-        "收入": "$7.87B",
+        "收入": "$30.12B",
         "收入同比": "26.30%",
         "毛利率": "15.10%",
         "经营利润率": "4.24%",
         "净利率": "3.67%",
         "经营现金流": "—",
-        "资本开支": "-$220.09M",
-        "自由现金流": "$171.65M",
-        "FCF利润率": "2.18%",
+        "资本开支": "-$696.49M",
+        "自由现金流": "$1.04B",
+        "FCF利润率": "3.44%",
         "现金及短投": "$364.76M",
         "总债务": "$6.32B",
         "净现金/债务": "-$4.84B",
@@ -83,8 +83,8 @@
         "P/S": "3.82",
         "EV/Sales": "4.02",
         "EV/EBITDA": "45.49",
-        "EV/FCF": "704.75",
-        "FCF收益率": "0.15%",
+        "EV/FCF": "116.63",
+        "FCF收益率": "0.90%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 46.07142857142856,
+          "value": 30.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 72.0,
-          "reasoning": "PWR凭借全美最大电网EPC规模、稀缺持证电工队伍及长期MSA合约构建强护城河；AI数据中心电力扩张带来结构性需求。但毛利率仅15%、净利率4%显示定价权有限，技术专利壁垒偏弱，竞争对手可复制执行能力，护城河宽度中上但深度不足。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 52.0,
-          "reasoning": "PWR是电网EPC龙头，AI数据中心电力需求扩张直接拉动其输配电工程订单，但核心业务覆盖可再生能源、传统电网升级、管道等多元领域。AI驱动的数据中心电力基础设施约占收入20-30%，是重要增量但非主导。AI退潮影响有限，因电网老化改造需求独立存在。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 71.38095238095238,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 31.19047619047619,
+          "value": 32.857142857142854,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 10.0,
+          "value": 36.45238095238095,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 76.78571428571428,
+          "value": 84.52380952380952,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 52.0,
-          "reasoning": "PWR受益AI电网扩张需求强劲，但长期负债52亿美元而现金仅3.65亿，杠杆偏高；估值已充分反映增长预期（P/E偏高），回撤风险显著；业务依赖大型公用事业客户集中度较高；监管政策变动（IRA补贴调整）构成中等风险。综合评定为中等风险区间。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 36.79223744292237,
+          "value": 41.562296151337236,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 747.8408,
-        "target_high": 901.0,
-        "target_low": 420.0,
-        "upside_pct": -2.35,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 24,
-        "next_earnings": "2026-07-30",
-        "eps_estimate": 3.30801,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Quanta Services（PWR）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】PWR凭借全美最大电网EPC规模、稀缺持证电工队伍及长期MSA合约构建强护城河；AI数据中心电力扩张带来结构性需求。但毛利率仅15%、净利率4%显示定价权有限，技术专利壁垒偏弱，竞争对手可复制执行能力，护城河宽度中上但深度不足。 【ai_exposure】PWR是电网EPC龙头，AI数据中心电力需求扩张直接拉动其输配电工程订单，但核心业务覆盖可再生能源、传统电网升级、管道等多元领域。AI驱动的数据中心电力基础设施约占收入20-30%，是重要增量但非主导。AI退潮影响有限，因电网老化改造需求独立存在。 【risk】PWR受益AI电网扩张需求强劲，但长期负债52亿美元而现金仅3.65亿，杠杆偏高；估值已充分反映增长预期（P/E偏高），回撤风险显著；业务依赖大型公用事业客户集中度较高；监管政策变动（IRA补贴调整）构成中等风险。综合评定为中等风险区间。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 36.79223744292237
+          "value": 41.562296151337236
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

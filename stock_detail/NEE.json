@@ -10,8 +10,8 @@
     "tier": 2,
     "ai_role": "可再生能源龙头 + 大型科技公司长期 PPA",
     "price": 94.58999633789062,
-    "change_1d": 0.0,
-    "composite": 64.58414872798434,
+    "change_1d": -0.26,
+    "composite": 64.23679060665361,
     "tier_letter": "B",
     "description": [
       "NextEra Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
     "status_label": "持有"
   },
   "panels": [
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$94.59",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "+1.60%",
-        "1月涨跌": "+2.48%",
-        "3月涨跌": "+2.89%",
-        "6月涨跌": "+12.77%",
-        "1年涨跌": "+31.17%",
+        "日内涨跌": "-0.26%",
+        "1日涨跌": "-0.26%",
+        "5日涨跌": "+1.36%",
+        "1月涨跌": "+0.54%",
+        "3月涨跌": "+3.54%",
+        "6月涨跌": "+12.62%",
+        "1年涨跌": "+35.73%",
         "YTD涨跌": "+16.88%",
         "20日均线": "94.13",
         "50日均线": "92.94",
         "200日均线": "83.93",
-        "RSI 14": "59.68",
-        "MACD": "1.34",
+        "RSI 14": "51.90",
+        "MACD": "0.58",
         "20日波动率": "34.43%",
         "成交量": "6,921,800",
-        "量比20日": "0.77",
-        "52周高点": "97.88",
-        "52周低点": "66.94",
-        "距52周高点": "-3.36%",
-        "距52周低点": "+41.31%",
-        "20日支撑": "90.00",
-        "20日压力": "97.88"
+        "量比20日": "0.76",
+        "52周高点": "98.75",
+        "52周低点": "63.88",
+        "距52周高点": "-4.21%",
+        "距52周低点": "+48.07%",
+        "20日支撑": "89.90",
+        "20日压力": "98.75"
       }
     },
     {
@@ -61,15 +61,15 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "可再生能源龙头 + 大型科技公司长期 PPA",
         "投资确定性": "—",
-        "收入": "$6.70B",
+        "收入": "$27.87B",
         "收入同比": "7.30%",
         "毛利率": "61.40%",
         "经营利润率": "30.18%",
         "净利率": "29.37%",
         "经营现金流": "—",
-        "资本开支": "-$3.19B",
-        "自由现金流": "-$580.00M",
-        "FCF利润率": "-8.66%",
+        "资本开支": "-$9.97B",
+        "自由现金流": "-$18.45B",
+        "FCF利润率": "-66.22%",
         "现金及短投": "$2.00B",
         "总债务": "$104.40B",
         "净现金/债务": "-$91.95B",
@@ -83,8 +83,8 @@
         "P/S": "7.08",
         "EV/Sales": "11.16",
         "EV/EBITDA": "21.97",
-        "EV/FCF": "-536.32",
-        "FCF收益率": "-0.29%",
+        "EV/FCF": "-16.86",
+        "FCF收益率": "-9.36%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 59.64285714285714,
+          "value": 82.85714285714286,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 72.0,
-          "reasoning": "NEE凭借全球最大可再生能源装机规模（~35GW风光）、与科技巨头签订的长期PPA合约组合、FPL受监管垄断电网及多年积累的开发运营Know-how构建深厚护城河；但高资本杠杆、利率敏感性及可再生能源技术同质化限制了评分上限。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 38.0,
-          "reasoning": "NEE通过长期PPA向科技巨头（微软、谷歌等）供应可再生电力，AI数据中心需求是其增长叙事的重要组成部分，但核心业务仍是受监管的公用事业（FPL）和多元化可再生能源组合。AI驱动的PPA占总收入比例有限，即便AI需求放缓，电力基本需求支撑下行空间，AI暴露度属间接受益层级。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 35.14285714285714,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 85.71428571428571,
+          "value": 82.85714285714286,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 75.0,
+          "value": 47.97619047619048,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 37.49999999999999,
+          "value": 45.95238095238095,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 52.0,
-          "reasoning": "NEE长期负债近940亿美元、债务/权益比极高，利率上升压力显著；可再生能源扩张依赖持续融资；受益于AI数据中心PPA需求，但监管审批、联邦补贴政策（IRA）变动风险较大；估值溢价明显，利率敏感性高，回撤风险不可忽视。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 64.58414872798434,
+          "value": 64.23679060665361,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 98.93,
-        "target_high": 112.0,
-        "target_low": 55.0,
-        "upside_pct": 4.59,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 22,
-        "next_earnings": "2026-07-22",
-        "eps_estimate": 1.0881,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "NextEra Energy（NEE）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】NEE凭借全球最大可再生能源装机规模（~35GW风光）、与科技巨头签订的长期PPA合约组合、FPL受监管垄断电网及多年积累的开发运营Know-how构建深厚护城河；但高资本杠杆、利率敏感性及可再生能源技术同质化限制了评分上限。 【ai_exposure】NEE通过长期PPA向科技巨头（微软、谷歌等）供应可再生电力，AI数据中心需求是其增长叙事的重要组成部分，但核心业务仍是受监管的公用事业（FPL）和多元化可再生能源组合。AI驱动的PPA占总收入比例有限，即便AI需求放缓，电力基本需求支撑下行空间，AI暴露度属间接受益层级。 【risk】NEE长期负债近940亿美元、债务/权益比极高，利率上升压力显著；可再生能源扩张依赖持续融资；受益于AI数据中心PPA需求，但监管审批、联邦补贴政策（IRA）变动风险较大；估值溢价明显，利率敏感性高，回撤风险不可忽视。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 64.58414872798434
+          "value": 64.23679060665361
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

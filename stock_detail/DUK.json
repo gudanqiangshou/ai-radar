@@ -10,16 +10,16 @@
     "tier": 2,
     "ai_role": "卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷",
     "price": 125.06999969482422,
-    "change_1d": 0.0,
-    "composite": 55.360404435746894,
+    "change_1d": 0.14,
+    "composite": 63.3235485975212,
     "tier_letter": "B",
     "description": [
       "Duke Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷。当前内部综合评分 55。",
+      "AI 角色：卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷。当前内部综合评分 63。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
     "status_label": "持有"
   },
   "panels": [
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$125.07",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "+0.72%",
-        "1月涨跌": "-4.09%",
-        "3月涨跌": "-0.82%",
-        "6月涨跌": "+1.92%",
-        "1年涨跌": "+10.61%",
+        "日内涨跌": "+0.14%",
+        "1日涨跌": "+0.14%",
+        "5日涨跌": "+0.16%",
+        "1月涨跌": "-5.10%",
+        "3月涨跌": "-0.10%",
+        "6月涨跌": "+1.20%",
+        "1年涨跌": "+7.96%",
         "YTD涨跌": "+6.50%",
         "20日均线": "126.89",
         "50日均线": "129.25",
         "200日均线": "124.00",
-        "RSI 14": "49.41",
-        "MACD": "-1.34",
+        "RSI 14": "41.01",
+        "MACD": "-1.10",
         "20日波动率": "17.13%",
         "成交量": "3,337,900",
-        "量比20日": "1.09",
-        "52周高点": "133.46",
-        "52周低点": "112.46",
-        "距52周高点": "-6.29%",
-        "距52周低点": "+11.21%",
-        "20日支撑": "124.17",
-        "20日压力": "129.55"
+        "量比20日": "1.11",
+        "52周高点": "134.49",
+        "52周低点": "111.22",
+        "距52周高点": "-7.00%",
+        "距52周低点": "+12.45%",
+        "20日支撑": "123.43",
+        "20日压力": "130.70"
       }
     },
     {
@@ -61,15 +61,15 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷",
         "投资确定性": "—",
-        "收入": "$9.18B",
+        "收入": "$32.72B",
         "收入同比": "11.30%",
         "毛利率": "51.05%",
         "经营利润率": "25.51%",
         "净利率": "15.71%",
         "经营现金流": "—",
-        "资本开支": "-$4.09B",
-        "自由现金流": "-$2.58B",
-        "FCF利润率": "-28.07%",
+        "资本开支": "-$14.96B",
+        "自由现金流": "-$2.25B",
+        "FCF利润率": "-6.87%",
         "现金及短投": "$2.14B",
         "总债务": "$91.21B",
         "净现金/债务": "-$78.34B",
@@ -83,8 +83,8 @@
         "P/S": "2.98",
         "EV/Sales": "5.79",
         "EV/EBITDA": "11.50",
-        "EV/FCF": "-73.59",
-        "FCF收益率": "-2.64%",
+        "EV/FCF": "-84.38",
+        "FCF收益率": "-2.30%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 52.26190476190476,
+          "value": 70.47619047619047,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 82.0,
-          "reasoning": "Duke Energy凭借卡罗来纳/佛州独家特许经营权构建强监管壁垒，输配电网络具备天然垄断属性，客户切换成本极高。AI数据中心负荷增长强化长期合约粘性。核电运营Know-how稀缺。主要弱点是ROE偏低（10%）、资本密集度高、受监管定价限制盈利弹性。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 38.0,
-          "reasoning": "Duke Energy是传统受监管电力公司，AI数据中心负荷增长是其卡罗来纳/佛州服务区的新增需求驱动之一，但核心收入仍来自居民/商业用电。AI相关PPA和数据中心连接协议贡献增量，但占总收入比例有限，AI退潮对其影响远小于纯AI基础设施标的。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 41.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 69.76190476190476,
+          "value": 67.14285714285714,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 65.0,
+          "value": 72.76190476190476,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 16.07142857142857,
+          "value": 21.666666666666664,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 62.0,
-          "reasoning": "Duke Energy作为受监管公用事业公司，现金流稳定、股息可靠，但长期负债高达804亿美元、负债率偏高，利息覆盖压力显著。AI数据中心新增负荷带来增长机会，但同时加大资本支出需求。监管审批风险、核电运营成本及利率上升构成主要压力，整体属低中风险区间。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 55.360404435746894,
+          "value": 63.3235485975212,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 140.0,
-        "target_high": 146.0,
-        "target_low": 131.0,
-        "upside_pct": 11.94,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 18,
-        "next_earnings": "2026-08-04",
-        "eps_estimate": 1.25601,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Duke Energy（DUK）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】Duke Energy凭借卡罗来纳/佛州独家特许经营权构建强监管壁垒，输配电网络具备天然垄断属性，客户切换成本极高。AI数据中心负荷增长强化长期合约粘性。核电运营Know-how稀缺。主要弱点是ROE偏低（10%）、资本密集度高、受监管定价限制盈利弹性。 【ai_exposure】Duke Energy是传统受监管电力公司，AI数据中心负荷增长是其卡罗来纳/佛州服务区的新增需求驱动之一，但核心收入仍来自居民/商业用电。AI相关PPA和数据中心连接协议贡献增量，但占总收入比例有限，AI退潮对其影响远小于纯AI基础设施标的。 【risk】Duke Energy作为受监管公用事业公司，现金流稳定、股息可靠，但长期负债高达804亿美元、负债率偏高，利息覆盖压力显著。AI数据中心新增负荷带来增长机会，但同时加大资本支出需求。监管审批风险、核电运营成本及利率上升构成主要压力，整体属低中风险区间。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 55.360404435746894
+          "value": 63.3235485975212
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

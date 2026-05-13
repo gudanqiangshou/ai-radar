@@ -10,17 +10,17 @@
     "tier": 1,
     "ai_role": "Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益",
     "price": 146.8699951171875,
-    "change_1d": 0.0,
-    "composite": 63.3610567514677,
+    "change_1d": -3.41,
+    "composite": 72.36138290932811,
     "tier_letter": "A",
     "description": [
       "Vistra Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益。当前内部综合评分 63。",
+      "AI 角色：Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益。当前内部综合评分 72。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
-    "status_label": "持有"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
+    "status_label": "买入区"
   },
   "panels": [
     {
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$146.87",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "-0.58%",
-        "1月涨跌": "-7.16%",
-        "3月涨跌": "-9.95%",
-        "6月涨跌": "-15.93%",
-        "1年涨跌": "-5.25%",
+        "日内涨跌": "-3.41%",
+        "1日涨跌": "-3.41%",
+        "5日涨跌": "-4.60%",
+        "1月涨跌": "-5.08%",
+        "3月涨跌": "-8.29%",
+        "6月涨跌": "-14.39%",
+        "1年涨跌": "+0.53%",
         "YTD涨跌": "-11.11%",
         "20日均线": "157.91",
         "50日均线": "157.64",
         "200日均线": "176.59",
-        "RSI 14": "42.36",
-        "MACD": "-1.36",
+        "RSI 14": "40.41",
+        "MACD": "-1.94",
         "20日波动率": "42.88%",
         "成交量": "4,891,900",
-        "量比20日": "1.07",
-        "52周高点": "217.92",
-        "52周低点": "142.52",
-        "距52周高点": "-32.60%",
-        "距52周低点": "+3.05%",
-        "20日支撑": "146.87",
-        "20日压力": "166.58"
+        "量比20日": "1.09",
+        "52周高点": "219.82",
+        "52周低点": "138.53",
+        "距52周高点": "-33.19%",
+        "距52周低点": "+6.02%",
+        "20日支撑": "145.66",
+        "20日压力": "168.49"
       }
     },
     {
@@ -61,18 +61,18 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益",
         "投资确定性": "—",
-        "收入": "$5.64B",
+        "收入": "$19.45B",
         "收入同比": "43.40%",
         "毛利率": "38.64%",
         "经营利润率": "26.58%",
         "净利率": "11.53%",
         "经营现金流": "—",
-        "资本开支": "-$883.00M",
-        "自由现金流": "$316.00M",
-        "FCF利润率": "5.60%",
-        "现金及短投": "$634.00M",
+        "资本开支": "-$2.87B",
+        "自由现金流": "$476.88M",
+        "FCF利润率": "2.45%",
+        "现金及短投": "$658.00M",
         "总债务": "$19.93B",
-        "净现金/债务": "-$16.63B",
+        "净现金/债务": "-$16.61B",
         "流通股本": "337.18M",
         "ROE": "42.90%",
         "债务/权益": "0.40",
@@ -83,8 +83,8 @@
         "P/S": "2.55",
         "EV/Sales": "3.67",
         "EV/EBITDA": "10.50",
-        "EV/FCF": "225.57",
-        "FCF收益率": "0.64%",
+        "EV/FCF": "149.47",
+        "FCF收益率": "0.96%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 73.92857142857143,
+          "value": 79.04761904761905,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 72.0,
-          "reasoning": "Comanche Peak核电牌照+ERCOT市场地位构成高监管壁垒；AI数据中心PPA锁定长期现金流提升客户粘性；但Merchant Power模式受电价波动影响，缺乏垄断性网络效应，品牌溢价有限，规模优势不及公用事业巨头，护城河宽度中上。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 62.0,
-          "reasoning": "VST通过核电（Comanche Peak）和天然气机组向AI数据中心签署长期PPA，AI数据中心需求是当前估值重估的核心驱动力，但基础业务仍为传统电力批发市场，AI PPA占总收入比例尚未过半，属于AI是主要增长催化剂但非全部的结构。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 51.80952380952381,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 75.71428571428572,
+          "value": 78.09523809523809,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 60.0,
+          "value": 86.5952380952381,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 19.642857142857142,
+          "value": 7.6190476190476195,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 38.0,
-          "reasoning": "VST长期负债高达172亿美元，现金仅6.34亿，财务杠杆极高；电力批发价格波动大，核电运营成本刚性；AI数据中心PPA需求虽利好但集中度风险上升；估值已大幅溢价，对利率和政策敏感；德州ERCOT监管环境存在不确定性，综合风险偏高。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 63.3610567514677,
+          "value": 72.36138290932811,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 229.11111,
-        "target_high": 320.0,
-        "target_low": 97.0,
-        "upside_pct": 56.0,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 18,
-        "next_earnings": "2026-08-06",
-        "eps_estimate": 2.59081,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Vistra Energy（VST）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】Comanche Peak核电牌照+ERCOT市场地位构成高监管壁垒；AI数据中心PPA锁定长期现金流提升客户粘性；但Merchant Power模式受电价波动影响，缺乏垄断性网络效应，品牌溢价有限，规模优势不及公用事业巨头，护城河宽度中上。 【ai_exposure】VST通过核电（Comanche Peak）和天然气机组向AI数据中心签署长期PPA，AI数据中心需求是当前估值重估的核心驱动力，但基础业务仍为传统电力批发市场，AI PPA占总收入比例尚未过半，属于AI是主要增长催化剂但非全部的结构。 【risk】VST长期负债高达172亿美元，现金仅6.34亿，财务杠杆极高；电力批发价格波动大，核电运营成本刚性；AI数据中心PPA需求虽利好但集中度风险上升；估值已大幅溢价，对利率和政策敏感；德州ERCOT监管环境存在不确定性，综合风险偏高。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 63.3610567514677
+          "value": 72.36138290932811
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

@@ -10,16 +10,16 @@
     "tier": 1,
     "ai_role": "数据中心热管理 + 电源管理，高密度机柜液冷领先",
     "price": 367.1300048828125,
-    "change_1d": 0.0,
-    "composite": 56.76288323548597,
+    "change_1d": -0.21,
+    "composite": 59.98369210697977,
     "tier_letter": "A",
     "description": [
       "Vertiv 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：数据中心热管理 + 电源管理，高密度机柜液冷领先。当前内部综合评分 56。",
+      "AI 角色：数据中心热管理 + 电源管理，高密度机柜液冷领先。当前内部综合评分 59。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
     "status_label": "持有"
   },
   "panels": [
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$367.13",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "+7.99%",
-        "1月涨跌": "+22.39%",
-        "3月涨跌": "+55.23%",
-        "6月涨跌": "+114.73%",
-        "1年涨跌": "+247.73%",
+        "日内涨跌": "-0.21%",
+        "1日涨跌": "-0.21%",
+        "5日涨跌": "+7.98%",
+        "1月涨跌": "+24.40%",
+        "3月涨跌": "+47.73%",
+        "6月涨跌": "+124.35%",
+        "1年涨跌": "+263.32%",
         "YTD涨跌": "+109.06%",
         "20日均线": "325.81",
         "50日均线": "289.21",
         "200日均线": "199.68",
-        "RSI 14": "72.35",
-        "MACD": "18.95",
+        "RSI 14": "69.89",
+        "MACD": "20.65",
         "20日波动率": "60.34%",
         "成交量": "6,544,200",
-        "量比20日": "1.11",
-        "52周高点": "367.92",
-        "52周低点": "101.05",
-        "距52周高点": "-0.21%",
-        "距52周低点": "+263.32%",
-        "20日支撑": "294.13",
-        "20日压力": "367.92"
+        "量比20日": "1.12",
+        "52周高点": "371.99",
+        "52周低点": "99.44",
+        "距52周高点": "-1.31%",
+        "距52周低点": "+269.20%",
+        "20日支撑": "292.67",
+        "20日压力": "371.99"
       }
     },
     {
@@ -61,18 +61,18 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "数据中心热管理 + 电源管理，高密度机柜液冷领先",
         "投资确定性": "—",
-        "收入": "$2.65B",
+        "收入": "$10.84B",
         "收入同比": "30.10%",
         "毛利率": "37.15%",
         "经营利润率": "16.36%",
         "净利率": "14.37%",
         "经营现金流": "—",
-        "资本开支": "-$114.00M",
-        "自由现金流": "$652.80M",
-        "FCF利润率": "24.64%",
-        "现金及短投": "$2.15B",
+        "资本开支": "-$301.60M",
+        "自由现金流": "$1.96B",
+        "FCF利润率": "18.12%",
+        "现金及短投": "$2.50B",
         "总债务": "$3.26B",
-        "净现金/债务": "-$771.60M",
+        "净现金/债务": "-$421.70M",
         "流通股本": "384.11M",
         "ROE": "45.10%",
         "债务/权益": "0.02",
@@ -83,8 +83,8 @@
         "P/S": "13.00",
         "EV/Sales": "13.07",
         "EV/EBITDA": "59.50",
-        "EV/FCF": "217.19",
-        "FCF收益率": "0.46%",
+        "EV/FCF": "72.16",
+        "FCF收益率": "1.39%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 76.07142857142857,
+          "value": 75.23809523809523,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 72.0,
-          "reasoning": "Vertiv在高密度液冷和电源管理领域积累深厚Know-how与专利，超大型数据中心客户切换成本高、合同周期长；ROE 45%印证规模效益显著。但竞争对手（Eaton、施耐德、华为）追赶加速，核电/电网直接敞口有限，品牌护城河主要集中在数据中心垂直赛道，整体护城河宽但不深。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 82.0,
-          "reasoning": "Vertiv是AI数据中心热管理与电源管理的核心基础设施供应商，液冷解决方案直接受益于GPU高密度部署。AI capex驱动其订单积压与营收高速增长，管理层明确将AI数据中心列为首要增长引擎，AI需求占新增订单比例持续扩大，业务与AI capex周期高度绑定。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 78.1904761904762,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 68.33333333333333,
+          "value": 70.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 25.0,
+          "value": 18.38095238095238,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 66.07142857142857,
+          "value": 84.52380952380952,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 42.0,
-          "reasoning": "VRT财务杠杆适中（净债约7.7亿），但估值偏高（PE>40x），高度依赖AI数据中心资本支出周期，客户集中于超大规模云厂商，地缘政治出口管制风险显著，液冷技术竞争加剧，周期性回撤风险较大。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 56.76288323548597,
+          "value": 59.98369210697977,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 329.88,
-        "target_high": 414.0,
-        "target_low": 155.0,
-        "upside_pct": -10.15,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 25,
-        "next_earnings": "2026-07-29",
-        "eps_estimate": 1.42783,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Vertiv（VRT）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】Vertiv在高密度液冷和电源管理领域积累深厚Know-how与专利，超大型数据中心客户切换成本高、合同周期长；ROE 45%印证规模效益显著。但竞争对手（Eaton、施耐德、华为）追赶加速，核电/电网直接敞口有限，品牌护城河主要集中在数据中心垂直赛道，整体护城河宽但不深。 【ai_exposure】Vertiv是AI数据中心热管理与电源管理的核心基础设施供应商，液冷解决方案直接受益于GPU高密度部署。AI capex驱动其订单积压与营收高速增长，管理层明确将AI数据中心列为首要增长引擎，AI需求占新增订单比例持续扩大，业务与AI capex周期高度绑定。 【risk】VRT财务杠杆适中（净债约7.7亿），但估值偏高（PE>40x），高度依赖AI数据中心资本支出周期，客户集中于超大规模云厂商，地缘政治出口管制风险显著，液冷技术竞争加剧，周期性回撤风险较大。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 56.76288323548597
+          "value": 59.98369210697977
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

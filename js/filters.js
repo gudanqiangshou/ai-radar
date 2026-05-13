@@ -34,19 +34,20 @@ function renderFilters() {
   ];
 
   const selectHtml = selects.map(s => `
-    <select class="filter-select" data-key="${s.key}">
-      <option value="">${s.label}</option>
-      ${s.opts.map(o => `<option value="${o}">${o}</option>`).join('')}
+    <select class="filter-select" data-key="${escapeAttr(s.key)}">
+      <option value="">${escapeHtml(s.label)}</option>
+      ${s.opts.map(o => `<option value="${escapeAttr(o)}">${escapeHtml(o)}</option>`).join('')}
     </select>`).join('');
 
   document.getElementById('filter-row').innerHTML = `
     <input class="filter-search" id="filter-search" placeholder="🔍 代码 / 股票名字 / AI 角色…">
     ${selectHtml}
-    <div class="filter-reset" onclick="resetFilters()">重置</div>`;
+    <div class="filter-reset" id="filter-reset-btn">重置</div>`;
 
   document.getElementById('filter-search').addEventListener('input', applyFilters);
+  document.getElementById('filter-reset-btn').addEventListener('click', resetFilters);
   document.querySelectorAll('#filter-row select').forEach(sel => {
-    sel.addEventListener('change', e => {
+    sel.addEventListener('change', () => {
       _activeFilters[sel.dataset.key] = sel.value;
       applyFilters();
     });
@@ -74,21 +75,32 @@ function resetFilters() {
 }
 
 function renderTable(stocks) {
+  // 8 列 head 与 8 列 row 严格对齐（修复之前 head 是 8 但实际 row 有时 9 列的不匹配）
   const head = `<div class="table-head">
     <div>代码</div><div>名称</div><div>AI 角色</div><div>板块</div>
     <div>Tier</div><div>价格</div><div>涨跌</div><div>Composite</div>
   </div>`;
-  const rows = stocks.map(s => `
-    <div class="table-row" data-ticker="${s.ticker}">
-      <div style="color:#5fb878;font-weight:700">${s.ticker}</div>
-      <div>${s.name}</div>
-      <div style="color:#888">${(s.ai_role || '').slice(0, 30)}</div>
-      <div style="color:#888">${s.sector}</div>
-      <div style="color:#5fb878">T${s.tier}</div>
-      <div>$${s.price?.toFixed(2) || '-'}</div>
-      <div style="color:${s.change_1d >= 0 ? '#5fb878' : '#e54696'}">${s.change_1d >= 0 ? '+' : ''}${s.change_1d || 0}%</div>
-      <div style="color:#5fb878;font-weight:700">${s.composite?.toFixed(0) || '-'}</div>
-    </div>`).join('');
+  const rows = stocks.map(s => {
+    const change = s.change_1d;
+    const changeText = (change === null || change === undefined)
+      ? '—' : `${change >= 0 ? '+' : ''}${change.toFixed(2)}%`;
+    const changeColor = (change === null || change === undefined)
+      ? '#888' : (change >= 0 ? '#5fb878' : '#e54696');
+    const priceText = (s.price === null || s.price === undefined)
+      ? '—' : `$${s.price.toFixed(2)}`;
+    const composite = (s.composite === null || s.composite === undefined)
+      ? '—' : s.composite.toFixed(0);
+    return `<div class="table-row" data-ticker="${escapeAttr(s.ticker)}">
+      <div style="color:#5fb878;font-weight:700">${escapeHtml(s.ticker)}</div>
+      <div>${escapeHtml(s.name)}</div>
+      <div style="color:#888">${escapeHtml((s.ai_role || '').slice(0, 30))}</div>
+      <div style="color:#888">${escapeHtml(s.sector)}</div>
+      <div style="color:#5fb878">T${escapeHtml(s.tier)}</div>
+      <div>${priceText}</div>
+      <div style="color:${changeColor}">${changeText}</div>
+      <div style="color:#5fb878;font-weight:700">${composite}</div>
+    </div>`;
+  }).join('');
   document.getElementById('screener-table').innerHTML = head + rows;
   document.querySelectorAll('#screener-table .table-row').forEach(el => {
     el.addEventListener('click', () => loadDetail(el.dataset.ticker));

@@ -10,17 +10,17 @@
     "tier": 3,
     "ai_role": "SMR 核电 — DOE 认证领先，长期主题",
     "price": 12.0,
-    "change_1d": 0.0,
-    "composite": 41.16275277234181,
+    "change_1d": -9.71,
+    "composite": 23.581213307240702,
     "tier_letter": "C",
     "description": [
       "NuScale Power 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：SMR 核电 — DOE 认证领先，长期主题。当前内部综合评分 41。",
+      "AI 角色：SMR 核电 — DOE 认证领先，长期主题。当前内部综合评分 23。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
-    "status_label": "观察"
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$12.00",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "-4.38%",
-        "1月涨跌": "+25.26%",
-        "3月涨跌": "-14.22%",
-        "6月涨跌": "-46.55%",
-        "1年涨跌": "-44.55%",
+        "日内涨跌": "-9.71%",
+        "1日涨跌": "-9.71%",
+        "5日涨跌": "-4.61%",
+        "1月涨跌": "+30.29%",
+        "3月涨跌": "-22.93%",
+        "6月涨跌": "-48.16%",
+        "1年涨跌": "-32.55%",
         "YTD涨跌": "-26.43%",
         "20日均线": "12.34",
         "50日均线": "11.62",
         "200日均线": "24.44",
-        "RSI 14": "42.22",
-        "MACD": "0.66",
+        "RSI 14": "49.47",
+        "MACD": "0.28",
         "20日波动率": "131.33%",
         "成交量": "40,953,100",
         "量比20日": "1.00",
-        "52周高点": "53.43",
-        "52周低点": "9.16",
-        "距52周高点": "-77.54%",
-        "距52周低点": "+31.00%",
-        "20日支撑": "11.32",
-        "20日压力": "13.57"
+        "52周高点": "57.42",
+        "52周低点": "8.85",
+        "距52周高点": "-79.10%",
+        "距52周低点": "+35.59%",
+        "20日支撑": "10.77",
+        "20日压力": "14.20"
       }
     },
     {
@@ -61,16 +61,16 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "SMR 核电 — DOE 认证领先，长期主题",
         "投资确定性": "—",
-        "收入": "$1.81M",
+        "收入": "$18.67M",
         "收入同比": "-95.80%",
         "毛利率": "23.84%",
         "经营利润率": "-10181.24%",
         "净利率": "0.00%",
         "经营现金流": "—",
-        "资本开支": "-$367,000",
-        "自由现金流": "-$204.07M",
-        "FCF利润率": "-11287.11%",
-        "现金及短投": "$836.42M",
+        "资本开支": "-$434,000",
+        "自由现金流": "-$161.97M",
+        "FCF利润率": "-867.59%",
+        "现金及短投": "$890.13M",
         "总债务": "$5.68M",
         "净现金/债务": "—",
         "流通股本": "346.11M",
@@ -83,8 +83,8 @@
         "P/S": "222.47",
         "EV/Sales": "172.04",
         "EV/EBITDA": "-15.81",
-        "EV/FCF": "-15.74",
-        "FCF收益率": "-4.91%",
+        "EV/FCF": "-19.83",
+        "FCF收益率": "-3.90%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 18.69047619047619,
+          "value": 9.047619047619046,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 62.0,
-          "reasoning": "NuScale持有全球首个SMR设计认证（NRC DC），技术壁垒与监管牌照构成核心护城河；但商业化严重滞后（UAMPS项目取消），营收仅180万美元、ROE-83%，规模效应与客户粘性几乎为零，护城河目前更多是潜在期权而非现实竞争优势。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 52.0,
-          "reasoning": "NuScale SMR技术被定位为AI数据中心电力解决方案，AI需求是当前主要叙事驱动力，但公司尚无商业运营收入，首个项目UAMPS已取消。AI数据中心电力需求是核心增长催化剂，但业务实质仍是核电技术授权，非纯AI标的。AI退潮将重创估值但不影响核电基本面。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 0.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 3.333333333333333,
+          "value": 2.857142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 80.0,
+          "value": 64.83333333333334,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 69.64285714285714,
+          "value": 28.571428571428573,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 18.0,
-          "reasoning": "NuScale尚无商业收入，唯一标志性项目UAMPS已取消，现金约8.36亿美元但持续烧钱，预计2-3年耗尽。无实际客户、无产品交付、高度依赖政府补贴与政策支持，SMR技术商业化时间表极不确定，估值完全基于预期，回撤风险极高。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 41.16275277234181,
+          "value": 23.581213307240702,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 16.64286,
-        "target_high": 28.0,
-        "target_low": 7.0,
-        "upside_pct": 38.69,
-        "rating": "hold",
-        "rating_letter": "B",
-        "rating_change": "维持",
-        "previous_rating_letter": "B",
-        "n_analysts": 14,
-        "next_earnings": "2026-08-07",
-        "eps_estimate": -0.1217,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "NuScale Power（SMR）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】NuScale持有全球首个SMR设计认证（NRC DC），技术壁垒与监管牌照构成核心护城河；但商业化严重滞后（UAMPS项目取消），营收仅180万美元、ROE-83%，规模效应与客户粘性几乎为零，护城河目前更多是潜在期权而非现实竞争优势。 【ai_exposure】NuScale SMR技术被定位为AI数据中心电力解决方案，AI需求是当前主要叙事驱动力，但公司尚无商业运营收入，首个项目UAMPS已取消。AI数据中心电力需求是核心增长催化剂，但业务实质仍是核电技术授权，非纯AI标的。AI退潮将重创估值但不影响核电基本面。 【risk】NuScale尚无商业收入，唯一标志性项目UAMPS已取消，现金约8.36亿美元但持续烧钱，预计2-3年耗尽。无实际客户、无产品交付、高度依赖政府补贴与政策支持，SMR技术商业化时间表极不确定，估值完全基于预期，回撤风险极高。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 41.16275277234181
+          "value": 23.581213307240702
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

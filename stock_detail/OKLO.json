@@ -10,17 +10,17 @@
     "tier": 3,
     "ai_role": "小型模块化反应堆（SMR）— AI 长期电力解决方案",
     "price": 73.62999725341797,
-    "change_1d": 0.0,
-    "composite": 45.42889758643183,
+    "change_1d": -5.76,
+    "composite": 12.26467331118494,
     "tier_letter": "C",
     "description": [
       "Oklo Inc 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：小型模块化反应堆（SMR）— AI 长期电力解决方案。当前内部综合评分 45。",
+      "AI 角色：小型模块化反应堆（SMR）— AI 长期电力解决方案。当前内部综合评分 12。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
-    "status_label": "观察"
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
+    "status_label": "退出"
   },
   "panels": [
     {
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$73.63",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "+1.54%",
-        "1月涨跌": "+36.50%",
-        "3月涨跌": "+15.19%",
-        "6月涨跌": "-24.54%",
-        "1年涨跌": "+129.88%",
+        "日内涨跌": "-5.76%",
+        "1日涨跌": "-5.76%",
+        "5日涨跌": "+2.51%",
+        "1月涨跌": "+46.53%",
+        "3月涨跌": "+11.17%",
+        "6月涨跌": "-27.56%",
+        "1年涨跌": "+155.22%",
         "YTD涨跌": "-5.36%",
         "20日均线": "70.53",
         "50日均线": "61.30",
         "200日均线": "86.50",
-        "RSI 14": "50.91",
-        "MACD": "6.06",
+        "RSI 14": "55.29",
+        "MACD": "3.98",
         "20日波动率": "126.86%",
         "成交量": "15,496,000",
         "量比20日": "0.91",
-        "52周高点": "174.14",
-        "52周低点": "28.85",
-        "距52周高点": "-57.72%",
-        "距52周低点": "+155.22%",
-        "20日支撑": "62.61",
-        "20日压力": "79.62"
+        "52周高点": "193.84",
+        "52周低点": "28.16",
+        "距52周高点": "-62.02%",
+        "距52周低点": "+161.47%",
+        "20日支撑": "60.81",
+        "20日压力": "81.50"
       }
     },
     {
@@ -67,10 +67,10 @@
         "经营利润率": "0.00%",
         "净利率": "0.00%",
         "经营现金流": "—",
-        "资本开支": "-$26.95M",
-        "自由现金流": "-$60.38M",
+        "资本开支": "-$33.20M",
+        "自由现金流": "-$79.83M",
         "FCF利润率": "—",
-        "现金及短投": "$788.45M",
+        "现金及短投": "$1.23B",
         "总债务": "$1.45M",
         "净现金/债务": "—",
         "流通股本": "173.92M",
@@ -83,8 +83,8 @@
         "P/S": "—",
         "EV/Sales": "—",
         "EV/EBITDA": "-83.25",
-        "EV/FCF": "-191.35",
-        "FCF收益率": "-0.47%",
+        "EV/FCF": "-144.72",
+        "FCF收益率": "-0.62%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 14.761904761904763,
+          "value": 5.9523809523809526,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 62.0,
-          "reasoning": "Oklo拥有Aurora快堆专利技术与NRC许可证申请先发优势，Sam Altman背书带来品牌溢价，已签署多份LOI锁定AI数据中心客户。但零营收、无商业堆运营记录、监管路径仍存不确定性，技术壁垒尚未转化为真实竞争壁垒，护城河处于'建设中'阶段。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 62.0,
-          "reasoning": "Oklo的SMR定位高度依赖AI数据中心电力需求叙事，已签署多项AI科技公司PPA意向（含Sam Altman背书），但目前零商业收入、首座反应堆2027年前无法并网，AI驱动的订单管道是核心估值逻辑，实际收入兑现前属于'AI概念高暴露'而非真实AI收入标的。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": null,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 8.333333333333332,
+          "value": 8.095238095238095,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 95.0,
+          "value": null,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 83.92857142857142,
+          "value": 55.952380952380935,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 12.0,
-          "reasoning": "Oklo尚无商业收入，依赖~7.9亿现金维持运营，首座反应堆预计2027年前后才能并网。面临NRC监管不确定性、核燃料供应链风险、技术未经商业验证、客户合同多为LOI非约束性协议，估值已大幅透支未来预期，回撤风险极高。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 45.42889758643183,
+          "value": 12.26467331118494,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 90.92105,
-        "target_high": 140.0,
-        "target_low": 14.0,
-        "upside_pct": 23.48,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 19,
-        "next_earnings": "2026-05-13",
-        "eps_estimate": -0.18215,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Oklo Inc（OKLO）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】Oklo拥有Aurora快堆专利技术与NRC许可证申请先发优势，Sam Altman背书带来品牌溢价，已签署多份LOI锁定AI数据中心客户。但零营收、无商业堆运营记录、监管路径仍存不确定性，技术壁垒尚未转化为真实竞争壁垒，护城河处于'建设中'阶段。 【ai_exposure】Oklo的SMR定位高度依赖AI数据中心电力需求叙事，已签署多项AI科技公司PPA意向（含Sam Altman背书），但目前零商业收入、首座反应堆2027年前无法并网，AI驱动的订单管道是核心估值逻辑，实际收入兑现前属于'AI概念高暴露'而非真实AI收入标的。 【risk】Oklo尚无商业收入，依赖~7.9亿现金维持运营，首座反应堆预计2027年前后才能并网。面临NRC监管不确定性、核燃料供应链风险、技术未经商业验证、客户合同多为LOI非约束性协议，估值已大幅透支未来预期，回撤风险极高。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 45.42889758643183
+          "value": 12.26467331118494
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

@@ -1,9 +1,10 @@
 // src/render/web/js/detail.js
 async function loadDetail(ticker) {
-  const data = await fetch(`stock_detail/${ticker}.json`).then(r => r.json()).catch(() => null);
+  const data = await fetch(`stock_detail/${encodeURIComponent(ticker)}.json`)
+    .then(r => r.json()).catch(() => null);
   if (!data) {
     document.getElementById('detail-panel').innerHTML =
-      `<div class="empty">无法加载 ${ticker} 的详情</div>`;
+      `<div class="empty">无法加载 ${escapeHtml(ticker)} 的详情</div>`;
     return;
   }
   const html = renderHeader(data.header || data) +
@@ -16,22 +17,22 @@ function renderHeader(h) {
   const chgCls = chg >= 0 ? 'pos' : 'neg';
   const chgSign = chg >= 0 ? '+' : '';
   const warn = h.data_warning
-    ? `<span class="data-warn-tag">${h.data_warning}</span>` : '';
-  const desc = (h.description || []).map(p => `<p>${p}</p>`).join('');
+    ? `<span class="data-warn-tag">${escapeHtml(h.data_warning)}</span>` : '';
+  const desc = (h.description || []).map(p => `<p>${escapeHtml(p)}</p>`).join('');
   const meta = [
     h.market,
     h.tier_letter,
     h.status_label,
     h.data_source_text,
-  ].filter(Boolean).join(' · ');
+  ].filter(Boolean).map(s => escapeHtml(s)).join(' · ');
 
   return `<div class="detail-header">
     <div class="dh-label">个股详情</div>
-    <div class="dh-sublabel">${h.ticker} · ${h.sector || ''}</div>
+    <div class="dh-sublabel">${escapeHtml(h.ticker)} · ${escapeHtml(h.sector || '')}</div>
     <div class="dh-title-row">
       <div>
-        <div class="dh-ticker">${h.ticker}</div>
-        <div class="dh-name">${h.name || ''}</div>
+        <div class="dh-ticker">${escapeHtml(h.ticker)}</div>
+        <div class="dh-name">${escapeHtml(h.name || '')}</div>
       </div>
       <div class="dh-chg ${chgCls}">${chgSign}${chg.toFixed(2)}%</div>
     </div>
@@ -53,10 +54,11 @@ function renderPanel(panel) {
     chart:           renderChart,
   };
   const fn = renderers[panel.type] || (() => '');
-  const meta = panel.title_meta ? `<span class="card-title-meta">${panel.title_meta}</span>` : '';
+  const meta = panel.title_meta
+    ? `<span class="card-title-meta">${escapeHtml(panel.title_meta)}</span>` : '';
   return `<div class="card">
     <div class="card-title-row">
-      <div class="card-title">${panel.title}</div>
+      <div class="card-title">${escapeHtml(panel.title)}</div>
       ${meta}
     </div>
     ${fn(panel)}
@@ -65,8 +67,8 @@ function renderPanel(panel) {
 
 function _kvCell(label, value, valueClass = '') {
   return `<div class="kv">
-    <div class="kv-l">${label}</div>
-    <div class="kv-v ${valueClass}">${value === null || value === undefined ? '—' : value}</div>
+    <div class="kv-l">${escapeHtml(label)}</div>
+    <div class="kv-v ${valueClass}">${value === null || value === undefined ? '—' : escapeHtml(value)}</div>
   </div>`;
 }
 
@@ -88,26 +90,24 @@ function renderMixed(panel) {
   const d = panel.data || {};
   if (d.metrics) {
     const aiBlock = d.ai_role
-      ? `<div class="card-section" style="margin-bottom:8px"><div class="kv-l">AI 角色</div><div class="ai-role-text">${d.ai_role}</div></div>`
+      ? `<div class="card-section" style="margin-bottom:8px"><div class="kv-l">AI 角色</div><div class="ai-role-text">${escapeHtml(d.ai_role)}</div></div>`
       : '';
     const metricsBlock = `<div class="card-section"><div class="grid-3">${
       Object.entries(d.metrics).map(([k, v]) => _kvCell(k, v, _valueClass(v))).join('')
     }</div></div>`;
     return aiBlock + metricsBlock;
   }
-  // 兼容旧 mixed 数据
   return renderMetricsGrid(panel);
 }
 
 function renderScoreGrid(panel) {
-  // 旧 score_grid 兼容
   const items = Object.entries(panel.data || {}).map(([dim, score]) => {
     const cls = score === null || score === undefined ? 'neg'
               : score >= 70 ? '' : score >= 40 ? 'warn' : 'neg';
     const disp = score === null || score === undefined ? '—' : score.toFixed(0);
     const width = score || 0;
     return `<div class="score-item">
-      <div class="sl">${dim}</div>
+      <div class="sl">${escapeHtml(dim)}</div>
       <div class="sv">${disp}</div>
       <div class="score-bar ${cls}"><div style="width:${width}%"></div></div>
     </div>`;
@@ -116,7 +116,6 @@ function renderScoreGrid(panel) {
 }
 
 function renderScoreGrid3x3(panel) {
-  const escAttr = s => (s || '').replace(/"/g, '&quot;');
   const cells = (panel.data || []).map(c => {
     const score = c.value;
     const cls = score === null || score === undefined ? 'neg'
@@ -124,7 +123,6 @@ function renderScoreGrid3x3(panel) {
     const disp = score === null || score === undefined ? '—' : score.toFixed(0);
     const width = score || 0;
 
-    // tooltip 选择：AI cell 显示 reasoning，量化 cell 显示公式，Composite 显示加权公式
     let tipText = '';
     let badge = '';
     let extraStyle = '';
@@ -144,9 +142,9 @@ function renderScoreGrid3x3(panel) {
       extraStyle = ' composite-cell';
     }
 
-    const tip = tipText ? ` title="${escAttr(tipText)}"` : '';
+    const tip = tipText ? ` title="${escapeAttr(tipText)}"` : '';
     return `<div class="score-cell${extraStyle}"${tip}>
-      <div class="sl">${c.label}${badge}</div>
+      <div class="sl">${escapeHtml(c.label)}${badge}</div>
       <div class="sv">${disp}</div>
       <div class="score-bar ${cls}"><div style="width:${width}%"></div></div>
     </div>`;
@@ -157,7 +155,7 @@ function renderScoreGrid3x3(panel) {
 function renderExternal(panel) {
   if (!panel.data) {
     return `<div class="card-section">暂无外部分析师覆盖</div>` +
-      (panel.disclaimer ? `<div class="external-disclaimer">${panel.disclaimer}</div>` : '');
+      (panel.disclaimer ? `<div class="external-disclaimer">${escapeHtml(panel.disclaimer)}</div>` : '');
   }
   const d = panel.data;
   const meanDisp = d.target_mean ? `$${d.target_mean.toFixed(2)}` : '—';
@@ -167,8 +165,8 @@ function renderExternal(panel) {
   const rangeDisp = (d.target_low && d.target_high)
     ? `$${d.target_low.toFixed(2)} / $${d.target_high.toFixed(2)}` : '—';
   const ratingLetter = d.rating_letter || '—';
-  const ratingSub = `${d.rating_change || '维持'} / 前次 ${d.previous_rating_letter || '—'}`;
-  const earnDate = d.next_earnings || '—';
+  const ratingSub = `${escapeHtml(d.rating_change || '维持')} / 前次 ${escapeHtml(d.previous_rating_letter || '—')}`;
+  const earnDate = escapeHtml(d.next_earnings || '—');
   const eps = (d.eps_estimate !== null && d.eps_estimate !== undefined)
     ? `EPS ${d.eps_estimate.toFixed(2)}` : 'EPS —';
   const rev = (d.revenue_estimate !== null && d.revenue_estimate !== undefined)
@@ -179,22 +177,22 @@ function renderExternal(panel) {
   const grid = `<div class="external-grid">
     <div class="external-cell"><div class="label">共识目标价</div><div class="value">${meanDisp}</div><div class="sub ${upsideClass}">${upsideText}</div></div>
     <div class="external-cell"><div class="label">目标区间</div><div class="value">${rangeDisp}</div><div class="sub">低 / 高</div></div>
-    <div class="external-cell"><div class="label">外部评级</div><div class="value">${ratingLetter}</div><div class="sub">${ratingSub}</div></div>
-    <div class="external-cell"><div class="label">分析师预估</div><div class="value" style="font-size:13px">${estLine}</div><div class="sub">${coverageLine}</div></div>
+    <div class="external-cell"><div class="label">外部评级</div><div class="value">${escapeHtml(ratingLetter)}</div><div class="sub">${ratingSub}</div></div>
+    <div class="external-cell"><div class="label">分析师预估</div><div class="value" style="font-size:13px">${estLine}</div><div class="sub">${escapeHtml(coverageLine)}</div></div>
   </div>`;
-  const disc = panel.disclaimer ? `<div class="external-disclaimer">${panel.disclaimer}</div>` : '';
+  const disc = panel.disclaimer ? `<div class="external-disclaimer">${escapeHtml(panel.disclaimer)}</div>` : '';
   return grid + disc;
 }
 
 function renderAiText(panel) {
-  return `<div class="ai-text">${panel.data?.text || '(待 Sonnet 4.6 生成)'}</div>`;
+  return `<div class="ai-text">${escapeHtml(panel.data?.text || '(待 Sonnet 4.6 生成)')}</div>`;
 }
 
 function renderNewsList(panel) {
   const items = (panel.data || []).map(n => `
     <div class="news-row">
-      <div class="nt"><a href="${n.url}" target="_blank">${n.title}</a></div>
-      <div class="nm"><span>${n.source}</span><span>${n.date}</span></div>
+      <div class="nt">${safeExternalLink(n.url, n.title)}</div>
+      <div class="nm"><span>${escapeHtml(n.source)}</span><span>${escapeHtml(n.date)}</span></div>
     </div>`).join('');
   return `<div class="card-section">${items || '近 7 天无新闻'}</div>`;
 }

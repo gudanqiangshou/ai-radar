@@ -10,17 +10,17 @@
     "tier": 2,
     "ai_role": "开关设备 + 中压电气，电网设备小盘股",
     "price": 308.04998779296875,
-    "change_1d": 0.0,
-    "composite": 48.66112198303979,
+    "change_1d": -4.35,
+    "composite": 56.37964774951076,
     "tier_letter": "B",
     "description": [
       "Powell Industries 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：开关设备 + 中压电气，电网设备小盘股。当前内部综合评分 48。",
+      "AI 角色：开关设备 + 中压电气，电网设备小盘股。当前内部综合评分 56。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$308.05",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "-0.43%",
-        "1月涨跌": "+34.53%",
-        "3月涨跌": "+55.87%",
-        "6月涨跌": "+180.33%",
-        "1年涨跌": "+374.21%",
+        "日内涨跌": "-4.35%",
+        "1日涨跌": "-4.35%",
+        "5日涨跌": "+0.69%",
+        "1月涨跌": "+33.39%",
+        "3月涨跌": "+56.01%",
+        "6月涨跌": "+181.58%",
+        "1年涨跌": "+391.83%",
         "YTD涨跌": "+162.16%",
         "20日均线": "269.32",
         "50日均线": "218.79",
         "200日均线": "142.70",
-        "RSI 14": "71.66",
-        "MACD": "28.81",
+        "RSI 14": "69.01",
+        "MACD": "27.55",
         "20日波动率": "64.58%",
         "成交量": "876,400",
-        "量比20日": "1.22",
-        "52周高点": "322.05",
-        "52周低点": "56.53",
-        "距52周高点": "-4.35%",
-        "距52周低点": "+444.93%",
-        "20日支撑": "229.73",
-        "20日压力": "322.05"
+        "量比20日": "1.24",
+        "52周高点": "328.00",
+        "52周低点": "54.75",
+        "距52周高点": "-6.08%",
+        "距52周低点": "+462.61%",
+        "20日支撑": "224.00",
+        "20日压力": "328.00"
       }
     },
     {
@@ -61,16 +61,16 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "开关设备 + 中压电气，电网设备小盘股",
         "投资确定性": "—",
-        "收入": "$296.62M",
+        "收入": "$1.13B",
         "收入同比": "6.50%",
         "毛利率": "30.10%",
         "经营利润率": "19.41%",
         "净利率": "16.51%",
         "经营现金流": "—",
-        "资本开支": "-$1.83M",
-        "自由现金流": "$49.34M",
-        "FCF利润率": "16.63%",
-        "现金及短投": "$537.71M",
+        "资本开支": "-$10.75M",
+        "自由现金流": "$142.18M",
+        "FCF利润率": "12.56%",
+        "现金及短投": "$544.89M",
         "总债务": "$1.96M",
         "净现金/债务": "—",
         "流通股本": "36.43M",
@@ -83,8 +83,8 @@
         "P/S": "9.91",
         "EV/Sales": "9.43",
         "EV/EBITDA": "46.06",
-        "EV/FCF": "216.45",
-        "FCF收益率": "0.44%",
+        "EV/FCF": "75.11",
+        "FCF收益率": "1.27%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 65.83333333333333,
+          "value": 69.52380952380952,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 62.0,
-          "reasoning": "POWL深耕中压开关设备数十年，客户以石化/电力公用事业为主，切换成本高、认证周期长；30%毛利率与17%净利率印证定价权。但规模偏小（TTM约3亿美元），无显著专利护城河，面临ABB/Eaton等巨头竞争，品牌影响力局限北美细分市场。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 52.0,
-          "reasoning": "Powell的中压开关设备直接受益于AI数据中心电力基础设施建设，数据中心已成为重要订单来源，但公司同时服务石油天然气、工业、公用事业等多元终端市场，AI驱动占比估计30-45%，非唯一增长引擎，AI退潮影响显著但不致命。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 50.095238095238095,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 80.71428571428571,
+          "value": 80.47619047619048,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 0.0,
+          "value": 20.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 80.35714285714286,
+          "value": 90.95238095238095,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 52.0,
-          "reasoning": "POWL现金充裕（~5.4亿）、无明显长期负债，财务结构健康。但作为电网设备小盘股，客户集中度高、产品线窄、依赖资本支出周期，估值弹性大（小盘溢价易回撤）。核电/电网政策敏感，地缘出口管制存在潜在扰动。综合评定为中等风险。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 48.66112198303979,
+          "value": 56.37964774951076,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 316.25,
-        "target_high": 360.0,
-        "target_low": 252.0,
-        "upside_pct": 2.66,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 4,
-        "next_earnings": "2026-08-05",
-        "eps_estimate": 1.4871,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Powell Industries（POWL）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】POWL深耕中压开关设备数十年，客户以石化/电力公用事业为主，切换成本高、认证周期长；30%毛利率与17%净利率印证定价权。但规模偏小（TTM约3亿美元），无显著专利护城河，面临ABB/Eaton等巨头竞争，品牌影响力局限北美细分市场。 【ai_exposure】Powell的中压开关设备直接受益于AI数据中心电力基础设施建设，数据中心已成为重要订单来源，但公司同时服务石油天然气、工业、公用事业等多元终端市场，AI驱动占比估计30-45%，非唯一增长引擎，AI退潮影响显著但不致命。 【risk】POWL现金充裕（~5.4亿）、无明显长期负债，财务结构健康。但作为电网设备小盘股，客户集中度高、产品线窄、依赖资本支出周期，估值弹性大（小盘溢价易回撤）。核电/电网政策敏感，地缘出口管制存在潜在扰动。综合评定为中等风险。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 48.66112198303979
+          "value": 56.37964774951076
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

@@ -10,17 +10,17 @@
     "tier": 1,
     "ai_role": "核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头",
     "price": 293.6000061035156,
-    "change_1d": 0.0,
-    "composite": 45.71265492498368,
+    "change_1d": -2.03,
+    "composite": 57.606001304631434,
     "tier_letter": "A",
     "description": [
       "Constellation Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头。当前内部综合评分 45。",
+      "AI 角色：核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头。当前内部综合评分 57。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:57",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$293.60",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "-3.30%",
-        "1月涨跌": "+0.64%",
-        "3月涨跌": "+6.33%",
-        "6月涨跌": "-13.27%",
-        "1年涨跌": "+0.71%",
+        "日内涨跌": "-2.03%",
+        "1日涨跌": "-2.03%",
+        "5日涨跌": "-5.68%",
+        "1月涨跌": "+2.48%",
+        "3月涨跌": "+6.05%",
+        "6月涨跌": "-12.55%",
+        "1年涨跌": "+2.92%",
         "YTD涨跌": "-19.84%",
         "20日均线": "303.00",
         "50日均线": "300.67",
         "200日均线": "326.76",
-        "RSI 14": "52.86",
-        "MACD": "10.34",
+        "RSI 14": "45.39",
+        "MACD": "2.74",
         "20日波动率": "49.18%",
         "成交量": "3,758,200",
-        "量比20日": "1.29",
-        "52周高点": "403.95",
-        "52周低点": "247.06",
-        "距52周高点": "-27.32%",
-        "距52周低点": "+18.84%",
-        "20日支撑": "277.70",
-        "20日压力": "322.78"
+        "量比20日": "1.33",
+        "52周高点": "412.70",
+        "52周低点": "243.30",
+        "距52周高点": "-28.86%",
+        "距52周低点": "+20.67%",
+        "20日支撑": "276.84",
+        "20日压力": "328.80"
       }
     },
     {
@@ -61,18 +61,18 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头",
         "投资确定性": "—",
-        "收入": "$6.07B",
+        "收入": "$29.87B",
         "收入同比": "63.80%",
         "毛利率": "23.26%",
         "经营利润率": "21.86%",
         "净利率": "12.69%",
         "经营现金流": "—",
-        "资本开支": "-$986.00M",
-        "自由现金流": "-$181.00M",
-        "FCF利润率": "-2.98%",
-        "现金及短投": "$3.64B",
+        "资本开支": "-$2.95B",
+        "自由现金流": "-$4.48B",
+        "FCF利润率": "-15.00%",
+        "现金及短投": "$864.00M",
         "总债务": "$22.47B",
-        "净现金/债务": "-$3.61B",
+        "净现金/债务": "-$6.39B",
         "流通股本": "361.19M",
         "ROE": "16.10%",
         "债务/权益": "0.21",
@@ -83,8 +83,8 @@
         "P/S": "3.55",
         "EV/Sales": "4.29",
         "EV/EBITDA": "16.09",
-        "EV/FCF": "-707.10",
-        "FCF收益率": "-0.17%",
+        "EV/FCF": "-28.58",
+        "FCF收益率": "-4.22%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 41.3095238095238,
+          "value": 51.42857142857142,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 82.0,
-          "reasoning": "CEG拥有全美最大核电机组群（约21GW），不可复制的运营Know-how与执照壁垒极高；与微软、Meta签订长期clean firm power PPA形成强客户锁定；核电新建成本与监管周期构成极高进入壁垒。主要弱点：毛利率偏低（23%）、电价波动敞口及政策依赖。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 72.0,
-          "reasoning": "CEG与微软、Meta签订长期核电PPA，AI数据中心用电需求是其增长核心叙事，但基础负荷核电本质上服务于全电网，非AI专属。AI退潮将压制溢价PPA续签预期，但现有合同锁定收益提供缓冲，AI暴露度高但非纯AI标的。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 55.904761904761905,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 65.71428571428571,
+          "value": 66.66666666666666,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 40.0,
+          "value": 68.28571428571428,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 44.64285714285714,
+          "value": 34.761904761904766,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 62.0,
-          "reasoning": "CEG拥有稳定核电PPA（微软/Meta长约）和充裕现金（36亿），clean firm power需求强劲。但长期负债72.5亿、估值偏高（核电溢价显著）、监管政策依赖（IRA补贴/核能政策）、客户集中度风险及核电运营合规压力构成中等风险。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 45.71265492498368,
+          "value": 57.606001304631434,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:57",
-      "data": {
-        "target_mean": 367.6815,
-        "target_high": 441.0,
-        "target_low": 272.4,
-        "upside_pct": 25.23,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 20,
-        "next_earnings": "2026-08-10",
-        "eps_estimate": 2.52649,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Constellation Energy（CEG）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】CEG拥有全美最大核电机组群（约21GW），不可复制的运营Know-how与执照壁垒极高；与微软、Meta签订长期clean firm power PPA形成强客户锁定；核电新建成本与监管周期构成极高进入壁垒。主要弱点：毛利率偏低（23%）、电价波动敞口及政策依赖。 【ai_exposure】CEG与微软、Meta签订长期核电PPA，AI数据中心用电需求是其增长核心叙事，但基础负荷核电本质上服务于全电网，非AI专属。AI退潮将压制溢价PPA续签预期，但现有合同锁定收益提供缓冲，AI暴露度高但非纯AI标的。 【risk】CEG拥有稳定核电PPA（微软/Meta长约）和充裕现金（36亿），clean firm power需求强劲。但长期负债72.5亿、估值偏高（核电溢价显著）、监管政策依赖（IRA补贴/核能政策）、客户集中度风险及核电运营合规压力构成中等风险。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 45.71265492498368
+          "value": 57.606001304631434
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

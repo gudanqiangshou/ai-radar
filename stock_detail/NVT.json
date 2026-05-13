@@ -10,17 +10,17 @@
     "tier": 2,
     "ai_role": "电气连接 + 配电柜，数据中心电气化",
     "price": 170.74000549316406,
-    "change_1d": 0.0,
-    "composite": 45.99315068493151,
+    "change_1d": -1.53,
+    "composite": 54.11611219830397,
     "tier_letter": "B",
     "description": [
       "nVent Electric 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：电气连接 + 配电柜，数据中心电气化。当前内部综合评分 45。",
+      "AI 角色：电气连接 + 配电柜，数据中心电气化。当前内部综合评分 54。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$170.74",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "+0.46%",
-        "1月涨跌": "+28.22%",
-        "3月涨跌": "+52.58%",
-        "6月涨跌": "+60.24%",
-        "1年涨跌": "+150.72%",
+        "日内涨跌": "-1.53%",
+        "1日涨跌": "-1.53%",
+        "5日涨跌": "+2.41%",
+        "1月涨跌": "+30.78%",
+        "3月涨跌": "+51.43%",
+        "6月涨跌": "+61.20%",
+        "1年涨跌": "+156.60%",
         "YTD涨跌": "+59.84%",
         "20日均线": "149.91",
         "50日均线": "130.88",
         "200日均线": "109.52",
-        "RSI 14": "76.29",
-        "MACD": "13.67",
+        "RSI 14": "73.04",
+        "MACD": "12.16",
         "20日波动率": "51.05%",
         "成交量": "1,686,200",
-        "量比20日": "0.70",
-        "52周高点": "173.39",
-        "52周低点": "64.02",
-        "距52周高点": "-1.53%",
-        "距52周低点": "+166.70%",
-        "20日支撑": "129.70",
-        "20日压力": "173.39"
+        "量比20日": "0.69",
+        "52周高点": "175.00",
+        "52周低点": "63.15",
+        "距52周高点": "-2.43%",
+        "距52周低点": "+170.37%",
+        "20日支撑": "128.60",
+        "20日压力": "175.00"
       }
     },
     {
@@ -61,15 +61,15 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "电气连接 + 配电柜，数据中心电气化",
         "投资确定性": "—",
-        "收入": "$1.24B",
+        "收入": "$4.33B",
         "收入同比": "53.50%",
         "毛利率": "37.01%",
         "经营利润率": "16.00%",
         "净利率": "11.37%",
         "经营现金流": "—",
-        "资本开支": "-$36.10M",
-        "自由现金流": "$49.10M",
-        "FCF利润率": "3.95%",
+        "资本开支": "-$108.30M",
+        "自由现金流": "$209.88M",
+        "FCF利润率": "4.85%",
         "现金及短投": "$190.00M",
         "总债务": "$1.70B",
         "净现金/债务": "-$1.35B",
@@ -83,8 +83,8 @@
         "P/S": "6.38",
         "EV/Sales": "6.73",
         "EV/EBITDA": "31.51",
-        "EV/FCF": "593.07",
-        "FCF收益率": "0.18%",
+        "EV/FCF": "138.75",
+        "FCF收益率": "0.76%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 58.45238095238095,
+          "value": 52.857142857142854,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 62.0,
-          "reasoning": "nVent在电气连接与配电柜领域拥有Schroff、Hoffman等成熟品牌及一定专利积累，数据中心电气化需求提供增量；但毛利率37%偏低、ROE仅13%显示护城河有限，面临ABB、Eaton、Legrand等强竞争，客户切换成本中等，规模效应不突出，整体护城河属中等偏上。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 52.0,
-          "reasoning": "nVent数据中心业务（Enclosures+电气连接）约占收入25-30%，AI驱动数据中心电气化是其核心增长叙事，2024年数据中心收入增速超40%。但工业、能源、基础设施仍占大头，AI并非唯一驱动。AI退潮将显著拖累增长预期，但不致命。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 81.47619047619048,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 45.476190476190474,
+          "value": 46.19047619047619,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 20.0,
+          "value": 38.261904761904766,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 73.21428571428571,
+          "value": 85.71428571428571,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 62.0,
-          "reasoning": "NVT受益于数据中心电气化与电网升级长期需求，业务结构较均衡。但长期负债15.4亿美元、现金仅1.9亿，杠杆偏高；客户集中度数据缺失存在不确定性；估值已反映较多增长预期，回撤风险中等；地缘政治与关税政策对工业电气设备供应链有一定扰动。综合风险处于低中水平。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 45.99315068493151,
+          "value": 54.11611219830397,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 181.3077,
-        "target_high": 200.0,
-        "target_low": 124.0,
-        "upside_pct": 6.19,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 13,
-        "next_earnings": "2026-07-31",
-        "eps_estimate": 1.15843,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "nVent Electric（NVT）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】nVent在电气连接与配电柜领域拥有Schroff、Hoffman等成熟品牌及一定专利积累，数据中心电气化需求提供增量；但毛利率37%偏低、ROE仅13%显示护城河有限，面临ABB、Eaton、Legrand等强竞争，客户切换成本中等，规模效应不突出，整体护城河属中等偏上。 【ai_exposure】nVent数据中心业务（Enclosures+电气连接）约占收入25-30%，AI驱动数据中心电气化是其核心增长叙事，2024年数据中心收入增速超40%。但工业、能源、基础设施仍占大头，AI并非唯一驱动。AI退潮将显著拖累增长预期，但不致命。 【risk】NVT受益于数据中心电气化与电网升级长期需求，业务结构较均衡。但长期负债15.4亿美元、现金仅1.9亿，杠杆偏高；客户集中度数据缺失存在不确定性；估值已反映较多增长预期，回撤风险中等；地缘政治与关税政策对工业电气设备供应链有一定扰动。综合风险处于低中水平。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 45.99315068493151
+          "value": 54.11611219830397
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

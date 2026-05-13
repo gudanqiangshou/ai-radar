@@ -10,16 +10,16 @@
     "tier": 2,
     "ai_role": "SOFC 燃料电池 — behind-the-meter 数据中心分布式电力",
     "price": 280.69000244140625,
-    "change_1d": 0.0,
-    "composite": 32.45759947814742,
+    "change_1d": -1.14,
+    "composite": 34.14220482713633,
     "tier_letter": "B",
     "description": [
       "Bloom Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：SOFC 燃料电池 — behind-the-meter 数据中心分布式电力。当前内部综合评分 32。",
+      "AI 角色：SOFC 燃料电池 — behind-the-meter 数据中心分布式电力。当前内部综合评分 34。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
     "status_label": "减持"
   },
   "panels": [
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$280.69",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "+7.53%",
-        "1月涨跌": "+58.88%",
-        "3月涨跌": "+101.89%",
-        "6月涨跌": "+150.86%",
-        "1年涨跌": "+1364.98%",
+        "日内涨跌": "-1.14%",
+        "1日涨跌": "-1.14%",
+        "5日涨跌": "+8.53%",
+        "1月涨跌": "+68.38%",
+        "3月涨跌": "+80.46%",
+        "6月涨跌": "+171.07%",
+        "1年涨跌": "+1384.35%",
         "YTD涨跌": "+184.42%",
         "20日均线": "252.30",
         "50日均线": "191.80",
         "200日均线": "123.18",
-        "RSI 14": "64.72",
-        "MACD": "40.31",
+        "RSI 14": "65.06",
+        "MACD": "27.55",
         "20日波动率": "113.80%",
         "成交量": "7,453,200",
-        "量比20日": "0.70",
-        "52周高点": "295.25",
-        "52周低点": "18.21",
-        "距52周高点": "-4.93%",
-        "距52周低点": "+1441.41%",
-        "20日支撑": "207.86",
-        "20日压力": "295.25"
+        "量比20日": "0.65",
+        "52周高点": "302.99",
+        "52周低点": "17.01",
+        "距52周高点": "-7.36%",
+        "距52周低点": "+1550.15%",
+        "20日支撑": "200.23",
+        "20日压力": "302.99"
       }
     },
     {
@@ -61,15 +61,15 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "SOFC 燃料电池 — behind-the-meter 数据中心分布式电力",
         "投资确定性": "—",
-        "收入": "$751.05M",
+        "收入": "$2.45B",
         "收入同比": "130.40%",
         "毛利率": "30.09%",
         "经营利润率": "9.61%",
         "净利率": "0.25%",
         "经营现金流": "—",
-        "资本开支": "-$26.18M",
-        "自由现金流": "$47.43M",
-        "FCF利润率": "6.31%",
+        "资本开支": "-$68.68M",
+        "自由现金流": "$265.52M",
+        "FCF利润率": "10.84%",
         "现金及短投": "$2.49B",
         "总债务": "$2.95B",
         "净现金/债务": "-$107.24M",
@@ -83,8 +83,8 @@
         "P/S": "32.60",
         "EV/Sales": "32.80",
         "EV/EBITDA": "346.86",
-        "EV/FCF": "1693.69",
-        "FCF收益率": "0.06%",
+        "EV/FCF": "302.53",
+        "FCF收益率": "0.33%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,33 +96,33 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 39.404761904761905,
+          "value": 26.666666666666668,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 52.0,
-          "reasoning": "Bloom拥有SOFC专有陶瓷技术与专利积累，客户以长期PPA合约锁定，切换成本较高。但规模效应弱、制造成本居高不下（毛利率仅30%、净利率趋零），竞争者（燃气轮机、PEMFC）持续施压，品牌局限企业级市场，护城河中等偏窄。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 52.0,
-          "reasoning": "Bloom Energy的SOFC产品直接对接AI数据中心behind-the-meter电力需求，微软、CoreWeave等大客户订单驱动近期增长，AI数据中心是其最重要的新增量市场。但公司仍有工业、医疗、公用事业等多元客户，AI占比估计30-50%，非全部依赖。AI退潮将显著压制增长预期但不致命。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 100.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
@@ -130,34 +130,34 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 5.0,
+          "value": 3.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 87.5,
+          "value": 91.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 32.0,
-          "reasoning": "长期负债(~26亿)接近现金储备(~25亿)，净债务接近零但利息覆盖压力大；SOFC技术路线面临电池储能与廉价太阳能替代威胁；客户集中度历史偏高（韩国SK等大客户依赖）；数据中心需求提供短期催化剂但政策补贴（ITC/IRA）变动风险显著；估值弹性大、波动率高，整体偏高风险。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 32.45759947814742,
+          "value": 34.14220482713633,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 234.175,
-        "target_high": 335.0,
-        "target_low": 55.0,
-        "upside_pct": -16.57,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 24,
-        "next_earnings": "2026-04-29",
-        "eps_estimate": 0.38743,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Bloom Energy（BE）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】Bloom拥有SOFC专有陶瓷技术与专利积累，客户以长期PPA合约锁定，切换成本较高。但规模效应弱、制造成本居高不下（毛利率仅30%、净利率趋零），竞争者（燃气轮机、PEMFC）持续施压，品牌局限企业级市场，护城河中等偏窄。 【ai_exposure】Bloom Energy的SOFC产品直接对接AI数据中心behind-the-meter电力需求，微软、CoreWeave等大客户订单驱动近期增长，AI数据中心是其最重要的新增量市场。但公司仍有工业、医疗、公用事业等多元客户，AI占比估计30-50%，非全部依赖。AI退潮将显著压制增长预期但不致命。 【risk】长期负债(~26亿)接近现金储备(~25亿)，净债务接近零但利息覆盖压力大；SOFC技术路线面临电池储能与廉价太阳能替代威胁；客户集中度历史偏高（韩国SK等大客户依赖）；数据中心需求提供短期催化剂但政策补贴（ITC/IRA）变动风险显著；估值弹性大、波动率高，整体偏高风险。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 32.45759947814742
+          "value": 34.14220482713633
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

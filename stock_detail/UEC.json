@@ -10,17 +10,17 @@
     "tier": 3,
     "ai_role": "铀矿 — 核电燃料上游，AI 电力主题受益",
     "price": 15.5,
-    "change_1d": 0.0,
-    "composite": 42.79680365296803,
+    "change_1d": -5.89,
+    "composite": 28.610567514677104,
     "tier_letter": "C",
     "description": [
       "Uranium Energy Corp 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：铀矿 — 核电燃料上游，AI 电力主题受益。当前内部综合评分 42。",
+      "AI 角色：铀矿 — 核电燃料上游，AI 电力主题受益。当前内部综合评分 28。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
-    "status_label": "观察"
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$15.50",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "+2.24%",
-        "1月涨跌": "+11.11%",
-        "3月涨跌": "+1.91%",
+        "日内涨跌": "-5.89%",
+        "1日涨跌": "-5.89%",
+        "5日涨跌": "-0.58%",
+        "1月涨跌": "+14.56%",
+        "3月涨跌": "-2.52%",
         "6月涨跌": "+33.74%",
-        "1年涨跌": "+175.31%",
+        "1年涨跌": "+180.29%",
         "YTD涨跌": "+18.23%",
         "20日均线": "14.98",
         "50日均线": "14.12",
         "200日均线": "13.56",
-        "RSI 14": "51.65",
-        "MACD": "0.38",
+        "RSI 14": "54.19",
+        "MACD": "0.40",
         "20日波动率": "90.14%",
         "成交量": "9,863,900",
-        "量比20日": "1.07",
-        "52周高点": "20.14",
-        "52周低点": "5.16",
-        "距52周高点": "-23.04%",
-        "距52周低点": "+200.39%",
-        "20日支撑": "13.41",
-        "20日压力": "16.47"
+        "量比20日": "1.10",
+        "52周高点": "20.34",
+        "52周低点": "5.03",
+        "距52周高点": "-23.80%",
+        "距52周低点": "+208.15%",
+        "20日支撑": "13.37",
+        "20日压力": "16.83"
       }
     },
     {
@@ -67,9 +67,9 @@
         "经营利润率": "-116.65%",
         "净利率": "0.00%",
         "经营现金流": "—",
-        "资本开支": "-$941,000",
-        "自由现金流": "-$39.06M",
-        "FCF利润率": "-193.38%",
+        "资本开支": "-$5.22M",
+        "自由现金流": "-$87.52M",
+        "FCF利润率": "-433.29%",
         "现金及短投": "$486.35M",
         "总债务": "$1.86M",
         "净现金/债务": "—",
@@ -83,8 +83,8 @@
         "P/S": "376.16",
         "EV/Sales": "352.18",
         "EV/EBITDA": "-68.50",
-        "EV/FCF": "-182.12",
-        "FCF收益率": "-0.51%",
+        "EV/FCF": "-81.28",
+        "FCF收益率": "-1.15%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,33 +96,33 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 16.19047619047619,
+          "value": 6.428571428571429,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 52.0,
-          "reasoning": "UEC核心护城河在于ISR采矿许可证稀缺性、怀俄明/德克萨斯资源储量及已建基础设施，监管壁垒较高。但技术差异化弱、无长期锁定合约、规模小（TTM营收仅2020万）、ROE为负，盈利能力尚未验证，护城河宽度中等偏下。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 28.0,
-          "reasoning": "UEC是铀矿上游供应商，核电是AI数据中心电力需求叙事的间接受益者。但铀价驱动因素多元（核电复兴、能源转型、地缘政治），AI数据中心用电仅是需求端之一。公司本身无直接AI收入，属间接/主题性受益，AI退潮对基本面冲击有限但估值溢价会收缩。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 23.952380952380956,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
@@ -130,34 +130,34 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 90.0,
+          "value": 68.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 58.92857142857142,
+          "value": 44.285714285714285,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 32.0,
-          "reasoning": "UEC为预生产阶段铀矿商，无稳定营收，依赖铀价周期与资本市场融资。现金储备约4.86亿尚可，但长期负债数据缺失、客户集中度不明。铀矿受地缘政治与核监管高度约束，估值受AI核电叙事驱动溢价明显，回撤风险大。综合评定为偏高风险。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 42.79680365296803,
+          "value": 28.610567514677104,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 19.16667,
-        "target_high": 26.75,
-        "target_low": 15.0,
-        "upside_pct": 23.66,
-        "rating": "none",
-        "rating_letter": "—",
-        "rating_change": "维持",
-        "previous_rating_letter": "—",
-        "n_analysts": 9,
-        "next_earnings": "2026-05-28",
-        "eps_estimate": -0.01,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Uranium Energy Corp（UEC）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】UEC核心护城河在于ISR采矿许可证稀缺性、怀俄明/德克萨斯资源储量及已建基础设施，监管壁垒较高。但技术差异化弱、无长期锁定合约、规模小（TTM营收仅2020万）、ROE为负，盈利能力尚未验证，护城河宽度中等偏下。 【ai_exposure】UEC是铀矿上游供应商，核电是AI数据中心电力需求叙事的间接受益者。但铀价驱动因素多元（核电复兴、能源转型、地缘政治），AI数据中心用电仅是需求端之一。公司本身无直接AI收入，属间接/主题性受益，AI退潮对基本面冲击有限但估值溢价会收缩。 【risk】UEC为预生产阶段铀矿商，无稳定营收，依赖铀价周期与资本市场融资。现金储备约4.86亿尚可，但长期负债数据缺失、客户集中度不明。铀矿受地缘政治与核监管高度约束，估值受AI核电叙事驱动溢价明显，回撤风险大。综合评定为偏高风险。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 42.79680365296803
+          "value": 28.610567514677104
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }

@@ -10,16 +10,16 @@
     "tier": 2,
     "ai_role": "Vogtle 核电 + 受监管公用事业稳健底仓",
     "price": 93.47000122070312,
-    "change_1d": 0.0,
-    "composite": 59.04598825831702,
+    "change_1d": 0.4,
+    "composite": 63.49641226353554,
     "tier_letter": "B",
     "description": [
       "Southern Company 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：Vogtle 核电 + 受监管公用事业稳健底仓。当前内部综合评分 59。",
+      "AI 角色：Vogtle 核电 + 受监管公用事业稳健底仓。当前内部综合评分 63。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "FMP 延迟 2026-05-13 14:02:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-13 14:51:56",
     "status_label": "持有"
   },
   "panels": [
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$93.47",
-        "日内涨跌": "+0.00%",
-        "1日涨跌": "+0.00%",
-        "5日涨跌": "+1.82%",
-        "1月涨跌": "-2.56%",
-        "3月涨跌": "+0.98%",
-        "6月涨跌": "+3.07%",
-        "1年涨跌": "+9.23%",
+        "日内涨跌": "+0.40%",
+        "1日涨跌": "+0.40%",
+        "5日涨跌": "+1.13%",
+        "1月涨跌": "-3.79%",
+        "3月涨跌": "+2.87%",
+        "6月涨跌": "+2.52%",
+        "1年涨跌": "+6.48%",
         "YTD涨跌": "+7.21%",
         "20日均线": "94.00",
         "50日均线": "95.54",
         "200日均线": "92.67",
-        "RSI 14": "55.69",
-        "MACD": "-0.37",
+        "RSI 14": "45.79",
+        "MACD": "-0.54",
         "20日波动率": "21.49%",
         "成交量": "4,509,400",
-        "量比20日": "0.93",
-        "52周高点": "99.72",
-        "52周低点": "84.08",
-        "距52周高点": "-6.27%",
-        "距52周低点": "+11.17%",
-        "20日支撑": "91.80",
-        "20日压力": "96.71"
+        "量比20日": "0.92",
+        "52周高点": "100.84",
+        "52周低点": "83.09",
+        "距52周高点": "-7.31%",
+        "距52周低点": "+12.49%",
+        "20日支撑": "91.60",
+        "20日压力": "97.40"
       }
     },
     {
@@ -61,15 +61,15 @@
         "AI产业链位置": "Power / Grid / Nuclear",
         "AI角色": "Vogtle 核电 + 受监管公用事业稳健底仓",
         "投资确定性": "—",
-        "收入": "$8.40B",
+        "收入": "$30.18B",
         "收入同比": "8.00%",
         "毛利率": "48.00%",
         "经营利润率": "25.82%",
         "净利率": "14.46%",
         "经营现金流": "—",
-        "资本开支": "-$2.94B",
-        "自由现金流": "-$1.72B",
-        "FCF利润率": "-20.46%",
+        "资本开支": "-$13.24B",
+        "自由现金流": "-$3.95B",
+        "FCF利润率": "-13.09%",
         "现金及短投": "$981.00M",
         "总债务": "$76.00B",
         "净现金/债务": "-$66.17B",
@@ -83,8 +83,8 @@
         "P/S": "3.49",
         "EV/Sales": "6.07",
         "EV/EBITDA": "13.11",
-        "EV/FCF": "-106.63",
-        "FCF收益率": "-1.63%",
+        "EV/FCF": "-46.38",
+        "FCF收益率": "-3.75%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -96,68 +96,68 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 55.833333333333336,
+          "value": 73.80952380952381,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe_5y, sector) +\n0.25 * percentile(gross_margin, sector) +\n0.20 * percentile(fcf_consistency, sector) +\n0.15 * percentile(revenue_stability, sector) +\n0.10 * percentile(net_margin, sector)"
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
         },
         {
           "label": "Moat",
-          "value": 82.0,
-          "reasoning": "受监管垄断特许经营构成最强护城河：服务区域独占、监管准入极高、客户无切换选项。Vogtle核电站提供稀缺核能Know-how与长期低碳基荷优势。规模效应显著，毛利率48%健康。主要弱点是ROE偏低（11%）及核电超支历史带来的资本效率隐忧。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "AI Exposure",
-          "value": 28.0,
-          "reasoning": "SO是受监管电力公用事业，AI数据中心用电增长带来需求侧利好，Vogtle核电提供稳定基荷支撑。但收入主要来自传统零售/工业电力，AI驱动的负荷增长占比有限，监管定价机制平滑了上行弹性，AI退潮对基本面冲击较小。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 34.33333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.50 * percentile(revenue_growth_yoy, sector) +\n0.30 * percentile(eps_growth_yoy, sector) +\n0.20 * percentile(forward_growth_estimate, sector)"
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
         },
         {
           "label": "Profitability",
-          "value": 73.0952380952381,
+          "value": 71.9047619047619,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.35 * percentile(net_margin, sector) +\n0.25 * percentile(roic, sector)"
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
         },
         {
           "label": "Valuation",
-          "value": 70.0,
+          "value": 67.92857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - 0.40 * percentile(forward_pe, sector) -\n      0.30 * percentile(ev_ebitda, sector) -\n      0.30 * percentile(ev_fcf, sector)"
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
         },
         {
           "label": "Momentum",
-          "value": 23.214285714285715,
+          "value": 29.523809523809526,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(distance_from_52w_high_inverted, sector)"
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
         },
         {
           "label": "Risk",
-          "value": 62.0,
-          "reasoning": "Vogtle核电已投运提供稳定现金流，受监管业务收入可预期。但长期负债高达671亿美元、现金仅9.81亿，财务杠杆极高；利率上升压力显著；核电超支历史遗留成本仍存；估值相对公用事业同行偏高，回撤空间有限。",
+          "value": null,
+          "reasoning": null,
           "is_ai": true,
           "is_quant": false
         },
         {
           "label": "Warren Composite",
-          "value": 59.04598825831702,
+          "value": 63.49641226353554,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-13 14:02:58",
-      "data": {
-        "target_mean": 101.76316,
-        "target_high": 114.0,
-        "target_low": 81.0,
-        "upside_pct": 8.87,
-        "rating": "hold",
-        "rating_letter": "B",
-        "rating_change": "维持",
-        "previous_rating_letter": "B",
-        "n_analysts": 19,
-        "next_earnings": "2026-07-30",
-        "eps_estimate": 1.01722,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-13 14:51:56",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -189,7 +176,7 @@
       "title": "Southern Company（SO）AI 投资观点",
       "type": "ai_text",
       "data": {
-        "text": "【moat】受监管垄断特许经营构成最强护城河：服务区域独占、监管准入极高、客户无切换选项。Vogtle核电站提供稀缺核能Know-how与长期低碳基荷优势。规模效应显著，毛利率48%健康。主要弱点是ROE偏低（11%）及核电超支历史带来的资本效率隐忧。 【ai_exposure】SO是受监管电力公用事业，AI数据中心用电增长带来需求侧利好，Vogtle核电提供稳定基荷支撑。但收入主要来自传统零售/工业电力，AI驱动的负荷增长占比有限，监管定价机制平滑了上行弹性，AI退潮对基本面冲击较小。 【risk】Vogtle核电已投运提供稳定现金流，受监管业务收入可预期。但长期负债高达671亿美元、现金仅9.81亿，财务杠杆极高；利率上升压力显著；核电超支历史遗留成本仍存；估值相对公用事业同行偏高，回撤空间有限。"
+        "text": "（待 Sonnet 4.6 生成长文，V1 暂用各维度 reasoning 拼接）"
       }
     },
     {
@@ -286,7 +273,7 @@
       "data": [
         {
           "date": "2026-05-12",
-          "value": 59.04598825831702
+          "value": 63.49641226353554
         },
         {
           "date": "2026-05-13",
@@ -295,5 +282,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-12"
 }
