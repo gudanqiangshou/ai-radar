@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "数据中心液冷 + 热管理，规模较小但高弹性",
-    "price": 279.20001220703125,
-    "change_1d": 1.06,
-    "composite": 43.21380952380953,
+    "price": 292.1600036621094,
+    "change_1d": 4.64,
+    "composite": 43.511428571428574,
     "tier_letter": "B",
     "description": [
       "Modine Manufacturing 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$279.20",
-        "日内涨跌": "+1.06%",
-        "1日涨跌": "+1.06%",
-        "5日涨跌": "+2.27%",
-        "1月涨跌": "+8.64%",
-        "3月涨跌": "+29.59%",
-        "6月涨跌": "+111.48%",
-        "1年涨跌": "+166.74%",
-        "YTD涨跌": "+98.28%",
-        "20日均线": "257.94",
-        "50日均线": "231.91",
-        "200日均线": "174.03",
-        "RSI 14": "63.29",
-        "MACD": "13.11",
-        "20日波动率": "52.37%",
-        "成交量": "794,900",
-        "量比20日": "0.89",
-        "52周高点": "287.30",
+        "最新价": "$292.16",
+        "日内涨跌": "+4.64%",
+        "1日涨跌": "+4.64%",
+        "5日涨跌": "+7.02%",
+        "1月涨跌": "+15.18%",
+        "3月涨跌": "+34.95%",
+        "6月涨跌": "+121.30%",
+        "1年涨跌": "+178.04%",
+        "YTD涨跌": "+107.49%",
+        "20日均线": "260.78",
+        "50日均线": "233.55",
+        "200日均线": "174.93",
+        "RSI 14": "67.72",
+        "MACD": "14.06",
+        "20日波动率": "53.43%",
+        "成交量": "1,042,804",
+        "量比20日": "1.18",
+        "52周高点": "294.05",
         "52周低点": "86.48",
-        "距52周高点": "-2.82%",
-        "距52周低点": "+222.85%",
+        "距52周高点": "-0.64%",
+        "距52周低点": "+237.84%",
         "20日支撑": "227.38",
-        "20日压力": "287.30"
+        "20日压力": "294.05"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "52.73M",
         "ROE": "10.02%",
         "债务/权益": "0.05",
-        "市值": "$14.72B",
+        "市值": "$15.41B",
         "企业价值": "$15.38B",
-        "市盈率 TTM": "151.74",
-        "预期市盈率": "37.85",
-        "市销率": "5.12",
+        "市盈率 TTM": "158.78",
+        "预期市盈率": "39.61",
+        "市销率": "5.36",
         "EV / 营收": "5.35",
         "EV / EBITDA": "36.67",
         "EV / FCF": "-140.41",
-        "FCF 收益率": "-0.74%",
+        "FCF 收益率": "-0.71%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 73.0952380952381,
+          "value": 79.04761904761904,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 43.21380952380953,
+          "value": 43.511428571428574,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,18 +167,18 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 7 位分析师 · 2026-05-14 14:53:58",
+      "title_meta": "Yahoo Finance · 7 位分析师 · 2026-05-15 05:16:02",
       "data": {
         "target_mean": 265.57144,
         "target_high": 310.0,
         "target_low": 250.0,
-        "upside_pct": -4.88,
+        "upside_pct": -9.1,
         "rating": "none",
         "rating_letter": "—",
         "rating_change": "维持",
         "previous_rating_letter": "—",
         "n_analysts": 7,
-        "next_earnings": "2026-05-20",
+        "next_earnings": "2026-05-27",
         "eps_estimate": 1.55447,
         "revenue_estimate": null
       },
@@ -198,82 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
+          "date": "2026-05-15",
           "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/MOD/news/",
-          "title": "Modine Manufacturing Company (MOD) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/MOD",
-          "title": "MOD: Modine Manufacturing Co - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/MOD/",
+          "url": "https://finance.yahoo.com/quote/MOD/hiring-trends",
           "title": "Modine Manufacturing Company (MOD) Stock Price, News, Quote ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/MOD/news?page=3",
-          "title": "Page 3 | Modine Manufacturing Company (MOD) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
+          "date": "2026-05-15",
           "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/MOD/community/",
-          "title": "Modine Manufacturing Company (MOD) Stock Forum & Discussion",
+          "url": "https://finance.yahoo.com/quote/MOD/press-releases/",
+          "title": "Modine Manufacturing Company (MOD) Latest Press Releases ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/MOD",
-          "title": "MOD Modine Manufacturing Company Stock Price & Overview",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
+          "date": "2026-05-15",
           "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/modine-manufacturing-mod-evaluating-valuation-161741519.html",
-          "title": "Modine Manufacturing (MOD): Evaluating Valuation After Strong ...",
+          "url": "https://finance.yahoo.com/quote/MOD/latest-news/",
+          "title": "META_TITLE_QUOTE - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
+          "date": "2026-05-14",
           "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/modine-manufacturing-company-mod-trending-130002825.html",
-          "title": "Modine Manufacturing Company (MOD) Is a Trending Stock",
+          "url": "https://finance.yahoo.com/quote/MMF.F/",
+          "title": "Modine Manufacturing Company (MMF.F) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/mod",
-          "title": "MOD Stock Price | Modine Manufacturing Co. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/modine-mod-stock-declines-while-225006551.html",
+          "title": "Modine (MOD) Stock Declines While Market Improves",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
+          "date": "2026-05-14",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/mod",
+          "title": "MOD | Modine Manufacturing Co. Stock Overview (U.S.: NYSE) | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/1MOD.MI/news/",
+          "title": "MODINE MANUFACTURING CO (1MOD.MI) latest stock news and ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/modine-manufacturing-mod-data-center-201432132.html",
+          "title": "How Modine Manufacturing (MOD) Data Center Ambitions Are Reframing the Investment Narrative",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
           "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/modine-mod-suffers-larger-drop-214504412.html",
-          "title": "Modine (MOD) Suffers a Larger Drop Than the General Market: Key Insights",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-rockstar-ai-stocks-red-152700832.html",
+          "title": "2 Rockstar AI Stocks with Red Hot Earnings Charts",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/know-beyond-why-modine-manufacturing-130003151.html",
+          "title": "Here is What to Know Beyond Why Modine Manufacturing Company (MOD) is a Trending Stock",
           "sentiment": null,
           "impact": null
         }
@@ -295,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 43.21380952380953
+        },
+        {
+          "date": "2026-05-15",
+          "value": 43.511428571428574
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

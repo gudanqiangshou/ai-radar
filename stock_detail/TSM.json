@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "全球代工龙头 — N3/N2 + CoWoS 几乎独家供 NVIDIA/AMD/AAPL",
-    "price": 399.79998779296875,
-    "change_1d": 0.63,
-    "composite": 79.19999999999997,
+    "price": 417.7200012207031,
+    "change_1d": 4.48,
+    "composite": 79.74999999999999,
     "tier_letter": "A",
     "description": [
       "Taiwan Semiconductor 的 AI 产业链位置为 Foundry / Packaging。",
@@ -19,7 +19,7 @@
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "买入区"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$399.80",
-        "日内涨跌": "+0.63%",
-        "1日涨跌": "+0.63%",
-        "5日涨跌": "-2.89%",
-        "1月涨跌": "+8.18%",
-        "3月涨跌": "+8.61%",
-        "6月涨跌": "+40.37%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+25.09%",
-        "20日均线": "393.43",
-        "50日均线": "365.38",
-        "200日均线": "312.04",
-        "RSI 14": "56.57",
-        "MACD": "11.54",
-        "20日波动率": "41.97%",
-        "成交量": "13,094,000",
-        "量比20日": "0.87",
-        "52周高点": "420.00",
+        "最新价": "$417.72",
+        "日内涨跌": "+4.48%",
+        "1日涨跌": "+4.48%",
+        "5日涨跌": "+1.47%",
+        "1月涨跌": "+9.96%",
+        "3月涨跌": "+14.02%",
+        "6月涨跌": "+46.66%",
+        "1年涨跌": "+114.48%",
+        "YTD涨跌": "+30.70%",
+        "20日均线": "396.15",
+        "50日均线": "366.58",
+        "200日均线": "312.92",
+        "RSI 14": "63.66",
+        "MACD": "12.10",
+        "20日波动率": "42.28%",
+        "成交量": "18,517,692",
+        "量比20日": "1.26",
+        "52周高点": "421.97",
         "52周低点": "188.81",
-        "距52周高点": "-4.81%",
-        "距52周低点": "+111.75%",
-        "20日支撑": "360.55",
-        "20日压力": "420.00"
+        "距52周高点": "-1.01%",
+        "距52周低点": "+121.24%",
+        "20日支撑": "364.25",
+        "20日压力": "421.97"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "$2.49T",
         "流通股本": "5.19B",
         "ROE": "36.21%",
-        "债务/权益": "0.49",
-        "市值": "$2.07T",
+        "债务/权益": "0.47",
+        "市值": "$2.17T",
         "企业价值": "$8.04T",
-        "市盈率 TTM": "33.80",
-        "预期市盈率": "20.72",
-        "市销率": "0.51",
+        "市盈率 TTM": "35.67",
+        "预期市盈率": "21.65",
+        "市销率": "0.53",
         "EV / 营收": "1.96",
         "EV / EBITDA": "2.81",
         "EV / FCF": "11.15",
-        "FCF 收益率": "34.80%",
+        "FCF 收益率": "33.31%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 2.0,
+          "value": 13.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 79.19999999999997,
+          "value": 79.74999999999999,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 463.4514,
+        "target_high": 600.0,
+        "target_low": 351.0,
+        "upside_pct": 10.95,
+        "rating": "none",
+        "rating_letter": "—",
+        "rating_change": "维持",
+        "previous_rating_letter": "—",
+        "n_analysts": 18,
+        "next_earnings": "2026-07-16",
+        "eps_estimate": 3.73677,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,26 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/taiwan-semiconductor-manufacturing-company-limited-170242427.html",
-          "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM): Top AI Stock to Buy According to Billionaire David Tepper on Robust Revenue Growth",
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/TSM/",
+          "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) stock price, news, quote and history - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/taiwan-semiconductor-manufacturing-company-limited-132651377.html",
-          "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) Rallied on Increasing Demand For AI Chips",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/tsm",
+          "title": "Taiwan Semiconductor Manufacturing Co. Ltd. ADR Stock Quote ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/makes-taiwan-semiconductor-manufacturing-company-132114821.html",
-          "title": "What Makes Taiwan Semiconductor Manufacturing Company Limited (TSM) One of the Best Companies?",
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/TSM.Z/financials/",
+          "title": "TSM.Z - | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/TSM/news?page=30",
+          "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/TSM",
+          "title": "TSM Taiwan Semiconductor Manufacturing Company Limited Stock ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/2330.TW/",
+          "title": "Taiwan Semiconductor Manufacturing Company Limited (2330.TW)",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/TSM/",
+          "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/TSM",
+          "title": "Taiwan Semiconductor Manufacturing Co Ltd TSM:NYSE - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/taiwan-semiconductor-tsm-stock-buy-182435613.html",
+          "title": "Taiwan Semiconductor (TSM) Stock Is a Buy Despite Slowing Sales ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TSM/news/",
+          "title": "Taiwan Semiconductor Manufacturing Company Limited (TSM)",
           "sentiment": null,
           "impact": null
         }
@@ -226,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 85.7894736842105
+        },
+        {
+          "date": "2026-05-15",
+          "value": 79.74999999999999
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

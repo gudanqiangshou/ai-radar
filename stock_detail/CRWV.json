@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "GPU 云第一 — 2025 IPO，Microsoft/NVIDIA 战略合作",
-    "price": 111.30999755859375,
-    "change_1d": 3.3,
+    "price": 114.21499633789062,
+    "change_1d": 2.61,
     "composite": 63.17857142857142,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$111.31",
-        "日内涨跌": "+3.30%",
-        "1日涨跌": "+3.30%",
-        "5日涨跌": "-2.49%",
-        "1月涨跌": "+0.94%",
-        "3月涨跌": "+16.31%",
-        "6月涨跌": "+43.89%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+40.33%",
-        "20日均线": "117.48",
-        "50日均线": "97.85",
-        "200日均线": "100.30",
-        "RSI 14": "49.92",
-        "MACD": "4.65",
-        "20日波动率": "87.44%",
-        "成交量": "23,470,800",
-        "量比20日": "0.78",
+        "最新价": "$114.21",
+        "日内涨跌": "+2.61%",
+        "1日涨跌": "+2.61%",
+        "5日涨跌": "+0.06%",
+        "1月涨跌": "-2.55%",
+        "3月涨跌": "+18.92%",
+        "6月涨跌": "+47.64%",
+        "1年涨跌": "+69.31%",
+        "YTD涨跌": "+43.99%",
+        "20日均线": "117.21",
+        "50日均线": "98.54",
+        "200日均线": "100.33",
+        "RSI 14": "51.86",
+        "MACD": "4.13",
+        "20日波动率": "87.95%",
+        "成交量": "26,705,846",
+        "量比20日": "0.92",
         "52周高点": "187.00",
         "52周低点": "61.33",
-        "距52周高点": "-40.48%",
-        "距52周低点": "+81.49%",
+        "距52周高点": "-38.92%",
+        "距52周低点": "+86.23%",
         "20日支撑": "101.12",
         "20日压力": "138.25"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$12.40B",
         "流通股本": "447.57M",
         "ROE": "-40.67%",
-        "债务/权益": "0.58",
-        "市值": "$60.73B",
+        "债务/权益": "0.56",
+        "市值": "$62.31B",
         "企业价值": "$93.61B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-165.39",
-        "市销率": "9.75",
+        "预期市盈率": "-169.70",
+        "市销率": "10.01",
         "EV / 营收": "15.03",
         "EV / EBITDA": "30.95",
         "EV / FCF": "-10.94",
-        "FCF 收益率": "-14.10%",
+        "FCF 收益率": "-13.74%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 31 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 141.22581,
+        "target_high": 295.0,
+        "target_low": 36.0,
+        "upside_pct": 23.65,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 31,
+        "next_earnings": "2026-05-08",
+        "eps_estimate": -1.02786,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/nebius-earnings-stock-price-ai-ef357f49?siteid=yhoof2&yptr=yahoo",
-          "title": "Nebius Stock Soars 18%. Why It’s Catching Up to CoreWeave as the Top ‘Neocloud.’",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-spills-beans-coreweave-193555364.html",
+          "title": "Jim Cramer Spills The Beans on CoreWeave (CRWV) and Short Sellers",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/nebius-stock-nbis-nebius-earnings-q12026/?src=A00220&yptr=yahoo",
-          "title": "Nebius Revenue Booms On AI Computer Infrastructure Spending",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CRWV.MX/news/",
+          "title": "COREWEAVE INC (CRWV.MX) Latest Stock News & Headlines ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Bloomberg",
-          "url": "https://finance.yahoo.com/news/nebius-reports-684-sales-jump-142541735.html",
-          "title": "Nebius Reports 684% Sales Jump on AI Data Center Growth",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRWV/news/",
+          "title": "CoreWeave, Inc. (CRWV) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/coreweave-ceo-sends-blunt-message-to-nvidia-stock-investors",
-          "title": "CoreWeave CEO sends blunt message to Nvidia stock investors",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/article/4904513-coreweave-q1-confirmed-the-math-doesnt-work",
+          "title": "CoreWeave Stock: Q1 Confirmed The Math Doesn't Work (NASDAQ:CRWV)",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/2026/05/07/coreweave-crwv-q1-earnings-report-2026.html",
+          "title": "CoreWeave (CRWV) Q1 earnings report 2026 - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/CRWV",
+          "title": "CRWV: CoreWeave - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CRWV",
+          "title": "CoreWeave, Inc. (CRWV) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/nearly-60-too-buy-coreweave-192000577.html",
+          "title": "Up Nearly 60% This Year, Is it Too Late to Buy CoreWeave Stock?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRWV/",
+          "title": "CoreWeave, Inc. (CRWV) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-coreweave-crwv-strengthening-ai-090553768.html",
+          "title": "Why CoreWeave (CRWV) Is Strengthening Its AI Cloud Growth Story ...",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 57.631578947368425
+        },
+        {
+          "date": "2026-05-15",
+          "value": 63.17857142857142
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

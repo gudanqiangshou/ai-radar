@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "电网 EPC 工程龙头，AI 电力扩张铲子",
-    "price": 773.719970703125,
-    "change_1d": 1.03,
-    "composite": 48.19,
+    "price": 780.0800170898438,
+    "change_1d": 0.82,
+    "composite": 48.21380952380952,
     "tier_letter": "B",
     "description": [
       "Quanta Services 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$773.72",
-        "日内涨跌": "+1.03%",
-        "1日涨跌": "+1.03%",
-        "5日涨跌": "+3.86%",
-        "1月涨跌": "+29.85%",
-        "3月涨跌": "+49.98%",
-        "6月涨跌": "+80.23%",
-        "1年涨跌": "+125.19%",
-        "YTD涨跌": "+75.97%",
-        "20日均线": "688.49",
-        "50日均线": "615.17",
-        "200日均线": "482.46",
-        "RSI 14": "71.97",
-        "MACD": "51.24",
-        "20日波动率": "62.87%",
-        "成交量": "1,146,400",
-        "量比20日": "0.96",
+        "最新价": "$780.08",
+        "日内涨跌": "+0.82%",
+        "1日涨跌": "+0.82%",
+        "5日涨跌": "+4.71%",
+        "1月涨跌": "+31.24%",
+        "3月涨跌": "+48.85%",
+        "6月涨跌": "+81.71%",
+        "1年涨跌": "+127.33%",
+        "YTD涨跌": "+77.42%",
+        "20日均线": "698.13",
+        "50日均线": "619.41",
+        "200日均线": "484.31",
+        "RSI 14": "72.80",
+        "MACD": "50.95",
+        "20日波动率": "62.40%",
+        "成交量": "825,889",
+        "量比20日": "0.68",
         "52周高点": "788.75",
         "52周低点": "320.56",
-        "距52周高点": "-1.91%",
-        "距52周低点": "+141.37%",
-        "20日支撑": "580.13",
+        "距52周高点": "-1.10%",
+        "距52周低点": "+143.35%",
+        "20日支撑": "584.58",
         "20日压力": "788.75"
       }
     },
@@ -76,11 +76,11 @@
         "流通股本": "150.06M",
         "ROE": "13.53%",
         "债务/权益": "0.05",
-        "市值": "$116.10B",
+        "市值": "$117.06B",
         "企业价值": "$122.16B",
-        "市盈率 TTM": "105.27",
-        "预期市盈率": "47.16",
-        "市销率": "3.85",
+        "市盈率 TTM": "107.30",
+        "预期市盈率": "47.55",
+        "市销率": "3.89",
         "EV / 营收": "4.06",
         "EV / EBITDA": "45.94",
         "EV / FCF": "117.78",
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 86.42857142857142,
+          "value": 86.90476190476188,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 48.19,
+          "value": 48.21380952380952,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 24 位分析师 · 2026-05-14 14:53:58",
+      "title_meta": "Yahoo Finance · 24 位分析师 · 2026-05-15 05:16:02",
       "data": {
         "target_mean": 747.8408,
         "target_high": 901.0,
         "target_low": 420.0,
-        "upside_pct": -3.34,
+        "upside_pct": -4.13,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,70 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PWR/press-releases/",
+          "title": "Quanta Services, Inc. (PWR) Latest Press Releases & Corporate News - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/PWR/news?page=5",
+          "title": "Quanta Services, Inc. (PWR) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/quanta-services-pwr-stock-slides-220003943.html",
+          "title": "Quanta Services (PWR) Stock Slides as Market Rises - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/PWR/latest-news/",
+          "title": "Quanta Services, Inc. (PWR) stock price, news, quote and history",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PWR/research-reports/",
+          "title": "Quanta Services, Inc. (PWR) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/mastec-lifts-2026-ebitda-1-152700546.html",
+          "title": "MasTec Lifts 2026 EBITDA to $1.5B: Is Execution Catching Up to Demand?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/construction-partners-climbs-14-past-151800588.html",
+          "title": "Construction Partners Climbs 14% in Past Month: Buy Now or Wait?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/quanta-services-pwr-benefits-energy-143735468.html",
+          "title": "Quanta Services (PWR) Benefits from Energy-Related Infrastructure Growth",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-13",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/PWR/news/",
@@ -210,70 +274,6 @@
           "source": "cnbc.com",
           "url": "https://www.cnbc.com/quotes/PWR",
           "title": "PWR: Quanta Services Inc - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/quanta-services-pwr-laps-stock-220004306.html",
-          "title": "Quanta Services (PWR) Laps the Stock Market: Here's Why",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PWR/",
-          "title": "Quanta Services, Inc. (PWR) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/PWR",
-          "title": "Quanta Services, Inc. (PWR) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/quanta-services-pwr-suffers-larger-231506578.html",
-          "title": "Quanta Services (PWR) Suffers a Larger Drop Than the General ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/PWR/latest-news/",
-          "title": "Quanta Services, Inc. (PWR) Stock Price, News, Quote & History ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PWR/insider-transactions/",
-          "title": "Quanta Services, Inc. (PWR) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/pwr",
-          "title": "PWR Stock Price | Quanta Services Inc. Stock Quote (U.S.: NYSE) | MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/quanta-services-pwr-stock-outpacing-144003428.html",
-          "title": "Is Quanta Services (PWR) Stock Outpacing Its Construction Peers ...",
           "sentiment": null,
           "impact": null
         }
@@ -295,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 48.47571428571428
+        },
+        {
+          "date": "2026-05-15",
+          "value": 48.21380952380952
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "互联型数据中心 REIT — 全球互联枢纽",
-    "price": 1077.280029296875,
-    "change_1d": -0.31,
-    "composite": 46.12142857142858,
+    "price": 1079.6800537109375,
+    "change_1d": 0.22,
+    "composite": 46.335714285714296,
     "tier_letter": "A",
     "description": [
       "Equinix 的 AI 产业链位置为 Data Center Infrastructure。",
@@ -19,7 +19,7 @@
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$1,077.28",
-        "日内涨跌": "-0.31%",
-        "1日涨跌": "-0.31%",
-        "5日涨跌": "+0.49%",
-        "1月涨跌": "+1.93%",
-        "3月涨跌": "+12.47%",
-        "6月涨跌": "+37.13%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+40.98%",
-        "20日均线": "1087.00",
-        "50日均线": "1026.37",
-        "200日均线": "858.05",
-        "RSI 14": "55.66",
-        "MACD": "14.46",
-        "20日波动率": "17.72%",
-        "成交量": "625,800",
-        "量比20日": "1.10",
+        "最新价": "$1,079.68",
+        "日内涨跌": "+0.22%",
+        "1日涨跌": "+0.22%",
+        "5日涨跌": "+0.71%",
+        "1月涨跌": "+2.11%",
+        "3月涨跌": "+12.91%",
+        "6月涨跌": "+37.44%",
+        "1年涨跌": "+25.66%",
+        "YTD涨跌": "+41.30%",
+        "20日均线": "1087.44",
+        "50日均线": "1028.58",
+        "200日均线": "859.39",
+        "RSI 14": "56.52",
+        "MACD": "13.40",
+        "20日波动率": "16.72%",
+        "成交量": "388,985",
+        "量比20日": "0.69",
         "52周高点": "1128.68",
         "52周低点": "710.52",
-        "距52周高点": "-4.55%",
-        "距52周低点": "+51.62%",
+        "距52周高点": "-4.34%",
+        "距52周低点": "+51.96%",
         "20日支撑": "1045.00",
         "20日压力": "1128.68"
       }
@@ -76,11 +76,11 @@
         "流通股本": "98.62M",
         "ROE": "10.06%",
         "债务/权益": "0.22",
-        "市值": "$106.25B",
+        "市值": "$106.48B",
         "企业价值": "$128.24B",
-        "市盈率 TTM": "74.60",
-        "预期市盈率": "57.22",
-        "市销率": "11.15",
+        "市盈率 TTM": "74.77",
+        "预期市盈率": "57.35",
+        "市销率": "11.18",
         "EV / 营收": "13.46",
         "EV / EBITDA": "29.95",
         "EV / FCF": "47.06",
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 56.42857142857142,
+          "value": 60.714285714285715,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 46.12142857142858,
+          "value": 46.335714285714296,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 28 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 1197.1072,
+        "target_high": 1350.0,
+        "target_low": 950.0,
+        "upside_pct": 10.88,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 28,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 4.775,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/mizuho-raises-pt-equinix-inc-170054019.html",
-          "title": "Mizuho Raises PT on Equinix, Inc. (EQIX)",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EQIX/press-releases/",
+          "title": "Equinix, Inc. (EQIX) Latest Press Releases & Corporate News - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Investment Monitor",
-          "url": "https://www.investmentmonitor.ai/news/equinix-190m-fourth-malaysia-data-centre/",
-          "title": "Equinix to invest $190m in fourth Malaysia data centre",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EQIX/sec-filing/",
+          "title": "Equinix, Inc. (EQIX) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/investment-fund-inflation-protection-e0626ddd?siteid=yhoof2&yptr=yahoo",
-          "title": "Worried About Inflation? This Fund Offers Unique Protection.",
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/EQIX.VI/news/",
+          "title": "Equinix, Inc. (EQIX.VI) latest stock news and headlines – Yahoo ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Reuters",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/equinix-create-malaysia-data-centre-092151181.html",
-          "title": "Equinix to create new Malaysia data centre with over $190 million investment",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/hold-equinix-eqix-132558995.html",
+          "title": "Should You Hold Equinix (EQIX)? - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EQIX/",
+          "title": "Equinix, Inc. (EQIX) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EQIX/news/",
+          "title": "Equinix, Inc. (EQIX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EQIX/latest-news/",
+          "title": "Equinix, Inc. (EQIX) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EQIX.VI/",
+          "title": "Equinix, Inc. (EQIX.VI) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/equinix-eqix-stock-falls-amid-231503963.html",
+          "title": "Equinix (EQIX) Stock Falls Amid Market Uptick: What Investors Need ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/equinix-stock-eqix-underperforming-real-122925629.html",
+          "title": "Equinix Stock: Is EQIX Underperforming the Real Estate Sector?",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 49.31578947368422
+        },
+        {
+          "date": "2026-05-15",
+          "value": 46.335714285714296
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

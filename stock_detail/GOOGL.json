@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Google Cloud + 自研 TPU + Gemini — 全栈 AI 玩家",
-    "price": 402.6199951171875,
-    "change_1d": 3.94,
+    "price": 401.07000732421875,
+    "change_1d": -0.38,
     "composite": 59.35000000000001,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$402.62",
-        "日内涨跌": "+3.94%",
-        "1日涨跌": "+3.94%",
-        "5日涨跌": "+0.45%",
-        "1月涨跌": "+25.31%",
-        "3月涨跌": "+30.30%",
-        "6月涨跌": "+45.66%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+27.76%",
-        "20日均线": "366.88",
-        "50日均线": "328.86",
-        "200日均线": "289.28",
-        "RSI 14": "75.58",
-        "MACD": "20.94",
-        "20日波动率": "41.98%",
-        "成交量": "28,081,700",
-        "量比20日": "1.01",
+        "最新价": "$401.07",
+        "日内涨跌": "-0.38%",
+        "1日涨跌": "-0.38%",
+        "5日涨跌": "+0.07%",
+        "1月涨跌": "+20.47%",
+        "3月涨跌": "+31.19%",
+        "6月涨跌": "+45.10%",
+        "1年涨跌": "+142.53%",
+        "YTD涨跌": "+27.26%",
+        "20日均线": "370.14",
+        "50日均线": "330.82",
+        "200日均线": "290.30",
+        "RSI 14": "74.16",
+        "MACD": "20.81",
+        "20日波动率": "42.00%",
+        "成交量": "21,077,099",
+        "量比20日": "0.75",
         "52周高点": "403.70",
         "52周低点": "159.61",
-        "距52周高点": "-0.27%",
-        "距52周低点": "+152.25%",
+        "距52周高点": "-0.65%",
+        "距52周低点": "+151.28%",
         "20日支撑": "331.35",
         "20日压力": "403.70"
       }
@@ -76,15 +76,15 @@
         "流通股本": "5.82B",
         "ROE": "38.88%",
         "债务/权益": "0.02",
-        "市值": "$4.88T",
+        "市值": "$4.86T",
         "企业价值": "$4.85T",
-        "市盈率 TTM": "29.58",
-        "预期市盈率": "27.83",
-        "市销率": "11.55",
+        "市盈率 TTM": "30.55",
+        "预期市盈率": "27.73",
+        "市销率": "11.50",
         "EV / 营收": "11.47",
         "EV / EBITDA": "30.05",
         "EV / FCF": "176.44",
-        "FCF 收益率": "0.56%",
+        "FCF 收益率": "0.57%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 52 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 427.88712,
+        "target_high": 515.0,
+        "target_low": 334.22,
+        "upside_pct": 6.69,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 52,
+        "next_earnings": "2026-07-24",
+        "eps_estimate": 2.88458,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/apple-stock-notches-fresh-record-as-tech-rebounds-175112036.html",
-          "title": "Apple stock notches fresh record as tech rebounds",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/googl",
+          "title": "GOOGL Stock Price | Alphabet Inc. Cl A Stock Quote (U.S.: Nasdaq) | MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/news/anthropic-debuts-claude-for-small-business-as-it-continues-its-enterprise-software-push-160500355.html",
-          "title": "Anthropic debuts Claude for Small Business as it continues its enterprise software push",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/goog",
+          "title": "Alphabet Inc. Cl C Stock Quote (U.S.: Nasdaq) - GOOG - MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Moneywise",
-          "url": "https://finance.yahoo.com/news/forget-chromebooks-pixelbooks-google-just-202500646.html",
-          "title": "Forget Chromebooks and Pixelbooks: Google just introduced Googlebooks, which are specifically designed for AI",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/GOOGL",
+          "title": "GOOGL: Alphabet Class A - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/fervo-energy-ipo-stock-price-bdcb8dcc?siteid=yhoof2&yptr=yahoo",
-          "title": "Bill Gates-Backed Stock Fervo Energy Jumps 35% in Debut",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GOOG/",
+          "title": "Alphabet Inc. (GOOG) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GOOGL/",
+          "title": "Alphabet Inc. (GOOGL) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/GOOGL/news?page=48",
+          "title": "Alphabet Inc. (GOOGL) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/article/4902412-alphabet-buy-ahead-of-a-strong-catalyst",
+          "title": "Alphabet: Buy Ahead Of A Strong Catalyst",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GOOGL.SN/news?ncid=yahooproperties_peoplealso_km0o32z3jzm",
+          "title": "Alphabet Inc. (GOOGL.SN) Latest Stock News & Headlines - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/GOOGL/news/",
+          "title": "Alphabet Inc. (GOOGL) latest stock news and headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/alphabet-soars-googl-stock-still-123002510.html",
+          "title": "Alphabet Soars — Is GOOGL Stock Still a Buy for 2026?",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 54.05263157894738
+        },
+        {
+          "date": "2026-05-15",
+          "value": 59.35000000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

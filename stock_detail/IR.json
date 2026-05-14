@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "工业流体管理 + 压缩机 — 数据中心冷却",
-    "price": 71.38999938964844,
-    "change_1d": -2.49,
+    "price": 71.81999969482422,
+    "change_1d": 0.6,
     "composite": 48.0,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$71.39",
-        "日内涨跌": "-2.49%",
-        "1日涨跌": "-2.49%",
-        "5日涨跌": "-5.76%",
-        "1月涨跌": "-18.59%",
-        "3月涨跌": "-24.22%",
-        "6月涨跌": "-5.41%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-10.49%",
-        "20日均线": "79.79",
-        "50日均线": "81.98",
-        "200日均线": "82.32",
-        "RSI 14": "31.64",
-        "MACD": "-2.79",
-        "20日波动率": "35.25%",
-        "成交量": "5,484,500",
-        "量比20日": "1.37",
+        "最新价": "$71.82",
+        "日内涨跌": "+0.60%",
+        "1日涨跌": "+0.60%",
+        "5日涨跌": "-5.19%",
+        "1月涨跌": "-18.68%",
+        "3月涨跌": "-27.10%",
+        "6月涨跌": "-4.84%",
+        "1年涨跌": "-13.72%",
+        "YTD涨跌": "-9.95%",
+        "20日均线": "79.20",
+        "50日均线": "81.58",
+        "200日均线": "82.24",
+        "RSI 14": "32.96",
+        "MACD": "-2.96",
+        "20日波动率": "35.37%",
+        "成交量": "2,865,418",
+        "量比20日": "0.72",
         "52周高点": "100.96",
-        "52周低点": "70.97",
-        "距52周高点": "-29.29%",
-        "距52周低点": "+0.59%",
-        "20日支撑": "70.97",
+        "52周低点": "70.26",
+        "距52周高点": "-28.86%",
+        "距52周低点": "+2.22%",
+        "20日支撑": "70.26",
         "20日压力": "87.52"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "391.34M",
         "ROE": "5.72%",
         "债务/权益": "0.18",
-        "市值": "$27.94B",
+        "市值": "$28.11B",
         "企业价值": "$31.66B",
-        "市盈率 TTM": "49.58",
-        "预期市盈率": "18.56",
-        "市销率": "3.59",
+        "市盈率 TTM": "48.53",
+        "预期市盈率": "18.67",
+        "市销率": "3.61",
         "EV / 营收": "4.07",
         "EV / EBITDA": "15.66",
         "EV / FCF": "30.58",
-        "FCF 收益率": "3.71%",
+        "FCF 收益率": "3.68%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
-      "data": null,
+      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 94.0,
+        "target_high": 115.0,
+        "target_low": 82.0,
+        "upside_pct": 30.88,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 15,
+        "next_earnings": "2026-04-29",
+        "eps_estimate": 0.82667,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/IR/news/",
+          "title": "Ingersoll Rand Inc. (IR) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/IR",
+          "title": "IR: Ingersoll Rand Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ir?eafs_enabled=false",
+          "title": "IR Stock Price | Ingersoll Rand Inc. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/IR",
+          "title": "Ingersoll Rand Inc. (IR) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/IR/latest-news/",
+          "title": "Ingersoll Rand Inc. (IR) Stock Price, News, Quote & History - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/ingersoll-rand-stock-ir-underperforming-133615459.html",
+          "title": "Ingersoll Rand Stock: Is IR Underperforming the Industrial Sector?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/news/weitz-large-cap-equity-fund-131946913.html",
+          "title": "Weitz Large Cap Equity Fund Backs Ingersoll Rand (IR) on Earnings Setup",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zebra-technologies-beats-q1-earnings-153200211.html",
+          "title": "Zebra Technologies Beats Q1 Earnings Estimates, Raises 2026 Outlook",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Barchart",
+          "url": "https://www.barchart.com/story/news/1872256/are-wall-street-analysts-bullish-on-ingersoll-rand-stock",
+          "title": "Are Wall Street Analysts Bullish on Ingersoll Rand Stock?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/time-reassess-ingersoll-rand-ir-071101528.html",
+          "title": "Is It Time To Reassess Ingersoll Rand (IR) After The Recent Share Price Pullback",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 48.0
+        },
+        {
+          "date": "2026-05-15",
+          "value": 48.0
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

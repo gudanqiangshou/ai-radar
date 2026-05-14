@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 2,
     "ai_role": "通用数据库 + Atlas Vector Search 切入 RAG",
-    "price": 303.0,
-    "change_1d": -1.85,
+    "price": 303.0899963378906,
+    "change_1d": 0.03,
     "composite": 49.69375,
     "tier_letter": "B",
     "description": [
@@ -19,7 +19,7 @@
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$303.00",
-        "日内涨跌": "-1.85%",
-        "1日涨跌": "-1.85%",
-        "5日涨跌": "+1.18%",
-        "1月涨跌": "+28.31%",
-        "3月涨跌": "-15.06%",
-        "6月涨跌": "-14.07%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-24.18%",
-        "20日均线": "270.62",
-        "50日均线": "260.59",
-        "200日均线": "319.30",
-        "RSI 14": "65.06",
-        "MACD": "10.42",
-        "20日波动率": "56.63%",
-        "成交量": "1,545,700",
-        "量比20日": "0.95",
+        "最新价": "$303.09",
+        "日内涨跌": "+0.03%",
+        "1日涨跌": "+0.03%",
+        "5日涨跌": "+1.21%",
+        "1月涨跌": "+29.75%",
+        "3月涨跌": "-17.73%",
+        "6月涨跌": "-14.04%",
+        "1年涨跌": "+56.44%",
+        "YTD涨跌": "-24.16%",
+        "20日均线": "273.22",
+        "50日均线": "261.69",
+        "200日均线": "319.61",
+        "RSI 14": "65.09",
+        "MACD": "11.23",
+        "20日波动率": "56.37%",
+        "成交量": "1,143,279",
+        "量比20日": "0.72",
         "52周高点": "444.72",
         "52周低点": "182.43",
-        "距52周高点": "-31.87%",
-        "距52周低点": "+66.09%",
+        "距52周高点": "-31.85%",
+        "距52周低点": "+66.14%",
         "20日支撑": "240.62",
         "20日压力": "317.21"
       }
@@ -76,11 +76,11 @@
         "流通股本": "80.37M",
         "ROE": "-2.48%",
         "债务/权益": "0.00",
-        "市值": "$24.35B",
+        "市值": "$24.36B",
         "企业价值": "$22.03B",
         "市盈率 TTM": "—",
-        "预期市盈率": "42.88",
-        "市销率": "9.88",
+        "预期市盈率": "42.79",
+        "市销率": "9.89",
         "EV / 营收": "8.94",
         "EV / EBITDA": "-201.90",
         "EV / FCF": "47.54",
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 36 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 347.1011,
+        "target_high": 495.0,
+        "target_low": 250.0,
+        "upside_pct": 14.52,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 36,
+        "next_earnings": "2026-05-29",
+        "eps_estimate": 1.18275,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/mongodb-ai-push-ireland-expansion-043504943.html",
-          "title": "MongoDB AI Push And Ireland Expansion Shape Investor Expectations",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-mongodb-mdb-shares-trading-014147271.html",
+          "title": "Why MongoDB (MDB) Shares Are Trading Lower Today",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mongodb-apos-modest-upside-good-153615344.html",
-          "title": "MongoDB's Modest Upside Good Enough to Support Stock, Oppenheimer Says",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/buy-sell-hold-mongodb-stock-141300239.html",
+          "title": "Should You Buy, Sell or Hold MongoDB Stock Post Q4 Earnings?",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mongodb-rises-citi-opens-positive-110623846.html",
-          "title": "MongoDB rises as Citi opens positive catalyst watch on stock, lifts target price",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MDB/sec-filing/",
+          "title": "MongoDB, Inc. (MDB) Stock Price, News, Quote & History - Yahoo ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lack-near-term-estimate-upside-134356921.html",
-          "title": "Lack Of Near-Term Estimate Upside Pressured MongoDB (MDB) in Q1",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MDB/news?page=5",
+          "title": "MongoDB, Inc. (MDB) Latest Stock News | Seeking Alpha",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-08",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/mongodb-mdb-surpasses-market-returns-221501582.html",
-          "title": "MongoDB (MDB) Surpasses Market Returns: Some Facts Worth Knowing",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/mdb",
+          "title": "MongoDB Inc. Stock Quote (U.S.: Nasdaq) - MDB - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/MDB",
+          "title": "MDB: MongoDB Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MDB",
+          "title": "MongoDB, Inc. (MDB) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/MDB/historical-prices?eafs_enabled=false",
+          "title": "MongoDB Inc. Price & News - WSJ | MDB",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MDB/",
+          "title": "MongoDB, Inc. (MDB) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MDB/news/",
+          "title": "MongoDB, Inc. (MDB) - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 64.14035087719297
+        },
+        {
+          "date": "2026-05-15",
+          "value": 49.69375
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

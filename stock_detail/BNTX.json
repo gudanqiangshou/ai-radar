@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 3,
     "ai_role": "mRNA + AI 靶点筛选 — 肿瘤个体化治疗",
-    "price": 92.2300033569336,
-    "change_1d": -1.53,
-    "composite": 53.775000000000006,
+    "price": 91.98999786376953,
+    "change_1d": -0.26,
+    "composite": 55.19166666666667,
     "tier_letter": "C",
     "description": [
       "BioNTech 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：mRNA + AI 靶点筛选 — 肿瘤个体化治疗。当前内部综合评分 53。",
+      "AI 角色：mRNA + AI 靶点筛选 — 肿瘤个体化治疗。当前内部综合评分 55。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$92.23",
-        "日内涨跌": "-1.53%",
-        "1日涨跌": "-1.53%",
-        "5日涨跌": "-2.01%",
-        "1月涨跌": "-4.62%",
-        "3月涨跌": "-12.79%",
-        "6月涨跌": "-10.53%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-4.61%",
-        "20日均线": "100.23",
-        "50日均线": "95.42",
-        "200日均线": "101.90",
-        "RSI 14": "39.58",
-        "MACD": "-1.24",
-        "20日波动率": "42.74%",
-        "成交量": "879,900",
-        "量比20日": "0.95",
+        "最新价": "$91.99",
+        "日内涨跌": "-0.26%",
+        "1日涨跌": "-0.26%",
+        "5日涨跌": "-2.27%",
+        "1月涨跌": "-6.52%",
+        "3月涨跌": "-13.11%",
+        "6月涨跌": "-10.77%",
+        "1年涨跌": "-0.10%",
+        "YTD涨跌": "-4.86%",
+        "20日均线": "99.72",
+        "50日均线": "95.18",
+        "200日均线": "101.81",
+        "RSI 14": "39.19",
+        "MACD": "-1.47",
+        "20日波动率": "41.25%",
+        "成交量": "643,135",
+        "量比20日": "0.68",
         "52周高点": "124.00",
         "52周低点": "79.52",
-        "距52周高点": "-25.62%",
-        "距52周低点": "+15.98%",
+        "距52周高点": "-25.81%",
+        "距52周低点": "+15.68%",
         "20日支撑": "90.79",
         "20日压力": "113.26"
       }
@@ -76,11 +76,11 @@
         "流通股本": "252.88M",
         "ROE": "-6.66%",
         "债务/权益": "0.01",
-        "市值": "$23.32B",
+        "市值": "$23.26B",
         "企业价值": "$9.92B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-16.80",
-        "市销率": "8.31",
+        "预期市盈率": "-16.76",
+        "市销率": "8.29",
         "EV / 营收": "3.54",
         "EV / EBITDA": "-8.33",
         "EV / FCF": "-23.17",
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 20.0,
+          "value": 26.666666666666664,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 30.833333333333336,
+          "value": 45.833333333333336,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 53.775000000000006,
+          "value": 55.19166666666667,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 127.78373,
+        "target_high": 158.1487,
+        "target_low": 75.79549,
+        "upside_pct": 38.91,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 18,
+        "next_earnings": "2026-08-04",
+        "eps_estimate": -2.40197,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,72 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/BNTX",
+          "title": "BNTX: Biontech SE - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/BNTX/news/",
+          "title": "BioNTech SE (BNTX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/BNTX",
+          "title": "BioNTech SE (BNTX) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/biontech-bntx-surges-6-1-141000347.html",
+          "title": "BioNTech (BNTX) Surges 6.1%: Is This an Indication of Further Gains?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/biontech-bntx-down-7-9-230944709.html",
+          "title": "BioNTech (BNTX) Is Down 7.9% After $2 Billion Bristol Myers ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/BNTX.VI/news/",
+          "title": "BioNTech SE (BNTX.VI) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/BNTX/news?page=14",
+          "title": "BioNTech SE (BNTX) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bntx-stock-news-biontech-announces-142727138.html",
+          "title": "BNTX Stock News: BioNTech Announces Layoffs as Covid-19 ...",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +271,13 @@
         {
           "date": "2026-05-13",
           "value": 53.775000000000006
+        },
+        {
+          "date": "2026-05-15",
+          "value": 55.19166666666667
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

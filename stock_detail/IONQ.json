@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 2,
     "ai_role": "离子阱量子计算 — 上市量子第一股",
-    "price": 55.2599983215332,
-    "change_1d": -1.09,
+    "price": 57.470001220703125,
+    "change_1d": 4.0,
     "composite": 69.21666666666667,
     "tier_letter": "B",
     "description": [
@@ -19,7 +19,7 @@
       "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$55.26",
-        "日内涨跌": "-1.09%",
-        "1日涨跌": "-1.09%",
-        "5日涨跌": "+12.23%",
-        "1月涨跌": "+85.69%",
-        "3月涨跌": "+76.55%",
-        "6月涨跌": "+17.13%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+18.15%",
-        "20日均线": "47.53",
-        "50日均线": "38.26",
-        "200日均线": "46.83",
-        "RSI 14": "67.45",
-        "MACD": "4.69",
-        "20日波动率": "91.18%",
-        "成交量": "24,065,300",
-        "量比20日": "0.59",
+        "最新价": "$57.47",
+        "日内涨跌": "+4.00%",
+        "1日涨跌": "+4.00%",
+        "5日涨跌": "+16.71%",
+        "1月涨跌": "+60.71%",
+        "3月涨跌": "+68.48%",
+        "6月涨跌": "+21.81%",
+        "1年涨跌": "+72.01%",
+        "YTD涨跌": "+22.88%",
+        "20日均线": "48.17",
+        "50日均线": "38.66",
+        "200日均线": "46.92",
+        "RSI 14": "69.75",
+        "MACD": "4.93",
+        "20日波动率": "91.40%",
+        "成交量": "26,211,208",
+        "量比20日": "0.76",
         "52周高点": "84.64",
         "52周低点": "25.89",
-        "距52周高点": "-34.71%",
-        "距52周低点": "+113.44%",
+        "距52周高点": "-32.10%",
+        "距52周低点": "+121.98%",
         "20日支撑": "39.76",
         "20日压力": "59.15"
       }
@@ -76,15 +76,15 @@
         "流通股本": "373.27M",
         "ROE": "11.29%",
         "债务/权益": "0.00",
-        "市值": "$20.63B",
+        "市值": "$21.45B",
         "企业价值": "$18.64B",
-        "市盈率 TTM": "141.69",
-        "预期市盈率": "-53.01",
-        "市销率": "110.23",
+        "市盈率 TTM": "147.36",
+        "预期市盈率": "-55.13",
+        "市销率": "114.64",
         "EV / 营收": "99.60",
         "EV / EBITDA": "-28.14",
         "EV / FCF": "-204.00",
-        "FCF 收益率": "-0.44%",
+        "FCF 收益率": "-0.43%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 14 位分析师 · 2026-05-15 05:16:09",
+      "data": {
+        "target_mean": 66.37714,
+        "target_high": 100.0,
+        "target_low": 44.78,
+        "upside_pct": 15.5,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 14,
+        "next_earnings": "2026-08-06",
+        "eps_estimate": -0.29642,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/13/heres-how-ionq-can-transform-a-1000-investment-int/",
-          "title": "Here's How IonQ Could Transform a $1,000 Investment Into $10,000 in 10 Years",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/IONQ/community/",
+          "title": "IonQ, Inc. (IONQ) Stock Forum & Discussion - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/best-quantum-stock-following-q1-190000689.html",
-          "title": "Best Quantum Stock Following Q1 2026: IONQ, QBTS or RGTI?",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/IONQ.MX/latest-news/",
+          "title": "IonQ, Inc. (IONQ.MX) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/rgti-hits-technical-milestones-amid-150400751.html",
-          "title": "RGTI Hits Technical Milestones Amid Early Demand: Time to Buy or Hold?",
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/1IONQ.MI/news/",
+          "title": "IONQ INC (1IONQ.MI) latest stock news and headlines – Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/rigetti-has-a-6-billion-market-cap-and-7-million-in-revenue-here-are-the-two-stocks-worth-owning-instead/",
-          "title": "Rigetti Has a $6 Billion Market Cap and $7 Million in Revenue. Here Are the Two Stocks Worth Owning Instead",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/IONQ/latest-news/",
+          "title": "IonQ, Inc. (IONQ) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Trefis",
-          "url": "https://www.trefis.com/articles/599265/how-low-can-ionq-stock-go/2026-05-13",
-          "title": "How Low Can IONQ Stock Go?",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/IONQ/news/",
+          "title": "IonQ, Inc. (IONQ) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/IONQ.MX/news/",
+          "title": "IonQ, Inc. (IONQ.MX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ionq",
+          "title": "IONQ Stock Price | IonQ Inc. Stock Quote (U.S.: NYSE) - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/0YB0.MU/news/",
+          "title": "IonQ, Inc. (0YB0.MU) latest stock news and headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/IONQ/press-releases/",
+          "title": "IonQ, Inc. (IONQ) Latest Press Releases & Corporate News",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/IONQ",
+          "title": "IONQ: IONQ Inc - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 63.47368421052631
+        },
+        {
+          "date": "2026-05-15",
+          "value": 69.21666666666667
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

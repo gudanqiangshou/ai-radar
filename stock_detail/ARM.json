@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座",
-    "price": 221.2100067138672,
-    "change_1d": 6.39,
-    "composite": 52.036363636363646,
+    "price": 228.5,
+    "change_1d": 3.3,
+    "composite": 52.218181818181826,
     "tier_letter": "B",
     "description": [
       "ARM Holdings 的 AI 产业链位置为 Compute / GPU / ASIC。",
@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$221.21",
-        "日内涨跌": "+6.39%",
-        "1日涨跌": "+6.39%",
-        "5日涨跌": "+3.72%",
-        "1月涨跌": "+40.38%",
-        "3月涨跌": "+81.04%",
-        "6月涨跌": "+58.27%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+92.81%",
-        "20日均线": "203.56",
-        "50日均线": "163.95",
-        "200日均线": "143.48",
-        "RSI 14": "61.79",
-        "MACD": "15.47",
-        "20日波动率": "106.21%",
-        "成交量": "8,651,700",
-        "量比20日": "0.79",
+        "最新价": "$228.50",
+        "日内涨跌": "+3.30%",
+        "1日涨跌": "+3.30%",
+        "5日涨跌": "+7.14%",
+        "1月涨跌": "+41.73%",
+        "3月涨跌": "+82.39%",
+        "6月涨跌": "+63.48%",
+        "1年涨跌": "+71.23%",
+        "YTD涨跌": "+99.16%",
+        "20日均线": "206.86",
+        "50日均线": "166.04",
+        "200日均线": "143.80",
+        "RSI 14": "64.04",
+        "MACD": "15.79",
+        "20日波动率": "106.34%",
+        "成交量": "8,252,498",
+        "量比20日": "0.72",
         "52周高点": "239.50",
         "52周低点": "100.02",
-        "距52周高点": "-7.64%",
-        "距52周低点": "+121.17%",
-        "20日支撑": "156.85",
+        "距52周高点": "-4.59%",
+        "距52周低点": "+128.45%",
+        "20日支撑": "162.73",
         "20日压力": "239.50"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "1.06B",
         "ROE": "11.27%",
         "债务/权益": "0.00",
-        "市值": "$235.37B",
+        "市值": "$243.12B",
         "企业价值": "$231.76B",
-        "市盈率 TTM": "263.35",
-        "预期市盈率": "72.45",
-        "市销率": "50.39",
+        "市盈率 TTM": "272.02",
+        "预期市盈率": "74.84",
+        "市销率": "52.05",
         "EV / 营收": "49.62",
         "EV / EBITDA": "213.84",
         "EV / FCF": "281.00",
-        "FCF 收益率": "0.35%",
+        "FCF 收益率": "0.34%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 39.09090909090909,
+          "value": 42.72727272727272,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 52.036363636363646,
+          "value": 52.218181818181826,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:58",
-      "data": null,
+      "title_meta": "Yahoo Finance · 36 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 223.14417,
+        "target_high": 326.0,
+        "target_low": 125.0,
+        "upside_pct": -2.34,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 36,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 0.3982,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Bloomberg",
-          "url": "https://finance.yahoo.com/video/arm-softbank-said-tried-buy-163336392.html",
-          "title": "Arm, SoftBank Said to Have Tried to Buy Cerebras",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/O9T.MU/news/",
+          "title": "ARM Holdings PLC (O9T.MU) Latest Stock News & Headlines ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Benzinga",
-          "url": "https://finance.yahoo.com/news/whats-going-arm-stock-wednesday-160653249.html",
-          "title": "What's Going On With Arm Stock Wednesday?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ARM.BA/news/",
+          "title": "ARM HOLDINGS PLC CEDEAR EACH 27 (ARM.BA) Latest Stock ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-price-target-235809458.html",
-          "title": "Arm Holdings (ARM) Price Target Raised to $300 on AI and Data Center Momentum",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ARM",
+          "title": "Arm Holdings PLC - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/qualcomm-stock-record-high-ai-chip-rally-68912b88?siteid=yhoof2&yptr=yahoo",
-          "title": "Qualcomm Stock Is Rising. Why the Chip Stock Hit a Record High.",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-soars-41-105335963.html",
+          "title": "Arm Holdings (ARM) Soars 41% as Analyst Turns Bullish on CPU ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/O9T.F/news/",
+          "title": "Arm Holdings plc (O9T.F) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ARM/history/",
+          "title": "Arm Holdings plc (ARM) Stock Historical Prices & Data",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/ARM.O/",
+          "title": "(ARM.O) | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ARM/news/",
+          "title": "Arm Holdings plc (ARM) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/arm-stock-falls-11-month-170700780.html",
+          "title": "ARM Stock Falls 11% in a Month: Buy Now or Wait for a Cheaper ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ARM",
+          "title": "Arm Holdings plc (ARM) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 51.26315789473684
+        },
+        {
+          "date": "2026-05-15",
+          "value": 52.218181818181826
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

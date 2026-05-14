@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "TurboTax/QuickBooks AI 助手 — 个人/中小企业财税",
-    "price": 371.7099914550781,
-    "change_1d": -4.13,
-    "composite": 56.87727272727273,
+    "price": 378.2900085449219,
+    "change_1d": 1.77,
+    "composite": 56.51363636363637,
     "tier_letter": "B",
     "description": [
       "Intuit 的 AI 产业链位置为 AI Application。",
@@ -19,7 +19,7 @@
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$371.71",
-        "日内涨跌": "-4.13%",
-        "1日涨跌": "-4.13%",
-        "5日涨跌": "-6.21%",
-        "1月涨跌": "+0.61%",
-        "3月涨跌": "-6.60%",
-        "6月涨跌": "-43.89%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-40.95%",
-        "20日均线": "395.03",
-        "50日均线": "414.64",
-        "200日均线": "573.67",
-        "RSI 14": "39.88",
-        "MACD": "-5.84",
-        "20日波动率": "43.92%",
-        "成交量": "3,491,600",
-        "量比20日": "1.36",
+        "最新价": "$378.29",
+        "日内涨跌": "+1.77%",
+        "1日涨跌": "+1.77%",
+        "5日涨跌": "-4.55%",
+        "1月涨跌": "+3.13%",
+        "3月涨跌": "-5.29%",
+        "6月涨跌": "-42.89%",
+        "1年涨跌": "-42.05%",
+        "YTD涨跌": "-39.90%",
+        "20日均线": "394.59",
+        "50日均线": "413.40",
+        "200日均线": "571.53",
+        "RSI 14": "42.78",
+        "MACD": "-6.48",
+        "20日波动率": "44.42%",
+        "成交量": "2,408,476",
+        "量比20日": "0.94",
         "52周高点": "813.70",
         "52周低点": "342.11",
-        "距52周高点": "-54.32%",
-        "距52周低点": "+8.65%",
-        "20日支撑": "369.56",
+        "距52周高点": "-53.51%",
+        "距52周低点": "+10.58%",
+        "20日支撑": "366.36",
         "20日压力": "419.00"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "276.55M",
         "ROE": "23.46%",
         "债务/权益": "0.07",
-        "市值": "$103.44B",
+        "市值": "$105.27B",
         "企业价值": "$106.71B",
-        "市盈率 TTM": "24.22",
-        "预期市盈率": "14.04",
-        "市销率": "5.14",
+        "市盈率 TTM": "24.64",
+        "预期市盈率": "14.28",
+        "市销率": "5.23",
         "EV / 营收": "5.30",
         "EV / EBITDA": "17.47",
         "EV / FCF": "20.13",
-        "FCF 收益率": "5.13%",
+        "FCF 收益率": "5.04%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 49.090909090909086,
+          "value": 45.45454545454545,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 56.87727272727273,
+          "value": 56.51363636363637,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 32 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 594.1097,
+        "target_high": 916.0,
+        "target_low": 425.0,
+        "upside_pct": 57.05,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 32,
+        "next_earnings": "2026-05-21",
+        "eps_estimate": 12.5198,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/INTU",
+          "title": "INTU: Intuit Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/0JCT-GB",
+          "title": "0JCT-GB: Intuit Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/INTU.VI/news/",
+          "title": "Intuit Inc. (INTU.VI) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/INTU/sec-filing/",
+          "title": "Intuit Inc. (INTU) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/INTU/",
+          "title": "Intuit Inc. (INTU) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/INTU/news?page=3",
+          "title": "Intuit Inc. (INTU) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/INTU",
+          "title": "Intuit Inc. (INTU) Stock Price, Quote, News & Analysis - Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/INTU.O/profile/",
+          "title": "(INTU.O) | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intuit-expands-enterprise-suite-ai-144000320.html",
+          "title": "Intuit Expands Enterprise Suite With AI: Will It Boost Growth?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Barchart",
+          "url": "https://www.barchart.com/story/news/1914958/s-p-500-and-nasdaq-100-post-new-record-highs-on-chip-stock-strength",
+          "title": "S&P 500 and Nasdaq 100 Post New Record Highs on Chip Stock Strength",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 56.87727272727273
+        },
+        {
+          "date": "2026-05-15",
+          "value": 56.51363636363637
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

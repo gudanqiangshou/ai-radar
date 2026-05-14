@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "企业 AI 应用 (能源/制造/政府)",
-    "price": 8.649999618530273,
-    "change_1d": -1.59,
+    "price": 9.029999732971191,
+    "change_1d": 4.39,
     "composite": 37.46363636363636,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
     "status_label": "减持"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$8.65",
-        "日内涨跌": "-1.59%",
-        "1日涨跌": "-1.59%",
-        "5日涨跌": "-12.36%",
-        "1月涨跌": "+2.13%",
-        "3月涨跌": "-16.67%",
-        "6月涨跌": "-38.52%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-37.09%",
-        "20日均线": "9.15",
+        "最新价": "$9.03",
+        "日内涨跌": "+4.39%",
+        "1日涨跌": "+4.39%",
+        "5日涨跌": "-8.51%",
+        "1月涨跌": "+7.50%",
+        "3月涨跌": "-16.23%",
+        "6月涨跌": "-35.82%",
+        "1年涨跌": "-62.19%",
+        "YTD涨跌": "-34.33%",
+        "20日均线": "9.13",
         "50日均线": "8.87",
-        "200日均线": "13.85",
-        "RSI 14": "43.24",
-        "MACD": "0.06",
-        "20日波动率": "52.39%",
-        "成交量": "4,221,700",
-        "量比20日": "0.91",
+        "200日均线": "13.78",
+        "RSI 14": "49.17",
+        "MACD": "0.05",
+        "20日波动率": "54.66%",
+        "成交量": "4,751,478",
+        "量比20日": "1.10",
         "52周高点": "30.24",
         "52周低点": "7.68",
-        "距52周高点": "-71.40%",
-        "距52周低点": "+12.70%",
+        "距52周高点": "-70.14%",
+        "距52周低点": "+17.65%",
         "20日支撑": "8.45",
-        "20日压力": "9.94"
+        "20日压力": "9.88"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "141.79M",
         "ROE": "-55.01%",
         "债务/权益": "0.05",
-        "市值": "$1.26B",
+        "市值": "$1.31B",
         "企业价值": "$695.10M",
         "市盈率 TTM": "—",
-        "预期市盈率": "-10.30",
-        "市销率": "4.09",
+        "预期市盈率": "-10.75",
+        "市销率": "4.27",
         "EV / 营收": "2.26",
         "EV / EBITDA": "-1.53",
         "EV / FCF": "59.95",
-        "FCF 收益率": "0.92%",
+        "FCF 收益率": "0.88%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 11 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 8.81818,
+        "target_high": 17.0,
+        "target_low": 6.0,
+        "upside_pct": -2.35,
+        "rating": "none",
+        "rating_letter": "—",
+        "rating_change": "维持",
+        "previous_rating_letter": "—",
+        "n_analysts": 11,
+        "next_earnings": "2026-05-28",
+        "eps_estimate": -0.3756,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/c3-ai-q4-preliminary-results-163800791.html",
-          "title": "C3.ai Q4 Preliminary Results: Revenues Meet Expectations, Loss Narrows",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/724.HM/news/",
+          "title": "C3.ai Inc (724.HM) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/bigbear-ai-stock-rallies-25-150500455.html",
-          "title": "BigBear.ai Stock Rallies 25% in a Month: Should You Buy, Hold or Sell?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/c3-ai-ai-stock-trades-210536327.html",
+          "title": "C3.ai (AI) Stock Trades Up, Here Is Why - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/these-4-dirt-cheap-software-stocks-are-growing-fast-and-wall-street-is-barely-watching/",
-          "title": "These 4 Dirt Cheap Software Stocks Are Growing Fast and Wall Street Is Barely Watching",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/AI",
+          "title": "C3.ai Inc AI:NYSE - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/know-beyond-why-c3-ai-130004133.html",
-          "title": "Here is What to Know Beyond Why C3.ai, Inc. (AI) is a Trending Stock",
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/AINC.VI/news/",
+          "title": "C3.ai, Inc. (AINC.VI) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AI/",
+          "title": "C3.ai, Inc. (AI) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AI/news/",
+          "title": "C3.ai, Inc. (AI) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/c3-ai-ai-ceo-stock-143645480.html",
+          "title": "C3.ai (AI): CEO Stock Sale Adds to Pressure on a Company Already ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/AI",
+          "title": "C3.ai, Inc. (AI) Stock Price, Quote, News & Analysis | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/AI1.MX/news/",
+          "title": "C3.ai, Inc. (AI1.MX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/724.MU/news/",
+          "title": "C3.ai, Inc. (724.MU) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 34.84210526315789
+        },
+        {
+          "date": "2026-05-15",
+          "value": 37.46363636363636
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

@@ -10,7 +10,7 @@
     "tier": 3,
     "ai_role": "AI 文件管理 + Dash AI 搜索",
     "price": 26.200000762939453,
-    "change_1d": 1.51,
+    "change_1d": 0.0,
     "composite": 48.59615384615383,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
     "status_label": "观察"
   },
   "panels": [
@@ -29,22 +29,22 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$26.20",
-        "日内涨跌": "+1.51%",
-        "1日涨跌": "+1.51%",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
         "5日涨跌": "-9.34%",
-        "1月涨跌": "+15.37%",
-        "3月涨跌": "+7.82%",
+        "1月涨跌": "+15.42%",
+        "3月涨跌": "+6.81%",
         "6月涨跌": "-13.70%",
-        "1年涨跌": "—",
+        "1年涨跌": "-11.52%",
         "YTD涨跌": "-2.71%",
-        "20日均线": "24.95",
+        "20日均线": "25.06",
         "50日均线": "24.52",
-        "200日均线": "27.26",
+        "200日均线": "27.25",
         "RSI 14": "56.98",
         "MACD": "0.65",
-        "20日波动率": "66.57%",
-        "成交量": "4,146,600",
-        "量比20日": "1.06",
+        "20日波动率": "66.46%",
+        "成交量": "3,435,808",
+        "量比20日": "0.87",
         "52周高点": "32.40",
         "52周低点": "21.69",
         "距52周高点": "-19.14%",
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 6 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 26.16667,
+        "target_high": 32.0,
+        "target_low": 21.0,
+        "upside_pct": -0.13,
+        "rating": "hold",
+        "rating_letter": "B",
+        "rating_change": "维持",
+        "previous_rating_letter": "B",
+        "n_analysts": 6,
+        "next_earnings": "2026-08-07",
+        "eps_estimate": 0.73872,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/DBX",
+          "title": "DBX: Dropbox Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/DBX/news",
+          "title": "Dropbox, Inc. (DBX) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DBX/news/",
+          "title": "Dropbox, Inc. (DBX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/dropbox-inc-dbx-bear-case-152313254.html",
+          "title": "Dropbox, Inc. (DBX): A Bear Case Theory - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DBX/research-reports/",
+          "title": "Dropbox, Inc. (DBX) Stock Price, News, Quote & History - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/us/xnas/DBX",
+          "title": "DBX | Dropbox Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/DBX.MX/latest-news/",
+          "title": "Dropbox, Inc. (DBX.MX) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/DBX.MX/news/",
+          "title": "Dropbox, Inc. (DBX.MX) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-dropbox-dbx-stock-today-171655996.html",
+          "title": "Why Dropbox (DBX) Stock Is Up Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/results-dropbox-inc-beat-earnings-124229050.html",
+          "title": "Results: Dropbox, Inc. Beat Earnings Expectations And Analysts Now Have New Forecasts",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 48.59615384615383
+        },
+        {
+          "date": "2026-05-15",
+          "value": 48.59615384615383
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

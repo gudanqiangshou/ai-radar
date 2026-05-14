@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "watsonx 企业 AI 平台 + IBM Cloud — 大型企业 LLM 落地",
-    "price": 214.63999938964844,
-    "change_1d": -2.09,
+    "price": 218.3699951171875,
+    "change_1d": 1.74,
     "composite": 47.20000000000001,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$214.64",
-        "日内涨跌": "-2.09%",
-        "1日涨跌": "-2.09%",
-        "5日涨跌": "-6.58%",
-        "1月涨跌": "-9.75%",
-        "3月涨跌": "-17.29%",
-        "6月涨跌": "-29.79%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-26.37%",
-        "20日均线": "234.14",
-        "50日均线": "240.95",
-        "200日均线": "270.80",
-        "RSI 14": "32.44",
-        "MACD": "-6.33",
-        "20日波动率": "38.78%",
-        "成交量": "8,355,800",
-        "量比20日": "1.21",
+        "最新价": "$218.37",
+        "日内涨跌": "+1.74%",
+        "1日涨跌": "+1.74%",
+        "5日涨跌": "-4.96%",
+        "1月涨跌": "-9.11%",
+        "3月涨跌": "-16.77%",
+        "6月涨跌": "-28.56%",
+        "1年涨跌": "-15.30%",
+        "YTD涨跌": "-25.09%",
+        "20日均线": "232.51",
+        "50日均线": "240.32",
+        "200日均线": "270.58",
+        "RSI 14": "36.82",
+        "MACD": "-6.53",
+        "20日波动率": "38.02%",
+        "成交量": "5,899,745",
+        "量比20日": "0.82",
         "52周高点": "324.90",
         "52周低点": "212.34",
-        "距52周高点": "-33.94%",
-        "距52周低点": "+1.08%",
+        "距52周高点": "-32.79%",
+        "距52周低点": "+2.84%",
         "20日支撑": "212.34",
         "20日压力": "258.50"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$45.92B",
         "流通股本": "939.89M",
         "ROE": "35.77%",
-        "债务/权益": "0.35",
-        "市值": "$201.74B",
+        "债务/权益": "0.34",
+        "市值": "$205.24B",
         "企业价值": "$259.84B",
-        "市盈率 TTM": "19.01",
-        "预期市盈率": "15.95",
-        "市销率": "2.93",
+        "市盈率 TTM": "19.34",
+        "预期市盈率": "16.23",
+        "市销率": "2.98",
         "EV / 营收": "3.77",
         "EV / EBITDA": "15.64",
         "EV / FCF": "19.86",
-        "FCF 收益率": "6.48%",
+        "FCF 收益率": "6.37%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 20 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 278.1765,
+        "target_high": 335.0,
+        "target_low": 195.0,
+        "upside_pct": 27.39,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 20,
+        "next_earnings": "2026-07-23",
+        "eps_estimate": 3.0318,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/IBM",
+          "title": "IBM: International Business Machines Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/IBM/news?page=6",
+          "title": "International Business Machines Corporation (IBM) Latest Stock News",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ibm",
+          "title": "IBM Stock Price | International Business Machines Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/article/ibm-stock-tanks-as-quarterly-results-fail-to-quell-ai-concerns-140516139.html",
+          "title": "IBM stock tanks as quarterly results fail to quell AI concerns",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/IBM/",
+          "title": "(IBM) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/IBM.HM/news/",
+          "title": "International Business Machines Corp (IBM.HM) latest stock news ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/IBM/",
+          "title": "International Business Machines Corporation (IBM) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/IBM/history/",
+          "title": "International Business Machines Corporation (IBM) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/cisco-surges-on-q3-ai-demand-while-cutting-4000-jobs-in-ai-overhaul-135252913.html",
+          "title": "Cisco surges on Q3 AI demand, while cutting 4,000 jobs in AI overhaul",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/ibms-advanced-ai-virtualization-offerings-162000258.html",
+          "title": "Can IBM's Advanced AI and Virtualization Offerings Boost Its Shares?",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 47.20000000000001
+        },
+        {
+          "date": "2026-05-15",
+          "value": 47.20000000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

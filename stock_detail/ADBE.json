@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 2,
     "ai_role": "Firefly 创意 AI + Acrobat AI Assistant",
-    "price": 236.07000732421875,
-    "change_1d": -1.98,
-    "composite": 75.44090909090909,
+    "price": 237.00999450683594,
+    "change_1d": 0.4,
+    "composite": 74.89545454545454,
     "tier_letter": "B",
     "description": [
       "Adobe 的 AI 产业链位置为 AI Application。",
-      "AI 角色：Firefly 创意 AI + Acrobat AI Assistant。当前内部综合评分 75。",
+      "AI 角色：Firefly 创意 AI + Acrobat AI Assistant。当前内部综合评分 74。",
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
-    "status_label": "买入区"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$236.07",
-        "日内涨跌": "-1.98%",
-        "1日涨跌": "-1.98%",
-        "5日涨跌": "-6.71%",
-        "1月涨跌": "-1.68%",
-        "3月涨跌": "-10.07%",
-        "6月涨跌": "-28.70%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-29.17%",
-        "20日均线": "247.20",
-        "50日均线": "248.93",
-        "200日均线": "309.42",
-        "RSI 14": "41.58",
-        "MACD": "-0.58",
-        "20日波动率": "39.10%",
-        "成交量": "3,867,100",
-        "量比20日": "0.76",
+        "最新价": "$237.01",
+        "日内涨跌": "+0.40%",
+        "1日涨跌": "+0.40%",
+        "5日涨跌": "-6.33%",
+        "1月涨跌": "+0.55%",
+        "3月涨跌": "-10.21%",
+        "6月涨跌": "-28.42%",
+        "1年涨跌": "-40.67%",
+        "YTD涨跌": "-28.89%",
+        "20日均线": "246.64",
+        "50日均线": "248.21",
+        "200日均线": "308.75",
+        "RSI 14": "42.42",
+        "MACD": "-1.27",
+        "20日波动率": "38.72%",
+        "成交量": "4,977,125",
+        "量比20日": "0.99",
         "52周高点": "422.95",
         "52周低点": "224.13",
-        "距52周高点": "-44.18%",
-        "距52周低点": "+5.33%",
-        "20日支撑": "232.84",
+        "距52周高点": "-43.96%",
+        "距52周低点": "+5.75%",
+        "20日支撑": "231.74",
         "20日压力": "259.44"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "404.20M",
         "ROE": "58.77%",
         "债务/权益": "0.07",
-        "市值": "$95.42B",
+        "市值": "$95.80B",
         "企业价值": "$95.19B",
-        "市盈率 TTM": "14.03",
-        "预期市盈率": "8.95",
-        "市销率": "3.90",
+        "市盈率 TTM": "13.81",
+        "预期市盈率": "8.98",
+        "市销率": "3.92",
         "EV / 营收": "3.89",
         "EV / EBITDA": "10.00",
         "EV / FCF": "10.21",
-        "FCF 收益率": "9.77%",
+        "FCF 收益率": "9.73%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 69.54545454545456,
+          "value": 58.63636363636363,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 75.44090909090909,
+          "value": 74.89545454545454,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 34 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 327.955,
+        "target_high": 487.0,
+        "target_low": 220.0,
+        "upside_pct": 38.37,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 34,
+        "next_earnings": "2026-06-12",
+        "eps_estimate": 5.82517,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/adobe-taps-semrush-lovable-ai-172624577.html",
-          "title": "Adobe Taps Semrush Lovable AI Link As Search Data Joins App Design",
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/article/4895739-adobe-adbe-stock-cheap-for-all-wrong-reasons",
+          "title": "Adobe: Cheap For All The Wrong Reasons - Seeking Alpha",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/price-prediction-adobe-is-poised-for-a-strong-rebound/",
-          "title": "Price Prediction: Adobe Is Poised For A Strong Rebound",
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ADBE",
+          "title": "ADBE: Adobe Inc. - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ADBE/",
+          "title": "Adobe Inc. (ADBE) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ADBE/news/",
+          "title": "Adobe Inc. (ADBE) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ADBE",
+          "title": "Adobe Inc. (ADBE) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/ADBE.VI/news/",
+          "title": "Adobe Inc. (ADBE.VI) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/ADBE.SN/news/",
+          "title": "Adobe Inc. (ADBE.SN) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/ADBE.TO/news/",
+          "title": "Adobe Inc. (ADBE.TO) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
           "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/jim-cramer-calls-figma-eclectic-142837990.html",
-          "title": "Jim Cramer Calls Figma an “Eclectic Design Distributor That’s Made Life Difficult for Adobe”",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/adobe-adbe-expands-agentic-ai-165913484.html",
+          "title": "Adobe (ADBE) Expands Its Agentic AI Push With New Acrobat Productivity Agent",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/13/software-boxes-subscriptions-and-beyond/",
-          "title": "Boxes, Subscriptions, and Beyond: The Evolution of Software Pricing",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/now-opportunity-adobe-inc-nasdaq-110014737.html",
-          "title": "Is There Now An Opportunity In Adobe Inc. (NASDAQ:ADBE)?",
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/generative-ai-expanding-adobes-digital-164800883.html",
+          "title": "Is Generative AI Expanding Adobe's Digital Media Opportunity?",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 74.57894736842104
+        },
+        {
+          "date": "2026-05-15",
+          "value": 74.89545454545454
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

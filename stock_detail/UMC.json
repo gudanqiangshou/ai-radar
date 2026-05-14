@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "全球第三大代工 — 成熟节点 + 28nm 特色工艺",
-    "price": 15.920000076293945,
-    "change_1d": -0.87,
-    "composite": 66.2,
+    "price": 17.1299991607666,
+    "change_1d": 7.6,
+    "composite": 69.0,
     "tier_letter": "C",
     "description": [
       "United Microelectronics 的 AI 产业链位置为 Foundry / Packaging。",
-      "AI 角色：全球第三大代工 — 成熟节点 + 28nm 特色工艺。当前内部综合评分 66。",
+      "AI 角色：全球第三大代工 — 成熟节点 + 28nm 特色工艺。当前内部综合评分 69。",
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$15.92",
-        "日内涨跌": "-0.87%",
-        "1日涨跌": "-0.87%",
-        "5日涨跌": "+3.24%",
-        "1月涨跌": "+64.12%",
-        "3月涨跌": "+54.71%",
-        "6月涨跌": "+122.97%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+103.06%",
-        "20日均线": "13.34",
-        "50日均线": "10.94",
-        "200日均线": "8.76",
-        "RSI 14": "79.77",
-        "MACD": "1.46",
-        "20日波动率": "73.83%",
-        "成交量": "11,516,100",
-        "量比20日": "0.75",
-        "52周高点": "16.30",
+        "最新价": "$17.13",
+        "日内涨跌": "+7.60%",
+        "1日涨跌": "+7.60%",
+        "5日涨跌": "+11.09%",
+        "1月涨跌": "+78.62%",
+        "3月涨跌": "+64.40%",
+        "6月涨跌": "+139.92%",
+        "1年涨跌": "+121.32%",
+        "YTD涨跌": "+118.49%",
+        "20日均线": "13.67",
+        "50日均线": "11.08",
+        "200日均线": "8.81",
+        "RSI 14": "83.71",
+        "MACD": "1.56",
+        "20日波动率": "74.56%",
+        "成交量": "16,383,633",
+        "量比20日": "1.03",
+        "52周高点": "17.32",
         "52周低点": "6.56",
-        "距52周高点": "-2.33%",
-        "距52周低点": "+142.68%",
-        "20日支撑": "10.41",
-        "20日压力": "16.30"
+        "距52周高点": "-1.10%",
+        "距52周低点": "+161.13%",
+        "20日支撑": "11.41",
+        "20日压力": "17.32"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "$87.10B",
         "流通股本": "2.51B",
         "ROE": "12.52%",
-        "债务/权益": "1.90",
-        "市值": "$40.00B",
+        "债务/权益": "1.77",
+        "市值": "$43.04B",
         "企业价值": "$142.07B",
-        "市盈率 TTM": "25.27",
-        "预期市盈率": "19.84",
-        "市销率": "0.17",
+        "市盈率 TTM": "27.19",
+        "预期市盈率": "21.35",
+        "市销率": "0.18",
         "EV / 营收": "0.59",
         "EV / EBITDA": "1.37",
         "EV / FCF": "4.14",
-        "FCF 收益率": "85.89%",
+        "FCF 收益率": "79.82%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 28.0,
+          "value": 52.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 82.0,
+          "value": 90.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 66.2,
+          "value": 69.0,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 5 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 10.35966,
+        "target_high": 12.73885,
+        "target_low": 7.4,
+        "upside_pct": -39.52,
+        "rating": "underperform",
+        "rating_letter": "C",
+        "rating_change": "维持",
+        "previous_rating_letter": "C",
+        "n_analysts": 5,
+        "next_earnings": "2026-07-29",
+        "eps_estimate": 0.15888,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,80 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/umc?gaa_at=eafs&gaa_n=AWEtsqeEnI0DBLBKvGaHF8vYpXYZH6oNGwIvDor3v1gzlFWI0MFzvMyIRuGq&gaa_ts=69aec1bf&gaa_sig=NTAgXD3P-n9n7VshbK0n9-xE24kuhWgtSl4tThkbnnGLVCnTIoeYjn3LZYAx6l7Sjg5tOPBqhm-8WZVONoh0yw%3D%3D",
+          "title": "UMC Stock Price | United Microelectronics Corp. ADR Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/UMC/news?p=UMC&ncid=stockrec",
+          "title": "United Microelectronics Corporation (UMC) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/UMC?msockid=3a64d85ab770658c04b9cee3b6e164e9",
+          "title": "UMC: United Microelectronics Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/UMC#nimbus-app",
+          "title": "United Microelectronics Corporation (UMC) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/UMC#navigation-container",
+          "title": "United Microelectronics Corporation (UMC) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/UMC#right-rail",
+          "title": "United Microelectronics Corporation (UMC) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/UMC/news?fr=sycsrp_catchall",
+          "title": "United Microelectronics Corporation (UMC) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/umc",
+          "title": "UMC Stock Price | United Microelectronics Corp. ADR Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-08",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125303923.html",
+          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Employment Data",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +279,13 @@
         {
           "date": "2026-05-13",
           "value": 66.2
+        },
+        {
+          "date": "2026-05-15",
+          "value": 69.0
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

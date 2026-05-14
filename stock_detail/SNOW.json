@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "云原生数据仓库 + Cortex AI / Snowpark 数据平台",
-    "price": 152.3699951171875,
-    "change_1d": 0.26,
-    "composite": 32.16875,
+    "price": 150.75999450683594,
+    "change_1d": -1.06,
+    "composite": 31.825,
     "tier_letter": "A",
     "description": [
       "Snowflake 的 AI 产业链位置为 Data / Software Platform。",
-      "AI 角色：云原生数据仓库 + Cortex AI / Snowpark 数据平台。当前内部综合评分 32。",
+      "AI 角色：云原生数据仓库 + Cortex AI / Snowpark 数据平台。当前内部综合评分 31。",
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$152.37",
-        "日内涨跌": "+0.26%",
-        "1日涨跌": "+0.26%",
-        "5日涨跌": "-0.05%",
-        "1月涨跌": "+13.51%",
-        "3月涨跌": "-11.88%",
-        "6月涨跌": "-40.72%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-29.69%",
-        "20日均线": "146.21",
-        "50日均线": "154.93",
-        "200日均线": "204.44",
-        "RSI 14": "53.78",
-        "MACD": "-0.40",
-        "20日波动率": "54.55%",
-        "成交量": "6,885,800",
-        "量比20日": "0.99",
+        "最新价": "$150.76",
+        "日内涨跌": "-1.06%",
+        "1日涨跌": "-1.06%",
+        "5日涨跌": "-1.11%",
+        "1月涨跌": "+11.29%",
+        "3月涨跌": "-17.30%",
+        "6月涨跌": "-41.34%",
+        "1年涨跌": "-16.91%",
+        "YTD涨跌": "-30.43%",
+        "20日均线": "146.57",
+        "50日均线": "154.58",
+        "200日均线": "204.10",
+        "RSI 14": "52.07",
+        "MACD": "-0.16",
+        "20日波动率": "54.66%",
+        "成交量": "5,221,836",
+        "量比20日": "0.77",
         "52周高点": "280.67",
         "52周低点": "118.30",
-        "距52周高点": "-45.71%",
-        "距52周低点": "+28.80%",
+        "距52周高点": "-46.29%",
+        "距52周低点": "+27.44%",
         "20日支撑": "133.02",
         "20日压力": "157.00"
       }
@@ -76,15 +76,15 @@
         "流通股本": "345.70M",
         "ROE": "-53.91%",
         "债务/权益": "0.05",
-        "市值": "$52.67B",
+        "市值": "$52.12B",
         "企业价值": "$51.32B",
         "市盈率 TTM": "—",
-        "预期市盈率": "62.68",
-        "市销率": "11.25",
+        "预期市盈率": "62.02",
+        "市销率": "11.13",
         "EV / 营收": "10.96",
         "EV / EBITDA": "-39.90",
         "EV / FCF": "32.33",
-        "FCF 收益率": "3.01%",
+        "FCF 收益率": "3.05%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 40.625,
+          "value": 33.75,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 32.16875,
+          "value": 31.825,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 47 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 232.73701,
+        "target_high": 500.0,
+        "target_low": 123.64,
+        "upside_pct": 54.38,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 47,
+        "next_earnings": "2026-05-28",
+        "eps_estimate": 0.31956,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/news/wall-street-starting-warm-snowflake-150942130.html",
-          "title": "Wall Street Is Starting To Warm Up To Snowflake Again",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/SNOW/",
+          "title": "Snowflake Inc. (SNOW) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Trefis",
-          "url": "https://www.trefis.com/articles/599216/how-low-can-shopify-stock-go/2026-05-13",
-          "title": "How Low Can Shopify Stock Go?",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/SNOW.BA/latest-news/",
+          "title": "Snowflake Inc. (SNOW.BA) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/look-veeva-systems-veev-valuation-181704366.html",
-          "title": "A Look At Veeva Systems (VEEV) Valuation After New Client Win And Snowflake Partnership",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/SNOW.MX/latest-news/",
+          "title": "Snowflake Inc. (SNOW.MX) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/veeva-systems-partnerships-deepen-role-151052235.html",
-          "title": "Veeva Systems Partnerships Deepen Role As Core Life Sciences Cloud Platform",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/SNOW/news/",
+          "title": "Snowflake Inc. (SNOW) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/SNOW.BA/news/",
+          "title": "Snowflake Inc. (SNOW.BA) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SNOW/news/",
+          "title": "Snowflake Inc. (SNOW) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/SNOW",
+          "title": "SNOW: Snowflake Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/SNOW.BA/news/",
+          "title": "Snowflake Inc. (SNOW.BA) Latest Stock News & Headlines - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SNOW/latest-news/",
+          "title": "Snowflake Inc. (SNOW) Stock Price, News, Quote & History - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/SNOW.BA/latest-news/",
+          "title": "Snowflake Inc. (SNOW.BA) stock price, news, quote and history ...",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 30.912280701754387
+        },
+        {
+          "date": "2026-05-15",
+          "value": 31.825
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

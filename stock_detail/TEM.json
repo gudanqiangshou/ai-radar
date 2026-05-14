@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 2,
     "ai_role": "肿瘤 AI 数据平台 — 多模态临床+基因数据",
-    "price": 45.900001525878906,
-    "change_1d": -2.24,
-    "composite": 55.06666666666666,
+    "price": 45.47999954223633,
+    "change_1d": -0.92,
+    "composite": 54.48333333333333,
     "tier_letter": "B",
     "description": [
       "Tempus AI 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：肿瘤 AI 数据平台 — 多模态临床+基因数据。当前内部综合评分 55。",
+      "AI 角色：肿瘤 AI 数据平台 — 多模态临床+基因数据。当前内部综合评分 54。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
-    "status_label": "持有"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$45.90",
-        "日内涨跌": "-2.24%",
-        "1日涨跌": "-2.24%",
-        "5日涨跌": "-7.94%",
-        "1月涨跌": "-0.17%",
-        "3月涨跌": "-9.61%",
-        "6月涨跌": "-32.97%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-26.40%",
-        "20日均线": "52.48",
-        "50日均线": "50.06",
-        "200日均线": "66.70",
-        "RSI 14": "38.53",
-        "MACD": "-0.66",
-        "20日波动率": "62.62%",
-        "成交量": "5,866,800",
-        "量比20日": "0.90",
+        "最新价": "$45.48",
+        "日内涨跌": "-0.92%",
+        "1日涨跌": "-0.92%",
+        "5日涨跌": "-8.78%",
+        "1月涨跌": "-8.18%",
+        "3月涨跌": "-12.45%",
+        "6月涨跌": "-33.59%",
+        "1年涨跌": "-29.79%",
+        "YTD涨跌": "-27.07%",
+        "20日均线": "52.03",
+        "50日均线": "49.95",
+        "200日均线": "66.64",
+        "RSI 14": "37.80",
+        "MACD": "-0.99",
+        "20日波动率": "61.88%",
+        "成交量": "6,215,623",
+        "量比20日": "1.02",
         "52周高点": "104.32",
         "52周低点": "41.73",
-        "距52周高点": "-56.00%",
-        "距52周低点": "+9.99%",
-        "20日支撑": "45.25",
-        "20日压力": "58.04"
+        "距52周高点": "-56.40%",
+        "距52周低点": "+8.99%",
+        "20日支撑": "45.12",
+        "20日压力": "57.92"
       }
     },
     {
@@ -76,11 +76,11 @@
         "流通股本": "174.52M",
         "ROE": "-81.58%",
         "债务/权益": "0.16",
-        "市值": "$8.24B",
+        "市值": "$8.17B",
         "企业价值": "$8.92B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-337.92",
-        "市销率": "6.04",
+        "预期市盈率": "-334.83",
+        "市销率": "5.99",
         "EV / 营收": "6.54",
         "EV / EBITDA": "-48.16",
         "EV / FCF": "-160.00",
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 36.66666666666666,
+          "value": 24.999999999999996,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 55.06666666666666,
+          "value": 54.48333333333333,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
-      "data": null,
+      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 67.2,
+        "target_high": 100.0,
+        "target_low": 35.0,
+        "upside_pct": 47.76,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 15,
+        "next_earnings": "2026-05-06",
+        "eps_estimate": -0.16,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-10",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/sectors/healthcare/articles/tempus-ai-tem-best-ai-145909457.html",
-          "title": "Is Tempus AI (TEM) The Best AI Healthcare Stock to Buy?",
+          "date": "2026-05-15",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/US/XNAS/TEM",
+          "title": "TEM | Tempus AI Inc. Stock Price & News - WSJ",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-09",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/sectors/healthcare/articles/tempus-ai-expands-beyond-oncology-161649169.html",
-          "title": "Tempus AI Expands Beyond Oncology With New Alzheimer’s Blood Test Alliance",
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/F3M.DU/news/",
+          "title": "Tempus AI Inc (F3M.DU) latest stock news and headlines – Yahoo ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-08",
-          "source": "MT Newswires",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-125303923.html",
-          "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday Amid Employment Data",
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/TEM.O/profile/",
+          "title": "(TEM.O) | Stock Price & Latest News | Reuters",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-06",
-          "source": "Trefis",
-          "url": "https://www.trefis.com/articles/598465/why-the-dip-in-tem-stock-is-a-buying-window/2026-05-06",
-          "title": "Why The Dip In TEM Stock Is A Buying Window",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TEM/latest-news/",
+          "title": "Tempus AI, Inc. (TEM) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-06",
-          "source": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/tempus-ai-q1-earnings-call-highlights-2026-05-05/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "title": "Tempus AI Q1 Earnings Call Highlights",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TEM/community/",
+          "title": "Tempus AI, Inc. (TEM) Stock Forum & Discussion - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/td-cowen-thinks-tempus-ai-205041783.html",
+          "title": "Here’s What TD Cowen Thinks About Tempus AI Inc (TEM) Stock",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TEM/research-reports/",
+          "title": "Tempus AI, Inc. (TEM) Stock Price, News, Quote & History - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TEM/news/",
+          "title": "Tempus AI, Inc. (TEM) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TEM/history/",
+          "title": "Tempus AI, Inc. (TEM) Stock Historical Prices & Data - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/F3M.SG/latest-news/",
+          "title": "Tempus AI, Inc. (F3M.SG) Stock Price, News, Quote & History ...",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 44.63157894736842
+        },
+        {
+          "date": "2026-05-15",
+          "value": 54.48333333333333
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

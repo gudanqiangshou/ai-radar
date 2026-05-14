@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "评级 + Analytics — 长期数据服务",
-    "price": 438.32000732421875,
-    "change_1d": -2.97,
-    "composite": 53.45,
+    "price": 432.67999267578125,
+    "change_1d": -1.29,
+    "composite": 53.2,
     "tier_letter": "B",
     "description": [
       "Moody's 的 AI 产业链位置为 Financial / Research Data。",
@@ -19,7 +19,7 @@
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$438.32",
-        "日内涨跌": "-2.97%",
-        "1日涨跌": "-2.97%",
-        "5日涨跌": "-2.88%",
-        "1月涨跌": "-0.29%",
-        "3月涨跌": "+5.60%",
-        "6月涨跌": "-8.58%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-12.16%",
-        "20日均线": "454.72",
-        "50日均线": "446.61",
-        "200日均线": "481.41",
-        "RSI 14": "42.03",
-        "MACD": "-0.02",
-        "20日波动率": "22.80%",
-        "成交量": "1,043,900",
-        "量比20日": "0.95",
+        "最新价": "$432.68",
+        "日内涨跌": "-1.29%",
+        "1日涨跌": "-1.29%",
+        "5日涨跌": "-4.13%",
+        "1月涨跌": "-1.23%",
+        "3月涨跌": "+1.46%",
+        "6月涨跌": "-9.76%",
+        "1年涨跌": "-9.68%",
+        "YTD涨跌": "-13.29%",
+        "20日均线": "453.94",
+        "50日均线": "445.84",
+        "200日均线": "481.02",
+        "RSI 14": "39.17",
+        "MACD": "-1.45",
+        "20日波动率": "23.12%",
+        "成交量": "1,108,855",
+        "量比20日": "0.99",
         "52周高点": "546.88",
         "52周低点": "402.28",
-        "距52周高点": "-19.85%",
-        "距52周低点": "+8.96%",
+        "距52周高点": "-20.88%",
+        "距52周低点": "+7.56%",
         "20日支撑": "432.35",
         "20日压力": "482.54"
       }
@@ -76,15 +76,15 @@
         "流通股本": "174.68M",
         "ROE": "71.36%",
         "债务/权益": "0.10",
-        "市值": "$76.56B",
+        "市值": "$75.58B",
         "企业价值": "$82.61B",
-        "市盈率 TTM": "31.44",
-        "预期市盈率": "23.56",
-        "市销率": "9.72",
+        "市盈率 TTM": "31.04",
+        "预期市盈率": "23.26",
+        "市销率": "9.60",
         "EV / 营收": "10.49",
         "EV / EBITDA": "21.66",
         "EV / FCF": "36.45",
-        "FCF 收益率": "2.96%",
+        "FCF 收益率": "3.00%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 51.0,
+          "value": 46.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 53.45,
+          "value": 53.2,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 20 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 536.5,
+        "target_high": 610.0,
+        "target_low": 489.0,
+        "upside_pct": 23.99,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 20,
+        "next_earnings": "2026-07-23",
+        "eps_estimate": 4.18769,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/moody-corporation-mco-good-stock-153039155.html",
-          "title": "Is Moody’s Corporation (MCO) A Good Stock To Buy Now?",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/MCOR3'-BR",
+          "title": "MCOR3'-BR: Moody's Corp - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Bloomberg",
-          "url": "https://finance.yahoo.com/markets/options/articles/verizon-worldwide-hybrid-bond-sale-180208852.html",
-          "title": "Verizon’s Global Hybrid Bond-Sale Push Reaches $12 Billion",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/moodys-stock-mco-underperforming-financial-143744699.html",
+          "title": "Moody's Stock: Is MCO Underperforming the Financial Sector?",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/moodys-corporation-nyse-mco-passed-112630458.html",
-          "title": "Moody's Corporation (NYSE:MCO) Passed Our Checks, And It's About To Pay A US$1.03 Dividend",
+          "date": "2026-05-15",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/MCO/sec-filing/",
+          "title": "Moody's Corporation (MCO) stock price, news, quote and history ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "FreightWaves",
-          "url": "https://finance.yahoo.com/news/moody-cuts-wabash-rating-third-110000986.html",
-          "title": "Moody’s cuts Wabash rating third time in a year, execs eye ‘27 rebound",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MCO.MX/dividends?p=MCO.MX",
+          "title": "Moody's Corporation (MCO.MX) Stock Price, News, Quote & History ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Retail Dive",
-          "url": "https://www.retaildive.com/news/consumer-spending-gas-prices-iran-war-risk/819718/",
-          "title": "Consumer spending is healthy, but gas prices remain a risk",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MCO/news/",
+          "title": "Moody's Corporation (MCO) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MCO/latest-news/",
+          "title": "Moody's Corporation (MCO) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MCO/",
+          "title": "Moody's Corporation (MCO) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MCO",
+          "title": "Moody's Corporation (MCO) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MCO/press-releases/",
+          "title": "Moody's Corporation (MCO) Latest Press Releases & Corporate News - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MCO/news?page=11",
+          "title": "Page 11 | Moody's Corporation (MCO) Latest Stock News | Seeking ...",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 62.473684210526315
+        },
+        {
+          "date": "2026-05-15",
+          "value": 53.2
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

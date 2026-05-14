@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Hyperscaler 定制 ASIC（Google TPU / Meta MTIA）+ AI 网络",
-    "price": 416.7900085449219,
-    "change_1d": -0.6,
-    "composite": 66.91818181818182,
+    "price": 439.7900085449219,
+    "change_1d": 5.52,
+    "composite": 67.12272727272727,
     "tier_letter": "A",
     "description": [
       "Broadcom 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：Hyperscaler 定制 ASIC（Google TPU / Meta MTIA）+ AI 网络。当前内部综合评分 66。",
+      "AI 角色：Hyperscaler 定制 ASIC（Google TPU / Meta MTIA）+ AI 网络。当前内部综合评分 67。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$416.79",
-        "日内涨跌": "-0.60%",
-        "1日涨跌": "-0.60%",
-        "5日涨跌": "-3.07%",
-        "1月涨跌": "+9.75%",
-        "3月涨跌": "+25.85%",
-        "6月涨跌": "+21.70%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+19.90%",
-        "20日均线": "415.54",
-        "50日均线": "365.11",
-        "200日均线": "345.50",
-        "RSI 14": "58.34",
-        "MACD": "16.26",
-        "20日波动率": "37.36%",
-        "成交量": "16,949,100",
-        "量比20日": "0.85",
-        "52周高点": "437.68",
+        "最新价": "$439.79",
+        "日内涨跌": "+5.52%",
+        "1日涨跌": "+5.52%",
+        "5日涨跌": "+2.28%",
+        "1月涨跌": "+15.50%",
+        "3月涨跌": "+35.25%",
+        "6月涨跌": "+28.42%",
+        "1年涨跌": "+89.47%",
+        "YTD涨跌": "+26.51%",
+        "20日均线": "417.60",
+        "50日均线": "367.55",
+        "200日均线": "346.21",
+        "RSI 14": "66.12",
+        "MACD": "16.84",
+        "20日波动率": "41.76%",
+        "成交量": "19,428,149",
+        "量比20日": "1.00",
+        "52周高点": "442.36",
         "52周低点": "221.60",
-        "距52周高点": "-4.77%",
-        "距52周低点": "+88.08%",
-        "20日支撑": "392.35",
-        "20日压力": "437.68"
+        "距52周高点": "-0.58%",
+        "距52周低点": "+98.46%",
+        "20日支撑": "394.57",
+        "20日压力": "442.36"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "4.73B",
         "ROE": "33.37%",
         "债务/权益": "0.03",
-        "市值": "$1.97T",
+        "市值": "$2.08T",
         "企业价值": "$2.03T",
-        "市盈率 TTM": "81.25",
-        "预期市盈率": "23.00",
-        "市销率": "28.90",
+        "市盈率 TTM": "85.73",
+        "预期市盈率": "24.16",
+        "市销率": "30.50",
         "EV / 营收": "29.66",
         "EV / EBITDA": "54.42",
         "EV / FCF": "79.41",
-        "FCF 收益率": "1.29%",
+        "FCF 收益率": "1.22%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 41.81818181818181,
+          "value": 45.45454545454545,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 43.63636363636364,
+          "value": 40.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 10.90909090909091,
+          "value": 22.272727272727273,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 66.91818181818182,
+          "value": 67.12272727272727,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:58",
-      "data": null,
+      "title_meta": "Yahoo Finance · 42 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 475.49295,
+        "target_high": 630.0,
+        "target_low": 360.0,
+        "upside_pct": 8.12,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 42,
+        "next_earnings": "2026-06-04",
+        "eps_estimate": 2.39061,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/broadcom-avgo-valuation-check-recent-202458400.html",
-          "title": "Broadcom (AVGO) Valuation Check After Recent Momentum In AI Infrastructure Story",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AVGO.TO/",
+          "title": "Broadcom Inc. (AVGO.TO) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/broadcom-inc-avgo-chris-rokos-195034919.html",
-          "title": "Broadcom Inc. (AVGO): Chris Rokos Is Buying This Chip Stock",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AVGO/history/",
+          "title": "Broadcom Inc. (AVGO) Stock Historical Prices & Data - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/news/3-high-flying-stocks-buy-194055007.html",
-          "title": "3 High-Flying Stocks on Our Buy List",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/broadcom-shares-slide-avgo-stock-175613449.html",
+          "title": "As Broadcom Shares Slide, Is AVGO Stock a Buy on the Dip?",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Benzinga",
-          "url": "https://finance.yahoo.com/news/broadcom-enters-earnings-citis-top-193127425.html",
-          "title": "Broadcom Enters Earnings As Citi's Top Semiconductor Pick",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AVGO.NE/news/",
+          "title": "Broadcom Inc. (AVGO.NE) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/amd-jumps-76-month-more-165000335.html",
-          "title": "AMD Jumps 76% in a Month: Is There More Room for the Stock to Rise?",
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/avgo",
+          "title": "Broadcom Inc. Stock Quote (U.S.: Nasdaq) - AVGO - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/AVGO",
+          "title": "AVGO: Broadcom Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/article/4898345-broadcom-hiding-in-plain-sight-at-a-discount",
+          "title": "Broadcom: Hiding In Plain Sight At A Discount (NASDAQ:AVGO) | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AVGO/news/",
+          "title": "Broadcom Inc. (AVGO) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/AVGO",
+          "title": "Broadcom Inc. (AVGO) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/AVGO/news?page=3",
+          "title": "Page 3 | Broadcom Inc. (AVGO) Latest Stock News | Seeking Alpha",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 70.52631578947368
+        },
+        {
+          "date": "2026-05-15",
+          "value": 67.12272727272727
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

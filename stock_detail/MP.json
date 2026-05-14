@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 2,
     "ai_role": "美国本土稀土矿 — 永磁电机 + 国防供应链",
-    "price": 63.72999954223633,
-    "change_1d": -2.84,
+    "price": 60.310001373291016,
+    "change_1d": -5.37,
     "composite": 51.5,
     "tier_letter": "B",
     "description": [
@@ -19,7 +19,7 @@
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$63.73",
-        "日内涨跌": "-2.84%",
-        "1日涨跌": "-2.84%",
-        "5日涨跌": "-5.49%",
-        "1月涨跌": "+12.20%",
-        "3月涨跌": "+11.22%",
-        "6月涨跌": "+8.68%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+15.94%",
-        "20日均线": "65.47",
-        "50日均线": "59.25",
+        "最新价": "$60.31",
+        "日内涨跌": "-5.37%",
+        "1日涨跌": "-5.37%",
+        "5日涨跌": "-10.56%",
+        "1月涨跌": "+5.14%",
+        "3月涨跌": "+3.93%",
+        "6月涨跌": "+2.85%",
+        "1年涨跌": "+186.10%",
+        "YTD涨跌": "+9.71%",
+        "20日均线": "65.37",
+        "50日均线": "59.23",
         "200日均线": "63.22",
-        "RSI 14": "50.49",
-        "MACD": "2.32",
-        "20日波动率": "76.76%",
-        "成交量": "6,363,500",
-        "量比20日": "0.98",
+        "RSI 14": "45.11",
+        "MACD": "1.70",
+        "20日波动率": "77.71%",
+        "成交量": "9,733,862",
+        "量比20日": "1.43",
         "52周高点": "100.25",
         "52周低点": "18.64",
-        "距52周高点": "-36.43%",
-        "距52周低点": "+241.90%",
-        "20日支撑": "59.41",
+        "距52周高点": "-39.84%",
+        "距52周低点": "+223.55%",
+        "20日支撑": "58.97",
         "20日压力": "76.80"
       }
     },
@@ -75,16 +75,16 @@
         "净现金/债务": "$807.00M",
         "流通股本": "178.02M",
         "ROE": "-4.17%",
-        "债务/权益": "0.09",
-        "市值": "$11.35B",
+        "债务/权益": "0.10",
+        "市值": "$10.74B",
         "企业价值": "$11.07B",
         "市盈率 TTM": "—",
-        "预期市盈率": "51.85",
-        "市销率": "32.64",
+        "预期市盈率": "49.07",
+        "市销率": "30.89",
         "EV / 营收": "31.85",
-        "EV / EBITDA": "-2076.27",
+        "EV / EBITDA": "-2700.31",
         "EV / FCF": "-63.03",
-        "FCF 收益率": "-1.55%",
+        "FCF 收益率": "-1.64%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 14 位分析师 · 2026-05-15 05:16:09",
+      "data": {
+        "target_mean": 80.85714,
+        "target_high": 100.0,
+        "target_low": 70.0,
+        "upside_pct": 34.07,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 14,
+        "next_earnings": "2026-08-07",
+        "eps_estimate": 0.06333,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Proactive",
-          "url": "https://www.proactiveinvestors.com/companies/news/1092246/mp-materials-beats-q1-estimates-as-wedbush-sees-rare-earth-production-rebound-ahead-1092246.html",
-          "title": "MP Materials beats Q1 estimates as Wedbush sees rare earth production rebound ahead",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MP/news",
+          "title": "MP Materials Corp. (MP) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/mp-kicks-off-2026-record-172500564.html",
-          "title": "MP Kicks Off 2026 With Record Production Numbers: Can It Scale Further?",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/mp?gaa_at=eafs&gaa_n=AWEtsqezkIZQlcO5CO3q2LrZhhEw6P2K6FoyfugvHX92J3QNs-1X-UW0mtRi&gaa_ts=696d6eae&gaa_sig=x9DvmInlEMkDwLQ4CpwWIbpnE1b0tOTMT_fwisMTMQDn22-YHyC5mgAFQupTZi_u_xh_vgJwxFFf-U-eA4Epzg%3D%3D",
+          "title": "MP Stock Price | MP Materials Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/12/the-best-rare-earth-stock-to-buy-and-hold-for-the/",
-          "title": "The Best Rare-Earth Stock to Buy and Hold for the Next Decade",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MP/news?p=MP",
+          "title": "MP Materials Corp. (MP) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-091100097.html",
-          "title": "Zacks Investment Ideas feature highlights MP and Intel",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/mp?gaa_at=eafs&gaa_n=AWEtsqc6g1EQq8X9bpYSfIAL__3k32mxlqVk61P3T9bTc3Uf7gmpg2satv3S&gaa_ts=691efee9&gaa_sig=E_VYbGWurMWUsGCeyLfuiCHXAgSsOzRO3Xko8v6447f5ungXPmsszCDgreB-P_U0vC0DrP6y72fi6YviZ2kMjQ%3D%3D",
+          "title": "MP Stock Price | MP Materials Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/mp-materials-q1-earnings-call-highlights-2026-05-12/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "title": "MP Materials Q1 Earnings Call Highlights",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/mp-materials-stock-millionaire-maker-140500660.html?fr=sycsrp_catchall",
+          "title": "Is MP Materials Stock a Millionaire Maker?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/mp-materials-stock-millionaire-maker-140500660.html",
+          "title": "Is MP Materials Stock a Millionaire Maker?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/mp?gaa_at=eafs&gaa_n=AWEtsqfpm-P01s5R2JXXDLsq_5NrnKze1AV4rlT1raOUrjaa6E0GC0Umrmhc&gaa_ts=696c65a0&gaa_sig=xU0Fa1MZ-wSXWTYiVGj4y7DNY3B6mGPav8_uF0DDP2YlS_lxGG-qvmCW15UikyEcRKOJA9KtMGis2-Kic5Crog%3D%3D",
+          "title": "MP Stock Price | MP Materials Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/mp?gaa_at=eafs&gaa_n=AWEtsqfeeTDBkajiMgL2Z5crmWW3Zw4voFQo47VhfipUpnhmw_N0rD4KtpEc&gaa_ts=6971849e&gaa_sig=7qiwpyhXP3RTXEbau6FAhC1RVbF2k6V-jnR3xtNbudTRDzpKzWiUo0BSRi31Z1JokKfBalIJNNk7PvWJIm_nYg%3D%3D",
+          "title": "MP Stock Price | MP Materials Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MP/news/",
+          "title": "MP Materials Corp. (MP) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MP",
+          "title": "MP Materials Corp. (MP) Stock Price, Quote, News & Analysis | Seeking Alpha",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 44.368421052631575
+        },
+        {
+          "date": "2026-05-15",
+          "value": 51.5
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

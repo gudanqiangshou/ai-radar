@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "电气连接 + 配电柜，数据中心电气化",
-    "price": 172.91000366210938,
-    "change_1d": 1.27,
-    "composite": 55.84,
+    "price": 173.9600067138672,
+    "change_1d": 0.61,
+    "composite": 55.91142857142857,
     "tier_letter": "B",
     "description": [
       "nVent Electric 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$172.91",
-        "日内涨跌": "+1.27%",
-        "1日涨跌": "+1.27%",
-        "5日涨跌": "+1.74%",
-        "1月涨跌": "+29.85%",
-        "3月涨跌": "+54.52%",
-        "6月涨跌": "+62.28%",
-        "1年涨跌": "+153.91%",
-        "YTD涨跌": "+61.87%",
-        "20日均线": "151.99",
-        "50日均线": "132.11",
-        "200日均线": "109.99",
-        "RSI 14": "74.18",
-        "MACD": "12.22",
-        "20日波动率": "49.30%",
-        "成交量": "1,635,300",
-        "量比20日": "0.68",
+        "最新价": "$173.96",
+        "日内涨跌": "+0.61%",
+        "1日涨跌": "+0.61%",
+        "5日涨跌": "+2.36%",
+        "1月涨跌": "+29.36%",
+        "3月涨跌": "+53.61%",
+        "6月涨跌": "+63.27%",
+        "1年涨跌": "+154.70%",
+        "YTD涨跌": "+62.85%",
+        "20日均线": "154.20",
+        "50日均线": "133.31",
+        "200日均线": "110.46",
+        "RSI 14": "74.74",
+        "MACD": "12.21",
+        "20日波动率": "48.37%",
+        "成交量": "1,375,797",
+        "量比20日": "0.59",
         "52周高点": "175.00",
         "52周低点": "63.15",
-        "距52周高点": "-1.19%",
-        "距52周低点": "+173.81%",
-        "20日支撑": "128.60",
+        "距52周高点": "-0.59%",
+        "距52周低点": "+175.47%",
+        "20日支撑": "130.53",
         "20日压力": "175.00"
       }
     },
@@ -76,11 +76,11 @@
         "流通股本": "161.72M",
         "ROE": "13.00%",
         "债务/权益": "0.06",
-        "市值": "$27.96B",
+        "市值": "$28.13B",
         "企业价值": "$29.47B",
-        "市盈率 TTM": "58.81",
-        "预期市盈率": "31.05",
-        "市销率": "6.46",
+        "市盈率 TTM": "59.17",
+        "预期市盈率": "31.24",
+        "市销率": "6.50",
         "EV / 营收": "6.81",
         "EV / EBITDA": "31.89",
         "EV / FCF": "140.42",
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 87.61904761904762,
+          "value": 89.04761904761905,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 55.84,
+          "value": 55.91142857142857,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 13 位分析师 · 2026-05-14 14:53:58",
+      "title_meta": "Yahoo Finance · 13 位分析师 · 2026-05-15 05:16:02",
       "data": {
         "target_mean": 181.3077,
         "target_high": 200.0,
         "target_low": 124.0,
-        "upside_pct": 4.86,
+        "upside_pct": 4.22,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -197,6 +197,54 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-15",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/nvt?amp%253Biso=xnys&amp%25253Biso=xnys",
+          "title": "NVT | nVent Electric PLC Stock Overview (U.S.: NYSE) | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/bull-day-nvent-electric-nvt-090000454.html",
+          "title": "Bull of the Day: nVent Electric (NVT) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NVT/latest-news/",
+          "title": "nVent Electric plc (NVT) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NVT/chart/",
+          "title": "nVent Electric plc (NVT) Interactive Stock Chart - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NVT/",
+          "title": "nVent Electric plc (NVT) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/data-center-trends-lead-record-193000639.html",
+          "title": "Data Center Trends Lead to Record Results for These 3 Companies",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-13",
           "source": "cnbc.com",
@@ -228,54 +276,6 @@
           "title": "NVT - nVent Electric PLC - Reuters",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/NVT/news?page=4",
-          "title": "nVent Electric plc (NVT) Latest Stock News | Seeking Alpha",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/NVT/news/",
-          "title": "nVent Electric plc (NVT) Latest Stock News & Headlines - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/too-consider-nvent-electric-nvt-051154828.html",
-          "title": "Is It Too Late To Consider nVent Electric (NVT) After Strong Multi ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/NVT/latest-news/",
-          "title": "nVent Electric plc (NVT) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/nvt",
-          "title": "nVent Electric PLC Stock Quote (U.S.: NYSE) - NVT - MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/nvent-electric-nvt-benefits-electrical-161010699.html",
-          "title": "How nVent Electric (NVT) Benefits From the Electrical Protection Layer of AI Infrastructure",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -295,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 56.14
+        },
+        {
+          "date": "2026-05-15",
+          "value": 55.91142857142857
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

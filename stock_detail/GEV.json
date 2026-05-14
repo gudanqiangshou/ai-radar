@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "燃气轮机 + 电网设备双轮驱动，AI 电力扩张铲子",
-    "price": 1062.5699462890625,
-    "change_1d": -0.88,
-    "composite": 55.95190476190477,
+    "price": 1090.530029296875,
+    "change_1d": 2.63,
+    "composite": 55.73761904761906,
     "tier_letter": "A",
     "description": [
       "GE Vernova 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:57",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$1,062.57",
-        "日内涨跌": "-0.88%",
-        "1日涨跌": "-0.88%",
-        "5日涨跌": "+2.16%",
-        "1月涨跌": "+7.21%",
-        "3月涨跌": "+30.13%",
-        "6月涨跌": "+83.74%",
-        "1年涨跌": "+145.21%",
-        "YTD涨跌": "+56.36%",
-        "20日均线": "1069.45",
-        "50日均线": "956.81",
-        "200日均线": "727.57",
-        "RSI 14": "54.92",
-        "MACD": "30.96",
-        "20日波动率": "61.80%",
-        "成交量": "1,579,000",
-        "量比20日": "0.59",
+        "最新价": "$1,090.53",
+        "日内涨跌": "+2.63%",
+        "1日涨跌": "+2.63%",
+        "5日涨跌": "+4.84%",
+        "1月涨跌": "+10.43%",
+        "3月涨跌": "+35.95%",
+        "6月涨跌": "+88.57%",
+        "1年涨跌": "+151.95%",
+        "YTD涨跌": "+60.48%",
+        "20日均线": "1075.06",
+        "50日均线": "961.80",
+        "200日均线": "729.86",
+        "RSI 14": "58.84",
+        "MACD": "30.52",
+        "20日波动率": "62.09%",
+        "成交量": "1,445,905",
+        "量比20日": "0.55",
         "52周高点": "1181.95",
-        "52周低点": "420.00",
-        "距52周高点": "-10.10%",
-        "距52周低点": "+152.99%",
-        "20日支撑": "969.52",
+        "52周低点": "421.64",
+        "距52周高点": "-7.73%",
+        "距52周低点": "+158.64%",
+        "20日支撑": "977.21",
         "20日压力": "1181.95"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "268.72M",
         "ROE": "75.71%",
         "债务/权益": "0.01",
-        "市值": "$285.53B",
+        "市值": "$293.05B",
         "企业价值": "$280.66B",
-        "市盈率 TTM": "31.06",
-        "预期市盈率": "43.39",
-        "市销率": "7.25",
+        "市盈率 TTM": "31.88",
+        "预期市盈率": "44.04",
+        "市销率": "7.44",
         "EV / 营收": "7.13",
         "EV / EBITDA": "82.18",
         "EV / FCF": "30.13",
-        "FCF 收益率": "3.26%",
+        "FCF 收益率": "3.18%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 19.54761904761905,
+          "value": 17.642857142857153,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 64.52380952380952,
+          "value": 67.85714285714286,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 55.95190476190477,
+          "value": 55.73761904761906,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 32 位分析师 · 2026-05-14 14:53:57",
+      "title_meta": "Yahoo Finance · 32 位分析师 · 2026-05-15 05:16:02",
       "data": {
         "target_mean": 1206.5575,
         "target_high": 1424.0,
         "target_low": 836.0,
-        "upside_pct": 13.55,
+        "upside_pct": 10.64,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,70 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/ge-vernova-gev-hits-time-141613861.html",
+          "title": "GE Vernova (GEV) Hits All-Time High Following Impressive Q1 Report",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GEV/",
+          "title": "GE Vernova Inc. (GEV) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/GEV",
+          "title": "GEV: GE Vernova Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/GEV.NE/latest-news/",
+          "title": "GE Vernova Inc. (GEV.NE) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/wall-street-analysts-predicting-ge-145316363.html",
+          "title": "Are Wall Street Analysts Predicting GE Vernova Stock Will Climb or Sink?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/ibd-stock-of-the-day/ge-vernova-stock-buy-point-blowout-earnings/?src=A00220&yptr=yahoo",
+          "title": "GE Vernova, Stock Of The Day, Tops Buy Point After Blowout Earnings",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/ford-motor-stock-ai-data-center-877b9c0d?siteid=yhoof2&yptr=yahoo",
+          "title": "Ford Stock Is Ripping Again. Suddenly, It’s a AI Data Center Stock.",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/latest-news-energy-transition-sunpower-113713560.html",
+          "title": "Latest News In Energy Transition - SunPower Navigates Challenges with Strategic Changes and Growth",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-13",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/GEV/latest-news/",
@@ -210,70 +274,6 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/GEV/news/",
           "title": "GE Vernova Inc. (GEV) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/GEV",
-          "title": "GE Vernova Inc. (GEV) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-ge-vernova-gev-shares-012455132.html",
-          "title": "Why GE Vernova (GEV) Shares Are Sliding Today - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/GEV",
-          "title": "GE Vernova Inc. (GEV) Stock Price Today - WSJ",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/ge-vernova-gev-partners-blue-060030036.html",
-          "title": "GE Vernova (GEV) Partners with Blue Energy for 2.5 GW Texas ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/gev",
-          "title": "GE Vernova Inc. Stock Quote (U.S.: NYSE) - MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/why-ge-vernova-stock-rocketed-175304672.html",
-          "title": "Why GE Vernova Stock Rocketed to a 52-Week High Today",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/article/ge-vernova-hits-record-high-on-strong-quarter-guidance-raise-132104841.html",
-          "title": "GE Vernova hits record high on strong quarter, guidance raise",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "sg.finance.yahoo.com",
-          "url": "https://sg.finance.yahoo.com/quote/GEV.TO/news/",
-          "title": "GE Vernova Inc. (GEV.TO) latest stock news and headlines – Yahoo ...",
           "sentiment": null,
           "impact": null
         }
@@ -295,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 55.95190476190477
+        },
+        {
+          "date": "2026-05-15",
+          "value": 55.73761904761906
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

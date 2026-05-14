@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "数据安全 + 网络勒索病毒恢复 — 数据备份 AI 化",
-    "price": 59.47999954223633,
-    "change_1d": -1.64,
-    "composite": 49.41880341880341,
+    "price": 62.79999923706055,
+    "change_1d": 5.58,
+    "composite": 50.059829059829056,
     "tier_letter": "C",
     "description": [
       "Rubrik 的 AI 产业链位置为 Cybersecurity。",
-      "AI 角色：数据安全 + 网络勒索病毒恢复 — 数据备份 AI 化。当前内部综合评分 49。",
+      "AI 角色：数据安全 + 网络勒索病毒恢复 — 数据备份 AI 化。当前内部综合评分 50。",
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$59.48",
-        "日内涨跌": "-1.64%",
-        "1日涨跌": "-1.64%",
-        "5日涨跌": "-4.59%",
-        "1月涨跌": "+22.36%",
-        "3月涨跌": "+11.83%",
-        "6月涨跌": "-16.87%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-21.19%",
-        "20日均线": "55.95",
-        "50日均线": "52.97",
-        "200日均线": "69.38",
-        "RSI 14": "59.66",
-        "MACD": "2.51",
-        "20日波动率": "48.13%",
-        "成交量": "2,766,300",
-        "量比20日": "0.92",
+        "最新价": "$62.80",
+        "日内涨跌": "+5.58%",
+        "1日涨跌": "+5.58%",
+        "5日涨跌": "+0.74%",
+        "1月涨跌": "+30.75%",
+        "3月涨跌": "+15.12%",
+        "6月涨跌": "-12.23%",
+        "1年涨跌": "-25.78%",
+        "YTD涨跌": "-16.79%",
+        "20日均线": "56.49",
+        "50日均线": "53.13",
+        "200日均线": "69.25",
+        "RSI 14": "65.51",
+        "MACD": "2.68",
+        "20日波动率": "51.07%",
+        "成交量": "2,622,712",
+        "量比20日": "0.89",
         "52周高点": "103.00",
         "52周低点": "42.25",
-        "距52周高点": "-42.25%",
-        "距52周低点": "+40.78%",
+        "距52周高点": "-39.03%",
+        "距52周低点": "+48.64%",
         "20日支撑": "49.88",
-        "20日压力": "62.93"
+        "20日压力": "63.62"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "$545.05M",
         "流通股本": "160.94M",
         "ROE": "—",
-        "债务/权益": "0.10",
-        "市值": "$12.24B",
+        "债务/权益": "0.09",
+        "市值": "$12.92B",
         "企业价值": "$11.52B",
         "市盈率 TTM": "—",
-        "预期市盈率": "102.76",
-        "市销率": "9.30",
+        "预期市盈率": "108.49",
+        "市销率": "9.82",
         "EV / 营收": "8.76",
         "EV / EBITDA": "-35.99",
         "EV / FCF": "29.33",
-        "FCF 收益率": "3.21%",
+        "FCF 收益率": "3.04%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 45.55555555555556,
+          "value": 53.888888888888886,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 49.41880341880341,
+          "value": 50.059829059829056,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
-      "data": null,
+      "title_meta": "Yahoo Finance · 27 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 84.07407,
+        "target_high": 126.0,
+        "target_low": 64.0,
+        "upside_pct": 33.88,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 27,
+        "next_earnings": "2026-06-05",
+        "eps_estimate": -0.02817,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,72 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/RBRK.A/financials/balance-sheet-annual/",
+          "title": "RBRK.A - | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/RBRK/",
+          "title": "Rubrik, Inc. (RBRK) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/RBRK/latest-news/",
+          "title": "Rubrik, Inc. (RBRK) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/RBRK/community-insights/",
+          "title": "Rubrik, Inc. (RBRK) Stock Price, News, Quote & History - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/RBRK",
+          "title": "Rubrik, Inc. (RBRK) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/rubrik-inc-rbrk-good-stock-232449733.html",
+          "title": "Is Rubrik, Inc. (RBRK) A Good Stock To Buy Now? - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/time-reassess-rubrik-rbrk-nyse-061723623.html",
+          "title": "Is It Time To Reassess Rubrik (RBRK) After Its NYSE Listing And ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/RBRK/news/",
+          "title": "META_TITLE_QUOTE - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +271,13 @@
         {
           "date": "2026-05-13",
           "value": 49.41880341880341
+        },
+        {
+          "date": "2026-05-15",
+          "value": 50.059829059829056
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

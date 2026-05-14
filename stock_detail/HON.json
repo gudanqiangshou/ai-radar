@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 2,
     "ai_role": "工业自动化 + 楼宇 + 航空 — 多元化工业巨头",
-    "price": 217.9600067138672,
-    "change_1d": -0.27,
+    "price": 217.72000122070312,
+    "change_1d": -0.11,
     "composite": 55.300000000000004,
     "tier_letter": "B",
     "description": [
@@ -19,7 +19,7 @@
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$217.96",
-        "日内涨跌": "-0.27%",
-        "1日涨跌": "-0.27%",
-        "5日涨跌": "+2.27%",
-        "1月涨跌": "-6.71%",
-        "3月涨跌": "-9.12%",
-        "6月涨跌": "+9.51%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+11.27%",
-        "20日均线": "217.24",
-        "50日均线": "225.54",
-        "200日均线": "211.32",
-        "RSI 14": "47.76",
-        "MACD": "-2.85",
-        "20日波动率": "27.37%",
-        "成交量": "3,352,800",
+        "最新价": "$217.72",
+        "日内涨跌": "-0.11%",
+        "1日涨跌": "-0.11%",
+        "5日涨跌": "+2.16%",
+        "1月涨跌": "-6.65%",
+        "3月涨跌": "-9.80%",
+        "6月涨跌": "+9.39%",
+        "1年涨跌": "+6.36%",
+        "YTD涨跌": "+11.15%",
+        "20日均线": "216.66",
+        "50日均线": "224.97",
+        "200日均线": "211.36",
+        "RSI 14": "47.44",
+        "MACD": "-2.54",
+        "20日波动率": "27.16%",
+        "成交量": "3,375,828",
         "量比20日": "0.84",
         "52周高点": "248.18",
         "52周低点": "186.76",
-        "距52周高点": "-12.18%",
-        "距52周低点": "+16.71%",
+        "距52周高点": "-12.27%",
+        "距52周低点": "+16.58%",
         "20日支撑": "207.83",
         "20日压力": "236.45"
       }
@@ -76,11 +76,11 @@
         "流通股本": "633.65M",
         "ROE": "24.26%",
         "债务/权益": "0.27",
-        "市值": "$138.11B",
+        "市值": "$137.96B",
         "企业价值": "$164.55B",
-        "市盈率 TTM": "34.82",
-        "预期市盈率": "18.99",
-        "市销率": "3.67",
+        "市盈率 TTM": "34.78",
+        "预期市盈率": "18.97",
+        "市销率": "3.66",
         "EV / 营收": "4.37",
         "EV / EBITDA": "19.30",
         "EV / FCF": "56.03",
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
-      "data": null,
+      "title_meta": "Yahoo Finance · 25 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 247.8988,
+        "target_high": 294.0,
+        "target_low": 198.0,
+        "upside_pct": 13.86,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 25,
+        "next_earnings": "2026-07-23",
+        "eps_estimate": 2.42009,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Investing.com",
-          "url": "https://finance.yahoo.com/news/honeywell-ceo-says-iran-conflict-172716450.html",
-          "title": "Honeywell CEO says Iran conflict and AI are boosting demand",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HON/",
+          "title": "Honeywell International Inc. (HON) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/honeywell-international-inc-hon-one-103319862.html",
-          "title": "Honeywell International Inc. (HON): One of the Best Drone Stocks to Buy According to Wall Street Analysts",
+          "date": "2026-05-15",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/HON?eafs_enabled=false",
+          "title": "Honeywell International Inc. (HON) Stock Price Today - WSJ",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/quantum-computing-stocks-quantinuum-ipo-honeywell-spac/?src=A00220&yptr=yahoo",
-          "title": "Quantum Computing Stocks: Quantinuum IPO Filing Bucks SPAC Trend",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HON/history/",
+          "title": "Honeywell International Inc. (HON) Stock Historical Prices & Data - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/rigetti-d-wave-quantum-computing-earnings-stock-c37ed9e9?siteid=yhoof2&yptr=yahoo",
-          "title": "These Quantum Companies Post Earnings This Week.  Expect More Innovation and Less Profit.",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HON.BA/news?ncid=yahooproperties_stockrecom_g40boan2td8",
+          "title": "Honeywell International Inc. (HON.BA) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HON.VI/news/",
+          "title": "Honeywell International Inc. (HON.VI) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HON.NE/news/",
+          "title": "Honeywell International Inc. (HON.NE) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HON.MX/news/",
+          "title": "Honeywell International Inc. (HON.MX) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/HON",
+          "title": "HON Honeywell International Inc. Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/HON",
+          "title": "HON: Honeywell International Inc - Stock Price, Quote and News",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/HON.SN/news/",
+          "title": "Honeywell International Inc. (HON.SN) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 58.66666666666666
+        },
+        {
+          "date": "2026-05-15",
+          "value": 55.300000000000004
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

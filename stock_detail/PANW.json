@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "平台化整合 — Prisma SASE + Cortex AI XDR",
-    "price": 227.7899932861328,
-    "change_1d": 5.65,
-    "composite": 55.16944444444446,
+    "price": 238.2100067138672,
+    "change_1d": 4.57,
+    "composite": 55.25277777777779,
     "tier_letter": "B",
     "description": [
       "Palo Alto Networks 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$227.79",
-        "日内涨跌": "+5.65%",
-        "1日涨跌": "+5.65%",
-        "5日涨跌": "+9.58%",
-        "1月涨跌": "+40.17%",
-        "3月涨跌": "+39.91%",
-        "6月涨跌": "+10.98%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+26.99%",
-        "20日均线": "186.59",
-        "50日均线": "172.41",
-        "200日均线": "185.12",
-        "RSI 14": "82.74",
-        "MACD": "12.70",
-        "20日波动率": "42.39%",
-        "成交量": "9,330,700",
-        "量比20日": "1.37",
-        "52周高点": "228.85",
+        "最新价": "$238.21",
+        "日内涨跌": "+4.57%",
+        "1日涨跌": "+4.57%",
+        "5日涨跌": "+14.59%",
+        "1月涨跌": "+47.42%",
+        "3月涨跌": "+42.68%",
+        "6月涨跌": "+16.06%",
+        "1年涨跌": "+24.78%",
+        "YTD涨跌": "+32.80%",
+        "20日均线": "190.15",
+        "50日均线": "174.00",
+        "200日均线": "185.34",
+        "RSI 14": "85.17",
+        "MACD": "14.85",
+        "20日波动率": "43.62%",
+        "成交量": "10,094,178",
+        "量比20日": "1.43",
+        "52周高点": "239.15",
         "52周低点": "139.57",
-        "距52周高点": "-0.46%",
-        "距52周低点": "+63.21%",
-        "20日支撑": "165.00",
-        "20日压力": "228.85"
+        "距52周高点": "-0.39%",
+        "距52周低点": "+70.67%",
+        "20日支撑": "165.20",
+        "20日压力": "239.15"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "811.00M",
         "ROE": "16.26%",
         "债务/权益": "0.00",
-        "市值": "$184.74B",
+        "市值": "$193.19B",
         "企业价值": "$181.80B",
-        "市盈率 TTM": "126.55",
-        "预期市盈率": "57.38",
-        "市销率": "18.67",
+        "市盈率 TTM": "132.34",
+        "预期市盈率": "60.00",
+        "市销率": "19.53",
         "EV / 营收": "18.38",
         "EV / EBITDA": "118.32",
         "EV / FCF": "63.58",
-        "FCF 收益率": "1.55%",
+        "FCF 收益率": "1.48%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 91.66666666666666,
+          "value": 93.33333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 55.16944444444446,
+          "value": 55.25277777777779,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 50 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 207.5608,
+        "target_high": 265.0,
+        "target_low": 114.0,
+        "upside_pct": -12.87,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 50,
+        "next_earnings": "2026-06-03",
+        "eps_estimate": 0.79707,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/why-palo-alto-networks-panw-043455314.html",
-          "title": "Why The Palo Alto Networks (PANW) Investment Story Is Shifting With New AI And Integration Updates",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/PANW.TO/news/",
+          "title": "Palo Alto Networks, Inc. (PANW.TO) Latest Stock News & Headlines ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/coverage/charts/2026/05/12/palo-alto-networks-vs-zscaler-what-do-their-latest-revenue-trends-tell-investors/",
-          "title": "Palo Alto Networks vs. Zscaler: What Do Their Latest Revenue Trends Tell Investors?",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PANW/news/",
+          "title": "Palo Alto Networks, Inc. (PANW) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-panw-beats-214502318.html",
-          "title": "Palo Alto Networks (PANW) Beats Stock Market Upswing: What Investors Need to Know",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PANW.TO/",
+          "title": "Palo Alto Networks, Inc. (PANW.TO) Stock Price, News, Quote ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-stock-soars-24-month-131700878.html",
-          "title": "Zscaler Stock Soars 24% in a Month: Hold Tight or Book Profits?",
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/PANW.MX/news/",
+          "title": "Palo Alto Networks, Inc. (PANW.MX) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/PANW.MX/news/",
+          "title": "Palo Alto Networks, Inc. (PANW.MX) latest stock news and headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/panw",
+          "title": "Palo Alto Networks Inc. Stock Quote (U.S. - PANW - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/PANW.TO/news/",
+          "title": "Palo Alto Networks, Inc. (PANW.TO) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PANW.BA/news/",
+          "title": "Palo Alto Networks, Inc. (PANW.BA) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/us/xnas/PANW/",
+          "title": "PANW | Palo Alto Networks Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/ibd-stock-analysis/palo-alto-stock-panw-cybersecurity-stocks-to-watch/?src=A00220&yptr=yahoo",
+          "title": "Cybersecurity Giant Unlocks New Buy Zone While Flashing These Telltale Clues",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 62.60526315789473
+        },
+        {
+          "date": "2026-05-15",
+          "value": 55.25277777777779
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

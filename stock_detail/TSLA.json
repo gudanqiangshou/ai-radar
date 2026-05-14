@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "FSD + Robotaxi + Optimus — 端到端 AI 物理化",
-    "price": 445.2699890136719,
-    "change_1d": 2.73,
-    "composite": 57.333333333333336,
+    "price": 443.29998779296875,
+    "change_1d": -0.44,
+    "composite": 56.958333333333336,
     "tier_letter": "A",
     "description": [
       "Tesla 的 AI 产业链位置为 Autonomous / Mobility。",
-      "AI 角色：FSD + Robotaxi + Optimus — 端到端 AI 物理化。当前内部综合评分 57。",
+      "AI 角色：FSD + Robotaxi + Optimus — 端到端 AI 物理化。当前内部综合评分 56。",
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$445.27",
-        "日内涨跌": "+2.73%",
-        "1日涨跌": "+2.73%",
-        "5日涨跌": "+3.95%",
-        "1月涨跌": "+26.35%",
-        "3月涨跌": "+6.76%",
-        "6月涨跌": "+10.12%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+1.64%",
-        "20日均线": "397.52",
-        "50日均线": "385.70",
-        "200日均线": "406.27",
-        "RSI 14": "70.19",
-        "MACD": "14.91",
-        "20日波动率": "35.76%",
-        "成交量": "67,999,700",
-        "量比20日": "1.05",
+        "最新价": "$443.30",
+        "日内涨跌": "-0.44%",
+        "1日涨跌": "-0.44%",
+        "5日涨跌": "+3.49%",
+        "1月涨跌": "+21.72%",
+        "3月涨跌": "+6.19%",
+        "6月涨跌": "+9.63%",
+        "1年涨跌": "+27.50%",
+        "YTD涨跌": "+1.19%",
+        "20日均线": "400.24",
+        "50日均线": "386.45",
+        "200日均线": "406.88",
+        "RSI 14": "69.02",
+        "MACD": "16.18",
+        "20日波动率": "35.60%",
+        "成交量": "45,182,287",
+        "量比20日": "0.73",
         "52周高点": "498.83",
         "52周低点": "273.21",
-        "距52周高点": "-10.74%",
-        "距52周低点": "+62.98%",
+        "距52周高点": "-11.13%",
+        "距52周低点": "+62.26%",
         "20日支撑": "364.02",
         "20日压力": "453.40"
       }
@@ -76,15 +76,15 @@
         "流通股本": "3.76B",
         "ROE": "4.90%",
         "债务/权益": "0.01",
-        "市值": "$1.67T",
+        "市值": "$1.66T",
         "企业价值": "$1.64T",
-        "市盈率 TTM": "416.14",
-        "预期市盈率": "177.11",
-        "市销率": "17.09",
+        "市盈率 TTM": "414.30",
+        "预期市盈率": "176.33",
+        "市销率": "17.01",
         "EV / 营收": "16.80",
         "EV / EBITDA": "148.20",
         "EV / FCF": "313.05",
-        "FCF 收益率": "0.31%",
+        "FCF 收益率": "0.32%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 71.66666666666666,
+          "value": 64.16666666666666,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 57.333333333333336,
+          "value": 56.958333333333336,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
-      "data": null,
+      "title_meta": "Yahoo Finance · 41 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 412.25366,
+        "target_high": 600.0,
+        "target_low": 123.0,
+        "upside_pct": -7.0,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 41,
+        "next_earnings": "2026-07-23",
+        "eps_estimate": 0.45438,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,26 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/tesla-stock-elon-musk-china-fsd-8563c244?siteid=yhoof2&yptr=yahoo",
-          "title": "How Musk’s Visit to China Could Unlock Tesla’s Next Big Growth Driver",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/tsla",
+          "title": "Tesla Inc. Stock Quote (U.S.: Nasdaq) - TSLA - MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/trump-xi-summit-whats-table-214500458.html",
-          "title": "Trump-Xi summit: What's on the table for US, Chinese companies",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TSLA/",
+          "title": "Tesla, Inc. (TSLA) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/economy/policy/article/nvidias-jensen-huang-is-a-late-addition-to-trumps-china-trip-joining-elon-musk-tim-cook-and-others-201120985.html",
-          "title": "Nvidia's Jensen Huang is a late addition to Trump's China trip, joining Elon Musk, Tim Cook, and others",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TSLA.MX/",
+          "title": "Tesla, Inc. (TSLA.MX) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TSLA/analysis/",
+          "title": "Tesla, Inc. (TSLA) Analyst Ratings, Estimates & Forecasts",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/TSLA.WA/news/",
+          "title": "Tesla, Inc. (TSLA.WA) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TSLA.BA/news?ncid=yahooproperties_stockrecom_g40boan2td8",
+          "title": "Tesla, Inc. (TSLA.BA) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/TSLA",
+          "title": "TSLA: Tesla Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/2026/03/25/tesla-stock-true-believers-could-be-losing-faith.html",
+          "title": "Tesla stock true believers could be losing faith",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/2026/04/15/tesla-tsla-stock-analyst-upgrade-software-updates.html",
+          "title": "Tesla stock adds nearly 8% as Elon Musk touts chip progress - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TSLA/news/",
+          "title": "Tesla, Inc. (TSLA) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -226,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 56.47368421052631
+        },
+        {
+          "date": "2026-05-15",
+          "value": 56.958333333333336
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

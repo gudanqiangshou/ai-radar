@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "AI 算力互连 PCIe/CXL/Ethernet retimer — Nvidia AI 集群供应商",
-    "price": 224.08999633789062,
-    "change_1d": 9.62,
-    "composite": 52.738888888888894,
+    "price": 228.63999938964844,
+    "change_1d": 2.03,
+    "composite": 52.488888888888894,
     "tier_letter": "B",
     "description": [
       "Astera Labs 的 AI 产业链位置为 Networking / Optical。",
@@ -19,7 +19,7 @@
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$224.09",
-        "日内涨跌": "+9.62%",
-        "1日涨跌": "+9.62%",
-        "5日涨跌": "+12.16%",
-        "1月涨跌": "+34.35%",
-        "3月涨跌": "+77.03%",
-        "6月涨跌": "+55.25%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+24.80%",
-        "20日均线": "197.67",
-        "50日均线": "154.19",
-        "200日均线": "166.51",
-        "RSI 14": "67.61",
-        "MACD": "16.22",
-        "20日波动率": "83.58%",
-        "成交量": "6,401,500",
-        "量比20日": "1.11",
+        "最新价": "$228.64",
+        "日内涨跌": "+2.03%",
+        "1日涨跌": "+2.03%",
+        "5日涨跌": "+14.44%",
+        "1月涨跌": "+34.02%",
+        "3月涨跌": "+76.80%",
+        "6月涨跌": "+58.40%",
+        "1年涨跌": "+152.20%",
+        "YTD涨跌": "+27.33%",
+        "20日均线": "200.56",
+        "50日均线": "156.49",
+        "200日均线": "167.06",
+        "RSI 14": "68.92",
+        "MACD": "17.04",
+        "20日波动率": "83.19%",
+        "成交量": "4,605,473",
+        "量比20日": "0.79",
         "52周高点": "262.90",
         "52周低点": "84.78",
-        "距52周高点": "-14.76%",
-        "距52周低点": "+164.32%",
-        "20日支撑": "161.05",
+        "距52周高点": "-13.03%",
+        "距52周低点": "+169.69%",
+        "20日支撑": "167.24",
         "20日压力": "231.73"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "171.41M",
         "ROE": "21.11%",
         "债务/权益": "0.00",
-        "市值": "$38.41B",
+        "市值": "$39.19B",
         "企业价值": "$37.27B",
-        "市盈率 TTM": "151.41",
-        "预期市盈率": "53.65",
-        "市销率": "38.36",
+        "市盈率 TTM": "154.49",
+        "预期市盈率": "54.74",
+        "市销率": "39.13",
         "EV / 营收": "37.21",
         "EV / EBITDA": "159.69",
         "EV / FCF": "155.28",
-        "FCF 收益率": "0.62%",
+        "FCF 收益率": "0.61%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 60.555555555555564,
+          "value": 55.55555555555556,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 52.738888888888894,
+          "value": 52.488888888888894,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 242.51474,
+        "target_high": 297.0,
+        "target_low": 153.3243,
+        "upside_pct": 6.07,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 22,
+        "next_earnings": "2026-08-05",
+        "eps_estimate": 0.69059,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ALAB/news/",
+          "title": "Astera Labs, Inc. (ALAB) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ALAB/",
+          "title": "Astera Labs, Inc. (ALAB) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/astera-labs-alab-eyes-high-215323317.html",
+          "title": "Astera Labs (ALAB) Eyes ‘High Double-Digit Growth,’ Soars 27%",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ALAB",
+          "title": "ALAB: Astera Labs, Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/ALAB.MX/news/",
+          "title": "ASTERA LABS INC (ALAB.MX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ALAB",
+          "title": "Astera Labs, Inc. (ALAB) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ALAB/latest-news/",
+          "title": "Astera Labs, Inc. (ALAB) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-companies-high-insider-173605222.html",
+          "title": "3 Growth Companies With High Insider Ownership And Up To 71% Earnings Growth",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/alab-benefits-strong-ualink-growth-161600882.html",
+          "title": "ALAB Benefits From Strong UALink Growth: More Upside Ahead?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-companies-high-insider-113546733.html",
+          "title": "3 Growth Companies With High Insider Ownership And 27% Revenue Growth",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 52.738888888888894
+        },
+        {
+          "date": "2026-05-15",
+          "value": 52.488888888888894
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

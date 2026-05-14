@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "电子测试仪器 — 5G / AI 网络验证测试设备",
-    "price": 361.19000244140625,
-    "change_1d": -0.13,
-    "composite": 58.9,
+    "price": 361.54998779296875,
+    "change_1d": 0.1,
+    "composite": 59.275,
     "tier_letter": "C",
     "description": [
       "Keysight Technologies 的 AI 产业链位置为 EDA / Design Software。",
-      "AI 角色：电子测试仪器 — 5G / AI 网络验证测试设备。当前内部综合评分 58。",
+      "AI 角色：电子测试仪器 — 5G / AI 网络验证测试设备。当前内部综合评分 59。",
       "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$361.19",
-        "日内涨跌": "-0.13%",
-        "1日涨跌": "-0.13%",
-        "5日涨跌": "+0.25%",
-        "1月涨跌": "+9.08%",
-        "3月涨跌": "+57.39%",
-        "6月涨跌": "+101.71%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+74.83%",
-        "20日均线": "348.02",
-        "50日均线": "315.55",
-        "200日均线": "223.94",
-        "RSI 14": "64.92",
-        "MACD": "14.08",
-        "20日波动率": "28.56%",
-        "成交量": "1,481,600",
-        "量比20日": "1.30",
+        "最新价": "$361.55",
+        "日内涨跌": "+0.10%",
+        "1日涨跌": "+0.10%",
+        "5日涨跌": "+0.35%",
+        "1月涨跌": "+9.41%",
+        "3月涨跌": "+54.83%",
+        "6月涨跌": "+101.92%",
+        "1年涨跌": "+119.84%",
+        "YTD涨跌": "+75.01%",
+        "20日均线": "349.60",
+        "50日均线": "316.76",
+        "200日均线": "224.92",
+        "RSI 14": "65.09",
+        "MACD": "13.56",
+        "20日波动率": "28.40%",
+        "成交量": "947,952",
+        "量比20日": "0.81",
         "52周高点": "370.17",
         "52周低点": "152.85",
-        "距52周高点": "-2.43%",
-        "距52周低点": "+136.31%",
-        "20日支撑": "321.20",
+        "距52周高点": "-2.33%",
+        "距52周低点": "+136.55%",
+        "20日支撑": "324.27",
         "20日压力": "370.17"
       }
     },
@@ -76,11 +76,11 @@
         "流通股本": "171.50M",
         "ROE": "17.22%",
         "债务/权益": "0.04",
-        "市值": "$61.94B",
+        "市值": "$62.01B",
         "企业价值": "$62.54B",
-        "市盈率 TTM": "63.70",
-        "预期市盈率": "34.95",
-        "市销率": "10.91",
+        "市盈率 TTM": "63.77",
+        "预期市盈率": "34.99",
+        "市销率": "10.92",
         "EV / 营收": "11.02",
         "EV / EBITDA": "48.63",
         "EV / FCF": "58.05",
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 55.0,
+          "value": 62.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 58.9,
+          "value": 59.275,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 13 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 315.15384,
+        "target_high": 384.0,
+        "target_low": 220.0,
+        "upside_pct": -12.83,
+        "rating": "none",
+        "rating_letter": "—",
+        "rating_change": "维持",
+        "previous_rating_letter": "—",
+        "n_analysts": 13,
+        "next_earnings": "2026-05-20",
+        "eps_estimate": 2.32049,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/KEYS/news/",
+          "title": "Keysight Technologies, Inc. (KEYS) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/KEYS",
+          "title": "KEYS: Keysight Technologies Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/keysight-technologies-keys-returning-growth-121710161.html",
+          "title": "Keysight Technologies (KEYS) is Returning to Growth",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/KEYS/",
+          "title": "Keysight Technologies, Inc. (KEYS) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/keys",
+          "title": "KEYS Stock Price | Keysight Technologies Inc. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/KEYS/latest-news/",
+          "title": "Keysight Technologies, Inc. (KEYS) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/KEYS.A/key-metrics/",
+          "title": "KEYS.A - | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/KEYS.VI/news/",
+          "title": "Keysight Technologies, Inc. (KEYS.VI) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/gear-keysight-keys-q2-earnings-131502848.html",
+          "title": "Gear Up for Keysight (KEYS) Q2 Earnings: Wall Street Estimates for Key Metrics",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-industrials-stocks-fall-short-053255691.html",
+          "title": "3 Industrials Stocks That Fall Short",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 58.9
+        },
+        {
+          "date": "2026-05-15",
+          "value": 59.275
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

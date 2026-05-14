@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "卡罗来纳 / 佛州区域电网，AI 数据中心新增负荷",
-    "price": 123.9000015258789,
-    "change_1d": -0.94,
-    "composite": 66.42666666666666,
+    "price": 124.30999755859375,
+    "change_1d": 0.33,
+    "composite": 66.58142857142857,
     "tier_letter": "B",
     "description": [
       "Duke Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$123.90",
-        "日内涨跌": "-0.94%",
-        "1日涨跌": "-0.94%",
-        "5日涨跌": "-0.22%",
-        "1月涨跌": "-4.98%",
-        "3月涨跌": "-1.75%",
-        "6月涨跌": "+0.97%",
-        "1年涨跌": "+9.58%",
-        "YTD涨跌": "+5.50%",
-        "20日均线": "126.69",
-        "50日均线": "129.10",
-        "200日均线": "124.03",
-        "RSI 14": "37.57",
-        "MACD": "-1.21",
-        "20日波动率": "16.78%",
-        "成交量": "3,400,800",
-        "量比20日": "1.11",
+        "最新价": "$124.31",
+        "日内涨跌": "+0.33%",
+        "1日涨跌": "+0.33%",
+        "5日涨跌": "+0.11%",
+        "1月涨跌": "-4.21%",
+        "3月涨跌": "-3.03%",
+        "6月涨跌": "+1.30%",
+        "1年涨跌": "+10.54%",
+        "YTD涨跌": "+5.85%",
+        "20日均线": "126.47",
+        "50日均线": "128.95",
+        "200日均线": "124.06",
+        "RSI 14": "39.49",
+        "MACD": "-1.24",
+        "20日波动率": "16.70%",
+        "成交量": "1,738,937",
+        "量比20日": "0.58",
         "52周高点": "134.49",
         "52周低点": "111.22",
-        "距52周高点": "-7.87%",
-        "距52周低点": "+11.40%",
+        "距52周高点": "-7.57%",
+        "距52周低点": "+11.77%",
         "20日支撑": "122.84",
         "20日压力": "130.70"
       }
@@ -76,15 +76,15 @@
         "流通股本": "779.60M",
         "ROE": "9.66%",
         "债务/权益": "0.94",
-        "市值": "$96.59B",
+        "市值": "$96.91B",
         "企业价值": "$188.65B",
-        "市盈率 TTM": "19.24",
-        "预期市盈率": "17.29",
-        "市销率": "2.95",
+        "市盈率 TTM": "19.12",
+        "预期市盈率": "17.34",
+        "市销率": "2.96",
         "EV / 营收": "5.77",
         "EV / EBITDA": "11.45",
         "EV / FCF": "-83.98",
-        "FCF 收益率": "-2.33%",
+        "FCF 收益率": "-2.32%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 20.476190476190478,
+          "value": 23.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 66.42666666666666,
+          "value": 66.58142857142857,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-14 14:53:58",
+      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-15 05:16:02",
       "data": {
-        "target_mean": 140.0,
+        "target_mean": 139.66667,
         "target_high": 146.0,
         "target_low": 131.0,
-        "upside_pct": 12.99,
+        "upside_pct": 12.35,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,70 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/DUK-PA/latest-news/",
+          "title": "Duke Energy Corporation (DUK-PA) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUK.MX/news/",
+          "title": "Duke Energy Corporation (DUK.MX) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/DUK-PA/news/",
+          "title": "Duke Energy Corporation (DUK-PA) latest stock news and headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUK/fair-value/",
+          "title": "Duke Energy Corporation (DUK) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/DUK.P/",
+          "title": "(DUK.P) | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUK-PA/news/",
+          "title": "Duke Energy Corporation (DUK-PA) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "MarketBeat",
+          "url": "https://www.marketbeat.com/instant-alerts/whitefiber-q1-earnings-call-highlights-2026-05-14/?utm_source=yahoofinance&utm_medium=yahoofinance",
+          "title": "WhiteFiber Q1 Earnings Call Highlights",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/duke-energy-corporation-duk-trending-130004495.html",
+          "title": "Duke Energy Corporation (DUK) Is a Trending Stock: Facts to Know Before Betting on It",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-13",
           "source": "reuters.com",
           "url": "https://www.reuters.com/markets/companies/DUK.N/",
@@ -210,70 +274,6 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/DUK/latest-news/",
           "title": "Duke Energy Corporation (DUK) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "barrons.com",
-          "url": "https://www.barrons.com/market-data/stocks/duk",
-          "title": "DUK | Duke Energy Corp. Stock Overview (U.S.: NYSE) - Barron's",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/DUK/community/",
-          "title": "Duke Energy Corporation (DUK) Stock Forum & Discussion",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/DUK/news/",
-          "title": "Duke Energy Corporation (DUK) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/DUK/",
-          "title": "Duke Energy Corporation (DUK) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/DUK",
-          "title": "DUK: Duke Energy Corp - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/DUK-PA/",
-          "title": "Duke Energy Corporation (DUK-PA) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/DUK",
-          "title": "Duke Energy Corporation (DUK) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/US/XNYS/DUK",
-          "title": "DUK | Duke Energy Corp. Stock Price & News - WSJ",
           "sentiment": null,
           "impact": null
         }
@@ -295,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 66.42666666666666
+        },
+        {
+          "date": "2026-05-15",
+          "value": 66.58142857142857
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

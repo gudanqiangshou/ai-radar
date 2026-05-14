@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "AI PC + 智能手机 SoC — Snapdragon X 端侧 AI 推理",
-    "price": 213.1699981689453,
-    "change_1d": 1.36,
-    "composite": 62.895454545454555,
+    "price": 200.0800018310547,
+    "change_1d": -6.14,
+    "composite": 62.304545454545455,
     "tier_letter": "B",
     "description": [
       "Qualcomm 的 AI 产业链位置为 Compute / GPU / ASIC。",
@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$213.17",
-        "日内涨跌": "+1.36%",
-        "1日涨跌": "+1.36%",
-        "5日涨跌": "-2.70%",
-        "1月涨跌": "+62.43%",
-        "3月涨跌": "+53.95%",
-        "6月涨跌": "+22.53%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+23.23%",
-        "20日均线": "170.28",
-        "50日均线": "146.48",
-        "200日均线": "158.56",
-        "RSI 14": "69.38",
-        "MACD": "21.77",
-        "20日波动率": "96.16%",
-        "成交量": "26,170,000",
-        "量比20日": "0.97",
+        "最新价": "$200.08",
+        "日内涨跌": "-6.14%",
+        "1日涨跌": "-6.14%",
+        "5日涨跌": "-8.68%",
+        "1月涨跌": "+50.62%",
+        "3月涨跌": "+42.20%",
+        "6月涨跌": "+15.00%",
+        "1年涨跌": "+30.79%",
+        "YTD涨跌": "+15.67%",
+        "20日均线": "173.56",
+        "50日均线": "147.69",
+        "200日均线": "158.75",
+        "RSI 14": "61.85",
+        "MACD": "20.63",
+        "20日波动率": "100.92%",
+        "成交量": "24,353,093",
+        "量比20日": "0.85",
         "52周高点": "247.90",
         "52周低点": "121.99",
-        "距52周高点": "-14.01%",
-        "距52周低点": "+74.74%",
-        "20日支撑": "131.79",
+        "距52周高点": "-19.29%",
+        "距52周低点": "+64.01%",
+        "20日支撑": "132.05",
         "20日压力": "247.90"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "1.05B",
         "ROE": "36.08%",
         "债务/权益": "0.07",
-        "市值": "$224.68B",
+        "市值": "$210.88B",
         "企业价值": "$230.15B",
-        "市盈率 TTM": "22.95",
-        "预期市盈率": "20.04",
-        "市销率": "5.05",
+        "市盈率 TTM": "21.54",
+        "预期市盈率": "18.81",
+        "市销率": "4.74",
         "EV / 营收": "5.17",
         "EV / EBITDA": "17.70",
         "EV / FCF": "24.00",
-        "FCF 收益率": "4.27%",
+        "FCF 收益率": "4.55%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 7.272727272727273,
+          "value": 0.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 93.63636363636364,
+          "value": 97.27272727272727,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 42.27272727272728,
+          "value": 30.454545454545453,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 62.895454545454555,
+          "value": 62.304545454545455,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:58",
-      "data": null,
+      "title_meta": "Yahoo Finance · 31 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 174.83871,
+        "target_high": 300.0,
+        "target_low": 100.0,
+        "upside_pct": -12.62,
+        "rating": "hold",
+        "rating_letter": "B",
+        "rating_change": "维持",
+        "previous_rating_letter": "B",
+        "n_analysts": 31,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 2.22896,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/QCOM.O/",
+          "title": "(QCOM.O) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QCOM/news/",
+          "title": "QUALCOMM Incorporated (QCOM) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/QCOM.BA/news/",
+          "title": "QUALCOMM Incorporated (QCOM.BA) latest stock news and ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/qcom",
+          "title": "Qualcomm Inc. Stock Quote (U.S.: Nasdaq) - QCOM - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QCOM/latest-news/",
+          "title": "QUALCOMM Incorporated (QCOM) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/QCOM",
+          "title": "QCOM QUALCOMM Incorporated Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QCOM.TO/news/",
+          "title": "QUALCOMM Incorporated (QCOM.TO) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QCOM.NE/",
+          "title": "QUALCOMM Incorporated (QCOM.NE) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/retail-investors-leaning-away-software-141600541.html",
+          "title": "Are retail investors leaning away from software amid tech rally?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/cognex-cgnx-launches-sight-3900-161547925.html",
+          "title": "Cognex (CGNX) Launches In-Sight 3900 Embedded AI Vision System for Edge Inspections",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 62.895454545454555
+        },
+        {
+          "date": "2026-05-15",
+          "value": 62.304545454545455
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "MCU + 模拟 — 工业 / 汽车 / IoT 边缘 AI",
-    "price": 96.70999908447266,
-    "change_1d": -1.01,
-    "composite": 45.013636363636365,
+    "price": 97.04000091552734,
+    "change_1d": 0.34,
+    "composite": 45.60454545454546,
     "tier_letter": "C",
     "description": [
       "Microchip Technology 的 AI 产业链位置为 Compute / GPU / ASIC。",
@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$96.71",
-        "日内涨跌": "-1.01%",
-        "1日涨跌": "-1.01%",
-        "5日涨跌": "-2.40%",
-        "1月涨跌": "+31.49%",
-        "3月涨跌": "+22.54%",
-        "6月涨跌": "+80.83%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+48.72%",
-        "20日均线": "90.92",
-        "50日均线": "76.18",
-        "200日均线": "69.03",
-        "RSI 14": "66.76",
-        "MACD": "6.80",
-        "20日波动率": "52.53%",
-        "成交量": "12,890,900",
-        "量比20日": "1.09",
+        "最新价": "$97.04",
+        "日内涨跌": "+0.34%",
+        "1日涨跌": "+0.34%",
+        "5日涨跌": "-2.07%",
+        "1月涨跌": "+30.26%",
+        "3月涨跌": "+23.52%",
+        "6月涨跌": "+81.45%",
+        "1年涨跌": "+60.00%",
+        "YTD涨跌": "+49.22%",
+        "20日均线": "91.93",
+        "50日均线": "76.72",
+        "200日均线": "69.16",
+        "RSI 14": "67.19",
+        "MACD": "6.43",
+        "20日波动率": "52.19%",
+        "成交量": "6,845,303",
+        "量比20日": "0.57",
         "52周高点": "105.91",
         "52周低点": "48.52",
-        "距52周高点": "-8.69%",
-        "距52周低点": "+99.32%",
-        "20日支撑": "74.01",
+        "距52周高点": "-8.38%",
+        "距52周低点": "+100.00%",
+        "20日支撑": "77.76",
         "20日压力": "105.91"
       }
     },
@@ -75,16 +75,16 @@
         "净现金/债务": "-$5.13B",
         "流通股本": "541.14M",
         "ROE": "3.40%",
-        "债务/权益": "0.11",
-        "市值": "$52.33B",
+        "债务/权益": "0.10",
+        "市值": "$52.51B",
         "企业价值": "$57.62B",
-        "市盈率 TTM": "439.59",
-        "预期市盈率": "23.64",
-        "市销率": "11.10",
+        "市盈率 TTM": "441.09",
+        "预期市盈率": "23.72",
+        "市销率": "11.14",
         "EV / 营收": "12.23",
         "EV / EBITDA": "46.50",
         "EV / FCF": "70.28",
-        "FCF 收益率": "1.57%",
+        "FCF 收益率": "1.56%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 59.09090909090909,
+          "value": 62.72727272727273,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 24.090909090909093,
+          "value": 21.36363636363636,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 45.013636363636365,
+          "value": 45.60454545454546,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 25 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 113.24,
+        "target_high": 135.0,
+        "target_low": 75.0,
+        "upside_pct": 16.69,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 25,
+        "next_earnings": "2026-08-07",
+        "eps_estimate": 0.6993,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MCHP/news/",
+          "title": "Microchip Technology Incorporated (MCHP) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/MCHP.VI/news/",
+          "title": "Microchip Technology Incorporated (MCHP.VI) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/MCHP.VI/news/",
+          "title": "Microchip Technology Incorporated (MCHP.VI) latest stock news ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/MCHP.O/",
+          "title": "(MCHP.O) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-microchip-technology-mchp-stock-052026688.html",
+          "title": "Why Microchip Technology (MCHP) Stock Is Up Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/microchip-technology-mchp-13-56-160006120.html",
+          "title": "Microchip Technology (MCHP) Is Up 13.56% in One Week",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MCHP/",
+          "title": "Microchip Technology Incorporated (MCHP) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/MCHP",
+          "title": "MCHP: Microchip Technology Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/csco-q3-earnings-beat-estimates-165000388.html",
+          "title": "CSCO Q3 Earnings Beat Estimates, Strong Networking Aids Top Line",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/monolithic-powers-improved-automotive-solutions-161100486.html",
+          "title": "Can Monolithic Power's Improved Automotive Solutions Drive Growth?",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 45.013636363636365
+        },
+        {
+          "date": "2026-05-15",
+          "value": 45.60454545454546
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

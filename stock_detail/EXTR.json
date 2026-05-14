@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "云原生网络管理 — 边缘 AI 网络",
-    "price": 22.770000457763672,
-    "change_1d": -0.09,
-    "composite": 45.86666666666667,
+    "price": 24.709999084472656,
+    "change_1d": 8.52,
+    "composite": 47.11666666666667,
     "tier_letter": "C",
     "description": [
       "Extreme Networks 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：云原生网络管理 — 边缘 AI 网络。当前内部综合评分 45。",
+      "AI 角色：云原生网络管理 — 边缘 AI 网络。当前内部综合评分 47。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$22.77",
-        "日内涨跌": "-0.09%",
-        "1日涨跌": "-0.09%",
-        "5日涨跌": "-5.28%",
-        "1月涨跌": "+29.08%",
-        "3月涨跌": "+61.03%",
-        "6月涨跌": "+29.08%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+37.67%",
-        "20日均线": "20.64",
-        "50日均线": "17.48",
-        "200日均线": "17.99",
-        "RSI 14": "66.64",
-        "MACD": "1.88",
-        "20日波动率": "109.22%",
-        "成交量": "2,714,500",
-        "量比20日": "0.84",
-        "52周高点": "24.50",
+        "最新价": "$24.71",
+        "日内涨跌": "+8.52%",
+        "1日涨跌": "+8.52%",
+        "5日涨跌": "+2.79%",
+        "1月涨跌": "+40.96%",
+        "3月涨跌": "+70.89%",
+        "6月涨跌": "+40.08%",
+        "1年涨跌": "+54.73%",
+        "YTD涨跌": "+49.40%",
+        "20日均线": "21.00",
+        "50日均线": "17.69",
+        "200日均线": "18.02",
+        "RSI 14": "73.57",
+        "MACD": "1.93",
+        "20日波动率": "111.91%",
+        "成交量": "4,469,687",
+        "量比20日": "1.29",
+        "52周高点": "25.05",
         "52周低点": "13.48",
-        "距52周高点": "-7.06%",
-        "距52周低点": "+68.92%",
+        "距52周高点": "-1.35%",
+        "距52周低点": "+83.31%",
         "20日支撑": "16.39",
-        "20日压力": "24.50"
+        "20日压力": "25.05"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "$60.89M",
         "流通股本": "130.78M",
         "ROE": "21.60%",
-        "债务/权益": "0.08",
-        "市值": "$2.98B",
+        "债务/权益": "0.07",
+        "市值": "$3.23B",
         "企业价值": "$3.00B",
-        "市盈率 TTM": "189.75",
-        "预期市盈率": "17.49",
-        "市销率": "2.38",
+        "市盈率 TTM": "205.92",
+        "预期市盈率": "18.98",
+        "市销率": "2.58",
         "EV / 营收": "2.40",
         "EV / EBITDA": "31.96",
         "EV / FCF": "24.07",
-        "FCF 收益率": "4.19%",
+        "FCF 收益率": "3.86%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 40.0,
+          "value": 65.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 45.86666666666667,
+          "value": 47.11666666666667,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 8 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 26.0625,
+        "target_high": 29.0,
+        "target_low": 22.5,
+        "upside_pct": 5.47,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 8,
+        "next_earnings": "2026-04-29",
+        "eps_estimate": 0.28997,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EXTR/news/",
+          "title": "Extreme Networks, Inc. (EXTR) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EXTR/",
+          "title": "Extreme Networks, Inc. (EXTR) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/extreme-networks-extr-15-0-161405933.html",
+          "title": "Extreme Networks (EXTR) Is Up 15.0% After Raising FY26 Revenue Outlook on AI Cloud Demand",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/EXTR/news?page=5",
+          "title": "Page 5 | Extreme Networks, Inc. (EXTR) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EXTR/press-releases/",
+          "title": "Extreme Networks, Inc. (EXTR) Latest Press Releases & Corporate News - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/extreme-networks-extr-upgraded-buy-170004875.html",
+          "title": "Extreme Networks (EXTR) Upgraded to Buy: What Does It Mean for the Stock?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/extr",
+          "title": "EXTR Stock Price | Extreme Networks Inc. Stock Quote (U.S.: Nasdaq)",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/EXTR/research-reports/",
+          "title": "Extreme Networks, Inc. (EXTR) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/news/extreme-networks-wi-fi-7-221539152.html",
+          "title": "Extreme Networks Wi-Fi 7 Stadium Launch And AI Agent Spark Valuation Debate",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-consider-flourishing-networking-155200433.html",
+          "title": "3 Stocks to Consider From a Flourishing Networking Industry",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 45.86666666666667
+        },
+        {
+          "date": "2026-05-15",
+          "value": 47.11666666666667
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

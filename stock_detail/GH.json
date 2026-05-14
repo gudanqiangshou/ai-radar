@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "液体活检 + AI 肿瘤早筛",
-    "price": 98.47000122070312,
-    "change_1d": -1.47,
-    "composite": 67.9230769230769,
+    "price": 98.66000366210938,
+    "change_1d": 0.19,
+    "composite": 68.94871794871794,
     "tier_letter": "C",
     "description": [
       "Guardant Health 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：液体活检 + AI 肿瘤早筛。当前内部综合评分 67。",
+      "AI 角色：液体活检 + AI 肿瘤早筛。当前内部综合评分 68。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$98.47",
-        "日内涨跌": "-1.47%",
-        "1日涨跌": "-1.47%",
-        "5日涨跌": "+2.89%",
-        "1月涨跌": "+19.78%",
-        "3月涨跌": "-4.17%",
-        "6月涨跌": "+4.34%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-3.21%",
-        "20日均线": "90.48",
-        "50日均线": "88.99",
-        "200日均线": "85.53",
-        "RSI 14": "62.71",
-        "MACD": "2.20",
-        "20日波动率": "43.13%",
-        "成交量": "1,640,300",
-        "量比20日": "0.81",
+        "最新价": "$98.66",
+        "日内涨跌": "+0.19%",
+        "1日涨跌": "+0.19%",
+        "5日涨跌": "+3.09%",
+        "1月涨跌": "+14.19%",
+        "3月涨跌": "-5.90%",
+        "6月涨跌": "+4.55%",
+        "1年涨跌": "+142.29%",
+        "YTD涨跌": "-3.03%",
+        "20日均线": "91.12",
+        "50日均线": "89.10",
+        "200日均线": "85.80",
+        "RSI 14": "62.95",
+        "MACD": "2.45",
+        "20日波动率": "43.17%",
+        "成交量": "1,151,935",
+        "量比20日": "0.58",
         "52周高点": "120.74",
         "52周低点": "36.36",
-        "距52周高点": "-18.44%",
-        "距52周低点": "+170.82%",
+        "距52周高点": "-18.29%",
+        "距52周低点": "+171.34%",
         "20日支撑": "79.01",
         "20日压力": "100.73"
       }
@@ -76,11 +76,11 @@
         "流通股本": "132.60M",
         "ROE": "—",
         "债务/权益": "0.13",
-        "市值": "$13.06B",
+        "市值": "$13.08B",
         "企业价值": "$13.66B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-155.33",
-        "市销率": "12.09",
+        "预期市盈率": "-155.63",
+        "市销率": "12.11",
         "EV / 营收": "12.64",
         "EV / EBITDA": "-33.47",
         "EV / FCF": "-159.85",
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 76.66666666666667,
+          "value": 83.33333333333334,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 67.9230769230769,
+          "value": 68.94871794871794,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
-      "data": null,
+      "title_meta": "Yahoo Finance · 20 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 130.55,
+        "target_high": 190.0,
+        "target_low": 90.0,
+        "upside_pct": 32.32,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 20,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": -0.39466,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/GH/news?page=4",
+          "title": "Guardant Health, Inc. (GH) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/gh",
+          "title": "GH Stock Price | Guardant Health Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/GH",
+          "title": "GH: Guardant Health Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/guardant-health-gh-valuation-focus-021321780.html",
+          "title": "Guardant Health (GH): Valuation in Focus After Obamacare Subsidy ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GH/news/",
+          "title": "Guardant Health, Inc. (GH) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GH.MX/news/",
+          "title": "Guardant Health, Inc. (GH.MX) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/GH",
+          "title": "Guardant Health, Inc. (GH) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/wall-street-positive-opinion-guardant-124009109.html",
+          "title": "Wall Street Has a Positive Opinion on Guardant Health (GH)",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/news/gh-q1-deep-dive-shield-114055837.html",
+          "title": "GH Q1 Deep Dive: Shield Volume Acceleration and Oncology Portfolio Expansion Fuel Growth",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/evercore-isi-keeps-line-rating-000206412.html",
+          "title": "Evercore ISI Keeps an “In Line” Rating on Guardant Health, Inc. (GH)",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 67.9230769230769
+        },
+        {
+          "date": "2026-05-15",
+          "value": 68.94871794871794
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

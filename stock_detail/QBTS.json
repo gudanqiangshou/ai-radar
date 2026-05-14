@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "量子退火 — 优化问题特化路线",
-    "price": 21.440000534057617,
-    "change_1d": -4.07,
+    "price": 22.1299991607666,
+    "change_1d": 3.22,
     "composite": 38.31666666666666,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$21.44",
-        "日内涨跌": "-4.07%",
-        "1日涨跌": "-4.07%",
-        "5日涨跌": "-5.01%",
-        "1月涨跌": "+46.35%",
-        "3月涨跌": "+13.92%",
-        "6月涨跌": "-9.19%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-23.78%",
-        "20日均线": "20.94",
-        "50日均线": "18.12",
-        "200日均线": "22.81",
-        "RSI 14": "54.80",
-        "MACD": "1.32",
-        "20日波动率": "89.58%",
-        "成交量": "25,512,600",
-        "量比20日": "0.71",
+        "最新价": "$22.13",
+        "日内涨跌": "+3.22%",
+        "1日涨跌": "+3.22%",
+        "5日涨跌": "-1.95%",
+        "1月涨跌": "+30.41%",
+        "3月涨跌": "+12.51%",
+        "6月涨跌": "-6.27%",
+        "1年涨跌": "+99.73%",
+        "YTD涨跌": "-21.33%",
+        "20日均线": "20.98",
+        "50日均线": "18.18",
+        "200日均线": "22.84",
+        "RSI 14": "57.01",
+        "MACD": "1.27",
+        "20日波动率": "89.50%",
+        "成交量": "28,069,862",
+        "量比20日": "0.97",
         "52周高点": "46.75",
         "52周低点": "10.60",
-        "距52周高点": "-54.14%",
-        "距52周低点": "+102.26%",
+        "距52周高点": "-52.66%",
+        "距52周低点": "+108.77%",
         "20日支撑": "17.11",
         "20日压力": "24.78"
       }
@@ -76,15 +76,15 @@
         "流通股本": "367.25M",
         "ROE": "-55.27%",
         "债务/权益": "0.01",
-        "市值": "$7.94B",
+        "市值": "$8.20B",
         "企业价值": "$7.39B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-57.43",
-        "市销率": "638.21",
-        "EV / 营收": "594.02",
-        "EV / EBITDA": "-53.25",
-        "EV / FCF": "-109.46",
-        "FCF 收益率": "-0.85%",
+        "预期市盈率": "-59.28",
+        "市销率": "658.75",
+        "EV / 营收": "593.81",
+        "EV / EBITDA": "-53.23",
+        "EV / FCF": "-109.42",
+        "FCF 收益率": "-0.82%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-15 05:16:09",
+      "data": {
+        "target_mean": 35.772,
+        "target_high": 45.0,
+        "target_low": 19.58,
+        "upside_pct": 61.64,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 15,
+        "next_earnings": "2026-08-06",
+        "eps_estimate": -0.08231,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,18 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Benzinga",
-          "url": "https://finance.yahoo.com/news/d-wave-quantum-analysts-slash-181256329.html",
-          "title": "D-Wave Quantum Analysts Slash Their Forecasts After Q1 Results",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QBTS/",
+          "title": "D-Wave Quantum Inc. (QBTS) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/05/13/d-wave-qbts-q1-2026-earnings-transcript/",
-          "title": "D-Wave (QBTS) Q1 2026 Earnings Transcript",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-soars-18-d-wave-153521791.html",
+          "title": "IonQ Soars 18%, D-Wave Climbs 15%, Rigetti Gains 12%: Is the Quantum Super-Cycle Back in Full Force?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/d-wave-quantum-stock-slides-181358189.html",
+          "title": "D-Wave Quantum Stock Slides After $275M Acquisition Filing",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/QBTS/dividends/",
+          "title": "D-Wave Quantum Inc. (QBTS) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/d-wave-quantum-qbts-soars-012847502.html",
+          "title": "D-Wave Quantum (QBTS) Soars 22% on Nvidia Quantum Support",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QBTS/news/",
+          "title": "D-Wave Quantum Inc. (QBTS) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/QBTS",
+          "title": "QBTS: D-Wave Quantum Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QBTS/press-releases/",
+          "title": "D-Wave Quantum Inc. (QBTS) Latest Press Releases & Corporate ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/QBTS",
+          "title": "D-Wave Quantum Inc. (QBTS) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/d-wave-quantum-inc-qbts-204640331.html",
+          "title": "D-Wave Quantum Inc. (QBTS): “I'm A Believer” In ... - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -218,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 37.52631578947368
+        },
+        {
+          "date": "2026-05-15",
+          "value": 38.31666666666666
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

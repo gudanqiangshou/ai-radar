@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "企业 ERP 龙头 + Joule AI Copilot",
-    "price": 160.82000732421875,
-    "change_1d": -3.86,
-    "composite": 53.190909090909095,
+    "price": 164.17999267578125,
+    "change_1d": 2.09,
+    "composite": 53.46363636363637,
     "tier_letter": "B",
     "description": [
       "SAP 的 AI 产业链位置为 AI Application。",
@@ -19,7 +19,7 @@
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$160.82",
-        "日内涨跌": "-3.86%",
-        "1日涨跌": "-3.86%",
-        "5日涨跌": "-7.42%",
-        "1月涨跌": "-5.16%",
-        "3月涨跌": "-21.07%",
-        "6月涨跌": "-34.37%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-32.12%",
-        "20日均线": "172.37",
-        "50日均线": "176.36",
-        "200日均线": "231.57",
-        "RSI 14": "34.82",
-        "MACD": "-2.40",
-        "20日波动率": "42.54%",
-        "成交量": "5,042,100",
-        "量比20日": "1.26",
+        "最新价": "$164.18",
+        "日内涨跌": "+2.09%",
+        "1日涨跌": "+2.09%",
+        "5日涨跌": "-5.48%",
+        "1月涨跌": "-2.16%",
+        "3月涨跌": "-19.73%",
+        "6月涨跌": "-33.00%",
+        "1年涨跌": "-43.08%",
+        "YTD涨跌": "-30.70%",
+        "20日均线": "171.71",
+        "50日均线": "175.73",
+        "200日均线": "230.95",
+        "RSI 14": "40.06",
+        "MACD": "-2.67",
+        "20日波动率": "42.10%",
+        "成交量": "3,417,010",
+        "量比20日": "0.85",
         "52周高点": "313.28",
         "52周低点": "158.58",
-        "距52周高点": "-48.67%",
-        "距52周低点": "+1.41%",
+        "距52周高点": "-47.59%",
+        "距52周低点": "+3.53%",
         "20日支撑": "158.58",
         "20日压力": "188.50"
       }
@@ -76,15 +76,15 @@
         "流通股本": "1.17B",
         "ROE": "16.35%",
         "债务/权益": "0.04",
-        "市值": "$189.60B",
+        "市值": "$193.56B",
         "企业价值": "$185.36B",
-        "市盈率 TTM": "21.88",
-        "预期市盈率": "17.27",
-        "市销率": "5.08",
+        "市盈率 TTM": "22.34",
+        "预期市盈率": "17.63",
+        "市销率": "5.18",
         "EV / 营收": "4.96",
         "EV / EBITDA": "15.97",
         "EV / FCF": "22.76",
-        "FCF 收益率": "4.30%",
+        "FCF 收益率": "4.21%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 26.363636363636363,
+          "value": 31.818181818181813,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 53.190909090909095,
+          "value": 53.46363636363637,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 12 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 258.16666,
+        "target_high": 323.0,
+        "target_low": 200.0,
+        "upside_pct": 57.25,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 12,
+        "next_earnings": "2026-07-24",
+        "eps_estimate": 2.01953,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/SAP",
+          "title": "SAP SE - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SAP/news/",
+          "title": "SAP SE (SAP) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/SAP/",
+          "title": "(SAP) | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/SAP",
+          "title": "SAP SE (SAP) Stock Price, Quote, News & Analysis | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/SAP.F/news/",
+          "title": "SAP SE (SAP.F) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/SAP.SG/news/",
+          "title": "SAP SE (SAP.SG) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SAP/",
+          "title": "SAP SE (SAP) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/sap",
+          "title": "SAP SE ADR Stock Quote (U.S.: NYSE) - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/investing/palantir-may-have-found-its-next-growth-engine-outside-washington",
+          "title": "Palantir may have found its next growth engine outside Washington",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-sap-expand-collaboration-165905629.html",
+          "title": "NVIDIA (NVDA) And SAP Expand Collaboration To Bring Enterprise-Grade Trust And Governance To Specialized AI Agents",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 53.190909090909095
+        },
+        {
+          "date": "2026-05-15",
+          "value": 53.46363636363637
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

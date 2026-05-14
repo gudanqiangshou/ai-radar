@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "数据中心光通信 + 3D 感测 — Apple/AI 双概念",
-    "price": 1030.3699951171875,
-    "change_1d": 3.83,
-    "composite": 49.9388888888889,
+    "price": 1001.8099975585938,
+    "change_1d": -2.77,
+    "composite": 50.244444444444454,
     "tier_letter": "B",
     "description": [
       "Lumentum Holdings 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：数据中心光通信 + 3D 感测 — Apple/AI 双概念。当前内部综合评分 49。",
+      "AI 角色：数据中心光通信 + 3D 感测 — Apple/AI 双概念。当前内部综合评分 50。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$1,030.37",
-        "日内涨跌": "+3.83%",
-        "1日涨跌": "+3.83%",
-        "5日涨跌": "+14.00%",
-        "1月涨跌": "+18.27%",
-        "3月涨跌": "+76.60%",
-        "6月涨跌": "+343.84%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+166.86%",
-        "20日均线": "913.41",
-        "50日均线": "806.15",
-        "200日均线": "413.81",
-        "RSI 14": "61.36",
-        "MACD": "54.68",
-        "20日波动率": "96.69%",
-        "成交量": "4,377,400",
-        "量比20日": "0.74",
+        "最新价": "$1,001.81",
+        "日内涨跌": "-2.77%",
+        "1日涨跌": "-2.77%",
+        "5日涨跌": "+10.84%",
+        "1月涨跌": "+17.47%",
+        "3月涨跌": "+78.02%",
+        "6月涨跌": "+331.54%",
+        "1年涨跌": "+1179.61%",
+        "YTD涨跌": "+159.46%",
+        "20日均线": "918.94",
+        "50日均线": "812.57",
+        "200日均线": "418.27",
+        "RSI 14": "58.56",
+        "MACD": "54.52",
+        "20日波动率": "94.15%",
+        "成交量": "3,530,402",
+        "量比20日": "0.61",
         "52周高点": "1085.68",
         "52周低点": "71.04",
-        "距52周高点": "-5.09%",
-        "距52周低点": "+1350.41%",
+        "距52周高点": "-7.73%",
+        "距52周低点": "+1310.21%",
         "20日支撑": "780.48",
         "20日压力": "1085.68"
       }
@@ -76,11 +76,11 @@
         "流通股本": "77.80M",
         "ROE": "22.83%",
         "债务/权益": "0.04",
-        "市值": "$80.16B",
+        "市值": "$77.94B",
         "企业价值": "$74.02B",
-        "市盈率 TTM": "181.72",
-        "预期市盈率": "57.24",
-        "市销率": "32.21",
+        "市盈率 TTM": "176.69",
+        "预期市盈率": "55.66",
+        "市销率": "31.32",
         "EV / 营收": "29.75",
         "EV / EBITDA": "145.48",
         "EV / FCF": "792.92",
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 42.77777777777778,
+          "value": 48.888888888888886,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 49.9388888888889,
+          "value": 50.244444444444454,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 24 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 1104.6841,
+        "target_high": 1400.0,
+        "target_low": 600.0,
+        "upside_pct": 10.27,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 24,
+        "next_earnings": "2026-05-06",
+        "eps_estimate": 2.96184,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,26 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/lumentum-holdings-inc-lite-hit-131501521.html",
-          "title": "Lumentum Holdings Inc. (LITE) Hit a 52 Week High, Can the Run Continue?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LITE/latest-news/",
+          "title": "Lumentum Holdings Inc. (LITE) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "IPO-Edge.com",
-          "url": "https://finance.yahoo.com/news/nlight-participate-william-blair-46th-221811667.html",
-          "title": "nLIGHT to Participate in William Blair 46th Conference & Baird 2026",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-holdings-lite-sold-2027-113548514.html",
+          "title": "​Lumentum Holdings (LITE) Sold Out Through 2027 on High Demand",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp500-nasdaq-oil-prices-sandisk-cpi-inflation/?src=A00220&yptr=yahoo",
-          "title": "Stock Market Today: Dow Ekes Out A Gain As Nasdaq Drops; Nvidia Hits A High (Live Coverage)",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LITE/news/",
+          "title": "Lumentum Holdings Inc. (LITE) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LITE/",
+          "title": "Lumentum Holdings Inc. (LITE) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/LITE",
+          "title": "Lumentum Holdings Inc. (LITE) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/lite",
+          "title": "LITE | Lumentum Holdings Inc. Stock Overview (U.S. - Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/lumentum-holdings-inc-lite-good-015807155.html",
+          "title": "Is Lumentum Holdings Inc. (LITE) A Good Stock To Buy Now?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/LITE",
+          "title": "LITE: Lumentum Holdings Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/lite",
+          "title": "Lumentum Holdings Inc. Stock Quote (U.S. - LITE - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/LITE/sec-filing/",
+          "title": "Lumentum Holdings Inc. (LITE) Stock Price, News, Quote & History ...",
           "sentiment": null,
           "impact": null
         }
@@ -226,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 52.94736842105263
+        },
+        {
+          "date": "2026-05-15",
+          "value": 50.244444444444454
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

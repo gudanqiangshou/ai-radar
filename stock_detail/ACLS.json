@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 3,
     "ai_role": "离子注入设备 — 功率半导体 + 成熟节点产能扩张",
-    "price": 162.14999389648438,
-    "change_1d": 0.32,
-    "composite": 39.885714285714286,
+    "price": 161.63999938964844,
+    "change_1d": -0.31,
+    "composite": 40.45714285714286,
     "tier_letter": "C",
     "description": [
       "Axcelis Technologies 的 AI 产业链位置为 Semiconductor Equipment。",
-      "AI 角色：离子注入设备 — 功率半导体 + 成熟节点产能扩张。当前内部综合评分 39。",
+      "AI 角色：离子注入设备 — 功率半导体 + 成熟节点产能扩张。当前内部综合评分 40。",
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
-    "status_label": "减持"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$162.15",
-        "日内涨跌": "+0.32%",
-        "1日涨跌": "+0.32%",
-        "5日涨跌": "-0.54%",
-        "1月涨跌": "+46.42%",
-        "3月涨跌": "+79.09%",
-        "6月涨跌": "+98.86%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+88.28%",
-        "20日均线": "143.60",
-        "50日均线": "113.77",
-        "200日均线": "92.23",
-        "RSI 14": "70.03",
-        "MACD": "14.40",
-        "20日波动率": "95.69%",
-        "成交量": "572,700",
-        "量比20日": "0.66",
+        "最新价": "$161.64",
+        "日内涨跌": "-0.31%",
+        "1日涨跌": "-0.31%",
+        "5日涨跌": "-0.85%",
+        "1月涨跌": "+42.97%",
+        "3月涨跌": "+70.96%",
+        "6月涨跌": "+98.23%",
+        "1年涨跌": "+157.59%",
+        "YTD涨跌": "+87.69%",
+        "20日均线": "145.74",
+        "50日均线": "115.27",
+        "200日均线": "92.67",
+        "RSI 14": "69.45",
+        "MACD": "14.05",
+        "20日波动率": "95.92%",
+        "成交量": "386,848",
+        "量比20日": "0.47",
         "52周高点": "171.61",
         "52周低点": "55.93",
-        "距52周高点": "-5.51%",
-        "距52周低点": "+189.92%",
-        "20日支撑": "116.26",
+        "距52周高点": "-5.81%",
+        "距52周低点": "+189.00%",
+        "20日支撑": "117.54",
         "20日压力": "171.61"
       }
     },
@@ -76,11 +76,11 @@
         "流通股本": "30.73M",
         "ROE": "9.74%",
         "债务/权益": "0.01",
-        "市值": "$4.98B",
+        "市值": "$4.97B",
         "企业价值": "$4.69B",
-        "市盈率 TTM": "50.20",
-        "预期市盈率": "34.98",
-        "市销率": "5.89",
+        "市盈率 TTM": "50.04",
+        "预期市盈率": "34.87",
+        "市销率": "5.88",
         "EV / 营收": "5.54",
         "EV / EBITDA": "43.34",
         "EV / FCF": "95.45",
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 42.857142857142854,
+          "value": 48.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 39.885714285714286,
+          "value": 40.45714285714286,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 3 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 161.0,
+        "target_high": 180.0,
+        "target_low": 130.0,
+        "upside_pct": -0.4,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 3,
+        "next_earnings": "2026-08-05",
+        "eps_estimate": 0.89,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ACLS",
+          "title": "ACLS: Axcelis Technologies Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ACLS",
+          "title": "ACLS Axcelis Technologies, Inc. Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ACLS/news?page=6",
+          "title": "Axcelis Technologies, Inc. (ACLS) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/axcelis-technologies-acls-stock-moves-221503825.html",
+          "title": "Axcelis Technologies (ACLS) Stock Moves -1.02% - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ACLS/",
+          "title": "Axcelis Technologies, Inc. (ACLS) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/axcelis-technologies-acls-valuation-check-180246193.html",
+          "title": "Axcelis Technologies (ACLS) Valuation Check After Strong Recent Share Price Momentum",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ACLS.MX/news/",
+          "title": "Axcelis Technologies, Inc. (ACLS.MX) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ACLS/news/",
+          "title": "Axcelis Technologies, Inc. (ACLS) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/news/veeco-instruments-inc-veco-good-152925131.html",
+          "title": "Is Veeco Instruments Inc. (VECO) A Good Stock To Buy Now?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-09",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/look-axcelis-technologies-acls-valuation-061428130.html",
+          "title": "A Look At Axcelis Technologies (ACLS) Valuation After Its Recent Share Price Pullback",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 39.885714285714286
+        },
+        {
+          "date": "2026-05-15",
+          "value": 40.45714285714286
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

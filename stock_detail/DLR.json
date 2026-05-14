@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "全球数据中心 REIT 龙头 — Hyperscaler 自建之外的最大第三方",
-    "price": 193.30999755859375,
-    "change_1d": -1.0,
-    "composite": 41.48571428571429,
+    "price": 192.83999633789062,
+    "change_1d": -0.24,
+    "composite": 41.27142857142858,
     "tier_letter": "A",
     "description": [
       "Digital Realty Trust 的 AI 产业链位置为 Data Center Infrastructure。",
@@ -19,7 +19,7 @@
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$193.31",
-        "日内涨跌": "-1.00%",
-        "1日涨跌": "-1.00%",
-        "5日涨跌": "-1.02%",
-        "1月涨跌": "+0.76%",
-        "3月涨跌": "+7.21%",
-        "6月涨跌": "+22.21%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+24.69%",
-        "20日均线": "198.28",
-        "50日均线": "188.09",
-        "200日均线": "172.04",
-        "RSI 14": "48.51",
-        "MACD": "1.87",
-        "20日波动率": "22.13%",
-        "成交量": "2,075,600",
-        "量比20日": "0.99",
+        "最新价": "$192.84",
+        "日内涨跌": "-0.24%",
+        "1日涨跌": "-0.24%",
+        "5日涨跌": "-1.26%",
+        "1月涨跌": "-1.51%",
+        "3月涨跌": "+6.56%",
+        "6月涨跌": "+21.91%",
+        "1年涨跌": "+16.40%",
+        "YTD涨跌": "+24.39%",
+        "20日均线": "197.97",
+        "50日均线": "188.30",
+        "200日均线": "172.12",
+        "RSI 14": "47.63",
+        "MACD": "1.47",
+        "20日波动率": "21.12%",
+        "成交量": "2,753,214",
+        "量比20日": "1.27",
         "52周高点": "208.14",
         "52周低点": "146.23",
-        "距52周高点": "-7.13%",
-        "距52周低点": "+32.20%",
+        "距52周高点": "-7.35%",
+        "距52周低点": "+31.87%",
         "20日支撑": "190.64",
         "20日压力": "208.14"
       }
@@ -76,15 +76,15 @@
         "流通股本": "351.41M",
         "ROE": "5.69%",
         "债务/权益": "0.28",
-        "市值": "$69.15B",
+        "市值": "$68.98B",
         "企业价值": "$87.68B",
-        "市盈率 TTM": "51.28",
-        "预期市盈率": "62.13",
-        "市销率": "10.95",
+        "市盈率 TTM": "51.15",
+        "预期市盈率": "61.98",
+        "市销率": "10.92",
         "EV / 营收": "13.89",
         "EV / EBITDA": "30.35",
         "EV / FCF": "26.88",
-        "FCF 收益率": "4.72%",
+        "FCF 收益率": "4.73%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 37.142857142857146,
+          "value": 32.85714285714286,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 41.48571428571429,
+          "value": 41.27142857142858,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 29 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 217.86208,
+        "target_high": 250.0,
+        "target_low": 180.0,
+        "upside_pct": 12.98,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 29,
+        "next_earnings": "2026-07-24",
+        "eps_estimate": null,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,26 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/real-estate-etf-xlre-offers-steady-dividends-with-one-major-caution/",
-          "title": "Real Estate ETF XLRE Offers Steady Dividends With One Major Caution",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/dlr",
+          "title": "DLR Stock Price | Digital Realty Trust Inc. Stock Quote (U.S.: NYSE) | MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/why-digital-realty-trust-dlr-170111008.html",
-          "title": "Here’s Why ​Digital Realty Trust (DLR) Is the Best Data Center REIT to Buy",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/DLR",
+          "title": "DLR: Digital Realty Trust Inc - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/13/this-tech-stock-pays-you-to-wait-while-ai-does-the/",
-          "title": "This Tech Stock Pays You to Wait While AI Does the Heavy Lifting",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DLR/",
+          "title": "Digital Realty Trust, Inc. (DLR) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/DLR/news?page=15",
+          "title": "Page 15 | Digital Realty Trust, Inc. (DLR) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DLR/press-releases/",
+          "title": "Digital Realty Trust, Inc. (DLR) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/DLR/financials/",
+          "title": "DLR - | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DLR/news/",
+          "title": "Digital Realty Trust, Inc. (DLR) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DLR-PK/news?p=DLR-PK&ncid=yahooproperties_peoplealso_km0o32z3jzm",
+          "title": "Digital Realty Trust, Inc. (DLR-PK) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/DLR-PL/news/",
+          "title": "Digital Realty Trust, Inc. (DLR-PL) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/DLR-PJ/news/",
+          "title": "Digital Realty Trust, Inc. (DLR-PJ) Latest Stock News & Headlines ...",
           "sentiment": null,
           "impact": null
         }
@@ -226,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 43.78947368421053
+        },
+        {
+          "date": "2026-05-15",
+          "value": 41.27142857142858
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

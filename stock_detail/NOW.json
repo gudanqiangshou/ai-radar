@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Now Assist — 工单/HR/IT 工作流 AI 化",
-    "price": 87.05000305175781,
-    "change_1d": -2.19,
-    "composite": 42.10000000000001,
+    "price": 90.5,
+    "change_1d": 3.96,
+    "composite": 43.23636363636364,
     "tier_letter": "A",
     "description": [
       "ServiceNow 的 AI 产业链位置为 AI Application。",
-      "AI 角色：Now Assist — 工单/HR/IT 工作流 AI 化。当前内部综合评分 42。",
+      "AI 角色：Now Assist — 工单/HR/IT 工作流 AI 化。当前内部综合评分 43。",
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$87.05",
-        "日内涨跌": "-2.19%",
-        "1日涨跌": "-2.19%",
-        "5日涨跌": "-4.53%",
-        "1月涨跌": "-2.26%",
-        "3月涨跌": "-15.72%",
-        "6月涨跌": "-48.82%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-40.96%",
-        "20日均线": "92.28",
-        "50日均线": "100.71",
-        "200日均线": "145.84",
-        "RSI 14": "40.30",
-        "MACD": "-2.79",
-        "20日波动率": "77.13%",
-        "成交量": "22,017,700",
-        "量比20日": "0.80",
+        "最新价": "$90.50",
+        "日内涨跌": "+3.96%",
+        "1日涨跌": "+3.96%",
+        "5日涨跌": "-0.75%",
+        "1月涨跌": "+3.09%",
+        "3月涨跌": "-15.48%",
+        "6月涨跌": "-46.79%",
+        "1年涨跌": "-55.93%",
+        "YTD涨跌": "-38.62%",
+        "20日均线": "91.98",
+        "50日均线": "100.24",
+        "200日均线": "145.30",
+        "RSI 14": "45.77",
+        "MACD": "-2.60",
+        "20日波动率": "78.04%",
+        "成交量": "25,374,302",
+        "量比20日": "0.92",
         "52周高点": "211.48",
         "52周低点": "81.24",
-        "距52周高点": "-58.84%",
-        "距52周低点": "+7.15%",
+        "距52周高点": "-57.21%",
+        "距52周低点": "+11.40%",
         "20日支撑": "83.58",
         "20日压力": "104.50"
       }
@@ -76,15 +76,15 @@
         "流通股本": "1.03B",
         "ROE": "16.07%",
         "债务/权益": "0.03",
-        "市值": "$89.78B",
+        "市值": "$93.33B",
         "企业价值": "$87.02B",
-        "市盈率 TTM": "51.82",
-        "预期市盈率": "17.32",
-        "市销率": "6.43",
+        "市盈率 TTM": "53.87",
+        "预期市盈率": "18.01",
+        "市销率": "6.69",
         "EV / 营收": "6.23",
         "EV / EBITDA": "30.13",
         "EV / FCF": "17.04",
-        "FCF 收益率": "5.69%",
+        "FCF 收益率": "5.47%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 50.909090909090914,
+          "value": 58.18181818181819,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 37.27272727272727,
+          "value": 45.45454545454545,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 42.10000000000001,
+          "value": 43.23636363636364,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 44 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 145.26773,
+        "target_high": 240.0,
+        "target_low": 85.0,
+        "upside_pct": 60.52,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 44,
+        "next_earnings": "2026-07-23",
+        "eps_estimate": 0.85501,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/13/nvidia-reports-its-fiscal-2027-q1-earnings-may-20/",
-          "title": "Nvidia Reports Its Fiscal 2027 Q1 Earnings on May 20. Here's What to Expect.",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NOW/community-insights/",
+          "title": "ServiceNow, Inc. (NOW) Stock Price, News, Quote & History - Yahoo ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/trending-stock-servicenow-inc-now-130004267.html",
-          "title": "Is Trending Stock ServiceNow, Inc. (NOW) a Buy Now?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-servicenow-now-stock-nosediving-011747287.html",
+          "title": "Why ServiceNow (NOW) Stock Is Nosediving - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Benzinga",
-          "url": "https://finance.yahoo.com/news/apple-servicenow-netflix-energy-stock-121426234.html",
-          "title": "Apple, ServiceNow, Netflix And An Energy Stock On CNBC's 'Final Trades'",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/servicenow-now-stock-trades-down-204106067.html",
+          "title": "ServiceNow (NOW) Stock Trades Down, Here Is Why - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/servicenow-faces-2026-vote-written-192832794.html",
-          "title": "ServiceNow Faces 2026 Vote On Written Consent And Governance Trade Offs",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/servicenow-now-one-stocks-could-155526517.html",
+          "title": "ServiceNow (NOW) Is One Of The Stocks That Could Collapse ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NOW/news/",
+          "title": "ServiceNow, Inc. (NOW) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/NOW/historical-prices",
+          "title": "ServiceNow Inc. Price & News - WSJ | NOW",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/NOW",
+          "title": "ServiceNow, Inc. (NOW) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NOW/",
+          "title": "ServiceNow, Inc. (NOW) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/now",
+          "title": "NOW Stock Price | ServiceNow Inc. Stock Quote (U.S. - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NOW/press-releases/",
+          "title": "ServiceNow, Inc. (NOW) Latest Press Releases & Corporate News",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 46.28947368421053
+        },
+        {
+          "date": "2026-05-15",
+          "value": 43.23636363636364
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

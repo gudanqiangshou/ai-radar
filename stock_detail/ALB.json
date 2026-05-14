@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 2,
     "ai_role": "锂矿龙头 — 电池关键原料",
-    "price": 200.94000244140625,
-    "change_1d": -2.23,
+    "price": 191.10000610351562,
+    "change_1d": -4.9,
     "composite": 52.8,
     "tier_letter": "B",
     "description": [
@@ -19,7 +19,7 @@
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$200.94",
-        "日内涨跌": "-2.23%",
-        "1日涨跌": "-2.23%",
-        "5日涨跌": "-1.27%",
-        "1月涨跌": "+8.36%",
-        "3月涨跌": "+26.43%",
-        "6月涨跌": "+74.52%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+39.61%",
-        "20日均线": "197.33",
-        "50日均线": "182.12",
-        "200日均线": "134.76",
-        "RSI 14": "55.54",
-        "MACD": "5.57",
-        "20日波动率": "79.89%",
-        "成交量": "1,862,100",
-        "量比20日": "0.81",
+        "最新价": "$191.10",
+        "日内涨跌": "-4.90%",
+        "1日涨跌": "-4.90%",
+        "5日涨跌": "-6.10%",
+        "1月涨跌": "+0.65%",
+        "3月涨跌": "+14.88%",
+        "6月涨跌": "+65.97%",
+        "1年涨跌": "+212.87%",
+        "YTD涨跌": "+32.77%",
+        "20日均线": "196.11",
+        "50日均线": "182.57",
+        "200日均线": "135.36",
+        "RSI 14": "48.86",
+        "MACD": "4.53",
+        "20日波动率": "56.26%",
+        "成交量": "2,162,475",
+        "量比20日": "1.01",
         "52周高点": "221.00",
         "52周低点": "53.70",
-        "距52周高点": "-9.08%",
-        "距52周低点": "+274.19%",
+        "距52周高点": "-13.53%",
+        "距52周低点": "+255.87%",
         "20日支撑": "184.51",
         "20日压力": "221.00"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$2.03B",
         "流通股本": "117.93M",
         "ROE": "-1.82%",
-        "债务/权益": "0.08",
-        "市值": "$23.70B",
+        "债务/权益": "0.09",
+        "市值": "$22.54B",
         "企业价值": "$27.11B",
         "市盈率 TTM": "—",
-        "预期市盈率": "18.34",
-        "市销率": "4.31",
+        "预期市盈率": "17.45",
+        "市销率": "4.10",
         "EV / 营收": "4.93",
         "EV / EBITDA": "25.39",
         "EV / FCF": "37.82",
-        "FCF 收益率": "3.02%",
+        "FCF 收益率": "3.18%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-15 05:16:09",
+      "data": {
+        "target_mean": 211.37636,
+        "target_high": 264.0,
+        "target_low": 83.28,
+        "upside_pct": 10.61,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 22,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 2.90446,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/albemarle-alb-buy-wall-street-133005708.html",
-          "title": "Is Albemarle (ALB) a Buy as Wall Street Analysts Look Optimistic?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ALB/",
+          "title": "Albemarle Corporation (ALB) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/lithium-story-pushed-albemarle-alb-081652161.html",
-          "title": "Has The Lithium Story Pushed Albemarle (ALB) Too Far After Its 238.1% One-Year Surge?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ALB/latest-news/",
+          "title": "META_TITLE_QUOTE - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-albemarle-alb-might-well-162002162.html",
-          "title": "Why Albemarle (ALB) Might be Well Poised for a Surge",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ALB/news?page=14",
+          "title": "Albemarle Corporation (ALB) Latest Stock News | Seeking Alpha",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/best-momentum-stocks-buy-may-140000085.html",
-          "title": "Best Momentum Stocks to Buy for May 12th",
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/ALB.N/financials/title_income-annual/",
+          "title": "ALB.N - | Stock Price & Latest News | Reuters",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/basic-materials-stocks-lagging-albemarle-134004308.html",
-          "title": "Are Basic Materials Stocks Lagging  Albemarle (ALB) This Year?",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ALB/news/",
+          "title": "Albemarle Corporation (ALB) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ALB",
+          "title": "Albemarle Corporation (ALB) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/ALB.N/",
+          "title": "(ALB.N) | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ALB",
+          "title": "ALB: Albemarle Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ALB/research-reports",
+          "title": "Albemarle Corporation (ALB) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/ALB/latest-news/",
+          "title": "Albemarle Corporation (ALB) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 58.89473684210525
+        },
+        {
+          "date": "2026-05-15",
+          "value": 52.8
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

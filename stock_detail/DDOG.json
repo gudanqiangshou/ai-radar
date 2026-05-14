@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 2,
     "ai_role": "可观测性平台 — AI 工作负载监控扩张",
-    "price": 205.30999755859375,
-    "change_1d": 2.69,
+    "price": 202.83999633789062,
+    "change_1d": -1.2,
     "composite": 62.38125,
     "tier_letter": "B",
     "description": [
@@ -19,7 +19,7 @@
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$205.31",
-        "日内涨跌": "+2.69%",
-        "1日涨跌": "+2.69%",
-        "5日涨跌": "+2.57%",
-        "1月涨跌": "+86.51%",
-        "3月涨跌": "+62.78%",
-        "6月涨跌": "+10.97%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+53.48%",
-        "20日均线": "150.10",
-        "50日均线": "132.67",
-        "200日均线": "139.39",
-        "RSI 14": "84.79",
-        "MACD": "20.12",
-        "20日波动率": "113.34%",
-        "成交量": "4,571,700",
-        "量比20日": "0.69",
+        "最新价": "$202.84",
+        "日内涨跌": "-1.20%",
+        "1日涨跌": "-1.20%",
+        "5日涨跌": "+1.34%",
+        "1月涨跌": "+83.45%",
+        "3月涨跌": "+62.01%",
+        "6月涨跌": "+9.64%",
+        "1年涨跌": "+70.32%",
+        "YTD涨跌": "+51.63%",
+        "20日均线": "154.07",
+        "50日均线": "134.36",
+        "200日均线": "139.66",
+        "RSI 14": "82.17",
+        "MACD": "21.05",
+        "20日波动率": "114.24%",
+        "成交量": "4,934,632",
+        "量比20日": "0.75",
         "52周高点": "205.44",
         "52周低点": "98.01",
-        "距52周高点": "-0.06%",
-        "距52周低点": "+109.48%",
-        "20日支撑": "122.60",
+        "距52周高点": "-1.26%",
+        "距52周低点": "+106.96%",
+        "20日支撑": "123.50",
         "20日压力": "205.44"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "330.83M",
         "ROE": "3.93%",
         "债务/权益": "0.02",
-        "市值": "$73.08B",
+        "市值": "$72.20B",
         "企业价值": "$69.61B",
-        "市盈率 TTM": "513.27",
-        "预期市盈率": "72.33",
-        "市销率": "19.90",
+        "市盈率 TTM": "520.10",
+        "预期市盈率": "71.46",
+        "市销率": "19.66",
         "EV / 营收": "18.96",
         "EV / EBITDA": "2009.55",
         "EV / FCF": "74.31",
-        "FCF 收益率": "1.28%",
+        "FCF 收益率": "1.30%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 47 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 220.5726,
+        "target_high": 320.0,
+        "target_low": 128.85,
+        "upside_pct": 8.74,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 47,
+        "next_earnings": "2026-08-06",
+        "eps_estimate": 0.5826,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/13/1-growth-stock-to-buy-hand-fist-in-may-wall-street/",
-          "title": "1 Glorious Growth Stock to Buy Hand Over Fist in May, According to Wall Street",
+          "date": "2026-05-15",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/DDOG.VI/news/",
+          "title": "Datadog, Inc. (DDOG.VI) latest stock news and headlines – Yahoo ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/dynatrace-earnings-stock-price-da8f29e9?siteid=yhoof2&yptr=yahoo",
-          "title": "Dynatrace Stock Falls on Earnings Beat. Why the CEO Thinks the Market Got It Wrong.",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ddog",
+          "title": "Datadog Inc. Cl A Stock Quote (U.S.: Nasdaq) - DDOG - MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/datadog-inc-ddog-good-stock-160455269.html",
-          "title": "Is Datadog, Inc. (DDOG) A Good Stock To Buy Now?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DDOG.MX/news/?p=DDOG.MX&ncid=yahooproperties_stockrecom_g40boan2td8",
+          "title": "Datadog, Inc. (DDOG.MX) Latest Stock News & Headlines - Yahoo ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/team-crcl-ddog-reflect-trending-153000153.html",
-          "title": "TEAM, CRCL, DDOG Reflect Trending Stocks: Here's Why",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DDOG/press-releases/",
+          "title": "Datadog, Inc. (DDOG) Latest Press Releases & Corporate News",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/dynatrace-stock-dynatrace-earnings-news-q12026/?src=A00220&yptr=yahoo",
-          "title": "Dynatrace Stock Falls On Fiscal Q4 Earnings, Mixed 2027 Guidance",
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/DDOG/latest-news/",
+          "title": "Datadog, Inc. (DDOG) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/DDOG",
+          "title": "DDOG: Datadog Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/datadog-ddog-laps-stock-market-214505293.html",
+          "title": "Datadog (DDOG) Laps the Stock Market: Here's Why",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/DDOG",
+          "title": "Datadog, Inc. (DDOG) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DDOG/news/",
+          "title": "Datadog, Inc. (DDOG) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DDOG/",
+          "title": "Datadog, Inc. (DDOG) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 65.36842105263158
+        },
+        {
+          "date": "2026-05-15",
+          "value": 62.38125
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

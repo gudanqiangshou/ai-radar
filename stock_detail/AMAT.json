@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "沉积 / CMP / 离子注入全栈 — AI 产能扩张直接受益",
-    "price": 436.6099853515625,
-    "change_1d": 1.25,
-    "composite": 59.242857142857154,
+    "price": 440.55999755859375,
+    "change_1d": 0.9,
+    "composite": 57.95714285714286,
     "tier_letter": "A",
     "description": [
       "Applied Materials 的 AI 产业链位置为 Semiconductor Equipment。",
-      "AI 角色：沉积 / CMP / 离子注入全栈 — AI 产能扩张直接受益。当前内部综合评分 59。",
+      "AI 角色：沉积 / CMP / 离子注入全栈 — AI 产能扩张直接受益。当前内部综合评分 57。",
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$436.61",
-        "日内涨跌": "+1.25%",
-        "1日涨跌": "+1.25%",
-        "5日涨跌": "+0.27%",
-        "1月涨跌": "+10.33%",
-        "3月涨跌": "+32.95%",
-        "6月涨跌": "+93.18%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+62.39%",
-        "20日均线": "406.88",
-        "50日均线": "377.35",
-        "200日均线": "278.71",
-        "RSI 14": "62.54",
-        "MACD": "15.68",
-        "20日波动率": "49.13%",
-        "成交量": "7,793,800",
-        "量比20日": "1.23",
+        "最新价": "$440.56",
+        "日内涨跌": "+0.90%",
+        "1日涨跌": "+0.90%",
+        "5日涨跌": "+1.18%",
+        "1月涨跌": "+11.35%",
+        "3月涨跌": "+24.13%",
+        "6月涨跌": "+94.93%",
+        "1年涨跌": "+152.99%",
+        "YTD涨跌": "+63.86%",
+        "20日均线": "409.42",
+        "50日均线": "379.00",
+        "200日均线": "279.98",
+        "RSI 14": "63.58",
+        "MACD": "16.27",
+        "20日波动率": "48.74%",
+        "成交量": "14,037,100",
+        "量比20日": "2.04",
         "52周高点": "448.45",
         "52周低点": "153.47",
-        "距52周高点": "-2.64%",
-        "距52周低点": "+184.49%",
+        "距52周高点": "-1.76%",
+        "距52周低点": "+187.07%",
         "20日支撑": "377.07",
         "20日压力": "448.45"
       }
@@ -76,15 +76,15 @@
         "流通股本": "793.61M",
         "ROE": "38.86%",
         "债务/权益": "0.02",
-        "市值": "$346.50B",
+        "市值": "$349.63B",
         "企业价值": "$345.18B",
-        "市盈率 TTM": "44.83",
-        "预期市盈率": "30.20",
-        "市销率": "12.28",
+        "市盈率 TTM": "45.23",
+        "预期市盈率": "30.47",
+        "市销率": "12.39",
         "EV / 营收": "12.23",
         "EV / EBITDA": "38.83",
         "EV / FCF": "79.50",
-        "FCF 收益率": "1.25%",
+        "FCF 收益率": "1.24%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 72.85714285714286,
+          "value": 67.14285714285714,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 62.857142857142854,
+          "value": 59.99999999999999,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 59.242857142857154,
+          "value": 57.95714285714286,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 34 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 444.2353,
+        "target_high": 550.0,
+        "target_low": 280.0,
+        "upside_pct": 0.83,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 34,
+        "next_earnings": "2026-05-15",
+        "eps_estimate": 2.68393,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,26 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/citi-massively-revamps-applied-materials-stock-price-target",
-          "title": "Citi massively revamps Applied Materials stock price target",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/AMAT.VI/news/",
+          "title": "Applied Materials, Inc. (AMAT.VI) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/amats-q2-results-benefit-traction-155300304.html",
-          "title": "AMAT's Q2 Results to Benefit From Traction in DRAM and Logic",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/amat",
+          "title": "Applied Materials Inc. Stock Quote (U.S. - AMAT - MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/jim-cramer-highlights-applied-materials-142839568.html",
-          "title": "Jim Cramer Highlights Applied Materials and the Shortage of Semiconductor Equipment",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/AMAT.BA/news/",
+          "title": "Applied Materials, Inc. (AMAT.BA) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMAT.MX/latest-news/",
+          "title": "Applied Materials, Inc. (AMAT.MX) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMAT/",
+          "title": "Applied Materials, Inc. (AMAT) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/AMAT",
+          "title": "AMAT: Applied Materials Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/AMAT.TO/news/",
+          "title": "Applied Materials, Inc. (AMAT.TO) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/AMAT",
+          "title": "Applied Materials, Inc. (AMAT) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMAT/news/",
+          "title": "Applied Materials, Inc. (AMAT) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/AMAT.TO/profile",
+          "title": "(AMAT.TO) | Stock Price & Latest News | Reuters",
           "sentiment": null,
           "impact": null
         }
@@ -226,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 43.789473684210535
+        },
+        {
+          "date": "2026-05-15",
+          "value": 57.95714285714286
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

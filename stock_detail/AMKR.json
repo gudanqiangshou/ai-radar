@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "美国本土先进封装代表 — Chips Act 受益",
-    "price": 74.61000061035156,
-    "change_1d": 1.58,
-    "composite": 31.400000000000002,
+    "price": 72.08999633789062,
+    "change_1d": -3.38,
+    "composite": 31.8,
     "tier_letter": "C",
     "description": [
       "Amkor Technology 的 AI 产业链位置为 Foundry / Packaging。",
@@ -19,7 +19,7 @@
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "减持"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$74.61",
-        "日内涨跌": "+1.58%",
-        "1日涨跌": "+1.58%",
-        "5日涨跌": "-2.61%",
-        "1月涨跌": "+23.44%",
-        "3月涨跌": "+44.62%",
-        "6月涨跌": "+135.51%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+73.84%",
-        "20日均线": "72.51",
-        "50日均线": "57.72",
-        "200日均线": "41.57",
-        "RSI 14": "60.93",
-        "MACD": "4.86",
-        "20日波动率": "66.39%",
-        "成交量": "3,316,700",
-        "量比20日": "0.61",
+        "最新价": "$72.09",
+        "日内涨跌": "-3.38%",
+        "1日涨跌": "-3.38%",
+        "5日涨跌": "-5.90%",
+        "1月涨跌": "+17.56%",
+        "3月涨跌": "+51.83%",
+        "6月涨跌": "+127.56%",
+        "1年涨跌": "+258.84%",
+        "YTD涨跌": "+67.96%",
+        "20日均线": "72.97",
+        "50日均线": "58.25",
+        "200日均线": "41.81",
+        "RSI 14": "56.12",
+        "MACD": "4.40",
+        "20日波动率": "66.41%",
+        "成交量": "4,826,231",
+        "量比20日": "0.89",
         "52周高点": "79.23",
         "52周低点": "17.79",
-        "距52周高点": "-5.83%",
-        "距52周低点": "+319.39%",
-        "20日支撑": "59.39",
+        "距52周高点": "-9.01%",
+        "距52周低点": "+305.23%",
+        "20日支撑": "63.06",
         "20日压力": "79.23"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "247.87M",
         "ROE": "10.01%",
         "债务/权益": "0.09",
-        "市值": "$18.49B",
+        "市值": "$17.87B",
         "企业价值": "$18.30B",
-        "市盈率 TTM": "42.88",
-        "预期市盈率": "30.45",
-        "市销率": "2.62",
+        "市盈率 TTM": "41.43",
+        "预期市盈率": "30.42",
+        "市销率": "2.53",
         "EV / 营收": "2.59",
         "EV / EBITDA": "15.31",
         "EV / FCF": "-388.12",
-        "FCF 收益率": "-0.25%",
+        "FCF 收益率": "-0.26%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 26.0,
+          "value": 34.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 31.400000000000002,
+          "value": 31.8,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 8 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 75.5,
+        "target_high": 90.0,
+        "target_low": 60.0,
+        "upside_pct": 4.73,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 8,
+        "next_earnings": "2026-07-28",
+        "eps_estimate": 0.47177,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,26 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-12",
-          "source": "Benzinga",
-          "url": "https://finance.yahoo.com/news/heres-much-made-owning-amkor-233036267.html",
-          "title": "Here's How Much You Would Have Made Owning Amkor Technology Stock In The Last 10 Years",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMKR/",
+          "title": "Amkor Technology, Inc. (AMKR) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-07",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/invested-1000-amkor-technology-10-123002418.html",
-          "title": "If You Invested $1000 in Amkor Technology 10 Years Ago, This Is How Much You'd Have Now",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/wall-street-thinks-amkor-technology-100952588.html",
+          "title": "Here’s What Wall Street Thinks About Amkor Technology, Inc. (AMKR)",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-07",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-amkor-technology-amkr-092010877.html",
-          "title": "Is It Too Late To Consider Amkor Technology (AMKR) After Its 343% One Year Surge?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMK.F/",
+          "title": "Amkor Technology, Inc. (AMK.F) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/AMKR/news?page=2",
+          "title": "Amkor Technology, Inc. (AMKR) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/AMKR.MX/news/",
+          "title": "AMKOR TECHNOLOGY INC (AMKR.MX) latest stock news and ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/amkr",
+          "title": "Amkor Technology Inc. Stock Quote (U.S. - AMKR - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/amkr",
+          "title": "AMKR | Amkor Technology Inc. Stock Overview (U.S. - Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMKR/news/",
+          "title": "Amkor Technology, Inc. (AMKR) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/AMKR/latest-news/",
+          "title": "Amkor Technology, Inc. (AMKR) stock price, news, quote and history",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/AMKR",
+          "title": "AMKR: Amkor Technology Inc - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         }
@@ -226,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 20.73684210526316
+        },
+        {
+          "date": "2026-05-15",
+          "value": 31.8
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

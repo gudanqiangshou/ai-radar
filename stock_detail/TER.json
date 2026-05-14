@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 3,
     "ai_role": "半导体测试 + 工业机器人 (UR/MiR) — AI 芯片测试受益",
-    "price": 363.3800048828125,
-    "change_1d": 1.38,
-    "composite": 53.81428571428571,
+    "price": 356.54998779296875,
+    "change_1d": -1.88,
+    "composite": 56.207142857142856,
     "tier_letter": "C",
     "description": [
       "Teradyne 的 AI 产业链位置为 Semiconductor Equipment。",
-      "AI 角色：半导体测试 + 工业机器人 (UR/MiR) — AI 芯片测试受益。当前内部综合评分 53。",
+      "AI 角色：半导体测试 + 工业机器人 (UR/MiR) — AI 芯片测试受益。当前内部综合评分 56。",
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$363.38",
-        "日内涨跌": "+1.38%",
-        "1日涨跌": "+1.38%",
-        "5日涨跌": "+1.00%",
-        "1月涨跌": "-1.82%",
-        "3月涨跌": "+16.83%",
-        "6月涨跌": "+113.79%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+75.07%",
-        "20日均线": "368.12",
-        "50日均线": "335.43",
-        "200日均线": "220.11",
-        "RSI 14": "52.10",
-        "MACD": "5.24",
-        "20日波动率": "101.83%",
-        "成交量": "3,626,200",
-        "量比20日": "0.91",
+        "最新价": "$356.55",
+        "日内涨跌": "-1.88%",
+        "1日涨跌": "-1.88%",
+        "5日涨跌": "-0.90%",
+        "1月涨跌": "-2.45%",
+        "3月涨跌": "+13.31%",
+        "6月涨跌": "+109.77%",
+        "1年涨跌": "+323.10%",
+        "YTD涨跌": "+71.78%",
+        "20日均线": "367.65",
+        "50日均线": "336.46",
+        "200日均线": "221.44",
+        "RSI 14": "50.26",
+        "MACD": "4.47",
+        "20日波动率": "102.10%",
+        "成交量": "2,093,095",
+        "量比20日": "0.52",
         "52周高点": "422.11",
         "52周低点": "75.99",
-        "距52周高点": "-13.91%",
-        "距52周低点": "+378.19%",
+        "距52周高点": "-15.53%",
+        "距52周低点": "+369.21%",
         "20日支撑": "301.86",
         "20日压力": "422.11"
       }
@@ -76,15 +76,15 @@
         "流通股本": "156.54M",
         "ROE": "28.75%",
         "债务/权益": "0.00",
-        "市值": "$56.88B",
+        "市值": "$55.82B",
         "企业价值": "$56.72B",
-        "市盈率 TTM": "67.54",
-        "预期市盈率": "38.20",
-        "市销率": "15.02",
+        "市盈率 TTM": "66.27",
+        "预期市盈率": "37.48",
+        "市销率": "14.74",
         "EV / 营收": "14.98",
         "EV / EBITDA": "48.84",
         "EV / FCF": "190.14",
-        "FCF 收益率": "0.52%",
+        "FCF 收益率": "0.53%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 12.857142857142861,
+          "value": 24.285714285714292,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 24.285714285714285,
+          "value": 26.428571428571427,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 53.81428571428571,
+          "value": 56.207142857142856,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 17 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 369.52942,
+        "target_high": 470.0,
+        "target_low": 270.0,
+        "upside_pct": 3.64,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 17,
+        "next_earnings": "2026-04-29",
+        "eps_estimate": 2.04184,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/TER",
+          "title": "TER: Teradyne Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/teradyne-nasdaq-ter-delivers-strong-204554707.html",
+          "title": "Teradyne (NASDAQ:TER) Delivers Strong Q1 Numbers But Stock Drops",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TER/news/",
+          "title": "Teradyne, Inc. (TER) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TER/latest-news/",
+          "title": "Teradyne, Inc. (TER) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TER/",
+          "title": "Teradyne, Inc. (TER) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TER/history/",
+          "title": "Teradyne, Inc. (TER) Stock Historical Prices & Data - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/TER",
+          "title": "Teradyne, Inc. (TER) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/TER.MX/latest-news/",
+          "title": "Teradyne, Inc. (TER.MX) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/csco-q3-earnings-beat-estimates-165000388.html",
+          "title": "CSCO Q3 Earnings Beat Estimates, Strong Networking Aids Top Line",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/look-teradyne-ter-valuation-strong-100929423.html",
+          "title": "A Look At Teradyne (TER) Valuation After Strong Recent Share Price Momentum",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 53.81428571428571
+        },
+        {
+          "date": "2026-05-15",
+          "value": 56.207142857142856
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

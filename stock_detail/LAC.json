@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "锂矿开发 — Thacker Pass 美国本土项目",
-    "price": 5.480000019073486,
-    "change_1d": -1.62,
+    "price": 5.139999866485596,
+    "change_1d": -6.2,
     "composite": 46.28571428571427,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$5.48",
-        "日内涨跌": "-1.62%",
-        "1日涨跌": "-1.62%",
-        "5日涨跌": "-1.62%",
-        "1月涨跌": "+25.11%",
-        "3月涨跌": "+20.70%",
-        "6月涨跌": "+22.87%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+14.88%",
-        "20日均线": "5.27",
-        "50日均线": "4.65",
-        "200日均线": "4.81",
-        "RSI 14": "56.33",
-        "MACD": "0.31",
-        "20日波动率": "97.60%",
-        "成交量": "10,618,400",
-        "量比20日": "0.81",
+        "最新价": "$5.14",
+        "日内涨跌": "-6.20%",
+        "1日涨跌": "-6.20%",
+        "5日涨跌": "-7.72%",
+        "1月涨跌": "+16.55%",
+        "3月涨跌": "+11.02%",
+        "6月涨跌": "+15.25%",
+        "1年涨跌": "+66.88%",
+        "YTD涨跌": "+7.76%",
+        "20日均线": "5.29",
+        "50日均线": "4.66",
+        "200日均线": "4.83",
+        "RSI 14": "49.90",
+        "MACD": "0.26",
+        "20日波动率": "98.43%",
+        "成交量": "14,095,675",
+        "量比20日": "1.06",
         "52周高点": "10.52",
         "52周低点": "2.47",
-        "距52周高点": "-47.91%",
-        "距52周低点": "+121.86%",
-        "20日支撑": "4.53",
+        "距52周高点": "-51.14%",
+        "距52周低点": "+108.10%",
+        "20日支撑": "4.54",
         "20日压力": "6.07"
       }
     },
@@ -75,16 +75,16 @@
         "净现金/债务": "$57.22M",
         "流通股本": "348.82M",
         "ROE": "-6.81%",
-        "债务/权益": "0.28",
-        "市值": "$1.91B",
+        "债务/权益": "0.30",
+        "市值": "$1.79B",
         "企业价值": "$2.40B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-29.89",
+        "预期市盈率": "-28.04",
         "市销率": "—",
         "EV / 营收": "—",
         "EV / EBITDA": "-45.44",
         "EV / FCF": "-2.38",
-        "FCF 收益率": "-52.67%",
+        "FCF 收益率": "-56.16%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 9 位分析师 · 2026-05-15 05:16:09",
+      "data": {
+        "target_mean": 5.92778,
+        "target_high": 8.0,
+        "target_low": 4.5,
+        "upside_pct": 15.33,
+        "rating": "none",
+        "rating_letter": "—",
+        "rating_change": "维持",
+        "previous_rating_letter": "—",
+        "n_analysts": 9,
+        "next_earnings": "2026-05-14",
+        "eps_estimate": -0.045,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/lithium-americas-argentina-q1-earnings-call-highlights-2026-05-13/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "title": "Lithium Americas (Argentina) Q1 Earnings Call Highlights",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/lithium-americas-lac-forecasts-1-071852716.html",
+          "title": "Lithium Americas (LAC) Forecasts $1.3B to $1.6B 2026 Capex as ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/why-lithium-americas-corp-lac-215001431.html",
-          "title": "Why Lithium Americas Corp. (LAC) Dipped More Than Broader Market Today",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/lac",
+          "title": "Lithium Americas Corp. Stock Quote (U.S. - LAC - MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-10",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lithium-americas-board-move-puts-131029892.html",
-          "title": "Lithium Americas Board Move Puts Thacker Pass And Share Momentum In Focus",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LAC.NE/news/",
+          "title": "LITHIUM AMERICAS CORP (LAC.NE) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-10",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-lithium-americas-tsx-lac-031558975.html",
-          "title": "Assessing Lithium Americas (TSX:LAC) Valuation After Strong Recent Share Price Momentum",
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/LAC",
+          "title": "LAC: Lithium Americas Corp - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-08",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/lithium-americas-lac-one-best-220900835.html",
-          "title": "Is Lithium Americas (LAC) One of the Best EV Battery Stocks to Buy?",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LAC/news/",
+          "title": "Lithium Americas Corp. (LAC) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LAC/",
+          "title": "Lithium Americas Corp. (LAC) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LAC.TO/",
+          "title": "Lithium Americas Corp. (LAC.TO) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/lithium-americas-corp-lac-beats-225003697.html",
+          "title": "Lithium Americas Corp. (LAC) Beats Stock Market Upswing",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/lithium-americas-corp-lac-beats-215002080.html",
+          "title": "Lithium Americas Corp. (LAC) Beats Stock Market Upswing",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/LAC",
+          "title": "Lithium Americas Corp. (LAC) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 41.38461538461537
+        },
+        {
+          "date": "2026-05-15",
+          "value": 46.28571428571427
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

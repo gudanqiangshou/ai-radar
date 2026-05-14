@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "半导体材料 + 过滤 — 先进制程耗材",
-    "price": 145.0399932861328,
-    "change_1d": -0.19,
-    "composite": 42.650000000000006,
+    "price": 139.25999450683594,
+    "change_1d": -3.99,
+    "composite": 42.9,
     "tier_letter": "C",
     "description": [
       "Entegris 的 AI 产业链位置为 Semiconductor Equipment。",
@@ -19,7 +19,7 @@
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$145.04",
-        "日内涨跌": "-0.19%",
-        "1日涨跌": "-0.19%",
-        "5日涨跌": "-2.73%",
-        "1月涨跌": "+5.05%",
-        "3月涨跌": "+10.80%",
-        "6月涨跌": "+85.28%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+61.95%",
-        "20日均线": "147.29",
-        "50日均线": "130.97",
-        "200日均线": "103.80",
-        "RSI 14": "52.93",
-        "MACD": "4.21",
-        "20日波动率": "62.16%",
-        "成交量": "2,369,000",
-        "量比20日": "0.74",
+        "最新价": "$139.26",
+        "日内涨跌": "-3.99%",
+        "1日涨跌": "-3.99%",
+        "5日涨跌": "-6.61%",
+        "1月涨跌": "+1.32%",
+        "3月涨跌": "+5.96%",
+        "6月涨跌": "+77.90%",
+        "1年涨跌": "+70.29%",
+        "YTD涨跌": "+55.49%",
+        "20日均线": "147.45",
+        "50日均线": "131.18",
+        "200日均线": "104.03",
+        "RSI 14": "47.48",
+        "MACD": "3.31",
+        "20日波动率": "63.95%",
+        "成交量": "3,082,025",
+        "量比20日": "0.94",
         "52周高点": "159.15",
         "52周低点": "66.32",
-        "距52周高点": "-8.87%",
-        "距52周低点": "+118.70%",
+        "距52周高点": "-12.50%",
+        "距52周低点": "+109.98%",
         "20日支撑": "134.86",
         "20日压力": "159.15"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$3.21B",
         "流通股本": "152.30M",
         "ROE": "6.79%",
-        "债务/权益": "0.17",
-        "市值": "$22.09B",
+        "债务/权益": "0.18",
+        "市值": "$21.21B",
         "企业价值": "$25.43B",
-        "市盈率 TTM": "83.84",
-        "预期市盈率": "31.50",
-        "市销率": "6.83",
+        "市盈率 TTM": "80.50",
+        "预期市盈率": "30.24",
+        "市销率": "6.56",
         "EV / 营收": "7.86",
         "EV / EBITDA": "28.88",
         "EV / FCF": "57.15",
-        "FCF 收益率": "2.01%",
+        "FCF 收益率": "2.10%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 34.285714285714285,
+          "value": 28.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 75.71428571428572,
+          "value": 81.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 17.857142857142854,
+          "value": 11.428571428571429,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 42.650000000000006,
+          "value": 42.9,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 160.1,
+        "target_high": 205.0,
+        "target_low": 115.0,
+        "upside_pct": 14.96,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 10,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 0.81444,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ENTG",
+          "title": "ENTG: Entegris Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ENTG/press-releases/",
+          "title": "Entegris, Inc. (ENTG) Latest Press Releases & Corporate News - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ENTG/news?page=5",
+          "title": "Entegris, Inc. (ENTG) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ENTG/",
+          "title": "Entegris, Inc. (ENTG) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ENTG",
+          "title": "Entegris, Inc. (ENTG) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/entg",
+          "title": "ENTG Stock Price | Entegris Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ENTG/news/",
+          "title": "Entegris, Inc. (ENTG) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/bear-day-entegris-entg-090000933.html",
+          "title": "Bear of the Day: Entegris (ENTG)",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/news/2026s-capex-rebound-2nm-ramp-125800869.html",
+          "title": "Will 2026's CapEx Rebound and 2nm Ramp Be Catalysts for Entegris?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/news/entg-stocks-valuation-too-rich-125600969.html",
+          "title": "Is ENTG Stock's Valuation Too Rich After a 72% YTD Run?",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 42.650000000000006
+        },
+        {
+          "date": "2026-05-15",
+          "value": 42.9
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

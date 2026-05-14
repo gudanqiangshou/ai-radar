@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "企业网络龙头 + Splunk 可观测性 — 收购 JNPR 增强",
-    "price": 101.87000274658203,
-    "change_1d": 2.6,
-    "composite": 64.4888888888889,
+    "price": 115.52999877929688,
+    "change_1d": 13.41,
+    "composite": 65.96111111111112,
     "tier_letter": "B",
     "description": [
       "Cisco Systems 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：企业网络龙头 + Splunk 可观测性 — 收购 JNPR 增强。当前内部综合评分 64。",
+      "AI 角色：企业网络龙头 + Splunk 可观测性 — 收购 JNPR 增强。当前内部综合评分 65。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$101.87",
-        "日内涨跌": "+2.60%",
-        "1日涨跌": "+2.60%",
-        "5日涨跌": "+5.49%",
-        "1月涨跌": "+23.70%",
-        "3月涨跌": "+35.83%",
-        "6月涨跌": "+30.60%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+33.97%",
-        "20日均线": "91.54",
-        "50日均线": "84.46",
-        "200日均线": "76.16",
-        "RSI 14": "78.87",
-        "MACD": "4.22",
-        "20日波动率": "28.80%",
-        "成交量": "43,468,200",
-        "量比20日": "2.28",
-        "52周高点": "102.01",
+        "最新价": "$115.53",
+        "日内涨跌": "+13.41%",
+        "1日涨跌": "+13.41%",
+        "5日涨跌": "+19.63%",
+        "1月涨跌": "+39.85%",
+        "3月涨跌": "+50.33%",
+        "6月涨跌": "+48.12%",
+        "1年涨跌": "+88.50%",
+        "YTD涨跌": "+51.93%",
+        "20日均线": "93.09",
+        "50日均线": "85.15",
+        "200日均线": "76.40",
+        "RSI 14": "87.47",
+        "MACD": "5.56",
+        "20日波动率": "52.31%",
+        "成交量": "70,247,469",
+        "量比20日": "3.00",
+        "52周高点": "119.36",
         "52周低点": "60.85",
-        "距52周高点": "-0.14%",
-        "距52周低点": "+67.41%",
-        "20日支撑": "82.00",
-        "20日压力": "102.01"
+        "距52周高点": "-3.21%",
+        "距52周低点": "+89.86%",
+        "20日支撑": "84.60",
+        "20日压力": "119.36"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "-$5.59B",
         "流通股本": "3.95B",
         "ROE": "23.75%",
-        "债务/权益": "0.08",
-        "市值": "$402.38B",
+        "债务/权益": "0.07",
+        "市值": "$456.33B",
         "企业价值": "$418.34B",
-        "市盈率 TTM": "36.64",
-        "预期市盈率": "22.34",
-        "市销率": "6.81",
+        "市盈率 TTM": "41.56",
+        "预期市盈率": "24.85",
+        "市销率": "7.73",
         "EV / 营收": "7.08",
         "EV / EBITDA": "25.68",
         "EV / FCF": "41.30",
-        "FCF 收益率": "2.52%",
+        "FCF 收益率": "2.22%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 13.333333333333332,
+          "value": 22.222222222222225,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 47.77777777777778,
+          "value": 59.44444444444444,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 64.4888888888889,
+          "value": 65.96111111111112,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 89.54455,
+        "target_high": 110.0,
+        "target_low": 75.0,
+        "upside_pct": -22.49,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 22,
+        "next_earnings": "2026-08-13",
+        "eps_estimate": 1.03625,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CSCO.SN/news/",
+          "title": "Cisco Systems, Inc. (CSCO.SN) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/CSCO/latest-news/",
+          "title": "Cisco Systems, Inc. (CSCO) stock price, news, quote and history",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/CSCO-CA",
+          "title": "CSCO-CA: Cisco Systems Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CSCO/chart/",
+          "title": "Cisco Systems, Inc. (CSCO) Interactive Stock Chart - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CSCO/news?page=31",
+          "title": "Page 31 | Cisco Systems, Inc. (CSCO) Latest Stock News | Seeking ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CSCO",
+          "title": "Cisco Systems, Inc. (CSCO) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CSCO.BA/",
+          "title": "Cisco Systems, Inc. (CSCO.BA) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CSCO.TO/news/",
+          "title": "Cisco Systems, Inc. (CSCO.TO) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/cisco-surges-on-q3-ai-demand-while-cutting-4000-jobs-in-ai-overhaul-135252913.html",
+          "title": "Cisco surges on Q3 AI demand, while cutting 4,000 jobs in AI overhaul",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-cerebras-ipo-soars-trump-xi-summit-continues/?src=A00220&yptr=yahoo",
+          "title": "Dow Jones Futures: Stocks Power Up As Nvidia Runs, Cerebras IPO Soars; Trump-Xi Summit Continues",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 64.4888888888889
+        },
+        {
+          "date": "2026-05-15",
+          "value": 65.96111111111112
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

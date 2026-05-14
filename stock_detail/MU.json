@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股",
-    "price": 803.6300048828125,
-    "change_1d": 4.83,
-    "composite": 68.6,
+    "price": 776.010009765625,
+    "change_1d": -3.44,
+    "composite": 67.725,
     "tier_letter": "A",
     "description": [
       "Micron Technology 的 AI 产业链位置为 Memory / Storage。",
-      "AI 角色：HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股。当前内部综合评分 68。",
+      "AI 角色：HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股。当前内部综合评分 67。",
       "Memory / Storage 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$803.63",
-        "日内涨跌": "+4.83%",
-        "1日涨跌": "+4.83%",
-        "5日涨跌": "+7.61%",
-        "1月涨跌": "+88.40%",
-        "3月涨跌": "+94.13%",
-        "6月涨跌": "+225.58%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+154.78%",
-        "20日均线": "576.25",
-        "50日均线": "472.18",
-        "200日均线": "300.76",
-        "RSI 14": "81.34",
-        "MACD": "90.36",
-        "20日波动率": "80.73%",
-        "成交量": "54,584,900",
-        "量比20日": "1.20",
+        "最新价": "$776.01",
+        "日内涨跌": "-3.44%",
+        "1日涨跌": "-3.44%",
+        "5日涨跌": "+3.91%",
+        "1月涨跌": "+66.65%",
+        "3月涨跌": "+88.51%",
+        "6月涨跌": "+214.39%",
+        "1年涨跌": "+714.11%",
+        "YTD涨跌": "+146.02%",
+        "20日均线": "592.19",
+        "50日均线": "479.69",
+        "200日均线": "304.08",
+        "RSI 14": "75.62",
+        "MACD": "92.16",
+        "20日波动率": "83.39%",
+        "成交量": "42,112,651",
+        "量比20日": "0.90",
         "52周高点": "818.67",
         "52周低点": "90.93",
-        "距52周高点": "-1.84%",
-        "距52周低点": "+783.79%",
+        "距52周高点": "-5.21%",
+        "距52周低点": "+753.41%",
         "20日支撑": "435.90",
         "20日压力": "818.67"
       }
@@ -76,15 +76,15 @@
         "流通股本": "1.13B",
         "ROE": "39.82%",
         "债务/权益": "0.01",
-        "市值": "$906.28B",
+        "市值": "$875.13B",
         "企业价值": "$902.49B",
-        "市盈率 TTM": "37.87",
-        "预期市盈率": "7.90",
-        "市销率": "15.59",
+        "市盈率 TTM": "36.57",
+        "预期市盈率": "7.62",
+        "市销率": "15.06",
         "EV / 营收": "15.53",
         "EV / EBITDA": "24.52",
         "EV / FCF": "311.90",
-        "FCF 收益率": "0.32%",
+        "FCF 收益率": "0.33%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 100.0,
+          "value": 82.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 68.6,
+          "value": 67.725,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 42 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 573.9048,
+        "target_high": 1000.0,
+        "target_low": 249.0,
+        "upside_pct": -26.04,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 42,
+        "next_earnings": "2026-06-25",
+        "eps_estimate": 18.97141,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/micron-just-gave-chip-bulls-a-100-billion-stress-test-145936552.html",
-          "title": "Micron just gave chip bulls a $100 billion stress test",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/mu",
+          "title": "Micron Technology Inc. Stock Quote (U.S. - MU - MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp500-nasdaq-trump-xi-summit-nvidia-sandisk-micron-intel-nebius/?src=A00220&yptr=yahoo",
-          "title": "Stock Market Today: Nasdaq Ends Strong As AI Leads; Cybersecurity Stock Attempts Breakout (Live Coverage)",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MU/",
+          "title": "Micron Technology, Inc. (MU) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/hedge-funds-south-korea-stocks-samsung-sk-hynix-bb2aa94f?siteid=yhoof2&yptr=yahoo",
-          "title": "Why Hedge Funds Still See Value in Red-Hot South Korean Stocks",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/MU",
+          "title": "MU: Micron Technology Inc - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/grok-ai-chatbot-says-buy-200840458.html",
-          "title": "Grok AI Chatbot Says You Should Buy Micron Technology (MU)",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MU.TO/",
+          "title": "Micron Technology, Inc. (MU.TO) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MU/latest-news/",
+          "title": "META_TITLE_QUOTE - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-micron-technology-mu-one-212906683.html",
+          "title": "Why Micron Technology (MU) Was One of the Top “Blue Chip” Stocks Suddenly on Fire in April",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/video/micron-stock-in-focus-as-wall-street-weighs-ai-demand-outlook-142158704.html",
+          "title": "Micron stock in focus as Wall Street weighs AI demand outlook",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MU/news/",
+          "title": "Micron Technology, Inc. (MU) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MU.NE/news/",
+          "title": "Micron Technology, Inc. (MU.NE) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/mu?ref=sa-stock",
+          "title": "Micron Technology, Inc. (MU) Stock Price, News, Quote & History ...",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 71.1578947368421
+        },
+        {
+          "date": "2026-05-15",
+          "value": 67.725
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

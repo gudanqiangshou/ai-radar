@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "数据中心互联 (DCI) + 光网络系统",
-    "price": 577.9000244140625,
-    "change_1d": 0.13,
-    "composite": 40.62777777777778,
+    "price": 591.5700073242188,
+    "change_1d": 2.37,
+    "composite": 40.988888888888894,
     "tier_letter": "B",
     "description": [
       "Ciena 的 AI 产业链位置为 Networking / Optical。",
@@ -19,7 +19,7 @@
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$577.90",
-        "日内涨跌": "+0.13%",
-        "1日涨跌": "+0.13%",
-        "5日涨跌": "+5.44%",
-        "1月涨跌": "+20.42%",
-        "3月涨跌": "+97.26%",
-        "6月涨跌": "+201.44%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+134.86%",
-        "20日均线": "527.46",
-        "50日均线": "450.70",
-        "200日均线": "256.05",
-        "RSI 14": "65.80",
-        "MACD": "34.59",
-        "20日波动率": "63.94%",
-        "成交量": "1,269,200",
-        "量比20日": "0.60",
+        "最新价": "$591.57",
+        "日内涨跌": "+2.37%",
+        "1日涨跌": "+2.37%",
+        "5日涨跌": "+7.93%",
+        "1月涨跌": "+26.62%",
+        "3月涨跌": "+94.65%",
+        "6月涨跌": "+208.58%",
+        "1年涨跌": "+643.83%",
+        "YTD涨跌": "+140.42%",
+        "20日均线": "532.28",
+        "50日均线": "455.67",
+        "200日均线": "258.55",
+        "RSI 14": "67.89",
+        "MACD": "35.48",
+        "20日波动率": "63.15%",
+        "成交量": "1,119,407",
+        "量比20日": "0.56",
         "52周高点": "598.84",
         "52周低点": "70.77",
-        "距52周高点": "-3.50%",
-        "距52周低点": "+716.59%",
+        "距52周高点": "-1.21%",
+        "距52周低点": "+735.91%",
         "20日支撑": "461.07",
         "20日压力": "598.84"
       }
@@ -76,15 +76,15 @@
         "流通股本": "141.40M",
         "ROE": "8.20%",
         "债务/权益": "0.02",
-        "市值": "$81.71B",
+        "市值": "$83.65B",
         "企业价值": "$82.00B",
-        "市盈率 TTM": "370.45",
-        "预期市盈率": "66.79",
-        "市销率": "15.95",
+        "市盈率 TTM": "379.21",
+        "预期市盈率": "68.37",
+        "市销率": "16.32",
         "EV / 营收": "16.00",
         "EV / EBITDA": "143.74",
         "EV / FCF": "117.27",
-        "FCF 收益率": "0.86%",
+        "FCF 收益率": "0.84%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 59.44444444444444,
+          "value": 66.66666666666667,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 40.62777777777778,
+          "value": 40.988888888888894,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 410.90585,
+        "target_high": 660.0,
+        "target_low": 240.0,
+        "upside_pct": -30.54,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 19,
+        "next_earnings": "2026-06-04",
+        "eps_estimate": 1.45863,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,26 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/corning-surges-137-4-date-155400669.html",
-          "title": "Corning Surges 137.4% Year to Date: How to Play the Stock",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/ciena-falls-weak-full-guidance-124014806.html",
+          "title": "Ciena falls on weak full-year guidance despite Q1 beat",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lumentum-stock-rises-6-q3-140400396.html",
-          "title": "Lumentum Stock Rises 6% After Q3 Earnings: Should You Hold or Fold?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CIEN/latest-news/",
+          "title": "Ciena Corporation (CIEN) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/1859010/this-analyst-just-raised-the-price-target-on-coherent-stock-by-50-what-to-know",
-          "title": "This Analyst Just Raised the Price Target on Coherent Stock by 50%. What to Know.",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CIEN/sec-filing/",
+          "title": "Ciena Corporation (CIEN) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CIEN/news/",
+          "title": "Ciena Corporation (CIEN) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/ciena-corporation-cien-gaining-hyperscaler-133530471.html",
+          "title": "Ciena Corporation (CIEN) is Gaining From Hyperscaler And AI ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CIEN",
+          "title": "Ciena Corporation (CIEN) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CIEN/hiring-trends/",
+          "title": "Ciena Corporation (CIEN) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/cien",
+          "title": "CIEN | Ciena Corp. Stock Overview (U.S.: NYSE) - Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CIEN/",
+          "title": "Ciena Corporation (CIEN) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CIEN/community/",
+          "title": "Ciena Corporation (CIEN) Stock Forum & Discussion - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -226,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 36.24561403508771
+        },
+        {
+          "date": "2026-05-15",
+          "value": 40.988888888888894
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

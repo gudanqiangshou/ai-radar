@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "楼宇自控 + 数据中心制冷集成",
-    "price": 143.8000030517578,
-    "change_1d": 1.96,
-    "composite": 55.47904761904762,
+    "price": 145.02999877929688,
+    "change_1d": 0.86,
+    "composite": 55.58619047619048,
     "tier_letter": "C",
     "description": [
       "Johnson Controls 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$143.80",
-        "日内涨跌": "+1.96%",
-        "1日涨跌": "+1.96%",
-        "5日涨跌": "+3.07%",
-        "1月涨跌": "+0.69%",
-        "3月涨跌": "+3.77%",
-        "6月涨跌": "+21.13%",
-        "1年涨跌": "+49.70%",
-        "YTD涨跌": "+17.57%",
-        "20日均线": "141.89",
-        "50日均线": "137.58",
-        "200日均线": "121.20",
-        "RSI 14": "56.78",
-        "MACD": "1.20",
-        "20日波动率": "22.22%",
-        "成交量": "4,485,900",
-        "量比20日": "1.38",
+        "最新价": "$145.03",
+        "日内涨跌": "+0.86%",
+        "1日涨跌": "+0.86%",
+        "5日涨跌": "+3.95%",
+        "1月涨跌": "+2.10%",
+        "3月涨跌": "+4.16%",
+        "6月涨跌": "+22.16%",
+        "1年涨跌": "+50.52%",
+        "YTD涨跌": "+18.58%",
+        "20日均线": "142.26",
+        "50日均线": "137.68",
+        "200日均线": "121.41",
+        "RSI 14": "59.01",
+        "MACD": "1.35",
+        "20日波动率": "22.33%",
+        "成交量": "2,584,571",
+        "量比20日": "0.80",
         "52周高点": "147.32",
-        "52周低点": "95.31",
-        "距52周高点": "-2.39%",
-        "距52周低点": "+50.88%",
-        "20日支撑": "135.10",
+        "52周低点": "95.64",
+        "距52周高点": "-1.55%",
+        "距52周低点": "+51.64%",
+        "20日支撑": "137.40",
         "20日压力": "147.32"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "610.12M",
         "ROE": "13.45%",
         "债务/权益": "0.11",
-        "市值": "$87.73B",
+        "市值": "$88.49B",
         "企业价值": "$96.58B",
-        "市盈率 TTM": "44.11",
-        "预期市盈率": "25.29",
-        "市销率": "3.59",
+        "市盈率 TTM": "44.49",
+        "预期市盈率": "25.51",
+        "市销率": "3.62",
         "EV / 营收": "3.95",
         "EV / EBITDA": "22.36",
         "EV / FCF": "33.65",
-        "FCF 收益率": "3.27%",
+        "FCF 收益率": "3.24%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 53.33333333333333,
+          "value": 55.476190476190474,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 55.47904761904762,
+          "value": 55.58619047619048,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 21 位分析师 · 2026-05-14 14:53:58",
+      "title_meta": "Yahoo Finance · 21 位分析师 · 2026-05-15 05:16:02",
       "data": {
         "target_mean": 151.19048,
         "target_high": 173.0,
         "target_low": 111.0,
-        "upside_pct": 5.14,
+        "upside_pct": 4.25,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 21,
         "next_earnings": "2026-07-28",
-        "eps_estimate": 1.29396,
+        "eps_estimate": 1.29361,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/JCI/",
+          "title": "Johnson Controls International plc (JCI) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/johnson-controls-jci-just-drew-091233395.html",
+          "title": "Johnson Controls (JCI) Just Drew A Skeptical Outlook",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/johnson-controls-jci-expands-data-024115215.html",
+          "title": "Johnson Controls (JCI) Expands Data Center Cooling Capabilities ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/jci",
+          "title": "JCI Stock Price | Johnson Controls International PLC Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-13",
           "source": "seekingalpha.com",
@@ -244,38 +276,6 @@
           "title": "Johnson Controls International plc (JCI) Stock Major Holders",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/johnson-controls-stock-outperforming-dow-151156957.html",
-          "title": "Is Johnson Controls Stock Outperforming the Dow? - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/JCI/press-releases/",
-          "title": "Johnson Controls International plc (JCI) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/JCI/news/",
-          "title": "Johnson Controls International plc (JCI) Latest Stock News & Headlines - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/johnson-controls-international-jci-price-060035491.html",
-          "title": "Johnson Controls International (JCI) Price Target Increased to $170 from $160 by UBS",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -295,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 55.764761904761905
+        },
+        {
+          "date": "2026-05-15",
+          "value": 55.58619047619048
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

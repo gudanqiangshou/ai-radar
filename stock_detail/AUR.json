@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "L4 自动驾驶卡车 — Uber/Volvo 合作",
-    "price": 8.399999618530273,
-    "change_1d": 16.34,
+    "price": 8.180000305175781,
+    "change_1d": -2.62,
     "composite": 45.33333333333332,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$8.40",
-        "日内涨跌": "+16.34%",
-        "1日涨跌": "+16.34%",
-        "5日涨跌": "+18.64%",
-        "1月涨跌": "+94.00%",
-        "3月涨跌": "+99.05%",
-        "6月涨跌": "+103.39%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+117.05%",
-        "20日均线": "6.01",
-        "50日均线": "4.97",
-        "200日均线": "4.96",
-        "RSI 14": "85.00",
-        "MACD": "0.81",
-        "20日波动率": "92.46%",
-        "成交量": "58,403,900",
-        "量比20日": "2.10",
+        "最新价": "$8.18",
+        "日内涨跌": "-2.62%",
+        "1日涨跌": "-2.62%",
+        "5日涨跌": "+15.54%",
+        "1月涨跌": "+75.16%",
+        "3月涨跌": "+82.59%",
+        "6月涨跌": "+98.06%",
+        "1年涨跌": "+19.24%",
+        "YTD涨跌": "+111.37%",
+        "20日均线": "6.16",
+        "50日均线": "5.05",
+        "200日均线": "4.97",
+        "RSI 14": "79.98",
+        "MACD": "0.86",
+        "20日波动率": "92.58%",
+        "成交量": "49,760,710",
+        "量比20日": "1.62",
         "52周高点": "8.56",
         "52周低点": "3.60",
-        "距52周高点": "-1.93%",
-        "距52周低点": "+133.33%",
+        "距52周高点": "-4.50%",
+        "距52周低点": "+127.22%",
         "20日支撑": "4.79",
         "20日压力": "8.56"
       }
@@ -76,15 +76,15 @@
         "流通股本": "1.65B",
         "ROE": "-44.33%",
         "债务/权益": "0.00",
-        "市值": "$16.47B",
+        "市值": "$16.04B",
         "企业价值": "$15.33B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-19.84",
-        "市销率": "4118.53",
+        "预期市盈率": "-19.32",
+        "市销率": "4010.66",
         "EV / 营收": "3832.03",
         "EV / EBITDA": "-16.96",
         "EV / FCF": "-38.15",
-        "FCF 收益率": "-2.44%",
+        "FCF 收益率": "-2.50%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
-      "data": null,
+      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 10.559,
+        "target_high": 15.0,
+        "target_low": 3.59,
+        "upside_pct": 29.08,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 10,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": -0.12,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-11",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/11/does-berkshire-hathaway-connection-make-aurora/",
-          "title": "Does This Berkshire Hathaway Connection Make Aurora Innovation Stock a Buy?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AUR/dividends/",
+          "title": "Aurora Innovation, Inc. (AUR) Stock Price, News, Quote & History ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Trucking Dive",
-          "url": "https://www.truckingdive.com/news/aurora-says-lower-operating-costs-a-draw-to-prospective-customers/819539/",
-          "title": "Aurora says lower operating costs a draw to prospective customers",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AUROW/",
+          "title": "Aurora Innovation, Inc. (AUROW) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-08",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/too-look-aurora-innovation-aur-152244241.html",
-          "title": "Is It Too Late To Look At Aurora Innovation (AUR) After The Recent Share Price Surge",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AUROW/news/",
+          "title": "Aurora Innovation, Inc. (AUROW) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-07",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-aurora-innovation-aur-42-221916810.html",
-          "title": "Why Aurora Innovation (AUR) Is Up 42.8% After Securing Major Driverless Freight Commitments From McLane",
+          "date": "2026-05-15",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/77F.F/news/",
+          "title": "Aurora Innovation, Inc. (77F.F) latest stock news and headlines ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-07",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/coverage/stock-market-today/2026/05/07/stock-market-today-may-7-aurora-innovation-slips-as-investors-weigh-analyst-support-and-autonomous-trucking-expansion/",
-          "title": "Stock Market Today, May 7: Aurora Innovation Slips as Investors Weigh Analyst Support and Autonomous Trucking Expansion",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/aurora-innovation-aur-report-q1-011454252.html",
+          "title": "Aurora Innovation (AUR) to Report Q1 Earnings, Climbs 13.5%",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AUR/news/",
+          "title": "Aurora Innovation, Inc. (AUR) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/AUR/historical-prices?eafs_enabled=false",
+          "title": "Aurora Innovation Inc. Price & News - WSJ | AUR",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AUR/community-insights/",
+          "title": "Aurora Innovation, Inc. (AUR) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/AUR/latest-news/",
+          "title": "Aurora Innovation, Inc. (AUR) stock price, news, quote and history",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-analysts-positive-aurora-innovation-102354656.html",
+          "title": "Here's Why Analysts Are Positive on Aurora Innovation, Inc. (AUR)",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 34.17647058823529
+        },
+        {
+          "date": "2026-05-15",
+          "value": 45.33333333333332
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

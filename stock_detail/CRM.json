@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Agentforce — 企业 SaaS + Agent 工作流",
-    "price": 165.83999633789062,
-    "change_1d": -3.19,
-    "composite": 56.85,
+    "price": 167.5800018310547,
+    "change_1d": 1.05,
+    "composite": 56.48636363636364,
     "tier_letter": "A",
     "description": [
       "Salesforce 的 AI 产业链位置为 AI Application。",
@@ -19,7 +19,7 @@
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$165.84",
-        "日内涨跌": "-3.19%",
-        "1日涨跌": "-3.19%",
-        "5日涨跌": "-8.79%",
-        "1月涨跌": "-4.04%",
-        "3月涨跌": "-10.56%",
-        "6月涨跌": "-31.94%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-34.61%",
-        "20日均线": "180.88",
-        "50日均线": "184.89",
-        "200日均线": "225.15",
-        "RSI 14": "36.68",
-        "MACD": "-2.56",
-        "20日波动率": "47.76%",
-        "成交量": "11,936,100",
-        "量比20日": "0.95",
+        "最新价": "$167.58",
+        "日内涨跌": "+1.05%",
+        "1日涨跌": "+1.05%",
+        "5日涨跌": "-7.83%",
+        "1月涨跌": "-2.18%",
+        "3月涨跌": "-11.67%",
+        "6月涨跌": "-31.22%",
+        "1年涨跌": "-42.36%",
+        "YTD涨跌": "-33.92%",
+        "20日均线": "180.19",
+        "50日均线": "184.38",
+        "200日均线": "224.65",
+        "RSI 14": "38.59",
+        "MACD": "-3.20",
+        "20日波动率": "47.24%",
+        "成交量": "8,071,674",
+        "量比20日": "0.66",
         "52周高点": "296.05",
         "52周低点": "163.52",
-        "距52周高点": "-43.98%",
-        "距52周低点": "+1.42%",
-        "20日支撑": "164.75",
+        "距52周高点": "-43.39%",
+        "距52周低点": "+2.48%",
+        "20日支撑": "164.33",
         "20日压力": "193.56"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "818.05M",
         "ROE": "12.40%",
         "债务/权益": "0.13",
-        "市值": "$135.67B",
+        "市值": "$137.09B",
         "企业价值": "$161.22B",
-        "市盈率 TTM": "21.29",
-        "预期市盈率": "11.10",
-        "市销率": "3.27",
+        "市盈率 TTM": "21.51",
+        "预期市盈率": "11.22",
+        "市销率": "3.30",
         "EV / 营收": "3.88",
         "EV / EBITDA": "12.85",
         "EV / FCF": "9.85",
-        "FCF 收益率": "12.06%",
+        "FCF 收益率": "11.94%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 48.63636363636364,
+          "value": 41.36363636363636,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 56.85,
+          "value": 56.48636363636364,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 53 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 268.2532,
+        "target_high": 475.0,
+        "target_low": 190.0,
+        "upside_pct": 60.07,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 53,
+        "next_earnings": "2026-05-28",
+        "eps_estimate": 3.12301,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/news/1-dow-jones-stock-worth-191655935.html",
-          "title": "1 Dow Jones Stock Worth Your Attention and 2 We Ignore",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CRM/news/",
+          "title": "Salesforce, Inc. (CRM) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Proactive",
-          "url": "https://www.proactiveinvestors.com/companies/news/1092237/rivian-shares-jump-as-ai-robotics-spinout-mind-robotics-closes-400m-round-1092237.html",
-          "title": "Rivian shares jump as AI robotics spinout Mind Robotics closes $400M round",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CRM",
+          "title": "Salesforce, Inc. (CRM) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "TechCrunch",
-          "url": "https://finance.yahoo.com/news/rivian-spinoff-mind-robotics-raises-163421993.html",
-          "title": "Rivian spinoff Mind Robotics raises another $400M",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/CRM",
+          "title": "CRM: Salesforce Inc - Stock Price, Quote and News",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/veeva-systems-expanding-partnerships-drive-151900836.html",
-          "title": "Can Veeva Systems' Expanding Partnerships Drive Further Upside?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/salesforce-stock-rises-smashes-eps-134944864.html",
+          "title": "Why Salesforce (CRM) Stock Is On The Rise?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/salesforce-crm-stock-declines-while-214506943.html",
+          "title": "Salesforce (CRM) Stock Declines While Market Improves: Some Information for Investors",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRM/",
+          "title": "Salesforce, Inc. (CRM) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/US/XNYS/CRM",
+          "title": "CRM | Salesforce Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/crm",
+          "title": "Salesforce Inc. Stock Quote (U.S.: NYSE) - CRM - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRM/community/",
+          "title": "Salesforce, Inc. (CRM) Stock Forum & Discussion - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/CRM/",
+          "title": "(CRM) | Stock Price & Latest News - Reuters",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 51.55263157894736
+        },
+        {
+          "date": "2026-05-15",
+          "value": 56.48636363636364
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

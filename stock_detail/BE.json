@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "SOFC 燃料电池 — behind-the-meter 数据中心分布式电力",
-    "price": 289.760009765625,
-    "change_1d": 3.23,
-    "composite": 38.09476190476191,
+    "price": 303.4100036621094,
+    "change_1d": 4.71,
+    "composite": 38.16619047619048,
     "tier_letter": "B",
     "description": [
       "Bloom Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$289.76",
-        "日内涨跌": "+3.23%",
-        "1日涨跌": "+3.23%",
-        "5日涨跌": "+11.01%",
-        "1月涨跌": "+64.01%",
-        "3月涨跌": "+108.42%",
-        "6月涨跌": "+158.97%",
-        "1年涨跌": "+1412.32%",
-        "YTD涨跌": "+193.61%",
-        "20日均线": "256.09",
-        "50日均线": "194.53",
-        "200日均线": "124.45",
-        "RSI 14": "67.15",
-        "MACD": "27.33",
-        "20日波动率": "113.03%",
-        "成交量": "9,056,800",
-        "量比20日": "0.85",
-        "52周高点": "302.99",
+        "最新价": "$303.41",
+        "日内涨跌": "+4.71%",
+        "1日涨跌": "+4.71%",
+        "5日涨跌": "+16.24%",
+        "1月涨跌": "+38.52%",
+        "3月涨跌": "+117.12%",
+        "6月涨跌": "+171.17%",
+        "1年涨跌": "+1398.32%",
+        "YTD涨跌": "+207.44%",
+        "20日均线": "260.76",
+        "50日均线": "197.30",
+        "200日均线": "125.79",
+        "RSI 14": "70.05",
+        "MACD": "27.93",
+        "20日波动率": "112.70%",
+        "成交量": "8,014,087",
+        "量比20日": "0.78",
+        "52周高点": "309.60",
         "52周低点": "17.01",
-        "距52周高点": "-4.37%",
-        "距52周低点": "+1603.47%",
+        "距52周高点": "-2.00%",
+        "距52周低点": "+1683.72%",
         "20日支撑": "200.23",
-        "20日压力": "302.99"
+        "20日压力": "309.60"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "-$107.24M",
         "流通股本": "284.44M",
         "ROE": "1.29%",
-        "债务/权益": "0.04",
-        "市值": "$82.42B",
+        "债务/权益": "0.03",
+        "市值": "$86.30B",
         "企业价值": "$82.91B",
         "市盈率 TTM": "—",
-        "预期市盈率": "69.06",
-        "市销率": "33.65",
+        "预期市盈率": "72.31",
+        "市销率": "35.24",
         "EV / 营收": "33.85",
         "EV / EBITDA": "358.00",
         "EV / FCF": "312.25",
-        "FCF 收益率": "0.32%",
+        "FCF 收益率": "0.31%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 94.04761904761905,
+          "value": 95.47619047619048,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 38.09476190476191,
+          "value": 38.16619047619048,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 24 位分析师 · 2026-05-14 14:53:58",
+      "title_meta": "Yahoo Finance · 24 位分析师 · 2026-05-15 05:16:02",
       "data": {
-        "target_mean": 234.175,
+        "target_mean": 237.38333,
         "target_high": 335.0,
         "target_low": 55.0,
-        "upside_pct": -19.18,
+        "upside_pct": -21.76,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 24,
         "next_earnings": "2026-04-29",
-        "eps_estimate": 0.38743,
+        "eps_estimate": 0.38607,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,62 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/BE",
+          "title": "BE Bloom Energy Corporation Stock Price & Overview - Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/be",
+          "title": "BE Stock Price | Bloom Energy Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-511-surge-where-bloom-000200348.html",
+          "title": "After a 1,511% Surge, Where Will Bloom Energy Stock Be in 1 Year?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/BE.MX/news/",
+          "title": "Bloom Energy Corporation (BE.MX) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/05/14/should-you-buy-bloom-stock-while-its-below-300/",
+          "title": "Should You Buy Bloom Energy Stock While It's Below $300?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/ai-power-demand-lifting-bloom-130957921.html",
+          "title": "AI Power Demand is Lifting Bloom Energy (BE)",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-unpopular-stock-more-attention-010055170.html",
+          "title": "1 Unpopular Stock That Should Get More Attention and 2 We Avoid",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-13",
           "source": "cnbc.com",
@@ -220,62 +276,6 @@
           "title": "Bloom Energy Corporation (BE) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/BE/news?page=5",
-          "title": "Page 5 | Bloom Energy Corporation (BE) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/BE/",
-          "title": "Bloom Energy Corporation (BE) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "sg.finance.yahoo.com",
-          "url": "https://sg.finance.yahoo.com/quote/1ZB.DE/news/",
-          "title": "Bloom Energy Corp. R (1ZB.DE) latest stock news and headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/BE.VI/news/",
-          "title": "Bloom Energy Corporation (BE.VI) Latest Stock News & Headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/0A4L.L/news",
-          "title": "Bloom Energy Corporation (0A4L.L) Latest Stock News & Headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "barrons.com",
-          "url": "https://www.barrons.com/market-data/stocks/be",
-          "title": "BE | Bloom Energy Corp. Stock Overview (U.S.: NYSE) | Barron's",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/BE/latest-news/",
-          "title": "META_TITLE_QUOTE - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -295,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 38.09476190476191
+        },
+        {
+          "date": "2026-05-15",
+          "value": 38.16619047619048
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

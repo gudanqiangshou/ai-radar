@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴",
-    "price": 243.8699951171875,
-    "change_1d": 2.06,
-    "composite": 59.46153846153846,
+    "price": 247.88999938964844,
+    "change_1d": 1.65,
+    "composite": 56.99999999999999,
     "tier_letter": "B",
     "description": [
       "Dell Technologies 的 AI 产业链位置为 Consumer AI / Device。",
-      "AI 角色：AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴。当前内部综合评分 59。",
+      "AI 角色：AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴。当前内部综合评分 56。",
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$243.87",
-        "日内涨跌": "+2.06%",
-        "1日涨跌": "+2.06%",
-        "5日涨跌": "-6.37%",
-        "1月涨跌": "+28.49%",
-        "3月涨跌": "+116.16%",
-        "6月涨跌": "+82.32%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+90.82%",
-        "20日均线": "219.16",
-        "50日均线": "186.57",
-        "200日均线": "146.08",
-        "RSI 14": "65.42",
-        "MACD": "17.09",
-        "20日波动率": "75.12%",
-        "成交量": "4,984,200",
-        "量比20日": "0.76",
+        "最新价": "$247.89",
+        "日内涨跌": "+1.65%",
+        "1日涨跌": "+1.65%",
+        "5日涨跌": "-4.83%",
+        "1月涨跌": "+34.35%",
+        "3月涨跌": "+110.99%",
+        "6月涨跌": "+85.32%",
+        "1年涨跌": "+123.28%",
+        "YTD涨跌": "+93.97%",
+        "20日均线": "221.90",
+        "50日均线": "188.59",
+        "200日均线": "146.65",
+        "RSI 14": "66.73",
+        "MACD": "17.22",
+        "20日波动率": "70.14%",
+        "成交量": "5,599,257",
+        "量比20日": "0.91",
         "52周高点": "263.99",
         "52周低点": "106.38",
-        "距52周高点": "-7.62%",
-        "距52周低点": "+129.24%",
-        "20日支撑": "178.50",
+        "距52周高点": "-6.10%",
+        "距52周低点": "+133.02%",
+        "20日支撑": "191.75",
         "20日压力": "263.99"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "325.65M",
         "ROE": "—",
         "债务/权益": "0.20",
-        "市值": "$158.56B",
+        "市值": "$161.18B",
         "企业价值": "$178.21B",
-        "市盈率 TTM": "28.10",
-        "预期市盈率": "16.55",
-        "市销率": "1.40",
+        "市盈率 TTM": "28.56",
+        "预期市盈率": "16.82",
+        "市销率": "1.42",
         "EV / 营收": "1.57",
         "EV / EBITDA": "15.55",
         "EV / FCF": "26.97",
-        "FCF 收益率": "4.17%",
+        "FCF 收益率": "4.10%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 54.0,
+          "value": 46.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 59.46153846153846,
+          "value": 56.99999999999999,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 23 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 192.91304,
+        "target_high": 260.0,
+        "target_low": 110.0,
+        "upside_pct": -22.18,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 23,
+        "next_earnings": "2026-05-29",
+        "eps_estimate": 2.9412,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/why-accenture-plc-acn-joining-172052321.html",
-          "title": "Why Accenture Plc (ACN) Joining Hedera Council Matters",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DVMT/news/",
+          "title": "Dell Technologies Inc. (DVMT) Latest Stock News & Headlines ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/news/3-growth-stocks-explosive-upside-152455702.html",
-          "title": "3 Growth Stocks with Explosive Upside",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/12DA.SG/news/",
+          "title": "Dell Technologies Inc (12DA.SG) Latest Stock News & Headlines ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/wall-street-analysts-see-dell-133005288.html",
-          "title": "Wall Street Analysts See Dell Technologies (DELL) as a Buy: Should You Invest?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DELL.VI/news/",
+          "title": "Dell Technologies Inc. (DELL.VI) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/amd-amd-expanding-role-enterprise-105730915.html",
-          "title": "How AMD (AMD) Is Expanding Its Role in Enterprise AI Infrastructure",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/DELL/news?page=30",
+          "title": "Page 30 | Dell Technologies Inc. (DELL) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/DELL.VI/news?ncid=yahooproperties_peoplealso_km0o32z3jzm",
+          "title": "Dell Technologies Inc. (DELL.VI) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DELL.VI/",
+          "title": "Dell Technologies Inc. (DELL.VI) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-securities-raises-pt-dell-095934091.html",
+          "title": "BofA Securities Raises PT on Dell Technologies (DELL) Stock",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DELL/",
+          "title": "Dell Technologies Inc. (DELL) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DELL/news/",
+          "title": "Dell Technologies Inc. (DELL) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DELL/press-releases/",
+          "title": "Dell Technologies Inc. (DELL) Latest Press Releases & Corporate ...",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 65.16666666666666
+        },
+        {
+          "date": "2026-05-15",
+          "value": 56.99999999999999
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

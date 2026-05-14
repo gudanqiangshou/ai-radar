@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "EDA 三巨头 — 数字仿真 + AI 芯片设计 IP",
-    "price": 354.54998779296875,
-    "change_1d": -0.97,
-    "composite": 66.05000000000001,
+    "price": 352.8399963378906,
+    "change_1d": -0.48,
+    "composite": 64.92500000000001,
     "tier_letter": "A",
     "description": [
       "Cadence Design Systems 的 AI 产业链位置为 EDA / Design Software。",
-      "AI 角色：EDA 三巨头 — 数字仿真 + AI 芯片设计 IP。当前内部综合评分 66。",
+      "AI 角色：EDA 三巨头 — 数字仿真 + AI 芯片设计 IP。当前内部综合评分 64。",
       "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$354.55",
-        "日内涨跌": "-0.97%",
-        "1日涨跌": "-0.97%",
-        "5日涨跌": "-2.25%",
-        "1月涨跌": "+23.02%",
-        "3月涨跌": "+22.97%",
-        "6月涨跌": "+12.58%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+14.22%",
-        "20日均线": "337.90",
-        "50日均线": "307.37",
-        "200日均线": "323.00",
-        "RSI 14": "64.93",
-        "MACD": "16.30",
-        "20日波动率": "37.70%",
-        "成交量": "2,301,600",
-        "量比20日": "0.88",
+        "最新价": "$352.84",
+        "日内涨跌": "-0.48%",
+        "1日涨跌": "-0.48%",
+        "5日涨跌": "-2.72%",
+        "1月涨跌": "+20.68%",
+        "3月涨跌": "+17.83%",
+        "6月涨跌": "+12.04%",
+        "1年涨跌": "+10.47%",
+        "YTD涨跌": "+13.67%",
+        "20日均线": "340.19",
+        "50日均线": "308.32",
+        "200日均线": "322.93",
+        "RSI 14": "63.53",
+        "MACD": "15.43",
+        "20日波动率": "37.97%",
+        "成交量": "1,450,177",
+        "量比20日": "0.56",
         "52周高点": "376.45",
         "52周低点": "262.75",
-        "距52周高点": "-5.82%",
-        "距52周低点": "+34.94%",
-        "20日支撑": "303.31",
+        "距52周高点": "-6.27%",
+        "距52周低点": "+34.29%",
+        "20日支撑": "308.40",
         "20日压力": "365.01"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "275.82M",
         "ROE": "20.66%",
         "债务/权益": "0.03",
-        "市值": "$97.79B",
+        "市值": "$97.32B",
         "企业价值": "$99.33B",
-        "市盈率 TTM": "82.65",
-        "预期市盈率": "37.80",
-        "市销率": "17.69",
+        "市盈率 TTM": "82.25",
+        "预期市盈率": "37.61",
+        "市销率": "17.60",
         "EV / 营收": "17.97",
         "EV / EBITDA": "49.31",
         "EV / FCF": "66.26",
-        "FCF 收益率": "1.53%",
+        "FCF 收益率": "1.54%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 55.0,
+          "value": 32.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 66.05000000000001,
+          "value": 64.92500000000001,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 26 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 379.5473,
+        "target_high": 425.0,
+        "target_low": 275.0,
+        "upside_pct": 7.57,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 26,
+        "next_earnings": "2026-07-28",
+        "eps_estimate": 2.05477,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/aeva-4d-lidar-win-could-202130843.html",
-          "title": "Aeva 4D LiDAR Win Could Be A Game Changer For Cadence Design Systems (CDNS)",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CDNS.MX/news/?ncid=yahooproperties_peoplealso_km0o32z3jzm",
+          "title": "Cadence Design Systems, Inc. (CDNS.MX) Latest Stock News ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/cadence-design-systems-nasdaqgs-cdns-132122429.html",
-          "title": "Cadence Design Systems (NasdaqGS:CDNS) Valuation Check After Aeva Licensing Win In 4D LiDAR And Robotics",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CDNS/news?page=3",
+          "title": "Page 3 | Cadence Design Systems, Inc. (CDNS) Latest Stock News ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/1-cash-producing-stock-worth-141255906.html",
-          "title": "1 Cash-Producing Stock Worth Investigating and 2 Facing Challenges",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CDNS/latest-news/",
+          "title": "Cadence Design Systems, Inc. (CDNS) Stock Price, News, Quote ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/cadence-design-systems-inc-cdns-130003640.html",
-          "title": "Cadence Design Systems, Inc. (CDNS) Is a Trending Stock: Facts to Know Before Betting on It",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cadence-design-systems-cdns-stock-032401102.html",
+          "title": "Cadence Design Systems (CDNS) Stock Is Up, What You Need To ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/made-jensen-quality-mid-cap-122522317.html",
-          "title": "Here’s What Made Jensen Quality Mid Cap Fund Pick Cadence Design Systems (CDNS)",
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/CDNS",
+          "title": "CDNS: Cadence Design Systems Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CDNS/",
+          "title": "Cadence Design Systems, Inc. (CDNS) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CDNS/press-releases/",
+          "title": "Cadence Design Systems, Inc. (CDNS) Latest Press Releases & Corporate News - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CDNS",
+          "title": "CDNS Cadence Design Systems, Inc. Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CDNS/news/",
+          "title": "Cadence Design Systems, Inc. (CDNS) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CDNS.MX/latest-news/",
+          "title": "Cadence Design Systems, Inc. (CDNS.MX) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 67.68421052631578
+        },
+        {
+          "date": "2026-05-15",
+          "value": 64.92500000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

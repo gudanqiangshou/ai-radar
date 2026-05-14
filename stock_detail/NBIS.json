@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "GPU 云欧洲玩家 — 原 Yandex 拆分",
-    "price": 207.27000427246094,
-    "change_1d": 15.72,
-    "composite": 67.54285714285714,
+    "price": 221.14999389648438,
+    "change_1d": 6.7,
+    "composite": 67.97142857142858,
     "tier_letter": "B",
     "description": [
       "Nebius Group 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
@@ -19,7 +19,7 @@
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$207.27",
-        "日内涨跌": "+15.72%",
-        "1日涨跌": "+15.72%",
-        "5日涨跌": "+17.07%",
-        "1月涨跌": "+34.10%",
-        "3月涨跌": "+130.99%",
-        "6月涨跌": "+148.11%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+130.43%",
-        "20日均线": "164.73",
-        "50日均线": "135.66",
-        "200日均线": "104.15",
-        "RSI 14": "69.71",
-        "MACD": "15.97",
-        "20日波动率": "108.90%",
-        "成交量": "38,689,200",
-        "量比20日": "2.57",
-        "52周高点": "217.34",
+        "最新价": "$221.15",
+        "日内涨跌": "+6.70%",
+        "1日涨跌": "+6.70%",
+        "5日涨跌": "+24.91%",
+        "1月涨跌": "+36.56%",
+        "3月涨跌": "+125.64%",
+        "6月涨跌": "+164.72%",
+        "1年涨跌": "+512.26%",
+        "YTD涨跌": "+145.86%",
+        "20日均线": "167.52",
+        "50日均线": "138.13",
+        "200日均线": "105.01",
+        "RSI 14": "72.84",
+        "MACD": "18.34",
+        "20日波动率": "110.20%",
+        "成交量": "29,244,903",
+        "量比20日": "1.72",
+        "52周高点": "233.73",
         "52周低点": "34.45",
-        "距52周高点": "-4.63%",
-        "距52周低点": "+501.65%",
+        "距52周高点": "-5.38%",
+        "距52周低点": "+541.94%",
         "20日支撑": "132.70",
-        "20日压力": "217.34"
+        "20日压力": "233.73"
       }
     },
     {
@@ -62,7 +62,7 @@
         "AI角色": "GPU 云欧洲玩家 — 原 Yandex 拆分",
         "投资确定性": "—",
         "收入": "$529.80M",
-        "收入同比": "546.90%",
+        "收入同比": "621.50%",
         "毛利率": "68.63%",
         "经营利润率": "-109.79%",
         "净利率": "15.57%",
@@ -71,20 +71,20 @@
         "自由现金流": "-$3.60B",
         "FCF 利润率": "-679.49%",
         "现金及短投": "$3.75B",
-        "总债务": "$4.97B",
+        "总债务": "$9.50B",
         "净现金/债务": "-$350.10M",
         "流通股本": "220.41M",
         "ROE": "0.25%",
-        "债务/权益": "0.09",
-        "市值": "$52.63B",
-        "企业价值": "$54.26B",
-        "市盈率 TTM": "80.03",
-        "预期市盈率": "-398.18",
-        "市销率": "99.33",
-        "EV / 营收": "102.42",
-        "EV / EBITDA": "-280.00",
-        "EV / FCF": "-15.07",
-        "FCF 收益率": "-6.84%",
+        "债务/权益": "0.17",
+        "市值": "$56.15B",
+        "企业价值": "$53.74B",
+        "市盈率 TTM": "85.39",
+        "预期市盈率": "-829.33",
+        "市销率": "63.96",
+        "EV / 营收": "61.21",
+        "EV / EBITDA": "-1392.14",
+        "EV / FCF": "-14.93",
+        "FCF 收益率": "-6.41%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 84.28571428571428,
+          "value": 92.85714285714285,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 67.54285714285714,
+          "value": 67.97142857142858,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 14 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 172.42857,
+        "target_high": 291.0,
+        "target_low": 85.0,
+        "upside_pct": -22.03,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 14,
+        "next_earnings": "2026-08-06",
+        "eps_estimate": -0.74387,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,18 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/05/13/nebius-nbis-q1-2026-earnings-transcript/",
-          "title": "Nebius (NBIS) Q1 2026 Earnings Transcript",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/news/4592198-nebius-stock-soars-past-key-technical-levels-to-fresh-52-week-high",
+          "title": "Nebius stock soars past key technical levels to fresh 52-week high",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/nebius-soars-20-on-blowout-quarter-684-revenue-surge-nvidia-backing-meta-megadeal/",
-          "title": "Nebius Soars 20% on Blowout Quarter: 684% Revenue Surge, NVIDIA Backing, Meta Megadeal",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NBIS/",
+          "title": "Nebius Group N.V. (NBIS) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/NBIS",
+          "title": "NBIS: Nebius Group NV - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NBIS/chart/",
+          "title": "Nebius Group N.V. (NBIS) Interactive Stock Chart - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/article/nebius-stock-soars-as-revenue-jumps-684-on-booming-data-center-demand-152316937.html",
+          "title": "Nebius stock soars as revenue jumps 684% on booming data center demand",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NBIS/community/",
+          "title": "Nebius Group N.V. (NBIS) Stock Forum & Discussion - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NBIS/news/",
+          "title": "Nebius Group N.V. (NBIS) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/nbis",
+          "title": "Nebius Group N.V. Cl A Stock Quote (U.S. - NBIS - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/NBIS",
+          "title": "Nebius Group N.V. (NBIS) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NBIS/latest-news/",
+          "title": "Nebius Group N.V. (NBIS) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         }
@@ -218,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 56.03508771929824
+        },
+        {
+          "date": "2026-05-15",
+          "value": 67.97142857142858
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

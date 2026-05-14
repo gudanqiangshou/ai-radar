@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "全球最大铀生产商 + 核燃料服务",
-    "price": 115.38999938964844,
-    "change_1d": -1.32,
-    "composite": 48.55666666666667,
+    "price": 112.51000213623047,
+    "change_1d": -2.5,
+    "composite": 48.782857142857154,
     "tier_letter": "C",
     "description": [
       "Cameco 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$115.39",
-        "日内涨跌": "-1.32%",
-        "1日涨跌": "-1.32%",
-        "5日涨跌": "-1.16%",
-        "1月涨跌": "-1.12%",
-        "3月涨跌": "-0.86%",
-        "6月涨跌": "+36.14%",
-        "1年涨跌": "+122.07%",
-        "YTD涨跌": "+17.08%",
-        "20日均线": "119.77",
-        "50日均线": "114.80",
-        "200日均线": "99.05",
-        "RSI 14": "47.49",
-        "MACD": "0.52",
-        "20日波动率": "66.18%",
-        "成交量": "3,362,800",
-        "量比20日": "1.03",
+        "最新价": "$112.51",
+        "日内涨跌": "-2.50%",
+        "1日涨跌": "-2.50%",
+        "5日涨跌": "-3.63%",
+        "1月涨跌": "-3.06%",
+        "3月涨跌": "-0.35%",
+        "6月涨跌": "+32.74%",
+        "1年涨跌": "+111.09%",
+        "YTD涨跌": "+14.15%",
+        "20日均线": "119.38",
+        "50日均线": "114.65",
+        "200日均线": "99.22",
+        "RSI 14": "44.67",
+        "MACD": "0.02",
+        "20日波动率": "66.60%",
+        "成交量": "2,934,608",
+        "量比20日": "0.90",
         "52周高点": "135.24",
         "52周低点": "50.03",
-        "距52周高点": "-14.68%",
-        "距52周低点": "+130.64%",
-        "20日支撑": "111.86",
+        "距52周高点": "-16.81%",
+        "距52周低点": "+124.89%",
+        "20日支撑": "110.12",
         "20日压力": "131.21"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "435.53M",
         "ROE": "9.60%",
         "债务/权益": "0.02",
-        "市值": "$50.26B",
+        "市值": "$49.00B",
         "企业价值": "$50.16B",
-        "市盈率 TTM": "107.84",
-        "预期市盈率": "59.51",
-        "市销率": "14.21",
+        "市盈率 TTM": "104.18",
+        "预期市盈率": "59.71",
+        "市销率": "13.85",
         "EV / 营收": "14.18",
         "EV / EBITDA": "56.11",
         "EV / FCF": "80.28",
-        "FCF 收益率": "1.24%",
+        "FCF 收益率": "1.28%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 30.23809523809524,
+          "value": 32.14285714285714,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 34.047619047619044,
+          "value": 34.76190476190476,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 48.55666666666667,
+          "value": 48.782857142857154,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 9 位分析师 · 2026-05-14 14:53:58",
+      "title_meta": "Yahoo Finance · 9 位分析师 · 2026-05-15 05:16:03",
       "data": {
-        "target_mean": 138.46548,
-        "target_high": 173.95882,
-        "target_low": 82.33864,
-        "upside_pct": 20.0,
+        "target_mean": 138.24745,
+        "target_high": 173.6849,
+        "target_low": 82.20899,
+        "upside_pct": 22.88,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,46 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CCJ/history/",
+          "title": "Cameco Corporation (CCJ) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CCJ/research-reports/",
+          "title": "Cameco Corporation (CCJ) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/cameco-corp-ccj-one-stocks-121945245.html",
+          "title": "Is Cameco Corp. (CCJ) One of the Stocks That Should Double by ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/CJ6.MU/news/",
+          "title": "Cameco Corp (CJ6.MU) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/CCJ/",
+          "title": "(CCJ) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-13",
           "source": "finance.yahoo.com",
@@ -236,46 +276,6 @@
           "title": "Cameco Corporation (CCJ) - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/CCO.TO/news/",
-          "title": "Cameco Corporation (CCO.TO) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/ccj",
-          "title": "Cameco Corp. Stock Quote (U.S.: NYSE) - CCJ - MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CCJ/news?ltr=1",
-          "title": "Cameco Corporation (CCJ) Latest Stock News ... - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/cameco-corporation-ccj-one-best-141557484.html",
-          "title": "Is Cameco Corporation (CCJ) One of the Best Nuclear Energy ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/CCJ/latest-news/",
-          "title": "Cameco Corporation (CCJ) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -295,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 48.55666666666667
+        },
+        {
+          "date": "2026-05-15",
+          "value": 48.782857142857154
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

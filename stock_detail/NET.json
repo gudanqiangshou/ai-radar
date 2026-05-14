@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "边缘网络 + Workers AI 推理 — 边缘 AI 平台",
-    "price": 192.6199951171875,
-    "change_1d": 3.12,
-    "composite": 37.65694444444445,
+    "price": 199.80999755859375,
+    "change_1d": 3.73,
+    "composite": 37.90694444444445,
     "tier_letter": "B",
     "description": [
       "Cloudflare 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$192.62",
-        "日内涨跌": "+3.12%",
-        "1日涨跌": "+3.12%",
-        "5日涨跌": "-1.79%",
-        "1月涨跌": "+4.67%",
-        "3月涨跌": "+4.02%",
-        "6月涨跌": "-8.54%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-1.73%",
-        "20日均线": "211.44",
-        "50日均线": "207.30",
-        "200日均线": "204.07",
-        "RSI 14": "43.73",
-        "MACD": "0.48",
-        "20日波动率": "101.17%",
-        "成交量": "4,257,800",
-        "量比20日": "0.89",
+        "最新价": "$199.81",
+        "日内涨跌": "+3.73%",
+        "1日涨跌": "+3.73%",
+        "5日涨跌": "+1.88%",
+        "1月涨跌": "+11.84%",
+        "3月涨跌": "+2.02%",
+        "6月涨跌": "-5.12%",
+        "1年涨跌": "+29.34%",
+        "YTD涨跌": "+1.93%",
+        "20日均线": "211.56",
+        "50日均线": "207.58",
+        "200日均线": "204.08",
+        "RSI 14": "46.71",
+        "MACD": "-0.31",
+        "20日波动率": "101.14%",
+        "成交量": "4,089,157",
+        "量比20日": "0.87",
         "52周高点": "260.00",
         "52周低点": "150.45",
-        "距52周高点": "-25.92%",
-        "距52周低点": "+28.03%",
+        "距52周高点": "-23.15%",
+        "距52周低点": "+32.81%",
         "20日支撑": "185.75",
         "20日压力": "258.88"
       }
@@ -76,15 +76,15 @@
         "流通股本": "319.53M",
         "ROE": "-5.88%",
         "债务/权益": "0.05",
-        "市值": "$68.08B",
+        "市值": "$70.63B",
         "企业价值": "$67.45B",
         "市盈率 TTM": "—",
-        "预期市盈率": "126.73",
-        "市销率": "29.24",
+        "预期市盈率": "131.46",
+        "市销率": "30.33",
         "EV / 营收": "28.96",
         "EV / EBITDA": "-1858.87",
         "EV / FCF": "89.33",
-        "FCF 收益率": "1.11%",
+        "FCF 收益率": "1.07%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 25.555555555555557,
+          "value": 30.555555555555557,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 37.65694444444445,
+          "value": 37.90694444444445,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 31 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 234.17741,
+        "target_high": 300.0,
+        "target_low": 135.0,
+        "upside_pct": 17.2,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 31,
+        "next_earnings": "2026-07-31",
+        "eps_estimate": 0.2698,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/wall-street-analysts-predict-27-135502922.html",
-          "title": "Wall Street Analysts Predict a 27.73% Upside in Cloudflare (NET): Here's  What You Should Know",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NET/latest-news/",
+          "title": "Cloudflare, Inc. (NET) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/cloudflare-net-valuation-check-recent-011342224.html",
-          "title": "Cloudflare (NET) Valuation Check After Recent Pullback And Conflicting Fair Value Estimates",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NET/",
+          "title": "Cloudflare, Inc. (NET) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-cloudflare-133004104.html",
-          "title": "Wall Street Analysts Think Cloudflare (NET) Is a Good Investment: Is It?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NET.MX/news/",
+          "title": "Cloudflare, Inc. (NET.MX) Latest Stock News & Headlines - Yahoo ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/qbts-q1-earnings-top-estimates-132300953.html",
-          "title": "QBTS Q1 Earnings Top Estimates, Revenues Miss, Stock Up",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/cloudflare-stock-net-scales-heights-110932695.html",
+          "title": "Cloudflare Stock (NET) Scales New Heights as 5-Star Analyst Sees ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NET/analysis/",
+          "title": "Cloudflare, Inc. (NET) Analyst Ratings, Estimates & Forecasts - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NET/news/",
+          "title": "Cloudflare, Inc. (NET) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/NET",
+          "title": "NET: Cloudflare Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-cloudflare-net-stock-trading-214055468.html",
+          "title": "Why Cloudflare (NET) Stock Is Trading Lower Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/net",
+          "title": "NET Stock Price | Cloudflare Inc. Cl A Stock Quote (U.S. - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/NET",
+          "title": "Cloudflare, Inc. (NET) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 38.71052631578947
+        },
+        {
+          "date": "2026-05-15",
+          "value": 37.90694444444445
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

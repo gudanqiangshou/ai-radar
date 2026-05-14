@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "企业存储 + 云数据管理 — AI 数据流转",
-    "price": 118.58000183105469,
-    "change_1d": 2.02,
-    "composite": 66.50714285714285,
+    "price": 119.93000030517578,
+    "change_1d": 1.14,
+    "composite": 66.32857142857142,
     "tier_letter": "C",
     "description": [
       "NetApp 的 AI 产业链位置为 Data Center Infrastructure。",
@@ -19,7 +19,7 @@
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$118.58",
-        "日内涨跌": "+2.02%",
-        "1日涨跌": "+2.02%",
-        "5日涨跌": "+0.49%",
-        "1月涨跌": "+20.51%",
-        "3月涨跌": "+20.73%",
-        "6月涨跌": "+8.35%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+11.37%",
-        "20日均线": "111.18",
-        "50日均线": "104.80",
-        "200日均线": "109.28",
-        "RSI 14": "68.49",
-        "MACD": "3.76",
-        "20日波动率": "31.69%",
-        "成交量": "2,122,300",
-        "量比20日": "1.05",
+        "最新价": "$119.93",
+        "日内涨跌": "+1.14%",
+        "1日涨跌": "+1.14%",
+        "5日涨跌": "+1.64%",
+        "1月涨跌": "+21.28%",
+        "3月涨跌": "+17.10%",
+        "6月涨跌": "+9.59%",
+        "1年涨跌": "+20.35%",
+        "YTD涨跌": "+12.64%",
+        "20日均线": "111.99",
+        "50日均线": "105.21",
+        "200日均线": "109.35",
+        "RSI 14": "70.20",
+        "MACD": "3.97",
+        "20日波动率": "30.34%",
+        "成交量": "4,518,168",
+        "量比20日": "2.08",
         "52周高点": "126.66",
         "52周低点": "93.69",
-        "距52周高点": "-6.38%",
-        "距52周低点": "+26.57%",
-        "20日支撑": "100.11",
-        "20日压力": "120.04"
+        "距52周高点": "-5.31%",
+        "距52周低点": "+28.01%",
+        "20日支撑": "103.00",
+        "20日压力": "123.47"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "197.33M",
         "ROE": "112.59%",
         "债务/权益": "0.12",
-        "市值": "$23.49B",
+        "市值": "$23.75B",
         "企业价值": "$23.12B",
-        "市盈率 TTM": "19.90",
-        "预期市盈率": "13.90",
-        "市销率": "3.50",
+        "市盈率 TTM": "20.12",
+        "预期市盈率": "14.06",
+        "市销率": "3.54",
         "EV / 营收": "3.45",
         "EV / EBITDA": "13.20",
         "EV / FCF": "20.72",
-        "FCF 收益率": "4.75%",
+        "FCF 收益率": "4.70%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 77.85714285714285,
+          "value": 74.28571428571428,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 66.50714285714285,
+          "value": 66.32857142857142,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 117.13333,
+        "target_high": 137.0,
+        "target_low": 88.0,
+        "upside_pct": -2.33,
+        "rating": "none",
+        "rating_letter": "—",
+        "rating_change": "维持",
+        "previous_rating_letter": "—",
+        "n_analysts": 15,
+        "next_earnings": "2026-05-29",
+        "eps_estimate": 2.26493,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/netapp-ntap-still-attractive-recent-181902630.html",
-          "title": "Is NetApp (NTAP) Still Attractive After Recent Share Price Strength And Cash Flow Outlook",
+          "date": "2026-05-15",
+          "source": "markets.ft.com",
+          "url": "https://markets.ft.com/data/equities/tearsheet/summary?s=NTAP*:MEX",
+          "title": "NetApp Inc, NTAP*:MEX summary - FT.com",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/1901088/do-wall-street-analysts-like-netapp-stock",
-          "title": "Do Wall Street Analysts Like NetApp Stock?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NTA.F/news/",
+          "title": "NetApp, Inc. (NTA.F) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/heres-why-netapp-ntap-fell-215002239.html",
-          "title": "Here's Why NetApp (NTAP) Fell More Than Broader Market",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NTAP/latest-news/",
+          "title": "NetApp, Inc. (NTAP) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Trefis",
-          "url": "https://www.trefis.com/articles/599056/is-the-arista-rally-over-the-path-to-111/2026-05-12",
-          "title": "Is the Arista Rally Over? The Path to $111",
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/NTAP/sec-filing/",
+          "title": "NetApp, Inc. (NTAP) stock price, news, quote and history - Yahoo ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/news/technology/everpure-stock-rally-pure-storage/?src=A00220&yptr=yahoo",
-          "title": "Everpure Stock Rallies As Data Storage Player Nears Earnings Test",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NTAP/news/",
+          "title": "NetApp, Inc. (NTAP) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/NTAP/news?filter=&page=10",
+          "title": "NetApp, Inc. (NTAP) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/NTAP",
+          "title": "NTAP: NetApp Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NTAP.MX/",
+          "title": "NETAPP INC (NTAP.MX) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NTAP?p=NTAP&ncid=yahooproperties_stockrecom_g40boan2td8",
+          "title": "NetApp, Inc. (NTAP) Stock Price, News, Quote & History - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/NTAP/latest-news/",
+          "title": "NetApp, Inc. (NTAP) stock price, news, quote and history - Yahoo ...",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 78.3157894736842
+        },
+        {
+          "date": "2026-05-15",
+          "value": 66.32857142857142
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

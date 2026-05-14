@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "AI 仓储机器人 — Walmart 大单核心客户",
-    "price": 49.72999954223633,
-    "change_1d": -3.1,
-    "composite": 30.9,
+    "price": 50.150001525878906,
+    "change_1d": 0.84,
+    "composite": 30.599999999999998,
     "tier_letter": "C",
     "description": [
       "Symbotic 的 AI 产业链位置为 Industrial Automation / Robotics。",
@@ -19,7 +19,7 @@
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$49.73",
-        "日内涨跌": "-3.10%",
-        "1日涨跌": "-3.10%",
-        "5日涨跌": "-4.90%",
-        "1月涨跌": "-8.94%",
-        "3月涨跌": "-9.10%",
-        "6月涨跌": "-14.52%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-23.34%",
-        "20日均线": "58.33",
-        "50日均线": "54.69",
+        "最新价": "$50.15",
+        "日内涨跌": "+0.84%",
+        "1日涨跌": "+0.84%",
+        "5日涨跌": "-4.09%",
+        "1月涨跌": "-11.33%",
+        "3月涨跌": "-8.74%",
+        "6月涨跌": "-13.80%",
+        "1年涨跌": "+79.11%",
+        "YTD涨跌": "-22.69%",
+        "20日均线": "57.81",
+        "50日均线": "54.61",
         "200日均线": "58.65",
-        "RSI 14": "36.15",
-        "MACD": "-1.09",
-        "20日波动率": "58.40%",
-        "成交量": "2,203,800",
-        "量比20日": "1.27",
+        "RSI 14": "37.31",
+        "MACD": "-1.39",
+        "20日波动率": "56.95%",
+        "成交量": "1,684,190",
+        "量比20日": "0.98",
         "52周高点": "87.88",
         "52周低点": "26.03",
-        "距52周高点": "-43.41%",
-        "距52周低点": "+91.05%",
+        "距52周高点": "-42.93%",
+        "距52周低点": "+92.66%",
         "20日支撑": "48.13",
         "20日压力": "67.08"
       }
@@ -76,15 +76,15 @@
         "流通股本": "127.22M",
         "ROE": "-5.73%",
         "债务/权益": "0.00",
-        "市值": "$30.02B",
+        "市值": "$30.27B",
         "企业价值": "$4.69B",
         "市盈率 TTM": "—",
-        "预期市盈率": "65.22",
-        "市销率": "11.93",
+        "预期市盈率": "65.77",
+        "市销率": "12.03",
         "EV / 营收": "1.86",
         "EV / EBITDA": "206.97",
         "EV / FCF": "14.15",
-        "FCF 收益率": "1.10%",
+        "FCF 收益率": "1.09%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 30.0,
+          "value": 24.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 30.9,
+          "value": 30.599999999999998,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
-      "data": null,
+      "title_meta": "Yahoo Finance · 17 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 65.39882,
+        "target_high": 84.0,
+        "target_low": 44.0,
+        "upside_pct": 30.41,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 17,
+        "next_earnings": "2026-07-28",
+        "eps_estimate": 0.12509,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/symbotic-stock-declines-15-5-134700009.html",
-          "title": "Symbotic Stock Declines 15.5% Since Q2 Earnings Release",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SYM/press-releases/",
+          "title": "Symbotic Inc. (SYM) Latest Press Releases & Corporate News",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/amady-vs-sym-stock-value-154003158.html",
-          "title": "AMADY vs. SYM: Which Stock Should Value Investors Buy Now?",
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/SYM.O/",
+          "title": "(SYM.O) | Stock Price & Latest News | Reuters",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/gigacloud-stock-buy-post-q1-150400064.html",
-          "title": "Is GigaCloud Stock a Buy Post Q1 Earnings & Revenue Beat?",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SYM/news/",
+          "title": "Symbotic Inc. (SYM) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "GuruFocus.com",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/walmart-keeps-leaning-deeper-automation-123310583.html",
-          "title": "Walmart keeps leaning deeper into automation and fintech",
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/SYM",
+          "title": "SYM: Symbotic Inc - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-08",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-symbotic-sym-strong-051515410.html",
-          "title": "Is It Too Late To Consider Symbotic (SYM) After Its Strong Multi Year Share Price Run",
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/sym",
+          "title": "SYM Stock Price | Symbotic Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/SYM",
+          "title": "Symbotic Inc. (SYM) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SYM/",
+          "title": "Symbotic Inc. (SYM) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/symbotic-inc-sym-bull-case-193113353.html",
+          "title": "Symbotic Inc. (SYM): A Bull Case Theory - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SYM/latest-news/",
+          "title": "META_TITLE_QUOTE - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/symbotic-sym-valuation-check-share-161451874.html",
+          "title": "Symbotic (SYM) Valuation Check As Share Price Momentum Cools ...",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 30.947368421052627
+        },
+        {
+          "date": "2026-05-15",
+          "value": 30.599999999999998
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

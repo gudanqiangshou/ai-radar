@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "刻蚀 / 沉积 — HBM 制造关键设备供应商",
-    "price": 295.44000244140625,
-    "change_1d": 2.14,
-    "composite": 61.68571428571428,
+    "price": 299.1499938964844,
+    "change_1d": 1.26,
+    "composite": 62.114285714285714,
     "tier_letter": "A",
     "description": [
       "Lam Research 的 AI 产业链位置为 Semiconductor Equipment。",
-      "AI 角色：刻蚀 / 沉积 — HBM 制造关键设备供应商。当前内部综合评分 61。",
+      "AI 角色：刻蚀 / 沉积 — HBM 制造关键设备供应商。当前内部综合评分 62。",
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$295.44",
-        "日内涨跌": "+2.14%",
-        "1日涨跌": "+2.14%",
-        "5日涨跌": "+0.47%",
-        "1月涨跌": "+10.52%",
-        "3月涨跌": "+27.74%",
-        "6月涨跌": "+99.27%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+59.65%",
-        "20日均线": "270.44",
-        "50日均线": "244.94",
-        "200日均线": "181.75",
-        "RSI 14": "64.51",
-        "MACD": "13.32",
-        "20日波动率": "52.11%",
-        "成交量": "8,626,600",
-        "量比20日": "0.89",
-        "52周高点": "300.00",
+        "最新价": "$299.15",
+        "日内涨跌": "+1.26%",
+        "1日涨跌": "+1.26%",
+        "5日涨跌": "+1.73%",
+        "1月涨跌": "+9.82%",
+        "3月涨跌": "+27.01%",
+        "6月涨跌": "+101.77%",
+        "1年涨跌": "+252.07%",
+        "YTD涨跌": "+61.65%",
+        "20日均线": "272.35",
+        "50日均线": "246.47",
+        "200日均线": "182.75",
+        "RSI 14": "65.80",
+        "MACD": "13.79",
+        "20日波动率": "51.51%",
+        "成交量": "5,516,908",
+        "量比20日": "0.58",
+        "52周高点": "302.00",
         "52周低点": "79.49",
-        "距52周高点": "-1.52%",
-        "距52周低点": "+271.67%",
+        "距52周高点": "-0.94%",
+        "距52周低点": "+276.34%",
         "20日支撑": "241.60",
-        "20日压力": "300.00"
+        "20日压力": "302.00"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "1.25B",
         "ROE": "66.76%",
         "债务/权益": "0.01",
-        "市值": "$369.47B",
+        "市值": "$374.11B",
         "企业价值": "$368.45B",
-        "市盈率 TTM": "55.85",
-        "预期市盈率": "37.34",
-        "市销率": "17.04",
+        "市盈率 TTM": "56.55",
+        "预期市盈率": "37.81",
+        "市销率": "17.25",
         "EV / 营收": "16.99",
         "EV / EBITDA": "46.95",
         "EV / FCF": "84.66",
-        "FCF 收益率": "1.18%",
+        "FCF 收益率": "1.16%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 62.857142857142854,
+          "value": 68.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 72.85714285714285,
+          "value": 70.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 61.68571428571428,
+          "value": 62.114285714285714,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 32 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 310.46875,
+        "target_high": 385.0,
+        "target_low": 220.0,
+        "upside_pct": 3.78,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 32,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 1.6774,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Benzinga",
-          "url": "https://finance.yahoo.com/news/heres-much-1000-invested-lam-164543660.html",
-          "title": "Here's How Much $1000 Invested In Lam Research 20 Years Ago Would Be Worth Today",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/lrcx",
+          "title": "Lam Research Corp. Stock Quote (U.S. - LRCX - MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/lam-research-corporation-lrcx-good-154626350.html",
-          "title": "Is Lam Research Corporation (LRCX) A Good Stock To Buy Now?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LRCX.BA/latest-news/",
+          "title": "Lam Research Corporation (LRCX.BA) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/1906486/stocks-pressured-by-signs-of-resurgent-inflation",
-          "title": "Stocks Pressured by Signs of Resurgent Inflation",
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/LRCX.MX/news/",
+          "title": "Lam Research Corporation (LRCX.MX) latest stock news and ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/why-investors-favour-lam-research-134019665.html",
-          "title": "Here’s Why Investors Favour Lam Research Corporation (LRCX)",
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/LRCX",
+          "title": "LRCX Lam Research Corporation Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LRCX/news/",
+          "title": "Lam Research Corporation (LRCX) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/LRCX",
+          "title": "LRCX: Lam Research Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LRCX/history/",
+          "title": "Lam Research Corporation (LRCX) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LRCX/",
+          "title": "Lam Research Corporation (LRCX) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/LRCX",
+          "title": "Lam Research Corp. (LRCX) Stock Price Today - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LRCX/community/",
+          "title": "Lam Research Corporation (LRCX) Stock Forum & Discussion",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 53.75438596491228
+        },
+        {
+          "date": "2026-05-15",
+          "value": 62.114285714285714
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "企业级 NAND/HDD — AI 训练数据存储受益",
-    "price": 494.0899963378906,
-    "change_1d": 1.09,
+    "price": 489.1499938964844,
+    "change_1d": -1.0,
     "composite": 56.1,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Memory / Storage 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$494.09",
-        "日内涨跌": "+1.09%",
-        "1日涨跌": "+1.09%",
-        "5日涨跌": "+2.94%",
-        "1月涨跌": "+41.10%",
-        "3月涨跌": "+73.91%",
-        "6月涨跌": "+213.05%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+163.23%",
-        "20日均线": "429.61",
-        "50日均线": "349.53",
-        "200日均线": "207.46",
-        "RSI 14": "70.98",
-        "MACD": "43.03",
-        "20日波动率": "52.52%",
-        "成交量": "5,752,400",
-        "量比20日": "0.72",
+        "最新价": "$489.15",
+        "日内涨跌": "-1.00%",
+        "1日涨跌": "-1.00%",
+        "5日涨跌": "+1.91%",
+        "1月涨跌": "+33.57%",
+        "3月涨跌": "+73.72%",
+        "6月涨跌": "+209.92%",
+        "1年涨跌": "+894.21%",
+        "YTD涨跌": "+160.60%",
+        "20日均线": "435.98",
+        "50日均线": "354.09",
+        "200日均线": "209.55",
+        "RSI 14": "69.14",
+        "MACD": "42.02",
+        "20日波动率": "52.58%",
+        "成交量": "4,791,536",
+        "量比20日": "0.60",
         "52周高点": "525.15",
         "52周低点": "48.58",
-        "距52周高点": "-5.91%",
-        "距52周低点": "+917.06%",
-        "20日支撑": "353.11",
+        "距52周高点": "-6.86%",
+        "距52周低点": "+906.90%",
+        "20日支撑": "366.18",
         "20日压力": "525.15"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "344.68M",
         "ROE": "85.92%",
         "债务/权益": "0.01",
-        "市值": "$170.30B",
+        "市值": "$168.60B",
         "企业价值": "$168.79B",
-        "市盈率 TTM": "29.59",
-        "预期市盈率": "28.37",
-        "市销率": "14.46",
+        "市盈率 TTM": "29.29",
+        "预期市盈率": "28.08",
+        "市销率": "14.32",
         "EV / 营收": "14.33",
         "EV / EBITDA": "42.97",
         "EV / FCF": "81.35",
-        "FCF 收益率": "1.22%",
+        "FCF 收益率": "1.23%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 23 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 497.3913,
+        "target_high": 660.0,
+        "target_low": 360.0,
+        "upside_pct": 1.68,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 23,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 3.27229,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-12",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/1888125/sndk-stock-alert-sandisk-falls-amid-broader-chip-pullback",
-          "title": "SNDK Stock Alert: SanDisk Falls Amid Broader Chip Pullback",
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/WDC.SG/news/",
+          "title": "Western Digital Corp. (WDC.SG) latest stock news and headlines ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-stocks-may-priced-below-173804472.html",
-          "title": "3 Stocks That May Be Priced Below Their Estimated Value In May 2026",
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/WDC.DU/news/",
+          "title": "Western Digital Corp (WDC.DU) latest stock news and headlines ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-hits-52-week-high-165000409.html",
-          "title": "Sandisk Hits 52-Week High: Should You Still Buy the Stock?",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/WDC.F/news/",
+          "title": "Western Digital Corporation (WDC.F) Latest Stock News ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/12/sandisk-and-micron-falls-9-western-digital-drops-8-as-memory-supercycle-trade-hits-pause-button/",
-          "title": "SanDisk and Micron Fall 9%, Western Digital Drops 8% as Memory Supercycle Trade Hits Pause Button",
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/WDC.O/profile/",
+          "title": "(WDC.O) | Stock Price & Latest News | Reuters",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/1879893/stocks-retreat-as-oil-prices-surge-and-inflation-accelerates",
-          "title": "Stocks Retreat as Oil Prices Surge and Inflation Accelerates",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/WDC/news/",
+          "title": "Western Digital Corporation (WDC) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/WDC.VI/news/",
+          "title": "Western Digital Corporation (WDC.VI) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/WDC.HM/news/",
+          "title": "Western Digital Corp (WDC.HM) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/WDC/latest-news/",
+          "title": "Western Digital Corporation (WDC) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/WDC",
+          "title": "WDC Western Digital Corporation Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/WDC/news?page=25",
+          "title": "Page 25 | Western Digital Corporation (WDC) Latest Stock News ...",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 56.94736842105263
+        },
+        {
+          "date": "2026-05-15",
+          "value": 56.1
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

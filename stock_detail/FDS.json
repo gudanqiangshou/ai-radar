@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "金融终端 + 数据 — Bloomberg 之外的研究平台",
-    "price": 201.8699951171875,
-    "change_1d": -6.51,
+    "price": 199.86000061035156,
+    "change_1d": -1.0,
     "composite": 46.925,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$201.87",
-        "日内涨跌": "-6.51%",
-        "1日涨跌": "-6.51%",
-        "5日涨跌": "-9.72%",
-        "1月涨跌": "-10.84%",
-        "3月涨跌": "-0.04%",
-        "6月涨跌": "-26.30%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-29.14%",
-        "20日均线": "225.91",
-        "50日均线": "218.81",
-        "200日均线": "275.68",
-        "RSI 14": "35.68",
-        "MACD": "-2.32",
-        "20日波动率": "44.35%",
-        "成交量": "1,153,300",
-        "量比20日": "1.42",
+        "最新价": "$199.86",
+        "日内涨跌": "-1.00%",
+        "1日涨跌": "-1.00%",
+        "5日涨跌": "-10.62%",
+        "1月涨跌": "-10.60%",
+        "3月涨跌": "-2.88%",
+        "6月涨跌": "-27.03%",
+        "1年涨跌": "-56.54%",
+        "YTD涨跌": "-29.85%",
+        "20日均线": "224.32",
+        "50日均线": "218.30",
+        "200日均线": "274.60",
+        "RSI 14": "34.66",
+        "MACD": "-3.69",
+        "20日波动率": "44.17%",
+        "成交量": "721,628",
+        "量比20日": "0.87",
         "52周高点": "474.79",
         "52周低点": "185.00",
-        "距52周高点": "-57.48%",
-        "距52周低点": "+9.12%",
+        "距52周高点": "-57.91%",
+        "距52周低点": "+8.03%",
         "20日支撑": "198.00",
         "20日压力": "247.33"
       }
@@ -76,15 +76,15 @@
         "流通股本": "36.43M",
         "ROE": "28.08%",
         "债务/权益": "0.21",
-        "市值": "$7.35B",
+        "市值": "$7.28B",
         "企业价值": "$8.62B",
-        "市盈率 TTM": "12.99",
-        "预期市盈率": "10.40",
-        "市销率": "3.06",
+        "市盈率 TTM": "12.86",
+        "预期市盈率": "10.29",
+        "市销率": "3.03",
         "EV / 营收": "3.59",
         "EV / EBITDA": "9.47",
         "EV / FCF": "14.61",
-        "FCF 收益率": "8.03%",
+        "FCF 收益率": "8.11%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 16 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 252.4375,
+        "target_high": 380.0,
+        "target_low": 200.0,
+        "upside_pct": 26.31,
+        "rating": "hold",
+        "rating_letter": "B",
+        "rating_change": "维持",
+        "previous_rating_letter": "B",
+        "n_analysts": 16,
+        "next_earnings": "2026-06-25",
+        "eps_estimate": 4.4526,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/FDS",
+          "title": "FDS: Factset Research Systems Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/FDS",
+          "title": "FDS FactSet Research Systems Inc. Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/FDS/latest-news/",
+          "title": "FactSet Research Systems Inc. (FDS) stock price, news, quote and ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/FDS/news?page=8",
+          "title": "FactSet Research Systems Inc. (FDS) Latest Stock News | Seeking ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/FDS.MX/news/",
+          "title": "FactSet Research Systems Inc. (FDS.MX) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/factset-research-fds-45-years-132802136.html",
+          "title": "FactSet Research (FDS): 45 Years of Growth Culminate in $2.3 Billion Revenue",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/electrovaya-down-7-7-hours-203131427.html",
+          "title": "Electrovaya Down 7.7% After Hours as it Posts Higher Profit and Revenue for Fiscal Second Quarter",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/regenxbio-shares-fall-q1-swings-183929294.html",
+          "title": "Update: Regenxbio Shares Fall After Q1 Swings to Loss, Revenue Declines; Phase 3 Study of RGX-202 Meets Primary Endpoint",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/prestige-consumer-healthcare-attributes-soft-174427983.html",
+          "title": "Prestige Consumer Healthcare Attributes Soft Results to Low Eye Care Sales, Weak Consumer Backdrop",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/news/forgent-power-solutions-fps-stock-data-centers/?src=A00220&yptr=yahoo",
+          "title": "AI Data Center Power Equipment Supplier Surges As Growth Explodes",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 46.925
+        },
+        {
+          "date": "2026-05-15",
+          "value": 46.925
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "模拟 + 功率半导体 — AI 数据中心电源 + 汽车 AI",
-    "price": 115.70999908447266,
-    "change_1d": 11.14,
-    "composite": 46.35000000000001,
+    "price": 118.37000274658203,
+    "change_1d": 2.3,
+    "composite": 46.259090909090915,
     "tier_letter": "C",
     "description": [
       "ON Semiconductor 的 AI 产业链位置为 Compute / GPU / ASIC。",
@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$115.71",
-        "日内涨跌": "+11.14%",
-        "1日涨跌": "+11.14%",
-        "5日涨跌": "+12.12%",
-        "1月涨跌": "+62.93%",
-        "3月涨跌": "+63.83%",
-        "6月涨跌": "+146.61%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+104.07%",
-        "20日均线": "97.80",
-        "50日均线": "76.50",
-        "200日均线": "60.01",
-        "RSI 14": "76.53",
-        "MACD": "9.41",
-        "20日波动率": "70.36%",
-        "成交量": "21,534,700",
-        "量比20日": "1.59",
-        "52周高点": "115.99",
+        "最新价": "$118.37",
+        "日内涨跌": "+2.30%",
+        "1日涨跌": "+2.30%",
+        "5日涨跌": "+14.70%",
+        "1月涨跌": "+64.29%",
+        "3月涨跌": "+63.92%",
+        "6月涨跌": "+152.28%",
+        "1年涨跌": "+161.88%",
+        "YTD涨跌": "+108.77%",
+        "20日均线": "99.72",
+        "50日均线": "77.62",
+        "200日均线": "60.31",
+        "RSI 14": "77.89",
+        "MACD": "9.95",
+        "20日波动率": "63.88%",
+        "成交量": "11,489,671",
+        "量比20日": "0.82",
+        "52周高点": "119.10",
         "52周低点": "40.62",
-        "距52周高点": "-0.24%",
-        "距52周低点": "+184.86%",
-        "20日支撑": "73.98",
-        "20日压力": "115.99"
+        "距52周高点": "-0.61%",
+        "距52周低点": "+191.41%",
+        "20日支撑": "79.78",
+        "20日压力": "119.10"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "391.90M",
         "ROE": "7.49%",
         "债务/权益": "0.07",
-        "市值": "$45.35B",
+        "市值": "$46.39B",
         "企业价值": "$46.21B",
-        "市盈率 TTM": "84.46",
-        "预期市盈率": "27.13",
-        "市销率": "7.48",
+        "市盈率 TTM": "86.40",
+        "预期市盈率": "27.75",
+        "市销率": "7.65",
         "EV / 营收": "7.62",
         "EV / EBITDA": "22.57",
         "EV / FCF": "36.04",
-        "FCF 收益率": "2.83%",
+        "FCF 收益率": "2.76%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 76.81818181818181,
+          "value": 75.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 46.35000000000001,
+          "value": 46.259090909090915,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 29 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 103.44828,
+        "target_high": 125.0,
+        "target_low": 68.0,
+        "upside_pct": -12.61,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 29,
+        "next_earnings": "2026-08-03",
+        "eps_estimate": 0.71427,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ON/news/",
+          "title": "ON Semiconductor Corporation (ON) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ON/",
+          "title": "ON Semiconductor Corporation (ON) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/XS4.DE/",
+          "title": "ON Semiconductor Corporation (XS4.DE) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ON",
+          "title": "ON: ON Semiconductor Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ON",
+          "title": "ON ON Semiconductor Corporation Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/semiconductor-gets-double-digit-pt-000834653.html",
+          "title": "ON Semiconductor (ON) Gets Double-Digit PT Hike, Hits 2-Year High",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/ON",
+          "title": "ON Semiconductor Corp. (ON) Stock Price Today - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/XS4-DE",
+          "title": "XS4-DE: ON Semiconductor Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-analog-unit-extend-125600311.html",
+          "title": "Can Texas Instruments' Analog Unit Extend Its Strong Sales Growth Run?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-103200690.html",
+          "title": "Zacks Investment Ideas feature highlights Texas, Analog Devices and ON",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 46.35000000000001
+        },
+        {
+          "date": "2026-05-15",
+          "value": 46.259090909090915
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

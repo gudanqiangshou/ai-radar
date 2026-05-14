@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "应用交付控制 (ADC) — AI 流量治理",
-    "price": 357.3999938964844,
-    "change_1d": 0.68,
-    "composite": 64.06666666666666,
+    "price": 364.5899963378906,
+    "change_1d": 2.01,
+    "composite": 63.261111111111106,
     "tier_letter": "C",
     "description": [
       "F5 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：应用交付控制 (ADC) — AI 流量治理。当前内部综合评分 64。",
+      "AI 角色：应用交付控制 (ADC) — AI 流量治理。当前内部综合评分 63。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$357.40",
-        "日内涨跌": "+0.68%",
-        "1日涨跌": "+0.68%",
-        "5日涨跌": "+0.95%",
-        "1月涨跌": "+19.90%",
-        "3月涨跌": "+36.40%",
-        "6月涨跌": "+52.74%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+39.27%",
-        "20日均线": "326.00",
-        "50日均线": "305.07",
-        "200日均线": "290.08",
-        "RSI 14": "72.99",
-        "MACD": "15.46",
-        "20日波动率": "37.91%",
-        "成交量": "652,800",
-        "量比20日": "0.82",
-        "52周高点": "362.00",
+        "最新价": "$364.59",
+        "日内涨跌": "+2.01%",
+        "1日涨跌": "+2.01%",
+        "5日涨跌": "+2.98%",
+        "1月涨跌": "+23.51%",
+        "3月涨跌": "+33.10%",
+        "6月涨跌": "+55.81%",
+        "1年涨跌": "+29.48%",
+        "YTD涨跌": "+42.07%",
+        "20日均线": "328.83",
+        "50日均线": "306.64",
+        "200日均线": "290.41",
+        "RSI 14": "75.44",
+        "MACD": "16.23",
+        "20日波动率": "37.35%",
+        "成交量": "952,975",
+        "量比20日": "1.17",
+        "52周高点": "365.52",
         "52周低点": "223.76",
-        "距52周高点": "-1.27%",
-        "距52周低点": "+59.72%",
+        "距52周高点": "-0.25%",
+        "距52周低点": "+62.94%",
         "20日支撑": "290.60",
-        "20日压力": "362.00"
+        "20日压力": "365.52"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "56.42M",
         "ROE": "20.34%",
         "债务/权益": "0.01",
-        "市值": "$20.16B",
+        "市值": "$20.57B",
         "企业价值": "$18.98B",
-        "市盈率 TTM": "29.32",
-        "预期市盈率": "20.45",
-        "市销率": "6.25",
+        "市盈率 TTM": "29.91",
+        "预期市盈率": "20.86",
+        "市销率": "6.38",
         "EV / 营收": "5.89",
         "EV / EBITDA": "21.02",
         "EV / FCF": "25.00",
-        "FCF 收益率": "3.76%",
+        "FCF 收益率": "3.69%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 28.888888888888893,
+          "value": 20.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 43.33333333333333,
+          "value": 45.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 64.06666666666666,
+          "value": 63.261111111111106,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 337.4,
+        "target_high": 375.0,
+        "target_low": 250.0,
+        "upside_pct": -7.46,
+        "rating": "hold",
+        "rating_letter": "B",
+        "rating_change": "维持",
+        "previous_rating_letter": "B",
+        "n_analysts": 10,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 3.99925,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/US/XNAS/FFIV",
+          "title": "FFIV | F5 Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/FFIV/news",
+          "title": "F5, Inc. (FFIV) Latest Stock News - Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/FFIV/latest-news/",
+          "title": "F5, Inc. (FFIV) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/FFIV/chart/",
+          "title": "F5, Inc. (FFIV) Interactive Stock Chart - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/FFIV.MX/news/",
+          "title": "F5, Inc. (FFIV.MX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ffiv",
+          "title": "F5 Inc. Stock Quote (U.S.: Nasdaq) - FFIV - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/FFIV.MX/news/",
+          "title": "F5, Inc. (FFIV.MX) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/FFIV/sec-filing/",
+          "title": "F5, Inc. (FFIV) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-f5s-nasdaq-ffiv-earnings-130456059.html",
+          "title": "Why F5's (NASDAQ:FFIV) Earnings Are Better Than They Seem",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-cash-producing-stock-keep-214055526.html",
+          "title": "1 Cash-Producing Stock to Keep an Eye On and 2 We Brush Off",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 64.06666666666666
+        },
+        {
+          "date": "2026-05-15",
+          "value": 63.261111111111106
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

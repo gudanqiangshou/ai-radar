@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "矿场转型 GPU 云 — 比特币 + AI 双业务",
-    "price": 55.16999816894531,
-    "change_1d": -2.46,
-    "composite": 54.25714285714286,
+    "price": 58.400001525878906,
+    "change_1d": 5.85,
+    "composite": 53.828571428571436,
     "tier_letter": "C",
     "description": [
       "Iris Energy 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：矿场转型 GPU 云 — 比特币 + AI 双业务。当前内部综合评分 54。",
+      "AI 角色：矿场转型 GPU 云 — 比特币 + AI 双业务。当前内部综合评分 53。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$55.17",
-        "日内涨跌": "-2.46%",
-        "1日涨跌": "-2.46%",
-        "5日涨跌": "-9.85%",
-        "1月涨跌": "+28.09%",
-        "3月涨跌": "+37.82%",
-        "6月涨跌": "+18.98%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+29.20%",
-        "20日均线": "50.89",
-        "50日均线": "44.17",
-        "200日均线": "43.46",
-        "RSI 14": "57.42",
-        "MACD": "3.80",
-        "20日波动率": "104.67%",
-        "成交量": "49,307,900",
-        "量比20日": "0.99",
+        "最新价": "$58.40",
+        "日内涨跌": "+5.85%",
+        "1日涨跌": "+5.85%",
+        "5日涨跌": "-4.58%",
+        "1月涨跌": "+23.28%",
+        "3月涨跌": "+38.32%",
+        "6月涨跌": "+25.94%",
+        "1年涨跌": "+632.75%",
+        "YTD涨跌": "+36.77%",
+        "20日均线": "51.42",
+        "50日均线": "44.46",
+        "200日均线": "43.67",
+        "RSI 14": "60.84",
+        "MACD": "3.90",
+        "20日波动率": "105.45%",
+        "成交量": "57,335,276",
+        "量比20日": "1.11",
         "52周高点": "76.87",
         "52周低点": "7.35",
-        "距52周高点": "-28.23%",
-        "距52周低点": "+650.61%",
+        "距52周高点": "-24.03%",
+        "距52周低点": "+694.56%",
         "20日支撑": "42.21",
         "20日压力": "65.61"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$1.47B",
         "流通股本": "357.38M",
         "ROE": "7.73%",
-        "债务/权益": "0.20",
-        "市值": "$19.72B",
+        "债务/权益": "0.19",
+        "市值": "$20.87B",
         "企业价值": "$21.47B",
-        "市盈率 TTM": "71.65",
-        "预期市盈率": "-41.02",
-        "市销率": "26.04",
+        "市盈率 TTM": "75.84",
+        "预期市盈率": "-43.42",
+        "市销率": "27.57",
         "EV / 营收": "28.36",
         "EV / EBITDA": "145.87",
         "EV / FCF": "-9.29",
-        "FCF 收益率": "-11.72%",
+        "FCF 收益率": "-11.07%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 37.14285714285714,
+          "value": 28.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 54.25714285714286,
+          "value": 53.828571428571436,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 14 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 74.07143,
+        "target_high": 105.0,
+        "target_low": 41.0,
+        "upside_pct": 26.83,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 14,
+        "next_earnings": "2026-05-08",
+        "eps_estimate": -0.46,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,26 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/iren-limited-iren-good-stock-160252509.html",
-          "title": "Is IREN Limited (IREN) A Good Stock To Buy Now?",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/iren",
+          "title": "IREN Ltd. Stock Quote (U.S.: Nasdaq) | MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/iren-trades-premium-valuation-buy-144400416.html",
-          "title": "IREN Trades at Premium Valuation: Buy, Sell or Hold the Stock?",
+          "date": "2026-05-15",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/F8P.BE/news/",
+          "title": "Iris Energy Ltd (F8P.BE) latest stock news and headlines – Yahoo ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/1905930/investors-are-worried-the-ai-rally-has-gone-too-far-bernstein-analysts-say-nvidia-stock-is-still-cheap-here",
-          "title": "Investors Are Worried the AI Rally Has Gone Too Far. Bernstein Analysts Say Nvidia Stock Is Still ‘Cheap’ Here.",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/F8P.MU/",
+          "title": "Iris Energy Ltd (F8P.MU) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/F8P.SG/news/",
+          "title": "Iris Energy Ltd (F8P.SG) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/F8P.DU/news/",
+          "title": "Iris Energy Ltd (F8P.DU) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/IREN/",
+          "title": "IREN Limited (IREN) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/data-center-stock-could-gain-143002473.html",
+          "title": "This Data Center Stock Could Gain Nearly 195% Over the Next 12 ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/look-iris-energy-nasdaqgs-iren-142542657.html",
+          "title": "A Look at Iris Energy (NasdaqGS:IREN) Valuation Following Bold Expansion Into AI Data Centers and GPU Growth",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/F8P.SG/news/",
+          "title": "Iris Energy Ltd (F8P.SG) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/IREN/news?page=4",
+          "title": "IREN Limited (IREN) Latest Stock News | Seeking Alpha",
           "sentiment": null,
           "impact": null
         }
@@ -226,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 43.92982456140351
+        },
+        {
+          "date": "2026-05-15",
+          "value": 53.828571428571436
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

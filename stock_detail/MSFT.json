@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Azure + OpenAI 战略股东 — 企业 AI 软件商业化最深",
-    "price": 405.2099914550781,
-    "change_1d": -0.63,
+    "price": 409.42999267578125,
+    "change_1d": 1.04,
     "composite": 67.10000000000001,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$405.21",
-        "日内涨跌": "-0.63%",
-        "1日涨跌": "-0.63%",
-        "5日涨跌": "-2.39%",
-        "1月涨跌": "+5.42%",
-        "3月涨跌": "+0.84%",
-        "6月涨跌": "-20.58%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-14.32%",
-        "20日均线": "417.99",
-        "50日均线": "398.76",
-        "200日均线": "464.10",
-        "RSI 14": "47.34",
-        "MACD": "3.28",
-        "20日波动率": "28.41%",
-        "成交量": "29,590,500",
-        "量比20日": "0.82",
+        "最新价": "$409.43",
+        "日内涨跌": "+1.04%",
+        "1日涨跌": "+1.04%",
+        "5日涨跌": "-1.37%",
+        "1月涨跌": "+4.15%",
+        "3月涨跌": "+2.02%",
+        "6月涨跌": "-19.75%",
+        "1年涨跌": "-9.61%",
+        "YTD涨跌": "-13.43%",
+        "20日均线": "417.45",
+        "50日均线": "398.84",
+        "200日均线": "463.59",
+        "RSI 14": "50.31",
+        "MACD": "2.79",
+        "20日波动率": "27.48%",
+        "成交量": "26,419,511",
+        "量比20日": "0.77",
         "52周高点": "555.45",
         "52周低点": "356.28",
-        "距52周高点": "-27.05%",
-        "距52周低点": "+13.73%",
+        "距52周高点": "-26.29%",
+        "距52周低点": "+14.92%",
         "20日支撑": "398.01",
         "20日压力": "433.70"
       }
@@ -76,15 +76,15 @@
         "流通股本": "7.43B",
         "ROE": "34.01%",
         "债务/权益": "0.04",
-        "市值": "$3.01T",
+        "市值": "$3.04T",
         "企业价值": "$3.06T",
-        "市盈率 TTM": "24.12",
-        "预期市盈率": "20.94",
-        "市销率": "9.46",
+        "市盈率 TTM": "24.40",
+        "预期市盈率": "21.15",
+        "市销率": "9.56",
         "EV / 营收": "9.61",
         "EV / EBITDA": "16.57",
         "EV / FCF": "82.60",
-        "FCF 收益率": "1.23%",
+        "FCF 收益率": "1.22%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 54 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 561.5561,
+        "target_high": 870.0,
+        "target_low": 400.0,
+        "upside_pct": 37.16,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 54,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 4.24777,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,26 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/article/nebius-stock-soars-as-revenue-jumps-684-on-booming-data-center-demand-152316937.html",
-          "title": "Nebius stock soars as revenue jumps 684% on booming data center demand",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MSFT.TO/news/",
+          "title": "Microsoft Corporation (MSFT.TO) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Reuters",
-          "url": "https://finance.yahoo.com/news/exclusive-microsoft-eyeing-startup-deals-201449688.html",
-          "title": "Exclusive-Microsoft eyeing startup deals for life after OpenAI",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MSFT-USD.SW/news/",
+          "title": "MICROSOFT CORP (MSFT-USD.SW) Latest Stock News ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/grok-ai-stock-portfolio-includes-201020868.html",
-          "title": "Grok AI Stock Portfolio Includes This Under-The-Radar AI Stock",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MSFT.BA/",
+          "title": "Microsoft Corporation (MSFT.BA) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/quote/MSFT:US",
+          "title": "MSFT: Microsoft Corp Stock Price Quote - NASDAQ GS - Bloomberg",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/MSFT",
+          "title": "Microsoft Corporation (MSFT) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MSFT.TO/",
+          "title": "Microsoft Corporation (MSFT.TO) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/microsoft-msft-top-holding-grok-200753347.html",
+          "title": "Microsoft (MSFT): A Top Holding in Grok AI Stock Portfolio For 2026",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/msft",
+          "title": "Microsoft Corp. Stock Quote (U.S.: Nasdaq) - MSFT - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/MSFT",
+          "title": "MSFT: Microsoft Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MSFT/",
+          "title": "Microsoft Corporation (MSFT) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         }
@@ -226,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 71.55263157894736
+        },
+        {
+          "date": "2026-05-15",
+          "value": 67.10000000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Apple Intelligence + Neural Engine — 端侧 AI 入口",
-    "price": 298.8699951171875,
-    "change_1d": 1.38,
-    "composite": 66.60000000000001,
+    "price": 298.2099914550781,
+    "change_1d": -0.22,
+    "composite": 66.85000000000001,
     "tier_letter": "A",
     "description": [
       "Apple 的 AI 产业链位置为 Consumer AI / Device。",
@@ -19,7 +19,7 @@
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$298.87",
-        "日内涨跌": "+1.38%",
-        "1日涨跌": "+1.38%",
-        "5日涨跌": "+1.89%",
-        "1月涨跌": "+15.30%",
-        "3月涨跌": "+14.19%",
-        "6月涨跌": "+9.71%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+10.28%",
-        "20日均线": "278.31",
-        "50日均线": "264.68",
-        "200日均线": "258.24",
-        "RSI 14": "75.59",
-        "MACD": "8.84",
-        "20日波动率": "24.81%",
-        "成交量": "52,610,300",
-        "量比20日": "1.07",
+        "最新价": "$298.21",
+        "日内涨跌": "-0.22%",
+        "1日涨跌": "-0.22%",
+        "5日涨跌": "+1.67%",
+        "1月涨跌": "+15.21%",
+        "3月涨跌": "+16.59%",
+        "6月涨跌": "+9.47%",
+        "1年涨跌": "+40.45%",
+        "YTD涨跌": "+10.04%",
+        "20日均线": "280.05",
+        "50日均线": "265.39",
+        "200日均线": "258.68",
+        "RSI 14": "74.45",
+        "MACD": "9.16",
+        "20日波动率": "24.17%",
+        "成交量": "33,673,067",
+        "量比20日": "0.69",
         "52周高点": "300.92",
         "52周低点": "193.46",
-        "距52周高点": "-0.68%",
-        "距52周低点": "+54.49%",
-        "20日支撑": "261.27",
+        "距52周高点": "-0.90%",
+        "距52周低点": "+54.15%",
+        "20日支撑": "265.07",
         "20日压力": "300.92"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "14.69B",
         "ROE": "141.47%",
         "债务/权益": "0.02",
-        "市值": "$4.39T",
+        "市值": "$4.38T",
         "企业价值": "$4.41T",
-        "市盈率 TTM": "36.23",
-        "预期市盈率": "31.23",
-        "市销率": "9.72",
+        "市盈率 TTM": "36.15",
+        "预期市盈率": "31.16",
+        "市销率": "9.70",
         "EV / 营收": "9.76",
         "EV / EBITDA": "27.54",
         "EV / FCF": "43.58",
-        "FCF 收益率": "2.30%",
+        "FCF 收益率": "2.31%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 76.0,
+          "value": 81.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 66.60000000000001,
+          "value": 66.85000000000001,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 42 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 305.28094,
+        "target_high": 400.0,
+        "target_low": 215.0,
+        "upside_pct": 2.37,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 42,
+        "next_earnings": "2026-07-31",
+        "eps_estimate": 1.89077,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,18 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Exec Edge",
-          "url": "https://finance.yahoo.com/news/final-panel-agenda-closing-registration-203929392.html",
-          "title": "Final Panel Agenda and Closing Registration: 2nd Princeton CorpGov Forum May 21 – Endowments, Activism and Entertainment",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAPL/latest-news/",
+          "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/qnity-electronics-q-14-9-202333462.html",
-          "title": "Qnity Electronics (Q) Is Up 14.9% After Raising 2026 Sales Outlook On AI Packaging Demand",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/aapl?eafs_enabled=false",
+          "title": "AAPL Stock Price | Apple Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-stock-trades-why-063723827.html",
+          "title": "Apple (AAPL) Stock Trades Up, Here Is Why - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/apple-stock-aapl-underperforming-technology-165119452.html",
+          "title": "Apple Stock: Is AAPL Underperforming the Technology Sector?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/AAPL.MX/news/",
+          "title": "Apple Inc. (AAPL.MX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/AAPL",
+          "title": "Apple Inc. (AAPL) Stock Price Today - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAPL.SN/news/",
+          "title": "Apple Inc. (AAPL.SN) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/AAPL.TO/news/",
+          "title": "Apple Inc. (AAPL.TO) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAPL/",
+          "title": "Apple Inc. (AAPL) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAPL/news/",
+          "title": "Apple Inc. (AAPL) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -218,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 58.789473684210535
+        },
+        {
+          "date": "2026-05-15",
+          "value": 66.85000000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "零信任 SASE 代表 — AI 加速威胁检测",
-    "price": 152.42999267578125,
-    "change_1d": 4.28,
-    "composite": 52.78888888888889,
+    "price": 153.6999969482422,
+    "change_1d": 0.83,
+    "composite": 52.455555555555556,
     "tier_letter": "B",
     "description": [
       "Zscaler 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$152.43",
-        "日内涨跌": "+4.28%",
-        "1日涨跌": "+4.28%",
-        "5日涨跌": "+0.20%",
-        "1月涨跌": "+24.31%",
-        "3月涨跌": "-10.81%",
-        "6月涨跌": "-49.10%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-30.89%",
-        "20日均线": "140.24",
-        "50日均线": "142.64",
-        "200日均线": "228.12",
-        "RSI 14": "59.59",
-        "MACD": "2.50",
-        "20日波动率": "58.29%",
-        "成交量": "4,805,900",
-        "量比20日": "1.89",
+        "最新价": "$153.70",
+        "日内涨跌": "+0.83%",
+        "1日涨跌": "+0.83%",
+        "5日涨跌": "+1.03%",
+        "1月涨跌": "+25.29%",
+        "3月涨跌": "-13.52%",
+        "6月涨跌": "-48.67%",
+        "1年涨跌": "-37.12%",
+        "YTD涨跌": "-30.32%",
+        "20日均线": "141.20",
+        "50日均线": "142.59",
+        "200日均线": "227.44",
+        "RSI 14": "60.53",
+        "MACD": "3.04",
+        "20日波动率": "57.94%",
+        "成交量": "3,989,223",
+        "量比20日": "1.51",
         "52周高点": "336.99",
         "52周低点": "114.62",
-        "距52周高点": "-54.77%",
-        "距52周低点": "+32.98%",
+        "距52周高点": "-54.39%",
+        "距52周低点": "+34.09%",
         "20日支撑": "127.79",
-        "20日压力": "153.95"
+        "20日压力": "158.04"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "160.79M",
         "ROE": "-3.56%",
         "债务/权益": "0.08",
-        "市值": "$24.51B",
+        "市值": "$24.71B",
         "企业价值": "$22.86B",
         "市盈率 TTM": "—",
-        "预期市盈率": "33.23",
-        "市销率": "8.17",
+        "预期市盈率": "33.50",
+        "市销率": "8.23",
         "EV / 营收": "7.62",
         "EV / EBITDA": "-336.13",
         "EV / FCF": "22.39",
-        "FCF 收益率": "4.17%",
+        "FCF 收益率": "4.13%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 26.111111111111114,
+          "value": 19.444444444444443,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 52.78888888888889,
+          "value": 52.455555555555556,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 45 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 224.1189,
+        "target_high": 330.0,
+        "target_low": 140.0,
+        "upside_pct": 45.82,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 45,
+        "next_earnings": "2026-05-27",
+        "eps_estimate": 1.00868,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/high-growth-tech-stocks-us-113806041.html",
-          "title": "High Growth Tech Stocks In The US For May 2026",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ZS/research-reports",
+          "title": "Zscaler, Inc. (ZS) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/time-reassess-zscaler-zs-recent-032001915.html",
-          "title": "Is It Time To Reassess Zscaler (ZS) After Recent Share Price Rebound?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ZS.MX/news/",
+          "title": "Zscaler, Inc. (ZS.MX) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/zscaler-ixt-zero-trust-sim-020748262.html",
-          "title": "Zscaler IXT Zero Trust SIM Partnership Expands Critical Infrastructure Opportunity",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ZS/news?page=2",
+          "title": "Zscaler, Inc. (ZS) Latest Stock News | Seeking Alpha",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-heavy-stocks-target-133255994.html",
-          "title": "2 Cash-Heavy Stocks to Target This Week and 1 We Turn Down",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-zs-stock-know-004551664.html",
+          "title": "Zscaler (ZS) Stock Is Up, What You Need To Know - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-zs-stock-trades-why-001027132.html",
+          "title": "Zscaler (ZS) Stock Trades Up, Here Is Why",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ZS/",
+          "title": "Zscaler, Inc. (ZS) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ZS/news/",
+          "title": "Zscaler, Inc. (ZS) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ZS",
+          "title": "Zscaler, Inc. (ZS) Stock Price, Quote, News & Analysis - Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/0ZC.F/",
+          "title": "Zscaler, Inc. (0ZC.F) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ZS",
+          "title": "ZS: Zscaler Inc - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 69.23684210526315
+        },
+        {
+          "date": "2026-05-15",
+          "value": 52.455555555555556
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

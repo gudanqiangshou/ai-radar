@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "生命科学 SaaS — 临床试验 / 药企 CRM 标准",
-    "price": 155.72999572753906,
-    "change_1d": -2.31,
-    "composite": 61.966666666666676,
+    "price": 156.25,
+    "change_1d": 0.33,
+    "composite": 62.675000000000004,
     "tier_letter": "B",
     "description": [
       "Veeva Systems 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：生命科学 SaaS — 临床试验 / 药企 CRM 标准。当前内部综合评分 61。",
+      "AI 角色：生命科学 SaaS — 临床试验 / 药企 CRM 标准。当前内部综合评分 62。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$155.73",
-        "日内涨跌": "-2.31%",
-        "1日涨跌": "-2.31%",
-        "5日涨跌": "-6.38%",
-        "1月涨跌": "-1.72%",
-        "3月涨跌": "-9.45%",
-        "6月涨跌": "-46.92%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-29.05%",
-        "20日均线": "163.79",
-        "50日均线": "172.25",
-        "200日均线": "232.63",
-        "RSI 14": "38.39",
-        "MACD": "-2.64",
-        "20日波动率": "47.65%",
-        "成交量": "2,153,700",
-        "量比20日": "0.49",
+        "最新价": "$156.25",
+        "日内涨跌": "+0.33%",
+        "1日涨跌": "+0.33%",
+        "5日涨跌": "-6.07%",
+        "1月涨跌": "-1.79%",
+        "3月涨跌": "-10.26%",
+        "6月涨跌": "-46.74%",
+        "1年涨跌": "-34.98%",
+        "YTD涨跌": "-28.81%",
+        "20日均线": "163.22",
+        "50日均线": "171.60",
+        "200日均线": "231.98",
+        "RSI 14": "39.13",
+        "MACD": "-2.96",
+        "20日波动率": "47.67%",
+        "成交量": "1,680,869",
+        "量比20日": "0.39",
         "52周高点": "310.50",
         "52周低点": "148.05",
-        "距52周高点": "-49.85%",
-        "距52周低点": "+5.19%",
+        "距52周高点": "-49.68%",
+        "距52周低点": "+5.54%",
         "20日支撑": "152.30",
         "20日压力": "175.11"
       }
@@ -76,15 +76,15 @@
         "流通股本": "163.20M",
         "ROE": "13.93%",
         "债务/权益": "0.00",
-        "市值": "$25.41B",
+        "市值": "$25.50B",
         "企业价值": "$18.97B",
-        "市盈率 TTM": "28.68",
-        "预期市盈率": "15.76",
-        "市销率": "7.95",
+        "市盈率 TTM": "28.78",
+        "预期市盈率": "15.81",
+        "市销率": "7.98",
         "EV / 营收": "5.94",
         "EV / EBITDA": "19.26",
         "EV / FCF": "18.10",
-        "FCF 收益率": "4.12%",
+        "FCF 收益率": "4.11%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 31.666666666666668,
+          "value": 45.833333333333336,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 61.966666666666676,
+          "value": 62.675000000000004,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
-      "data": null,
+      "title_meta": "Yahoo Finance · 28 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 264.4643,
+        "target_high": 350.0,
+        "target_low": 176.0,
+        "upside_pct": 69.26,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 28,
+        "next_earnings": "2026-06-04",
+        "eps_estimate": 2.1352,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,26 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/veev-boosts-medtech-quality-management-162500254.html",
-          "title": "VEEV Boosts MedTech Quality Management With Smith+Nephew Partnership",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/VEEV/news?page=3",
+          "title": "Veeva Systems Inc. (VEEV) Latest Stock News | Seeking Alpha",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/veeva-systems-veev-story-shifting-011355953.html",
-          "title": "How The Veeva Systems (VEEV) Story Is Shifting As Q4 Strength Meets AI And CRM Doubts",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VEEV/latest-news/",
+          "title": "Veeva Systems Inc. (VEEV) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/sectors/healthcare/articles/optimizerx-expands-ehr-advertising-reach-160500817.html",
-          "title": "OptimizeRx Expands EHR Advertising Reach With New DSP Integration",
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/VEEV.VI/latest-news/",
+          "title": "Veeva Systems Inc. (VEEV.VI) stock price, news, quote and history ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/VEEV.VI/news/",
+          "title": "Veeva Systems Inc. (VEEV.VI) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/VEEV.VI/",
+          "title": "Veeva Systems Inc. (VEEV.VI) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/veeva-systems-veev-stock-falls-214503179.html",
+          "title": "Veeva Systems (VEEV) Stock Falls Amid Market Uptick",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VEEV/news/",
+          "title": "Veeva Systems Inc. (VEEV) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/veeva-systems-veev-stock-dips-215004505.html",
+          "title": "Veeva Systems (VEEV) Stock Dips While Market Gains: Key Facts",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VEEV.MX/news/",
+          "title": "Veeva Systems Inc. (VEEV.MX) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/VEEV",
+          "title": "Veeva Systems Inc. (VEEV) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
         }
@@ -226,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 64.36842105263158
+        },
+        {
+          "date": "2026-05-15",
+          "value": 62.675000000000004
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

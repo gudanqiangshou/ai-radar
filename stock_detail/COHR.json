@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "光器件 / 激光 — 数据中心收发器核心元件",
-    "price": 403.7099914550781,
-    "change_1d": 7.94,
-    "composite": 43.17777777777778,
+    "price": 404.94000244140625,
+    "change_1d": 0.3,
+    "composite": 42.87222222222222,
     "tier_letter": "B",
     "description": [
       "Coherent 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：光器件 / 激光 — 数据中心收发器核心元件。当前内部综合评分 43。",
+      "AI 角色：光器件 / 激光 — 数据中心收发器核心元件。当前内部综合评分 42。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$403.71",
-        "日内涨跌": "+7.94%",
-        "1日涨跌": "+7.94%",
-        "5日涨跌": "+20.42%",
-        "1月涨跌": "+31.10%",
-        "3月涨跌": "+86.82%",
-        "6月涨跌": "+189.75%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+107.74%",
-        "20日均线": "339.52",
-        "50日均线": "292.88",
-        "200日均线": "188.60",
-        "RSI 14": "71.20",
-        "MACD": "22.24",
-        "20日波动率": "77.82%",
-        "成交量": "6,742,100",
-        "量比20日": "1.03",
+        "最新价": "$404.94",
+        "日内涨跌": "+0.30%",
+        "1日涨跌": "+0.30%",
+        "5日涨跌": "+20.78%",
+        "1月涨跌": "+29.20%",
+        "3月涨跌": "+86.41%",
+        "6月涨跌": "+190.63%",
+        "1年涨跌": "+401.78%",
+        "YTD涨跌": "+108.38%",
+        "20日均线": "343.36",
+        "50日均线": "295.48",
+        "200日均线": "190.09",
+        "RSI 14": "71.39",
+        "MACD": "24.91",
+        "20日波动率": "75.66%",
+        "成交量": "4,617,987",
+        "量比20日": "0.70",
         "52周高点": "413.00",
         "52周低点": "73.66",
-        "距52周高点": "-2.25%",
-        "距52周低点": "+448.07%",
+        "距52周高点": "-1.95%",
+        "距52周低点": "+449.74%",
         "20日支撑": "291.00",
         "20日压力": "413.00"
       }
@@ -76,11 +76,11 @@
         "流通股本": "195.64M",
         "ROE": "4.72%",
         "债务/权益": "0.04",
-        "市值": "$78.98B",
+        "市值": "$79.22B",
         "企业价值": "$80.32B",
-        "市盈率 TTM": "192.24",
-        "预期市盈率": "50.37",
-        "市销率": "11.96",
+        "市盈率 TTM": "192.83",
+        "预期市盈率": "50.52",
+        "市销率": "12.00",
         "EV / 营收": "12.17",
         "EV / EBITDA": "61.14",
         "EV / FCF": "-406.42",
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 72.22222222222223,
+          "value": 66.11111111111111,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 43.17777777777778,
+          "value": 42.87222222222222,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 21 位分析师 · 2026-05-15 05:16:04",
+      "data": {
+        "target_mean": 376.25894,
+        "target_high": 455.43787,
+        "target_low": 230.0,
+        "upside_pct": -7.08,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 21,
+        "next_earnings": "2026-05-07",
+        "eps_estimate": 1.61491,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/stock-movers-10b5f903?siteid=yhoof2&yptr=yahoo",
-          "title": "These Stocks Are Today’s Movers: Fervo Energy, Ford, Micron, Nvidia, Nebius, Alibaba, Coherent, Wolfspeed, Akamai, Nextpower, and More",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/COHR",
+          "title": "COHR: Coherent Corp - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/bofa-hikes-coherent-price-target-to-400-on-1-7-trillion-ai-data-center-forecast/",
-          "title": "BofA Hikes Coherent Price Target to $400 on $1.7 Trillion AI Data Center Forecast",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/COHR/history/",
+          "title": "Coherent Corp. (COHR) Stock Historical Prices & Data - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/coherent-lumentum-ai-networking-stocks-data-center-boom-4db319b8?siteid=yhoof2&yptr=yahoo",
-          "title": "Coherent and Lumentum Stocks Rise as the AI Networking Trade Stays Hot",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/COHR/press-releases/",
+          "title": "Coherent Corp. (COHR) Latest Press Releases & Corporate News - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/optics-stock-rally-continues-applied-optoelectronics-surges-9-lumentum-and-coherent-rise-4/",
-          "title": "Optics Stock Rally Continues: Applied Optoelectronics Surges 8%, Lumentum and Coherent Rise 4%",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-cohr-stock-trades-why-235844345.html",
+          "title": "Coherent (COHR) Stock Trades Up, Here Is Why",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "The Wall Street Journal",
-          "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-05-13-2026/card/trump-has-landed-in-china-see-which-ceos-are-there-with-him-nZMC4XhSfxoEh7wHknL8?siteid=yhoof2&yptr=yahoo",
-          "title": "Trump Has Landed in China—See Which CEOs Are There With Him",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/COHR/news/",
+          "title": "Coherent Corp. (COHR) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/COHR/news?page=2",
+          "title": "Page 2 | Coherent Corp. (COHR) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-coherent-cohr-stock-down-164142768.html",
+          "title": "Why Coherent (COHR) Stock Is Down Today - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/coherent-stock-climbs-171-6-142100625.html",
+          "title": "Coherent Stock Climbs 171% in 6 Months: Should You Buy Now or ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/COHR/latest-news/",
+          "title": "Coherent Corp. (COHR) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/COHR/",
+          "title": "Coherent Corp. (COHR) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 45.15789473684211
+        },
+        {
+          "date": "2026-05-15",
+          "value": 42.87222222222222
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

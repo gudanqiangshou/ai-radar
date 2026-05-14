@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "配电 + UPS + 数据中心电气系统，AI capex 直接受益",
-    "price": 406.94000244140625,
-    "change_1d": 1.35,
-    "composite": 60.54476190476191,
+    "price": 408.1000061035156,
+    "change_1d": 0.29,
+    "composite": 60.49714285714286,
     "tier_letter": "A",
     "description": [
       "Eaton 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:57",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$406.94",
-        "日内涨跌": "+1.35%",
-        "1日涨跌": "+1.35%",
-        "5日涨跌": "+1.35%",
-        "1月涨跌": "+0.89%",
-        "3月涨跌": "+4.26%",
-        "6月涨跌": "+15.48%",
-        "1年涨跌": "+23.04%",
-        "YTD涨跌": "+24.33%",
-        "20日均线": "413.02",
-        "50日均线": "385.36",
-        "200日均线": "363.83",
-        "RSI 14": "51.27",
-        "MACD": "5.72",
-        "20日波动率": "42.58%",
-        "成交量": "2,316,200",
-        "量比20日": "0.80",
+        "最新价": "$408.10",
+        "日内涨跌": "+0.29%",
+        "1日涨跌": "+0.29%",
+        "5日涨跌": "+1.64%",
+        "1月涨跌": "+1.54%",
+        "3月涨跌": "+4.84%",
+        "6月涨跌": "+15.81%",
+        "1年涨跌": "+24.01%",
+        "YTD涨跌": "+24.68%",
+        "20日均线": "413.79",
+        "50日均线": "386.43",
+        "200日均线": "363.92",
+        "RSI 14": "51.75",
+        "MACD": "5.12",
+        "20日波动率": "42.49%",
+        "成交量": "1,656,119",
+        "量比20日": "0.57",
         "52周高点": "435.43",
         "52周低点": "311.90",
-        "距52周高点": "-6.54%",
-        "距52周低点": "+30.47%",
-        "20日支撑": "387.66",
+        "距52周高点": "-6.28%",
+        "距52周低点": "+30.84%",
+        "20日支撑": "388.26",
         "20日压力": "435.43"
       }
     },
@@ -76,11 +76,11 @@
         "流通股本": "388.30M",
         "ROE": "20.84%",
         "债务/权益": "0.14",
-        "市值": "$158.01B",
+        "市值": "$158.47B",
         "企业价值": "$179.14B",
-        "市盈率 TTM": "39.20",
-        "预期市盈率": "25.93",
-        "市销率": "5.54",
+        "市盈率 TTM": "39.97",
+        "预期市盈率": "26.00",
+        "市销率": "5.56",
         "EV / 营收": "6.28",
         "EV / EBITDA": "28.24",
         "EV / FCF": "67.69",
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 49.04761904761905,
+          "value": 48.09523809523809,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 60.54476190476191,
+          "value": 60.49714285714286,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 28 位分析师 · 2026-05-14 14:53:57",
+      "title_meta": "Yahoo Finance · 28 位分析师 · 2026-05-15 05:16:02",
       "data": {
-        "target_mean": 447.59964,
+        "target_mean": 447.92108,
         "target_high": 514.0,
         "target_low": 321.0,
-        "upside_pct": 9.99,
+        "upside_pct": 9.76,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 28,
         "next_earnings": "2026-08-04",
-        "eps_estimate": 3.07123,
+        "eps_estimate": 3.07736,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -198,6 +198,70 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ETN/history/",
+          "title": "Eaton Corporation plc (ETN) Stock Historical Prices & Data - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ETN/community-insights",
+          "title": "Eaton Corporation plc (ETN) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/etn?amp%2525252525253Bmod=searchbar&amp%252525252525253Bmod=searchbar&amp%25252525252525253Bmod=searchbar&eafs_enabled=false",
+          "title": "ETN | Eaton Corp. PLC Stock Overview (U.S.: NYSE) | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/etn",
+          "title": "ETN | Eaton Corp. PLC Stock Overview (U.S.: NYSE) | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-etn-stock-declines-while-214506494.html",
+          "title": "Eaton (ETN) Stock Declines While Market Improves - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-eaton-corporation-plc-etn-164229739.html",
+          "title": "Why Eaton Corporation plc (ETN) Is Plunging So Far in 2025?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-corp-etn-strengthens-customer-184014355.html",
+          "title": "Eaton Corp. (ETN) Strengthens Customer Support Commitment with ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-corporation-plc-etn-attracting-130002386.html",
+          "title": "Eaton Corporation, PLC (ETN) is Attracting Investor Attention: Here is What You Should Know",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-13",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/ETN/",
@@ -210,70 +274,6 @@
           "source": "cnbc.com",
           "url": "https://www.cnbc.com/quotes/ETN",
           "title": "ETN: Eaton Corporation PLC - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ETN/press-releases/",
-          "title": "Eaton Corporation plc (ETN) Latest Press Releases & Corporate News - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/ETN",
-          "title": "Eaton Corporation plc (ETN) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/eaton-corp-etn-one-best-060032416.html",
-          "title": "Is Eaton Corp. (ETN) One of the Best Industrial Stocks Benefiting from the Data Center Boom?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ETN/news/",
-          "title": "Eaton Corporation plc (ETN) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/markets/companies/ETN.N/",
-          "title": "(ETN.N) | Stock Price & Latest News - Reuters",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/eaton-corporation-plc-etn-leveraging-141424980.html",
-          "title": "Is Eaton Corporation plc (ETN) Leveraging Secular Tailwinds?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/etn",
-          "title": "ETN Stock Price | Eaton Corp. PLC Stock Quote (U.S.: NYSE) | MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/why-eaton-etn-expanding-switchgear-161011305.html",
-          "title": "Why Eaton (ETN) Is Expanding Switchgear Capacity for the AI Data Center Buildout",
           "sentiment": null,
           "impact": null
         }
@@ -295,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 60.54476190476191
+        },
+        {
+          "date": "2026-05-15",
+          "value": 60.49714285714286
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

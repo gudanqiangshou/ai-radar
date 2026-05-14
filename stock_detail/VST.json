@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益",
-    "price": 142.61000061035156,
-    "change_1d": -2.9,
-    "composite": 70.34,
+    "price": 141.89999389648438,
+    "change_1d": -0.5,
+    "composite": 70.16142857142857,
     "tier_letter": "A",
     "description": [
       "Vistra Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:57",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
     "status_label": "买入区"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$142.61",
-        "日内涨跌": "-2.90%",
-        "1日涨跌": "-2.90%",
-        "5日涨跌": "-3.46%",
-        "1月涨跌": "-9.85%",
-        "3月涨跌": "-12.56%",
-        "6月涨跌": "-18.36%",
-        "1年涨跌": "-7.99%",
-        "YTD涨跌": "-13.69%",
-        "20日均线": "156.89",
-        "50日均线": "157.26",
-        "200日均线": "176.32",
-        "RSI 14": "37.25",
-        "MACD": "-2.74",
-        "20日波动率": "43.71%",
-        "成交量": "6,377,600",
-        "量比20日": "1.40",
+        "最新价": "$141.90",
+        "日内涨跌": "-0.50%",
+        "1日涨跌": "-0.50%",
+        "5日涨跌": "-3.94%",
+        "1月涨跌": "-13.46%",
+        "3月涨跌": "-17.25%",
+        "6月涨跌": "-18.77%",
+        "1年涨跌": "-8.29%",
+        "YTD涨跌": "-14.12%",
+        "20日均线": "155.71",
+        "50日均线": "156.83",
+        "200日均线": "176.04",
+        "RSI 14": "36.74",
+        "MACD": "-3.40",
+        "20日波动率": "42.93%",
+        "成交量": "4,315,392",
+        "量比20日": "0.90",
         "52周高点": "219.82",
         "52周低点": "138.53",
-        "距52周高点": "-35.12%",
-        "距52周低点": "+2.95%",
+        "距52周高点": "-35.45%",
+        "距52周低点": "+2.43%",
         "20日支撑": "139.51",
         "20日压力": "168.49"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$16.61B",
         "流通股本": "337.18M",
         "ROE": "42.90%",
-        "债务/权益": "0.41",
-        "市值": "$48.09B",
+        "债务/权益": "0.42",
+        "市值": "$47.85B",
         "企业价值": "$69.84B",
-        "市盈率 TTM": "23.85",
-        "预期市盈率": "12.64",
-        "市销率": "2.47",
+        "市盈率 TTM": "23.73",
+        "预期市盈率": "12.57",
+        "市销率": "2.46",
         "EV / 营收": "3.59",
         "EV / EBITDA": "10.29",
         "EV / FCF": "146.46",
-        "FCF 收益率": "0.99%",
+        "FCF 收益率": "1.00%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 7.142857142857143,
+          "value": 3.5714285714285716,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 70.34,
+          "value": 70.16142857142857,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,17 +167,17 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-14 14:53:57",
+      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-15 05:16:02",
       "data": {
-        "target_mean": 229.11111,
+        "target_mean": 227.52632,
         "target_high": 320.0,
         "target_low": 97.0,
-        "upside_pct": 60.66,
+        "upside_pct": 60.34,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
         "previous_rating_letter": "A",
-        "n_analysts": 18,
+        "n_analysts": 19,
         "next_earnings": "2026-08-06",
         "eps_estimate": 2.59081,
         "revenue_estimate": null
@@ -198,82 +198,82 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-stock-trades-above-50-132800109.html",
+          "title": "Vistra Stock Trades Above 50-Day SMA: Buy, Hold or Take Profits?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/VST/",
+          "title": "(VST) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/VST",
+          "title": "VST: Vistra Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VST/press-releases/",
+          "title": "Vistra Corp. (VST) Latest Press Releases & Corporate News",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/VST/news/",
+          "title": "Vistra Corp. (VST) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/VST.N/",
+          "title": "(VST.N) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/vistra-corp-vst-sees-fresh-162017853.html",
+          "title": "Vistra Corp (VST) Sees Fresh Analyst Bullishness - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Exec Edge",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/vinson-elkins-accelerating-ai-infrastructure-154459380.html",
+          "title": "Vinson & Elkins: Accelerating AI Infrastructure & Power Constraints Reshape the Market",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/vistra-vst-advances-4-5-113217950.html",
+          "title": "Vistra (VST) Advances 4.5 GW Capacity Growth Amid Projected Multi-Year Load Increase",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-13",
           "source": "barrons.com",
           "url": "https://www.barrons.com/market-data/stocks/vst",
           "title": "VST | Vistra Corp. Stock Overview (U.S.: NYSE) - Barron's",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/vistra-corp-vst-among-10-141628923.html",
-          "title": "Vistra Corp. (VST) – Among the 10 Best Nuclear Energy Stocks to ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/VST/latest-news/",
-          "title": "Vistra Corp. (VST) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/VST",
-          "title": "Vistra Corp. (VST) Stock Price, Quote, News & Analysis | Seeking Alpha",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/VST/",
-          "title": "Vistra Corp. (VST) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/VST/historical-prices",
-          "title": "Vistra Corp. Price & News - WSJ | VST",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/vst",
-          "title": "Vistra Corp. Stock Quote (U.S.: NYSE) - VST - MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/vistra-vst-slightly-jim-cramer-163028873.html",
-          "title": "Vistra (VST) Up Slightly After Jim Cramer Warned Against Getting ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/VST.MX/",
-          "title": "Vistra Corp. (VST.MX) Stock Price, News, Quote & History - Yahoo ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/VST/history/",
-          "title": "Vistra Corp. (VST) Stock Historical Prices & Data - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -295,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 70.34
+        },
+        {
+          "date": "2026-05-15",
+          "value": 70.16142857142857
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Falcon AI 驱动端点安全 — 行业标杆",
-    "price": 562.5700073242188,
-    "change_1d": 3.0,
+    "price": 579.9500122070312,
+    "change_1d": 3.09,
     "composite": 49.48611111111112,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$562.57",
-        "日内涨跌": "+3.00%",
-        "1日涨跌": "+3.00%",
-        "5日涨跌": "+6.59%",
-        "1月涨跌": "+39.86%",
-        "3月涨跌": "+36.70%",
-        "6月涨跌": "+4.65%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+24.03%",
-        "20日均线": "472.34",
-        "50日均线": "435.73",
-        "200日均线": "459.24",
-        "RSI 14": "79.02",
-        "MACD": "32.51",
-        "20日波动率": "41.89%",
-        "成交量": "2,795,300",
-        "量比20日": "1.00",
-        "52周高点": "568.37",
+        "最新价": "$579.95",
+        "日内涨跌": "+3.09%",
+        "1日涨跌": "+3.09%",
+        "5日涨跌": "+9.89%",
+        "1月涨跌": "+45.54%",
+        "3月涨跌": "+34.99%",
+        "6月涨跌": "+7.89%",
+        "1年涨跌": "+33.03%",
+        "YTD涨跌": "+27.86%",
+        "20日均线": "480.43",
+        "50日均线": "439.18",
+        "200日均线": "459.81",
+        "RSI 14": "81.07",
+        "MACD": "36.20",
+        "20日波动率": "42.22%",
+        "成交量": "2,744,072",
+        "量比20日": "0.99",
+        "52周高点": "583.78",
         "52周低点": "342.72",
-        "距52周高点": "-1.02%",
-        "距52周低点": "+64.15%",
-        "20日支撑": "411.09",
-        "20日压力": "568.37"
+        "距52周高点": "-0.66%",
+        "距52周低点": "+69.22%",
+        "20日支撑": "417.02",
+        "20日压力": "583.78"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "254.54M",
         "ROE": "-4.14%",
         "债务/权益": "0.01",
-        "市值": "$143.19B",
+        "市值": "$147.62B",
         "企业价值": "$138.31B",
         "市盈率 TTM": "—",
-        "预期市盈率": "91.21",
-        "市销率": "29.76",
+        "预期市盈率": "93.96",
+        "市销率": "30.68",
         "EV / 营收": "28.74",
         "EV / EBITDA": "-2963.95",
         "EV / FCF": "86.20",
-        "FCF 收益率": "1.12%",
+        "FCF 收益率": "1.09%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 51 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 493.19452,
+        "target_high": 706.0,
+        "target_low": 368.0,
+        "upside_pct": -14.96,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 51,
+        "next_earnings": "2026-06-04",
+        "eps_estimate": 1.06745,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRWD/news/",
+          "title": "CrowdStrike Holdings, Inc. (CRWD) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRWD/latest-news/",
+          "title": "META_TITLE_QUOTE - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/CRWD",
+          "title": "CRWD: CrowdStrike Holdings Inc - Stock Price, Quote and News",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRWD/",
+          "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-saying-crowdstrike-crwd-stock-155612328.html",
+          "title": "What Are Analysts Saying About CrowdStrike (CRWD) Stock?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CRWD.TO/news/",
+          "title": "CrowdStrike Holdings, Inc. (CRWD.TO) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRWD.MX/news?p=CRWD.MX&ncid=yahooproperties_peoplealso_km0o32z3jzm",
+          "title": "CrowdStrike Holdings, Inc. (CRWD.MX) Latest Stock News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/raise-crowdstrike-crwd-numbers-says-115809760.html",
+          "title": "I Would Raise CrowdStrike (CRWD)'s Numbers, Says Jim Cramer",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/ibd-stock-analysis/palo-alto-stock-panw-cybersecurity-stocks-to-watch/?src=A00220&yptr=yahoo",
+          "title": "Cybersecurity Giant Unlocks New Buy Zone While Flashing These Telltale Clues",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
           "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/crowdstrike-holdings-crwd-chris-rokos-193649158.html",
-          "title": "CrowdStrike Holdings (CRWD): Chris Rokos Opens New Position",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/coverage/charts/2026/05/13/sentinelone-vs-crowdstrike-what-their-quarterly-revenue-trends-tell-investors/",
-          "title": "SentinelOne vs. CrowdStrike: What Their Quarterly Revenue Trends Tell Investors.",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/assessing-crowdstrike-holdings-crwd-valuation-231841582.html",
-          "title": "Assessing CrowdStrike Holdings (CRWD) Valuation After A Powerful Multi Year Shareholder Return",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "Moby",
-          "url": "https://app.moby.co/home/news/news-openai-launches-daybreak-in-effort-to-woo-pentagon-away-from-mythos?utm_source=yahoo_finance&utm_medium=rss",
-          "title": "OpenAI Launches Daybreak in Effort to Woo Pentagon Away From Mythos",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-crowdstrike-one-highest-163754857.html",
+          "title": "Jim Cramer on CrowdStrike: “I Need This One to Go the Highest”",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 58.28947368421052
+        },
+        {
+          "date": "2026-05-15",
+          "value": 49.48611111111112
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

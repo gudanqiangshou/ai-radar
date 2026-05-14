@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "OCI + AI 数据中心 GPU 租赁 — Stargate / OpenAI 长约",
-    "price": 189.75999450683594,
-    "change_1d": 1.57,
-    "composite": 56.099999999999994,
+    "price": 195.61000061035156,
+    "change_1d": 3.08,
+    "composite": 56.25,
     "tier_letter": "B",
     "description": [
       "Oracle 的 AI 产业链位置为 Cloud / Hyperscaler。",
@@ -19,7 +19,7 @@
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$189.76",
-        "日内涨跌": "+1.57%",
-        "1日涨跌": "+1.57%",
-        "5日涨跌": "-3.16%",
-        "1月涨跌": "+21.94%",
-        "3月涨跌": "+21.27%",
-        "6月涨跌": "-14.85%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-3.04%",
-        "20日均线": "180.29",
-        "50日均线": "162.34",
-        "200日均线": "210.16",
-        "RSI 14": "61.84",
-        "MACD": "8.72",
-        "20日波动率": "52.99%",
-        "成交量": "15,739,000",
-        "量比20日": "0.52",
+        "最新价": "$195.61",
+        "日内涨跌": "+3.08%",
+        "1日涨跌": "+3.08%",
+        "5日涨跌": "-0.17%",
+        "1月涨跌": "+20.01%",
+        "3月涨跌": "+22.15%",
+        "6月涨跌": "-12.22%",
+        "1年涨跌": "+20.04%",
+        "YTD涨跌": "-0.05%",
+        "20日均线": "181.15",
+        "50日均线": "163.21",
+        "200日均线": "209.89",
+        "RSI 14": "65.23",
+        "MACD": "8.95",
+        "20日波动率": "51.26%",
+        "成交量": "20,540,617",
+        "量比20日": "0.75",
         "52周高点": "345.72",
         "52周低点": "134.57",
-        "距52周高点": "-45.11%",
-        "距52周低点": "+41.01%",
+        "距52周高点": "-43.42%",
+        "距52周低点": "+45.36%",
         "20日支撑": "160.33",
-        "20日压力": "200.15"
+        "20日压力": "200.71"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "-$85.59B",
         "流通股本": "2.88B",
         "ROE": "57.57%",
-        "债务/权益": "0.30",
-        "市值": "$545.76B",
+        "债务/权益": "0.29",
+        "市值": "$562.58B",
         "企业价值": "$674.30B",
-        "市盈率 TTM": "34.01",
-        "预期市盈率": "23.62",
-        "市销率": "8.52",
+        "市盈率 TTM": "35.06",
+        "预期市盈率": "24.35",
+        "市销率": "8.78",
         "EV / 营收": "10.52",
         "EV / EBITDA": "24.57",
         "EV / FCF": "-30.24",
-        "FCF 收益率": "-4.09%",
+        "FCF 收益率": "-3.96%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 56.0,
+          "value": 59.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 56.099999999999994,
+          "value": 56.25,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 39 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 242.74307,
+        "target_high": 400.0,
+        "target_low": 155.0,
+        "upside_pct": 24.1,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 39,
+        "next_earnings": "2026-06-11",
+        "eps_estimate": 1.95927,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "decrypt",
-          "url": "https://decrypt.co/367581/myriad-adopts-chainlink-as-official-oracle-platform-to-power-new-crypto-prediction-markets",
-          "title": "Myriad Adopts Chainlink as Official Oracle Platform to Power New Crypto Prediction Markets",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ORCL/community/",
+          "title": "Oracle Corporation (ORCL) Stock Forum & Discussion",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/the-smart-money-isnt-hesitating-to-buy-these-2-battered-software-stocks/",
-          "title": "The Smart Money Isn’t Hesitating to Buy These 2 Battered Software Stocks",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ORCL/news?page=26",
+          "title": "Oracle Corporation (ORCL) Latest Stock News | Seeking Alpha",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/gds-holdings-limited-gds-good-164220263.html",
-          "title": "Is GDS Holdings Limited (GDS) A Good Stock To Buy Now?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/oracle-orcl-stock-trades-why-203042060.html",
+          "title": "Oracle (ORCL) Stock Trades Up, Here Is Why - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/snowflakes-ai-data-cloud-expands-162600492.html",
-          "title": "Snowflake's AI Data Cloud Expands: Is Growth Thesis Strengthening?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/assessing-whether-oracle-orcl-still-212531716.html",
+          "title": "Assessing Whether Oracle (ORCL) Still Looks Undervalued After ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/oracle-solidifies-ai-infrastructure-positioning-161500050.html",
-          "title": "Oracle Solidifies AI Infrastructure Positioning: Will it Drive Growth?",
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/ORCL-PD/latest-news/",
+          "title": "Oracle Corp (ORCL-PD) stock price, news, quote and history ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/ORCL.SN/latest-news/",
+          "title": "Oracle Corporation (ORCL.SN) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ORCL",
+          "title": "Oracle Corporation (ORCL) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ORCL/",
+          "title": "Oracle Corporation (ORCL) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ORCL",
+          "title": "ORCL: Oracle Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ORCL/news/",
+          "title": "Oracle Corporation (ORCL) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 50.94736842105262
+        },
+        {
+          "date": "2026-05-15",
+          "value": 56.25
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

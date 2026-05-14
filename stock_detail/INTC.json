@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "Gaudi AI 加速器 + 自有 fab（18A 工艺），转型中",
-    "price": 120.29000091552734,
-    "change_1d": -0.27,
-    "composite": 29.35454545454546,
+    "price": 115.93000030517578,
+    "change_1d": -3.62,
+    "composite": 29.218181818181822,
     "tier_letter": "C",
     "description": [
       "Intel 的 AI 产业链位置为 Compute / GPU / ASIC。",
@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "减持"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$120.29",
-        "日内涨跌": "-0.27%",
-        "1日涨跌": "-0.27%",
-        "5日涨跌": "-3.71%",
-        "1月涨跌": "+84.55%",
-        "3月涨跌": "+158.80%",
-        "6月涨跌": "+238.65%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+205.46%",
-        "20日均线": "93.19",
-        "50日均线": "66.84",
-        "200日均线": "43.87",
-        "RSI 14": "74.77",
-        "MACD": "16.91",
-        "20日波动率": "117.20%",
-        "成交量": "114,737,000",
+        "最新价": "$115.93",
+        "日内涨跌": "-3.62%",
+        "1日涨跌": "-3.62%",
+        "5日涨跌": "-7.20%",
+        "1月涨跌": "+81.68%",
+        "3月涨跌": "+147.77%",
+        "6月涨跌": "+226.38%",
+        "1年涨跌": "+438.71%",
+        "YTD涨跌": "+194.39%",
+        "20日均线": "95.56",
+        "50日均线": "68.24",
+        "200日均线": "44.35",
+        "RSI 14": "69.71",
+        "MACD": "16.26",
+        "20日波动率": "119.46%",
+        "成交量": "115,100,089",
         "量比20日": "0.74",
         "52周高点": "132.75",
         "52周低点": "18.97",
-        "距52周高点": "-9.39%",
-        "距52周低点": "+534.11%",
-        "20日支撑": "64.27",
+        "距52周高点": "-12.67%",
+        "距52周低点": "+511.12%",
+        "20日支撑": "64.47",
         "20日压力": "132.75"
       }
     },
@@ -75,16 +75,16 @@
         "净现金/债务": "-$10.24B",
         "流通股本": "5.03B",
         "ROE": "-2.91%",
-        "债务/权益": "0.07",
-        "市值": "$604.58B",
+        "债务/权益": "0.08",
+        "市值": "$582.66B",
         "企业价值": "$630.41B",
         "市盈率 TTM": "—",
-        "预期市盈率": "78.40",
-        "市销率": "11.25",
+        "预期市盈率": "75.56",
+        "市销率": "10.84",
         "EV / 营收": "11.73",
         "EV / EBITDA": "44.48",
         "EV / FCF": "-75.94",
-        "FCF 收益率": "-1.37%",
+        "FCF 收益率": "-1.42%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 85.45454545454545,
+          "value": 82.72727272727272,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 29.35454545454546,
+          "value": 29.218181818181822,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:58",
-      "data": null,
+      "title_meta": "Yahoo Finance · 42 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 84.43333,
+        "target_high": 120.0,
+        "target_low": 20.4,
+        "upside_pct": -27.17,
+        "rating": "hold",
+        "rating_letter": "B",
+        "rating_change": "维持",
+        "previous_rating_letter": "B",
+        "n_analysts": 42,
+        "next_earnings": "2026-07-24",
+        "eps_estimate": 0.21099,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/micron-stock-in-focus-as-wall-street-weighs-ai-demand-outlook-142158704.html",
-          "title": "Micron stock in focus as Wall Street weighs AI demand outlook",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/intc",
+          "title": "Intel Corp. Stock Quote (U.S.: Nasdaq) - INTC - MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/13/why-paysign-plunged-today/",
-          "title": "Why Paysign Plunged Today",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/INTC",
+          "title": "INTC: Intel Corp - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/breakout-stocks-technical-analysis/asml-stock-taiwan-semi-intel-samsung-euv-lithography/?src=A00220&yptr=yahoo",
-          "title": "Truly Unique AI Powerhouse Etches Buy Zone. Now Comes This Test.",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/INTC/news/",
+          "title": "Intel Corporation (INTC) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/stocks/intel-just-broke-a-26-year-curse",
-          "title": "Intel just broke a 26-year curse",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intel-intc-among-tech-stocks-180001347.html",
+          "title": "Intel (INTC) Is Among The Tech Stocks That Have Just Hit New All ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/INTC.NE/news/",
+          "title": "Intel Corporation (INTC.NE) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/INTC.SW/news/",
+          "title": "INTEL CORP (INTC.SW) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/INTC.TO/news/",
+          "title": "Intel Corporation (INTC.TO) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/INTC/",
+          "title": "Intel Corporation (INTC) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/INTC/latest-news/",
+          "title": "Intel Corporation (INTC) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/INTC/community/",
+          "title": "Intel Corporation (INTC) Stock Forum & Discussion - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 23.36842105263158
+        },
+        {
+          "date": "2026-05-15",
+          "value": 29.218181818181822
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

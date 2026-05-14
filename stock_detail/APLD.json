@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "数据中心 + AI 云 — CoreWeave/Anthropic 合作",
-    "price": 45.47999954223633,
-    "change_1d": 3.53,
+    "price": 46.709999084472656,
+    "change_1d": 2.7,
     "composite": 52.864285714285714,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$45.48",
-        "日内涨跌": "+3.53%",
-        "1日涨跌": "+3.53%",
-        "5日涨跌": "+10.25%",
-        "1月涨跌": "+64.78%",
-        "3月涨跌": "+25.74%",
-        "6月涨跌": "+92.30%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+61.79%",
-        "20日均线": "36.58",
-        "50日均线": "30.61",
-        "200日均线": "27.53",
-        "RSI 14": "70.51",
-        "MACD": "4.03",
-        "20日波动率": "89.79%",
-        "成交量": "15,245,700",
-        "量比20日": "0.61",
-        "52周高点": "46.64",
+        "最新价": "$46.71",
+        "日内涨跌": "+2.70%",
+        "1日涨跌": "+2.70%",
+        "5日涨跌": "+13.24%",
+        "1月涨跌": "+48.43%",
+        "3月涨跌": "+32.40%",
+        "6月涨跌": "+97.51%",
+        "1年涨跌": "+681.10%",
+        "YTD涨跌": "+66.17%",
+        "20日均线": "37.42",
+        "50日均线": "30.97",
+        "200日均线": "27.71",
+        "RSI 14": "71.99",
+        "MACD": "4.25",
+        "20日波动率": "88.24%",
+        "成交量": "16,214,620",
+        "量比20日": "0.66",
+        "52周高点": "47.79",
         "52周低点": "5.51",
-        "距52周高点": "-2.49%",
-        "距52周低点": "+725.11%",
-        "20日支撑": "29.42",
-        "20日压力": "46.64"
+        "距52周高点": "-2.26%",
+        "距52周低点": "+747.42%",
+        "20日支撑": "30.24",
+        "20日压力": "47.79"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "-$864.06M",
         "流通股本": "285.77M",
         "ROE": "-5.56%",
-        "债务/权益": "0.22",
-        "市值": "$13.00B",
+        "债务/权益": "0.21",
+        "市值": "$13.35B",
         "企业价值": "$15.08B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-64.97",
-        "市销率": "40.71",
+        "预期市盈率": "-66.73",
+        "市销率": "41.81",
         "EV / 营收": "47.23",
         "EV / EBITDA": "1084.51",
         "EV / FCF": "-10.07",
-        "FCF 收益率": "-11.52%",
+        "FCF 收益率": "-11.21%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 52.8,
+        "target_high": 97.0,
+        "target_low": 40.0,
+        "upside_pct": 13.04,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 10,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": null,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-apld-25-1-171307979.html",
-          "title": "Applied Digital (APLD) Is Up 25.1% After $7.5 Billion AI Deal And New Debt Facility - Has The Bull Case Changed?",
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/APLD/insider-sentiment/",
+          "title": "Applied Digital Corporation (APLD) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-partnership-help-iren-reach-151300855.html",
-          "title": "Can NVIDIA Partnership Help IREN Reach $3.7B AI Cloud ARR Target?",
+          "date": "2026-05-15",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/APLD/latest-news/",
+          "title": "Applied Digital Corporation (APLD) stock price, news, quote and ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/investment-chronoscale-unlock-additional-value-122400733.html",
-          "title": "Can Investment in ChronoScale Unlock Additional Value for APLD?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-digital-apld-stock-continues-082824318.html",
+          "title": "Applied Digital (APLD) Stock Continues To Rise As Company Gets ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-08",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-applied-digital-corporation-apld-153001734.html",
-          "title": "Why Is Applied Digital Corporation (APLD) Up 62.4% Since Last Earnings Report?",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-applied-digital-apld-stock-214203567.html",
+          "title": "Why Applied Digital (APLD) Stock Is Up Today - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/APLD",
+          "title": "APLD: Applied Digital Corp - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/1APLD.MI/news/",
+          "title": "Applied Digital (1APLD.MI) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/APLD/research-reports/",
+          "title": "Applied Digital Corporation (APLD) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/APLD/news/",
+          "title": "Applied Digital Corporation (APLD) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/apld",
+          "title": "APLD Stock Price | Applied Digital Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/APLD/press-releases/",
+          "title": "Applied Digital Corporation (APLD) Latest Press Releases ...",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 34.4561403508772
+        },
+        {
+          "date": "2026-05-15",
+          "value": 52.864285714285714
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

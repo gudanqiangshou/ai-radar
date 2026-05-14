@@ -11,7 +11,7 @@
     "ai_role": "全闪存阵列 — Meta AI 大单签约，AI 数据存储",
     "price": 84.43000030517578,
     "change_1d": 1.32,
-    "composite": 49.45238095238095,
+    "composite": 49.65079365079365,
     "tier_letter": "B",
     "description": [
       "Pure Storage 的 AI 产业链位置为 Data Center Infrastructure。",
@@ -19,7 +19,7 @@
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "观察"
   },
   "panels": [
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 75.0,
+          "value": 78.57142857142858,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 49.45238095238095,
+          "value": 49.65079365079365,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
-      "data": null,
+      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 89.89474,
+        "target_high": 105.0,
+        "target_low": 63.0,
+        "upside_pct": 6.47,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 19,
+        "next_earnings": "2026-05-28",
+        "eps_estimate": 0.39506,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/pure-storage-pstg-outpaces-stock-230005107.html",
+          "title": "Pure Storage (PSTG) Outpaces Stock Market Gains - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/q3-rundown-pure-storage-nyse-033116411.html",
+          "title": "Pure Storage (NYSE:PSTG) Vs Other Hardware & Infrastructure Stocks",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/too-consider-pure-storage-pstg-121236440.html",
+          "title": "Is It Too Late To Consider Pure Storage (PSTG) After Strong Multi ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/time-reassess-pure-storage-pstg-101814672.html",
+          "title": "Is It Time To Reassess Pure Storage (PSTG) After Its Strong Multi Year Share Price Run",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PSTG.MX/news",
+          "title": "Pure Storage, Inc. (PSTG.MX) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-pure-storage-pstg-shares-183050143.html",
+          "title": "Why Are Pure Storage (PSTG) Shares Soaring Today - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/pure-storage-pstg-stock-know-171058536.html",
+          "title": "Pure Storage (PSTG) Stock Is Up, What You Need To Know",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/pure-storage-pstg-stock-sinks-230005130.html",
+          "title": "Pure Storage (PSTG) Stock Sinks As Market Gains - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-pure-storage-pstg-shares-211135064.html",
+          "title": "Why Are Pure Storage (PSTG) Shares Soaring Today - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-pure-storage-pstg-outpaced-230004015.html",
+          "title": "Why Pure Storage (PSTG) Outpaced the Stock Market Today",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -201,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 50.85294117647059
+        },
+        {
+          "date": "2026-05-15",
+          "value": 49.65079365079365
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

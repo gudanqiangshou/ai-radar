@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "可穿戴 + 户外 GPS — 端侧 AI 健康监测",
-    "price": 232.02000427246094,
-    "change_1d": -2.09,
+    "price": 234.42999267578125,
+    "change_1d": 1.04,
     "composite": 56.10000000000001,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$232.02",
-        "日内涨跌": "-2.09%",
-        "1日涨跌": "-2.09%",
-        "5日涨跌": "-3.36%",
-        "1月涨跌": "-11.30%",
-        "3月涨跌": "+14.17%",
-        "6月涨跌": "+19.52%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+14.61%",
-        "20日均线": "250.64",
-        "50日均线": "245.44",
-        "200日均线": "228.27",
-        "RSI 14": "36.45",
-        "MACD": "-3.44",
-        "20日波动率": "27.84%",
-        "成交量": "914,500",
-        "量比20日": "1.14",
+        "最新价": "$234.43",
+        "日内涨跌": "+1.04%",
+        "1日涨跌": "+1.04%",
+        "5日涨跌": "-2.36%",
+        "1月涨跌": "-11.36%",
+        "3月涨跌": "+9.17%",
+        "6月涨跌": "+20.76%",
+        "1年涨跌": "+16.88%",
+        "YTD涨跌": "+15.80%",
+        "20日均线": "249.14",
+        "50日均线": "245.11",
+        "200日均线": "228.25",
+        "RSI 14": "39.33",
+        "MACD": "-3.82",
+        "20日波动率": "28.49%",
+        "成交量": "422,181",
+        "量比20日": "0.54",
         "52周高点": "273.32",
         "52周低点": "186.67",
-        "距52周高点": "-15.11%",
-        "距52周低点": "+24.29%",
-        "20日支撑": "231.59",
+        "距52周高点": "-14.23%",
+        "距52周低点": "+25.59%",
+        "20日支撑": "230.29",
         "20日压力": "273.32"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "192.86M",
         "ROE": "19.90%",
         "债务/权益": "0.00",
-        "市值": "$44.75B",
+        "市值": "$45.21B",
         "企业价值": "$42.26B",
-        "市盈率 TTM": "25.90",
-        "预期市盈率": "22.89",
-        "市销率": "6.00",
+        "市盈率 TTM": "26.16",
+        "预期市盈率": "23.13",
+        "市销率": "6.06",
         "EV / 营收": "5.66",
         "EV / EBITDA": "19.51",
         "EV / FCF": "52.16",
-        "FCF 收益率": "1.81%",
+        "FCF 收益率": "1.79%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 7 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 261.7143,
+        "target_high": 320.0,
+        "target_low": 220.0,
+        "upside_pct": 11.64,
+        "rating": "hold",
+        "rating_letter": "B",
+        "rating_change": "维持",
+        "previous_rating_letter": "B",
+        "n_analysts": 7,
+        "next_earnings": "2026-07-29",
+        "eps_estimate": 2.25684,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,80 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/GRMN/news?page=2",
+          "title": "Page 2 | Garmin Ltd. (GRMN) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GRMN/news/",
+          "title": "Garmin Ltd. (GRMN) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/GRMN",
+          "title": "GRMN: Garmin Ltd - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/GRMN/latest-news/",
+          "title": "Garmin Ltd. (GRMN) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/GRMN/momentum/performance",
+          "title": "Garmin Ltd. (GRMN) Stock Momentum Grade & Price Performance ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/grmn",
+          "title": "Garmin Ltd. Stock Quote (U.S.: NYSE) - GRMN - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/garmin-grmn-beats-stock-market-221503914.html",
+          "title": "Garmin (GRMN) Beats Stock Market Upswing: What Investors Need to Know",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/GRMN/historical-prices",
+          "title": "Garmin Ltd. Price & News - WSJ | GRMN",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-08",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-garmin-grmn-strong-121318568.html",
+          "title": "Is It Too Late To Consider Garmin (GRMN) After Its Strong Three Year Share Price Run?",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +279,13 @@
         {
           "date": "2026-05-13",
           "value": 56.10000000000001
+        },
+        {
+          "date": "2026-05-15",
+          "value": 56.10000000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

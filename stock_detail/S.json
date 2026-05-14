@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "Singularity AI 自治安全 — 端点替代赛道",
-    "price": 16.079999923706055,
-    "change_1d": 2.16,
-    "composite": 39.67777777777778,
+    "price": 16.510000228881836,
+    "change_1d": 2.67,
+    "composite": 39.42777777777778,
     "tier_letter": "C",
     "description": [
       "SentinelOne 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
     "status_label": "减持"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$16.08",
-        "日内涨跌": "+2.16%",
-        "1日涨跌": "+2.16%",
-        "5日涨跌": "-3.07%",
-        "1月涨跌": "+25.72%",
-        "3月涨跌": "+20.81%",
-        "6月涨跌": "-4.23%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+9.84%",
-        "20日均线": "15.00",
-        "50日均线": "14.15",
-        "200日均线": "15.61",
-        "RSI 14": "61.24",
-        "MACD": "0.65",
-        "20日波动率": "48.63%",
-        "成交量": "4,634,200",
-        "量比20日": "0.67",
+        "最新价": "$16.51",
+        "日内涨跌": "+2.67%",
+        "1日涨跌": "+2.67%",
+        "5日涨跌": "-0.48%",
+        "1月涨跌": "+29.49%",
+        "3月涨跌": "+19.03%",
+        "6月涨跌": "-1.67%",
+        "1年涨跌": "-18.43%",
+        "YTD涨跌": "+12.77%",
+        "20日均线": "15.13",
+        "50日均线": "14.21",
+        "200日均线": "15.60",
+        "RSI 14": "64.07",
+        "MACD": "0.68",
+        "20日波动率": "46.71%",
+        "成交量": "5,368,198",
+        "量比20日": "0.81",
         "52周高点": "21.40",
         "52周低点": "11.81",
-        "距52周高点": "-24.86%",
-        "距52周低点": "+36.16%",
-        "20日支撑": "13.51",
+        "距52周高点": "-22.85%",
+        "距52周低点": "+39.80%",
+        "20日支撑": "13.52",
         "20日压力": "16.72"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "333.98M",
         "ROE": "-29.02%",
         "债务/权益": "0.00",
-        "市值": "$5.47B",
+        "市值": "$5.62B",
         "企业价值": "$4.86B",
         "市盈率 TTM": "—",
-        "预期市盈率": "33.72",
-        "市销率": "5.46",
+        "预期市盈率": "34.62",
+        "市销率": "5.61",
         "EV / 营收": "4.85",
         "EV / EBITDA": "-18.12",
         "EV / FCF": "17.11",
-        "FCF 收益率": "5.19%",
+        "FCF 收益率": "5.05%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 66.66666666666666,
+          "value": 61.66666666666666,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 39.67777777777778,
+          "value": 39.42777777777778,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
-      "data": null,
+      "title_meta": "Yahoo Finance · 34 位分析师 · 2026-05-15 05:16:07",
+      "data": {
+        "target_mean": 18.5,
+        "target_high": 26.0,
+        "target_low": 14.0,
+        "upside_pct": 12.05,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 34,
+        "next_earnings": "2026-05-29",
+        "eps_estimate": 0.02127,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,34 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/ai-threats-are-accelerating-and-these-3-cybersecurity-stocks-under-30-are-built-to-win/",
-          "title": "AI Threats Are Accelerating and These 3 Cybersecurity Stocks Under $30 Are Built to Win",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/S/press-releases/",
+          "title": "SentinelOne, Inc. (S) Latest Press Releases & Corporate News - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/sentinelone-dips-more-broader-market-220002319.html",
-          "title": "SentinelOne (S) Dips More Than Broader Market: What You Should Know",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/S/",
+          "title": "SentinelOne, Inc. (S) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/12/5-cybersecurity-stocks-that-may-be-acquired-in-2026s-ma-wave/",
-          "title": "5 Cybersecurity Stocks That May Be Acquired in 2026’s M&A Wave",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/S/latest-news/",
+          "title": "SentinelOne, Inc. (S) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sentinelone-6-3-launching-ai-121413833.html",
-          "title": "SentinelOne (S) Is Up 6.3% After Launching AI-Powered Wayfinder Frontier Exposure Management Service",
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/s/overview",
+          "title": "S Stock Price | SentinelOne Inc. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/7B0.SG/news/",
+          "title": "SentinelOne Inc (7B0.SG) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/S/news?page=3",
+          "title": "SentinelOne, Inc. (S) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/S",
+          "title": "S: SentinelOne Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/S/news/",
+          "title": "SentinelOne, Inc. (S) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/S",
+          "title": "SentinelOne, Inc. (S) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/sentinelone-beats-stock-market-upswing-230004748.html",
+          "title": "SentinelOne (S) Beats Stock Market Upswing: What Investors Need ...",
           "sentiment": null,
           "impact": null
         }
@@ -234,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 37.52631578947368
+        },
+        {
+          "date": "2026-05-15",
+          "value": 39.42777777777778
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

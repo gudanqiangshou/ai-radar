@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "评级 + 数据 + 指数 — AI 推动金融研究自动化",
-    "price": 406.54998779296875,
-    "change_1d": -4.15,
-    "composite": 47.87500000000001,
+    "price": 403.9200134277344,
+    "change_1d": -0.65,
+    "composite": 47.57500000000001,
     "tier_letter": "A",
     "description": [
       "S&P Global 的 AI 产业链位置为 Financial / Research Data。",
@@ -19,7 +19,7 @@
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$406.55",
-        "日内涨跌": "-4.15%",
-        "1日涨跌": "-4.15%",
-        "5日涨跌": "-3.23%",
-        "1月涨跌": "-5.47%",
-        "3月涨跌": "+2.35%",
-        "6月涨跌": "-17.69%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-20.70%",
-        "20日均线": "431.28",
-        "50日均线": "429.13",
-        "200日均线": "485.75",
-        "RSI 14": "33.86",
-        "MACD": "-3.97",
-        "20日波动率": "21.40%",
-        "成交量": "2,602,700",
-        "量比20日": "1.44",
+        "最新价": "$403.92",
+        "日内涨跌": "-0.65%",
+        "1日涨跌": "-0.65%",
+        "5日涨跌": "-3.86%",
+        "1月涨跌": "-5.01%",
+        "3月涨跌": "-1.37%",
+        "6月涨跌": "-18.22%",
+        "1年涨跌": "-21.10%",
+        "YTD涨跌": "-21.21%",
+        "20日均线": "429.63",
+        "50日均线": "428.30",
+        "200日均线": "485.11",
+        "RSI 14": "32.56",
+        "MACD": "-5.24",
+        "20日波动率": "20.44%",
+        "成交量": "2,231,648",
+        "量比20日": "1.20",
         "52周高点": "579.05",
         "52周低点": "381.61",
-        "距52周高点": "-29.79%",
-        "距52周低点": "+6.54%",
+        "距52周高点": "-30.24%",
+        "距52周低点": "+5.85%",
         "20日支撑": "401.00",
         "20日压力": "456.70"
       }
@@ -76,15 +76,15 @@
         "流通股本": "296.00M",
         "ROE": "13.94%",
         "债务/权益": "0.12",
-        "市值": "$120.34B",
+        "市值": "$119.56B",
         "企业价值": "$137.46B",
-        "市盈率 TTM": "25.70",
-        "预期市盈率": "18.31",
-        "市销率": "7.65",
+        "市盈率 TTM": "25.55",
+        "预期市盈率": "18.19",
+        "市销率": "7.60",
         "EV / 营收": "8.74",
         "EV / EBITDA": "17.46",
         "EV / FCF": "25.94",
-        "FCF 收益率": "4.40%",
+        "FCF 收益率": "4.43%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 23.0,
+          "value": 17.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 47.87500000000001,
+          "value": 47.57500000000001,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
-      "data": null,
+      "title_meta": "Yahoo Finance · 21 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 534.0,
+        "target_high": 575.0,
+        "target_low": 480.0,
+        "upside_pct": 32.2,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 21,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 4.93485,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/news/3-reasons-avoid-ait-1-022855054.html",
-          "title": "3 Reasons to Avoid AIT and 1 Stock to Buy Instead",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/SPGI%3ACA",
+          "title": "S&P Global Inc. (SPGI:CA) Stock Price, Quote, News & Analysis ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Reuters",
-          "url": "https://finance.yahoo.com/news/p-revises-mexicos-outlook-negative-215718318.html",
-          "title": "S&P revises Mexico's outlook to 'negative' on debt, growth concerns",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SPGI.TO/news/",
+          "title": "S&P Global Inc. (SPGI.TO) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "MT Newswires",
-          "url": "https://finance.yahoo.com/news/sector-financial-stocks-higher-afternoon-195752034.html",
-          "title": "Sector Update: Financial Stocks Higher Late Afternoon",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SPGI.VI/news/",
+          "title": "S&P Global Inc. (SPGI.VI) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-sets-mobility-board-132038930.html",
-          "title": "S&P Global Sets Mobility Board As Spinoff Story Takes Shape",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/SPGI",
+          "title": "SPGI: S&P Global Inc - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/investing/louis-navellier-says-rare-stock-signal-has-a-90-success-rate",
-          "title": "Louis Navellier says rare stock signal has a 90% success rate",
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/US/XNYS/SPGI",
+          "title": "SPGI | S&P Global Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SPGI/news/",
+          "title": "S&P Global Inc. (SPGI) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/p-global-inc-spgi-one-004120146.html",
+          "title": "Is S&P Global Inc. (SPGI) One of the Best Blue Chip Stocks to Buy for the Long Term?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/too-consider-p-global-spgi-180719689.html",
+          "title": "Is It Too Late To Consider S&P Global (SPGI) After Strong Multi Year ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/p-global-spgi-loses-13-143502533.html",
+          "title": "S&P Global (SPGI) Loses 13.2% in 4 Weeks, Here's Why a Trend ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SPGI.VI/",
+          "title": "S&P Global Inc. (SPGI.VI) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 48.21052631578947
+        },
+        {
+          "date": "2026-05-15",
+          "value": 47.57500000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "体内基因编辑 — CRISPR/Cas9 in vivo 临床领先",
-    "price": 14.279999732971191,
-    "change_1d": 2.07,
-    "composite": 37.74999999999999,
+    "price": 13.09000015258789,
+    "change_1d": -8.33,
+    "composite": 36.416666666666664,
     "tier_letter": "C",
     "description": [
       "Intellia Therapeutics 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：体内基因编辑 — CRISPR/Cas9 in vivo 临床领先。当前内部综合评分 37。",
+      "AI 角色：体内基因编辑 — CRISPR/Cas9 in vivo 临床领先。当前内部综合评分 36。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$14.28",
-        "日内涨跌": "+2.07%",
-        "1日涨跌": "+2.07%",
-        "5日涨跌": "+1.35%",
-        "1月涨跌": "+0.14%",
-        "3月涨跌": "+22.89%",
-        "6月涨跌": "+64.14%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+55.05%",
-        "20日均线": "14.13",
-        "50日均线": "13.66",
+        "最新价": "$13.09",
+        "日内涨跌": "-8.33%",
+        "1日涨跌": "-8.33%",
+        "5日涨跌": "-7.10%",
+        "1月涨跌": "-11.43%",
+        "3月涨跌": "+10.28%",
+        "6月涨跌": "+50.46%",
+        "1年涨跌": "+66.12%",
+        "YTD涨跌": "+42.13%",
+        "20日均线": "14.08",
+        "50日均线": "13.64",
         "200日均线": "13.20",
-        "RSI 14": "52.96",
-        "MACD": "0.07",
-        "20日波动率": "85.61%",
-        "成交量": "3,752,200",
-        "量比20日": "0.47",
+        "RSI 14": "44.88",
+        "MACD": "-0.00",
+        "20日波动率": "88.74%",
+        "成交量": "14,081,736",
+        "量比20日": "1.64",
         "52周高点": "28.25",
         "52周低点": "6.83",
-        "距52周高点": "-49.45%",
-        "距52周低点": "+109.08%",
+        "距52周高点": "-53.66%",
+        "距52周低点": "+91.65%",
         "20日支撑": "11.76",
         "20日压力": "16.97"
       }
@@ -76,15 +76,15 @@
         "流通股本": "139.72M",
         "ROE": "-56.34%",
         "债务/权益": "0.04",
-        "市值": "$2.00B",
+        "市值": "$1.83B",
         "企业价值": "$1.70B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-7.73",
-        "市销率": "30.19",
+        "预期市盈率": "-6.93",
+        "市销率": "27.67",
         "EV / 营收": "25.72",
         "EV / EBITDA": "-4.13",
         "EV / FCF": "-7.23",
-        "FCF 收益率": "-11.79%",
+        "FCF 收益率": "-12.86%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 85.83333333333333,
+          "value": 59.166666666666664,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 37.74999999999999,
+          "value": 36.416666666666664,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
-      "data": null,
+      "title_meta": "Yahoo Finance · 20 位分析师 · 2026-05-15 05:16:08",
+      "data": {
+        "target_mean": 26.55,
+        "target_high": 95.0,
+        "target_low": 5.0,
+        "upside_pct": 102.83,
+        "rating": "buy",
+        "rating_letter": "A-",
+        "rating_change": "维持",
+        "previous_rating_letter": "A-",
+        "n_analysts": 20,
+        "next_earnings": "2026-08-06",
+        "eps_estimate": -0.81467,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/NTLA/historical-prices",
+          "title": "Intellia Therapeutics Inc. Price & News - WSJ | NTLA",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NTLA/community-insights/",
+          "title": "Intellia Therapeutics, Inc. (NTLA) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NTLA/community/",
+          "title": "Intellia Therapeutics, Inc. (NTLA) Stock Forum & Discussion",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/NTLA/research-reports/",
+          "title": "Intellia Therapeutics, Inc. (NTLA) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/look-intellia-therapeutics-ntla-valuation-110815503.html",
+          "title": "A Look At Intellia Therapeutics (NTLA) Valuation After Its Recent ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/38I.SG/news/",
+          "title": "Intellia Therapeutics Inc (38I.SG) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ntla",
+          "title": "Intellia Therapeutics Inc. Stock Quote (U.S. - NTLA - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/intellia-therapeutics-inc-ntla-sees-211726411.html",
+          "title": "Intellia Therapeutics, Inc. (NTLA) Sees Moderate Buy Rating From ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/sectors/healthcare/articles/intellia-therapeutics-inc-nasdaq-ntla-125440126.html",
+          "title": "Intellia Therapeutics, Inc. (NASDAQ:NTLA) First-Quarter Results Just Came Out: Here's What Analysts Are Forecasting For This Year",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/news/high-growth-tech-stocks-us-113806041.html",
+          "title": "High Growth Tech Stocks In The US For May 2026",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -193,9 +287,13 @@
         {
           "date": "2026-05-13",
           "value": 37.74999999999999
+        },
+        {
+          "date": "2026-05-15",
+          "value": 36.416666666666664
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Llama 开源 + 自研 MTIA + 最大 AI capex 之一（自用）",
-    "price": 616.6300048828125,
-    "change_1d": 2.26,
+    "price": 618.4299926757812,
+    "change_1d": 0.29,
     "composite": 64.4,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$616.63",
-        "日内涨跌": "+2.26%",
-        "1日涨跌": "+2.26%",
-        "5日涨跌": "+1.15%",
-        "1月涨跌": "-2.82%",
-        "3月涨跌": "-5.11%",
-        "6月涨跌": "+1.18%",
-        "1年涨跌": "—",
-        "YTD涨跌": "-5.19%",
-        "20日均线": "641.35",
-        "50日均线": "623.78",
-        "200日均线": "674.24",
-        "RSI 14": "46.38",
-        "MACD": "-7.09",
-        "20日波动率": "37.66%",
-        "成交量": "14,590,900",
-        "量比20日": "0.91",
+        "最新价": "$618.43",
+        "日内涨跌": "+0.29%",
+        "1日涨跌": "+0.29%",
+        "5日涨跌": "+1.44%",
+        "1月涨跌": "-6.65%",
+        "3月涨跌": "-3.34%",
+        "6月涨跌": "+1.47%",
+        "1年涨跌": "-6.21%",
+        "YTD涨跌": "-4.92%",
+        "20日均线": "638.43",
+        "50日均线": "622.80",
+        "200日均线": "673.83",
+        "RSI 14": "47.08",
+        "MACD": "-6.63",
+        "20日波动率": "37.50%",
+        "成交量": "10,031,286",
+        "量比20日": "0.63",
         "52周高点": "796.25",
         "52周低点": "520.26",
-        "距52周高点": "-22.56%",
-        "距52周低点": "+18.52%",
+        "距52周高点": "-22.33%",
+        "距52周低点": "+18.87%",
         "20日支撑": "592.60",
         "20日压力": "691.52"
       }
@@ -78,9 +78,9 @@
         "债务/权益": "0.06",
         "市值": "$1.57T",
         "企业价值": "$1.57T",
-        "市盈率 TTM": "22.42",
-        "预期市盈率": "17.04",
-        "市销率": "7.28",
+        "市盈率 TTM": "22.49",
+        "预期市盈率": "17.09",
+        "市销率": "7.30",
         "EV / 营收": "7.31",
         "EV / EBITDA": "14.37",
         "EV / FCF": "61.46",
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 58 位分析师 · 2026-05-15 05:16:05",
+      "data": {
+        "target_mean": 826.69104,
+        "target_high": 1015.0,
+        "target_low": 614.0,
+        "upside_pct": 33.68,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 58,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 7.48333,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,10 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-13",
-          "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/cisco-earnings-stock-price-f649ed14?siteid=yhoof2&yptr=yahoo",
-          "title": "Cisco Earnings and Revenue Beat Estimates on Strong AI Demand",
+          "date": "2026-05-15",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/FB2A.BE/news/",
+          "title": "Meta Platforms Inc (FB2A.BE) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/FB2A.HM/news/",
+          "title": "Meta Platforms Inc (FB2A.HM) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/IVW.BA/news/",
+          "title": "Meta Platforms, Inc. (IVW.BA) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/technology/article/meta-stock-sinks-after-q1-earnings-as-company-raises-2026-ai-spending-forecast-to-125-billion-145-billion-160136308.html",
+          "title": "Meta stock sinks after Q1 earnings as company raises 2026 AI ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/META/news/",
+          "title": "Meta Platforms, Inc. (META) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/us/XNAS/META",
+          "title": "META | Meta Platforms Inc. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/META/news?filter=&page=7",
+          "title": "Meta Platforms, Inc. (META) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/META.VI/news/",
+          "title": "Meta Platforms, Inc. (META.VI) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/META/",
+          "title": "Meta Platforms, Inc. (META) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/1FB.MI/news/",
+          "title": "Meta Platforms, Inc. (1FB.MI) Latest Stock News & Headlines ...",
           "sentiment": null,
           "impact": null
         }
@@ -210,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 69.44736842105262
+        },
+        {
+          "date": "2026-05-15",
+          "value": 64.4
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

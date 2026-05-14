@@ -11,7 +11,7 @@
     "ai_role": "Kafka 商业化 — 数据流处理",
     "price": 30.989999771118164,
     "change_1d": 0.0,
-    "composite": 38.55,
+    "composite": 38.45625,
     "tier_letter": "C",
     "description": [
       "Confluent 的 AI 产业链位置为 Data / Software Platform。",
@@ -19,7 +19,7 @@
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
     "status_label": "减持"
   },
   "panels": [
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 56.25,
+          "value": 54.375,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 38.55,
+          "value": 38.45625,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
-      "data": null,
+      "title_meta": "Yahoo Finance · 8 位分析师 · 2026-05-15 05:16:06",
+      "data": {
+        "target_mean": 31.0,
+        "target_high": 31.0,
+        "target_low": 31.0,
+        "upside_pct": 0.03,
+        "rating": "hold",
+        "rating_letter": "B",
+        "rating_change": "维持",
+        "previous_rating_letter": "B",
+        "n_analysts": 8,
+        "next_earnings": "2026-04-30",
+        "eps_estimate": 0.11219,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -183,7 +196,88 @@
       "id": "news",
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
-      "data": []
+      "data": [
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CFLT/news/?p=CFLT",
+          "title": "Confluent, Inc. (CFLT) Latest Stock News ... - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CFLT/latest-news/",
+          "title": "Confluent, Inc. (CFLT) Stock Price, News, Quote & History - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/time-reassess-confluent-cflt-modest-131011545.html",
+          "title": "Is It Time To Reassess Confluent (CFLT) After Modest Multi‑Year ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/revisiting-confluent-cflt-valuation-recent-131258011.html",
+          "title": "Revisiting Confluent (CFLT) Valuation After Its Recent Share Price ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/confluent-cflt-soars-30-11-194210463.html",
+          "title": "Confluent (CFLT) Soars 30% on $11-Billion IBM Merger",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/confluent-cflt-climbs-29-11-192323779.html",
+          "title": "Confluent (CFLT) Climbs 29% on $11-Billion IBM Merger",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/too-consider-confluent-cflt-recent-031538518.html",
+          "title": "Is It Too Late To Consider Confluent (CFLT) After Recent Share Price Strength?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/confluent-cflt-surpasses-q4-earnings-222501071.html",
+          "title": "Confluent (CFLT) Surpasses Q4 Earnings and Revenue Estimates",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/countdown-confluent-cflt-q4-earnings-141507756.html",
+          "title": "Countdown to Confluent (CFLT) Q4 Earnings: A Look at Estimates Beyond Revenue and EPS",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/assessing-confluent-cflt-valuation-recent-060926352.html",
+          "title": "Assessing Confluent (CFLT) Valuation After Recent Share Price Momentum",
+          "sentiment": null,
+          "impact": null
+        }
+      ]
     },
     {
       "id": "score_history",
@@ -201,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 51.23529411764705
+        },
+        {
+          "date": "2026-05-15",
+          "value": 38.45625
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }

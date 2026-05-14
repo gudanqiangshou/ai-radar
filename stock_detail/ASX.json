@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "全球封测第一 — 先进封装多核心客户",
-    "price": 35.470001220703125,
-    "change_1d": 3.47,
-    "composite": 56.15,
+    "price": 35.25,
+    "change_1d": -0.62,
+    "composite": 55.05,
     "tier_letter": "B",
     "description": [
       "ASE Technology Holding 的 AI 产业链位置为 Foundry / Packaging。",
-      "AI 角色：全球封测第一 — 先进封装多核心客户。当前内部综合评分 56。",
+      "AI 角色：全球封测第一 — 先进封装多核心客户。当前内部综合评分 55。",
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$35.47",
-        "日内涨跌": "+3.47%",
-        "1日涨跌": "+3.47%",
-        "5日涨跌": "+3.62%",
-        "1月涨跌": "+33.60%",
-        "3月涨跌": "+51.19%",
-        "6月涨跌": "+142.78%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+110.38%",
-        "20日均线": "31.69",
-        "50日均线": "26.20",
-        "200日均线": "17.71",
-        "RSI 14": "74.19",
-        "MACD": "2.54",
-        "20日波动率": "42.32%",
-        "成交量": "6,647,600",
-        "量比20日": "0.82",
+        "最新价": "$35.25",
+        "日内涨跌": "-0.62%",
+        "1日涨跌": "-0.62%",
+        "5日涨跌": "+2.98%",
+        "1月涨跌": "+31.19%",
+        "3月涨跌": "+50.64%",
+        "6月涨跌": "+141.27%",
+        "1年涨跌": "+245.93%",
+        "YTD涨跌": "+109.07%",
+        "20日均线": "32.07",
+        "50日均线": "26.46",
+        "200日均线": "17.83",
+        "RSI 14": "72.64",
+        "MACD": "2.52",
+        "20日波动率": "42.90%",
+        "成交量": "4,104,669",
+        "量比20日": "0.52",
         "52周高点": "35.71",
         "52周低点": "9.23",
-        "距52周高点": "-0.67%",
-        "距52周低点": "+284.29%",
-        "20日支撑": "27.25",
+        "距52周高点": "-1.29%",
+        "距52周低点": "+281.91%",
+        "20日支撑": "28.14",
         "20日压力": "35.71"
       }
     },
@@ -75,16 +75,16 @@
         "净现金/债务": "-$113.33B",
         "流通股本": "2.19B",
         "ROE": "13.58%",
-        "债务/权益": "3.30",
-        "市值": "$77.82B",
+        "债务/权益": "3.32",
+        "市值": "$77.34B",
         "企业价值": "$354.79B",
-        "市盈率 TTM": "54.57",
-        "预期市盈率": "22.36",
+        "市盈率 TTM": "54.23",
+        "预期市盈率": "22.22",
         "市销率": "0.12",
         "EV / 营收": "0.53",
         "EV / EBITDA": "2.82",
         "EV / FCF": "-3.65",
-        "FCF 收益率": "-125.06%",
+        "FCF 收益率": "-125.84%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 56.0,
+          "value": 48.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 65.0,
+          "value": 59.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 56.15,
+          "value": 55.05,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,8 +167,21 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
-      "data": null,
+      "title_meta": "Yahoo Finance · 3 位分析师 · 2026-05-15 05:16:03",
+      "data": {
+        "target_mean": 38.64756,
+        "target_high": 43.0,
+        "target_low": 36.0,
+        "upside_pct": 9.64,
+        "rating": "strong_buy",
+        "rating_letter": "A",
+        "rating_change": "维持",
+        "previous_rating_letter": "A",
+        "n_analysts": 3,
+        "next_earnings": "2026-07-30",
+        "eps_estimate": 0.23908,
+        "revenue_estimate": null
+      },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -185,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-11",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/strong-smartphone-demand-boost-amkrs-140400733.html",
-          "title": "Can Strong Smartphone Demand Boost AMKR's Communications Revenues?",
+          "date": "2026-05-15",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ASX",
+          "title": "ASX: ASE Technology Holding Co Ltd - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-08",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-asx-ionq-may-gain-190000948.html",
-          "title": "Why ASX and IONQ May Gain 15%+ in the Quantum-Semiconductor Space",
+          "date": "2026-05-15",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ASX/earnings",
+          "title": "ASE Technology Holding Co., Ltd. (ASX) Earnings Dates & Report",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-07",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-holding-co-asx-180355621.html",
-          "title": "ASE Technology Holding Co. (ASX) Reports Unaudited Consolidated Financial Results for Q1 2026",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/3711.TW/news/",
+          "title": "ASE Technology Holding Co., Ltd. (3711.TW) - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-07",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-hldg-asx-move-125502236.html",
-          "title": "ASE Technology Hldg (ASX) is on the Move, Here's Why the Trend Could be Sustainable",
+          "date": "2026-05-15",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ASX/news/",
+          "title": "ASE Technology Holding Co., Ltd. (ASX) - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-07",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-asx-ranks-among-100046165.html",
-          "title": "ASE Technology (ASX) Ranks Among Mid-Cap Stocks That Are On Fire Right Now",
+          "date": "2026-05-14",
+          "source": "markets.ft.com",
+          "url": "https://markets.ft.com/data/equities/tearsheet/summary?s=ASX:ASE",
+          "title": "ASE Technology Holding Co Ltd, ASX:NYQ summary - FT.com",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/ASX/",
+          "title": "ASE Technology Holding Co Ltd - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ASX",
+          "title": "ASX ASE Technology Holding Co., Ltd. Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/ASX",
+          "title": "ASE Technology Holding Co. Ltd. ADR (ASX) Stock Price Today - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ASX/",
+          "title": "ASE Technology Holding Co., Ltd. (ASX) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-14",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/asx",
+          "title": "ASX Stock Price | ASE Technology Holding Co. Ltd. ADR Stock Quote (U.S.: NYSE) | MarketWatch",
           "sentiment": null,
           "impact": null
         }
@@ -242,9 +295,13 @@
         {
           "date": "2026-05-14",
           "value": 60.10526315789473
+        },
+        {
+          "date": "2026-05-15",
+          "value": 55.05
         }
       ]
     }
   ],
-  "updated_at": "2026-05-13"
+  "updated_at": "2026-05-15"
 }
