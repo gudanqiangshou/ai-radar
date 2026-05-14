@@ -108,20 +108,38 @@ function resetFilters() {
   renderTable(_allStocks);
 }
 
+// 通用渲染辅助
+const _fmtMarketCap = (v) => {
+  if (v === null || v === undefined) return '—';
+  if (v >= 1e12) return `$${(v / 1e12).toFixed(2)}T`;
+  if (v >= 1e9)  return `$${(v / 1e9).toFixed(2)}B`;
+  if (v >= 1e6)  return `$${(v / 1e6).toFixed(2)}M`;
+  return `$${v.toFixed(0)}`;
+};
+const _fmtPctCell = (v) => {
+  if (v === null || v === undefined) return { text: '—', color: '#888' };
+  return {
+    text: `${v >= 0 ? '+' : ''}${v.toFixed(2)}%`,
+    color: v >= 0 ? '#5fb878' : '#e54696',
+  };
+};
+
 function renderTable(stocks) {
-  // 8 列 head 与 8 列 row 严格对齐（修复之前 head 是 8 但实际 row 有时 9 列的不匹配）
+  // 12 列 head + row 严格对齐（src/render/web/css/theme.css .table-head/.table-row）
+  // 代码 名称 AI角色 板块 Tier 市值 涨跌(1D) 1M 3M 1Y YTD Composite
   const head = `<div class="table-head">
     <div>代码</div><div>名称</div><div>AI 角色</div><div>板块</div>
-    <div>Tier</div><div>价格</div><div>涨跌</div><div>Composite</div>
+    <div>Tier</div><div>市值</div>
+    <div>涨跌</div><div>1M</div><div>3M</div><div>1Y</div><div>YTD</div>
+    <div>Composite</div>
   </div>`;
   const rows = stocks.map(s => {
-    const change = s.change_1d;
-    const changeText = (change === null || change === undefined)
-      ? '—' : `${change >= 0 ? '+' : ''}${change.toFixed(2)}%`;
-    const changeColor = (change === null || change === undefined)
-      ? '#888' : (change >= 0 ? '#5fb878' : '#e54696');
-    const priceText = (s.price === null || s.price === undefined)
-      ? '—' : `$${s.price.toFixed(2)}`;
+    const c1d = _fmtPctCell(s.change_1d);
+    const c1m = _fmtPctCell(s.change_1m);
+    const c3m = _fmtPctCell(s.change_3m);
+    const c1y = _fmtPctCell(s.change_1y);
+    const cytd = _fmtPctCell(s.change_ytd);
+    const mc = _fmtMarketCap(s.market_cap);
     const composite = (s.composite === null || s.composite === undefined)
       ? '—' : s.composite.toFixed(0);
     return `<div class="table-row" data-ticker="${escapeAttr(s.ticker)}">
@@ -130,8 +148,12 @@ function renderTable(stocks) {
       <div style="color:#888">${escapeHtml((s.ai_role || '').slice(0, 30))}</div>
       <div style="color:#888">${escapeHtml((window._sectorZh || {})[s.sector] || s.sector)}</div>
       <div style="color:#5fb878">T${escapeHtml(s.tier)}</div>
-      <div>${priceText}</div>
-      <div style="color:${changeColor}">${changeText}</div>
+      <div>${mc}</div>
+      <div style="color:${c1d.color}">${c1d.text}</div>
+      <div style="color:${c1m.color}">${c1m.text}</div>
+      <div style="color:${c3m.color}">${c3m.text}</div>
+      <div style="color:${c1y.color}">${c1y.text}</div>
+      <div style="color:${cytd.color}">${cytd.text}</div>
       <div style="color:#5fb878;font-weight:700">${composite}</div>
     </div>`;
   }).join('');
