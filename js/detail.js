@@ -13,9 +13,12 @@ async function loadDetail(ticker) {
 }
 
 function renderHeader(h) {
-  const chg = h.change_1d || 0;
-  const chgCls = chg >= 0 ? 'pos' : 'neg';
-  const chgSign = chg >= 0 ? '+' : '';
+  // 区分缺失 vs 真持平：缺数据时 detail header 显示 "—" 而不是误导性的 "+0.00%"
+  const hasChg = h.change_1d !== null && h.change_1d !== undefined;
+  const chg = hasChg ? h.change_1d : 0;
+  const chgCls = !hasChg ? '' : (chg >= 0 ? 'pos' : 'neg');
+  const chgSign = hasChg && chg >= 0 ? '+' : '';
+  const chgText = hasChg ? `${chgSign}${chg.toFixed(2)}%` : '—';
   const warn = h.data_warning
     ? `<span class="data-warn-tag">${escapeHtml(h.data_warning)}</span>` : '';
   const desc = (h.description || []).map(p => `<p>${escapeHtml(p)}</p>`).join('');
@@ -34,7 +37,7 @@ function renderHeader(h) {
         <div class="dh-ticker">${escapeHtml(h.ticker)}</div>
         <div class="dh-name">${escapeHtml(h.name || '')}</div>
       </div>
-      <div class="dh-chg ${chgCls}">${chgSign}${chg.toFixed(2)}%</div>
+      <div class="dh-chg ${chgCls}">${chgText}</div>
     </div>
     <div class="dh-meta">${meta}</div>
     ${warn}

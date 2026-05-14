@@ -70,9 +70,12 @@ function renderCore30(stocks) {
   };
   const fmtPct = v => (v === null || v === undefined) ? '—' : `${v >= 0 ? '+' : ''}${v.toFixed(2)}%`;
   const html = stocks.map(s => {
-    const chg = s.change_1d || 0;
-    const chgCls = chg >= 0 ? 'pos' : 'neg';
-    const chgText = `${chg >= 0 ? '+' : ''}${chg.toFixed(2)}%`;
+    // 区分 null/undefined（数据缺失）与 0.0（真持平）：缺失显示"—"，不能用 || 0
+    // 让今天 prices 没拉到的标的伪装成 "+0.00%"
+    const hasChg = s.change_1d !== null && s.change_1d !== undefined;
+    const chg = hasChg ? s.change_1d : 0;
+    const chgCls = !hasChg ? '' : (chg >= 0 ? 'pos' : 'neg');
+    const chgText = hasChg ? `${chg >= 0 ? '+' : ''}${chg.toFixed(2)}%` : '—';
     const statusText = statusLabel[s.status] || '观察';
     const tierLetter = s.tier_letter || '—';
     const price = s.price !== null && s.price !== undefined
