@@ -111,8 +111,10 @@ h2 { color:#fff; margin-bottom:8px; }
 .filter-table-body { background:#0a1828; border-radius:6px; max-height:520px; overflow-y:auto; }
 .filter-table-body::-webkit-scrollbar { width:6px; }
 .filter-table-body::-webkit-scrollbar-thumb { background:#1f3a5f; border-radius:3px; }
-.table-head { display:grid; grid-template-columns: 60px 100px 1fr 80px 60px 60px 60px 60px 70px; gap:4px; padding:6px 10px; background:#11243c; font-size:10px; color:#888; }
-.table-row { display:grid; grid-template-columns: 60px 100px 1fr 80px 60px 60px 60px 60px 70px; gap:4px; padding:6px 10px; font-size:11px; border-bottom:1px solid #11243c; }
+/* screener 8 列：代码 / 名称 / AI 角色 / 板块 / Tier / 价格 / 涨跌 / Composite
+   严格与 src/render/web/js/filters.js 渲染对齐 — 修复 Codex 审查中"CSS 9 列 vs JS 8 列"问题 */
+.table-head { display:grid; grid-template-columns: 60px 100px 1fr 80px 60px 60px 60px 70px; gap:4px; padding:6px 10px; background:#11243c; font-size:10px; color:#888; }
+.table-row { display:grid; grid-template-columns: 60px 100px 1fr 80px 60px 60px 60px 70px; gap:4px; padding:6px 10px; font-size:11px; border-bottom:1px solid #11243c; }
 .table-row:hover { background:#11243c; }
 
 /* === 右侧详情 === */
@@ -206,11 +208,10 @@ h2 { color:#fff; margin-bottom:8px; }
     .filter-row { grid-template-columns: 180px repeat(6, 1fr) 60px; }
     /* 隐藏部分 filter dropdown — 保留 search + 5 个核心 filter + reset */
     .filter-row .filter-select:nth-of-type(n+6) { display: none; }
-    /* screener 表格：隐藏低价值列（市值），缩窄 ai_role */
+    /* screener 8 列对齐 JS 渲染 — 平板缩窄 ai_role 列宽 */
     .table-head, .table-row {
         grid-template-columns: 60px 90px 1fr 60px 60px 60px 60px 60px;
     }
-    .table-head > :nth-child(9), .table-row > :nth-child(9) { display: none; }  /* market_cap 列 */
 }
 
 @media (max-width: 767px) {
@@ -248,11 +249,11 @@ h2 { color:#fff; margin-bottom:8px; }
     .filter-row::-webkit-scrollbar { height: 4px; }
     .filter-row > * { flex: 0 0 auto; min-width: 90px; }
 
-    /* screener 表格：横向滚动展示所有列 */
+    /* screener 表格：8 列对齐 + 横向滚动展示完整列 */
     .filter-table-body { max-height: 400px; overflow: auto; }
     .table-head, .table-row {
-        grid-template-columns: 60px 90px 140px 70px 60px 60px 60px 60px 70px;
-        min-width: 720px;
+        grid-template-columns: 60px 90px 140px 70px 60px 60px 60px 70px;
+        min-width: 660px;
     }
 
     /* 详情面板内部网格在手机端也缩 */
