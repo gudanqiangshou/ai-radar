@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:35",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$10.75M",
         "自由现金流": "$142.18M",
-        "FCF利润率": "12.56%",
+        "FCF 利润率": "12.56%",
         "现金及短投": "$544.89M",
         "总债务": "$1.96M",
         "净现金/债务": "—",
@@ -78,13 +78,13 @@
         "债务/权益": "0.00",
         "市值": "$10.96B",
         "企业价值": "$10.42B",
-        "P/E TTM": "58.87",
-        "Forward P/E": "43.76",
-        "P/S": "9.68",
-        "EV/Sales": "9.20",
-        "EV/EBITDA": "44.93",
-        "EV/FCF": "73.27",
-        "FCF收益率": "1.30%",
+        "市盈率 TTM": "58.87",
+        "预期市盈率": "43.76",
+        "市销率": "9.68",
+        "EV / 营收": "9.20",
+        "EV / EBITDA": "44.93",
+        "EV / FCF": "73.27",
+        "FCF 收益率": "1.30%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 69.52380952380952,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 62.0,
           "reasoning": "POWL深耕中压开关设备数十年，客户以石化/电力公用事业为主，切换成本高、认证周期长；30%毛利率与17%净利率印证定价权。但规模偏小（TTM约3亿美元），无显著专利护城河，面临ABB/Eaton等巨头竞争，品牌影响力局限北美细分市场。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 52.0,
           "reasoning": "Powell的中压开关设备直接受益于AI数据中心电力基础设施建设，数据中心已成为重要订单来源，但公司同时服务石油天然气、工业、公用事业等多元终端市场，AI驱动占比估计30-45%，非唯一增长引擎，AI退潮影响显著但不致命。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 50.095238095238095,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 80.47619047619048,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 21.85714285714286,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 86.9047619047619,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 52.0,
           "reasoning": "POWL现金充裕（~5.4亿）、无明显长期负债，财务结构健康。但作为电网设备小盘股，客户集中度高、产品线窄、依赖资本支出周期，估值弹性大（小盘溢价易回撤）。核电/电网政策敏感，地缘出口管制存在潜在扰动。综合评定为中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 57.2804761904762,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:35",
+      "title_meta": "Yahoo Finance · 4 位分析师 · 2026-05-14 14:53:58",
       "data": {
         "target_mean": 316.25,
         "target_high": 360.0,

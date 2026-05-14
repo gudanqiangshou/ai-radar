@@ -19,7 +19,7 @@
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:39",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$21.40M",
         "自由现金流": "$816.44M",
-        "FCF利润率": "32.32%",
+        "FCF 利润率": "32.32%",
         "现金及短投": "$1.29B",
         "总债务": "$4.01B",
         "净现金/债务": "-$834.80M",
@@ -78,13 +78,13 @@
         "债务/权益": "0.66",
         "市值": "$6.11B",
         "企业价值": "$8.83B",
-        "P/E TTM": "14.32",
-        "Forward P/E": "7.69",
-        "P/S": "2.42",
-        "EV/Sales": "3.50",
-        "EV/EBITDA": "10.53",
-        "EV/FCF": "10.82",
-        "FCF收益率": "13.36%",
+        "市盈率 TTM": "14.32",
+        "预期市盈率": "7.69",
+        "市销率": "2.42",
+        "EV / 营收": "3.50",
+        "EV / EBITDA": "10.53",
+        "EV / FCF": "10.82",
+        "FCF 收益率": "13.36%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": null,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 42.0,
           "reasoning": "Dropbox核心护城河在于高客户粘性（文件深度集成、团队协作习惯）和品牌认知，但技术壁垒薄弱——AI搜索/文件管理赛道竞争激烈，微软365、Google Workspace均有原生替代。营收增长停滞，规模效应有限，护城河持续收窄。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 28.0,
           "reasoning": "Dropbox核心收入仍来自传统云存储订阅，AI功能（Dash搜索、AI文件整理）为附加层而非独立收入来源。Dash单独定价但用户渗透率低，AI失败对主营业务冲击有限。属于防御性AI叙事，非AI原生增长驱动。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 25.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": null,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 70.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 63.75,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "Dropbox现金12.9亿但长期负债21.2亿，净负债压力明显。核心文件同步业务增长停滞，面临Google Drive、OneDrive强力竞争。Dash AI产品尚未规模化变现，AI转型成效存疑。用户增长乏力，ARPU提升空间有限，整体属中等偏高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 48.59615384615383,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:39",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

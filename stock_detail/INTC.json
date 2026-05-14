@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "减持"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$13.10B",
         "自由现金流": "-$8.30B",
-        "FCF利润率": "-15.44%",
+        "FCF 利润率": "-15.44%",
         "现金及短投": "$32.79B",
         "总债务": "$45.03B",
         "净现金/债务": "-$10.24B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.07",
         "市值": "$604.58B",
         "企业价值": "$630.41B",
-        "P/E TTM": "—",
-        "Forward P/E": "78.40",
-        "P/S": "11.25",
-        "EV/Sales": "11.73",
-        "EV/EBITDA": "44.48",
-        "EV/FCF": "-75.94",
-        "FCF收益率": "-1.37%",
+        "市盈率 TTM": "—",
+        "预期市盈率": "78.40",
+        "市销率": "11.25",
+        "EV / 营收": "11.73",
+        "EV / EBITDA": "44.48",
+        "EV / FCF": "-75.94",
+        "FCF 收益率": "-1.37%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 4.545454545454546,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 42.0,
           "reasoning": "Intel拥有x86专利积累与自有fab（18A）构成潜在壁垒，但Gaudi在AI加速器市场份额极低，客户粘性弱；制程落后TSMC/三星，代工转型未见成效；毛利率37%、净利率为负显示规模优势正在侵蚀，护城河处于历史低点但非归零。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 32.0,
           "reasoning": "Intel AI暴露度有限：Gaudi加速器市占率极低（<1% vs NVIDIA），AI相关收入占比不足10%。核心业务仍是PC/服务器CPU（受AI间接提振）。18A制程良率问题拖累代工转型。AI对Intel更多是防御性叙事而非实质增长驱动，失败影响边际。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 50.90909090909091,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 3.6363636363636367,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 35.45454545454547,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 85.45454545454545,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 28.0,
           "reasoning": "Intel深陷转型困境：18A工艺良率存疑、Gaudi市场份额极低、长期负债430亿远超现金储备、代工业务持续亏损、AMD/NVIDIA/ARM多线夹击、地缘政治限制中国市场、客户自研芯片趋势加剧，短期内扭亏为盈路径不清晰，风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 29.35454545454546,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:36",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:58",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

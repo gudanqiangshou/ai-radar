@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:35",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:57",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$1.49B",
         "自由现金流": "$9.32B",
-        "FCF利润率": "23.66%",
+        "FCF 利润率": "23.66%",
         "现金及短投": "$9.77B",
         "总债务": "$3.76B",
         "净现金/债务": "$6.97B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.01",
         "市值": "$285.53B",
         "企业价值": "$280.66B",
-        "P/E TTM": "31.06",
-        "Forward P/E": "43.39",
-        "P/S": "7.25",
-        "EV/Sales": "7.13",
-        "EV/EBITDA": "82.18",
-        "EV/FCF": "30.13",
-        "FCF收益率": "3.26%",
+        "市盈率 TTM": "31.06",
+        "预期市盈率": "43.39",
+        "市销率": "7.25",
+        "EV / 营收": "7.13",
+        "EV / EBITDA": "82.18",
+        "EV / FCF": "30.13",
+        "FCF 收益率": "3.26%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 57.14285714285714,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 82.0,
           "reasoning": "GEV在重型燃气轮机（HA级）和高压直流输电设备拥有深厚专利与工艺积累，客户长期服务合约（LTA）锁定粘性强；核电SMR布局形成监管牌照壁垒；GE百年品牌背书电力行业心智；主要风险是毛利率偏低（20%）及Siemens Energy、三菱等竞争压力。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 52.0,
           "reasoning": "GEV是AI数据中心电力扩张的核心基础设施供应商（燃气轮机+电网设备），AI驱动的电力需求是其订单增长的重要催化剂，但业务基本盘覆盖工业、可再生能源、核电等多元领域，AI capex并非唯一驱动，估值已部分定价AI溢价，退潮风险中等。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 61.57142857142857,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 66.19047619047618,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 19.54761904761905,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 64.52380952380952,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 52.0,
           "reasoning": "财务结构健康（现金101亿 vs 长期债28亿，净现金充裕），但估值偏高（AI电力叙事溢价显著），燃气轮机订单积压强劲却面临交付执行风险，电网设备受地缘政治与出口管制压力，核能板块监管周期长，近期股价下滑反映市场对增长兑现的疑虑，综合风险中等。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 55.95190476190477,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:35",
+      "title_meta": "Yahoo Finance · 32 位分析师 · 2026-05-14 14:53:57",
       "data": {
         "target_mean": 1206.5575,
         "target_high": 1424.0,

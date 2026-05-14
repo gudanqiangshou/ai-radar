@@ -19,7 +19,7 @@
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:40",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$443.00M",
         "自由现金流": "$3.27B",
-        "FCF利润率": "17.87%",
+        "FCF 利润率": "17.87%",
         "现金及短投": "$1.79B",
         "总债务": "$14.06B",
         "净现金/债务": "-$5.76B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.18",
         "市值": "$77.16B",
         "企业价值": "$89.44B",
-        "P/E TTM": "31.82",
-        "Forward P/E": "19.26",
-        "P/S": "4.21",
-        "EV/Sales": "4.88",
-        "EV/EBITDA": "15.22",
-        "EV/FCF": "27.33",
-        "FCF收益率": "4.24%",
+        "市盈率 TTM": "31.82",
+        "预期市盈率": "19.26",
+        "市销率": "4.21",
+        "EV / 营收": "4.88",
+        "EV / EBITDA": "15.22",
+        "EV / FCF": "27.33",
+        "FCF 收益率": "4.24%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 78.0,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Emerson凭借DeltaV/Ovation控制系统深度嵌入流程工业（石化、电力、LNG），切换成本极高；AspenTech整合强化工业软件护城河；但离散自动化/机器人领域存在明显短板，面临西门子、霍尼韦尔正面竞争，ROE偏低（12%）反映资本效率尚待提升。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 32.0,
           "reasoning": "EMR核心业务为过程自动化（石油化工、电力、HVAC），AI暴露主要来自AspenTech的工业AI软件（优化、预测性维护），但AspenTech仅占EMR约20%收入且客户为传统工业而非AI数据中心。AI是产品增强而非主驱动，整体属间接受益。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 36.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 76.0,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 66.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 69.0,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 62.0,
           "reasoning": "EMR财务结构稳健，现金约18亿但长期负债75亿，杠杆偏高。AspenTech整合带来协同效应但增加整合风险。工业自动化需求长期向好，但客户集中度数据缺失、中国业务地缘政治敞口及估值偏高构成中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 66.45,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:40",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

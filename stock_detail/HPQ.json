@@ -19,7 +19,7 @@
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:42",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$828.00M",
         "自由现金流": "$2.83B",
-        "FCF利润率": "5.02%",
+        "FCF 利润率": "5.02%",
         "现金及短投": "$3.15B",
         "总债务": "$10.94B",
         "净现金/债务": "-$5.68B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.56",
         "市值": "$19.52B",
         "企业价值": "$27.23B",
-        "P/E TTM": "8.05",
-        "Forward P/E": "7.15",
-        "P/S": "0.35",
-        "EV/Sales": "0.48",
-        "EV/EBITDA": "6.11",
-        "EV/FCF": "9.64",
-        "FCF收益率": "14.48%",
+        "市盈率 TTM": "8.05",
+        "预期市盈率": "7.15",
+        "市销率": "0.35",
+        "EV / 营收": "0.48",
+        "EV / EBITDA": "6.11",
+        "EV / FCF": "9.64",
+        "FCF 收益率": "14.48%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": null,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 42.0,
           "reasoning": "HP在AI PC领域缺乏差异化技术壁垒，主要依赖Intel/AMD/Qualcomm平台；品牌认知度尚可但溢价能力弱；打印业务耗材锁定提供一定粘性；毛利率仅20%反映硬件商品化压力；规模优势存在但难抵联想/戴尔竞争，护城河整体偏窄。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 28.0,
           "reasoning": "HP的AI PC战略主要体现在硬件规格升级（NPU芯片）带动ASP提升，但AI并非核心收入驱动——PC业务本质仍是换机周期，打印业务与AI几乎无关。AI PC渗透率提升对HP是温和顺风，而非结构性重塑，AI退潮对其基本面冲击有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 8.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": null,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 100.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 29.0,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "HP Inc现金约31亿但长期负债88亿，杠杆偏高；PC市场成熟、增长乏力，AI PC转型尚处早期；打印业务受数字化冲击持续萎缩；地缘政治与供应链风险（中国制造依赖）显著；估值处于合理区间，整体风险中等偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 52.538461538461526,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:42",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

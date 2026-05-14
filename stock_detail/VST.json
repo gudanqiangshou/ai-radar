@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:35",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:57",
     "status_label": "买入区"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$2.87B",
         "自由现金流": "$476.88M",
-        "FCF利润率": "2.45%",
+        "FCF 利润率": "2.45%",
         "现金及短投": "$658.00M",
         "总债务": "$19.93B",
         "净现金/债务": "-$16.61B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.41",
         "市值": "$48.09B",
         "企业价值": "$69.84B",
-        "P/E TTM": "23.85",
-        "Forward P/E": "12.64",
-        "P/S": "2.47",
-        "EV/Sales": "3.59",
-        "EV/EBITDA": "10.29",
-        "EV/FCF": "146.46",
-        "FCF收益率": "0.99%",
+        "市盈率 TTM": "23.85",
+        "预期市盈率": "12.64",
+        "市销率": "2.47",
+        "EV / 营收": "3.59",
+        "EV / EBITDA": "10.29",
+        "EV / FCF": "146.46",
+        "FCF 收益率": "0.99%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 79.04761904761905,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Comanche Peak核电牌照+ERCOT市场地位构成高监管壁垒；AI数据中心PPA锁定长期现金流提升客户粘性；但Merchant Power模式受电价波动影响，缺乏垄断性网络效应，品牌溢价有限，规模优势不及公用事业巨头，护城河宽度中上。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 62.0,
           "reasoning": "VST通过核电（Comanche Peak）和天然气机组向AI数据中心签署长期PPA，AI数据中心需求是当前估值重估的核心驱动力，但基础业务仍为传统电力批发市场，AI PPA占总收入比例尚未过半，属于AI是主要增长催化剂但非全部的结构。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 51.80952380952381,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 78.09523809523809,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 86.5952380952381,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 7.142857142857143,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 38.0,
           "reasoning": "VST长期负债高达172亿美元，现金仅6.34亿，财务杠杆极高；电力批发价格波动大，核电运营成本刚性；AI数据中心PPA需求虽利好但集中度风险上升；估值已大幅溢价，对利率和政策敏感；德州ERCOT监管环境存在不确定性，综合风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 70.34,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:35",
+      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-14 14:53:57",
       "data": {
         "target_mean": 229.11111,
         "target_high": 320.0,

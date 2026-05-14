@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:41",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$31.00M",
         "自由现金流": "-$401.75M",
-        "FCF利润率": "-10043.75%",
+        "FCF 利润率": "-10043.75%",
         "现金及短投": "$1.22B",
         "总债务": "$79.00M",
         "净现金/债务": "—",
@@ -78,13 +78,13 @@
         "债务/权益": "0.00",
         "市值": "$16.47B",
         "企业价值": "$15.33B",
-        "P/E TTM": "—",
-        "Forward P/E": "-19.84",
-        "P/S": "4118.53",
-        "EV/Sales": "3832.03",
-        "EV/EBITDA": "-16.96",
-        "EV/FCF": "-38.15",
-        "FCF收益率": "-2.44%",
+        "市盈率 TTM": "—",
+        "预期市盈率": "-19.84",
+        "市销率": "4118.53",
+        "EV / 营收": "3832.03",
+        "EV / EBITDA": "-16.96",
+        "EV / FCF": "-38.15",
+        "FCF 收益率": "-2.44%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 24.999999999999996,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 42.0,
           "reasoning": "Aurora拥有L4卡车核心技术栈与Uber/Volvo战略合作，专利积累和监管资质构成一定壁垒；但营收仅400万、毛利率为零、持续烧钱，商业化落地极慢，规模效应尚未形成，竞争对手（Waymo Via、Kodiak）压力大，护城河仍处早期构建阶段。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 95.0,
           "reasoning": "Aurora的全部业务即L4自动驾驶技术本身，无传统收入来源，商业化完全依赖AI感知/决策系统落地。与Uber Freight、Volvo的合作均以Aurora Driver为核心。AI技术失败=公司归零，属于纯AI押注标的。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": null,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 25.0,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 65.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 100.0,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 18.0,
           "reasoning": "Aurora仍处于预商业化阶段，持续大额亏损（年烧钱约6-7亿），现金约12.2亿仅够约2年，无稳定营收。L4卡车商业化时间表不确定，监管路径复杂，竞争对手（Waymo、特斯拉FSD）压力大，客户集中度高，估值依赖未来预期，下行风险极大。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 45.33333333333332,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:41",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

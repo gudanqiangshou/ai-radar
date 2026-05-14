@@ -19,7 +19,7 @@
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:40",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$196.00M",
         "自由现金流": "$974.50M",
-        "FCF利润率": "11.07%",
+        "FCF 利润率": "11.07%",
         "现金及短投": "$423.00M",
         "总债务": "$4.05B",
         "净现金/债务": "-$2.15B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.08",
         "市值": "$50.63B",
         "企业价值": "$54.31B",
-        "P/E TTM": "47.15",
-        "Forward P/E": "31.48",
-        "P/S": "5.75",
-        "EV/Sales": "6.17",
-        "EV/EBITDA": "27.58",
-        "EV/FCF": "55.73",
-        "FCF收益率": "1.92%",
+        "市盈率 TTM": "47.15",
+        "预期市盈率": "31.48",
+        "市销率": "5.75",
+        "EV / 营收": "6.17",
+        "EV / EBITDA": "27.58",
+        "EV / FCF": "55.73",
+        "FCF 收益率": "1.92%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 74.0,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "ROK深耕工业自动化逾百年，PLC/DCS生态与Logix平台形成强切换成本，客户设备生命周期长达15-20年锁定效应显著。毛利率49%反映软件化转型成效。但面临西门子/ABB全球竞争，数字孪生布局偏晚，中国市场渗透有限，规模效应弱于欧系巨头。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 28.0,
           "reasoning": "ROK核心业务是工厂自动化、PLC/DCS控制系统和数字孪生平台（Plex/Fiix），AI主要以边缘推理和预测性维护形式嵌入现有产品，属于功能增强而非独立收入来源。AI capex浪潮对其拉动有限，主要受益于制造业资本支出周期，AI退潮对基本面冲击较小。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 88.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 64.0,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 14.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 100.0,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 52.0,
           "reasoning": "ROK财务杠杆适中（长期负债25.7亿，现金4.23亿，净债务偏高），工业自动化周期性强，近期制造业资本支出放缓压制需求。地缘政治风险中等（中国市场敞口+出口管制）。估值历史偏高，回撤风险存在。数字孪生赛道竞争加剧（西门子、PTC），但美国本土制造回流提供中期支撑。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 59.9,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:40",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

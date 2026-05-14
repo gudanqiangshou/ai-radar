@@ -19,7 +19,7 @@
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:39",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$594.00M",
         "自由现金流": "$16.37B",
-        "FCF利润率": "39.41%",
+        "FCF 利润率": "39.41%",
         "现金及短投": "$9.56B",
         "总债务": "$17.71B",
         "净现金/债务": "-$874.00M",
@@ -78,13 +78,13 @@
         "债务/权益": "0.13",
         "市值": "$135.67B",
         "企业价值": "$161.22B",
-        "P/E TTM": "21.29",
-        "Forward P/E": "11.10",
-        "P/S": "3.27",
-        "EV/Sales": "3.88",
-        "EV/EBITDA": "12.85",
-        "EV/FCF": "9.85",
-        "FCF收益率": "12.06%",
+        "市盈率 TTM": "21.29",
+        "预期市盈率": "11.10",
+        "市销率": "3.27",
+        "EV / 营收": "3.88",
+        "EV / EBITDA": "12.85",
+        "EV / FCF": "9.85",
+        "FCF 收益率": "12.06%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 46.36363636363636,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Salesforce凭借深度CRM数据积累、高切换成本和Einstein/Agentforce生态构建技术壁垒，但AI层面面临微软Copilot、ServiceNow等强竞争；78%毛利率支撑研发投入，然而AI Agent差异化尚未形成决定性护城河，客户粘性是核心优势。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 52.0,
           "reasoning": "Agentforce是Salesforce当前核心增长叙事，AI附加层正推动ARPU提升，但核心收入仍来自传统CRM订阅。AI功能失败不会摧毁基础业务，属于增强型而非替代型依赖。AI占比估计30-40%，处于重要但非主导地位。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 47.27272727272727,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 47.272727272727266,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 66.36363636363637,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 48.63636363636364,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 62.0,
           "reasoning": "Salesforce现金约96亿但长期负债104亿，杠杆适中。Agentforce押注AI转型方向正确，但企业SaaS竞争加剧（微软Copilot直接竞争），客户留存依赖高切换成本。估值仍偏高（P/E ~30x），监管风险温和。整体中低风险，AI战略执行是关键变量。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 56.85,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:39",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

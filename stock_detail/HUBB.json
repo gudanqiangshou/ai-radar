@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:35",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$169.70M",
         "自由现金流": "$541.45M",
-        "FCF利润率": "9.03%",
+        "FCF 利润率": "9.03%",
         "现金及短投": "$516.90M",
         "总债务": "$2.74B",
         "净现金/债务": "-$1.52B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.11",
         "市值": "$25.56B",
         "企业价值": "$27.80B",
-        "P/E TTM": "28.58",
-        "Forward P/E": "22.24",
-        "P/S": "4.26",
-        "EV/Sales": "4.64",
-        "EV/EBITDA": "18.95",
-        "EV/FCF": "51.34",
-        "FCF收益率": "2.12%",
+        "市盈率 TTM": "28.58",
+        "预期市盈率": "22.24",
+        "市销率": "4.26",
+        "EV / 营收": "4.64",
+        "EV / EBITDA": "18.95",
+        "EV / FCF": "51.34",
+        "FCF 收益率": "2.12%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 65.71428571428571,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Hubbell在电气配电领域拥有深厚的技术积累与品牌认知，UL/NEC认证体系构成监管壁垒，公用事业与数据中心客户切换成本高。但产品标准化程度较高，竞争对手（Eaton、ABB）实力强劲，规模效应有限，护城河属于中高水平但非顶级。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 42.0,
           "reasoning": "Hubbell的数据中心电气业务（配电、连接器、母线槽）直接受益于AI基础设施建设，约占收入20-30%，是近年增长亮点。但公司核心仍是工业/公用事业电气，电网现代化和非AI工业需求占主导。AI capex放缓会影响增长但不致命。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 36.523809523809526,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 72.38095238095238,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 63.452380952380956,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 12.857142857142858,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 62.0,
           "reasoning": "Hubbell财务结构稳健，现金5亿美元，长期负债20亿可控，受益数据中心与电网升级需求。但估值偏高（P/E约20x），工业周期性波动、关税成本压力及电气设备竞争加剧构成中等风险，客户集中度数据缺失增加不确定性。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 60.96380952380953,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:35",
+      "title_meta": "Yahoo Finance · 13 位分析师 · 2026-05-14 14:53:58",
       "data": {
         "target_mean": 547.1539,
         "target_high": 600.0,

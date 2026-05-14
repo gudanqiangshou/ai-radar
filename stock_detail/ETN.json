@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:35",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:57",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$965.00M",
         "自由现金流": "$2.65B",
-        "FCF利润率": "9.28%",
+        "FCF 利润率": "9.28%",
         "现金及短投": "$751.00M",
         "总债务": "$21.83B",
         "净现金/债务": "-$17.78B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.14",
         "市值": "$158.01B",
         "企业价值": "$179.14B",
-        "P/E TTM": "39.20",
-        "Forward P/E": "25.93",
-        "P/S": "5.54",
-        "EV/Sales": "6.28",
-        "EV/EBITDA": "28.24",
-        "EV/FCF": "67.69",
-        "FCF收益率": "1.67%",
+        "市盈率 TTM": "39.20",
+        "预期市盈率": "25.93",
+        "市销率": "5.54",
+        "EV / 营收": "6.28",
+        "EV / EBITDA": "28.24",
+        "EV / FCF": "67.69",
+        "FCF 收益率": "1.67%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 64.76190476190476,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Eaton在配电、UPS及数据中心电气系统拥有深厚专利积累与工程Know-how，客户切换成本高（系统集成认证周期长），品牌在工业电气领域心智占位强。但面临ABB、施耐德、伊顿竞争，毛利率37%尚可，ROE 21%健康，规模效应中等，无垄断性牌照壁垒，综合护城河偏宽但非顶级。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 62.0,
           "reasoning": "Eaton数据中心电气业务（配电、UPS、母线槽）直接受益AI capex浪潮，该细分约占总收入25-30%且增速显著高于整体。但工业、航空、汽车等传统业务仍占大头，AI并非唯一驱动。AI退潮将明显拖累估值，但不致业务崩塌。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 62.666666666666664,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 59.52380952380953,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 45.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 49.04761904761905,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 62.0,
           "reasoning": "ETN受益AI数据中心电气需求，业务多元化强，但长期负债188亿美元偏高、现金仅5.65亿覆盖比低；估值已充分反映AI溢价（P/E偏高），回撤风险显著；地缘政治与供应链暴露中等；技术替代风险低，整体中低风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 60.54476190476191,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:35",
+      "title_meta": "Yahoo Finance · 28 位分析师 · 2026-05-14 14:53:57",
       "data": {
         "target_mean": 447.59964,
         "target_high": 514.0,

@@ -19,7 +19,7 @@
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:39",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
     "status_label": "减持"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$542.44M",
         "自由现金流": "-$300.70M",
-        "FCF利润率": "-40.64%",
+        "FCF 利润率": "-40.64%",
         "现金及短投": "$260.29M",
         "总债务": "$1.79B",
         "净现金/债务": "-$1.53B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.52",
         "市值": "$3.41B",
         "企业价值": "$4.94B",
-        "P/E TTM": "—",
-        "Forward P/E": "-21.63",
-        "P/S": "4.61",
-        "EV/Sales": "6.68",
-        "EV/EBITDA": "-12.75",
-        "EV/FCF": "-16.44",
-        "FCF收益率": "-8.81%",
+        "市盈率 TTM": "—",
+        "预期市盈率": "-21.63",
+        "市销率": "4.61",
+        "EV / 营收": "6.68",
+        "EV / EBITDA": "-12.75",
+        "EV / FCF": "-16.44",
+        "FCF 收益率": "-8.81%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 44.285714285714285,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 28.0,
           "reasoning": "CleanSpark核心优势在于自建微电网带来的低电价成本（约0.04美元/kWh），具备一定规模效应。但技术壁垒低、无专利护城河，AI算力定位仍以比特币挖矿为主，客户粘性弱，净利率-68%显示盈利模式脆弱，护城河主要依赖能源资源位置而非技术或品牌。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 22.0,
           "reasoning": "CLSK核心业务是比特币挖矿，AI算力/微电网为早期探索方向，尚无实质AI收入披露。能源+算力组合定位更多是叙事层面，AI capex驱动占比极低。若AI退潮，主业比特币挖矿基本不受影响。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 8.571428571428571,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 38.57142857142857,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 62.857142857142854,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 38.57142857142857,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 28.0,
           "reasoning": "CLSK长期负债17.9亿远超现金2.6亿，杠杆率极高；比特币挖矿收入高度依赖币价与减半周期，2024年减半后盈利压力骤增；AI算力转型尚处早期，商业化验证不足；估值含高度投机溢价，回撤风险显著。综合财务与业务风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 38.385714285714286,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:39",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

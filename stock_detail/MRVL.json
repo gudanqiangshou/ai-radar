@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$358.60M",
         "自由现金流": "$1.44B",
-        "FCF利润率": "17.61%",
+        "FCF 利润率": "17.61%",
         "现金及短投": "$2.64B",
         "总债务": "$4.79B",
         "净现金/债务": "-$1.33B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.03",
         "市值": "$155.61B",
         "企业价值": "$157.73B",
-        "P/E TTM": "57.78",
-        "Forward P/E": "32.81",
-        "P/S": "18.99",
-        "EV/Sales": "19.25",
-        "EV/EBITDA": "59.99",
-        "EV/FCF": "109.33",
-        "FCF收益率": "0.93%",
+        "市盈率 TTM": "57.78",
+        "预期市盈率": "32.81",
+        "市销率": "18.99",
+        "EV / 营收": "19.25",
+        "EV / EBITDA": "59.99",
+        "EV / FCF": "109.33",
+        "FCF 收益率": "0.93%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 52.727272727272734,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Marvell在定制AI ASIC（与Amazon/Google深度合作）和800G DSP领域具备强技术壁垒与高客户粘性，切换成本高；但规模效应弱于Broadcom，客户集中度高（依赖少数超大规模云厂商），毛利率51%尚可但非顶级，整体护城河较宽但非无懈可击。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 72.0,
           "reasoning": "Marvell AI收入（定制ASIC+光互联DSP）占总收入约40-50%，FY2025 AI收入指引超15亿美元，是核心增长驱动。但企业网络、存储、运营商业务仍占半壁江山，非纯AI标的。AI退潮将显著冲击估值，但多元业务提供缓冲。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 52.72727272727272,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 61.81818181818183,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 24.545454545454533,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 57.727272727272734,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 38.0,
           "reasoning": "MRVL高度依赖少数超大规模云客户（Amazon/Google定制ASIC），客户集中度风险显著；长期负债近40亿美元而现金约26亿，杠杆偏高；AI ASIC赛道竞争激烈（Broadcom、英伟达）；出口管制持续压制中国市场；当前估值偏高（P/S>10x），回撤风险大。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 52.33181818181819,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:36",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:58",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

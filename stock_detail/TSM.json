@@ -19,7 +19,7 @@
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:37",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
     "status_label": "买入区"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$983.03B",
         "自由现金流": "$721.56B",
-        "FCF利润率": "17.58%",
+        "FCF 利润率": "17.58%",
         "现金及短投": "$3.38T",
         "总债务": "$1.02T",
         "净现金/债务": "$2.49T",
@@ -78,13 +78,13 @@
         "债务/权益": "0.49",
         "市值": "$2.07T",
         "企业价值": "$8.04T",
-        "P/E TTM": "33.80",
-        "Forward P/E": "20.72",
-        "P/S": "0.51",
-        "EV/Sales": "1.96",
-        "EV/EBITDA": "2.81",
-        "EV/FCF": "11.15",
-        "FCF收益率": "34.80%",
+        "市盈率 TTM": "33.80",
+        "预期市盈率": "20.72",
+        "市销率": "0.51",
+        "EV / 营收": "1.96",
+        "EV / EBITDA": "2.81",
+        "EV / FCF": "11.15",
+        "FCF 收益率": "34.80%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 100.0,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 94.0,
           "reasoning": "TSMC在3nm/2nm节点拥有全球唯一量产能力，CoWoS先进封装几乎垄断AI芯片供应链；客户高度依赖且切换成本极高；62%毛利率与36% ROE印证规模与定价权；地缘风险与资本密集度是主要制约，但短期内无实质竞争者可替代。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 72.0,
           "reasoning": "AI相关芯片（HPC含GPU/ASIC）占TSMC收入约50%+，CoWoS先进封装几乎独供AI加速器，N3/N2节点AI需求是主要增长引擎。但消费电子（iPhone/PC）仍占约30-35%收入，非纯AI标的，AI退潮冲击大但有缓冲。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 48.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 100.0,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 74.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 2.0,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "台积电技术护城河极深、财务稳健（现金3.38万亿台币，长债仅8960亿），但地缘政治风险极高（台海局势、美国出口管制）、客户集中度高（苹果+NVIDIA+AMD占比超50%）、CoWoS产能瓶颈短期难解，综合风险中等偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 79.19999999999997,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:37",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

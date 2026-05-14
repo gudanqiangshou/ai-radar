@@ -19,7 +19,7 @@
       "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:42",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:04",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$16.42M",
         "自由现金流": "-$91.36M",
-        "FCF利润率": "-48.83%",
+        "FCF 利润率": "-48.83%",
         "现金及短投": "$2.03B",
         "总债务": "$30.44M",
         "净现金/债务": "—",
@@ -78,13 +78,13 @@
         "债务/权益": "0.00",
         "市值": "$20.63B",
         "企业价值": "$18.64B",
-        "P/E TTM": "141.69",
-        "Forward P/E": "-53.01",
-        "P/S": "110.23",
-        "EV/Sales": "99.60",
-        "EV/EBITDA": "-28.14",
-        "EV/FCF": "-204.00",
-        "FCF收益率": "-0.44%",
+        "市盈率 TTM": "141.69",
+        "预期市盈率": "-53.01",
+        "市销率": "110.23",
+        "EV / 营收": "99.60",
+        "EV / EBITDA": "-28.14",
+        "EV / FCF": "-204.00",
+        "FCF 收益率": "-0.44%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 90.0,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 52.0,
           "reasoning": "IonQ离子阱技术具备一定专利壁垒与学术积累，先发上市占据品牌心智；但量子计算商业化仍早期，客户粘性弱、规模效应缺失，IBM/Google等巨头竞争激烈，毛利率36%偏低，护城河尚在构建阶段。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 35.0,
           "reasoning": "IonQ是量子计算公司，非直接AI标的。其离子阱硬件可用于AI优化问题，但当前收入极小且主要来自政府/研究合同。AI capex浪潮对其需求拉动有限，量子计算商业化仍需数年，与AI基础设施直接受益标的差距显著。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 80.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 100.0,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 53.33333333333334,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 100.0,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 18.0,
           "reasoning": "IonQ处于极高风险区间：无营收盈利、持续烧钱（现金约20亿但年亏损超1亿）、量子商业化时间表高度不确定、客户高度集中于政府/研究机构、估值严重透支未来预期、技术路线面临超导量子等多路竞争、出口管制风险显著。唯一支撑为充裕现金储备。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 69.21666666666667,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:42",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:04",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

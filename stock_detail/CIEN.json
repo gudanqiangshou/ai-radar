@@ -19,7 +19,7 @@
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:37",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$187.80M",
         "自由现金流": "$699.30M",
-        "FCF利润率": "13.65%",
+        "FCF 利润率": "13.65%",
         "现金及短投": "$1.30B",
         "总债务": "$1.59B",
         "净现金/债务": "-$225.02M",
@@ -78,13 +78,13 @@
         "债务/权益": "0.02",
         "市值": "$81.71B",
         "企业价值": "$82.00B",
-        "P/E TTM": "370.45",
-        "Forward P/E": "66.79",
-        "P/S": "15.95",
-        "EV/Sales": "16.00",
-        "EV/EBITDA": "143.74",
-        "EV/FCF": "117.27",
-        "FCF收益率": "0.86%",
+        "市盈率 TTM": "370.45",
+        "预期市盈率": "66.79",
+        "市销率": "15.95",
+        "EV / 营收": "16.00",
+        "EV / EBITDA": "143.74",
+        "EV / FCF": "117.27",
+        "FCF 收益率": "0.86%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 25.55555555555555,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Ciena在相干光技术（WaveLogic芯片）和软件定义网络平台（MCP）上具备深厚专利壁垒与Know-how；大型运营商/云厂商客件粘性高、切换成本大。但规模不及Nokia/华为，净利率偏低（4%）显示定价权有限，品牌主要集中北美市场，整体护城河中等偏强。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 42.0,
           "reasoning": "Ciena的光网络/DCI产品直接受益于AI数据中心互联需求（超大规模云厂商是主要客户），但其收入来源多元，包括电信运营商、政府等非AI驱动客户。AI相关需求约占增长驱动的30-40%，非核心全部，AI退潮影响有限但可见。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 57.77777777777778,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 22.22222222222222,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 23.33333333333333,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 59.44444444444444,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "Ciena现金约13亿但长期负债15.2亿，杠杆适中；高度依赖少数大型电信运营商客户（AT&T等集中度高）；光网络设备面临中国供应链/出口管制风险；AI驱动数据中心需求提供增长催化剂，但竞争激烈（华为、诺基亚、Infinera），整体风险中等偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 40.62777777777778,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:37",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$398.00M",
         "自由现金流": "$2.87B",
-        "FCF利润率": "11.75%",
+        "FCF 利润率": "11.75%",
         "现金及短投": "$698.00M",
         "总债务": "$9.52B",
         "净现金/债务": "-$8.00B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.11",
         "市值": "$87.73B",
         "企业价值": "$96.58B",
-        "P/E TTM": "44.11",
-        "Forward P/E": "25.29",
-        "P/S": "3.59",
-        "EV/Sales": "3.95",
-        "EV/EBITDA": "22.36",
-        "EV/FCF": "33.65",
-        "FCF收益率": "3.27%",
+        "市盈率 TTM": "44.11",
+        "预期市盈率": "25.29",
+        "市销率": "3.59",
+        "EV / 营收": "3.95",
+        "EV / EBITDA": "22.36",
+        "EV / FCF": "33.65",
+        "FCF 收益率": "3.27%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 55.23809523809524,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 62.0,
           "reasoning": "JCI在楼宇自控领域拥有深度系统集成Know-how与长期服务合约（高切换成本），数据中心制冷AI定位契合需求侧增长。但Power/Grid/Nuclear并非其核心护城河，核电资质壁垒有限，竞争对手（西门子、霍尼韦尔）同样强劲，规模优势中等，整体护城河稳固但非顶级。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 38.0,
           "reasoning": "JCI数据中心制冷业务受AI capex驱动，增长明显，但楼宇自控、暖通、安防仍是营收主体。数据中心相关收入占比估计15-25%，AI是重要增量但非核心驱动。AI退潮影响有限，传统楼宇业务提供缓冲。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 44.952380952380956,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 52.38095238095238,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 61.76190476190476,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 53.33333333333333,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "JCI长期负债87亿美元而现金仅5.52亿，杠杆偏高流动性承压；楼宇自控业务增长稳健但数据中心制冷竞争加剧；地缘政治与出口管制对全球业务构成中等压力；AI驱动需求提供结构性支撑，但估值已反映较多预期，综合风险中等偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 55.47904761904762,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:36",
+      "title_meta": "Yahoo Finance · 21 位分析师 · 2026-05-14 14:53:58",
       "data": {
         "target_mean": 151.19048,
         "target_high": 173.0,

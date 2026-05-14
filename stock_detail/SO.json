@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:35",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$13.24B",
         "自由现金流": "-$3.95B",
-        "FCF利润率": "-13.09%",
+        "FCF 利润率": "-13.09%",
         "现金及短投": "$981.00M",
         "总债务": "$76.00B",
         "净现金/债务": "-$66.17B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.72",
         "市值": "$105.00B",
         "企业价值": "$182.81B",
-        "P/E TTM": "23.82",
-        "Forward P/E": "18.94",
-        "P/S": "3.48",
-        "EV/Sales": "6.06",
-        "EV/EBITDA": "13.08",
-        "EV/FCF": "-46.28",
-        "FCF收益率": "-3.76%",
+        "市盈率 TTM": "23.82",
+        "预期市盈率": "18.94",
+        "市销率": "3.48",
+        "EV / 营收": "6.06",
+        "EV / EBITDA": "13.08",
+        "EV / FCF": "-46.28",
+        "FCF 收益率": "-3.76%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 73.80952380952381,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 82.0,
           "reasoning": "受监管垄断特许经营构成最强护城河：服务区域独占、监管准入极高、客户无切换选项。Vogtle核电站提供稀缺核能Know-how与长期低碳基荷优势。规模效应显著，毛利率48%健康。主要弱点是ROE偏低（11%）及核电超支历史带来的资本效率隐忧。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 28.0,
           "reasoning": "SO是受监管电力公用事业，AI数据中心用电增长带来需求侧利好，Vogtle核电提供稳定基荷支撑。但收入主要来自传统零售/工业电力，AI驱动的负荷增长占比有限，监管定价机制平滑了上行弹性，AI退潮对基本面冲击较小。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 34.33333333333333,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 71.9047619047619,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 67.92857142857143,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 28.333333333333336,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 62.0,
           "reasoning": "Vogtle核电已投运提供稳定现金流，受监管业务收入可预期。但长期负债高达671亿美元、现金仅9.81亿，财务杠杆极高；利率上升压力显著；核电超支历史遗留成本仍存；估值相对公用事业同行偏高，回撤空间有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 66.35285714285715,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:35",
+      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-14 14:53:58",
       "data": {
         "target_mean": 101.76316,
         "target_high": 114.0,

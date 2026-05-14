@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$91.10M",
         "自由现金流": "$819.90M",
-        "FCF利润率": "17.40%",
+        "FCF 利润率": "17.40%",
         "现金及短投": "$240.30M",
         "总债务": "$5.50B",
         "净现金/债务": "-$5.13B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.11",
         "市值": "$52.33B",
         "企业价值": "$57.62B",
-        "P/E TTM": "439.59",
-        "Forward P/E": "23.64",
-        "P/S": "11.10",
-        "EV/Sales": "12.23",
-        "EV/EBITDA": "46.50",
-        "EV/FCF": "70.28",
-        "FCF收益率": "1.57%",
+        "市盈率 TTM": "439.59",
+        "预期市盈率": "23.64",
+        "市销率": "11.10",
+        "EV / 营收": "12.23",
+        "EV / EBITDA": "46.50",
+        "EV / FCF": "70.28",
+        "FCF 收益率": "1.57%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 33.63636363636364,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 62.0,
           "reasoning": "MCHP在MCU/模拟领域拥有深厚专利积累与客户粘性（工业/汽车设计周期长达5-10年），但在Compute/GPU/ASIC板块几乎无直接布局，边缘AI定位受限于算力天花板。当前净利率仅5%、ROE 3%显示财务护城河正在收窄，与英伟达/AMD等GPU巨头相比竞争壁垒薄弱。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 22.0,
           "reasoning": "MCHP主营MCU与模拟芯片，服务工业/汽车/IoT边缘场景，AI推理需求带来边缘MCU升级机会，但核心收入仍由传统嵌入式控制驱动，与数据中心AI capex直接关联极弱，AI更多是产品迭代叙事而非收入结构性驱动力。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 60.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 21.81818181818182,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 59.09090909090909,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 24.090909090909093,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 38.0,
           "reasoning": "MCHP长期负债54亿美元而现金仅2.4亿，杠杆率极高；半导体周期下行叠加库存去化压力；工业/汽车终端需求疲软；中美贸易摩擦威胁出口；MCU市场竞争激烈（ST、NXP、Renesas）。财务脆弱性与周期风险并存，综合风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 45.013636363636365,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:36",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

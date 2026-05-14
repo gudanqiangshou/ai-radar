@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$4.10B",
         "自由现金流": "$1.07B",
-        "FCF利润率": "5.79%",
+        "FCF 利润率": "5.79%",
         "现金及短投": "$5.10B",
         "总债务": "$14.05B",
         "净现金/债务": "-$7.80B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.05",
         "市值": "$278.80B",
         "企业价值": "$287.74B",
-        "P/E TTM": "52.46",
-        "Forward P/E": "32.50",
-        "P/S": "15.12",
-        "EV/Sales": "15.61",
-        "EV/EBITDA": "33.21",
-        "EV/FCF": "269.36",
-        "FCF收益率": "0.38%",
+        "市盈率 TTM": "52.46",
+        "预期市盈率": "32.50",
+        "市销率": "15.12",
+        "EV / 营收": "15.61",
+        "EV / EBITDA": "33.21",
+        "EV / FCF": "269.36",
+        "FCF 收益率": "0.38%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 69.0909090909091,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "TXN在模拟芯片领域拥有深厚Know-how与专利积累，自有晶圆厂带来成本优势，客户切换成本高（设计周期长达2-3年）。但AI服务器电源管理赛道竞争加剧（ADI、MPS等），工业AI复苏节奏不确定，护城河宽但增长催化剂有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 28.0,
           "reasoning": "TXN主营工业/汽车模拟芯片，AI服务器电源管理（MOSFET、电源IC）贡献有限，占总收入估计低于10%。工业AI复苏尚早，核心驱动仍是传统工业/汽车周期。AI暴露度低，属间接受益，AI退潮影响有限但上行弹性也弱。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 34.54545454545455,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 76.36363636363637,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 56.36363636363637,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 59.54545454545455,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 62.0,
           "reasoning": "TXN现金51亿但长期负债129亿，杠杆偏高；工业/汽车周期性下行压力持续，库存去化缓慢；模拟芯片护城河深但面临ADI等竞争；中国收入占比约20%受出口管制威胁；当前PE偏高，估值消化需时。综合评定为低中风险区间。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 61.513636363636365,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:36",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

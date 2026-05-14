@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:40",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
     "status_label": "减持"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$342.55M",
         "自由现金流": "$755.00M",
-        "FCF利润率": "32.42%",
+        "FCF 利润率": "32.42%",
         "现金及短投": "$4.16B",
         "总债务": "$3.52B",
         "净现金/债务": "$2.19B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.05",
         "市值": "$68.08B",
         "企业价值": "$67.45B",
-        "P/E TTM": "—",
-        "Forward P/E": "126.73",
-        "P/S": "29.24",
-        "EV/Sales": "28.96",
-        "EV/EBITDA": "-1858.87",
-        "EV/FCF": "89.33",
-        "FCF收益率": "1.11%",
+        "市盈率 TTM": "—",
+        "预期市盈率": "126.73",
+        "市销率": "29.24",
+        "EV / 营收": "28.96",
+        "EV / EBITDA": "-1858.87",
+        "EV / FCF": "89.33",
+        "FCF 收益率": "1.11%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 12.63888888888889,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Cloudflare凭借全球300+PoP边缘网络构建强规模效应与低延迟优势，Workers平台形成开发者生态锁定，Zero Trust+SASE产品线切换成本高。但毛利率73%尚可、净利率仍负，品牌强但企业大客户渗透率不及Palo Alto/Zscaler，专利护城河相对有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 38.0,
           "reasoning": "Cloudflare核心收入仍来自CDN/DDoS/Zero Trust等网络安全业务，Workers AI是新兴但占比极小的增量。AI推理边缘平台定位有战略价值，但尚未成为主要收入驱动，AI退潮对其整体业务冲击有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 75.55555555555556,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 19.305555555555557,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 26.666666666666657,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 25.555555555555557,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "Cloudflare现金充裕(~42亿)、负债可控，但市盈率极高(PS>20x)估值泡沫风险显著；AI推理边缘市场竞争激烈(AWS/Azure/Google)；Workers AI商业化仍早期，盈利路径不确定；监管风险中等，无重大地缘政治敞口。综合评定中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 37.65694444444445,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:40",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

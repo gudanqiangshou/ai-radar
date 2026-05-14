@@ -19,7 +19,7 @@
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:40",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$190.59M",
         "自由现金流": "$656.18M",
-        "FCF利润率": "19.90%",
+        "FCF 利润率": "19.90%",
         "现金及短投": "$1.69B",
         "总债务": "$247.29M",
         "净现金/债务": "—",
@@ -78,13 +78,13 @@
         "债务/权益": "0.03",
         "市值": "$9.17B",
         "企业价值": "$7.72B",
-        "P/E TTM": "94.21",
-        "Forward P/E": "11.47",
-        "P/S": "2.78",
-        "EV/Sales": "2.34",
-        "EV/EBITDA": "87.82",
-        "EV/FCF": "11.77",
-        "FCF收益率": "7.16%",
+        "市盈率 TTM": "94.21",
+        "预期市盈率": "11.47",
+        "市销率": "2.78",
+        "EV / 营收": "2.34",
+        "EV / EBITDA": "87.82",
+        "EV / FCF": "11.77",
+        "FCF 收益率": "7.16%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 30.909090909090914,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 62.0,
           "reasoning": "HubSpot凭借Breeze AI深度嵌入CRM工作流，中小企业切换成本较高；84%毛利率反映软件规模优势；但AI技术壁垒不突出，面临Salesforce、微软等巨头竞争，且净利率仅3%说明盈利护城河尚浅，品牌在中小企业心智占位较强但天花板明显。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 42.0,
           "reasoning": "HubSpot的Breeze AI嵌入CRM工作流，推动高端套餐升级和ARPU提升，但核心收入仍来自订阅席位而非AI直接计费。AI加速增长但非独立变现引擎，SMB客户对AI溢价敏感度高，AI退潮影响升级动力而非存量续约。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 49.09090909090909,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 9.090909090909092,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 49.09090909090909,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 0.9090909090909092,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "HubSpot现金充裕(~17亿)但长期负债数据缺失，SMB客户群在经济下行时流失率高，Breeze AI面临Salesforce/Microsoft强竞争，估值仍偏高(PS>10x)，监管风险温和。综合判定中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 40.009090909090915,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:40",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

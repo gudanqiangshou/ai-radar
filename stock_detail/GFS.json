@@ -19,7 +19,7 @@
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:37",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
     "status_label": "减持"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$868.00M",
         "自由现金流": "$1.19B",
-        "FCF利润率": "17.44%",
+        "FCF 利润率": "17.44%",
         "现金及短投": "$3.00B",
         "总债务": "$1.72B",
         "净现金/债务": "$1.94B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.04",
         "市值": "$41.13B",
         "企业价值": "$39.90B",
-        "P/E TTM": "53.95",
-        "Forward P/E": "30.25",
-        "P/S": "6.01",
-        "EV/Sales": "5.83",
-        "EV/EBITDA": "19.63",
-        "EV/FCF": "33.45",
-        "FCF收益率": "2.90%",
+        "市盈率 TTM": "53.95",
+        "预期市盈率": "30.25",
+        "市销率": "6.01",
+        "EV / 营收": "5.83",
+        "EV / EBITDA": "19.63",
+        "EV / FCF": "33.45",
+        "FCF 收益率": "2.90%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 38.0,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 62.0,
           "reasoning": "GFS凭借美国本土制造+Chips Act补贴+国防/汽车认证构建监管与资源壁垒，成熟节点（22nm-180nm）差异化工艺（RF、嵌入式存储）形成一定技术护城河；但毛利率仅26%、ROE 7%显示规模效应弱，缺乏先进节点竞争力，客户集中度高且易受地缘政治波动影响。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 18.0,
           "reasoning": "GFS专注成熟节点（22-180nm），不生产AI训练/推理所需的先进制程芯片。主要客户为汽车、工业、国防、IoT。AI capex驱动的先进制程代工需求（台积电3/5nm）与GFS几乎无关。Chips Act补贴提供稳定性，但AI上行弹性极低。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 24.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 40.0,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 20.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 62.0,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 52.0,
           "reasoning": "GFS现金充裕(30亿)、长期负债低(10.6亿)，财务结构稳健。但成熟节点面临中国大陆产能过剩冲击，客户集中度数据缺失存隐患，Chips Act补贴落地不确定，汽车/国防需求周期性波动，整体中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 38.9,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:37",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

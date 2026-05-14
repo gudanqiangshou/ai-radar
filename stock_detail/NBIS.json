@@ -19,7 +19,7 @@
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:39",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$3.60B",
         "自由现金流": "-$3.60B",
-        "FCF利润率": "-679.49%",
+        "FCF 利润率": "-679.49%",
         "现金及短投": "$3.75B",
         "总债务": "$4.97B",
         "净现金/债务": "-$350.10M",
@@ -78,13 +78,13 @@
         "债务/权益": "0.09",
         "市值": "$52.63B",
         "企业价值": "$54.26B",
-        "P/E TTM": "80.03",
-        "Forward P/E": "-398.18",
-        "P/S": "99.33",
-        "EV/Sales": "102.42",
-        "EV/EBITDA": "-280.00",
-        "EV/FCF": "-15.07",
-        "FCF收益率": "-6.84%",
+        "市盈率 TTM": "80.03",
+        "预期市盈率": "-398.18",
+        "市销率": "99.33",
+        "EV / 营收": "102.42",
+        "EV / EBITDA": "-280.00",
+        "EV / FCF": "-15.07",
+        "FCF 收益率": "-6.84%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 80.0,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 32.0,
           "reasoning": "Nebius技术壁垒薄弱，无差异化专利；欧洲GPU云市场份额小，品牌认知度低；客户切换成本与AWS/Azure相当但规模远不及；毛利率69%尚可但净利率仅16%显示成本压力；唯一优势是欧洲数据主权监管趋势带来的地域性机会，但护城河整体偏窄。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 82.0,
           "reasoning": "NBIS核心业务即GPU云基础设施，直接服务AI训练/推理工作负载，收入几乎完全依赖AI capex周期。从Yandex拆分后专注欧洲AI云市场，无传统IT业务对冲，AI需求下行将直接重创营收，属高纯度AI基础设施标的。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 100.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 74.28571428571428,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 70.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 84.28571428571428,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 28.0,
           "reasoning": "原Yandex拆分带来地缘政治与制裁风险；长期负债(41亿)超现金(37.5亿)，财务杠杆偏高；GPU云欧洲市场竞争激烈，客户集中度数据缺失增加不确定性；英伟达出口管制可能限制GPU供应；早期成长阶段估值泡沫风险显著。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 67.54285714285714,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:39",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

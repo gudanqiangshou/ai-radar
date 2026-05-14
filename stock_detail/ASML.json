@@ -19,7 +19,7 @@
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:37",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$2.20B",
         "自由现金流": "$8.24B",
-        "FCF利润率": "24.47%",
+        "FCF 利润率": "24.47%",
         "现金及短投": "$8.38B",
         "总债务": "$2.71B",
         "净现金/债务": "$5.67B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.00",
         "市值": "$609.57B",
         "企业价值": "$603.87B",
-        "P/E TTM": "51.82",
-        "Forward P/E": "32.83",
-        "P/S": "18.09",
-        "EV/Sales": "17.92",
-        "EV/EBITDA": "47.53",
-        "EV/FCF": "73.26",
-        "FCF收益率": "1.35%",
+        "市盈率 TTM": "51.82",
+        "预期市盈率": "32.83",
+        "市销率": "18.09",
+        "EV / 营收": "17.92",
+        "EV / EBITDA": "47.53",
+        "EV / FCF": "73.26",
+        "FCF 收益率": "1.35%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 71.42857142857143,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 97.0,
           "reasoning": "ASML是全球唯一EUV光刻机制造商，技术壁垒近乎不可逾越；先进制程（N3/N2/A14）强制依赖，客户无替代选项；毛利率53%、ROE 52%印证定价权极强；荷兰政府出口管制进一步筑高护城河。行业内护城河强度顶级。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 72.0,
           "reasoning": "ASML EUV垄断地位使其直接受益于台积电/三星N3/N2先进节点扩产，而这些节点90%以上产能服务AI芯片（A100/H100/B200/Apple A系列）。但ASML同时服务逻辑+存储+汽车等多元需求，AI capex并非唯一驱动。AI退潮将显著压缩EUV订单，但非全灭。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 34.285714285714285,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 71.42857142857143,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 31.42857142857143,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 32.857142857142854,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "ASML拥有EUV绝对垄断地位与强劲现金流（83亿），财务稳健。但荷兰/美国对华出口管制持续收紧，中国占营收约30%面临断崖风险；客户高度集中于台积电/三星/英特尔三家；估值历史偏高（P/E 30-40x），地缘政治是最大尾部风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 61.45714285714287,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:37",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

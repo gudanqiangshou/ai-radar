@@ -19,7 +19,7 @@
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:37",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$145.60M",
         "自由现金流": "$4.36B",
-        "FCF利润率": "44.93%",
+        "FCF 利润率": "44.93%",
         "现金及短投": "$12.35B",
         "总债务": "$0",
         "净现金/债务": "—",
@@ -78,13 +78,13 @@
         "债务/权益": "0.00",
         "市值": "$177.15B",
         "企业价值": "$164.80B",
-        "P/E TTM": "48.35",
-        "Forward P/E": "31.73",
-        "P/S": "18.24",
-        "EV/Sales": "16.97",
-        "EV/EBITDA": "38.90",
-        "EV/FCF": "37.78",
-        "FCF收益率": "2.46%",
+        "市盈率 TTM": "48.35",
+        "预期市盈率": "31.73",
+        "市销率": "18.24",
+        "EV / 营收": "16.97",
+        "EV / EBITDA": "38.90",
+        "EV / FCF": "37.78",
+        "FCF 收益率": "2.46%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 86.66666666666667,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 82.0,
           "reasoning": "EOS操作系统生态与可编程ASIC架构构成深厚技术壁垒；Meta/Microsoft等超大规模客户深度绑定，切换成本极高；64%毛利率与38%净利率印证定价权；但高客户集中度（前两大客户占比约35%）及Cisco/Juniper竞争构成风险，规模效应尚不及头部巨头。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 72.0,
           "reasoning": "Arista约40-50%收入来自Meta/Microsoft等超大规模云客户，其AI数据中心网络支出直接驱动800G交换机需求。AI是核心增长引擎，但企业园区网络和传统云业务提供缓冲。AI capex放缓将显著冲击增长，但不至于致命。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 33.333333333333336,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 100.0,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 56.66666666666667,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 0.0,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 52.0,
           "reasoning": "财务稳健（现金123亿，低负债），但客户高度集中于Meta/Microsoft（合计占收入约35-40%），任一客户削减资本开支将重创营收。估值偏高（P/E ~40x），AI基础设施热潮降温风险大。出口管制对中国市场有限制。客户自研网络芯片（如Meta MTIA）构成长期替代威胁。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 68.93333333333334,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:37",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

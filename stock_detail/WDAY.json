@@ -19,7 +19,7 @@
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:40",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$162.00M",
         "自由现金流": "$3.01B",
-        "FCF利润率": "31.54%",
+        "FCF 利润率": "31.54%",
         "现金及短投": "$5.44B",
         "总债务": "$3.82B",
         "净现金/债务": "$2.46B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.13",
         "市值": "$29.09B",
         "企业价值": "$28.32B",
-        "P/E TTM": "44.98",
-        "Forward P/E": "9.36",
-        "P/S": "3.05",
-        "EV/Sales": "2.96",
-        "EV/EBITDA": "20.66",
-        "EV/FCF": "9.40",
-        "FCF收益率": "10.36%",
+        "市盈率 TTM": "44.98",
+        "预期市盈率": "9.36",
+        "市销率": "3.05",
+        "EV / 营收": "2.96",
+        "EV / EBITDA": "20.66",
+        "EV / FCF": "9.40",
+        "FCF 收益率": "10.36%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 20.90909090909091,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Workday深度嵌入企业HR/财务核心流程，数据迁移成本极高，客户留存率超95%。Illuminate AI利用多年积累的HR/财务领域专有数据训练，形成差异化。但面临SAP、Oracle及新兴AI原生竞争者压力，净利率偏低显示盈利转化效率待提升。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 38.0,
           "reasoning": "Workday Illuminate是现有HR/财务SaaS的AI增强层，嵌入工作流提升留存而非独立变现。AI功能通过涨价和扩展ARR间接贡献，但核心收入仍依赖传统订阅。AI退潮对基本盘冲击有限，属于辅助受益而非纯AI驱动标的。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 36.36363636363636,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 18.181818181818183,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 68.18181818181819,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 30.454545454545457,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 55.0,
           "reasoning": "Workday现金充裕（54亿）但长期负债近30亿，估值偏高（高P/S）存在回撤风险。HR/财务SaaS竞争加剧（SAP、Oracle、ServiceNow），AI替代威胁中等。客户集中于大型企业，切换成本高但宏观收紧时续约压力上升。监管风险较低，整体中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 44.89090909090909,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:40",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

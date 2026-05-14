@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:35",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:57",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$9.97B",
         "自由现金流": "-$18.45B",
-        "FCF利润率": "-66.22%",
+        "FCF 利润率": "-66.22%",
         "现金及短投": "$2.00B",
         "总债务": "$104.40B",
         "净现金/债务": "-$91.95B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.53",
         "市值": "$197.79B",
         "企业价值": "$311.61B",
-        "P/E TTM": "24.07",
-        "Forward P/E": "21.60",
-        "P/S": "7.10",
-        "EV/Sales": "11.18",
-        "EV/EBITDA": "22.01",
-        "EV/FCF": "-16.89",
-        "FCF收益率": "-9.33%",
+        "市盈率 TTM": "24.07",
+        "预期市盈率": "21.60",
+        "市销率": "7.10",
+        "EV / 营收": "11.18",
+        "EV / EBITDA": "22.01",
+        "EV / FCF": "-16.89",
+        "FCF 收益率": "-9.33%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 82.85714285714286,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "NEE凭借全球最大可再生能源装机规模（~35GW风光）、与科技巨头签订的长期PPA合约组合、FPL受监管垄断电网及多年积累的开发运营Know-how构建深厚护城河；但高资本杠杆、利率敏感性及可再生能源技术同质化限制了评分上限。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 38.0,
           "reasoning": "NEE通过长期PPA向科技巨头（微软、谷歌等）供应可再生电力，AI数据中心需求是其增长叙事的重要组成部分，但核心业务仍是受监管的公用事业（FPL）和多元化可再生能源组合。AI驱动的PPA占总收入比例有限，即便AI需求放缓，电力基本需求支撑下行空间，AI暴露度属间接受益层级。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 35.14285714285714,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 82.85714285714286,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 47.5,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 51.42857142857143,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 52.0,
           "reasoning": "NEE长期负债近940亿美元、债务/权益比极高，利率上升压力显著；可再生能源扩张依赖持续融资；受益于AI数据中心PPA需求，但监管审批、联邦补贴政策（IRA）变动风险较大；估值溢价明显，利率敏感性高，回撤风险不可忽视。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 64.83142857142857,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:35",
+      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-14 14:53:57",
       "data": {
         "target_mean": 98.93,
         "target_high": 112.0,

@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$343.80M",
         "自由现金流": "$2.66B",
-        "FCF利润率": "12.32%",
+        "FCF 利润率": "12.32%",
         "现金及短投": "$1.07B",
         "总债务": "$4.62B",
         "净现金/债务": "-$2.85B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.04",
         "市值": "$104.12B",
         "企业价值": "$107.68B",
-        "P/E TTM": "35.98",
-        "Forward P/E": "27.69",
-        "P/S": "4.82",
-        "EV/Sales": "4.99",
-        "EV/EBITDA": "25.44",
-        "EV/FCF": "40.45",
-        "FCF收益率": "2.56%",
+        "市盈率 TTM": "35.98",
+        "预期市盈率": "27.69",
+        "市销率": "4.82",
+        "EV / 营收": "4.99",
+        "EV / EBITDA": "25.44",
+        "EV / FCF": "40.45",
+        "FCF 收益率": "2.56%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 60.47619047619048,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 62.0,
           "reasoning": "Trane在商业HVAC拥有强品牌与服务网络，切换成本中等偏高；但Power/Grid/Nuclear并非其核心赛道，技术壁垒有限，竞争对手（Carrier、JCI、Vertiv）压力显著。数据中心制冷增长驱动营收，但AI弹性低意味着差异化不足，护城河宽度中等。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 32.0,
           "reasoning": "TT数据中心制冷业务（Chiller/液冷）受AI算力扩张驱动，约占收入10-15%且增速较快，但核心仍是商业楼宇、工业HVAC等传统业务（占80%+）。AI是增量催化剂而非主驱动，AI退潮对整体业绩冲击有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 31.857142857142858,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 58.57142857142857,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 50.52380952380952,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 40.476190476190474,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 52.0,
           "reasoning": "TT财务结构尚可（现金10.7亿 vs 长债39.2亿），但估值偏高（P/E ~30x），数据中心制冷需求强劲但AI弹性低意味着技术替代风险上升；地缘政治与出口管制对HVAC设备影响有限，主要风险来自高估值回撤与竞争格局变化。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 53.744761904761916,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:36",
+      "title_meta": "Yahoo Finance · 23 位分析师 · 2026-05-14 14:53:58",
       "data": {
         "target_mean": 517.6878,
         "target_high": 585.0,

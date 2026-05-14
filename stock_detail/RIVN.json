@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:41",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
     "status_label": "减持"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$1.74B",
         "自由现金流": "-$1.30B",
-        "FCF利润率": "-23.57%",
+        "FCF 利润率": "-23.57%",
         "现金及短投": "$4.83B",
         "总债务": "$5.23B",
         "净现金/债务": "$388.00M",
@@ -78,13 +78,13 @@
         "债务/权益": "0.27",
         "市值": "$19.16B",
         "企业价值": "$18.42B",
-        "P/E TTM": "—",
-        "Forward P/E": "-7.56",
-        "P/S": "3.47",
-        "EV/Sales": "3.33",
-        "EV/EBITDA": "-6.07",
-        "EV/FCF": "-14.14",
-        "FCF收益率": "-6.80%",
+        "市盈率 TTM": "—",
+        "预期市盈率": "-7.56",
+        "市销率": "3.47",
+        "EV / 营收": "3.33",
+        "EV / EBITDA": "-6.07",
+        "EV / FCF": "-14.14",
+        "FCF 收益率": "-6.80%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 28.33333333333333,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 38.0,
           "reasoning": "Amazon独家商用车合约（10万辆）提供短期客户粘性，但毛利率仅1%、净亏损64%显示规模效应尚未形成；自动驾驶技术积累薄弱，品牌认知局限于北美，专利护城河远弱于特斯拉/Waymo，整体护城河脆弱且高度依赖单一大客户。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 28.0,
           "reasoning": "Rivian核心业务是EV制造，AI暴露主要来自：1)自动驾驶研发（ADAS/辅助驾驶）；2)Amazon物流车队的路线优化软件。但收入主体仍是卖车，非AI直接驱动。Amazon合同提供稳定需求但与AI capex周期关联弱。AI退潮对RIVN基本面冲击有限。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 18.666666666666664,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 28.33333333333333,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 73.33333333333334,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 26.666666666666664,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 22.0,
           "reasoning": "现金48亿尚可但长期负债44亿压力大，持续亏损烧钱，Amazon客户集中度极高，量产爬坡缓慢，EV竞争加剧（特斯拉/福特），估值仍偏高于基本面，政策补贴不确定性叠加，综合风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 37.88333333333334,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:41",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

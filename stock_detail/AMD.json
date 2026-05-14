@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$974.00M",
         "自由现金流": "$7.17B",
-        "FCF利润率": "19.15%",
+        "FCF 利润率": "19.15%",
         "现金及短投": "$12.35B",
         "总债务": "$3.87B",
         "净现金/债务": "$10.00B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.01",
         "市值": "$726.43B",
         "企业价值": "$717.96B",
-        "P/E TTM": "149.50",
-        "Forward P/E": "34.51",
-        "P/S": "19.40",
-        "EV/Sales": "19.17",
-        "EV/EBITDA": "96.63",
-        "EV/FCF": "100.09",
-        "FCF收益率": "0.99%",
+        "市盈率 TTM": "149.50",
+        "预期市盈率": "34.51",
+        "市销率": "19.40",
+        "EV / 营收": "19.17",
+        "EV / EBITDA": "96.63",
+        "EV / FCF": "100.09",
+        "FCF 收益率": "0.99%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 35.45454545454545,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 62.0,
           "reasoning": "AMD在x86 CPU与GPU双线具备真实技术积累，MI300系列打入超大规模客户，但CUDA生态护城河极深，AMD软件栈ROCm成熟度仍落后；规模与品牌次于英伟达，客户粘性依赖持续迭代而非锁定，护城河属于'挑战者级'而非'统治者级'。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 72.0,
           "reasoning": "MI300系列驱动数据中心GPU收入快速增长，2024年AI加速器收入超50亿美元，占总收入约20-25%，但游戏、嵌入式、客户端CPU仍占大头。AI是核心增长引擎但非全部，竞争压力来自NVIDIA垄断地位，AI退潮将显著冲击估值但不致命。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 83.63636363636363,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 31.81818181818182,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 20.909090909090907,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 69.54545454545455,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "AMD财务结构尚可（现金123亿 vs 长债23亿），但高度依赖AI GPU增长叙事，MI300系列面临英伟达CUDA生态壁垒与客户自研芯片双重压力，美国对华出口管制持续收紧影响中国市场收入，估值仍含较高成长溢价，回撤风险显著。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 46.16818181818182,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:36",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:58",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

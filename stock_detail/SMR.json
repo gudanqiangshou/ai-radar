@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "减持"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$434,000",
         "自由现金流": "-$161.97M",
-        "FCF利润率": "-867.59%",
+        "FCF 利润率": "-867.59%",
         "现金及短投": "$890.13M",
         "总债务": "$5.68M",
         "净现金/债务": "—",
@@ -78,13 +78,13 @@
         "债务/权益": "0.00",
         "市值": "$4.14B",
         "企业价值": "$3.20B",
-        "P/E TTM": "—",
-        "Forward P/E": "-19.52",
-        "P/S": "221.73",
-        "EV/Sales": "171.30",
-        "EV/EBITDA": "-15.74",
-        "EV/FCF": "-19.74",
-        "FCF收益率": "-3.91%",
+        "市盈率 TTM": "—",
+        "预期市盈率": "-19.52",
+        "市销率": "221.73",
+        "EV / 营收": "171.30",
+        "EV / EBITDA": "-15.74",
+        "EV / FCF": "-19.74",
+        "FCF 收益率": "-3.91%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 9.047619047619046,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 62.0,
           "reasoning": "NuScale持有全球首个SMR设计认证（NRC DC），技术壁垒与监管牌照构成核心护城河；但商业化严重滞后（UAMPS项目取消），营收仅180万美元、ROE-83%，规模效应与客户粘性几乎为零，护城河目前更多是潜在期权而非现实竞争优势。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 52.0,
           "reasoning": "NuScale SMR技术被定位为AI数据中心电力解决方案，AI需求是当前主要叙事驱动力，但公司尚无商业运营收入，首个项目UAMPS已取消。AI数据中心电力需求是核心增长催化剂，但业务实质仍是核电技术授权，非纯AI标的。AI退潮将重创估值但不影响核电基本面。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 0.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 2.857142857142857,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 64.83333333333334,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 27.857142857142858,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 18.0,
           "reasoning": "NuScale尚无商业收入，唯一标志性项目UAMPS已取消，现金约8.36亿美元但持续烧钱，预计2-3年耗尽。无实际客户、无产品交付、高度依赖政府补贴与政策支持，SMR技术商业化时间表极不确定，估值完全基于预期，回撤风险极高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 31.518571428571427,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:36",
+      "title_meta": "Yahoo Finance · 14 位分析师 · 2026-05-14 14:53:58",
       "data": {
         "target_mean": 16.64286,
         "target_high": 28.0,

@@ -19,7 +19,7 @@
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:40",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$144.00M",
         "自由现金流": "$5.30B",
-        "FCF利润率": "26.35%",
+        "FCF 利润率": "26.35%",
         "现金及短投": "$2.98B",
         "总债务": "$6.89B",
         "净现金/债务": "-$2.44B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.07",
         "市值": "$103.44B",
         "企业价值": "$106.71B",
-        "P/E TTM": "24.22",
-        "Forward P/E": "14.04",
-        "P/S": "5.14",
-        "EV/Sales": "5.30",
-        "EV/EBITDA": "17.47",
-        "EV/FCF": "20.13",
-        "FCF收益率": "5.13%",
+        "市盈率 TTM": "24.22",
+        "预期市盈率": "14.04",
+        "市销率": "5.14",
+        "EV / 营收": "5.30",
+        "EV / EBITDA": "17.47",
+        "EV / FCF": "20.13",
+        "FCF 收益率": "5.13%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 64.54545454545455,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Intuit凭借TurboTax/QuickBooks积累的海量财税数据构建AI训练壁垒，客户切换成本高（历史数据迁移复杂），品牌心智强。但AI原生竞争者（如Harvey、Bench）正侵蚀中小企业端，且核心税务场景受IRS免费报税计划政策威胁，护城河稳固但边界承压。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 35.0,
           "reasoning": "Intuit将AI嵌入TurboTax/QuickBooks作为功能增强（Intuit Assist），但核心收入仍来自订阅税务/财务软件。AI提升留存率和ARPU，非独立变现产品。AI退潮对基本面冲击有限，属辅助受益而非AI原生标的。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 49.090909090909086,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 62.72727272727273,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 39.09090909090909,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 56.81818181818182,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 55.0,
           "reasoning": "Intuit现金约30亿但长期负债54亿，财务杠杆适中。TurboTax/QuickBooks高度依赖美国税务季节性，监管风险显著（FTC曾起诉其免费报税误导行为）。AI竞争加剧（ChatGPT等可辅助报税），但生态系统黏性强、转换成本高。估值偏高（P/E约50x），回撤风险不可忽视。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 56.87727272727273,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:40",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

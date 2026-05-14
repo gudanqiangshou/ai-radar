@@ -19,7 +19,7 @@
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:37",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:59",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$949.79M",
         "自由现金流": "$4.35B",
-        "FCF利润率": "20.07%",
+        "FCF 利润率": "20.07%",
         "现金及短投": "$4.75B",
         "总债务": "$3.73B",
         "净现金/债务": "$1.02B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.01",
         "市值": "$369.47B",
         "企业价值": "$368.45B",
-        "P/E TTM": "55.85",
-        "Forward P/E": "37.34",
-        "P/S": "17.04",
-        "EV/Sales": "16.99",
-        "EV/EBITDA": "46.95",
-        "EV/FCF": "84.66",
-        "FCF收益率": "1.18%",
+        "市盈率 TTM": "55.85",
+        "预期市盈率": "37.34",
+        "市销率": "17.04",
+        "EV / 营收": "16.99",
+        "EV / EBITDA": "46.95",
+        "EV / FCF": "84.66",
+        "FCF 收益率": "1.18%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 71.42857142857143,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 82.0,
           "reasoning": "Lam Research在刻蚀/沉积领域拥有深厚专利积累与工艺Know-how，客户切换成本极高（设备认证周期长达数年），HBM/3D NAND结构复杂化持续强化其技术不可替代性。毛利率50%、ROE 67%印证定价权强劲。主要风险为ASML/应用材料竞争及地缘政治出口管制。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 68.0,
           "reasoning": "LRCX刻蚀/沉积设备是HBM和先进逻辑芯片制造的关键环节，直接受益于AI驱动的HBM产能扩张和CoWoS封装需求。但其收入来源多元（NAND/DRAM/逻辑），AI相关占比约40-50%，非纯AI标的，传统存储周期仍有显著影响。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 62.857142857142854,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 74.28571428571428,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 22.85714285714286,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 72.85714285714285,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "LRCX现金充裕(47.5亿)但长期负债37.3亿，财务尚稳。核心风险在于：美国对华出口管制持续收紧（中国占营收约30%），客户高度集中于三星/台积电/SK海力士，HBM需求虽强但半导体设备周期性波动大，估值处于历史高位，回撤风险显著。综合评定为中等偏高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 61.68571428571428,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:37",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:59",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

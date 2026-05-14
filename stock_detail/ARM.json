@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$563.00M",
         "自由现金流": "$824.75M",
-        "FCF利润率": "17.66%",
+        "FCF 利润率": "17.66%",
         "现金及短投": "$3.60B",
         "总债务": "$432.00M",
         "净现金/债务": "—",
@@ -78,13 +78,13 @@
         "债务/权益": "0.00",
         "市值": "$235.37B",
         "企业价值": "$231.76B",
-        "P/E TTM": "263.35",
-        "Forward P/E": "72.45",
-        "P/S": "50.39",
-        "EV/Sales": "49.62",
-        "EV/EBITDA": "213.84",
-        "EV/FCF": "281.00",
-        "FCF收益率": "0.35%",
+        "市盈率 TTM": "263.35",
+        "预期市盈率": "72.45",
+        "市销率": "50.39",
+        "EV / 营收": "49.62",
+        "EV / EBITDA": "213.84",
+        "EV / FCF": "281.00",
+        "FCF 收益率": "0.35%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 68.18181818181819,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 87.0,
           "reasoning": "ARM指令集架构形成行业标准，生态锁定效应极强；Neoverse渗透云/HPC，终端SoC几乎垄断移动端；97%毛利率印证IP模式高壁垒。主要风险：RISC-V开源替代长期侵蚀低端市场，英特尔/AMD x86在服务器仍具竞争力。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 62.0,
           "reasoning": "ARM通过Neoverse平台深度受益于AI数据中心capex扩张，CSS for AI及v9架构授权费溢价明显；终端侧NPU集成推动版税提升。但收入仍依赖广泛授权生态（手机、汽车、IoT），AI直接驱动占比约30-40%，非纯AI标的，AI退潮冲击有限但增长逻辑受损显著。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 43.63636363636364,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 55.454545454545446,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 3.636363636363626,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 39.09090909090909,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 38.0,
           "reasoning": "ARM估值极高（P/E>100x），严重依赖高通/苹果/英伟达等少数大客户，软银控股带来治理风险，中美科技脱钩威胁中国授权收入（占比~25%），RISC-V开源替代持续侵蚀低端市场，大客户自研芯片（苹果/亚马逊）长期压缩授权需求，综合风险偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 52.036363636363646,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:36",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:53:58",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

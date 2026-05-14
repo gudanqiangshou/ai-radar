@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:41",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:03",
     "status_label": "减持"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$960.08M",
         "自由现金流": "-$3.04B",
-        "FCF利润率": "-216.61%",
+        "FCF 利润率": "-216.61%",
         "现金及短投": "$700.36M",
         "总债务": "$3.17B",
         "净现金/债务": "-$1.35B",
@@ -78,13 +78,13 @@
         "债务/权益": "1.27",
         "市值": "$2.49B",
         "企业价值": "$7.35B",
-        "P/E TTM": "—",
-        "Forward P/E": "-1.37",
-        "P/S": "1.78",
-        "EV/Sales": "5.25",
-        "EV/EBITDA": "-2.23",
-        "EV/FCF": "-2.42",
-        "FCF收益率": "-121.71%",
+        "市盈率 TTM": "—",
+        "预期市盈率": "-1.37",
+        "市销率": "1.78",
+        "EV / 营收": "5.25",
+        "EV / EBITDA": "-2.23",
+        "EV / FCF": "-2.42",
+        "FCF 收益率": "-121.71%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 3.333333333333333,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 32.0,
           "reasoning": "Lucid在电池效率和电驱技术上有一定专利壁垒，续航指标领先同级。但量产规模极小（年交付约6000辆），毛利率深度负值（-96%），无规模效应；豪华EV品牌心智远弱于特斯拉/保时捷；自动驾驶能力尚未形成差异化。PIF资金支持是生存保障而非护城河。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 22.0,
           "reasoning": "LCID核心业务是豪华EV制造，AI/自动驾驶为辅助功能而非收入驱动。ADAS技术尚处早期，不直接受AI capex浪潮推动。Saudi PIF背书提供资金但不改变AI暴露度。AI退潮对其基本面影响有限，主要风险来自产能爬坡与现金消耗。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 48.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 6.666666666666666,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 51.66666666666667,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 2.4999999999999996,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 18.0,
           "reasoning": "LCID现金仅7亿美元，长期负债超20亿，持续烧钱且量产爬坡缓慢；高度依赖沙特PIF输血，地缘政治风险集中；豪华EV市场竞争激烈，特斯拉/传统豪华品牌双重挤压；估值仍显著溢价于基本面，下行空间大。综合财务脆弱性与执行风险，极高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 25.15833333333334,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:41",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:03",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

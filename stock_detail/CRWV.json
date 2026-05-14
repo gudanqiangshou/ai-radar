@@ -19,7 +19,7 @@
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:38",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:01",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$10.31B",
         "自由现金流": "-$8.56B",
-        "FCF利润率": "-137.47%",
+        "FCF 利润率": "-137.47%",
         "现金及短投": "$2.27B",
         "总债务": "$35.15B",
         "净现金/债务": "-$12.40B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.58",
         "市值": "$60.73B",
         "企业价值": "$93.61B",
-        "P/E TTM": "—",
-        "Forward P/E": "-165.39",
-        "P/S": "9.75",
-        "EV/Sales": "15.03",
-        "EV/EBITDA": "30.95",
-        "EV/FCF": "-10.94",
-        "FCF收益率": "-14.10%",
+        "市盈率 TTM": "—",
+        "预期市盈率": "-165.39",
+        "市销率": "9.75",
+        "EV / 营收": "15.03",
+        "EV / EBITDA": "30.95",
+        "EV / FCF": "-10.94",
+        "FCF 收益率": "-14.10%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 70.0,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 62.0,
           "reasoning": "CoreWeave凭借NVIDIA深度绑定（H100/H200优先供应）、微软长期合约（约占营收60%+）及69%高毛利率构建差异化壁垒；但客户高度集中、净亏损持续、重资产模式债务压力大，且AWS/Azure/GCP随时可复制GPU云能力，护城河宽度有限但短期竞争地位稳固。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 95.0,
           "reasoning": "CoreWeave是纯GPU云公司，收入几乎100%来自AI/ML工作负载的GPU算力租赁。微软签署数十亿美元长期合同，NVIDIA战略持股，2025年IPO时营收约19亿美元且高度依赖AI capex周期。无AI需求则业务模式归零，是最纯粹的AI基础设施标的之一。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 65.71428571428571,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 65.71428571428571,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 68.57142857142857,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 11.428571428571429,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 22.0,
           "reasoning": "财务风险极高：长期负债146亿美元远超现金22亿，利息压力沉重；客户高度集中于Microsoft（占收比超60%）；GPU云竞争激烈，大客户自建算力趋势明显；2025年IPO估值偏高，市场情绪波动风险大；出口管制政策随时可能冲击GPU供应链。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 63.17857142857142,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:38",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:01",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

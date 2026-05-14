@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:35",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$696.49M",
         "自由现金流": "$1.04B",
-        "FCF利润率": "3.44%",
+        "FCF 利润率": "3.44%",
         "现金及短投": "$364.76M",
         "总债务": "$6.32B",
         "净现金/债务": "-$4.84B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.05",
         "市值": "$116.10B",
         "企业价值": "$122.16B",
-        "P/E TTM": "105.27",
-        "Forward P/E": "47.16",
-        "P/S": "3.85",
-        "EV/Sales": "4.06",
-        "EV/EBITDA": "45.94",
-        "EV/FCF": "117.78",
-        "FCF收益率": "0.89%",
+        "市盈率 TTM": "105.27",
+        "预期市盈率": "47.16",
+        "市销率": "3.85",
+        "EV / 营收": "4.06",
+        "EV / EBITDA": "45.94",
+        "EV / FCF": "117.78",
+        "FCF 收益率": "0.89%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 30.0,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "PWR凭借全美最大电网EPC规模、稀缺持证电工队伍及长期MSA合约构建强护城河；AI数据中心电力扩张带来结构性需求。但毛利率仅15%、净利率4%显示定价权有限，技术专利壁垒偏弱，竞争对手可复制执行能力，护城河宽度中上但深度不足。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 52.0,
           "reasoning": "PWR是电网EPC龙头，AI数据中心电力需求扩张直接拉动其输配电工程订单，但核心业务覆盖可再生能源、传统电网升级、管道等多元领域。AI驱动的数据中心电力基础设施约占收入20-30%，是重要增量但非主导。AI退潮影响有限，因电网老化改造需求独立存在。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 71.38095238095238,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 32.857142857142854,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 35.02380952380952,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 86.42857142857142,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 52.0,
           "reasoning": "PWR受益AI电网扩张需求强劲，但长期负债52亿美元而现金仅3.65亿，杠杆偏高；估值已充分反映增长预期（P/E偏高），回撤风险显著；业务依赖大型公用事业客户集中度较高；监管政策变动（IRA补贴调整）构成中等风险。综合评定为中等风险区间。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 48.19,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:35",
+      "title_meta": "Yahoo Finance · 24 位分析师 · 2026-05-14 14:53:58",
       "data": {
         "target_mean": 747.8408,
         "target_high": 901.0,

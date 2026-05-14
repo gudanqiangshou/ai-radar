@@ -19,7 +19,7 @@
       "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:37",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$130.00M",
         "自由现金流": "$1.08B",
-        "FCF利润率": "18.98%",
+        "FCF 利润率": "18.98%",
         "现金及短投": "$2.18B",
         "总债务": "$2.77B",
         "净现金/债务": "-$356.00M",
@@ -78,13 +78,13 @@
         "债务/权益": "0.04",
         "市值": "$61.94B",
         "企业价值": "$62.54B",
-        "P/E TTM": "63.70",
-        "Forward P/E": "34.95",
-        "P/S": "10.91",
-        "EV/Sales": "11.02",
-        "EV/EBITDA": "48.63",
-        "EV/FCF": "58.05",
-        "FCF收益率": "1.74%",
+        "市盈率 TTM": "63.70",
+        "预期市盈率": "34.95",
+        "市销率": "10.91",
+        "EV / 营收": "11.02",
+        "EV / EBITDA": "48.63",
+        "EV / FCF": "58.05",
+        "FCF 收益率": "1.74%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 35.0,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Keysight在射频/高速信号测试领域拥有深厚专利积累与Know-how，客户（芯片厂、电信设备商）切换成本极高，品牌心智强。但EDA/Design Software非其核心，规模效应弱于Synopsys/Cadence，毛利率62%尚可但护城河宽度受限于细分赛道。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 38.0,
           "reasoning": "Keysight主要收入来自5G、航空航天、汽车等传统测试仪器市场。AI数据中心网络测试（400G/800G以太网验证）是新兴增长点，但占总收入比例估计低于20%。AI capex扩张带来间接受益，非核心驱动，AI退潮冲击有限但增长叙事会受损。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 70.0,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 50.0,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 80.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 55.0,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 62.0,
           "reasoning": "Keysight现金约22亿美元，长期负债25亿，杠杆可控但非零压力。5G/AI测试需求强劲，但半导体客户集中度较高，中国出口管制风险显著（中国营收占比约15-20%）。EDA/测试仪器市场竞争激烈，估值处于历史中位区间，整体属低中风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 58.9,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:37",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

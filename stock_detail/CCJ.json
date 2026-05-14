@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:58",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$354.31M",
         "自由现金流": "$624.78M",
-        "FCF利润率": "17.66%",
+        "FCF 利润率": "17.66%",
         "现金及短投": "$1.11B",
         "总债务": "$1.01B",
         "净现金/债务": "$113.17M",
@@ -78,13 +78,13 @@
         "债务/权益": "0.02",
         "市值": "$50.26B",
         "企业价值": "$50.16B",
-        "P/E TTM": "107.84",
-        "Forward P/E": "59.51",
-        "P/S": "14.21",
-        "EV/Sales": "14.18",
-        "EV/EBITDA": "56.11",
-        "EV/FCF": "80.28",
-        "FCF收益率": "1.24%",
+        "市盈率 TTM": "107.84",
+        "预期市盈率": "59.51",
+        "市销率": "14.21",
+        "EV / 营收": "14.18",
+        "EV / EBITDA": "56.11",
+        "EV / FCF": "80.28",
+        "FCF 收益率": "1.24%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 58.095238095238095,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 82.0,
           "reasoning": "Cameco控制全球约15%铀产量，McArthur River等高品位矿山构成资源壁垒；核燃料长期合约（10年+）锁定客户，切换成本极高；铀矿开采许可证审批周期长达十年，监管壁垒极深。主要风险是铀价周期性波动及地缘政治风险（哈萨克斯坦竞争）。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 32.0,
           "reasoning": "Cameco是全球最大铀生产商，AI数据中心电力需求推动核电复兴间接利好铀价，但其收入来自铀矿开采和核燃料服务，与AI capex无直接合同绑定。AI是边际需求催化剂而非核心驱动，传统核电、能源转型、地缘政治才是主要定价因素。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 30.23809523809524,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 62.857142857142854,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 10.69047619047619,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 34.047619047619044,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "财务结构尚可（现金>长期负债），但铀价波动剧烈、地缘政治风险高（哈萨克斯坦/俄罗斯供应链）、客户集中于少数核电运营商、监管壁垒双刃剑、估值溢价显著（核能复苏预期已充分定价），近期股价下跌6%反映市场分歧，综合风险中等偏高。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 48.55666666666667,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:36",
+      "title_meta": "Yahoo Finance · 9 位分析师 · 2026-05-14 14:53:58",
       "data": {
         "target_mean": 138.46548,
         "target_high": 173.95882,

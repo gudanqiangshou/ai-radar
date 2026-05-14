@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:35",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:53:57",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$206.00M",
         "自由现金流": "$1.39B",
-        "FCF利润率": "42.86%",
+        "FCF 利润率": "42.86%",
         "现金及短投": "$1.03B",
         "总债务": "$6.82B",
         "净现金/债务": "-$5.76B",
@@ -78,13 +78,13 @@
         "债务/权益": "0.43",
         "市值": "$16.04B",
         "企业价值": "$21.73B",
-        "P/E TTM": "—",
-        "Forward P/E": "10.26",
-        "P/S": "4.96",
-        "EV/Sales": "6.71",
-        "EV/EBITDA": "33.22",
-        "EV/FCF": "15.67",
-        "FCF收益率": "8.65%",
+        "市盈率 TTM": "—",
+        "预期市盈率": "10.26",
+        "市销率": "4.96",
+        "EV / 营收": "6.71",
+        "EV / EBITDA": "33.22",
+        "EV / FCF": "15.67",
+        "FCF 收益率": "8.65%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 42.38095238095238,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "Susquehanna核电站提供稀缺零碳基荷电力，与AWS签订直连PPA形成高切换成本锁定；核电牌照与选址壁垒极高，竞争者难以复制。但公司规模偏小（TTM营收仅7.7亿）、净利率为负、品牌影响力有限，护城河深度集中于单一资产，抗风险分散性不足。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 72.0,
           "reasoning": "Susquehanna核电与AWS签订直接PPA是TLN最核心的AI增长叙事，数据中心电力需求直接驱动估值重估。但TLN仍有传统电力资产组合，AI PPA占总收入比例尚未过半。AI capex放缓将直接冲击溢价估值，弹性显著但非纯AI标的。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 62.714285714285715,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 29.047619047619047,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 57.78571428571429,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 30.476190476190474,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 38.0,
           "reasoning": "长期负债68亿美元偏高，现金6.89亿覆盖能力有限；AWS单一大客户PPA集中度风险显著；核电监管严苛且资本开支庞大；AI数据中心需求叙事估值溢价明显，若PPA条款受挑战或需求放缓将面临较大回撤压力。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 51.86380952380952,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:35",
+      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-14 14:53:57",
       "data": {
         "target_mean": 475.1707,
         "target_high": 595.0,

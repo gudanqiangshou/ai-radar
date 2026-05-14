@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:40",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$408.20M",
         "自由现金流": "$2.86B",
-        "FCF利润率": "28.90%",
+        "FCF 利润率": "28.90%",
         "现金及短投": "$4.54B",
         "总债务": "$459.00M",
         "净现金/债务": "—",
@@ -78,13 +78,13 @@
         "债务/权益": "0.00",
         "市值": "$184.74B",
         "企业价值": "$181.80B",
-        "P/E TTM": "126.55",
-        "Forward P/E": "57.38",
-        "P/S": "18.67",
-        "EV/Sales": "18.38",
-        "EV/EBITDA": "118.32",
-        "EV/FCF": "63.58",
-        "FCF收益率": "1.55%",
+        "市盈率 TTM": "126.55",
+        "预期市盈率": "57.38",
+        "市销率": "18.67",
+        "EV / 营收": "18.38",
+        "EV / EBITDA": "118.32",
+        "EV / FCF": "63.58",
+        "FCF 收益率": "1.55%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 56.94444444444444,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 72.0,
           "reasoning": "PANW平台化战略（Prisma SASE + Cortex XDR）构建强客户粘性与数据网络效应，74%毛利率印证定价权。但竞争激烈（CrowdStrike、Zscaler、Microsoft），AI安全赛道壁垒尚未完全固化，平台整合仍在执行中，护城河宽度中上但深度有待验证。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 42.0,
           "reasoning": "PANW AI暴露度中等。Cortex XDR/XSIAM和Prisma SASE内嵌AI能力提升产品竞争力，但核心收入仍来自防火墙硬件和传统安全订阅。AI驱动平台化整合是增长叙事，非直接AI capex受益标的。AI退潮对基本面冲击有限，安全需求刚性支撑。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 55.55555555555556,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 76.94444444444446,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 20.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 91.66666666666666,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 52.0,
           "reasoning": "PANW现金充裕（45亿），平台化战略具竞争优势，但估值偏高（PS>15x）、盈利能力仍弱、竞争激烈（CrowdStrike/Microsoft），AI安全赛道颠覆风险中等，客户集中度与负债数据缺失增加不确定性，综合评定为中等风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 55.16944444444446,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:40",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

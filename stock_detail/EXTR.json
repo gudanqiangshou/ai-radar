@@ -19,7 +19,7 @@
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:38",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:00",
     "status_label": "观察"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$27.01M",
         "自由现金流": "$124.76M",
-        "FCF利润率": "9.96%",
+        "FCF 利润率": "9.96%",
         "现金及短投": "$210.11M",
         "总债务": "$235.74M",
         "净现金/债务": "$60.89M",
@@ -78,13 +78,13 @@
         "债务/权益": "0.08",
         "市值": "$2.98B",
         "企业价值": "$3.00B",
-        "P/E TTM": "189.75",
-        "Forward P/E": "17.49",
-        "P/S": "2.38",
-        "EV/Sales": "2.40",
-        "EV/EBITDA": "31.96",
-        "EV/FCF": "24.07",
-        "FCF收益率": "4.19%",
+        "市盈率 TTM": "189.75",
+        "预期市盈率": "17.49",
+        "市销率": "2.38",
+        "EV / 营收": "2.40",
+        "EV / EBITDA": "31.96",
+        "EV / FCF": "24.07",
+        "FCF 收益率": "4.19%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 34.44444444444444,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 42.0,
           "reasoning": "EXTR在教育、医疗、体育场馆等垂直市场有一定客户粘性，ExtremeCloud IQ形成软硬件绑定。但规模远小于Cisco/HPE/Juniper，品牌心智弱，技术专利壁垒有限，净利率仅1%显示定价权不足，护城河整体偏窄。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 28.0,
           "reasoning": "EXTR主要收入来自企业/校园网络交换机和无线接入点，AI驱动需求有限。其ExtremeCloud平台集成AI运维功能，但属于锦上添花而非核心增长引擎。AI数据中心网络并非其主战场，主要竞争对手为Cisco/HPE Aruba，AI capex直接拉动效应较弱。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 31.11111111111111,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 24.444444444444446,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 90.0,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 40.0,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 38.0,
           "reasoning": "EXTR现金2.1亿尚可但长期负债1.49亿，负债率数据缺失增加不确定性。公司规模偏小，面临思科、HPE Aruba等巨头竞争压力，客户集中度数据缺失为潜在隐患。边缘AI网络赛道技术迭代快，替代风险中等偏高。无近期新闻导致信息透明度不足，综合评估偏高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 45.86666666666667,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:38",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:00",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },

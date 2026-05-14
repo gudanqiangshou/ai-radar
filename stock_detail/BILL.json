@@ -19,7 +19,7 @@
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:39",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:54:02",
     "status_label": "持有"
   },
   "panels": [
@@ -69,7 +69,7 @@
         "经营现金流": "—",
         "资本开支": "-$62.06M",
         "自由现金流": "$167.61M",
-        "FCF利润率": "10.47%",
+        "FCF 利润率": "10.47%",
         "现金及短投": "$2.17B",
         "总债务": "$1.89B",
         "净现金/债务": "$338.49M",
@@ -78,13 +78,13 @@
         "债务/权益": "0.47",
         "市值": "$3.98B",
         "企业价值": "$3.69B",
-        "P/E TTM": "inf",
-        "Forward P/E": "12.59",
-        "P/S": "2.49",
-        "EV/Sales": "2.31",
-        "EV/EBITDA": "110.38",
-        "EV/FCF": "22.03",
-        "FCF收益率": "4.21%",
+        "市盈率 TTM": "inf",
+        "预期市盈率": "12.59",
+        "市销率": "2.49",
+        "EV / 营收": "2.31",
+        "EV / EBITDA": "110.38",
+        "EV / FCF": "22.03",
+        "FCF 收益率": "4.21%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -95,7 +95,7 @@
       "type": "score_grid_3x3",
       "data": [
         {
-          "label": "Business Quality",
+          "label": "业务质量",
           "value": 75.17857142857143,
           "reasoning": null,
           "is_ai": false,
@@ -103,21 +103,21 @@
           "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
-          "label": "Moat",
+          "label": "护城河",
           "value": 62.0,
           "reasoning": "BILL依托SMB AP/AR网络效应与会计师渠道形成中等护城河，84%毛利率印证软件定价权；但竞争对手（Intuit、Brex、Ramp）持续侵蚀，AI差异化尚未形成壁垒，净利率为零显示规模效应仍待兑现，整体护城河中等偏上。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "AI Exposure",
+          "label": "AI 暴露度",
           "value": 28.0,
           "reasoning": "BILL的AI主要用于发票识别、欺诈检测等流程自动化，属于功能增强而非核心商业模式。收入驱动仍来自支付量和订阅费，AI失败不会导致业务崩溃。竞争护城河在于SMB网络效应，非AI能力，属于间接/辅助受益。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Growth",
+          "label": "成长性",
           "value": 27.5,
           "reasoning": null,
           "is_ai": false,
@@ -125,7 +125,7 @@
           "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
-          "label": "Profitability",
+          "label": "盈利能力",
           "value": 70.17857142857143,
           "reasoning": null,
           "is_ai": false,
@@ -133,7 +133,7 @@
           "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
-          "label": "Valuation",
+          "label": "估值",
           "value": 68.75,
           "reasoning": null,
           "is_ai": false,
@@ -141,7 +141,7 @@
           "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
-          "label": "Momentum",
+          "label": "动量",
           "value": 33.125,
           "reasoning": null,
           "is_ai": false,
@@ -149,14 +149,14 @@
           "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
-          "label": "Risk",
+          "label": "风险",
           "value": 42.0,
           "reasoning": "现金21.7亿尚可，但长期负债18.3亿压力不小，净现金仅约3.4亿缓冲有限。中小企业客户群抗周期性弱，经济下行流失率高。AI财务自动化赛道竞争激烈（Intuit、SAP、初创公司），替代风险中高。估值仍偏高，盈利能力尚未稳固，回撤风险显著。整体中等偏高风险。",
           "is_ai": true,
           "is_quant": false
         },
         {
-          "label": "Warren Composite",
+          "label": "综合 · Warren",
           "value": 59.868750000000006,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:39",
+      "title_meta": "Yahoo Finance · 暂无分析师覆盖 · 2026-05-14 14:54:02",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
