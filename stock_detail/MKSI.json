@@ -1,0 +1,201 @@
+{
+  "ticker": "MKSI",
+  "name": "MKS Instruments",
+  "header": {
+    "name": "MKS Instruments",
+    "ticker": "MKSI",
+    "sector": "Semiconductor Equipment",
+    "sector_id": "semiconductor_equipment",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "真空 / 等离子 / 激光仪器 — 设备核心子系统",
+    "price": 317.30999755859375,
+    "change_1d": 1.79,
+    "composite": 50.63157894736842,
+    "tier_letter": "C",
+    "description": [
+      "MKS Instruments 的 AI 产业链位置为 Semiconductor Equipment。",
+      "AI 角色：真空 / 等离子 / 激光仪器 — 设备核心子系统。当前内部综合评分 50。",
+      "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$317.31",
+        "日内涨跌": "+1.79%",
+        "1日涨跌": "+1.79%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-0.75%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "923,700",
+        "量比20日": "0.68",
+        "52周高点": "321.65",
+        "52周低点": "298.16",
+        "距52周高点": "-1.35%",
+        "距52周低点": "+6.42%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Semiconductor Equipment",
+        "AI角色": "真空 / 等离子 / 激光仪器 — 设备核心子系统",
+        "投资确定性": "—",
+        "收入": "$4.07B",
+        "收入同比": "15.20%",
+        "毛利率": "46.65%",
+        "经营利润率": "16.05%",
+        "净利率": "8.03%",
+        "经营现金流": "—",
+        "资本开支": "-$148.00M",
+        "自由现金流": "$488.62M",
+        "FCF利润率": "12.00%",
+        "现金及短投": "$569.00M",
+        "总债务": "$4.29B",
+        "净现金/债务": "-$3.58B",
+        "流通股本": "67.54M",
+        "ROE": "12.66%",
+        "债务/权益": "0.20",
+        "市值": "$21.43B",
+        "企业价值": "$25.16B",
+        "P/E TTM": "65.42",
+        "Forward P/E": "21.59",
+        "P/S": "5.26",
+        "EV/Sales": "6.18",
+        "EV/EBITDA": "26.73",
+        "EV/FCF": "51.48",
+        "FCF收益率": "2.28%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 12.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "MKS在真空、等离子、激光子系统拥有深厚专利积累与工艺Know-how，客户切换成本高（设备认证周期长达1-2年），但规模效应弱于AMAT/Lam等整机厂，且2022年收购Atotech带来高杠杆，净利率偏低（8%）压制护城河质量，综合评分中上。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 42.0,
+          "reasoning": "MKSI为半导体设备核心子系统供应商，AI驱动的先进逻辑/HBM制程扩产直接拉动其真空、等离子、激光组件需求，但公司同时服务工业、医疗、PCB等非AI市场，AI相关收入估计占总营收30-45%，属重要但非主导驱动力。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 64.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 6.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 100.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 32.0,
+          "reasoning": "长期负债41.5亿美元远超现金5.69亿，杠杆率极高，利息覆盖压力大；半导体设备周期性强，客户集中于少数晶圆厂；中国出口管制持续收紧影响营收；2022年Newport收购整合风险未消，综合财务与地缘风险偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 50.63157894736842,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "MKS Instruments（MKSI）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】MKS在真空、等离子、激光子系统拥有深厚专利积累与工艺Know-how，客户切换成本高（设备认证周期长达1-2年），但规模效应弱于AMAT/Lam等整机厂，且2022年收购Atotech带来高杠杆，净利率偏低（8%）压制护城河质量，综合评分中上。 【ai_exposure】MKSI为半导体设备核心子系统供应商，AI驱动的先进逻辑/HBM制程扩产直接拉动其真空、等离子、激光组件需求，但公司同时服务工业、医疗、PCB等非AI市场，AI相关收入估计占总营收30-45%，属重要但非主导驱动力。 【risk】长期负债41.5亿美元远超现金5.69亿，杠杆率极高，利息覆盖压力大；半导体设备周期性强，客户集中于少数晶圆厂；中国出口管制持续收紧影响营收；2022年Newport收购整合风险未消，综合财务与地缘风险偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 50.63157894736842
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

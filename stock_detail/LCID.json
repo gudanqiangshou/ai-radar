@@ -1,0 +1,201 @@
+{
+  "ticker": "LCID",
+  "name": "Lucid Group",
+  "header": {
+    "name": "Lucid Group",
+    "ticker": "LCID",
+    "sector": "Autonomous / Mobility",
+    "sector_id": "autonomous_mobility",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "豪华电动车 + AI 智能驾驶 — Saudi PIF 大股东",
+    "price": 6.389999866485596,
+    "change_1d": 6.32,
+    "composite": 30.157894736842103,
+    "tier_letter": "C",
+    "description": [
+      "Lucid Group 的 AI 产业链位置为 Autonomous / Mobility。",
+      "AI 角色：豪华电动车 + AI 智能驾驶 — Saudi PIF 大股东。当前内部综合评分 30。",
+      "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$6.39",
+        "日内涨跌": "+6.32%",
+        "1日涨跌": "+6.32%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "+5.97%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "28,257,900",
+        "量比20日": "1.71",
+        "52周高点": "6.72",
+        "52周低点": "5.82",
+        "距52周高点": "-4.91%",
+        "距52周低点": "+9.70%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Autonomous / Mobility",
+        "AI角色": "豪华电动车 + AI 智能驾驶 — Saudi PIF 大股东",
+        "投资确定性": "—",
+        "收入": "$1.40B",
+        "收入同比": "20.20%",
+        "毛利率": "-95.60%",
+        "经营利润率": "-336.87%",
+        "净利率": "-239.81%",
+        "经营现金流": "—",
+        "资本开支": "-$960.08M",
+        "自由现金流": "-$3.04B",
+        "FCF利润率": "-216.61%",
+        "现金及短投": "$700.36M",
+        "总债务": "$3.17B",
+        "净现金/债务": "-$1.35B",
+        "流通股本": "390.26M",
+        "ROE": "-97.59%",
+        "债务/权益": "1.27",
+        "市值": "$2.49B",
+        "企业价值": "$7.35B",
+        "P/E TTM": "—",
+        "Forward P/E": "-1.37",
+        "P/S": "1.78",
+        "EV/Sales": "5.25",
+        "EV/EBITDA": "-2.23",
+        "EV/FCF": "-2.42",
+        "FCF收益率": "-121.71%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 5.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 32.0,
+          "reasoning": "Lucid在电池效率和电驱技术上有一定专利壁垒，续航指标领先同级。但量产规模极小（年交付约6000辆），毛利率深度负值（-96%），无规模效应；豪华EV品牌心智远弱于特斯拉/保时捷；自动驾驶能力尚未形成差异化。PIF资金支持是生存保障而非护城河。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 22.0,
+          "reasoning": "LCID核心业务是豪华EV制造，AI/自动驾驶为辅助功能而非收入驱动。ADAS技术尚处早期，不直接受AI capex浪潮推动。Saudi PIF背书提供资金但不改变AI暴露度。AI退潮对其基本面影响有限，主要风险来自产能爬坡与现金消耗。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 59.99999999999999,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 10.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 60.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 18.0,
+          "reasoning": "LCID现金仅7亿美元，长期负债超20亿，持续烧钱且量产爬坡缓慢；高度依赖沙特PIF输血，地缘政治风险集中；豪华EV市场竞争激烈，特斯拉/传统豪华品牌双重挤压；估值仍显著溢价于基本面，下行空间大。综合财务脆弱性与执行风险，极高风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 30.157894736842103,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Lucid Group（LCID）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Lucid在电池效率和电驱技术上有一定专利壁垒，续航指标领先同级。但量产规模极小（年交付约6000辆），毛利率深度负值（-96%），无规模效应；豪华EV品牌心智远弱于特斯拉/保时捷；自动驾驶能力尚未形成差异化。PIF资金支持是生存保障而非护城河。 【ai_exposure】LCID核心业务是豪华EV制造，AI/自动驾驶为辅助功能而非收入驱动。ADAS技术尚处早期，不直接受AI capex浪潮推动。Saudi PIF背书提供资金但不改变AI暴露度。AI退潮对其基本面影响有限，主要风险来自产能爬坡与现金消耗。 【risk】LCID现金仅7亿美元，长期负债超20亿，持续烧钱且量产爬坡缓慢；高度依赖沙特PIF输血，地缘政治风险集中；豪华EV市场竞争激烈，特斯拉/传统豪华品牌双重挤压；估值仍显著溢价于基本面，下行空间大。综合财务脆弱性与执行风险，极高风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 30.157894736842103
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

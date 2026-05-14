@@ -1,0 +1,201 @@
+{
+  "ticker": "SAP",
+  "name": "SAP",
+  "header": {
+    "name": "SAP",
+    "ticker": "SAP",
+    "sector": "AI Application",
+    "sector_id": "ai_application",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "企业 ERP 龙头 + Joule AI Copilot",
+    "price": 160.82000732421875,
+    "change_1d": -3.86,
+    "composite": 54.31578947368421,
+    "tier_letter": "B",
+    "description": [
+      "SAP 的 AI 产业链位置为 AI Application。",
+      "AI 角色：企业 ERP 龙头 + Joule AI Copilot。当前内部综合评分 54。",
+      "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$160.82",
+        "日内涨跌": "-3.86%",
+        "1日涨跌": "-3.86%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-5.46%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "5,042,100",
+        "量比20日": "1.77",
+        "52周高点": "173.83",
+        "52周低点": "158.58",
+        "距52周高点": "-7.48%",
+        "距52周低点": "+1.41%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "AI Application",
+        "AI角色": "企业 ERP 龙头 + Joule AI Copilot",
+        "投资确定性": "—",
+        "收入": "$37.34B",
+        "收入同比": "6.00%",
+        "毛利率": "73.72%",
+        "经营利润率": "30.03%",
+        "净利率": "19.58%",
+        "经营现金流": "—",
+        "资本开支": "-$809.00M",
+        "自由现金流": "$8.14B",
+        "FCF利润率": "21.81%",
+        "现金及短投": "$10.04B",
+        "总债务": "$7.86B",
+        "净现金/债务": "—",
+        "流通股本": "1.17B",
+        "ROE": "16.35%",
+        "债务/权益": "0.04",
+        "市值": "$189.60B",
+        "企业价值": "$185.36B",
+        "P/E TTM": "21.88",
+        "Forward P/E": "17.27",
+        "P/S": "5.08",
+        "EV/Sales": "4.96",
+        "EV/EBITDA": "15.97",
+        "EV/FCF": "22.76",
+        "FCF收益率": "4.30%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 82.0,
+          "reasoning": "SAP拥有数十年企业核心数据沉淀与深度业务流程绑定，ERP迁移成本极高（通常需3-5年周期）。Joule直接嵌入S/4HANA工作流，形成AI与业务数据的飞轮效应。毛利率74%印证定价权强劲。主要风险在于云转型节奏及Salesforce/Oracle的AI竞争压力。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 42.0,
+          "reasoning": "SAP核心收入来自ERP订阅（S/4HANA云），AI以Joule Copilot形式嵌入现有产品提升ARPU，而非独立AI收入流。AI加速云迁移转化，是重要增长催化剂但非主驱动。AI退潮对基本盘影响有限，黏性来自ERP本身而非AI。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 27.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 67.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 40.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "SAP现金储备逾100亿美元，ERP护城河深厚，客户迁移成本极高。但负债数据缺失、估值偏高（AI溢价显著）、欧洲监管压力加剧、云转型期收入结构仍在调整，地缘政治风险（中美市场）不可忽视，综合评定为低中风险区间。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 54.31578947368421,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "SAP（SAP）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】SAP拥有数十年企业核心数据沉淀与深度业务流程绑定，ERP迁移成本极高（通常需3-5年周期）。Joule直接嵌入S/4HANA工作流，形成AI与业务数据的飞轮效应。毛利率74%印证定价权强劲。主要风险在于云转型节奏及Salesforce/Oracle的AI竞争压力。 【ai_exposure】SAP核心收入来自ERP订阅（S/4HANA云），AI以Joule Copilot形式嵌入现有产品提升ARPU，而非独立AI收入流。AI加速云迁移转化，是重要增长催化剂但非主驱动。AI退潮对基本盘影响有限，黏性来自ERP本身而非AI。 【risk】SAP现金储备逾100亿美元，ERP护城河深厚，客户迁移成本极高。但负债数据缺失、估值偏高（AI溢价显著）、欧洲监管压力加剧、云转型期收入结构仍在调整，地缘政治风险（中美市场）不可忽视，综合评定为低中风险区间。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 54.31578947368421
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

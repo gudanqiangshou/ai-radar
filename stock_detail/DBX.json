@@ -1,0 +1,201 @@
+{
+  "ticker": "DBX",
+  "name": "Dropbox",
+  "header": {
+    "name": "Dropbox",
+    "ticker": "DBX",
+    "sector": "Data / Software Platform",
+    "sector_id": "data_software_platform",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "AI 文件管理 + Dash AI 搜索",
+    "price": 26.200000762939453,
+    "change_1d": 1.51,
+    "composite": 44.16666666666666,
+    "tier_letter": "C",
+    "description": [
+      "Dropbox 的 AI 产业链位置为 Data / Software Platform。",
+      "AI 角色：AI 文件管理 + Dash AI 搜索。当前内部综合评分 44。",
+      "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$26.20",
+        "日内涨跌": "+1.51%",
+        "1日涨跌": "+1.51%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-1.09%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "4,146,600",
+        "量比20日": "0.67",
+        "52周高点": "28.61",
+        "52周低点": "25.49",
+        "距52周高点": "-8.42%",
+        "距52周低点": "+2.81%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Data / Software Platform",
+        "AI角色": "AI 文件管理 + Dash AI 搜索",
+        "投资确定性": "—",
+        "收入": "$2.53B",
+        "收入同比": "0.80%",
+        "毛利率": "79.74%",
+        "经营利润率": "27.45%",
+        "净利率": "18.71%",
+        "经营现金流": "—",
+        "资本开支": "-$21.40M",
+        "自由现金流": "$816.44M",
+        "FCF利润率": "32.32%",
+        "现金及短投": "$1.29B",
+        "总债务": "$4.01B",
+        "净现金/债务": "-$834.80M",
+        "流通股本": "158.04M",
+        "ROE": "—",
+        "债务/权益": "0.66",
+        "市值": "$6.11B",
+        "企业价值": "$8.83B",
+        "P/E TTM": "14.32",
+        "Forward P/E": "7.69",
+        "P/S": "2.42",
+        "EV/Sales": "3.50",
+        "EV/EBITDA": "10.53",
+        "EV/FCF": "10.82",
+        "FCF收益率": "13.36%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 42.0,
+          "reasoning": "Dropbox核心护城河在于高客户粘性（文件深度集成、团队协作习惯）和品牌认知，但技术壁垒薄弱——AI搜索/文件管理赛道竞争激烈，微软365、Google Workspace均有原生替代。营收增长停滞，规模效应有限，护城河持续收窄。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 28.0,
+          "reasoning": "Dropbox核心收入仍来自传统云存储订阅，AI功能（Dash搜索、AI文件整理）为附加层而非独立收入来源。Dash单独定价但用户渗透率低，AI失败对主营业务冲击有限。属于防御性AI叙事，非AI原生增长驱动。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 16.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 65.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 42.0,
+          "reasoning": "Dropbox现金12.9亿但长期负债21.2亿，净负债压力明显。核心文件同步业务增长停滞，面临Google Drive、OneDrive强力竞争。Dash AI产品尚未规模化变现，AI转型成效存疑。用户增长乏力，ARPU提升空间有限，整体属中等偏高风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 44.16666666666666,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Dropbox（DBX）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Dropbox核心护城河在于高客户粘性（文件深度集成、团队协作习惯）和品牌认知，但技术壁垒薄弱——AI搜索/文件管理赛道竞争激烈，微软365、Google Workspace均有原生替代。营收增长停滞，规模效应有限，护城河持续收窄。 【ai_exposure】Dropbox核心收入仍来自传统云存储订阅，AI功能（Dash搜索、AI文件整理）为附加层而非独立收入来源。Dash单独定价但用户渗透率低，AI失败对主营业务冲击有限。属于防御性AI叙事，非AI原生增长驱动。 【risk】Dropbox现金12.9亿但长期负债21.2亿，净负债压力明显。核心文件同步业务增长停滞，面临Google Drive、OneDrive强力竞争。Dash AI产品尚未规模化变现，AI转型成效存疑。用户增长乏力，ARPU提升空间有限，整体属中等偏高风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 44.16666666666666
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

@@ -11,15 +11,15 @@
     "ai_role": "评级 + 数据 + 指数 — AI 推动金融研究自动化",
     "price": 406.54998779296875,
     "change_1d": -4.15,
-    "composite": 48.21052631578947,
+    "composite": 50.44736842105263,
     "tier_letter": "A",
     "description": [
       "S&P Global 的 AI 产业链位置为 Financial / Research Data。",
-      "AI 角色：评级 + 数据 + 指数 — AI 推动金融研究自动化。当前内部综合评分 48。",
+      "AI 角色：评级 + 数据 + 指数 — AI 推动金融研究自动化。当前内部综合评分 50。",
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
     "status_label": "观察"
   },
   "panels": [
@@ -43,10 +43,10 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "2,587,817",
-        "量比20日": "1.11",
+        "成交量": "2,602,700",
+        "量比20日": "1.18",
         "52周高点": "430.13",
-        "52周低点": "401.02",
+        "52周低点": "401.00",
         "距52周高点": "-5.48%",
         "距52周低点": "+1.38%",
         "20日支撑": "—",
@@ -77,13 +77,13 @@
         "ROE": "13.94%",
         "债务/权益": "0.12",
         "市值": "$120.34B",
-        "企业价值": "$142.68B",
+        "企业价值": "$137.46B",
         "P/E TTM": "25.70",
         "Forward P/E": "18.31",
         "P/S": "7.65",
-        "EV/Sales": "9.07",
-        "EV/EBITDA": "18.12",
-        "EV/FCF": "26.93",
+        "EV/Sales": "8.74",
+        "EV/EBITDA": "17.46",
+        "EV/FCF": "25.94",
         "FCF收益率": "4.40%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 0.0,
+          "value": 17.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 30.0,
+          "value": 40.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 0.0,
+          "value": 17.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 100.0,
+          "value": 75.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 48.21052631578947,
+          "value": 50.44736842105263,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 534.0,
-        "target_high": 575.0,
-        "target_low": 480.0,
-        "upside_pct": 31.35,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 21,
-        "next_earnings": "2026-07-30",
-        "eps_estimate": 4.93485,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 52.421052631578945
+          "value": 50.44736842105263
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

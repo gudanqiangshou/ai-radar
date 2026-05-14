@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:18",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:58",
     "status_label": "持有"
   },
   "panels": [
@@ -43,7 +43,7 @@
         "RSI 14": "51.27",
         "MACD": "5.72",
         "20日波动率": "42.58%",
-        "成交量": "2,315,754",
+        "成交量": "2,316,200",
         "量比20日": "0.80",
         "52周高点": "435.43",
         "52周低点": "311.90",
@@ -77,13 +77,13 @@
         "ROE": "20.84%",
         "债务/权益": "0.14",
         "市值": "$158.01B",
-        "企业价值": "$177.04B",
-        "P/E TTM": "39.74",
+        "企业价值": "$179.14B",
+        "P/E TTM": "39.20",
         "Forward P/E": "25.93",
         "P/S": "5.54",
-        "EV/Sales": "6.21",
-        "EV/EBITDA": "27.91",
-        "EV/FCF": "66.90",
+        "EV/Sales": "6.28",
+        "EV/EBITDA": "28.24",
+        "EV/FCF": "67.69",
         "FCF收益率": "1.67%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:18",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 12:22:58",
       "data": {
-        "target_mean": 447.92108,
+        "target_mean": 447.59964,
         "target_high": 514.0,
         "target_low": 321.0,
-        "upside_pct": 10.07,
+        "upside_pct": 9.99,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 28,
         "next_earnings": "2026-08-04",
-        "eps_estimate": 3.07736,
+        "eps_estimate": 3.07123,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 59.15071428571429
+          "value": 60.54476190476191
         },
         {
           "date": "2026-05-14",
@@ -299,5 +299,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

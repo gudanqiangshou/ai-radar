@@ -11,16 +11,16 @@
     "ai_role": "L4 自动驾驶卡车 — Uber/Volvo 合作",
     "price": 8.399999618530273,
     "change_1d": 16.34,
-    "composite": 34.17647058823529,
+    "composite": 41.23529411764705,
     "tier_letter": "C",
     "description": [
       "Aurora Innovation 的 AI 产业链位置为 Autonomous / Mobility。",
-      "AI 角色：L4 自动驾驶卡车 — Uber/Volvo 合作。当前内部综合评分 34。",
+      "AI 角色：L4 自动驾驶卡车 — Uber/Volvo 合作。当前内部综合评分 41。",
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
-    "status_label": "减持"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "57,912,392",
-        "量比20日": "1.52",
+        "成交量": "58,403,900",
+        "量比20日": "2.06",
         "52周高点": "8.56",
         "52周低点": "6.90",
         "距52周高点": "-1.93%",
@@ -77,13 +77,13 @@
         "ROE": "-44.33%",
         "债务/权益": "0.00",
         "市值": "$16.47B",
-        "企业价值": "$13.01B",
+        "企业价值": "$15.33B",
         "P/E TTM": "—",
         "Forward P/E": "-19.84",
         "P/S": "4118.53",
-        "EV/Sales": "3253.47",
-        "EV/EBITDA": "-14.40",
-        "EV/FCF": "-32.39",
+        "EV/Sales": "3832.03",
+        "EV/EBITDA": "-16.96",
+        "EV/FCF": "-38.15",
         "FCF收益率": "-2.44%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 10.0,
+          "value": 25.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 15.0,
+          "value": 22.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 55.0,
+          "value": 62.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 34.17647058823529,
+          "value": 41.23529411764705,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 10.559,
-        "target_high": 15.0,
-        "target_low": 3.59,
-        "upside_pct": 25.7,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 10,
-        "next_earnings": "2026-07-30",
-        "eps_estimate": -0.12,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 34.17647058823529
+          "value": 41.23529411764705
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

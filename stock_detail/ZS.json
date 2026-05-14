@@ -11,15 +11,15 @@
     "ai_role": "零信任 SASE 代表 — AI 加速威胁检测",
     "price": 152.42999267578125,
     "change_1d": 4.28,
-    "composite": 69.23684210526315,
+    "composite": 58.54135338345865,
     "tier_letter": "B",
     "description": [
       "Zscaler 的 AI 产业链位置为 Cybersecurity。",
-      "AI 角色：零信任 SASE 代表 — AI 加速威胁检测。当前内部综合评分 69。",
+      "AI 角色：零信任 SASE 代表 — AI 加速威胁检测。当前内部综合评分 58。",
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "4,739,728",
-        "量比20日": "1.48",
+        "成交量": "4,805,900",
+        "量比20日": "1.98",
         "52周高点": "153.95",
         "52周低点": "143.03",
         "距52周高点": "-0.99%",
@@ -77,13 +77,13 @@
         "ROE": "-3.56%",
         "债务/权益": "0.08",
         "市值": "$24.51B",
-        "企业价值": "$21.86B",
+        "企业价值": "$22.86B",
         "P/E TTM": "—",
         "Forward P/E": "33.23",
         "P/S": "8.17",
-        "EV/Sales": "7.28",
-        "EV/EBITDA": "-321.33",
-        "EV/FCF": "21.41",
+        "EV/Sales": "7.62",
+        "EV/EBITDA": "-336.13",
+        "EV/FCF": "22.39",
         "FCF收益率": "4.17%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 77.5,
+          "value": 48.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 65.0,
+          "value": 80.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 65.0,
+          "value": 41.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 77.5,
+          "value": 67.14285714285714,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 69.23684210526315,
+          "value": 58.54135338345865,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 224.1189,
-        "target_high": 330.0,
-        "target_low": 140.0,
-        "upside_pct": 47.03,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 45,
-        "next_earnings": "2026-05-27",
-        "eps_estimate": 1.00868,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 69.23684210526315
+          "value": 58.54135338345865
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

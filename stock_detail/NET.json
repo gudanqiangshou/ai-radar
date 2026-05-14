@@ -11,15 +11,15 @@
     "ai_role": "边缘网络 + Workers AI 推理 — 边缘 AI 平台",
     "price": 192.6199951171875,
     "change_1d": 3.12,
-    "composite": 38.71052631578947,
+    "composite": 37.037593984962406,
     "tier_letter": "B",
     "description": [
       "Cloudflare 的 AI 产业链位置为 Cybersecurity。",
-      "AI 角色：边缘网络 + Workers AI 推理 — 边缘 AI 平台。当前内部综合评分 38。",
+      "AI 角色：边缘网络 + Workers AI 推理 — 边缘 AI 平台。当前内部综合评分 37。",
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
     "status_label": "减持"
   },
   "panels": [
@@ -43,12 +43,12 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "4,252,628",
-        "量比20日": "0.78",
+        "成交量": "4,257,800",
+        "量比20日": "0.70",
         "52周高点": "204.27",
-        "52周低点": "185.88",
+        "52周低点": "185.75",
         "距52周高点": "-5.70%",
-        "距52周低点": "+3.63%",
+        "距52周低点": "+3.70%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -77,13 +77,13 @@
         "ROE": "-5.88%",
         "债务/权益": "0.05",
         "市值": "$68.08B",
-        "企业价值": "$65.38B",
+        "企业价值": "$67.45B",
         "P/E TTM": "—",
         "Forward P/E": "126.73",
         "P/S": "29.24",
-        "EV/Sales": "28.08",
-        "EV/EBITDA": "-1802.07",
-        "EV/FCF": "86.60",
+        "EV/Sales": "28.96",
+        "EV/EBITDA": "-1858.87",
+        "EV/FCF": "89.33",
         "FCF收益率": "1.11%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 17.5,
+          "value": 10.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 70.0,
+          "value": 77.14285714285714,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 25.0,
+          "value": 14.285714285714285,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 22.5,
+          "value": 25.714285714285722,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 38.71052631578947,
+          "value": 37.037593984962406,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 234.17741,
-        "target_high": 300.0,
-        "target_low": 135.0,
-        "upside_pct": 21.57,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 31,
-        "next_earnings": "2026-07-31",
-        "eps_estimate": 0.2698,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 38.71052631578947
+          "value": 37.037593984962406
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

@@ -1,0 +1,201 @@
+{
+  "ticker": "INTU",
+  "name": "Intuit",
+  "header": {
+    "name": "Intuit",
+    "ticker": "INTU",
+    "sector": "AI Application",
+    "sector_id": "ai_application",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "TurboTax/QuickBooks AI 助手 — 个人/中小企业财税",
+    "price": 371.7099914550781,
+    "change_1d": -4.13,
+    "composite": 57.59210526315789,
+    "tier_letter": "B",
+    "description": [
+      "Intuit 的 AI 产业链位置为 AI Application。",
+      "AI 角色：TurboTax/QuickBooks AI 助手 — 个人/中小企业财税。当前内部综合评分 57。",
+      "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$371.71",
+        "日内涨跌": "-4.13%",
+        "1日涨跌": "-4.13%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-5.49%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "3,491,600",
+        "量比20日": "1.66",
+        "52周高点": "400.08",
+        "52周低点": "369.56",
+        "距52周高点": "-7.09%",
+        "距52周低点": "+0.58%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "AI Application",
+        "AI角色": "TurboTax/QuickBooks AI 助手 — 个人/中小企业财税",
+        "投资确定性": "—",
+        "收入": "$20.12B",
+        "收入同比": "17.40%",
+        "毛利率": "80.90%",
+        "经营利润率": "18.38%",
+        "净利率": "21.57%",
+        "经营现金流": "—",
+        "资本开支": "-$144.00M",
+        "自由现金流": "$5.30B",
+        "FCF利润率": "26.35%",
+        "现金及短投": "$2.98B",
+        "总债务": "$6.89B",
+        "净现金/债务": "-$2.44B",
+        "流通股本": "276.55M",
+        "ROE": "23.46%",
+        "债务/权益": "0.07",
+        "市值": "$103.44B",
+        "企业价值": "$106.71B",
+        "P/E TTM": "24.22",
+        "Forward P/E": "14.04",
+        "P/S": "5.14",
+        "EV/Sales": "5.30",
+        "EV/EBITDA": "17.47",
+        "EV/FCF": "20.13",
+        "FCF收益率": "5.13%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 66.25,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "Intuit凭借TurboTax/QuickBooks积累的海量财税数据构建AI训练壁垒，客户切换成本高（历史数据迁移复杂），品牌心智强。但AI原生竞争者（如Harvey、Bench）正侵蚀中小企业端，且核心税务场景受IRS免费报税计划政策威胁，护城河稳固但边界承压。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 35.0,
+          "reasoning": "Intuit将AI嵌入TurboTax/QuickBooks作为功能增强（Intuit Assist），但核心收入仍来自订阅税务/财务软件。AI提升留存率和ARPU，非独立变现产品。AI退潮对基本面冲击有限，属辅助受益而非AI原生标的。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 52.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 65.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 37.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 55.0,
+          "reasoning": "Intuit现金约30亿但长期负债54亿，财务杠杆适中。TurboTax/QuickBooks高度依赖美国税务季节性，监管风险显著（FTC曾起诉其免费报税误导行为）。AI竞争加剧（ChatGPT等可辅助报税），但生态系统黏性强、转换成本高。估值偏高（P/E约50x），回撤风险不可忽视。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 57.59210526315789,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Intuit（INTU）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Intuit凭借TurboTax/QuickBooks积累的海量财税数据构建AI训练壁垒，客户切换成本高（历史数据迁移复杂），品牌心智强。但AI原生竞争者（如Harvey、Bench）正侵蚀中小企业端，且核心税务场景受IRS免费报税计划政策威胁，护城河稳固但边界承压。 【ai_exposure】Intuit将AI嵌入TurboTax/QuickBooks作为功能增强（Intuit Assist），但核心收入仍来自订阅税务/财务软件。AI提升留存率和ARPU，非独立变现产品。AI退潮对基本面冲击有限，属辅助受益而非AI原生标的。 【risk】Intuit现金约30亿但长期负债54亿，财务杠杆适中。TurboTax/QuickBooks高度依赖美国税务季节性，监管风险显著（FTC曾起诉其免费报税误导行为）。AI竞争加剧（ChatGPT等可辅助报税），但生态系统黏性强、转换成本高。估值偏高（P/E约50x），回撤风险不可忽视。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 57.59210526315789
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

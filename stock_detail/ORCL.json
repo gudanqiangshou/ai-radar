@@ -11,15 +11,15 @@
     "ai_role": "OCI + AI 数据中心 GPU 租赁 — Stargate / OpenAI 长约",
     "price": 189.75999450683594,
     "change_1d": 1.57,
-    "composite": 50.94736842105262,
+    "composite": 54.421052631578945,
     "tier_letter": "B",
     "description": [
       "Oracle 的 AI 产业链位置为 Cloud / Hyperscaler。",
-      "AI 角色：OCI + AI 数据中心 GPU 租赁 — Stargate / OpenAI 长约。当前内部综合评分 50。",
+      "AI 角色：OCI + AI 数据中心 GPU 租赁 — Stargate / OpenAI 长约。当前内部综合评分 54。",
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
     "status_label": "观察"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "15,509,370",
-        "量比20日": "0.85",
+        "成交量": "15,739,000",
+        "量比20日": "0.81",
         "52周高点": "195.68",
         "52周低点": "180.87",
         "距52周高点": "-3.03%",
@@ -77,13 +77,13 @@
         "ROE": "57.57%",
         "债务/权益": "0.30",
         "市值": "$545.76B",
-        "企业价值": "$665.87B",
-        "P/E TTM": "34.07",
+        "企业价值": "$674.30B",
+        "P/E TTM": "33.59",
         "Forward P/E": "23.62",
         "P/S": "8.52",
-        "EV/Sales": "10.39",
-        "EV/EBITDA": "24.27",
-        "EV/FCF": "-29.86",
+        "EV/Sales": "10.52",
+        "EV/EBITDA": "24.57",
+        "EV/FCF": "-30.24",
         "FCF收益率": "-4.09%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 55.0,
+          "value": 64.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 30.0,
+          "value": 44.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 47.5,
+          "value": 58.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 35.0,
+          "value": 28.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 50.94736842105262,
+          "value": 54.421052631578945,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 242.74307,
-        "target_high": 400.0,
-        "target_low": 155.0,
-        "upside_pct": 27.92,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 39,
-        "next_earnings": "2026-06-11",
-        "eps_estimate": 1.95927,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 50.94736842105262
+          "value": 54.421052631578945
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

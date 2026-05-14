@@ -11,15 +11,15 @@
     "ai_role": "沉积 / CMP / 离子注入全栈 — AI 产能扩张直接受益",
     "price": 436.6099853515625,
     "change_1d": 1.25,
-    "composite": 43.789473684210535,
+    "composite": 52.63157894736842,
     "tier_letter": "A",
     "description": [
       "Applied Materials 的 AI 产业链位置为 Semiconductor Equipment。",
-      "AI 角色：沉积 / CMP / 离子注入全栈 — AI 产能扩张直接受益。当前内部综合评分 43。",
+      "AI 角色：沉积 / CMP / 离子注入全栈 — AI 产能扩张直接受益。当前内部综合评分 52。",
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
     "status_label": "观察"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "5,756,904",
-        "量比20日": "0.74",
+        "成交量": "7,793,800",
+        "量比20日": "0.88",
         "52周高点": "448.45",
         "52周低点": "416.56",
         "距52周高点": "-2.64%",
@@ -77,13 +77,13 @@
         "ROE": "38.86%",
         "债务/权益": "0.02",
         "市值": "$346.50B",
-        "企业价值": "$340.88B",
-        "P/E TTM": "44.78",
+        "企业价值": "$345.18B",
+        "P/E TTM": "44.83",
         "Forward P/E": "30.20",
         "P/S": "12.28",
-        "EV/Sales": "12.08",
-        "EV/EBITDA": "38.35",
-        "EV/FCF": "78.51",
+        "EV/Sales": "12.23",
+        "EV/EBITDA": "38.83",
+        "EV/FCF": "79.50",
         "FCF收益率": "1.25%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 0.0,
+          "value": 40.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 0.0,
+          "value": 8.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 0.0,
+          "value": 40.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 100.0,
+          "value": 68.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 43.789473684210535,
+          "value": 52.63157894736842,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
-      "data": {
-        "target_mean": 444.2353,
-        "target_high": 550.0,
-        "target_low": 280.0,
-        "upside_pct": 1.75,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 34,
-        "next_earnings": "2026-05-15",
-        "eps_estimate": 2.68393,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 45.192982456140356
+          "value": 52.63157894736842
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

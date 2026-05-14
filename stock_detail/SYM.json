@@ -11,15 +11,15 @@
     "ai_role": "AI 仓储机器人 — Walmart 大单核心客户",
     "price": 49.72999954223633,
     "change_1d": -3.1,
-    "composite": 30.947368421052627,
+    "composite": 31.789473684210524,
     "tier_letter": "C",
     "description": [
       "Symbotic 的 AI 产业链位置为 Industrial Automation / Robotics。",
-      "AI 角色：AI 仓储机器人 — Walmart 大单核心客户。当前内部综合评分 30。",
+      "AI 角色：AI 仓储机器人 — Walmart 大单核心客户。当前内部综合评分 31。",
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
     "status_label": "减持"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "2,186,349",
-        "量比20日": "1.20",
+        "成交量": "2,203,800",
+        "量比20日": "1.35",
         "52周高点": "53.61",
         "52周低点": "48.13",
         "距52周高点": "-7.24%",
@@ -77,13 +77,13 @@
         "ROE": "-5.73%",
         "债务/权益": "0.00",
         "市值": "$30.02B",
-        "企业价值": "$4.89B",
+        "企业价值": "$4.69B",
         "P/E TTM": "—",
         "Forward P/E": "65.22",
         "P/S": "11.93",
-        "EV/Sales": "1.94",
-        "EV/EBITDA": "215.90",
-        "EV/FCF": "14.76",
+        "EV/Sales": "1.86",
+        "EV/EBITDA": "206.97",
+        "EV/FCF": "14.15",
         "FCF收益率": "1.10%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 60.0,
+          "value": 68.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 30.947368421052627,
+          "value": 31.789473684210524,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 65.39882,
-        "target_high": 84.0,
-        "target_low": 44.0,
-        "upside_pct": 31.51,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 17,
-        "next_earnings": "2026-07-28",
-        "eps_estimate": 0.12509,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 32.35087719298245
+          "value": 31.789473684210524
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

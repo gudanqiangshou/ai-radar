@@ -11,16 +11,16 @@
     "ai_role": "Firefly 创意 AI + Acrobat AI Assistant",
     "price": 236.07000732421875,
     "change_1d": -1.98,
-    "composite": 74.57894736842104,
+    "composite": 76.55263157894736,
     "tier_letter": "B",
     "description": [
       "Adobe 的 AI 产业链位置为 AI Application。",
-      "AI 角色：Firefly 创意 AI + Acrobat AI Assistant。当前内部综合评分 74。",
+      "AI 角色：Firefly 创意 AI + Acrobat AI Assistant。当前内部综合评分 76。",
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
-    "status_label": "持有"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
+    "status_label": "买入区"
   },
   "panels": [
     {
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "3,794,898",
-        "量比20日": "1.11",
+        "成交量": "3,867,100",
+        "量比20日": "1.20",
         "52周高点": "255.41",
         "52周低点": "232.84",
         "距52周高点": "-7.57%",
@@ -77,13 +77,13 @@
         "ROE": "58.77%",
         "债务/权益": "0.07",
         "市值": "$95.42B",
-        "企业价值": "$97.11B",
-        "P/E TTM": "13.75",
+        "企业价值": "$95.19B",
+        "P/E TTM": "14.03",
         "Forward P/E": "8.95",
         "P/S": "3.90",
-        "EV/Sales": "3.97",
-        "EV/EBITDA": "10.21",
-        "EV/FCF": "10.42",
+        "EV/Sales": "3.89",
+        "EV/EBITDA": "10.00",
+        "EV/FCF": "10.21",
         "FCF收益率": "9.77%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 90.0,
+          "value": 95.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 55.0,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 82.5,
+          "value": 91.25,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 75.0,
+          "value": 76.25,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 74.57894736842104,
+          "value": 76.55263157894736,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 327.955,
-        "target_high": 487.0,
-        "target_low": 220.0,
-        "upside_pct": 38.92,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 34,
-        "next_earnings": "2026-06-12",
-        "eps_estimate": 5.82517,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 73.52631578947367
+          "value": 76.55263157894736
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

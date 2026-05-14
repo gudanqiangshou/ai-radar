@@ -11,15 +11,15 @@
     "ai_role": "数据中心光通信 + 3D 感测 — Apple/AI 双概念",
     "price": 1030.3699951171875,
     "change_1d": 3.83,
-    "composite": 52.94736842105263,
+    "composite": 45.8421052631579,
     "tier_letter": "B",
     "description": [
       "Lumentum Holdings 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：数据中心光通信 + 3D 感测 — Apple/AI 双概念。当前内部综合评分 52。",
+      "AI 角色：数据中心光通信 + 3D 感测 — Apple/AI 双概念。当前内部综合评分 45。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
     "status_label": "观察"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "4,351,677",
-        "量比20日": "0.61",
+        "成交量": "4,377,400",
+        "量比20日": "0.51",
         "52周高点": "1085.68",
         "52周低点": "937.64",
         "距52周高点": "-5.09%",
@@ -77,13 +77,13 @@
         "ROE": "22.83%",
         "债务/权益": "0.04",
         "市值": "$80.16B",
-        "企业价值": "$71.29B",
-        "P/E TTM": "182.04",
+        "企业价值": "$74.02B",
+        "P/E TTM": "181.72",
         "Forward P/E": "57.24",
         "P/S": "32.21",
-        "EV/Sales": "28.65",
-        "EV/EBITDA": "140.12",
-        "EV/FCF": "763.73",
+        "EV/Sales": "29.75",
+        "EV/EBITDA": "145.48",
+        "EV/FCF": "792.92",
         "FCF收益率": "0.12%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 56.66666666666666,
+          "value": 45.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 60.0,
+          "value": 66.66666666666667,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 66.66666666666666,
+          "value": 55.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 23.333333333333343,
+          "value": 6.666666666666657,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 52.94736842105263,
+          "value": 45.8421052631579,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 1104.6841,
-        "target_high": 1400.0,
-        "target_low": 600.0,
-        "upside_pct": 7.21,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 24,
-        "next_earnings": "2026-05-06",
-        "eps_estimate": 2.96184,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 52.94736842105263
+          "value": 45.8421052631579
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

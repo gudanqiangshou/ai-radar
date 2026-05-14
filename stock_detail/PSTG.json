@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "全闪存阵列 — Meta AI 大单签约，AI 数据存储",
-    "price": 83.33000183105469,
-    "change_1d": -4.59,
-    "composite": 50.85294117647059,
+    "price": 84.43000030517578,
+    "change_1d": 1.32,
+    "composite": 47.1764705882353,
     "tier_letter": "B",
     "description": [
       "Pure Storage 的 AI 产业链位置为 Data Center Infrastructure。",
-      "AI 角色：全闪存阵列 — Meta AI 大单签约，AI 数据存储。当前内部综合评分 50。",
+      "AI 角色：全闪存阵列 — Meta AI 大单签约，AI 数据存储。当前内部综合评分 47。",
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$83.33",
-        "日内涨跌": "-4.59%",
-        "1日涨跌": "-4.59%",
+        "最新价": "$84.43",
+        "日内涨跌": "+1.32%",
+        "1日涨跌": "+1.32%",
         "5日涨跌": "—",
         "1月涨跌": "—",
         "3月涨跌": "—",
         "6月涨跌": "—",
         "1年涨跌": "—",
-        "YTD涨跌": "-4.59%",
+        "YTD涨跌": "-3.33%",
         "20日均线": "—",
         "50日均线": "—",
         "200日均线": "—",
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "4,149,197",
-        "量比20日": "0.54",
+        "成交量": "2,616,772",
+        "量比20日": "0.34",
         "52周高点": "93.92",
         "52周低点": "80.03",
-        "距52周高点": "-11.28%",
-        "距52周低点": "+4.12%",
+        "距52周高点": "-10.10%",
+        "距52周低点": "+5.50%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 47.5,
+          "value": 33.333333333333336,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 27.499999999999996,
+          "value": 20.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 52.5,
+          "value": 58.333333333333336,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 50.85294117647059,
+          "value": 47.1764705882353,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 89.89474,
-        "target_high": 105.0,
-        "target_low": 63.0,
-        "upside_pct": 7.88,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 19,
-        "next_earnings": "2026-05-28",
-        "eps_estimate": 0.39506,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -274,7 +261,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 50.85294117647059
+          "value": 47.1764705882353
         },
         {
           "date": "2026-05-14",
@@ -283,5 +270,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:59",
     "status_label": "观察"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "47.49",
         "MACD": "0.52",
         "20日波动率": "66.18%",
-        "成交量": "3,341,079",
-        "量比20日": "1.02",
+        "成交量": "3,362,800",
+        "量比20日": "1.03",
         "52周高点": "135.24",
         "52周低点": "50.03",
         "距52周高点": "-14.68%",
@@ -77,13 +77,13 @@
         "ROE": "9.60%",
         "债务/权益": "0.02",
         "市值": "$50.26B",
-        "企业价值": "$50.83B",
-        "P/E TTM": "105.86",
-        "Forward P/E": "59.43",
+        "企业价值": "$50.16B",
+        "P/E TTM": "107.84",
+        "Forward P/E": "59.51",
         "P/S": "14.21",
-        "EV/Sales": "14.37",
-        "EV/EBITDA": "56.86",
-        "EV/FCF": "81.35",
+        "EV/Sales": "14.18",
+        "EV/EBITDA": "56.11",
+        "EV/FCF": "80.28",
         "FCF收益率": "1.24%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 12:22:59",
       "data": {
-        "target_mean": 138.39476,
-        "target_high": 173.86995,
-        "target_low": 82.29658,
-        "upside_pct": 19.94,
+        "target_mean": 138.46548,
+        "target_high": 173.95882,
+        "target_low": 82.33864,
+        "upside_pct": 20.0,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 50.80071428571429
+          "value": 48.55666666666667
         },
         {
           "date": "2026-05-14",
@@ -299,5 +299,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

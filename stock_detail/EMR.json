@@ -11,15 +11,15 @@
     "ai_role": "过程自动化 + 工业软件 — Aspen Tech 合并增强 AI 化",
     "price": 137.75999450683594,
     "change_1d": 0.35,
-    "composite": 67.12280701754386,
+    "composite": 65.47368421052632,
     "tier_letter": "B",
     "description": [
       "Emerson Electric 的 AI 产业链位置为 Industrial Automation / Robotics。",
-      "AI 角色：过程自动化 + 工业软件 — Aspen Tech 合并增强 AI 化。当前内部综合评分 67。",
+      "AI 角色：过程自动化 + 工业软件 — Aspen Tech 合并增强 AI 化。当前内部综合评分 65。",
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
     "status_label": "持有"
   },
   "panels": [
@@ -43,7 +43,7 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "2,964,556",
+        "成交量": "2,964,600",
         "量比20日": "1.00",
         "52周高点": "141.50",
         "52周低点": "134.50",
@@ -77,13 +77,13 @@
         "ROE": "12.33%",
         "债务/权益": "0.18",
         "市值": "$77.16B",
-        "企业价值": "$89.17B",
-        "P/E TTM": "31.89",
+        "企业价值": "$89.44B",
+        "P/E TTM": "31.82",
         "Forward P/E": "19.26",
         "P/S": "4.21",
-        "EV/Sales": "4.87",
-        "EV/EBITDA": "15.18",
-        "EV/FCF": "27.25",
+        "EV/Sales": "4.88",
+        "EV/EBITDA": "15.22",
+        "EV/FCF": "27.33",
         "FCF收益率": "4.24%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 80.0,
+          "value": 78.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 33.33333333333333,
+          "value": 28.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 80.0,
+          "value": 76.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 66.66666666666667,
+          "value": 66.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 67.12280701754386,
+          "value": 65.47368421052632,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 164.87259,
-        "target_high": 205.0,
-        "target_low": 104.0,
-        "upside_pct": 19.68,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 27,
-        "next_earnings": "2026-08-06",
-        "eps_estimate": 1.68089,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 65.71929824561404
+          "value": 65.47368421052632
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

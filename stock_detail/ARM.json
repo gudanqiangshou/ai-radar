@@ -11,15 +11,15 @@
     "ai_role": "IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座",
     "price": 221.2100067138672,
     "change_1d": 6.39,
-    "composite": 51.26315789473684,
+    "composite": 52.06578947368421,
     "tier_letter": "B",
     "description": [
       "ARM Holdings 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座。当前内部综合评分 51。",
+      "AI 角色：IP 授权 — Neoverse 服务器架构 + 终端 AI SoC 通用基座。当前内部综合评分 52。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:59",
     "status_label": "观察"
   },
   "panels": [
@@ -43,7 +43,7 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "8,363,611",
+        "成交量": "8,651,700",
         "量比20日": "0.94",
         "52周高点": "222.47",
         "52周低点": "200.89",
@@ -77,13 +77,13 @@
         "ROE": "11.27%",
         "债务/权益": "0.00",
         "市值": "$235.37B",
-        "企业价值": "$217.64B",
-        "P/E TTM": "260.25",
-        "Forward P/E": "73.24",
+        "企业价值": "$231.76B",
+        "P/E TTM": "263.35",
+        "Forward P/E": "72.45",
         "P/S": "50.39",
-        "EV/Sales": "46.59",
-        "EV/EBITDA": "200.81",
-        "EV/FCF": "263.89",
+        "EV/Sales": "49.62",
+        "EV/EBITDA": "213.84",
+        "EV/FCF": "281.00",
         "FCF收益率": "0.35%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 62.0,
+          "value": 61.25,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 44.0,
+          "value": 60.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 48.0,
+          "value": 47.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 8.0,
+          "value": 5.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 51.26315789473684,
+          "value": 52.06578947368421,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
-      "data": {
-        "target_mean": 223.14417,
-        "target_high": 326.0,
-        "target_low": 125.0,
-        "upside_pct": 0.87,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 36,
-        "next_earnings": "2026-07-30",
-        "eps_estimate": 0.3982,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:22:59",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 50.42105263157895
+          "value": 52.06578947368421
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

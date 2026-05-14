@@ -11,15 +11,15 @@
     "ai_role": "Azure + OpenAI 战略股东 — 企业 AI 软件商业化最深",
     "price": 405.2099914550781,
     "change_1d": -0.63,
-    "composite": 71.55263157894736,
+    "composite": 69.57894736842105,
     "tier_letter": "A",
     "description": [
       "Microsoft 的 AI 产业链位置为 Cloud / Hyperscaler。",
-      "AI 角色：Azure + OpenAI 战略股东 — 企业 AI 软件商业化最深。当前内部综合评分 71。",
+      "AI 角色：Azure + OpenAI 战略股东 — 企业 AI 软件商业化最深。当前内部综合评分 69。",
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "27,753,784",
-        "量比20日": "0.82",
+        "成交量": "29,590,500",
+        "量比20日": "0.80",
         "52周高点": "415.50",
         "52周低点": "401.03",
         "距52周高点": "-2.48%",
@@ -77,13 +77,13 @@
         "ROE": "34.01%",
         "债务/权益": "0.04",
         "市值": "$3.01T",
-        "企业价值": "$3.08T",
+        "企业价值": "$3.06T",
         "P/E TTM": "24.12",
         "Forward P/E": "20.94",
         "P/S": "9.46",
-        "EV/Sales": "9.67",
-        "EV/EBITDA": "16.68",
-        "EV/FCF": "83.12",
+        "EV/Sales": "9.61",
+        "EV/EBITDA": "16.57",
+        "EV/FCF": "82.60",
         "FCF收益率": "1.23%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 77.5,
+          "value": 76.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 25.0,
+          "value": 40.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 85.0,
+          "value": 82.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 67.5,
+          "value": 54.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 71.55263157894736,
+          "value": 69.57894736842105,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 561.5561,
-        "target_high": 870.0,
-        "target_low": 400.0,
-        "upside_pct": 38.58,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 54,
-        "next_earnings": "2026-07-30",
-        "eps_estimate": 4.24777,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 71.55263157894736
+          "value": 69.57894736842105
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

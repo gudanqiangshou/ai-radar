@@ -11,15 +11,15 @@
     "ai_role": "平台化整合 — Prisma SASE + Cortex AI XDR",
     "price": 227.7899932861328,
     "change_1d": 5.65,
-    "composite": 62.60526315789473,
+    "composite": 56.27067669172932,
     "tier_letter": "B",
     "description": [
       "Palo Alto Networks 的 AI 产业链位置为 Cybersecurity。",
-      "AI 角色：平台化整合 — Prisma SASE + Cortex AI XDR。当前内部综合评分 62。",
+      "AI 角色：平台化整合 — Prisma SASE + Cortex AI XDR。当前内部综合评分 56。",
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "9,325,550",
-        "量比20日": "1.04",
+        "成交量": "9,330,700",
+        "量比20日": "1.05",
         "52周高点": "228.85",
         "52周低点": "205.65",
         "距52周高点": "-0.46%",
@@ -77,13 +77,13 @@
         "ROE": "16.26%",
         "债务/权益": "0.00",
         "市值": "$184.74B",
-        "企业价值": "$171.85B",
-        "P/E TTM": "127.26",
+        "企业价值": "$181.80B",
+        "P/E TTM": "120.52",
         "Forward P/E": "57.38",
         "P/S": "18.67",
-        "EV/Sales": "17.37",
-        "EV/EBITDA": "111.85",
-        "EV/FCF": "60.10",
+        "EV/Sales": "18.38",
+        "EV/EBITDA": "118.32",
+        "EV/FCF": "63.58",
         "FCF收益率": "1.55%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 77.5,
+          "value": 64.28571428571428,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 40.0,
+          "value": 57.14285714285714,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 100.0,
+          "value": 85.71428571428571,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 35.0,
+          "value": 20.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 62.60526315789473,
+          "value": 56.27067669172932,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 207.5608,
-        "target_high": 265.0,
-        "target_low": 114.0,
-        "upside_pct": -8.88,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 50,
-        "next_earnings": "2026-06-03",
-        "eps_estimate": 0.79707,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 62.60526315789473
+          "value": 56.27067669172932
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

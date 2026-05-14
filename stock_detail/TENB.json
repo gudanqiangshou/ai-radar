@@ -1,0 +1,201 @@
+{
+  "ticker": "TENB",
+  "name": "Tenable",
+  "header": {
+    "name": "Tenable",
+    "ticker": "TENB",
+    "sector": "Cybersecurity",
+    "sector_id": "cybersecurity",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "漏洞管理 + 暴露面 — 攻击面降级",
+    "price": 20.579999923706055,
+    "change_1d": -2.05,
+    "composite": 54.390977443609025,
+    "tier_letter": "C",
+    "description": [
+      "Tenable 的 AI 产业链位置为 Cybersecurity。",
+      "AI 角色：漏洞管理 + 暴露面 — 攻击面降级。当前内部综合评分 54。",
+      "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$20.58",
+        "日内涨跌": "-2.05%",
+        "1日涨跌": "-2.05%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-3.43%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "3,794,800",
+        "量比20日": "1.72",
+        "52周高点": "22.13",
+        "52周低点": "20.06",
+        "距52周高点": "-7.00%",
+        "距52周低点": "+2.59%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Cybersecurity",
+        "AI角色": "漏洞管理 + 暴露面 — 攻击面降级",
+        "投资确定性": "—",
+        "收入": "$1.02B",
+        "收入同比": "9.60%",
+        "毛利率": "78.17%",
+        "经营利润率": "4.27%",
+        "净利率": "-1.15%",
+        "经营现金流": "—",
+        "资本开支": "-$14.73M",
+        "自由现金流": "$255.80M",
+        "FCF利润率": "25.02%",
+        "现金及短投": "$360.26M",
+        "总债务": "$421.80M",
+        "净现金/债务": "$6.67M",
+        "流通股本": "110.27M",
+        "ROE": "-3.73%",
+        "债务/权益": "0.19",
+        "市值": "$2.27B",
+        "企业价值": "$2.33B",
+        "P/E TTM": "—",
+        "Forward P/E": "9.50",
+        "P/S": "2.22",
+        "EV/Sales": "2.28",
+        "EV/EBITDA": "57.50",
+        "EV/FCF": "9.11",
+        "FCF收益率": "11.27%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 61.42857142857143,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "Tenable凭借Nessus扫描器的行业心智与庞大漏洞数据库构建了一定护城河，客户切换成本中等。但竞争对手（Qualys、Rapid7、CrowdStrike）持续侵蚀市场，净利率接近零显示盈利转化弱，规模效应尚未充分体现，护城河宽度中等偏上。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 22.0,
+          "reasoning": "Tenable核心业务是漏洞管理与暴露面评估，AI主要用于增强ExposureAI功能（风险优先级排序、攻击路径预测），属于产品差异化工具而非收入主驱动。AI capex浪潮间接带动企业安全预算，但Tenable营收增长主要依赖订阅续约与客户扩张，AI退潮对其基本面冲击有限。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 5.714285714285714,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 52.857142857142854,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 74.28571428571429,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 42.0,
+          "reasoning": "现金(3.6亿)与长期负债(3.5亿)基本持平，流动性尚可但空间有限。漏洞管理赛道竞争激烈（Qualys、Rapid7、CrowdStrike扩张），AI驱动的自动化修复可能压缩传统扫描工具需求。增长放缓叠加高估值倍数，回撤风险中等偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 54.390977443609025,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Tenable（TENB）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Tenable凭借Nessus扫描器的行业心智与庞大漏洞数据库构建了一定护城河，客户切换成本中等。但竞争对手（Qualys、Rapid7、CrowdStrike）持续侵蚀市场，净利率接近零显示盈利转化弱，规模效应尚未充分体现，护城河宽度中等偏上。 【ai_exposure】Tenable核心业务是漏洞管理与暴露面评估，AI主要用于增强ExposureAI功能（风险优先级排序、攻击路径预测），属于产品差异化工具而非收入主驱动。AI capex浪潮间接带动企业安全预算，但Tenable营收增长主要依赖订阅续约与客户扩张，AI退潮对其基本面冲击有限。 【risk】现金(3.6亿)与长期负债(3.5亿)基本持平，流动性尚可但空间有限。漏洞管理赛道竞争激烈（Qualys、Rapid7、CrowdStrike扩张），AI驱动的自动化修复可能压缩传统扫描工具需求。增长放缓叠加高估值倍数，回撤风险中等偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 54.390977443609025
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

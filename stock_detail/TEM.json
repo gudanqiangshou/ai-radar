@@ -11,15 +11,15 @@
     "ai_role": "肿瘤 AI 数据平台 — 多模态临床+基因数据",
     "price": 45.900001525878906,
     "change_1d": -2.24,
-    "composite": 44.63157894736842,
+    "composite": 51.868421052631575,
     "tier_letter": "B",
     "description": [
       "Tempus AI 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：肿瘤 AI 数据平台 — 多模态临床+基因数据。当前内部综合评分 44。",
+      "AI 角色：肿瘤 AI 数据平台 — 多模态临床+基因数据。当前内部综合评分 51。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
     "status_label": "观察"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "5,751,015",
-        "量比20日": "0.85",
+        "成交量": "5,866,800",
+        "量比20日": "0.80",
         "52周高点": "49.50",
         "52周低点": "45.25",
         "距52周高点": "-7.27%",
@@ -77,13 +77,13 @@
         "ROE": "-81.58%",
         "债务/权益": "0.16",
         "市值": "$8.24B",
-        "企业价值": "$9.11B",
+        "企业价值": "$8.92B",
         "P/E TTM": "—",
         "Forward P/E": "-337.92",
         "P/S": "6.04",
-        "EV/Sales": "6.68",
-        "EV/EBITDA": "-49.18",
-        "EV/FCF": "-163.38",
+        "EV/Sales": "6.54",
+        "EV/EBITDA": "-48.16",
+        "EV/FCF": "-160.00",
         "FCF收益率": "-0.68%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 0.0,
+          "value": 22.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 60.0,
+          "value": 30.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 0.0,
+          "value": 27.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 85.0,
+          "value": 92.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 44.63157894736842,
+          "value": 51.868421052631575,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 67.2,
-        "target_high": 100.0,
-        "target_low": 35.0,
-        "upside_pct": 46.41,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 15,
-        "next_earnings": "2026-05-06",
-        "eps_estimate": -0.16,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 44.63157894736842
+          "value": 51.868421052631575
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

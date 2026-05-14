@@ -11,15 +11,15 @@
     "ai_role": "EDA 龙头 + Ansys 合并增强多物理仿真",
     "price": 509.2799987792969,
     "change_1d": -0.77,
-    "composite": 49.26315789473684,
+    "composite": 50.05263157894737,
     "tier_letter": "A",
     "description": [
       "Synopsys 的 AI 产业链位置为 EDA / Design Software。",
-      "AI 角色：EDA 龙头 + Ansys 合并增强多物理仿真。当前内部综合评分 49。",
+      "AI 角色：EDA 龙头 + Ansys 合并增强多物理仿真。当前内部综合评分 50。",
       "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
     "status_label": "观察"
   },
   "panels": [
@@ -43,12 +43,12 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "1,334,323",
-        "量比20日": "1.04",
+        "成交量": "1,334,600",
+        "量比20日": "1.06",
         "52周高点": "519.71",
-        "52周低点": "502.29",
+        "52周低点": "502.27",
         "距52周高点": "-2.01%",
-        "距52周低点": "+1.39%",
+        "距52周低点": "+1.40%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -77,13 +77,13 @@
         "ROE": "5.54%",
         "债务/权益": "0.11",
         "市值": "$97.56B",
-        "企业价值": "$106.98B",
+        "企业价值": "$106.22B",
         "P/E TTM": "78.11",
         "Forward P/E": "29.87",
         "P/S": "12.18",
-        "EV/Sales": "13.36",
-        "EV/EBITDA": "66.24",
-        "EV/FCF": "34.55",
+        "EV/Sales": "13.27",
+        "EV/EBITDA": "65.77",
+        "EV/FCF": "34.31",
         "FCF收益率": "3.17%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 0.0,
+          "value": 15.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 70.0,
+          "value": 55.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 49.26315789473684,
+          "value": 50.05263157894737,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 534.6481,
-        "target_high": 650.0,
-        "target_low": 403.85,
-        "upside_pct": 4.98,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 26,
-        "next_earnings": "2026-05-28",
-        "eps_estimate": 3.15016,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -268,14 +255,6 @@
           "title": "How The Synopsys (SNPS) Story Is Shifting Through The Ansys Integration And Transition Year",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-06",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/synopsys-inc-snps-attracting-investor-130003949.html",
-          "title": "Synopsys, Inc. (SNPS) is Attracting Investor Attention: Here is What You Should Know",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -290,7 +269,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 49.26315789473684
+          "value": 50.05263157894737
         },
         {
           "date": "2026-05-14",
@@ -299,5 +278,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

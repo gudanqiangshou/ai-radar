@@ -11,15 +11,15 @@
     "ai_role": "达芬奇手术机器人 — 全球垄断 + AI 辅助手术演进",
     "price": 432.2699890136719,
     "change_1d": 0.09,
-    "composite": 59.31578947368421,
+    "composite": 63.39473684210527,
     "tier_letter": "A",
     "description": [
       "Intuitive Surgical 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：达芬奇手术机器人 — 全球垄断 + AI 辅助手术演进。当前内部综合评分 59。",
+      "AI 角色：达芬奇手术机器人 — 全球垄断 + AI 辅助手术演进。当前内部综合评分 63。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "1,973,913",
-        "量比20日": "0.71",
+        "成交量": "1,996,000",
+        "量比20日": "0.63",
         "52周高点": "448.75",
         "52周低点": "417.74",
         "距52周高点": "-3.67%",
@@ -77,13 +77,13 @@
         "ROE": "17.23%",
         "债务/权益": "0.00",
         "市值": "$153.09B",
-        "企业价值": "$148.56B",
-        "P/E TTM": "52.40",
+        "企业价值": "$148.70B",
+        "P/E TTM": "52.65",
         "Forward P/E": "36.63",
         "P/S": "14.47",
-        "EV/Sales": "14.04",
-        "EV/EBITDA": "38.23",
-        "EV/FCF": "65.91",
+        "EV/Sales": "14.05",
+        "EV/EBITDA": "38.27",
+        "EV/FCF": "65.97",
         "FCF收益率": "1.47%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 75.0,
+          "value": 87.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 70.0,
+          "value": 55.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 85.0,
+          "value": 92.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 0.0,
+          "value": 7.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 59.31578947368421,
+          "value": 63.39473684210527,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 576.9062,
-        "target_high": 750.0,
-        "target_low": 378.0,
-        "upside_pct": 33.46,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 29,
-        "next_earnings": "2026-07-22",
-        "eps_estimate": 2.50278,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 59.31578947368421
+          "value": 63.39473684210527
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

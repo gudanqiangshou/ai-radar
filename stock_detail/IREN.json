@@ -11,15 +11,15 @@
     "ai_role": "矿场转型 GPU 云 — 比特币 + AI 双业务",
     "price": 55.16999816894531,
     "change_1d": -2.46,
-    "composite": 43.92982456140351,
+    "composite": 52.210526315789465,
     "tier_letter": "C",
     "description": [
       "Iris Energy 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：矿场转型 GPU 云 — 比特币 + AI 双业务。当前内部综合评分 43。",
+      "AI 角色：矿场转型 GPU 云 — 比特币 + AI 双业务。当前内部综合评分 52。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
     "status_label": "观察"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "48,806,267",
-        "量比20日": "0.62",
+        "成交量": "49,307,900",
+        "量比20日": "0.52",
         "52周高点": "61.72",
         "52周低点": "52.36",
         "距52周高点": "-10.61%",
@@ -77,13 +77,13 @@
         "ROE": "7.73%",
         "债务/权益": "0.20",
         "市值": "$19.72B",
-        "企业价值": "$21.96B",
+        "企业价值": "$21.47B",
         "P/E TTM": "71.65",
         "Forward P/E": "-41.02",
         "P/S": "26.04",
-        "EV/Sales": "29.01",
-        "EV/EBITDA": "149.24",
-        "EV/FCF": "-9.50",
+        "EV/Sales": "28.36",
+        "EV/EBITDA": "145.87",
+        "EV/FCF": "-9.29",
         "FCF收益率": "-11.72%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 66.66666666666667,
+          "value": 80.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 13.333333333333332,
+          "value": 28.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 73.33333333333333,
+          "value": 84.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 30.0,
+          "value": 40.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 43.92982456140351,
+          "value": 52.210526315789465,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 74.07143,
-        "target_high": 105.0,
-        "target_low": 41.0,
-        "upside_pct": 34.26,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 14,
-        "next_earnings": "2026-05-08",
-        "eps_estimate": -0.46,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 46.73684210526316
+          "value": 52.210526315789465
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

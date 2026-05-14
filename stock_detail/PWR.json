@@ -11,7 +11,7 @@
     "ai_role": "电网 EPC 工程龙头，AI 电力扩张铲子",
     "price": 773.719970703125,
     "change_1d": 1.03,
-    "composite": 48.47571428571428,
+    "composite": 48.19,
     "tier_letter": "B",
     "description": [
       "Quanta Services 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:58",
     "status_label": "观察"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "71.97",
         "MACD": "51.24",
         "20日波动率": "62.87%",
-        "成交量": "1,129,048",
-        "量比20日": "0.94",
+        "成交量": "1,146,400",
+        "量比20日": "0.96",
         "52周高点": "788.75",
         "52周低点": "320.56",
         "距52周高点": "-1.91%",
@@ -77,13 +77,13 @@
         "ROE": "13.53%",
         "债务/权益": "0.05",
         "市值": "$116.10B",
-        "企业价值": "$120.97B",
-        "P/E TTM": "106.28",
+        "企业价值": "$122.16B",
+        "P/E TTM": "105.27",
         "Forward P/E": "47.16",
         "P/S": "3.85",
-        "EV/Sales": "4.02",
-        "EV/EBITDA": "45.49",
-        "EV/FCF": "116.63",
+        "EV/Sales": "4.06",
+        "EV/EBITDA": "45.94",
+        "EV/FCF": "117.78",
         "FCF收益率": "0.89%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 36.45238095238095,
+          "value": 35.02380952380952,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 48.47571428571428,
+          "value": 48.19,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 12:22:58",
       "data": {
         "target_mean": 747.8408,
         "target_high": 901.0,
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 44.89833333333333
+          "value": 48.19
         },
         {
           "date": "2026-05-14",
@@ -299,5 +299,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

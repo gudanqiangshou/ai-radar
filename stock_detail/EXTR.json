@@ -1,0 +1,201 @@
+{
+  "ticker": "EXTR",
+  "name": "Extreme Networks",
+  "header": {
+    "name": "Extreme Networks",
+    "ticker": "EXTR",
+    "sector": "Networking / Optical",
+    "sector_id": "networking_optical",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "云原生网络管理 — 边缘 AI 网络",
+    "price": 22.770000457763672,
+    "change_1d": -0.09,
+    "composite": 42.84210526315789,
+    "tier_letter": "C",
+    "description": [
+      "Extreme Networks 的 AI 产业链位置为 Networking / Optical。",
+      "AI 角色：云原生网络管理 — 边缘 AI 网络。当前内部综合评分 42。",
+      "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$22.77",
+        "日内涨跌": "-0.09%",
+        "1日涨跌": "-0.09%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-6.33%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "2,714,500",
+        "量比20日": "1.21",
+        "52周高点": "24.50",
+        "52周低点": "22.33",
+        "距52周高点": "-7.06%",
+        "距52周低点": "+1.97%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Networking / Optical",
+        "AI角色": "云原生网络管理 — 边缘 AI 网络",
+        "投资确定性": "—",
+        "收入": "$1.25B",
+        "收入同比": "11.40%",
+        "毛利率": "61.32%",
+        "经营利润率": "5.47%",
+        "净利率": "1.30%",
+        "经营现金流": "—",
+        "资本开支": "-$27.01M",
+        "自由现金流": "$124.76M",
+        "FCF利润率": "9.96%",
+        "现金及短投": "$210.11M",
+        "总债务": "$235.74M",
+        "净现金/债务": "$60.89M",
+        "流通股本": "130.78M",
+        "ROE": "21.60%",
+        "债务/权益": "0.08",
+        "市值": "$2.98B",
+        "企业价值": "$3.00B",
+        "P/E TTM": "189.75",
+        "Forward P/E": "17.49",
+        "P/S": "2.38",
+        "EV/Sales": "2.40",
+        "EV/EBITDA": "31.96",
+        "EV/FCF": "24.07",
+        "FCF收益率": "4.19%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 30.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 42.0,
+          "reasoning": "EXTR在教育、医疗、体育场馆等垂直市场有一定客户粘性，ExtremeCloud IQ形成软硬件绑定。但规模远小于Cisco/HPE/Juniper，品牌心智弱，技术专利壁垒有限，净利率仅1%显示定价权不足，护城河整体偏窄。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 28.0,
+          "reasoning": "EXTR主要收入来自企业/校园网络交换机和无线接入点，AI驱动需求有限。其ExtremeCloud平台集成AI运维功能，但属于锦上添花而非核心增长引擎。AI数据中心网络并非其主战场，主要竞争对手为Cisco/HPE Aruba，AI capex直接拉动效应较弱。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 19.999999999999996,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 15.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 90.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 38.0,
+          "reasoning": "EXTR现金2.1亿尚可但长期负债1.49亿，负债率数据缺失增加不确定性。公司规模偏小，面临思科、HPE Aruba等巨头竞争压力，客户集中度数据缺失为潜在隐患。边缘AI网络赛道技术迭代快，替代风险中等偏高。无近期新闻导致信息透明度不足，综合评估偏高风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 42.84210526315789,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Extreme Networks（EXTR）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】EXTR在教育、医疗、体育场馆等垂直市场有一定客户粘性，ExtremeCloud IQ形成软硬件绑定。但规模远小于Cisco/HPE/Juniper，品牌心智弱，技术专利壁垒有限，净利率仅1%显示定价权不足，护城河整体偏窄。 【ai_exposure】EXTR主要收入来自企业/校园网络交换机和无线接入点，AI驱动需求有限。其ExtremeCloud平台集成AI运维功能，但属于锦上添花而非核心增长引擎。AI数据中心网络并非其主战场，主要竞争对手为Cisco/HPE Aruba，AI capex直接拉动效应较弱。 【risk】EXTR现金2.1亿尚可但长期负债1.49亿，负债率数据缺失增加不确定性。公司规模偏小，面临思科、HPE Aruba等巨头竞争压力，客户集中度数据缺失为潜在隐患。边缘AI网络赛道技术迭代快，替代风险中等偏高。无近期新闻导致信息透明度不足，综合评估偏高风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 42.84210526315789
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

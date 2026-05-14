@@ -11,15 +11,15 @@
     "ai_role": "GPU 云欧洲玩家 — 原 Yandex 拆分",
     "price": 207.27000427246094,
     "change_1d": 15.72,
-    "composite": 56.03508771929824,
+    "composite": 63.47368421052631,
     "tier_letter": "B",
     "description": [
       "Nebius Group 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：GPU 云欧洲玩家 — 原 Yandex 拆分。当前内部综合评分 56。",
+      "AI 角色：GPU 云欧洲玩家 — 原 Yandex 拆分。当前内部综合评分 63。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "38,578,081",
-        "量比20日": "1.80",
+        "成交量": "38,689,200",
+        "量比20日": "3.00",
         "52周高点": "217.34",
         "52周低点": "172.25",
         "距52周高点": "-4.63%",
@@ -77,13 +77,13 @@
         "ROE": "0.25%",
         "债务/权益": "0.09",
         "市值": "$52.63B",
-        "企业价值": "$47.08B",
-        "P/E TTM": "5181.75",
-        "Forward P/E": "-203.97",
+        "企业价值": "$54.26B",
+        "P/E TTM": "80.03",
+        "Forward P/E": "-398.18",
         "P/S": "99.33",
-        "EV/Sales": "88.86",
-        "EV/EBITDA": "-242.93",
-        "EV/FCF": "-13.08",
+        "EV/Sales": "102.42",
+        "EV/EBITDA": "-280.00",
+        "EV/FCF": "-15.07",
         "FCF收益率": "-6.84%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 53.33333333333333,
+          "value": 72.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 39.99999999999999,
+          "value": 64.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 56.03508771929824,
+          "value": 63.47368421052631,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 172.42857,
-        "target_high": 291.0,
-        "target_low": 85.0,
-        "upside_pct": -16.81,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 14,
-        "next_earnings": "2026-05-13",
-        "eps_estimate": -0.74387,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 53.228070175438596
+          "value": 63.47368421052631
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

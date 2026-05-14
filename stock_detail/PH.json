@@ -1,0 +1,201 @@
+{
+  "ticker": "PH",
+  "name": "Parker Hannifin",
+  "header": {
+    "name": "Parker Hannifin",
+    "ticker": "PH",
+    "sector": "Industrial Automation / Robotics",
+    "sector_id": "industrial_automation",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "运动控制 + 流体 — 工业 + 航空 AI 设备配套",
+    "price": 882.3699951171875,
+    "change_1d": 0.12,
+    "composite": 62.736842105263165,
+    "tier_letter": "C",
+    "description": [
+      "Parker Hannifin 的 AI 产业链位置为 Industrial Automation / Robotics。",
+      "AI 角色：运动控制 + 流体 — 工业 + 航空 AI 设备配套。当前内部综合评分 62。",
+      "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$882.37",
+        "日内涨跌": "+0.12%",
+        "1日涨跌": "+0.12%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "+0.92%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "673,800",
+        "量比20日": "0.89",
+        "52周高点": "887.73",
+        "52周低点": "862.69",
+        "距52周高点": "-0.60%",
+        "距52周低点": "+2.28%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Industrial Automation / Robotics",
+        "AI角色": "运动控制 + 流体 — 工业 + 航空 AI 设备配套",
+        "投资确定性": "—",
+        "收入": "$20.99B",
+        "收入同比": "10.60%",
+        "毛利率": "37.44%",
+        "经营利润率": "21.53%",
+        "净利率": "16.58%",
+        "经营现金流": "—",
+        "资本开支": "-$416.85M",
+        "自由现金流": "$2.77B",
+        "FCF利润率": "13.22%",
+        "现金及短投": "$476.00M",
+        "总债务": "$9.58B",
+        "净现金/债务": "-$6.29B",
+        "流通股本": "126.09M",
+        "ROE": "24.84%",
+        "债务/权益": "0.09",
+        "市值": "$111.25B",
+        "企业价值": "$120.37B",
+        "P/E TTM": "32.57",
+        "Forward P/E": "25.92",
+        "P/S": "5.30",
+        "EV/Sales": "5.74",
+        "EV/EBITDA": "21.97",
+        "EV/FCF": "43.38",
+        "FCF收益率": "2.49%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 72.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "PH在运动控制与流体系统拥有深厚专利积累和跨行业Know-how，航空/工业双线客户切换成本极高，规模效应显著（毛利率37%、ROE 25%）。但面临Bosch Rexroth、Eaton等强竞对，纯AI/机器人原生能力偏弱，护城河宽但深度有限。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 22.0,
+          "reasoning": "PH是工业运动控制与流体系统龙头，AI数据中心建设带动冷却液、液压及精密运动部件需求，属间接受益。AI相关收入占比估计低于10%，核心驱动仍为航空、工业自动化传统周期。AI退潮对PH影响有限，但上行弹性也较小。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 76.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 86.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 34.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "PH财务结构稳健，长期负债67亿但现金流强劲，利息覆盖充足。业务横跨工业+航空双引擎，客户分散。主要风险：工业周期下行敏感、航空供应链波动、高杠杆收购历史（Meggitt）、中美贸易摩擦影响出口管制，估值处于历史中高位。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 62.736842105263165,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Parker Hannifin（PH）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】PH在运动控制与流体系统拥有深厚专利积累和跨行业Know-how，航空/工业双线客户切换成本极高，规模效应显著（毛利率37%、ROE 25%）。但面临Bosch Rexroth、Eaton等强竞对，纯AI/机器人原生能力偏弱，护城河宽但深度有限。 【ai_exposure】PH是工业运动控制与流体系统龙头，AI数据中心建设带动冷却液、液压及精密运动部件需求，属间接受益。AI相关收入占比估计低于10%，核心驱动仍为航空、工业自动化传统周期。AI退潮对PH影响有限，但上行弹性也较小。 【risk】PH财务结构稳健，长期负债67亿但现金流强劲，利息覆盖充足。业务横跨工业+航空双引擎，客户分散。主要风险：工业周期下行敏感、航空供应链波动、高杠杆收购历史（Meggitt）、中美贸易摩擦影响出口管制，估值处于历史中高位。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 62.736842105263165
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

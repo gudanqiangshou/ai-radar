@@ -19,7 +19,7 @@
       "Memory / Storage 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:59",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "53,733,828",
-        "量比20日": "0.81",
+        "成交量": "54,584,900",
+        "量比20日": "0.75",
         "52周高点": "818.67",
         "52周低点": "706.60",
         "距52周高点": "-1.84%",
@@ -77,13 +77,13 @@
         "ROE": "39.82%",
         "债务/权益": "0.01",
         "市值": "$906.28B",
-        "企业价值": "$860.71B",
-        "P/E TTM": "37.98",
+        "企业价值": "$902.49B",
+        "P/E TTM": "37.87",
         "Forward P/E": "7.90",
         "P/S": "15.59",
-        "EV/Sales": "14.81",
-        "EV/EBITDA": "23.39",
-        "EV/FCF": "297.46",
+        "EV/Sales": "15.53",
+        "EV/EBITDA": "24.52",
+        "EV/FCF": "311.90",
         "FCF收益率": "0.32%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
-      "data": {
-        "target_mean": 573.9048,
-        "target_high": 1000.0,
-        "target_low": 249.0,
-        "upside_pct": -28.59,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 42,
-        "next_earnings": "2026-06-25",
-        "eps_estimate": 18.97141,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:22:59",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 69.05263157894736
+          "value": 71.1578947368421
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

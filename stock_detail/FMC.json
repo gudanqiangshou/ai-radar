@@ -1,0 +1,201 @@
+{
+  "ticker": "FMC",
+  "name": "FMC Corporation",
+  "header": {
+    "name": "FMC Corporation",
+    "ticker": "FMC",
+    "sector": "Critical Minerals / Rare Earths",
+    "sector_id": "critical_minerals",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "农化 + 锂衍生 — 多元化关键化学品",
+    "price": 12.729999542236328,
+    "change_1d": -3.19,
+    "composite": 35.3421052631579,
+    "tier_letter": "C",
+    "description": [
+      "FMC Corporation 的 AI 产业链位置为 Critical Minerals / Rare Earths。",
+      "AI 角色：农化 + 锂衍生 — 多元化关键化学品。当前内部综合评分 35。",
+      "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:04",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$12.73",
+        "日内涨跌": "-3.19%",
+        "1日涨跌": "-3.19%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-2.90%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "2,857,800",
+        "量比20日": "0.74",
+        "52周高点": "13.81",
+        "52周低点": "12.66",
+        "距52周高点": "-7.82%",
+        "距52周低点": "+0.55%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Critical Minerals / Rare Earths",
+        "AI角色": "农化 + 锂衍生 — 多元化关键化学品",
+        "投资确定性": "—",
+        "收入": "$3.43B",
+        "收入同比": "-4.10%",
+        "毛利率": "32.09%",
+        "经营利润率": "-0.53%",
+        "净利率": "-72.93%",
+        "经营现金流": "—",
+        "资本开支": "-$81.30M",
+        "自由现金流": "$22.89M",
+        "FCF利润率": "0.67%",
+        "现金及短投": "$390.90M",
+        "总债务": "$4.66B",
+        "净现金/债务": "-$2.38B",
+        "流通股本": "125.05M",
+        "ROE": "-78.37%",
+        "债务/权益": "2.93",
+        "市值": "$1.59B",
+        "企业价值": "$5.89B",
+        "P/E TTM": "—",
+        "Forward P/E": "5.78",
+        "P/S": "0.46",
+        "EV/Sales": "1.71",
+        "EV/EBITDA": "17.72",
+        "EV/FCF": "257.14",
+        "FCF收益率": "1.44%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 27.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 28.0,
+          "reasoning": "FMC已剥离锂业务（Livent独立），当前核心为农化，与关键矿产/稀土板块关联极弱。净利率-73%、ROE-78%显示财务压力严峻，无显著专利壁垒或资源牌照优势，客户粘性依赖农化配方而非矿产供应链，规模效应有限，在该细分赛道护城河薄弱。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 8.0,
+          "reasoning": "FMC主营农业化学品（杀虫剂/除草剂），锂业务已剥离为Livent（现Arcadium）。与AI capex无直接关联，AI对其业务既非驱动也非受益方。农化需求由农业周期驱动，AI基础设施投资对其收入影响可忽略不计。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 30.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 10.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 75.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 34.0,
+          "reasoning": "FMC负债率偏高（长期债务27.7亿 vs 现金3.9亿），农化行业受天气、大宗商品价格及监管压力影响大，锂业务规模有限且竞争激烈，地缘政治风险（中国市场依赖）显著，近期无正面催化剂，整体风险偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 35.3421052631579,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:04",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "FMC Corporation（FMC）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】FMC已剥离锂业务（Livent独立），当前核心为农化，与关键矿产/稀土板块关联极弱。净利率-73%、ROE-78%显示财务压力严峻，无显著专利壁垒或资源牌照优势，客户粘性依赖农化配方而非矿产供应链，规模效应有限，在该细分赛道护城河薄弱。 【ai_exposure】FMC主营农业化学品（杀虫剂/除草剂），锂业务已剥离为Livent（现Arcadium）。与AI capex无直接关联，AI对其业务既非驱动也非受益方。农化需求由农业周期驱动，AI基础设施投资对其收入影响可忽略不计。 【risk】FMC负债率偏高（长期债务27.7亿 vs 现金3.9亿），农化行业受天气、大宗商品价格及监管压力影响大，锂业务规模有限且竞争激烈，地缘政治风险（中国市场依赖）显著，近期无正面催化剂，整体风险偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 35.3421052631579
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

@@ -19,7 +19,7 @@
       "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
     "status_label": "减持"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "25,447,717",
-        "量比20日": "0.70",
+        "成交量": "25,512,600",
+        "量比20日": "0.61",
         "52周高点": "24.78",
         "52周低点": "20.70",
         "距52周高点": "-13.48%",
@@ -77,13 +77,13 @@
         "ROE": "-55.27%",
         "债务/权益": "0.01",
         "市值": "$7.94B",
-        "企业价值": "$7.73B",
+        "企业价值": "$7.39B",
         "P/E TTM": "—",
         "Forward P/E": "-57.43",
         "P/S": "638.21",
-        "EV/Sales": "621.09",
-        "EV/EBITDA": "-55.68",
-        "EV/FCF": "-114.44",
+        "EV/Sales": "594.02",
+        "EV/EBITDA": "-53.25",
+        "EV/FCF": "-109.46",
         "FCF收益率": "-0.85%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 35.772,
-        "target_high": 45.0,
-        "target_low": 19.58,
-        "upside_pct": 66.85,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 15,
-        "next_earnings": "2026-08-06",
-        "eps_estimate": -0.08231,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 39.63157894736842
+          "value": 37.52631578947368
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

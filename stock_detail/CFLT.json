@@ -11,16 +11,16 @@
     "ai_role": "Kafka 商业化 — 数据流处理",
     "price": null,
     "change_1d": null,
-    "composite": 51.23529411764705,
+    "composite": 36.647058823529406,
     "tier_letter": "C",
     "description": [
       "Confluent 的 AI 产业链位置为 Data / Software Platform。",
-      "AI 角色：Kafka 商业化 — 数据流处理。当前内部综合评分 51。",
+      "AI 角色：Kafka 商业化 — 数据流处理。当前内部综合评分 36。",
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 43.33333333333332,
+          "value": 22.666666666666664,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 33.33333333333333,
+          "value": 17.666666666666664,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 66.66666666666667,
+          "value": 38.33333333333334,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 51.23529411764705,
+          "value": 36.647058823529406,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 31.0,
-        "target_high": 31.0,
-        "target_low": 31.0,
-        "upside_pct": null,
-        "rating": "hold",
-        "rating_letter": "B",
-        "rating_change": "维持",
-        "previous_rating_letter": "B",
-        "n_analysts": 8,
-        "next_earnings": "2026-04-30",
-        "eps_estimate": 0.11219,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -274,7 +261,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 51.23529411764705
+          "value": 36.647058823529406
         },
         {
           "date": "2026-05-14",
@@ -283,5 +270,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

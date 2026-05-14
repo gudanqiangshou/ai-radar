@@ -11,15 +11,15 @@
     "ai_role": "锂矿开发 — Thacker Pass 美国本土项目",
     "price": 5.480000019073486,
     "change_1d": -1.62,
-    "composite": 41.38461538461537,
+    "composite": 42.34615384615383,
     "tier_letter": "C",
     "description": [
       "Lithium Americas 的 AI 产业链位置为 Critical Minerals / Rare Earths。",
-      "AI 角色：锂矿开发 — Thacker Pass 美国本土项目。当前内部综合评分 41。",
+      "AI 角色：锂矿开发 — Thacker Pass 美国本土项目。当前内部综合评分 42。",
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
     "status_label": "观察"
   },
   "panels": [
@@ -43,7 +43,7 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "10,112,459",
+        "成交量": "10,618,400",
         "量比20日": "0.89",
         "52周高点": "5.89",
         "52周低点": "5.32",
@@ -77,13 +77,13 @@
         "ROE": "-6.81%",
         "债务/权益": "0.28",
         "市值": "$1.91B",
-        "企业价值": "$2.43B",
+        "企业价值": "$2.40B",
         "P/E TTM": "—",
         "Forward P/E": "-29.89",
         "P/S": "—",
         "EV/Sales": "—",
-        "EV/EBITDA": "-46.03",
-        "EV/FCF": "-2.41",
+        "EV/EBITDA": "-45.44",
+        "EV/FCF": "-2.38",
         "FCF收益率": "-52.67%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 30.0,
+          "value": 32.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 41.38461538461537,
+          "value": 42.34615384615383,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 5.92778,
-        "target_high": 8.0,
-        "target_low": 4.5,
-        "upside_pct": 8.17,
-        "rating": "none",
-        "rating_letter": "—",
-        "rating_change": "维持",
-        "previous_rating_letter": "—",
-        "n_analysts": 9,
-        "next_earnings": "2026-05-14",
-        "eps_estimate": -0.045,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 41.38461538461537
+          "value": 42.34615384615383
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

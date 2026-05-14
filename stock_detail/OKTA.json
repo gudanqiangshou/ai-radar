@@ -1,0 +1,201 @@
+{
+  "ticker": "OKTA",
+  "name": "Okta",
+  "header": {
+    "name": "Okta",
+    "ticker": "OKTA",
+    "sector": "Cybersecurity",
+    "sector_id": "cybersecurity",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "身份认证 IAM 龙头 — Zero Trust 入口",
+    "price": 78.19999694824219,
+    "change_1d": -1.09,
+    "composite": 60.49624060150376,
+    "tier_letter": "B",
+    "description": [
+      "Okta 的 AI 产业链位置为 Cybersecurity。",
+      "AI 角色：身份认证 IAM 龙头 — Zero Trust 入口。当前内部综合评分 60。",
+      "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$78.20",
+        "日内涨跌": "-1.09%",
+        "1日涨跌": "-1.09%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-4.27%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "2,206,200",
+        "量比20日": "0.95",
+        "52周高点": "84.70",
+        "52周低点": "77.45",
+        "距52周高点": "-7.67%",
+        "距52周低点": "+0.97%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Cybersecurity",
+        "AI角色": "身份认证 IAM 龙头 — Zero Trust 入口",
+        "投资确定性": "—",
+        "收入": "$2.92B",
+        "收入同比": "11.60%",
+        "毛利率": "77.36%",
+        "经营利润率": "6.57%",
+        "净利率": "8.05%",
+        "经营现金流": "—",
+        "资本开支": "-$21.00M",
+        "自由现金流": "$836.12M",
+        "FCF利润率": "28.64%",
+        "现金及短投": "$2.55B",
+        "总债务": "$451.00M",
+        "净现金/债务": "—",
+        "流通股本": "167.66M",
+        "ROE": "3.51%",
+        "债务/权益": "0.03",
+        "市值": "$13.71B",
+        "企业价值": "$11.73B",
+        "P/E TTM": "59.69",
+        "Forward P/E": "18.47",
+        "P/S": "4.70",
+        "EV/Sales": "4.02",
+        "EV/EBITDA": "47.11",
+        "EV/FCF": "14.03",
+        "FCF收益率": "6.10%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 71.42857142857143,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "Okta在IAM/Zero Trust领域具备强客户粘性（身份数据迁移成本极高）和品牌心智优势，毛利率77%印证规模效应。但技术壁垒非独占，微软Entra、CrowdStrike等巨头持续侵蚀市场，净利率仅8%显示竞争压力，护城河宽但深度有限。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 28.0,
+          "reasoning": "Okta是身份认证基础设施，AI浪潮带来更多企业数字化和云迁移需求，间接受益于AI驱动的workforce扩张和非人类身份（机器/API）管理增长。但核心收入仍来自传统IAM订阅，AI并非直接收入驱动，属于间接、结构性受益。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 8.571428571428571,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 71.42857142857143,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 68.57142857142857,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 42.0,
+          "reasoning": "Okta现金充裕(~25亿)但持续亏损、自由现金流改善中。2023年安全事件损害品牌信任，客户流失压力存在。竞争激烈：Microsoft Entra ID形成强力替代，大客户自建IAM风险上升。估值仍偏高(PS>10x)，盈利路径不确定，综合风险中等偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 60.49624060150376,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Okta（OKTA）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Okta在IAM/Zero Trust领域具备强客户粘性（身份数据迁移成本极高）和品牌心智优势，毛利率77%印证规模效应。但技术壁垒非独占，微软Entra、CrowdStrike等巨头持续侵蚀市场，净利率仅8%显示竞争压力，护城河宽但深度有限。 【ai_exposure】Okta是身份认证基础设施，AI浪潮带来更多企业数字化和云迁移需求，间接受益于AI驱动的workforce扩张和非人类身份（机器/API）管理增长。但核心收入仍来自传统IAM订阅，AI并非直接收入驱动，属于间接、结构性受益。 【risk】Okta现金充裕(~25亿)但持续亏损、自由现金流改善中。2023年安全事件损害品牌信任，客户流失压力存在。竞争激烈：Microsoft Entra ID形成强力替代，大客户自建IAM风险上升。估值仍偏高(PS>10x)，盈利路径不确定，综合风险中等偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 60.49624060150376
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

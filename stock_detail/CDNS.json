@@ -11,15 +11,15 @@
     "ai_role": "EDA 三巨头 — 数字仿真 + AI 芯片设计 IP",
     "price": 354.54998779296875,
     "change_1d": -0.97,
-    "composite": 67.68421052631578,
+    "composite": 64.52631578947368,
     "tier_letter": "A",
     "description": [
       "Cadence Design Systems 的 AI 产业链位置为 EDA / Design Software。",
-      "AI 角色：EDA 三巨头 — 数字仿真 + AI 芯片设计 IP。当前内部综合评分 67。",
+      "AI 角色：EDA 三巨头 — 数字仿真 + AI 芯片设计 IP。当前内部综合评分 64。",
       "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
     "status_label": "持有"
   },
   "panels": [
@@ -43,7 +43,7 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "2,297,498",
+        "成交量": "2,301,600",
         "量比20日": "0.99",
         "52周高点": "365.00",
         "52周低点": "350.55",
@@ -77,13 +77,13 @@
         "ROE": "20.66%",
         "债务/权益": "0.03",
         "市值": "$97.79B",
-        "企业价值": "$100.29B",
-        "P/E TTM": "82.45",
+        "企业价值": "$99.33B",
+        "P/E TTM": "82.65",
         "Forward P/E": "37.80",
         "P/S": "17.69",
-        "EV/Sales": "18.14",
-        "EV/EBITDA": "49.79",
-        "EV/FCF": "66.90",
+        "EV/Sales": "17.97",
+        "EV/EBITDA": "49.31",
+        "EV/FCF": "66.26",
         "FCF收益率": "1.53%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 30.0,
+          "value": 15.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 67.68421052631578,
+          "value": 64.52631578947368,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 379.5473,
-        "target_high": 425.0,
-        "target_low": 275.0,
-        "upside_pct": 7.05,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 26,
-        "next_earnings": "2026-07-28",
-        "eps_estimate": 2.05477,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 67.68421052631578
+          "value": 64.52631578947368
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

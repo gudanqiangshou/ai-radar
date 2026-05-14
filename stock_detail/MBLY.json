@@ -11,7 +11,7 @@
     "ai_role": "ADAS / 自动驾驶视觉芯片 — Intel 系",
     "price": 10.529999732971191,
     "change_1d": 14.08,
-    "composite": 61.94736842105263,
+    "composite": 61.421052631578945,
     "tier_letter": "B",
     "description": [
       "Mobileye 的 AI 产业链位置为 Autonomous / Mobility。",
@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "17,031,103",
-        "量比20日": "1.77",
+        "成交量": "17,181,100",
+        "量比20日": "2.89",
         "52周高点": "10.81",
         "52周低点": "8.95",
         "距52周高点": "-2.59%",
@@ -77,13 +77,13 @@
         "ROE": "-40.65%",
         "债务/权益": "0.01",
         "市值": "$8.87B",
-        "企业价值": "$6.49B",
+        "企业价值": "$7.59B",
         "P/E TTM": "—",
         "Forward P/E": "29.23",
         "P/S": "4.40",
-        "EV/Sales": "3.22",
-        "EV/EBITDA": "-22.54",
-        "EV/FCF": "10.97",
+        "EV/Sales": "3.77",
+        "EV/EBITDA": "-26.34",
+        "EV/FCF": "12.82",
         "FCF收益率": "6.67%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 55.0,
+          "value": 60.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 80.0,
+          "value": 90.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 35.0,
+          "value": 42.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 80.0,
+          "value": 62.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 61.94736842105263,
+          "value": 61.421052631578945,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 13.425,
-        "target_high": 27.0,
-        "target_low": 8.5,
-        "upside_pct": 27.49,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 28,
-        "next_earnings": "2026-04-23",
-        "eps_estimate": 0.05667,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 64.05263157894737
+          "value": 61.421052631578945
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

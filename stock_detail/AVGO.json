@@ -11,7 +11,7 @@
     "ai_role": "Hyperscaler 定制 ASIC（Google TPU / Meta MTIA）+ AI 网络",
     "price": 416.7900085449219,
     "change_1d": -0.6,
-    "composite": 70.52631578947368,
+    "composite": 70.43421052631578,
     "tier_letter": "A",
     "description": [
       "Broadcom 的 AI 产业链位置为 Compute / GPU / ASIC。",
@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:59",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "15,956,301",
-        "量比20日": "0.92",
+        "成交量": "16,949,100",
+        "量比20日": "0.95",
         "52周高点": "433.65",
         "52周低点": "404.80",
         "距52周高点": "-3.89%",
@@ -77,13 +77,13 @@
         "ROE": "33.37%",
         "债务/权益": "0.03",
         "市值": "$1.97T",
-        "企业价值": "$2.04T",
-        "P/E TTM": "81.40",
+        "企业价值": "$2.03T",
+        "P/E TTM": "81.25",
         "Forward P/E": "23.00",
         "P/S": "28.90",
-        "EV/Sales": "29.83",
-        "EV/EBITDA": "54.73",
-        "EV/FCF": "79.88",
+        "EV/Sales": "29.66",
+        "EV/EBITDA": "54.42",
+        "EV/FCF": "79.41",
         "FCF收益率": "1.29%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 80.0,
+          "value": 83.75,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 52.0,
+          "value": 60.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 80.0,
+          "value": 83.75,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 56.0,
+          "value": 45.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 70.52631578947368,
+          "value": 70.43421052631578,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
-      "data": {
-        "target_mean": 475.49295,
-        "target_high": 630.0,
-        "target_low": 360.0,
-        "upside_pct": 14.08,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 42,
-        "next_earnings": "2026-06-04",
-        "eps_estimate": 2.39061,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:22:59",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 72.21052631578947
+          "value": 70.43421052631578
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

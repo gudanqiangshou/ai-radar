@@ -11,15 +11,15 @@
     "ai_role": "电气连接 + 配电柜，数据中心电气化",
     "price": 172.91000366210938,
     "change_1d": 1.27,
-    "composite": 56.14,
+    "composite": 55.84,
     "tier_letter": "B",
     "description": [
       "nVent Electric 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：电气连接 + 配电柜，数据中心电气化。当前内部综合评分 56。",
+      "AI 角色：电气连接 + 配电柜，数据中心电气化。当前内部综合评分 55。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:58",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "74.18",
         "MACD": "12.22",
         "20日波动率": "49.30%",
-        "成交量": "1,634,932",
-        "量比20日": "0.69",
+        "成交量": "1,635,300",
+        "量比20日": "0.68",
         "52周高点": "175.00",
         "52周低点": "63.15",
         "距52周高点": "-1.19%",
@@ -77,13 +77,13 @@
         "ROE": "13.00%",
         "债务/权益": "0.06",
         "市值": "$27.96B",
-        "企业价值": "$29.12B",
+        "企业价值": "$29.47B",
         "P/E TTM": "58.81",
         "Forward P/E": "31.05",
         "P/S": "6.46",
-        "EV/Sales": "6.73",
-        "EV/EBITDA": "31.51",
-        "EV/FCF": "138.75",
+        "EV/Sales": "6.81",
+        "EV/EBITDA": "31.89",
+        "EV/FCF": "140.42",
         "FCF收益率": "0.75%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 38.261904761904766,
+          "value": 36.761904761904766,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 56.14,
+          "value": 55.84,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 12:22:58",
       "data": {
         "target_mean": 181.3077,
         "target_high": 200.0,
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 50.115
+          "value": 55.84
         },
         {
           "date": "2026-05-14",
@@ -299,5 +299,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

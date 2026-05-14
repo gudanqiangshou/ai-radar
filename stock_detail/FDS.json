@@ -1,0 +1,201 @@
+{
+  "ticker": "FDS",
+  "name": "FactSet",
+  "header": {
+    "name": "FactSet",
+    "ticker": "FDS",
+    "sector": "Financial / Research Data",
+    "sector_id": "financial_research_data",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "金融终端 + 数据 — Bloomberg 之外的研究平台",
+    "price": 201.8699951171875,
+    "change_1d": -6.51,
+    "composite": 48.315789473684205,
+    "tier_letter": "C",
+    "description": [
+      "FactSet 的 AI 产业链位置为 Financial / Research Data。",
+      "AI 角色：金融终端 + 数据 — Bloomberg 之外的研究平台。当前内部综合评分 48。",
+      "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$201.87",
+        "日内涨跌": "-6.51%",
+        "1日涨跌": "-6.51%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-7.90%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "1,153,300",
+        "量比20日": "1.35",
+        "52周高点": "224.77",
+        "52周低点": "198.00",
+        "距52周高点": "-10.19%",
+        "距52周低点": "+1.95%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Financial / Research Data",
+        "AI角色": "金融终端 + 数据 — Bloomberg 之外的研究平台",
+        "投资确定性": "—",
+        "收入": "$2.40B",
+        "收入同比": "7.10%",
+        "毛利率": "51.94%",
+        "经营利润率": "29.80%",
+        "净利率": "24.48%",
+        "经营现金流": "—",
+        "资本开支": "-$116.04M",
+        "自由现金流": "$590.25M",
+        "FCF利润率": "24.58%",
+        "现金及短投": "$285.27M",
+        "总债务": "$1.55B",
+        "净现金/债务": "-$1.08B",
+        "流通股本": "36.43M",
+        "ROE": "28.08%",
+        "债务/权益": "0.21",
+        "市值": "$7.35B",
+        "企业价值": "$8.62B",
+        "P/E TTM": "12.99",
+        "Forward P/E": "10.40",
+        "P/S": "3.06",
+        "EV/Sales": "3.59",
+        "EV/EBITDA": "9.47",
+        "EV/FCF": "14.61",
+        "FCF收益率": "8.03%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 19.999999999999996,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "FactSet凭借深度整合的数据工作流和高切换成本构建稳固护城河，长期合约锁定买方机构客户。但相较Bloomberg/Refinitiv，品牌心智和数据独占性偏弱；52%毛利率反映数据采购成本压力，规模效应有限。AI转型期存在被颠覆风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 28.0,
+          "reasoning": "FactSet核心收入来自订阅制金融数据终端，AI主要体现在内嵌的自然语言查询、文档摘要等辅助功能，属于防御性集成而非AI原生驱动。AI capex浪潮对其直接拉动有限，客户粘性来自数据资产而非AI能力，AI退潮影响边际。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 0.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 19.999999999999996,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 100.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "FactSet财务结构稳健，现金2.85亿但长期负债13.7亿，杠杆偏高。业务模式为订阅制，客户粘性强，但高度依赖金融机构客户，受市场周期影响。AI数据终端竞争加剧（Bloomberg、Refinitiv、初创AI平台），替代风险上升。估值历史偏高，回撤风险中等。整体中低风险区间。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 48.315789473684205,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "FactSet（FDS）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】FactSet凭借深度整合的数据工作流和高切换成本构建稳固护城河，长期合约锁定买方机构客户。但相较Bloomberg/Refinitiv，品牌心智和数据独占性偏弱；52%毛利率反映数据采购成本压力，规模效应有限。AI转型期存在被颠覆风险。 【ai_exposure】FactSet核心收入来自订阅制金融数据终端，AI主要体现在内嵌的自然语言查询、文档摘要等辅助功能，属于防御性集成而非AI原生驱动。AI capex浪潮对其直接拉动有限，客户粘性来自数据资产而非AI能力，AI退潮影响边际。 【risk】FactSet财务结构稳健，现金2.85亿但长期负债13.7亿，杠杆偏高。业务模式为订阅制，客户粘性强，但高度依赖金融机构客户，受市场周期影响。AI数据终端竞争加剧（Bloomberg、Refinitiv、初创AI平台），替代风险上升。估值历史偏高，回撤风险中等。整体中低风险区间。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 48.315789473684205
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

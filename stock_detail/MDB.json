@@ -11,15 +11,15 @@
     "ai_role": "通用数据库 + Atlas Vector Search 切入 RAG",
     "price": 303.0,
     "change_1d": -1.85,
-    "composite": 64.14035087719297,
+    "composite": 57.45614035087719,
     "tier_letter": "B",
     "description": [
       "MongoDB 的 AI 产业链位置为 Data / Software Platform。",
-      "AI 角色：通用数据库 + Atlas Vector Search 切入 RAG。当前内部综合评分 64。",
+      "AI 角色：通用数据库 + Atlas Vector Search 切入 RAG。当前内部综合评分 57。",
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "1,531,368",
-        "量比20日": "0.82",
+        "成交量": "1,545,700",
+        "量比20日": "0.75",
         "52周高点": "317.21",
         "52周低点": "289.72",
         "距52周高点": "-4.48%",
@@ -77,13 +77,13 @@
         "ROE": "-2.48%",
         "债务/权益": "0.00",
         "市值": "$24.35B",
-        "企业价值": "$22.49B",
+        "企业价值": "$22.03B",
         "P/E TTM": "—",
         "Forward P/E": "42.88",
         "P/S": "9.88",
-        "EV/Sales": "9.13",
-        "EV/EBITDA": "-206.12",
-        "EV/FCF": "48.53",
+        "EV/Sales": "8.94",
+        "EV/EBITDA": "-201.90",
+        "EV/FCF": "47.54",
         "FCF收益率": "1.90%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 56.66666666666666,
+          "value": 52.33333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 60.0,
+          "value": 80.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 66.66666666666666,
+          "value": 64.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 90.0,
+          "value": 55.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 64.14035087719297,
+          "value": 57.45614035087719,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 347.1011,
-        "target_high": 495.0,
-        "target_low": 250.0,
-        "upside_pct": 14.55,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 36,
-        "next_earnings": "2026-05-29",
-        "eps_estimate": 1.18275,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 64.14035087719297
+          "value": 57.45614035087719
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

@@ -1,0 +1,201 @@
+{
+  "ticker": "GTLB",
+  "name": "GitLab",
+  "header": {
+    "name": "GitLab",
+    "ticker": "GTLB",
+    "sector": "Data / Software Platform",
+    "sector_id": "data_software_platform",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "DevSecOps 平台 + Duo AI 代码助手",
+    "price": 22.049999237060547,
+    "change_1d": -4.46,
+    "composite": 55.684210526315795,
+    "tier_letter": "C",
+    "description": [
+      "GitLab 的 AI 产业链位置为 Data / Software Platform。",
+      "AI 角色：DevSecOps 平台 + Duo AI 代码助手。当前内部综合评分 55。",
+      "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$22.05",
+        "日内涨跌": "-4.46%",
+        "1日涨跌": "-4.46%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-14.00%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "5,444,800",
+        "量比20日": "0.57",
+        "52周高点": "26.39",
+        "52周低点": "22.02",
+        "距52周高点": "-16.45%",
+        "距52周低点": "+0.14%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Data / Software Platform",
+        "AI角色": "DevSecOps 平台 + Duo AI 代码助手",
+        "投资确定性": "—",
+        "收入": "$955.22M",
+        "收入同比": "23.20%",
+        "毛利率": "87.38%",
+        "经营利润率": "-1.00%",
+        "净利率": "-5.86%",
+        "经营现金流": "—",
+        "资本开支": "-$10.83M",
+        "自由现金流": "$283.07M",
+        "FCF利润率": "29.63%",
+        "现金及短投": "$1.26B",
+        "总债务": "$0",
+        "净现金/债务": "—",
+        "流通股本": "152.48M",
+        "ROE": "-6.30%",
+        "债务/权益": "0.00",
+        "市值": "$3.72B",
+        "企业价值": "$2.54B",
+        "P/E TTM": "—",
+        "Forward P/E": "22.47",
+        "P/S": "3.90",
+        "EV/Sales": "2.65",
+        "EV/EBITDA": "-39.15",
+        "EV/FCF": "8.96",
+        "FCF收益率": "7.60%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 61.33333333333333,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "GitLab单一平台覆盖全DevSecOps生命周期，切换成本高；87%毛利率验证软件护城河；但面临GitHub Copilot、JetBrains等强竞争，Duo AI差异化尚未成熟，网络效应弱于双边平台，规模优势不及微软生态，护城河中等偏强。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 52.0,
+          "reasoning": "GitLab Duo AI助手已集成进核心DevSecOps平台，推动高端套餐升级（Ultimate tier），但基础业务仍依赖传统DevOps工作流。AI加速ARR增长但非唯一驱动；AI退潮影响定价溢价和扩张收入，核心平台价值仍存。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 30.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 41.33333333333333,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 66.66666666666667,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 42.0,
+          "reasoning": "GitLab现金充裕(~12.6亿)但持续亏损，盈利路径仍不确定。DevSecOps赛道竞争激烈（GitHub Copilot、JetBrains），Duo AI差异化尚未验证。估值偏高（PS>10x），客户集中度数据缺失增加不确定性。监管风险中等，开源属性部分对冲替代风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 55.684210526315795,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "GitLab（GTLB）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】GitLab单一平台覆盖全DevSecOps生命周期，切换成本高；87%毛利率验证软件护城河；但面临GitHub Copilot、JetBrains等强竞争，Duo AI差异化尚未成熟，网络效应弱于双边平台，规模优势不及微软生态，护城河中等偏强。 【ai_exposure】GitLab Duo AI助手已集成进核心DevSecOps平台，推动高端套餐升级（Ultimate tier），但基础业务仍依赖传统DevOps工作流。AI加速ARR增长但非唯一驱动；AI退潮影响定价溢价和扩张收入，核心平台价值仍存。 【risk】GitLab现金充裕(~12.6亿)但持续亏损，盈利路径仍不确定。DevSecOps赛道竞争激烈（GitHub Copilot、JetBrains），Duo AI差异化尚未验证。估值偏高（PS>10x），客户集中度数据缺失增加不确定性。监管风险中等，开源属性部分对冲替代风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 55.684210526315795
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

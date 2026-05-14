@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:18",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:58",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "37.87",
         "MACD": "0.12",
         "20日波动率": "54.13%",
-        "成交量": "6,625,341",
-        "量比20日": "2.11",
+        "成交量": "6,640,600",
+        "量比20日": "2.29",
         "52周高点": "412.70",
         "52周低点": "243.30",
         "距52周高点": "-33.39%",
@@ -77,13 +77,13 @@
         "ROE": "16.10%",
         "债务/权益": "0.23",
         "市值": "$99.29B",
-        "企业价值": "$127.98B",
-        "P/E TTM": "23.88",
-        "Forward P/E": "20.25",
+        "企业价值": "$121.23B",
+        "P/E TTM": "23.86",
+        "Forward P/E": "20.18",
         "P/S": "3.32",
-        "EV/Sales": "4.29",
-        "EV/EBITDA": "16.09",
-        "EV/FCF": "-28.58",
+        "EV/Sales": "4.06",
+        "EV/EBITDA": "15.23",
+        "EV/FCF": "-27.07",
         "FCF收益率": "-4.51%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:18",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 12:22:58",
       "data": {
-        "target_mean": 367.4815,
+        "target_mean": 367.6815,
         "target_high": 441.0,
         "target_low": 272.4,
-        "upside_pct": 33.68,
+        "upside_pct": 33.76,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 54.13166666666667
+          "value": 62.790000000000006
         },
         {
           "date": "2026-05-14",
@@ -299,5 +299,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

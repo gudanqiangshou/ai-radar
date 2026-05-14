@@ -19,7 +19,7 @@
       "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "21,759,626",
-        "量比20日": "0.48",
+        "成交量": "24,065,300",
+        "量比20日": "0.43",
         "52周高点": "59.15",
         "52周低点": "47.89",
         "距52周高点": "-6.58%",
@@ -77,13 +77,13 @@
         "ROE": "11.29%",
         "债务/权益": "0.00",
         "市值": "$20.63B",
-        "企业价值": "$18.87B",
+        "企业价值": "$18.64B",
         "P/E TTM": "141.69",
         "Forward P/E": "-53.01",
         "P/S": "110.23",
-        "EV/Sales": "100.82",
-        "EV/EBITDA": "-28.48",
-        "EV/FCF": "-206.49",
+        "EV/Sales": "99.60",
+        "EV/EBITDA": "-28.14",
+        "EV/FCF": "-204.00",
         "FCF收益率": "-0.44%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 66.37714,
-        "target_high": 100.0,
-        "target_low": 44.78,
-        "upside_pct": 20.12,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 14,
-        "next_earnings": "2026-08-06",
-        "eps_estimate": -0.29642,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

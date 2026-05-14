@@ -11,15 +11,15 @@
     "ai_role": "量测 / 缺陷检测垄断 — 先进制程良率把关",
     "price": 1849.7099609375,
     "change_1d": 2.12,
-    "composite": 73.29824561403507,
+    "composite": 71.4736842105263,
     "tier_letter": "B",
     "description": [
       "KLA Corporation 的 AI 产业链位置为 Semiconductor Equipment。",
-      "AI 角色：量测 / 缺陷检测垄断 — 先进制程良率把关。当前内部综合评分 73。",
+      "AI 角色：量测 / 缺陷检测垄断 — 先进制程良率把关。当前内部综合评分 71。",
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "929,303",
-        "量比20日": "0.88",
+        "成交量": "937,300",
+        "量比20日": "0.84",
         "52周高点": "1897.49",
         "52周低点": "1743.00",
         "距52周高点": "-2.52%",
@@ -77,13 +77,13 @@
         "ROE": "94.98%",
         "债务/权益": "0.03",
         "市值": "$241.62B",
-        "企业价值": "$237.80B",
+        "企业价值": "$242.81B",
         "P/E TTM": "52.37",
         "Forward P/E": "37.21",
         "P/S": "18.45",
-        "EV/Sales": "18.16",
-        "EV/EBITDA": "40.65",
-        "EV/FCF": "82.28",
+        "EV/Sales": "18.54",
+        "EV/EBITDA": "41.51",
+        "EV/FCF": "84.01",
         "FCF收益率": "1.20%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 46.66666666666666,
+          "value": 56.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 33.33333333333334,
+          "value": 20.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 73.29824561403507,
+          "value": 71.4736842105263,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
-      "data": {
-        "target_mean": 1851.6897,
-        "target_high": 2100.0,
-        "target_low": 1500.0,
-        "upside_pct": 0.11,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 29,
-        "next_earnings": "2026-07-31",
-        "eps_estimate": 9.96316,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 74.7017543859649
+          "value": 71.4736842105263
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

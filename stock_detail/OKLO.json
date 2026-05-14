@@ -11,16 +11,16 @@
     "ai_role": "小型模块化反应堆（SMR）— AI 长期电力解决方案",
     "price": 69.66000366210938,
     "change_1d": -5.39,
-    "composite": 43.19238095238095,
+    "composite": 27.417687074829924,
     "tier_letter": "C",
     "description": [
       "Oklo Inc 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：小型模块化反应堆（SMR）— AI 长期电力解决方案。当前内部综合评分 43。",
+      "AI 角色：小型模块化反应堆（SMR）— AI 长期电力解决方案。当前内部综合评分 27。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:59",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -43,8 +43,8 @@
         "RSI 14": "51.55",
         "MACD": "3.50",
         "20日波动率": "126.48%",
-        "成交量": "13,949,073",
-        "量比20日": "0.84",
+        "成交量": "14,149,400",
+        "量比20日": "0.83",
         "52周高点": "193.84",
         "52周低点": "29.17",
         "距52周高点": "-64.06%",
@@ -73,13 +73,13 @@
         "现金及短投": "$1.23B",
         "总债务": "$1.45M",
         "净现金/债务": "—",
-        "流通股本": "173.92M",
+        "流通股本": "173.99M",
         "ROE": "-12.24%",
         "债务/权益": "0.00",
         "市值": "$12.12B",
         "企业价值": "$11.55B",
         "P/E TTM": "—",
-        "Forward P/E": "-76.06",
+        "Forward P/E": "-81.31",
         "P/S": "—",
         "EV/Sales": "—",
         "EV/EBITDA": "-83.25",
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 43.19238095238095,
+          "value": 27.417687074829924,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 12:22:59",
       "data": {
-        "target_mean": 90.65789,
+        "target_mean": 90.92105,
         "target_high": 140.0,
         "target_low": 14.0,
-        "upside_pct": 30.14,
+        "upside_pct": 30.52,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 19,
-        "next_earnings": "2026-08-11",
-        "eps_estimate": -0.18404,
+        "next_earnings": "2026-05-13",
+        "eps_estimate": -0.18215,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 47.40309523809524
+          "value": 27.417687074829924
         },
         {
           "date": "2026-05-14",
@@ -299,5 +299,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

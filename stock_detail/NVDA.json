@@ -11,15 +11,15 @@
     "ai_role": "AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断",
     "price": 225.8300018310547,
     "change_1d": 2.29,
-    "composite": 86.26315789473685,
+    "composite": 84.23684210526316,
     "tier_letter": "A",
     "description": [
       "NVIDIA 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断。当前内部综合评分 86。",
+      "AI 角色：AI GPU 龙头 — H100/B200/GB200 数据中心训练推理几乎垄断。当前内部综合评分 84。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:19",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:59",
     "status_label": "买入区"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "142,422,903",
-        "量比20日": "0.92",
+        "成交量": "149,316,500",
+        "量比20日": "0.93",
         "52周高点": "227.84",
         "52周低点": "213.89",
         "距52周高点": "-0.88%",
@@ -73,17 +73,17 @@
         "现金及短投": "$62.56B",
         "总债务": "$11.41B",
         "净现金/债务": "$55.09B",
-        "流通股本": "24.30B",
+        "流通股本": "24.22B",
         "ROE": "101.48%",
         "债务/权益": "0.00",
-        "市值": "$5.49T",
-        "企业价值": "$5.31T",
+        "市值": "$5.47T",
+        "企业价值": "$5.44T",
         "P/E TTM": "46.09",
-        "Forward P/E": "19.90",
-        "P/S": "25.42",
-        "EV/Sales": "24.61",
-        "EV/EBITDA": "39.88",
-        "EV/FCF": "91.41",
+        "Forward P/E": "19.87",
+        "P/S": "25.33",
+        "EV/Sales": "25.18",
+        "EV/EBITDA": "40.81",
+        "EV/FCF": "93.53",
         "FCF收益率": "1.06%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 88.0,
+          "value": 92.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 84.0,
+          "value": 85.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 82.0,
+          "value": 66.25,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 86.26315789473685,
+          "value": 84.23684210526316,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:19",
-      "data": {
-        "target_mean": 269.9549,
-        "target_high": 380.0,
-        "target_low": 140.0,
-        "upside_pct": 19.54,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 57,
-        "next_earnings": "2026-05-21",
-        "eps_estimate": 1.77593,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:22:59",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 87.94736842105264
+          "value": 84.23684210526316
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

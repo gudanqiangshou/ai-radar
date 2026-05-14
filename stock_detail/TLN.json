@@ -11,7 +11,7 @@
     "ai_role": "Susquehanna 核电 + AWS 数据中心直接 PPA",
     "price": 351.0299987792969,
     "change_1d": -6.29,
-    "composite": 51.563809523809525,
+    "composite": 51.86380952380952,
     "tier_letter": "A",
     "description": [
       "Talen Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:18",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:58",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "45.91",
         "MACD": "9.89",
         "20日波动率": "59.86%",
-        "成交量": "1,469,776",
-        "量比20日": "2.14",
+        "成交量": "1,470,500",
+        "量比20日": "2.26",
         "52周高点": "451.28",
         "52周低点": "232.34",
         "距52周高点": "-22.21%",
@@ -77,13 +77,13 @@
         "ROE": "-1.86%",
         "债务/权益": "0.43",
         "市值": "$16.04B",
-        "企业价值": "$22.80B",
+        "企业价值": "$21.73B",
         "P/E TTM": "—",
         "Forward P/E": "10.26",
         "P/S": "4.96",
-        "EV/Sales": "7.04",
-        "EV/EBITDA": "34.86",
-        "EV/FCF": "16.44",
+        "EV/Sales": "6.71",
+        "EV/EBITDA": "33.22",
+        "EV/FCF": "15.67",
         "FCF收益率": "8.65%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 56.28571428571429,
+          "value": 57.78571428571429,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 51.563809523809525,
+          "value": 51.86380952380952,
           "is_composite": true,
           "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:18",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 12:22:58",
       "data": {
-        "target_mean": 475.104,
+        "target_mean": 475.1707,
         "target_high": 595.0,
         "target_low": 388.56,
-        "upside_pct": 35.35,
+        "upside_pct": 35.36,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -290,7 +290,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 59.13166666666667
+          "value": 51.86380952380952
         },
         {
           "date": "2026-05-14",
@@ -299,5 +299,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

@@ -1,0 +1,201 @@
+{
+  "ticker": "HUBS",
+  "name": "HubSpot",
+  "header": {
+    "name": "HubSpot",
+    "ticker": "HUBS",
+    "sector": "AI Application",
+    "sector_id": "ai_application",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "中小企业 CRM + Breeze AI",
+    "price": 179.0,
+    "change_1d": -0.32,
+    "composite": 44.118421052631575,
+    "tier_letter": "C",
+    "description": [
+      "HubSpot 的 AI 产业链位置为 AI Application。",
+      "AI 角色：中小企业 CRM + Breeze AI。当前内部综合评分 44。",
+      "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$179.00",
+        "日内涨跌": "-0.32%",
+        "1日涨跌": "-0.32%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-6.45%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "2,261,900",
+        "量比20日": "0.82",
+        "52周高点": "206.21",
+        "52周低点": "173.25",
+        "距52周高点": "-13.19%",
+        "距52周低点": "+3.32%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "AI Application",
+        "AI角色": "中小企业 CRM + Breeze AI",
+        "投资确定性": "—",
+        "收入": "$3.30B",
+        "收入同比": "23.40%",
+        "毛利率": "83.66%",
+        "经营利润率": "3.30%",
+        "净利率": "3.04%",
+        "经营现金流": "—",
+        "资本开支": "-$190.59M",
+        "自由现金流": "$656.18M",
+        "FCF利润率": "19.90%",
+        "现金及短投": "$1.69B",
+        "总债务": "$247.29M",
+        "净现金/债务": "—",
+        "流通股本": "51.22M",
+        "ROE": "5.01%",
+        "债务/权益": "0.03",
+        "市值": "$9.17B",
+        "企业价值": "$7.72B",
+        "P/E TTM": "94.21",
+        "Forward P/E": "11.47",
+        "P/S": "2.78",
+        "EV/Sales": "2.34",
+        "EV/EBITDA": "87.82",
+        "EV/FCF": "11.77",
+        "FCF收益率": "7.16%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 31.25,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "HubSpot凭借Breeze AI深度嵌入CRM工作流，中小企业切换成本较高；84%毛利率反映软件规模优势；但AI技术壁垒不突出，面临Salesforce、微软等巨头竞争，且净利率仅3%说明盈利护城河尚浅，品牌在中小企业心智占位较强但天花板明显。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 42.0,
+          "reasoning": "HubSpot的Breeze AI嵌入CRM工作流，推动高端套餐升级和ARPU提升，但核心收入仍来自订阅席位而非AI直接计费。AI加速增长但非独立变现引擎，SMB客户对AI溢价敏感度高，AI退潮影响升级动力而非存量续约。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 62.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 12.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 42.0,
+          "reasoning": "HubSpot现金充裕(~17亿)但长期负债数据缺失，SMB客户群在经济下行时流失率高，Breeze AI面临Salesforce/Microsoft强竞争，估值仍偏高(PS>10x)，监管风险温和。综合判定中等风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 44.118421052631575,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "HubSpot（HUBS）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】HubSpot凭借Breeze AI深度嵌入CRM工作流，中小企业切换成本较高；84%毛利率反映软件规模优势；但AI技术壁垒不突出，面临Salesforce、微软等巨头竞争，且净利率仅3%说明盈利护城河尚浅，品牌在中小企业心智占位较强但天花板明显。 【ai_exposure】HubSpot的Breeze AI嵌入CRM工作流，推动高端套餐升级和ARPU提升，但核心收入仍来自订阅席位而非AI直接计费。AI加速增长但非独立变现引擎，SMB客户对AI溢价敏感度高，AI退潮影响升级动力而非存量续约。 【risk】HubSpot现金充裕(~17亿)但长期负债数据缺失，SMB客户群在经济下行时流失率高，Breeze AI面临Salesforce/Microsoft强竞争，估值仍偏高(PS>10x)，监管风险温和。综合判定中等风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 44.118421052631575
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

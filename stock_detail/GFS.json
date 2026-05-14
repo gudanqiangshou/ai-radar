@@ -1,0 +1,201 @@
+{
+  "ticker": "GFS",
+  "name": "GlobalFoundries",
+  "header": {
+    "name": "GlobalFoundries",
+    "ticker": "GFS",
+    "sector": "Foundry / Packaging",
+    "sector_id": "foundry_packaging",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "美国本土代工 — 成熟节点 + 国防/汽车 + Chips Act",
+    "price": 74.98999786376953,
+    "change_1d": 3.94,
+    "composite": 33.84210526315789,
+    "tier_letter": "C",
+    "description": [
+      "GlobalFoundries 的 AI 产业链位置为 Foundry / Packaging。",
+      "AI 角色：美国本土代工 — 成熟节点 + 国防/汽车 + Chips Act。当前内部综合评分 33。",
+      "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$74.99",
+        "日内涨跌": "+3.94%",
+        "1日涨跌": "+3.94%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "+0.00%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "3,060,500",
+        "量比20日": "0.81",
+        "52周高点": "76.98",
+        "52周低点": "69.77",
+        "距52周高点": "-2.59%",
+        "距52周低点": "+7.48%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Foundry / Packaging",
+        "AI角色": "美国本土代工 — 成熟节点 + 国防/汽车 + Chips Act",
+        "投资确定性": "—",
+        "收入": "$6.84B",
+        "收入同比": "3.10%",
+        "毛利率": "26.11%",
+        "经营利润率": "11.02%",
+        "净利率": "11.37%",
+        "经营现金流": "—",
+        "资本开支": "-$868.00M",
+        "自由现金流": "$1.19B",
+        "FCF利润率": "17.44%",
+        "现金及短投": "$3.00B",
+        "总债务": "$1.72B",
+        "净现金/债务": "$1.94B",
+        "流通股本": "548.42M",
+        "ROE": "6.83%",
+        "债务/权益": "0.04",
+        "市值": "$41.13B",
+        "企业价值": "$39.90B",
+        "P/E TTM": "53.95",
+        "Forward P/E": "30.25",
+        "P/S": "6.01",
+        "EV/Sales": "5.83",
+        "EV/EBITDA": "19.63",
+        "EV/FCF": "33.45",
+        "FCF收益率": "2.90%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 35.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "GFS凭借美国本土制造+Chips Act补贴+国防/汽车认证构建监管与资源壁垒，成熟节点（22nm-180nm）差异化工艺（RF、嵌入式存储）形成一定技术护城河；但毛利率仅26%、ROE 7%显示规模效应弱，缺乏先进节点竞争力，客户集中度高且易受地缘政治波动影响。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 18.0,
+          "reasoning": "GFS专注成熟节点（22-180nm），不生产AI训练/推理所需的先进制程芯片。主要客户为汽车、工业、国防、IoT。AI capex驱动的先进制程代工需求（台积电3/5nm）与GFS几乎无关。Chips Act补贴提供稳定性，但AI上行弹性极低。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 20.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 35.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 10.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 52.0,
+          "reasoning": "GFS现金充裕(30亿)、长期负债低(10.6亿)，财务结构稳健。但成熟节点面临中国大陆产能过剩冲击，客户集中度数据缺失存隐患，Chips Act补贴落地不确定，汽车/国防需求周期性波动，整体中等风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 33.84210526315789,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "GlobalFoundries（GFS）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】GFS凭借美国本土制造+Chips Act补贴+国防/汽车认证构建监管与资源壁垒，成熟节点（22nm-180nm）差异化工艺（RF、嵌入式存储）形成一定技术护城河；但毛利率仅26%、ROE 7%显示规模效应弱，缺乏先进节点竞争力，客户集中度高且易受地缘政治波动影响。 【ai_exposure】GFS专注成熟节点（22-180nm），不生产AI训练/推理所需的先进制程芯片。主要客户为汽车、工业、国防、IoT。AI capex驱动的先进制程代工需求（台积电3/5nm）与GFS几乎无关。Chips Act补贴提供稳定性，但AI上行弹性极低。 【risk】GFS现金充裕(30亿)、长期负债低(10.6亿)，财务结构稳健。但成熟节点面临中国大陆产能过剩冲击，客户集中度数据缺失存隐患，Chips Act补贴落地不确定，汽车/国防需求周期性波动，整体中等风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 33.84210526315789
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

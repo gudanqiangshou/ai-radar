@@ -1,0 +1,201 @@
+{
+  "ticker": "TXN",
+  "name": "Texas Instruments",
+  "header": {
+    "name": "Texas Instruments",
+    "ticker": "TXN",
+    "sector": "Compute / GPU / ASIC",
+    "sector_id": "compute_gpu_asic",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "模拟芯片 — AI 服务器电源管理 + 工业 AI 受益",
+    "price": 306.3399963378906,
+    "change_1d": 3.78,
+    "composite": 61.47368421052631,
+    "tier_letter": "C",
+    "description": [
+      "Texas Instruments 的 AI 产业链位置为 Compute / GPU / ASIC。",
+      "AI 角色：模拟芯片 — AI 服务器电源管理 + 工业 AI 受益。当前内部综合评分 61。",
+      "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:59",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$306.34",
+        "日内涨跌": "+3.78%",
+        "1日涨跌": "+3.78%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "+2.88%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "7,543,000",
+        "量比20日": "0.96",
+        "52周高点": "309.32",
+        "52周低点": "287.63",
+        "距52周高点": "-0.96%",
+        "距52周低点": "+6.50%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Compute / GPU / ASIC",
+        "AI角色": "模拟芯片 — AI 服务器电源管理 + 工业 AI 受益",
+        "投资确定性": "—",
+        "收入": "$18.44B",
+        "收入同比": "18.60%",
+        "毛利率": "57.32%",
+        "经营利润率": "37.82%",
+        "净利率": "29.11%",
+        "经营现金流": "—",
+        "资本开支": "-$4.10B",
+        "自由现金流": "$1.07B",
+        "FCF利润率": "5.79%",
+        "现金及短投": "$5.10B",
+        "总债务": "$14.05B",
+        "净现金/债务": "-$7.80B",
+        "流通股本": "910.09M",
+        "ROE": "32.35%",
+        "债务/权益": "0.05",
+        "市值": "$278.80B",
+        "企业价值": "$287.74B",
+        "P/E TTM": "52.46",
+        "Forward P/E": "32.50",
+        "P/S": "15.12",
+        "EV/Sales": "15.61",
+        "EV/EBITDA": "33.21",
+        "EV/FCF": "269.36",
+        "FCF收益率": "0.38%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 65.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "TXN在模拟芯片领域拥有深厚Know-how与专利积累，自有晶圆厂带来成本优势，客户切换成本高（设计周期长达2-3年）。但AI服务器电源管理赛道竞争加剧（ADI、MPS等），工业AI复苏节奏不确定，护城河宽但增长催化剂有限。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 28.0,
+          "reasoning": "TXN主营工业/汽车模拟芯片，AI服务器电源管理（MOSFET、电源IC）贡献有限，占总收入估计低于10%。工业AI复苏尚早，核心驱动仍是传统工业/汽车周期。AI暴露度低，属间接受益，AI退潮影响有限但上行弹性也弱。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 42.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 67.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 61.25,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "TXN现金51亿但长期负债129亿，杠杆偏高；工业/汽车周期性下行压力持续，库存去化缓慢；模拟芯片护城河深但面临ADI等竞争；中国收入占比约20%受出口管制威胁；当前PE偏高，估值消化需时。综合评定为低中风险区间。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 61.47368421052631,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:22:59",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Texas Instruments（TXN）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】TXN在模拟芯片领域拥有深厚Know-how与专利积累，自有晶圆厂带来成本优势，客户切换成本高（设计周期长达2-3年）。但AI服务器电源管理赛道竞争加剧（ADI、MPS等），工业AI复苏节奏不确定，护城河宽但增长催化剂有限。 【ai_exposure】TXN主营工业/汽车模拟芯片，AI服务器电源管理（MOSFET、电源IC）贡献有限，占总收入估计低于10%。工业AI复苏尚早，核心驱动仍是传统工业/汽车周期。AI暴露度低，属间接受益，AI退潮影响有限但上行弹性也弱。 【risk】TXN现金51亿但长期负债129亿，杠杆偏高；工业/汽车周期性下行压力持续，库存去化缓慢；模拟芯片护城河深但面临ADI等竞争；中国收入占比约20%受出口管制威胁；当前PE偏高，估值消化需时。综合评定为低中风险区间。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 61.47368421052631
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

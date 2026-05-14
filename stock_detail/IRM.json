@@ -11,15 +11,15 @@
     "ai_role": "数据中心扩张 + 文档存储 — 老业务转型 AI 数据中心 REIT",
     "price": 126.12000274658203,
     "change_1d": -0.07,
-    "composite": 57.833333333333314,
+    "composite": 55.88888888888889,
     "tier_letter": "B",
     "description": [
       "Iron Mountain 的 AI 产业链位置为 Data Center Infrastructure。",
-      "AI 角色：数据中心扩张 + 文档存储 — 老业务转型 AI 数据中心 REIT。当前内部综合评分 57。",
+      "AI 角色：数据中心扩张 + 文档存储 — 老业务转型 AI 数据中心 REIT。当前内部综合评分 55。",
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
     "status_label": "持有"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "1,727,162",
-        "量比20日": "1.01",
+        "成交量": "1,742,000",
+        "量比20日": "1.02",
         "52周高点": "131.55",
         "52周低点": "123.29",
         "距52周高点": "-4.13%",
@@ -77,13 +77,13 @@
         "ROE": "—",
         "债务/权益": "0.53",
         "市值": "$37.52B",
-        "企业价值": "$57.36B",
+        "企业价值": "$57.33B",
         "P/E TTM": "137.09",
         "Forward P/E": "47.17",
         "P/S": "5.18",
-        "EV/Sales": "7.92",
-        "EV/EBITDA": "23.41",
-        "EV/FCF": "-114.84",
+        "EV/Sales": "7.91",
+        "EV/EBITDA": "23.40",
+        "EV/FCF": "-114.78",
         "FCF收益率": "-1.33%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 70.0,
+          "value": 66.66666666666667,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 57.5,
+          "value": 53.333333333333336,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 57.833333333333314,
+          "value": 55.88888888888889,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 130.81818,
-        "target_high": 149.0,
-        "target_low": 44.0,
-        "upside_pct": 3.73,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 11,
-        "next_earnings": "2026-04-30",
-        "eps_estimate": 0.55807,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 57.833333333333314
+          "value": 55.88888888888889
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

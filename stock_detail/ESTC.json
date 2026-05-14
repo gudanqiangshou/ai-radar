@@ -1,0 +1,201 @@
+{
+  "ticker": "ESTC",
+  "name": "Elastic",
+  "header": {
+    "name": "Elastic",
+    "ticker": "ESTC",
+    "sector": "Data / Software Platform",
+    "sector_id": "data_software_platform",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "Elasticsearch + ELK — 搜索 + 向量搜索（RAG）",
+    "price": 48.56999969482422,
+    "change_1d": -3.03,
+    "composite": 58.438596491228076,
+    "tier_letter": "C",
+    "description": [
+      "Elastic 的 AI 产业链位置为 Data / Software Platform。",
+      "AI 角色：Elasticsearch + ELK — 搜索 + 向量搜索（RAG）。当前内部综合评分 58。",
+      "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$48.57",
+        "日内涨跌": "-3.03%",
+        "1日涨跌": "-3.03%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-3.59%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "2,262,200",
+        "量比20日": "1.13",
+        "52周高点": "52.74",
+        "52周低点": "47.59",
+        "距52周高点": "-7.91%",
+        "距52周低点": "+2.06%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Data / Software Platform",
+        "AI角色": "Elasticsearch + ELK — 搜索 + 向量搜索（RAG）",
+        "投资确定性": "—",
+        "收入": "$1.68B",
+        "收入同比": "17.70%",
+        "毛利率": "76.07%",
+        "经营利润率": "0.23%",
+        "净利率": "-5.04%",
+        "经营现金流": "—",
+        "资本开支": "-$4.31M",
+        "自由现金流": "$387.17M",
+        "FCF利润率": "23.09%",
+        "现金及短投": "$1.25B",
+        "总债务": "$591.68M",
+        "净现金/债务": "$677.45M",
+        "流通股本": "103.50M",
+        "ROE": "-10.24%",
+        "债务/权益": "0.12",
+        "市值": "$5.03B",
+        "企业价值": "$4.37B",
+        "P/E TTM": "—",
+        "Forward P/E": "17.08",
+        "P/S": "3.00",
+        "EV/Sales": "2.61",
+        "EV/EBITDA": "-265.19",
+        "EV/FCF": "11.29",
+        "FCF收益率": "7.70%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 50.33333333333333,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "Elasticsearch在搜索与向量检索领域具备强品牌心智与高切换成本，ELK Stack生态粘性显著。但面临OpenSearch分叉、云厂商自建服务（AWS、Azure）的直接竞争，规模效应有限，净利率为负显示盈利护城河尚未成型，AI/RAG赛道竞争加剧进一步压缩溢价空间。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 42.0,
+          "reasoning": "Elasticsearch向量搜索是RAG基础设施的天然受益者，AI驱动的搜索用例正在加速采用，但核心收入仍来自传统日志/可观测性/企业搜索。AI是重要增量驱动力，非主导，且面临OpenSearch、Pinecone等竞争压力。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 18.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 53.666666666666664,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 93.33333333333333,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 52.0,
+          "reasoning": "Elastic现金充裕(12.5亿)、长期负债可控(5.7亿)，AI向量搜索(RAG)定位契合趋势。但面临OpenSearch开源分叉、云厂商自建搜索、Pinecone等向量DB竞争压力大；盈利能力弱、估值偏高，增长放缓时回撤风险显著。整体中等风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 58.438596491228076,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Elastic（ESTC）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Elasticsearch在搜索与向量检索领域具备强品牌心智与高切换成本，ELK Stack生态粘性显著。但面临OpenSearch分叉、云厂商自建服务（AWS、Azure）的直接竞争，规模效应有限，净利率为负显示盈利护城河尚未成型，AI/RAG赛道竞争加剧进一步压缩溢价空间。 【ai_exposure】Elasticsearch向量搜索是RAG基础设施的天然受益者，AI驱动的搜索用例正在加速采用，但核心收入仍来自传统日志/可观测性/企业搜索。AI是重要增量驱动力，非主导，且面临OpenSearch、Pinecone等竞争压力。 【risk】Elastic现金充裕(12.5亿)、长期负债可控(5.7亿)，AI向量搜索(RAG)定位契合趋势。但面临OpenSearch开源分叉、云厂商自建搜索、Pinecone等向量DB竞争压力大；盈利能力弱、估值偏高，增长放缓时回撤风险显著。整体中等风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 58.438596491228076
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

@@ -1,0 +1,201 @@
+{
+  "ticker": "KEYS",
+  "name": "Keysight Technologies",
+  "header": {
+    "name": "Keysight Technologies",
+    "ticker": "KEYS",
+    "sector": "EDA / Design Software",
+    "sector_id": "eda_design",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "电子测试仪器 — 5G / AI 网络验证测试设备",
+    "price": 361.19000244140625,
+    "change_1d": -0.13,
+    "composite": 56.99999999999999,
+    "tier_letter": "C",
+    "description": [
+      "Keysight Technologies 的 AI 产业链位置为 EDA / Design Software。",
+      "AI 角色：电子测试仪器 — 5G / AI 网络验证测试设备。当前内部综合评分 56。",
+      "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$361.19",
+        "日内涨跌": "-0.13%",
+        "1日涨跌": "-0.13%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-1.41%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "1,481,600",
+        "量比20日": "0.99",
+        "52周高点": "370.17",
+        "52周低点": "352.08",
+        "距52周高点": "-2.43%",
+        "距52周低点": "+2.59%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "EDA / Design Software",
+        "AI角色": "电子测试仪器 — 5G / AI 网络验证测试设备",
+        "投资确定性": "—",
+        "收入": "$5.68B",
+        "收入同比": "23.30%",
+        "毛利率": "61.86%",
+        "经营利润率": "16.31%",
+        "净利率": "16.95%",
+        "经营现金流": "—",
+        "资本开支": "-$130.00M",
+        "自由现金流": "$1.08B",
+        "FCF利润率": "18.98%",
+        "现金及短投": "$2.18B",
+        "总债务": "$2.77B",
+        "净现金/债务": "-$356.00M",
+        "流通股本": "171.50M",
+        "ROE": "17.22%",
+        "债务/权益": "0.04",
+        "市值": "$61.94B",
+        "企业价值": "$62.54B",
+        "P/E TTM": "63.70",
+        "Forward P/E": "34.95",
+        "P/S": "10.91",
+        "EV/Sales": "11.02",
+        "EV/EBITDA": "48.63",
+        "EV/FCF": "58.05",
+        "FCF收益率": "1.74%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 35.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 72.0,
+          "reasoning": "Keysight在射频/高速信号测试领域拥有深厚专利积累与Know-how，客户（芯片厂、电信设备商）切换成本极高，品牌心智强。但EDA/Design Software非其核心，规模效应弱于Synopsys/Cadence，毛利率62%尚可但护城河宽度受限于细分赛道。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 38.0,
+          "reasoning": "Keysight主要收入来自5G、航空航天、汽车等传统测试仪器市场。AI数据中心网络测试（400G/800G以太网验证）是新兴增长点，但占总收入比例估计低于20%。AI capex扩张带来间接受益，非核心驱动，AI退潮冲击有限但增长叙事会受损。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 50.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 80.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "Keysight现金约22亿美元，长期负债25亿，杠杆可控但非零压力。5G/AI测试需求强劲，但半导体客户集中度较高，中国出口管制风险显著（中国营收占比约15-20%）。EDA/测试仪器市场竞争激烈，估值处于历史中位区间，整体属低中风险。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 56.99999999999999,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Keysight Technologies（KEYS）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Keysight在射频/高速信号测试领域拥有深厚专利积累与Know-how，客户（芯片厂、电信设备商）切换成本极高，品牌心智强。但EDA/Design Software非其核心，规模效应弱于Synopsys/Cadence，毛利率62%尚可但护城河宽度受限于细分赛道。 【ai_exposure】Keysight主要收入来自5G、航空航天、汽车等传统测试仪器市场。AI数据中心网络测试（400G/800G以太网验证）是新兴增长点，但占总收入比例估计低于20%。AI capex扩张带来间接受益，非核心驱动，AI退潮冲击有限但增长叙事会受损。 【risk】Keysight现金约22亿美元，长期负债25亿，杠杆可控但非零压力。5G/AI测试需求强劲，但半导体客户集中度较高，中国出口管制风险显著（中国营收占比约15-20%）。EDA/测试仪器市场竞争激烈，估值处于历史中位区间，整体属低中风险。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 56.99999999999999
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

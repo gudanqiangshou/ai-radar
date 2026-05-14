@@ -11,15 +11,15 @@
     "ai_role": "AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片",
     "price": 270.1300048828125,
     "change_1d": 1.62,
-    "composite": 38.0,
+    "composite": 37.36842105263158,
     "tier_letter": "A",
     "description": [
       "Amazon 的 AI 产业链位置为 Cloud / Hyperscaler。",
-      "AI 角色：AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片。当前内部综合评分 38。",
+      "AI 角色：AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片。当前内部综合评分 37。",
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
     "status_label": "减持"
   },
   "panels": [
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "37,657,434",
-        "量比20日": "1.00",
+        "成交量": "39,598,900",
+        "量比20日": "1.06",
         "52周高点": "273.63",
         "52周低点": "262.63",
         "距52周高点": "-1.28%",
@@ -77,13 +77,13 @@
         "ROE": "24.29%",
         "债务/权益": "0.08",
         "市值": "$2.91T",
-        "企业价值": "$2.95T",
+        "企业价值": "$3.00T",
         "P/E TTM": "32.35",
         "Forward P/E": "27.37",
         "P/S": "3.91",
-        "EV/Sales": "3.97",
-        "EV/EBITDA": "18.94",
-        "EV/FCF": "301.01",
+        "EV/Sales": "4.04",
+        "EV/EBITDA": "19.24",
+        "EV/FCF": "305.74",
         "FCF收益率": "0.34%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 20.0,
+          "value": 36.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 55.0,
+          "value": 44.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 38.0,
+          "value": 37.36842105263158,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 311.55145,
-        "target_high": 370.0,
-        "target_low": 207.0,
-        "upside_pct": 15.33,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 62,
-        "next_earnings": "2026-07-31",
-        "eps_estimate": 1.81692,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 35.89473684210526
+          "value": 37.36842105263158
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

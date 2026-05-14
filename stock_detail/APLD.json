@@ -11,16 +11,16 @@
     "ai_role": "数据中心 + AI 云 — CoreWeave/Anthropic 合作",
     "price": 45.47999954223633,
     "change_1d": 3.53,
-    "composite": 34.4561403508772,
+    "composite": 46.73684210526315,
     "tier_letter": "C",
     "description": [
       "Applied Digital 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：数据中心 + AI 云 — CoreWeave/Anthropic 合作。当前内部综合评分 34。",
+      "AI 角色：数据中心 + AI 云 — CoreWeave/Anthropic 合作。当前内部综合评分 46。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:20",
-    "status_label": "减持"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -43,8 +43,8 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "15,232,885",
-        "量比20日": "0.73",
+        "成交量": "15,245,700",
+        "量比20日": "0.64",
         "52周高点": "46.64",
         "52周低点": "38.83",
         "距52周高点": "-2.49%",
@@ -77,13 +77,13 @@
         "ROE": "-5.56%",
         "债务/权益": "0.22",
         "市值": "$13.00B",
-        "企业价值": "$14.64B",
+        "企业价值": "$15.08B",
         "P/E TTM": "—",
         "Forward P/E": "-64.97",
         "P/S": "40.71",
-        "EV/Sales": "45.85",
-        "EV/EBITDA": "1052.65",
-        "EV/FCF": "-9.78",
+        "EV/Sales": "47.23",
+        "EV/EBITDA": "1084.51",
+        "EV/FCF": "-10.07",
         "FCF收益率": "-11.52%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 23.33333333333333,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 66.66666666666666,
+          "value": 72.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 36.666666666666664,
+          "value": 56.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 23.333333333333343,
+          "value": 36.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 34.4561403508772,
+          "value": 46.73684210526315,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:20",
-      "data": {
-        "target_mean": 52.8,
-        "target_high": 97.0,
-        "target_low": 40.0,
-        "upside_pct": 16.09,
-        "rating": "strong_buy",
-        "rating_letter": "A",
-        "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 10,
-        "next_earnings": "2026-07-30",
-        "eps_estimate": null,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 34.4561403508772
+          "value": 46.73684210526315
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }

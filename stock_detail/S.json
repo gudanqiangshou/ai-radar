@@ -11,7 +11,7 @@
     "ai_role": "Singularity AI 自治安全 — 端点替代赛道",
     "price": 16.079999923706055,
     "change_1d": 2.16,
-    "composite": 37.52631578947368,
+    "composite": 37.78947368421052,
     "tier_letter": "C",
     "description": [
       "SentinelOne 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 05:06:21",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
     "status_label": "减持"
   },
   "panels": [
@@ -43,12 +43,12 @@
         "RSI 14": "—",
         "MACD": "—",
         "20日波动率": "—",
-        "成交量": "3,863,019",
-        "量比20日": "0.63",
+        "成交量": "4,634,200",
+        "量比20日": "0.64",
         "52周高点": "16.72",
-        "52周低点": "15.49",
+        "52周低点": "15.48",
         "距52周高点": "-3.83%",
-        "距52周低点": "+3.81%",
+        "距52周低点": "+3.88%",
         "20日支撑": "—",
         "20日压力": "—"
       }
@@ -77,13 +77,13 @@
         "ROE": "-29.02%",
         "债务/权益": "0.00",
         "市值": "$5.47B",
-        "企业价值": "$4.74B",
+        "企业价值": "$4.86B",
         "P/E TTM": "—",
         "Forward P/E": "33.72",
         "P/S": "5.46",
-        "EV/Sales": "4.74",
-        "EV/EBITDA": "-17.69",
-        "EV/FCF": "16.70",
+        "EV/Sales": "4.85",
+        "EV/EBITDA": "-18.12",
+        "EV/FCF": "17.11",
         "FCF收益率": "5.19%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 15.0,
+          "value": 8.571428571428571,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 15.0,
+          "value": 45.714285714285715,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 67.5,
+          "value": 61.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 37.52631578947368,
+          "value": 37.78947368421052,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,21 +167,8 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 05:06:21",
-      "data": {
-        "target_mean": 18.5,
-        "target_high": 26.0,
-        "target_low": 14.0,
-        "upside_pct": 15.05,
-        "rating": "buy",
-        "rating_letter": "A-",
-        "rating_change": "维持",
-        "previous_rating_letter": "A-",
-        "n_analysts": 34,
-        "next_earnings": "2026-05-29",
-        "eps_estimate": 0.02127,
-        "revenue_estimate": null
-      },
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
     {
@@ -290,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 37.52631578947368
+          "value": 37.78947368421052
         },
         {
           "date": "2026-05-14",
@@ -299,5 +286,5 @@
       ]
     }
   ],
-  "updated_at": "2026-05-14"
+  "updated_at": "2026-05-13"
 }
