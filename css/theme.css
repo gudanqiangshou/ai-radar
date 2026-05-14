@@ -219,9 +219,14 @@ h2 { color:#fff; margin-bottom:8px; }
     h2 { font-size: 16px; }
     .subtitle { font-size: 11px; margin-bottom: 12px; }
 
-    /* 主布局：detail 不再 sticky 在右，改为 stack 在下方 */
-    .dashboard { grid-template-columns: 1fr; gap: 8px; }
-    .detail { position: static; max-height: none; }
+    /* 主布局：detail 不再 sticky 在右，改为 stack 在下方
+       minmax(0, 1fr) 关键：1fr 默认是 minmax(auto, 1fr)，会被 child 的
+       min-content 撑开（如 .table-row min-width:660px 把整个 dashboard 顶到
+       810px 溢出 viewport）。minmax(0, ...) 强制 grid item 可以缩小到 0，
+       child 自己处理 horizontal scroll。*/
+    .dashboard { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+    .left { min-width: 0; }   /* 同理，让 flex child 不被内部撑开 */
+    .detail { position: static; max-height: none; min-width: 0; }
 
     /* topbar：手机上 1 行 brand + 2x2 stat 网格 */
     .topbar { grid-template-columns: 1fr 1fr; padding: 10px 12px; gap: 6px; }
