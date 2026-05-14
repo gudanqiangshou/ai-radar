@@ -11,7 +11,7 @@
     "ai_role": "企业级 NAND/HDD — AI 训练数据存储受益",
     "price": 494.0899963378906,
     "change_1d": 1.09,
-    "composite": 56.94736842105263,
+    "composite": 56.1,
     "tier_letter": "C",
     "description": [
       "Western Digital 的 AI 产业链位置为 Memory / Storage。",
@@ -19,7 +19,7 @@
       "Memory / Storage 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:45",
     "status_label": "持有"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$494.09",
         "日内涨跌": "+1.09%",
         "1日涨跌": "+1.09%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "+2.94%",
+        "1月涨跌": "+41.10%",
+        "3月涨跌": "+73.91%",
+        "6月涨跌": "+213.05%",
         "1年涨跌": "—",
-        "YTD涨跌": "-4.21%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "+163.23%",
+        "20日均线": "429.61",
+        "50日均线": "349.53",
+        "200日均线": "207.46",
+        "RSI 14": "70.98",
+        "MACD": "43.03",
+        "20日波动率": "52.52%",
         "成交量": "5,752,400",
-        "量比20日": "0.65",
+        "量比20日": "0.72",
         "52周高点": "525.15",
-        "52周低点": "466.80",
+        "52周低点": "48.58",
         "距52周高点": "-5.91%",
-        "距52周低点": "+5.85%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "距52周低点": "+917.06%",
+        "20日支撑": "353.11",
+        "20日压力": "525.15"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 30.0,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 0.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 56.94736842105263,
+          "value": 56.1,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:36",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:45",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 56.94736842105263
+          "value": 56.1
         },
         {
           "date": "2026-05-14",

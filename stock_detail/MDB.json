@@ -11,15 +11,15 @@
     "ai_role": "通用数据库 + Atlas Vector Search 切入 RAG",
     "price": 303.0,
     "change_1d": -1.85,
-    "composite": 52.21052631578947,
+    "composite": 49.69375,
     "tier_letter": "B",
     "description": [
       "MongoDB 的 AI 产业链位置为 Data / Software Platform。",
-      "AI 角色：通用数据库 + Atlas Vector Search 切入 RAG。当前内部综合评分 52。",
+      "AI 角色：通用数据库 + Atlas Vector Search 切入 RAG。当前内部综合评分 49。",
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:39",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:48",
     "status_label": "观察"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$303.00",
         "日内涨跌": "-1.85%",
         "1日涨跌": "-1.85%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "+1.18%",
+        "1月涨跌": "+28.31%",
+        "3月涨跌": "-15.06%",
+        "6月涨跌": "-14.07%",
         "1年涨跌": "—",
-        "YTD涨跌": "+2.83%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "-24.18%",
+        "20日均线": "270.62",
+        "50日均线": "260.59",
+        "200日均线": "319.30",
+        "RSI 14": "65.06",
+        "MACD": "10.42",
+        "20日波动率": "56.63%",
         "成交量": "1,545,700",
-        "量比20日": "0.75",
-        "52周高点": "317.21",
-        "52周低点": "289.72",
-        "距52周高点": "-4.48%",
-        "距52周低点": "+4.58%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "0.95",
+        "52周高点": "444.72",
+        "52周低点": "182.43",
+        "距52周高点": "-31.87%",
+        "距52周低点": "+66.09%",
+        "20日支撑": "240.62",
+        "20日压力": "317.21"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 85.0,
+          "value": 60.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 51.875,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 52.21052631578947,
+          "value": 49.69375,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:39",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:48",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 52.21052631578947
+          "value": 49.69375
         },
         {
           "date": "2026-05-14",

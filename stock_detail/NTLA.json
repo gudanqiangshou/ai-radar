@@ -11,15 +11,15 @@
     "ai_role": "体内基因编辑 — CRISPR/Cas9 in vivo 临床领先",
     "price": 14.279999732971191,
     "change_1d": 2.07,
-    "composite": 33.815789473684205,
+    "composite": 37.74999999999999,
     "tier_letter": "C",
     "description": [
       "Intellia Therapeutics 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：体内基因编辑 — CRISPR/Cas9 in vivo 临床领先。当前内部综合评分 33。",
+      "AI 角色：体内基因编辑 — CRISPR/Cas9 in vivo 临床领先。当前内部综合评分 37。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:41",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:50",
     "status_label": "减持"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$14.28",
         "日内涨跌": "+2.07%",
         "1日涨跌": "+2.07%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "+1.35%",
+        "1月涨跌": "+0.14%",
+        "3月涨跌": "+22.89%",
+        "6月涨跌": "+64.14%",
         "1年涨跌": "—",
-        "YTD涨跌": "-0.97%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "+55.05%",
+        "20日均线": "14.13",
+        "50日均线": "13.66",
+        "200日均线": "13.20",
+        "RSI 14": "52.96",
+        "MACD": "0.07",
+        "20日波动率": "85.61%",
         "成交量": "3,752,200",
-        "量比20日": "0.63",
-        "52周高点": "15.55",
-        "52周低点": "13.52",
-        "距52周高点": "-8.17%",
-        "距52周低点": "+5.62%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "0.47",
+        "52周高点": "28.25",
+        "52周低点": "6.83",
+        "距52周高点": "-49.45%",
+        "距52周低点": "+109.08%",
+        "20日支撑": "11.76",
+        "20日压力": "16.97"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 36.666666666666664,
+          "value": 50.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 85.83333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 33.815789473684205,
+          "value": 37.74999999999999,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:41",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:50",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 33.815789473684205
+          "value": 37.74999999999999
         }
       ]
     }

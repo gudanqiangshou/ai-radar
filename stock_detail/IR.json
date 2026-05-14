@@ -11,15 +11,15 @@
     "ai_role": "工业流体管理 + 压缩机 — 数据中心冷却",
     "price": 71.38999938964844,
     "change_1d": -2.49,
-    "composite": 49.368421052631575,
+    "composite": 48.0,
     "tier_letter": "C",
     "description": [
       "Ingersoll Rand 的 AI 产业链位置为 Industrial Automation / Robotics。",
-      "AI 角色：工业流体管理 + 压缩机 — 数据中心冷却。当前内部综合评分 49。",
+      "AI 角色：工业流体管理 + 压缩机 — 数据中心冷却。当前内部综合评分 48。",
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:40",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:49",
     "status_label": "观察"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$71.39",
         "日内涨跌": "-2.49%",
         "1日涨跌": "-2.49%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "-5.76%",
+        "1月涨跌": "-18.59%",
+        "3月涨跌": "-24.22%",
+        "6月涨跌": "-5.41%",
         "1年涨跌": "—",
-        "YTD涨跌": "-4.43%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "-10.49%",
+        "20日均线": "79.79",
+        "50日均线": "81.98",
+        "200日均线": "82.32",
+        "RSI 14": "31.64",
+        "MACD": "-2.79",
+        "20日波动率": "35.25%",
         "成交量": "5,484,500",
-        "量比20日": "1.67",
-        "52周高点": "75.78",
+        "量比20日": "1.37",
+        "52周高点": "100.96",
         "52周低点": "70.97",
-        "距52周高点": "-5.80%",
+        "距52周高点": "-29.29%",
         "距52周低点": "+0.59%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "20日支撑": "70.97",
+        "20日压力": "87.52"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 24.0,
+          "value": 32.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 6.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 49.368421052631575,
+          "value": 48.0,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:40",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:49",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 49.368421052631575
+          "value": 48.0
         }
       ]
     }

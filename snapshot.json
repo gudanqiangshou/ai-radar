@@ -29,7 +29,7 @@
       "up_count": 10,
       "down_count": 12,
       "rs_value": 4.99,
-      "rs_rank": 1,
+      "rs_rank": 14,
       "name_zh": "电力 / 电网 / 核电",
       "core_count": 3,
       "placeholder": false
@@ -38,15 +38,15 @@
       "sector_id": "compute_gpu_asic",
       "name": "Compute / GPU / ASIC",
       "change_today": 2.66,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": 2.58,
+      "change_5d": 3.77,
+      "change_1m": 40.87,
+      "change_3m": 58.89,
+      "change_ytd": 82.69,
       "stock_count": 12,
       "quotes_count": 12,
       "up_count": 8,
       "down_count": 4,
-      "rs_value": 2.66,
+      "rs_value": 40.87,
       "rs_rank": 3,
       "name_zh": "算力 / GPU / 定制芯片",
       "core_count": 3,
@@ -56,16 +56,16 @@
       "sector_id": "memory_storage",
       "name": "Memory / Storage",
       "change_today": 1.09,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -2.0,
+      "change_5d": 4.43,
+      "change_1m": 59.24,
+      "change_3m": 89.57,
+      "change_ytd": 163.23,
       "stock_count": 3,
       "quotes_count": 3,
       "up_count": 3,
       "down_count": 0,
-      "rs_value": 1.09,
-      "rs_rank": 10,
+      "rs_value": 59.24,
+      "rs_rank": 1,
       "name_zh": "存储",
       "core_count": 1,
       "placeholder": false
@@ -74,16 +74,16 @@
       "sector_id": "foundry_packaging",
       "name": "Foundry / Packaging",
       "change_today": 2.53,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": 0.0,
+      "change_5d": 1.37,
+      "change_1m": 33.66,
+      "change_3m": 47.93,
+      "change_ytd": 103.23,
       "stock_count": 6,
       "quotes_count": 6,
       "up_count": 5,
       "down_count": 1,
-      "rs_value": 2.53,
-      "rs_rank": 5,
+      "rs_value": 33.66,
+      "rs_rank": 4,
       "name_zh": "代工 / 封装",
       "core_count": 1,
       "placeholder": false
@@ -92,16 +92,16 @@
       "sector_id": "semiconductor_equipment",
       "name": "Semiconductor Equipment",
       "change_today": 1.58,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -0.82,
+      "change_5d": -0.14,
+      "change_1m": 7.88,
+      "change_3m": 27.36,
+      "change_ytd": 62.17,
       "stock_count": 8,
       "quotes_count": 8,
       "up_count": 7,
       "down_count": 1,
-      "rs_value": 1.58,
-      "rs_rank": 9,
+      "rs_value": 7.88,
+      "rs_rank": 13,
       "name_zh": "半导体设备",
       "core_count": 2,
       "placeholder": false
@@ -110,16 +110,16 @@
       "sector_id": "eda_design",
       "name": "EDA / Design Software",
       "change_today": -0.77,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -1.41,
+      "change_5d": -1.39,
+      "change_1m": 21.9,
+      "change_3m": 22.97,
+      "change_ytd": 14.22,
       "stock_count": 3,
       "quotes_count": 3,
       "up_count": 0,
       "down_count": 3,
-      "rs_value": -0.77,
-      "rs_rank": 14,
+      "rs_value": 21.9,
+      "rs_rank": 8,
       "name_zh": "EDA / 芯片设计",
       "core_count": 2,
       "placeholder": false
@@ -128,16 +128,16 @@
       "sector_id": "networking_optical",
       "name": "Networking / Optical",
       "change_today": 1.64,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": 1.44,
+      "change_5d": 5.46,
+      "change_1m": 26.39,
+      "change_3m": 68.81,
+      "change_ytd": 38.47,
       "stock_count": 10,
       "quotes_count": 10,
       "up_count": 7,
       "down_count": 3,
-      "rs_value": 1.64,
-      "rs_rank": 7,
+      "rs_value": 26.39,
+      "rs_rank": 5,
       "name_zh": "网络 / 光模块",
       "core_count": 1,
       "placeholder": false
@@ -146,16 +146,16 @@
       "sector_id": "data_center_infra",
       "name": "Data Center Infrastructure",
       "change_today": -0.19,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -1.33,
+      "change_5d": -0.45,
+      "change_1m": 2.43,
+      "change_3m": 9.84,
+      "change_ytd": 16.86,
       "stock_count": 8,
       "quotes_count": 8,
       "up_count": 3,
       "down_count": 5,
-      "rs_value": -0.19,
-      "rs_rank": 13,
+      "rs_value": 2.43,
+      "rs_rank": 16,
       "name_zh": "数据中心基建",
       "core_count": 2,
       "placeholder": false
@@ -164,16 +164,16 @@
       "sector_id": "cloud_hyperscaler",
       "name": "Cloud / Hyperscaler",
       "change_today": 1.59,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -0.69,
+      "change_5d": -1.66,
+      "change_1m": 9.01,
+      "change_3m": 11.05,
+      "change_ytd": -4.12,
       "stock_count": 6,
       "quotes_count": 6,
       "up_count": 4,
       "down_count": 2,
-      "rs_value": 1.59,
-      "rs_rank": 8,
+      "rs_value": 9.01,
+      "rs_rank": 12,
       "name_zh": "云厂商",
       "core_count": 4,
       "placeholder": false
@@ -182,15 +182,15 @@
       "sector_id": "ai_cloud_gpu",
       "name": "AI Cloud / GPU Cloud",
       "change_today": 2.49,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -0.81,
+      "change_5d": 0.94,
+      "change_1m": 25.85,
+      "change_3m": 40.34,
+      "change_ytd": 35.72,
       "stock_count": 8,
       "quotes_count": 8,
       "up_count": 6,
       "down_count": 2,
-      "rs_value": 2.49,
+      "rs_value": 25.85,
       "rs_rank": 6,
       "name_zh": "AI 云 / GPU 云",
       "core_count": 0,
@@ -199,17 +199,17 @@
     {
       "sector_id": "data_software_platform",
       "name": "Data / Software Platform",
-      "change_today": -0.97,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -2.05,
+      "change_today": -0.09,
+      "change_5d": -4.47,
+      "change_1m": 13.51,
+      "change_3m": -11.88,
+      "change_ytd": -20.97,
       "stock_count": 9,
-      "quotes_count": 8,
+      "quotes_count": 9,
       "up_count": 3,
       "down_count": 5,
-      "rs_value": -0.97,
-      "rs_rank": 15,
+      "rs_value": 13.51,
+      "rs_rank": 9,
       "name_zh": "数据软件平台",
       "core_count": 1,
       "placeholder": false
@@ -218,16 +218,16 @@
       "sector_id": "ai_application",
       "name": "AI Application",
       "change_today": -2.08,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -5.23,
+      "change_5d": -7.06,
+      "change_1m": -2.0,
+      "change_3m": -12.93,
+      "change_ytd": -38.73,
       "stock_count": 12,
       "quotes_count": 12,
       "up_count": 0,
       "down_count": 12,
-      "rs_value": -2.08,
-      "rs_rank": 17,
+      "rs_value": -2.0,
+      "rs_rank": 18,
       "name_zh": "AI 应用",
       "core_count": 1,
       "placeholder": false
@@ -236,16 +236,16 @@
       "sector_id": "cybersecurity",
       "name": "Cybersecurity",
       "change_today": 2.58,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -1.0,
+      "change_5d": -2.43,
+      "change_1m": 23.34,
+      "change_3m": 7.92,
+      "change_ytd": -4.12,
       "stock_count": 10,
       "quotes_count": 10,
       "up_count": 6,
       "down_count": 4,
-      "rs_value": 2.58,
-      "rs_rank": 4,
+      "rs_value": 23.34,
+      "rs_rank": 7,
       "name_zh": "网络安全",
       "core_count": 1,
       "placeholder": false
@@ -254,16 +254,16 @@
       "sector_id": "industrial_automation",
       "name": "Industrial Automation / Robotics",
       "change_today": -0.14,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -0.86,
+      "change_5d": -1.13,
+      "change_1m": -7.82,
+      "change_3m": -9.11,
+      "change_ytd": 0.06,
       "stock_count": 6,
       "quotes_count": 6,
       "up_count": 2,
       "down_count": 4,
-      "rs_value": -0.14,
-      "rs_rank": 12,
+      "rs_value": -7.82,
+      "rs_rank": 20,
       "name_zh": "工业自动化 / 机器人",
       "core_count": 0,
       "placeholder": false
@@ -272,16 +272,16 @@
       "sector_id": "autonomous_mobility",
       "name": "Autonomous / Mobility",
       "change_today": 2.73,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": 1.35,
+      "change_5d": 0.79,
+      "change_1m": 3.26,
+      "change_3m": 4.89,
+      "change_ytd": -6.38,
       "stock_count": 7,
       "quotes_count": 7,
       "up_count": 5,
       "down_count": 2,
-      "rs_value": 2.73,
-      "rs_rank": 2,
+      "rs_value": 3.26,
+      "rs_rank": 15,
       "name_zh": "自动驾驶",
       "core_count": 1,
       "placeholder": false
@@ -290,16 +290,16 @@
       "sector_id": "healthcare_ai",
       "name": "Healthcare AI",
       "change_today": -1.47,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -1.19,
+      "change_5d": -3.79,
+      "change_1m": -1.72,
+      "change_3m": -9.45,
+      "change_ytd": -4.61,
       "stock_count": 7,
       "quotes_count": 7,
       "up_count": 2,
       "down_count": 5,
-      "rs_value": -1.47,
-      "rs_rank": 16,
+      "rs_value": -1.72,
+      "rs_rank": 17,
       "name_zh": "医疗 AI",
       "core_count": 1,
       "placeholder": false
@@ -308,16 +308,16 @@
       "sector_id": "financial_research_data",
       "name": "Financial / Research Data",
       "change_today": -2.36,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -2.3,
+      "change_5d": -2.68,
+      "change_1m": -2.88,
+      "change_3m": 4.46,
+      "change_ytd": -9.41,
       "stock_count": 6,
       "quotes_count": 6,
       "up_count": 1,
       "down_count": 5,
-      "rs_value": -2.36,
-      "rs_rank": 18,
+      "rs_value": -2.88,
+      "rs_rank": 19,
       "name_zh": "金融数据",
       "core_count": 1,
       "placeholder": false
@@ -326,16 +326,16 @@
       "sector_id": "consumer_ai_device",
       "name": "Consumer AI / Device",
       "change_today": 0.63,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -2.3,
+      "change_5d": -4.15,
+      "change_1m": 10.34,
+      "change_3m": 14.18,
+      "change_ytd": 6.99,
       "stock_count": 6,
       "quotes_count": 6,
       "up_count": 4,
       "down_count": 2,
-      "rs_value": 0.63,
-      "rs_rank": 11,
+      "rs_value": 10.34,
+      "rs_rank": 10,
       "name_zh": "消费 AI / 设备",
       "core_count": 1,
       "placeholder": false
@@ -344,16 +344,16 @@
       "sector_id": "quantum_frontier",
       "name": "Quantum / Frontier Computing",
       "change_today": -3.75,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -6.54,
+      "change_5d": 4.73,
+      "change_1m": 49.03,
+      "change_3m": 28.76,
+      "change_ytd": -10.89,
       "stock_count": 4,
       "quotes_count": 4,
       "up_count": 0,
       "down_count": 4,
-      "rs_value": -3.75,
-      "rs_rank": 20,
+      "rs_value": 49.03,
+      "rs_rank": 2,
       "name_zh": "量子 / 前沿计算",
       "core_count": 0,
       "placeholder": false
@@ -362,16 +362,16 @@
       "sector_id": "critical_minerals",
       "name": "Critical Minerals / Rare Earths",
       "change_today": -2.53,
-      "change_5d": null,
-      "change_1m": null,
-      "change_3m": null,
-      "change_ytd": -3.83,
+      "change_5d": -3.31,
+      "change_1m": 10.28,
+      "change_3m": 23.57,
+      "change_ytd": 23.66,
       "stock_count": 6,
       "quotes_count": 6,
       "up_count": 0,
       "down_count": 6,
-      "rs_value": -2.53,
-      "rs_rank": 19,
+      "rs_value": 10.28,
+      "rs_rank": 11,
       "name_zh": "关键矿产 / 稀土",
       "core_count": 0,
       "placeholder": false
@@ -425,9 +425,9 @@
       "tier_letter": "A",
       "price": 225.83,
       "change_1d": 2.29,
-      "change_1m": null,
-      "change_ytd": 2.91,
-      "composite": 83.88995215311004,
+      "change_1m": 19.29,
+      "change_ytd": 19.58,
+      "composite": 77.9909090909091,
       "status": "buy_zone"
     },
     {
@@ -438,9 +438,9 @@
       "tier_letter": "A",
       "price": 445.5,
       "change_1d": -0.62,
-      "change_1m": null,
-      "change_ytd": -2.9,
-      "composite": 42.64114832535885,
+      "change_1m": 80.49,
+      "change_ytd": 99.36,
+      "composite": 46.16818181818182,
       "status": "watch"
     },
     {
@@ -451,9 +451,9 @@
       "tier_letter": "A",
       "price": 416.79,
       "change_1d": -0.6,
-      "change_1m": null,
-      "change_ytd": -2.72,
-      "composite": 70.63157894736841,
+      "change_1m": 9.75,
+      "change_ytd": 19.9,
+      "composite": 66.91818181818182,
       "status": "hold"
     },
     {
@@ -464,9 +464,9 @@
       "tier_letter": "A",
       "price": 803.63,
       "change_1d": 4.83,
-      "change_1m": null,
-      "change_ytd": 1.04,
-      "composite": 71.1578947368421,
+      "change_1m": 88.4,
+      "change_ytd": 154.78,
+      "composite": 68.6,
       "status": "hold"
     },
     {
@@ -477,9 +477,9 @@
       "tier_letter": "A",
       "price": 399.8,
       "change_1d": 0.63,
-      "change_1m": null,
-      "change_ytd": -1.17,
-      "composite": 84.10526315789471,
+      "change_1m": 8.18,
+      "change_ytd": 25.09,
+      "composite": 79.19999999999997,
       "status": "buy_zone"
     },
     {
@@ -490,9 +490,9 @@
       "tier_letter": "A",
       "price": 1581.58,
       "change_1d": 3.99,
-      "change_1m": null,
-      "change_ytd": 1.01,
-      "composite": 67.17293233082707,
+      "change_1m": 5.42,
+      "change_ytd": 35.9,
+      "composite": 61.45714285714287,
       "status": "hold"
     },
     {
@@ -503,9 +503,9 @@
       "tier_letter": "A",
       "price": 436.61,
       "change_1d": 1.25,
-      "change_1m": null,
-      "change_ytd": -1.58,
-      "composite": 57.84962406015038,
+      "change_1m": 10.33,
+      "change_ytd": 62.39,
+      "composite": 59.242857142857154,
       "status": "hold"
     },
     {
@@ -516,9 +516,9 @@
       "tier_letter": "A",
       "price": 354.55,
       "change_1d": -0.97,
-      "change_1m": null,
-      "change_ytd": -2.65,
-      "composite": 64.52631578947368,
+      "change_1m": 23.02,
+      "change_ytd": 14.22,
+      "composite": 66.05000000000001,
       "status": "hold"
     },
     {
@@ -529,9 +529,9 @@
       "tier_letter": "A",
       "price": 509.28,
       "change_1d": -0.77,
-      "change_1m": null,
-      "change_ytd": -1.34,
-      "composite": 50.05263157894737,
+      "change_1m": 21.9,
+      "change_ytd": 6.01,
+      "composite": 45.550000000000004,
       "status": "watch"
     },
     {
@@ -542,9 +542,9 @@
       "tier_letter": "A",
       "price": 140.69,
       "change_1d": -1.3,
-      "change_1m": null,
-      "change_ytd": 3.12,
-      "composite": 74.90058479532163,
+      "change_1m": -7.45,
+      "change_ytd": 5.31,
+      "composite": 68.93333333333334,
       "status": "hold"
     },
     {
@@ -555,9 +555,9 @@
       "tier_letter": "A",
       "price": 193.31,
       "change_1d": -1.0,
-      "change_1m": null,
-      "change_ytd": -1.49,
-      "composite": 40.51127819548873,
+      "change_1m": 0.76,
+      "change_ytd": 24.69,
+      "composite": 41.48571428571429,
       "status": "watch"
     },
     {
@@ -568,9 +568,9 @@
       "tier_letter": "A",
       "price": 1077.28,
       "change_1d": -0.31,
-      "change_1m": null,
-      "change_ytd": -0.82,
-      "composite": 44.977443609022565,
+      "change_1m": 1.93,
+      "change_ytd": 40.98,
+      "composite": 46.12142857142858,
       "status": "watch"
     },
     {
@@ -581,9 +581,9 @@
       "tier_letter": "A",
       "price": 405.21,
       "change_1d": -0.63,
-      "change_1m": null,
-      "change_ytd": -1.81,
-      "composite": 69.57894736842105,
+      "change_1m": 5.42,
+      "change_ytd": -14.32,
+      "composite": 67.10000000000001,
       "status": "hold"
     },
     {
@@ -594,9 +594,9 @@
       "tier_letter": "A",
       "price": 402.62,
       "change_1d": 3.94,
-      "change_1m": null,
-      "change_ytd": 3.6,
-      "composite": 57.47368421052632,
+      "change_1m": 25.31,
+      "change_ytd": 27.76,
+      "composite": 59.35000000000001,
       "status": "hold"
     },
     {
@@ -607,10 +607,10 @@
       "tier_letter": "A",
       "price": 270.13,
       "change_1d": 1.62,
-      "change_1m": null,
-      "change_ytd": 0.42,
-      "composite": 37.36842105263158,
-      "status": "reduce"
+      "change_1m": 12.61,
+      "change_ytd": 19.26,
+      "composite": 40.25000000000001,
+      "status": "watch"
     },
     {
       "ticker": "META",
@@ -620,9 +620,9 @@
       "tier_letter": "A",
       "price": 616.63,
       "change_1d": 2.26,
-      "change_1m": null,
-      "change_ytd": 2.97,
-      "composite": 67.78947368421053,
+      "change_1m": -2.82,
+      "change_ytd": -5.19,
+      "composite": 64.4,
       "status": "hold"
     },
     {
@@ -633,9 +633,9 @@
       "tier_letter": "A",
       "price": 152.37,
       "change_1d": 0.26,
-      "change_1m": null,
-      "change_ytd": 0.57,
-      "composite": 33.67857142857142,
+      "change_1m": 13.51,
+      "change_ytd": -29.69,
+      "composite": 32.16875,
       "status": "reduce"
     },
     {
@@ -646,9 +646,9 @@
       "tier_letter": "A",
       "price": 130.05,
       "change_1d": -4.37,
-      "change_1m": null,
-      "change_ytd": -5.0,
-      "composite": 63.35885167464114,
+      "change_1m": -1.75,
+      "change_ytd": -22.52,
+      "composite": 65.23636363636363,
       "status": "hold"
     },
     {
@@ -659,9 +659,9 @@
       "tier_letter": "A",
       "price": 562.57,
       "change_1d": 3.0,
-      "change_1m": null,
-      "change_ytd": 3.75,
-      "composite": 48.46491228070175,
+      "change_1m": 39.86,
+      "change_ytd": 24.03,
+      "composite": 49.48611111111112,
       "status": "watch"
     },
     {
@@ -672,10 +672,10 @@
       "tier_letter": "A",
       "price": 445.27,
       "change_1d": 2.73,
-      "change_1m": null,
-      "change_ytd": 0.06,
-      "composite": 53.7719298245614,
-      "status": "watch"
+      "change_1m": 26.35,
+      "change_ytd": 1.64,
+      "composite": 57.333333333333336,
+      "status": "hold"
     },
     {
       "ticker": "ISRG",
@@ -685,9 +685,9 @@
       "tier_letter": "A",
       "price": 432.27,
       "change_1d": 0.09,
-      "change_1m": null,
-      "change_ytd": 2.91,
-      "composite": 65.54385964912281,
+      "change_1m": -5.82,
+      "change_ytd": -23.08,
+      "composite": 60.47500000000001,
       "status": "hold"
     },
     {
@@ -698,9 +698,9 @@
       "tier_letter": "A",
       "price": 406.55,
       "change_1d": -4.15,
-      "change_1m": null,
-      "change_ytd": -3.43,
-      "composite": 49.184210526315795,
+      "change_1m": -5.47,
+      "change_ytd": -20.7,
+      "composite": 47.87500000000001,
       "status": "watch"
     },
     {
@@ -711,9 +711,9 @@
       "tier_letter": "A",
       "price": 298.87,
       "change_1d": 1.38,
-      "change_1m": null,
-      "change_ytd": 2.11,
-      "composite": 67.78947368421053,
+      "change_1m": 15.3,
+      "change_ytd": 10.28,
+      "composite": 66.60000000000001,
       "status": "hold"
     }
   ],
@@ -1020,7 +1020,7 @@
       "tier": 1,
       "price": 225.83,
       "change_1d": 2.29,
-      "composite": 83.88995215311004
+      "composite": 77.9909090909091
     },
     {
       "ticker": "AMD",
@@ -1030,7 +1030,7 @@
       "tier": 1,
       "price": 445.5,
       "change_1d": -0.62,
-      "composite": 42.64114832535885
+      "composite": 46.16818181818182
     },
     {
       "ticker": "AVGO",
@@ -1040,7 +1040,7 @@
       "tier": 1,
       "price": 416.79,
       "change_1d": -0.6,
-      "composite": 70.63157894736841
+      "composite": 66.91818181818182
     },
     {
       "ticker": "MRVL",
@@ -1050,7 +1050,7 @@
       "tier": 2,
       "price": 177.95,
       "change_1d": 8.18,
-      "composite": 52.8133971291866
+      "composite": 52.33181818181819
     },
     {
       "ticker": "ARM",
@@ -1060,7 +1060,7 @@
       "tier": 2,
       "price": 221.21,
       "change_1d": 6.39,
-      "composite": 53.48325358851675
+      "composite": 52.036363636363646
     },
     {
       "ticker": "INTC",
@@ -1070,7 +1070,7 @@
       "tier": 3,
       "price": 120.29,
       "change_1d": -0.27,
-      "composite": 22.57416267942584
+      "composite": 29.35454545454546
     },
     {
       "ticker": "QCOM",
@@ -1080,7 +1080,7 @@
       "tier": 2,
       "price": 213.17,
       "change_1d": 1.36,
-      "composite": 63.215311004784695
+      "composite": 62.895454545454555
     },
     {
       "ticker": "TXN",
@@ -1090,7 +1090,7 @@
       "tier": 3,
       "price": 306.34,
       "change_1d": 3.78,
-      "composite": 62.0
+      "composite": 61.513636363636365
     },
     {
       "ticker": "ON",
@@ -1100,7 +1100,7 @@
       "tier": 3,
       "price": 115.71,
       "change_1d": 11.14,
-      "composite": 45.51196172248804
+      "composite": 46.35000000000001
     },
     {
       "ticker": "MCHP",
@@ -1110,7 +1110,7 @@
       "tier": 3,
       "price": 96.71,
       "change_1d": -1.01,
-      "composite": 46.49760765550239
+      "composite": 45.013636363636365
     },
     {
       "ticker": "ADI",
@@ -1120,7 +1120,7 @@
       "tier": 2,
       "price": 432.39,
       "change_1d": 3.04,
-      "composite": 58.57416267942585
+      "composite": 57.25909090909092
     },
     {
       "ticker": "STM",
@@ -1130,7 +1130,7 @@
       "tier": 3,
       "price": 63.39,
       "change_1d": 9.43,
-      "composite": 38.74641148325359
+      "composite": 40.71818181818182
     },
     {
       "ticker": "MU",
@@ -1140,7 +1140,7 @@
       "tier": 1,
       "price": 803.63,
       "change_1d": 4.83,
-      "composite": 71.1578947368421
+      "composite": 68.6
     },
     {
       "ticker": "WDC",
@@ -1150,7 +1150,7 @@
       "tier": 3,
       "price": 494.09,
       "change_1d": 1.09,
-      "composite": 56.94736842105263
+      "composite": 56.1
     },
     {
       "ticker": "STX",
@@ -1160,7 +1160,7 @@
       "tier": 3,
       "price": 817.35,
       "change_1d": 1.06,
-      "composite": 31.157894736842106
+      "composite": 34.1
     },
     {
       "ticker": "TSM",
@@ -1170,7 +1170,7 @@
       "tier": 1,
       "price": 399.8,
       "change_1d": 0.63,
-      "composite": 84.10526315789471
+      "composite": 79.19999999999997
     },
     {
       "ticker": "ASX",
@@ -1180,7 +1180,7 @@
       "tier": 2,
       "price": 35.47,
       "change_1d": 3.47,
-      "composite": 55.68421052631579
+      "composite": 56.15
     },
     {
       "ticker": "AMKR",
@@ -1190,7 +1190,7 @@
       "tier": 3,
       "price": 74.61,
       "change_1d": 1.58,
-      "composite": 30.842105263157897
+      "composite": 31.400000000000002
     },
     {
       "ticker": "UMC",
@@ -1200,7 +1200,7 @@
       "tier": 3,
       "price": 15.92,
       "change_1d": -0.87,
-      "composite": 67.89473684210526
+      "composite": 66.2
     },
     {
       "ticker": "GFS",
@@ -1210,7 +1210,7 @@
       "tier": 3,
       "price": 74.99,
       "change_1d": 3.94,
-      "composite": 37.68421052631578
+      "composite": 38.9
     },
     {
       "ticker": "KLIC",
@@ -1220,7 +1220,7 @@
       "tier": 3,
       "price": 104.27,
       "change_1d": 6.4,
-      "composite": 44.21052631578947
+      "composite": 47.55
     },
     {
       "ticker": "ASML",
@@ -1230,7 +1230,7 @@
       "tier": 1,
       "price": 1581.58,
       "change_1d": 3.99,
-      "composite": 67.17293233082707
+      "composite": 61.45714285714287
     },
     {
       "ticker": "AMAT",
@@ -1240,7 +1240,7 @@
       "tier": 1,
       "price": 436.61,
       "change_1d": 1.25,
-      "composite": 57.84962406015038
+      "composite": 59.242857142857154
     },
     {
       "ticker": "LRCX",
@@ -1250,7 +1250,7 @@
       "tier": 1,
       "price": 295.44,
       "change_1d": 2.14,
-      "composite": 62.902255639097746
+      "composite": 61.68571428571428
     },
     {
       "ticker": "KLAC",
@@ -1260,7 +1260,7 @@
       "tier": 2,
       "price": 1849.71,
       "change_1d": 2.12,
-      "composite": 73.69924812030074
+      "composite": 68.65714285714286
     },
     {
       "ticker": "ENTG",
@@ -1270,7 +1270,7 @@
       "tier": 3,
       "price": 145.04,
       "change_1d": -0.19,
-      "composite": 42.150375939849624
+      "composite": 42.650000000000006
     },
     {
       "ticker": "MKSI",
@@ -1280,7 +1280,7 @@
       "tier": 3,
       "price": 317.31,
       "change_1d": 1.79,
-      "composite": 52.88721804511278
+      "composite": 55.70714285714286
     },
     {
       "ticker": "TER",
@@ -1290,7 +1290,7 @@
       "tier": 3,
       "price": 363.38,
       "change_1d": 1.38,
-      "composite": 54.16541353383458
+      "composite": 53.81428571428571
     },
     {
       "ticker": "ACLS",
@@ -1300,7 +1300,7 @@
       "tier": 3,
       "price": 162.15,
       "change_1d": 0.32,
-      "composite": 34.54135338345864
+      "composite": 39.885714285714286
     },
     {
       "ticker": "CDNS",
@@ -1310,7 +1310,7 @@
       "tier": 1,
       "price": 354.55,
       "change_1d": -0.97,
-      "composite": 64.52631578947368
+      "composite": 66.05000000000001
     },
     {
       "ticker": "SNPS",
@@ -1320,7 +1320,7 @@
       "tier": 1,
       "price": 509.28,
       "change_1d": -0.77,
-      "composite": 50.05263157894737
+      "composite": 45.550000000000004
     },
     {
       "ticker": "KEYS",
@@ -1330,7 +1330,7 @@
       "tier": 3,
       "price": 361.19,
       "change_1d": -0.13,
-      "composite": 56.99999999999999
+      "composite": 58.9
     },
     {
       "ticker": "ANET",
@@ -1340,7 +1340,7 @@
       "tier": 1,
       "price": 140.69,
       "change_1d": -1.3,
-      "composite": 74.90058479532163
+      "composite": 68.93333333333334
     },
     {
       "ticker": "CIEN",
@@ -1350,7 +1350,7 @@
       "tier": 2,
       "price": 577.9,
       "change_1d": 0.13,
-      "composite": 37.76608187134503
+      "composite": 40.62777777777778
     },
     {
       "ticker": "COHR",
@@ -1360,7 +1360,7 @@
       "tier": 2,
       "price": 403.71,
       "change_1d": 7.94,
-      "composite": 42.11695906432748
+      "composite": 43.17777777777778
     },
     {
       "ticker": "LITE",
@@ -1370,7 +1370,7 @@
       "tier": 2,
       "price": 1030.37,
       "change_1d": 3.83,
-      "composite": 47.50877192982456
+      "composite": 49.9388888888889
     },
     {
       "ticker": "CSCO",
@@ -1380,7 +1380,7 @@
       "tier": 2,
       "price": 101.87,
       "change_1d": 2.6,
-      "composite": 66.7719298245614
+      "composite": 64.4888888888889
     },
     {
       "ticker": "FFIV",
@@ -1390,7 +1390,7 @@
       "tier": 3,
       "price": 357.4,
       "change_1d": 0.68,
-      "composite": 64.69005847953215
+      "composite": 64.06666666666666
     },
     {
       "ticker": "EXTR",
@@ -1400,7 +1400,7 @@
       "tier": 3,
       "price": 22.77,
       "change_1d": -0.09,
-      "composite": 44.7719298245614
+      "composite": 45.86666666666667
     },
     {
       "ticker": "AAOI",
@@ -1410,7 +1410,7 @@
       "tier": 3,
       "price": 223.1,
       "change_1d": 18.49,
-      "composite": 32.44444444444444
+      "composite": 35.35
     },
     {
       "ticker": "CRDO",
@@ -1420,7 +1420,7 @@
       "tier": 2,
       "price": 189.36,
       "change_1d": -4.64,
-      "composite": 67.32163742690058
+      "composite": 67.0111111111111
     },
     {
       "ticker": "ALAB",
@@ -1430,7 +1430,7 @@
       "tier": 2,
       "price": 224.09,
       "change_1d": 9.62,
-      "composite": 55.602339181286546
+      "composite": 52.738888888888894
     },
     {
       "ticker": "DLR",
@@ -1440,7 +1440,7 @@
       "tier": 1,
       "price": 193.31,
       "change_1d": -1.0,
-      "composite": 40.51127819548873
+      "composite": 41.48571428571429
     },
     {
       "ticker": "EQIX",
@@ -1450,7 +1450,7 @@
       "tier": 1,
       "price": 1077.28,
       "change_1d": -0.31,
-      "composite": 44.977443609022565
+      "composite": 46.12142857142858
     },
     {
       "ticker": "IRM",
@@ -1460,7 +1460,7 @@
       "tier": 2,
       "price": 126.12,
       "change_1d": -0.07,
-      "composite": 52.95238095238094
+      "composite": 59.70329670329668
     },
     {
       "ticker": "PSTG",
@@ -1470,7 +1470,7 @@
       "tier": 2,
       "price": 84.43,
       "change_1d": 1.32,
-      "composite": 47.94957983193277
+      "composite": 49.45238095238095
     },
     {
       "ticker": "NTAP",
@@ -1480,7 +1480,7 @@
       "tier": 3,
       "price": 118.58,
       "change_1d": 2.02,
-      "composite": 68.31578947368419
+      "composite": 66.50714285714285
     },
     {
       "ticker": "AMT",
@@ -1490,7 +1490,7 @@
       "tier": 3,
       "price": 173.87,
       "change_1d": -2.77,
-      "composite": 66.9172932330827
+      "composite": 62.42857142857143
     },
     {
       "ticker": "CCI",
@@ -1500,7 +1500,7 @@
       "tier": 3,
       "price": 89.62,
       "change_1d": -2.05,
-      "composite": 46.14285714285713
+      "composite": 42.483516483516475
     },
     {
       "ticker": "DBRG",
@@ -1510,7 +1510,7 @@
       "tier": 3,
       "price": 15.65,
       "change_1d": 0.13,
-      "composite": 60.7218045112782
+      "composite": 57.828571428571436
     },
     {
       "ticker": "MSFT",
@@ -1520,7 +1520,7 @@
       "tier": 1,
       "price": 405.21,
       "change_1d": -0.63,
-      "composite": 69.57894736842105
+      "composite": 67.10000000000001
     },
     {
       "ticker": "GOOGL",
@@ -1530,7 +1530,7 @@
       "tier": 1,
       "price": 402.62,
       "change_1d": 3.94,
-      "composite": 57.47368421052632
+      "composite": 59.35000000000001
     },
     {
       "ticker": "AMZN",
@@ -1540,7 +1540,7 @@
       "tier": 1,
       "price": 270.13,
       "change_1d": 1.62,
-      "composite": 37.36842105263158
+      "composite": 40.25000000000001
     },
     {
       "ticker": "META",
@@ -1550,7 +1550,7 @@
       "tier": 1,
       "price": 616.63,
       "change_1d": 2.26,
-      "composite": 67.78947368421053
+      "composite": 64.4
     },
     {
       "ticker": "ORCL",
@@ -1560,7 +1560,7 @@
       "tier": 2,
       "price": 189.76,
       "change_1d": 1.57,
-      "composite": 54.421052631578945
+      "composite": 56.099999999999994
     },
     {
       "ticker": "IBM",
@@ -1570,7 +1570,7 @@
       "tier": 3,
       "price": 214.64,
       "change_1d": -2.09,
-      "composite": 49.578947368421055
+      "composite": 47.20000000000001
     },
     {
       "ticker": "CRWV",
@@ -1580,7 +1580,7 @@
       "tier": 1,
       "price": 111.31,
       "change_1d": 3.3,
-      "composite": 64.69924812030075
+      "composite": 63.17857142857142
     },
     {
       "ticker": "NBIS",
@@ -1590,7 +1590,7 @@
       "tier": 2,
       "price": 207.27,
       "change_1d": 15.72,
-      "composite": 66.66165413533834
+      "composite": 67.54285714285714
     },
     {
       "ticker": "IREN",
@@ -1600,7 +1600,7 @@
       "tier": 3,
       "price": 55.17,
       "change_1d": -2.46,
-      "composite": 56.3609022556391
+      "composite": 54.25714285714286
     },
     {
       "ticker": "APLD",
@@ -1610,7 +1610,7 @@
       "tier": 3,
       "price": 45.48,
       "change_1d": 3.53,
-      "composite": 51.77443609022556
+      "composite": 52.864285714285714
     },
     {
       "ticker": "RIOT",
@@ -1620,7 +1620,7 @@
       "tier": 3,
       "price": 24.92,
       "change_1d": 1.67,
-      "composite": 37.09774436090225
+      "composite": 41.028571428571425
     },
     {
       "ticker": "CIFR",
@@ -1630,7 +1630,7 @@
       "tier": 3,
       "price": 21.24,
       "change_1d": 5.88,
-      "composite": 22.827067669172934
+      "composite": 21.82857142857143
     },
     {
       "ticker": "MARA",
@@ -1640,7 +1640,7 @@
       "tier": 3,
       "price": 12.75,
       "change_1d": 0.24,
-      "composite": 23.097744360902258
+      "composite": 23.76428571428572
     },
     {
       "ticker": "CLSK",
@@ -1650,7 +1650,7 @@
       "tier": 3,
       "price": 13.3,
       "change_1d": -1.26,
-      "composite": 38.375939849624054
+      "composite": 38.385714285714286
     },
     {
       "ticker": "SNOW",
@@ -1660,7 +1660,7 @@
       "tier": 1,
       "price": 152.37,
       "change_1d": 0.26,
-      "composite": 33.67857142857142
+      "composite": 32.16875
     },
     {
       "ticker": "DDOG",
@@ -1670,7 +1670,7 @@
       "tier": 2,
       "price": 205.31,
       "change_1d": 2.69,
-      "composite": 60.29323308270676
+      "composite": 62.38125
     },
     {
       "ticker": "MDB",
@@ -1680,7 +1680,7 @@
       "tier": 2,
       "price": 303.0,
       "change_1d": -1.85,
-      "composite": 52.21052631578947
+      "composite": 49.69375
     },
     {
       "ticker": "CFLT",
@@ -1688,9 +1688,9 @@
       "ai_role": "Kafka 商业化 — 数据流处理",
       "sector": "data_software_platform",
       "tier": 3,
-      "price": null,
-      "change_1d": null,
-      "composite": 34.98529411764705
+      "price": 30.99,
+      "change_1d": 0.0,
+      "composite": 38.55
     },
     {
       "ticker": "ESTC",
@@ -1700,7 +1700,7 @@
       "tier": 3,
       "price": 48.57,
       "change_1d": -3.03,
-      "composite": 53.93984962406015
+      "composite": 51.225
     },
     {
       "ticker": "GTLB",
@@ -1710,7 +1710,7 @@
       "tier": 3,
       "price": 22.05,
       "change_1d": -4.46,
-      "composite": 53.0
+      "composite": 50.9125
     },
     {
       "ticker": "DBX",
@@ -1720,7 +1720,7 @@
       "tier": 3,
       "price": 26.2,
       "change_1d": 1.51,
-      "composite": 46.97619047619047
+      "composite": 48.59615384615383
     },
     {
       "ticker": "TWLO",
@@ -1730,7 +1730,7 @@
       "tier": 3,
       "price": 192.61,
       "change_1d": -0.09,
-      "composite": 54.46240601503759
+      "composite": 58.025
     },
     {
       "ticker": "BILL",
@@ -1740,7 +1740,7 @@
       "tier": 3,
       "price": 39.96,
       "change_1d": -3.08,
-      "composite": 59.77255639097744
+      "composite": 59.868750000000006
     },
     {
       "ticker": "PLTR",
@@ -1750,7 +1750,7 @@
       "tier": 1,
       "price": 130.05,
       "change_1d": -4.37,
-      "composite": 63.35885167464114
+      "composite": 65.23636363636363
     },
     {
       "ticker": "CRM",
@@ -1760,7 +1760,7 @@
       "tier": 1,
       "price": 165.84,
       "change_1d": -3.19,
-      "composite": 55.368421052631575
+      "composite": 56.85
     },
     {
       "ticker": "NOW",
@@ -1770,7 +1770,7 @@
       "tier": 1,
       "price": 87.05,
       "change_1d": -2.19,
-      "composite": 44.267942583732065
+      "composite": 42.10000000000001
     },
     {
       "ticker": "ADBE",
@@ -1780,7 +1780,7 @@
       "tier": 2,
       "price": 236.07,
       "change_1d": -1.98,
-      "composite": 75.75119617224878
+      "composite": 75.44090909090909
     },
     {
       "ticker": "AI",
@@ -1790,7 +1790,7 @@
       "tier": 3,
       "price": 8.65,
       "change_1d": -1.59,
-      "composite": 34.65071770334929
+      "composite": 37.46363636363636
     },
     {
       "ticker": "INTU",
@@ -1800,7 +1800,7 @@
       "tier": 2,
       "price": 371.71,
       "change_1d": -4.13,
-      "composite": 57.26315789473684
+      "composite": 56.87727272727273
     },
     {
       "ticker": "WDAY",
@@ -1810,7 +1810,7 @@
       "tier": 2,
       "price": 116.5,
       "change_1d": -1.79,
-      "composite": 49.0956937799043
+      "composite": 44.89090909090909
     },
     {
       "ticker": "SAP",
@@ -1820,7 +1820,7 @@
       "tier": 2,
       "price": 160.82,
       "change_1d": -3.86,
-      "composite": 53.45454545454545
+      "composite": 53.190909090909095
     },
     {
       "ticker": "HUBS",
@@ -1830,7 +1830,7 @@
       "tier": 3,
       "price": 179.0,
       "change_1d": -0.32,
-      "composite": 43.215311004784695
+      "composite": 40.009090909090915
     },
     {
       "ticker": "DUOL",
@@ -1840,7 +1840,7 @@
       "tier": 3,
       "price": 104.98,
       "change_1d": -0.97,
-      "composite": 59.19617224880382
+      "composite": 57.12272727272728
     },
     {
       "ticker": "ZM",
@@ -1850,7 +1850,7 @@
       "tier": 3,
       "price": 102.43,
       "change_1d": -0.51,
-      "composite": 50.10526315789474
+      "composite": 53.6909090909091
     },
     {
       "ticker": "PATH",
@@ -1860,7 +1860,7 @@
       "tier": 3,
       "price": 9.47,
       "change_1d": -5.39,
-      "composite": 51.90430622009569
+      "composite": 52.87727272727273
     },
     {
       "ticker": "CRWD",
@@ -1870,7 +1870,7 @@
       "tier": 1,
       "price": 562.57,
       "change_1d": 3.0,
-      "composite": 48.46491228070175
+      "composite": 49.48611111111112
     },
     {
       "ticker": "PANW",
@@ -1880,7 +1880,7 @@
       "tier": 2,
       "price": 227.79,
       "change_1d": 5.65,
-      "composite": 53.716374269005854
+      "composite": 55.16944444444446
     },
     {
       "ticker": "ZS",
@@ -1890,7 +1890,7 @@
       "tier": 2,
       "price": 152.43,
       "change_1d": 4.28,
-      "composite": 56.99999999999999
+      "composite": 52.78888888888889
     },
     {
       "ticker": "NET",
@@ -1900,7 +1900,7 @@
       "tier": 2,
       "price": 192.62,
       "change_1d": 3.12,
-      "composite": 38.29385964912281
+      "composite": 37.65694444444445
     },
     {
       "ticker": "S",
@@ -1910,7 +1910,7 @@
       "tier": 3,
       "price": 16.08,
       "change_1d": 2.16,
-      "composite": 37.32163742690058
+      "composite": 39.67777777777778
     },
     {
       "ticker": "FTNT",
@@ -1920,7 +1920,7 @@
       "tier": 2,
       "price": 117.69,
       "change_1d": 3.35,
-      "composite": 67.43859649122807
+      "composite": 70.2611111111111
     },
     {
       "ticker": "OKTA",
@@ -1930,7 +1930,7 @@
       "tier": 2,
       "price": 78.2,
       "change_1d": -1.09,
-      "composite": 57.2704678362573
+      "composite": 57.018055555555556
     },
     {
       "ticker": "TENB",
@@ -1940,7 +1940,7 @@
       "tier": 3,
       "price": 20.58,
       "change_1d": -2.05,
-      "composite": 52.61257309941521
+      "composite": 51.31527777777779
     },
     {
       "ticker": "QLYS",
@@ -1950,7 +1950,7 @@
       "tier": 3,
       "price": 86.5,
       "change_1d": -4.02,
-      "composite": 69.54239766081871
+      "composite": 66.48194444444445
     },
     {
       "ticker": "RBRK",
@@ -1960,7 +1960,7 @@
       "tier": 3,
       "price": 59.48,
       "change_1d": -1.64,
-      "composite": 48.99999999999999
+      "composite": 49.41880341880341
     },
     {
       "ticker": "ROK",
@@ -1970,7 +1970,7 @@
       "tier": 2,
       "price": 454.99,
       "change_1d": -0.02,
-      "composite": 56.94736842105262
+      "composite": 59.9
     },
     {
       "ticker": "EMR",
@@ -1980,7 +1980,7 @@
       "tier": 2,
       "price": 137.76,
       "change_1d": 0.35,
-      "composite": 65.47368421052632
+      "composite": 66.45
     },
     {
       "ticker": "HON",
@@ -1990,7 +1990,7 @@
       "tier": 2,
       "price": 217.96,
       "change_1d": -0.27,
-      "composite": 53.99999999999999
+      "composite": 55.300000000000004
     },
     {
       "ticker": "SYM",
@@ -2000,7 +2000,7 @@
       "tier": 3,
       "price": 49.73,
       "change_1d": -3.1,
-      "composite": 31.789473684210524
+      "composite": 30.9
     },
     {
       "ticker": "IR",
@@ -2010,7 +2010,7 @@
       "tier": 3,
       "price": 71.39,
       "change_1d": -2.49,
-      "composite": 49.368421052631575
+      "composite": 48.0
     },
     {
       "ticker": "PH",
@@ -2020,7 +2020,7 @@
       "tier": 3,
       "price": 882.37,
       "change_1d": 0.12,
-      "composite": 62.736842105263165
+      "composite": 58.75000000000001
     },
     {
       "ticker": "TSLA",
@@ -2030,7 +2030,7 @@
       "tier": 1,
       "price": 445.27,
       "change_1d": 2.73,
-      "composite": 53.7719298245614
+      "composite": 57.333333333333336
     },
     {
       "ticker": "MBLY",
@@ -2040,7 +2040,7 @@
       "tier": 2,
       "price": 10.53,
       "change_1d": 14.08,
-      "composite": 58.789473684210535
+      "composite": 58.51666666666667
     },
     {
       "ticker": "AUR",
@@ -2050,7 +2050,7 @@
       "tier": 3,
       "price": 8.4,
       "change_1d": 16.34,
-      "composite": 42.11764705882352
+      "composite": 45.33333333333332
     },
     {
       "ticker": "UBER",
@@ -2060,7 +2060,7 @@
       "tier": 2,
       "price": 74.7,
       "change_1d": -2.17,
-      "composite": 66.75438596491227
+      "composite": 66.91666666666667
     },
     {
       "ticker": "LCID",
@@ -2070,7 +2070,7 @@
       "tier": 3,
       "price": 6.39,
       "change_1d": 6.32,
-      "composite": 29.157894736842106
+      "composite": 25.15833333333334
     },
     {
       "ticker": "RIVN",
@@ -2080,7 +2080,7 @@
       "tier": 3,
       "price": 14.27,
       "change_1d": 2.29,
-      "composite": 39.877192982456144
+      "composite": 37.88333333333334
     },
     {
       "ticker": "GM",
@@ -2090,7 +2090,7 @@
       "tier": 3,
       "price": 75.81,
       "change_1d": -0.82,
-      "composite": 50.01754385964912
+      "composite": 50.14166666666667
     },
     {
       "ticker": "ISRG",
@@ -2100,7 +2100,7 @@
       "tier": 1,
       "price": 432.27,
       "change_1d": 0.09,
-      "composite": 65.54385964912281
+      "composite": 60.47500000000001
     },
     {
       "ticker": "TEM",
@@ -2110,7 +2110,7 @@
       "tier": 2,
       "price": 45.9,
       "change_1d": -2.24,
-      "composite": 55.33333333333333
+      "composite": 55.06666666666666
     },
     {
       "ticker": "VEEV",
@@ -2120,7 +2120,7 @@
       "tier": 2,
       "price": 155.73,
       "change_1d": -2.31,
-      "composite": 64.96491228070175
+      "composite": 61.966666666666676
     },
     {
       "ticker": "GH",
@@ -2130,7 +2130,7 @@
       "tier": 3,
       "price": 98.47,
       "change_1d": -1.47,
-      "composite": 67.33333333333333
+      "composite": 67.9230769230769
     },
     {
       "ticker": "CRSP",
@@ -2140,7 +2140,7 @@
       "tier": 3,
       "price": 52.75,
       "change_1d": -0.15,
-      "composite": 39.85087719298245
+      "composite": 43.483333333333334
     },
     {
       "ticker": "NTLA",
@@ -2150,7 +2150,7 @@
       "tier": 3,
       "price": 14.28,
       "change_1d": 2.07,
-      "composite": 33.815789473684205
+      "composite": 37.74999999999999
     },
     {
       "ticker": "BNTX",
@@ -2160,7 +2160,7 @@
       "tier": 3,
       "price": 92.23,
       "change_1d": -1.53,
-      "composite": 54.982456140350884
+      "composite": 53.775000000000006
     },
     {
       "ticker": "SPGI",
@@ -2170,7 +2170,7 @@
       "tier": 1,
       "price": 406.55,
       "change_1d": -4.15,
-      "composite": 49.184210526315795
+      "composite": 47.87500000000001
     },
     {
       "ticker": "MSCI",
@@ -2180,7 +2180,7 @@
       "tier": 2,
       "price": 570.91,
       "change_1d": -1.75,
-      "composite": 48.33333333333333
+      "composite": 54.30769230769231
     },
     {
       "ticker": "MCO",
@@ -2190,7 +2190,7 @@
       "tier": 2,
       "price": 438.32,
       "change_1d": -2.97,
-      "composite": 54.421052631578945
+      "composite": 53.45
     },
     {
       "ticker": "FDS",
@@ -2200,7 +2200,7 @@
       "tier": 3,
       "price": 201.87,
       "change_1d": -6.51,
-      "composite": 49.23684210526315
+      "composite": 46.925
     },
     {
       "ticker": "NDAQ",
@@ -2210,7 +2210,7 @@
       "tier": 3,
       "price": 90.21,
       "change_1d": 0.8,
-      "composite": 60.736842105263165
+      "composite": 61.00000000000001
     },
     {
       "ticker": "ICE",
@@ -2220,7 +2220,7 @@
       "tier": 2,
       "price": 154.8,
       "change_1d": -0.65,
-      "composite": 70.26315789473684
+      "composite": 69.1
     },
     {
       "ticker": "AAPL",
@@ -2230,7 +2230,7 @@
       "tier": 1,
       "price": 298.87,
       "change_1d": 1.38,
-      "composite": 67.78947368421053
+      "composite": 66.60000000000001
     },
     {
       "ticker": "DELL",
@@ -2240,7 +2240,7 @@
       "tier": 2,
       "price": 243.87,
       "change_1d": 2.06,
-      "composite": 55.16666666666667
+      "composite": 59.46153846153846
     },
     {
       "ticker": "HPQ",
@@ -2250,7 +2250,7 @@
       "tier": 3,
       "price": 21.26,
       "change_1d": 0.85,
-      "composite": 57.16666666666665
+      "composite": 52.538461538461526
     },
     {
       "ticker": "LOGI",
@@ -2260,7 +2260,7 @@
       "tier": 3,
       "price": 103.99,
       "change_1d": 0.42,
-      "composite": 49.26315789473684
+      "composite": 49.25000000000001
     },
     {
       "ticker": "GRMN",
@@ -2270,7 +2270,7 @@
       "tier": 3,
       "price": 232.02,
       "change_1d": -2.09,
-      "composite": 54.0
+      "composite": 56.10000000000001
     },
     {
       "ticker": "SONO",
@@ -2280,7 +2280,7 @@
       "tier": 3,
       "price": 14.64,
       "change_1d": -0.48,
-      "composite": 36.21052631578947
+      "composite": 34.55
     },
     {
       "ticker": "IONQ",
@@ -2290,7 +2290,7 @@
       "tier": 2,
       "price": 55.26,
       "change_1d": -1.09,
-      "composite": 66.19298245614034
+      "composite": 69.21666666666667
     },
     {
       "ticker": "RGTI",
@@ -2300,7 +2300,7 @@
       "tier": 3,
       "price": 18.42,
       "change_1d": -3.43,
-      "composite": 39.421052631578945
+      "composite": 37.86666666666667
     },
     {
       "ticker": "QBTS",
@@ -2310,7 +2310,7 @@
       "tier": 3,
       "price": 21.44,
       "change_1d": -4.07,
-      "composite": 38.84210526315789
+      "composite": 38.31666666666666
     },
     {
       "ticker": "QUBT",
@@ -2320,7 +2320,7 @@
       "tier": 3,
       "price": 11.03,
       "change_1d": -6.37,
-      "composite": 39.59649122807017
+      "composite": 39.449999999999996
     },
     {
       "ticker": "MP",
@@ -2330,7 +2330,7 @@
       "tier": 2,
       "price": 63.73,
       "change_1d": -2.84,
-      "composite": 50.63157894736842
+      "composite": 51.5
     },
     {
       "ticker": "ALB",
@@ -2340,7 +2340,7 @@
       "tier": 2,
       "price": 200.94,
       "change_1d": -2.23,
-      "composite": 50.73684210526316
+      "composite": 52.8
     },
     {
       "ticker": "LAC",
@@ -2350,7 +2350,7 @@
       "tier": 3,
       "price": 5.48,
       "change_1d": -1.62,
-      "composite": 45.538461538461526
+      "composite": 46.28571428571427
     },
     {
       "ticker": "SQM",
@@ -2360,7 +2360,7 @@
       "tier": 3,
       "price": 91.62,
       "change_1d": -3.18,
-      "composite": 66.10526315789473
+      "composite": 63.9
     },
     {
       "ticker": "FMC",
@@ -2370,7 +2370,7 @@
       "tier": 3,
       "price": 12.73,
       "change_1d": -3.19,
-      "composite": 37.684210526315795
+      "composite": 32.6
     },
     {
       "ticker": "USAR",
@@ -2380,7 +2380,7 @@
       "tier": 3,
       "price": 25.42,
       "change_1d": -0.51,
-      "composite": 33.64705882352942
+      "composite": 37.00000000000001
     }
   ]
 }

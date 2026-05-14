@@ -11,16 +11,16 @@
     "ai_role": "AI 算力互连 PCIe/CXL/Ethernet retimer — Nvidia AI 集群供应商",
     "price": 224.08999633789062,
     "change_1d": 9.62,
-    "composite": 55.602339181286546,
+    "composite": 52.738888888888894,
     "tier_letter": "B",
     "description": [
       "Astera Labs 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：AI 算力互连 PCIe/CXL/Ethernet retimer — Nvidia AI 集群供应商。当前内部综合评分 55。",
+      "AI 角色：AI 算力互连 PCIe/CXL/Ethernet retimer — Nvidia AI 集群供应商。当前内部综合评分 52。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:38",
-    "status_label": "持有"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:46",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -31,26 +31,26 @@
         "最新价": "$224.09",
         "日内涨跌": "+9.62%",
         "1日涨跌": "+9.62%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "+12.16%",
+        "1月涨跌": "+34.35%",
+        "3月涨跌": "+77.03%",
+        "6月涨跌": "+55.25%",
         "1年涨跌": "—",
-        "YTD涨跌": "+8.07%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "+24.80%",
+        "20日均线": "197.67",
+        "50日均线": "154.19",
+        "200日均线": "166.51",
+        "RSI 14": "67.61",
+        "MACD": "16.22",
+        "20日波动率": "83.58%",
         "成交量": "6,401,500",
-        "量比20日": "1.20",
-        "52周高点": "224.76",
-        "52周低点": "192.60",
-        "距52周高点": "-0.30%",
-        "距52周低点": "+16.35%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "1.11",
+        "52周高点": "262.90",
+        "52周低点": "84.78",
+        "距52周高点": "-14.76%",
+        "距52周低点": "+164.32%",
+        "20日支撑": "161.05",
+        "20日压力": "231.73"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 88.88888888888889,
+          "value": 57.77777777777777,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 60.555555555555564,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 55.602339181286546,
+          "value": 52.738888888888894,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:38",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:46",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 55.602339181286546
+          "value": 52.738888888888894
         }
       ]
     }

@@ -11,15 +11,15 @@
     "ai_role": "HR/财务 SaaS — Workday Illuminate AI Agent",
     "price": 116.5,
     "change_1d": -1.79,
-    "composite": 49.0956937799043,
+    "composite": 44.89090909090909,
     "tier_letter": "B",
     "description": [
       "Workday 的 AI 产业链位置为 AI Application。",
-      "AI 角色：HR/财务 SaaS — Workday Illuminate AI Agent。当前内部综合评分 49。",
+      "AI 角色：HR/财务 SaaS — Workday Illuminate AI Agent。当前内部综合评分 44。",
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:39",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:48",
     "status_label": "观察"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$116.50",
         "日内涨跌": "-1.79%",
         "1日涨跌": "-1.79%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "-8.86%",
+        "1月涨跌": "-2.85%",
+        "3月涨跌": "-19.12%",
+        "6月涨跌": "-49.53%",
         "1年涨跌": "—",
-        "YTD涨跌": "-4.05%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "-43.39%",
+        "20日均线": "123.61",
+        "50日均线": "128.18",
+        "200日均线": "191.27",
+        "RSI 14": "41.21",
+        "MACD": "-1.71",
+        "20日波动率": "58.59%",
         "成交量": "5,156,900",
-        "量比20日": "1.58",
-        "52周高点": "128.98",
-        "52周低点": "112.55",
-        "距52周高点": "-9.68%",
-        "距52周低点": "+3.51%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "1.10",
+        "52周高点": "276.00",
+        "52周低点": "110.36",
+        "距52周高点": "-57.79%",
+        "距52周低点": "+5.56%",
+        "20日支撑": "112.55",
+        "20日压力": "133.36"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 69.0909090909091,
+          "value": 36.36363636363636,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 30.454545454545457,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 49.0956937799043,
+          "value": 44.89090909090909,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:39",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:48",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 49.0956937799043
+          "value": 44.89090909090909
         }
       ]
     }

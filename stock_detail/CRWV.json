@@ -11,15 +11,15 @@
     "ai_role": "GPU 云第一 — 2025 IPO，Microsoft/NVIDIA 战略合作",
     "price": 111.30999755859375,
     "change_1d": 3.3,
-    "composite": 64.69924812030075,
+    "composite": 63.17857142857142,
     "tier_letter": "A",
     "description": [
       "CoreWeave 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：GPU 云第一 — 2025 IPO，Microsoft/NVIDIA 战略合作。当前内部综合评分 64。",
+      "AI 角色：GPU 云第一 — 2025 IPO，Microsoft/NVIDIA 战略合作。当前内部综合评分 63。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:38",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:47",
     "status_label": "持有"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$111.31",
         "日内涨跌": "+3.30%",
         "1日涨跌": "+3.30%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "-2.49%",
+        "1月涨跌": "+0.94%",
+        "3月涨跌": "+16.31%",
+        "6月涨跌": "+43.89%",
         "1年涨跌": "—",
-        "YTD涨跌": "-2.96%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "+40.33%",
+        "20日均线": "117.48",
+        "50日均线": "97.85",
+        "200日均线": "100.30",
+        "RSI 14": "49.92",
+        "MACD": "4.65",
+        "20日波动率": "87.44%",
         "成交量": "23,470,800",
-        "量比20日": "0.77",
-        "52周高点": "119.49",
-        "52周低点": "101.12",
-        "距52周高点": "-6.85%",
-        "距52周低点": "+10.08%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "0.78",
+        "52周高点": "187.00",
+        "52周低点": "61.33",
+        "距52周高点": "-40.48%",
+        "距52周低点": "+81.49%",
+        "20日支撑": "101.12",
+        "20日压力": "138.25"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 54.285714285714285,
+          "value": 65.71428571428571,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 11.428571428571429,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 64.69924812030075,
+          "value": 63.17857142857142,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:38",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:47",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 64.69924812030075
+          "value": 63.17857142857142
         },
         {
           "date": "2026-05-14",

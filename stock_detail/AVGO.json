@@ -11,15 +11,15 @@
     "ai_role": "Hyperscaler 定制 ASIC（Google TPU / Meta MTIA）+ AI 网络",
     "price": 416.7900085449219,
     "change_1d": -0.6,
-    "composite": 70.63157894736841,
+    "composite": 66.91818181818182,
     "tier_letter": "A",
     "description": [
       "Broadcom 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：Hyperscaler 定制 ASIC（Google TPU / Meta MTIA）+ AI 网络。当前内部综合评分 70。",
+      "AI 角色：Hyperscaler 定制 ASIC（Google TPU / Meta MTIA）+ AI 网络。当前内部综合评分 66。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:45",
     "status_label": "持有"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$416.79",
         "日内涨跌": "-0.60%",
         "1日涨跌": "-0.60%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "-3.07%",
+        "1月涨跌": "+9.75%",
+        "3月涨跌": "+25.85%",
+        "6月涨跌": "+21.70%",
         "1年涨跌": "—",
-        "YTD涨跌": "-2.72%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "+19.90%",
+        "20日均线": "415.54",
+        "50日均线": "365.11",
+        "200日均线": "345.50",
+        "RSI 14": "58.34",
+        "MACD": "16.26",
+        "20日波动率": "37.36%",
         "成交量": "16,949,100",
-        "量比20日": "0.95",
-        "52周高点": "433.65",
-        "52周低点": "404.80",
-        "距52周高点": "-3.89%",
-        "距52周低点": "+2.96%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "0.85",
+        "52周高点": "437.68",
+        "52周低点": "221.60",
+        "距52周高点": "-4.77%",
+        "距52周低点": "+88.08%",
+        "20日支撑": "392.35",
+        "20日压力": "437.68"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 49.090909090909086,
+          "value": 41.81818181818181,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 10.90909090909091,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 70.63157894736841,
+          "value": 66.91818181818182,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:36",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:45",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 70.63157894736841
+          "value": 66.91818181818182
         },
         {
           "date": "2026-05-14",

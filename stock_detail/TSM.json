@@ -11,15 +11,15 @@
     "ai_role": "全球代工龙头 — N3/N2 + CoWoS 几乎独家供 NVIDIA/AMD/AAPL",
     "price": 399.79998779296875,
     "change_1d": 0.63,
-    "composite": 84.10526315789471,
+    "composite": 79.19999999999997,
     "tier_letter": "A",
     "description": [
       "Taiwan Semiconductor 的 AI 产业链位置为 Foundry / Packaging。",
-      "AI 角色：全球代工龙头 — N3/N2 + CoWoS 几乎独家供 NVIDIA/AMD/AAPL。当前内部综合评分 84。",
+      "AI 角色：全球代工龙头 — N3/N2 + CoWoS 几乎独家供 NVIDIA/AMD/AAPL。当前内部综合评分 79。",
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:36",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:45",
     "status_label": "买入区"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$399.80",
         "日内涨跌": "+0.63%",
         "1日涨跌": "+0.63%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "-2.89%",
+        "1月涨跌": "+8.18%",
+        "3月涨跌": "+8.61%",
+        "6月涨跌": "+40.37%",
         "1年涨跌": "—",
-        "YTD涨跌": "-1.17%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "+25.09%",
+        "20日均线": "393.43",
+        "50日均线": "365.38",
+        "200日均线": "312.04",
+        "RSI 14": "56.57",
+        "MACD": "11.54",
+        "20日波动率": "41.97%",
         "成交量": "13,094,000",
-        "量比20日": "0.80",
-        "52周高点": "407.73",
-        "52周低点": "386.12",
-        "距52周高点": "-1.94%",
-        "距52周低点": "+3.54%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "0.87",
+        "52周高点": "420.00",
+        "52周低点": "188.81",
+        "距52周高点": "-4.81%",
+        "距52周低点": "+111.75%",
+        "20日支撑": "360.55",
+        "20日压力": "420.00"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 56.0,
+          "value": 48.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 2.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 84.10526315789471,
+          "value": 79.19999999999997,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:36",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:45",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 84.10526315789471
+          "value": 79.19999999999997
         },
         {
           "date": "2026-05-14",

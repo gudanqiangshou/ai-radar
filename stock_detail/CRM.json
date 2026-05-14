@@ -11,15 +11,15 @@
     "ai_role": "Agentforce — 企业 SaaS + Agent 工作流",
     "price": 165.83999633789062,
     "change_1d": -3.19,
-    "composite": 55.368421052631575,
+    "composite": 56.85,
     "tier_letter": "A",
     "description": [
       "Salesforce 的 AI 产业链位置为 AI Application。",
-      "AI 角色：Agentforce — 企业 SaaS + Agent 工作流。当前内部综合评分 55。",
+      "AI 角色：Agentforce — 企业 SaaS + Agent 工作流。当前内部综合评分 56。",
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:39",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:48",
     "status_label": "持有"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$165.84",
         "日内涨跌": "-3.19%",
         "1日涨跌": "-3.19%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "-8.79%",
+        "1月涨跌": "-4.04%",
+        "3月涨跌": "-10.56%",
+        "6月涨跌": "-31.94%",
         "1年涨跌": "—",
-        "YTD涨跌": "-6.56%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "-34.61%",
+        "20日均线": "180.88",
+        "50日均线": "184.89",
+        "200日均线": "225.15",
+        "RSI 14": "36.68",
+        "MACD": "-2.56",
+        "20日波动率": "47.76%",
         "成交量": "11,936,100",
-        "量比20日": "1.12",
-        "52周高点": "182.50",
-        "52周低点": "164.75",
-        "距52周高点": "-9.13%",
-        "距52周低点": "+0.66%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "0.95",
+        "52周高点": "296.05",
+        "52周低点": "163.52",
+        "距52周高点": "-43.98%",
+        "距52周低点": "+1.42%",
+        "20日支撑": "164.75",
+        "20日压力": "193.56"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 29.090909090909093,
+          "value": 47.27272727272727,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 48.63636363636364,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 55.368421052631575,
+          "value": 56.85,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:39",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:48",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 55.368421052631575
+          "value": 56.85
         },
         {
           "date": "2026-05-14",

@@ -11,15 +11,15 @@
     "ai_role": "锂矿龙头 — 电池关键原料",
     "price": 200.94000244140625,
     "change_1d": -2.23,
-    "composite": 50.73684210526316,
+    "composite": 52.8,
     "tier_letter": "B",
     "description": [
       "Albemarle 的 AI 产业链位置为 Critical Minerals / Rare Earths。",
-      "AI 角色：锂矿龙头 — 电池关键原料。当前内部综合评分 50。",
+      "AI 角色：锂矿龙头 — 电池关键原料。当前内部综合评分 52。",
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
-    "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:42",
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:51",
     "status_label": "观察"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$200.94",
         "日内涨跌": "-2.23%",
         "1日涨跌": "-2.23%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "-1.27%",
+        "1月涨跌": "+8.36%",
+        "3月涨跌": "+26.43%",
+        "6月涨跌": "+74.52%",
         "1年涨跌": "—",
-        "YTD涨跌": "-4.31%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "+39.61%",
+        "20日均线": "197.33",
+        "50日均线": "182.12",
+        "200日均线": "134.76",
+        "RSI 14": "55.54",
+        "MACD": "5.57",
+        "20日波动率": "79.89%",
         "成交量": "1,862,100",
         "量比20日": "0.81",
-        "52周高点": "219.08",
-        "52周低点": "196.47",
-        "距52周高点": "-8.28%",
-        "距52周低点": "+2.28%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "52周高点": "221.00",
+        "52周低点": "53.70",
+        "距52周高点": "-9.08%",
+        "距52周低点": "+274.19%",
+        "20日支撑": "184.51",
+        "20日压力": "221.00"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 55.99999999999999,
+          "value": 72.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 60.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 50.73684210526316,
+          "value": 52.8,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:42",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:51",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 50.73684210526316
+          "value": 52.8
         },
         {
           "date": "2026-05-14",

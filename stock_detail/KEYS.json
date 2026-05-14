@@ -11,15 +11,15 @@
     "ai_role": "电子测试仪器 — 5G / AI 网络验证测试设备",
     "price": 361.19000244140625,
     "change_1d": -0.13,
-    "composite": 56.99999999999999,
+    "composite": 58.9,
     "tier_letter": "C",
     "description": [
       "Keysight Technologies 的 AI 产业链位置为 EDA / Design Software。",
-      "AI 角色：电子测试仪器 — 5G / AI 网络验证测试设备。当前内部综合评分 56。",
+      "AI 角色：电子测试仪器 — 5G / AI 网络验证测试设备。当前内部综合评分 58。",
       "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:37",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:46",
     "status_label": "持有"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$361.19",
         "日内涨跌": "-0.13%",
         "1日涨跌": "-0.13%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "+0.25%",
+        "1月涨跌": "+9.08%",
+        "3月涨跌": "+57.39%",
+        "6月涨跌": "+101.71%",
         "1年涨跌": "—",
-        "YTD涨跌": "-1.41%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "+74.83%",
+        "20日均线": "348.02",
+        "50日均线": "315.55",
+        "200日均线": "223.94",
+        "RSI 14": "64.92",
+        "MACD": "14.08",
+        "20日波动率": "28.56%",
         "成交量": "1,481,600",
-        "量比20日": "0.99",
+        "量比20日": "1.30",
         "52周高点": "370.17",
-        "52周低点": "352.08",
+        "52周低点": "152.85",
         "距52周高点": "-2.43%",
-        "距52周低点": "+2.59%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "距52周低点": "+136.31%",
+        "20日支撑": "321.20",
+        "20日压力": "370.17"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 50.0,
+          "value": 70.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 55.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 56.99999999999999,
+          "value": 58.9,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:37",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:46",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 56.99999999999999
+          "value": 58.9
         }
       ]
     }

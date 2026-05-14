@@ -11,15 +11,15 @@
     "ai_role": "AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴",
     "price": 243.8699951171875,
     "change_1d": 2.06,
-    "composite": 55.16666666666667,
+    "composite": 59.46153846153846,
     "tier_letter": "B",
     "description": [
       "Dell Technologies 的 AI 产业链位置为 Consumer AI / Device。",
-      "AI 角色：AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴。当前内部综合评分 55。",
+      "AI 角色：AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴。当前内部综合评分 59。",
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:42",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:50",
     "status_label": "持有"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$243.87",
         "日内涨跌": "+2.06%",
         "1日涨跌": "+2.06%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "-6.37%",
+        "1月涨跌": "+28.49%",
+        "3月涨跌": "+116.16%",
+        "6月涨跌": "+82.32%",
         "1年涨跌": "—",
-        "YTD涨跌": "-1.28%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "+90.82%",
+        "20日均线": "219.16",
+        "50日均线": "186.57",
+        "200日均线": "146.08",
+        "RSI 14": "65.42",
+        "MACD": "17.09",
+        "20日波动率": "75.12%",
         "成交量": "4,984,200",
-        "量比20日": "0.53",
-        "52周高点": "255.45",
-        "52周低点": "228.50",
-        "距52周高点": "-4.53%",
-        "距52周低点": "+6.73%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "0.76",
+        "52周高点": "263.99",
+        "52周低点": "106.38",
+        "距52周高点": "-7.62%",
+        "距52周低点": "+129.24%",
+        "20日支撑": "178.50",
+        "20日压力": "263.99"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 92.0,
+          "value": 100.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 95.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 55.16666666666667,
+          "value": 59.46153846153846,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:42",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:50",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 55.16666666666667
+          "value": 59.46153846153846
         },
         {
           "date": "2026-05-14",

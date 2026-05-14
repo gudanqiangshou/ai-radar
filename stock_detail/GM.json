@@ -11,7 +11,7 @@
     "ai_role": "Super Cruise 自动驾驶 + Cruise Robotaxi（关停后重整中）",
     "price": 75.80999755859375,
     "change_1d": -0.82,
-    "composite": 50.01754385964912,
+    "composite": 50.14166666666667,
     "tier_letter": "C",
     "description": [
       "General Motors 的 AI 产业链位置为 Autonomous / Mobility。",
@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:41",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:50",
     "status_label": "观察"
   },
   "panels": [
@@ -31,26 +31,26 @@
         "最新价": "$75.81",
         "日内涨跌": "-0.82%",
         "1日涨跌": "-0.82%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "-3.79%",
+        "1月涨跌": "-1.33%",
+        "3月涨跌": "-5.15%",
+        "6月涨跌": "+7.50%",
         "1年涨跌": "—",
-        "YTD涨跌": "+0.69%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "-6.38%",
+        "20日均线": "77.80",
+        "50日均线": "76.12",
+        "200日均线": "71.21",
+        "RSI 14": "45.64",
+        "MACD": "-0.10",
+        "20日波动率": "30.45%",
         "成交量": "8,100,300",
-        "量比20日": "1.39",
-        "52周高点": "79.00",
-        "52周低点": "74.96",
-        "距52周高点": "-4.04%",
-        "距52周低点": "+1.13%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "1.22",
+        "52周高点": "87.62",
+        "52周低点": "46.82",
+        "距52周高点": "-13.48%",
+        "距52周低点": "+61.92%",
+        "20日支撑": "74.78",
+        "20日压力": "82.67"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 13.333333333333332,
+          "value": 20.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 39.16666666666666,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 50.01754385964912,
+          "value": 50.14166666666667,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:41",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:50",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 50.01754385964912
+          "value": 50.14166666666667
         }
       ]
     }

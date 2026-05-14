@@ -11,16 +11,16 @@
     "ai_role": "AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片",
     "price": 270.1300048828125,
     "change_1d": 1.62,
-    "composite": 37.36842105263158,
+    "composite": 40.25000000000001,
     "tier_letter": "A",
     "description": [
       "Amazon 的 AI 产业链位置为 Cloud / Hyperscaler。",
-      "AI 角色：AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片。当前内部综合评分 37。",
+      "AI 角色：AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片。当前内部综合评分 40。",
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:38",
-    "status_label": "减持"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:47",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -31,26 +31,26 @@
         "最新价": "$270.13",
         "日内涨跌": "+1.62%",
         "1日涨跌": "+1.62%",
-        "5日涨跌": "—",
-        "1月涨跌": "—",
-        "3月涨跌": "—",
-        "6月涨跌": "—",
+        "5日涨跌": "-0.94%",
+        "1月涨跌": "+12.61%",
+        "3月涨跌": "+35.34%",
+        "6月涨跌": "+15.10%",
         "1年涨跌": "—",
-        "YTD涨跌": "+0.42%",
-        "20日均线": "—",
-        "50日均线": "—",
-        "200日均线": "—",
-        "RSI 14": "—",
-        "MACD": "—",
-        "20日波动率": "—",
+        "YTD涨跌": "+19.26%",
+        "20日均线": "262.97",
+        "50日均线": "234.80",
+        "200日均线": "229.07",
+        "RSI 14": "67.29",
+        "MACD": "10.44",
+        "20日波动率": "20.21%",
         "成交量": "39,598,900",
-        "量比20日": "1.06",
-        "52周高点": "273.63",
-        "52周低点": "262.63",
-        "距52周高点": "-1.28%",
-        "距52周低点": "+2.86%",
-        "20日支撑": "—",
-        "20日压力": "—"
+        "量比20日": "0.84",
+        "52周高点": "278.56",
+        "52周低点": "196.00",
+        "距52周高点": "-3.03%",
+        "距52周低点": "+37.82%",
+        "20日支撑": "244.20",
+        "20日压力": "278.56"
       }
     },
     {
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 36.0,
+          "value": 44.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "Momentum",
-          "value": null,
+          "value": 79.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 37.36842105263158,
+          "value": 40.25000000000001,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:38",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:47",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 37.36842105263158
+          "value": 40.25000000000001
         },
         {
           "date": "2026-05-14",
