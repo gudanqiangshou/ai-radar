@@ -1,0 +1,201 @@
+{
+  "ticker": "QUBT",
+  "name": "Quantum Computing Inc",
+  "header": {
+    "name": "Quantum Computing Inc",
+    "ticker": "QUBT",
+    "sector": "Quantum / Frontier Computing",
+    "sector_id": "quantum_frontier",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "光子量子计算 — 室温量子退火 + 影像处理",
+    "price": 11.029999732971191,
+    "change_1d": -6.37,
+    "composite": 39.59649122807017,
+    "tier_letter": "C",
+    "description": [
+      "Quantum Computing Inc 的 AI 产业链位置为 Quantum / Frontier Computing。",
+      "AI 角色：光子量子计算 — 室温量子退火 + 影像处理。当前内部综合评分 39。",
+      "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:42",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$11.03",
+        "日内涨跌": "-6.37%",
+        "1日涨跌": "-6.37%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "+8.35%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "35,977,100",
+        "量比20日": "0.42",
+        "52周高点": "14.45",
+        "52周低点": "9.33",
+        "距52周高点": "-23.67%",
+        "距52周低点": "+18.22%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Quantum / Frontier Computing",
+        "AI角色": "光子量子计算 — 室温量子退火 + 影像处理",
+        "投资确定性": "—",
+        "收入": "$4.33M",
+        "收入同比": "9364.10%",
+        "毛利率": "-15.39%",
+        "经营利润率": "-556.76%",
+        "净利率": "0.00%",
+        "经营现金流": "—",
+        "资本开支": "-$6.69M",
+        "自由现金流": "-$40.36M",
+        "FCF利润率": "-931.27%",
+        "现金及短投": "$986.11M",
+        "总债务": "$5.45M",
+        "净现金/债务": "—",
+        "流通股本": "225.53M",
+        "ROE": "-4.37%",
+        "债务/权益": "0.00",
+        "市值": "$2.49B",
+        "企业价值": "$1.51B",
+        "P/E TTM": "—",
+        "Forward P/E": "-38.70",
+        "P/S": "573.99",
+        "EV/Sales": "347.71",
+        "EV/EBITDA": "-26.01",
+        "EV/FCF": "-37.34",
+        "FCF收益率": "-1.62%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 40.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 28.0,
+          "reasoning": "QUBT营收仅430万且毛利率为负，商业化极早期。室温量子退火技术路线差异化有一定专利壁垒，但客户粘性低、规模效应缺失、品牌认知弱。与IBM/Google量子生态相比护城河极浅，技术可行性尚未被市场验证。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 35.0,
+          "reasoning": "QUBT主营光子量子退火与影像处理，技术路线与AI算力基础设施关联间接。量子计算可服务AI优化问题，但当前商业化极早期，几乎无AI capex直接驱动收入。AI热潮带来估值溢价，但实质业务暴露度低，属量子概念股而非AI直接受益标的。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 100.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 56.66666666666666,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 20.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 12.0,
+          "reasoning": "QUBT处于极早期量子计算赛道，尚无稳定营收，技术商业化路径不明确。现金约9.86亿虽提供短期缓冲，但持续烧钱压力大。室温量子退火技术尚未被市场验证，竞争对手强劲（IBM、Google）。估值高度投机，回撤风险极大，综合风险极高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 39.59649122807017,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:42",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Quantum Computing Inc（QUBT）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】QUBT营收仅430万且毛利率为负，商业化极早期。室温量子退火技术路线差异化有一定专利壁垒，但客户粘性低、规模效应缺失、品牌认知弱。与IBM/Google量子生态相比护城河极浅，技术可行性尚未被市场验证。 【ai_exposure】QUBT主营光子量子退火与影像处理，技术路线与AI算力基础设施关联间接。量子计算可服务AI优化问题，但当前商业化极早期，几乎无AI capex直接驱动收入。AI热潮带来估值溢价，但实质业务暴露度低，属量子概念股而非AI直接受益标的。 【risk】QUBT处于极早期量子计算赛道，尚无稳定营收，技术商业化路径不明确。现金约9.86亿虽提供短期缓冲，但持续烧钱压力大。室温量子退火技术尚未被市场验证，竞争对手强劲（IBM、Google）。估值高度投机，回撤风险极大，综合风险极高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 39.59649122807017
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

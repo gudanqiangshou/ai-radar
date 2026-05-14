@@ -1,0 +1,201 @@
+{
+  "ticker": "RIVN",
+  "name": "Rivian Automotive",
+  "header": {
+    "name": "Rivian Automotive",
+    "ticker": "RIVN",
+    "sector": "Autonomous / Mobility",
+    "sector_id": "autonomous_mobility",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "电动皮卡 + 商用车 — Amazon Delivery 主力",
+    "price": 14.270000457763672,
+    "change_1d": 2.29,
+    "composite": 39.877192982456144,
+    "tier_letter": "C",
+    "description": [
+      "Rivian Automotive 的 AI 产业链位置为 Autonomous / Mobility。",
+      "AI 角色：电动皮卡 + 商用车 — Amazon Delivery 主力。当前内部综合评分 39。",
+      "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:41",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$14.27",
+        "日内涨跌": "+2.29%",
+        "1日涨跌": "+2.29%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "+1.35%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "29,203,400",
+        "量比20日": "1.21",
+        "52周高点": "14.68",
+        "52周低点": "13.64",
+        "距52周高点": "-2.79%",
+        "距52周低点": "+4.62%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Autonomous / Mobility",
+        "AI角色": "电动皮卡 + 商用车 — Amazon Delivery 主力",
+        "投资确定性": "—",
+        "收入": "$5.53B",
+        "收入同比": "11.40%",
+        "毛利率": "1.03%",
+        "经营利润率": "-63.79%",
+        "净利率": "-63.62%",
+        "经营现金流": "—",
+        "资本开支": "-$1.74B",
+        "自由现金流": "-$1.30B",
+        "FCF利润率": "-23.57%",
+        "现金及短投": "$4.83B",
+        "总债务": "$5.23B",
+        "净现金/债务": "$388.00M",
+        "流通股本": "1.34B",
+        "ROE": "-65.69%",
+        "债务/权益": "0.27",
+        "市值": "$19.16B",
+        "企业价值": "$18.42B",
+        "P/E TTM": "—",
+        "Forward P/E": "-7.56",
+        "P/S": "3.47",
+        "EV/Sales": "3.33",
+        "EV/EBITDA": "-6.07",
+        "EV/FCF": "-14.14",
+        "FCF收益率": "-6.80%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 28.33333333333333,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 38.0,
+          "reasoning": "Amazon独家商用车合约（10万辆）提供短期客户粘性，但毛利率仅1%、净亏损64%显示规模效应尚未形成；自动驾驶技术积累薄弱，品牌认知局限于北美，专利护城河远弱于特斯拉/Waymo，整体护城河脆弱且高度依赖单一大客户。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 28.0,
+          "reasoning": "Rivian核心业务是EV制造，AI暴露主要来自：1)自动驾驶研发（ADAS/辅助驾驶）；2)Amazon物流车队的路线优化软件。但收入主体仍是卖车，非AI直接驱动。Amazon合同提供稳定需求但与AI capex周期关联弱。AI退潮对RIVN基本面冲击有限。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 32.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 28.33333333333333,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 73.33333333333334,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 22.0,
+          "reasoning": "现金48亿尚可但长期负债44亿压力大，持续亏损烧钱，Amazon客户集中度极高，量产爬坡缓慢，EV竞争加剧（特斯拉/福特），估值仍偏高于基本面，政策补贴不确定性叠加，综合风险偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 39.877192982456144,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:41",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Rivian Automotive（RIVN）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Amazon独家商用车合约（10万辆）提供短期客户粘性，但毛利率仅1%、净亏损64%显示规模效应尚未形成；自动驾驶技术积累薄弱，品牌认知局限于北美，专利护城河远弱于特斯拉/Waymo，整体护城河脆弱且高度依赖单一大客户。 【ai_exposure】Rivian核心业务是EV制造，AI暴露主要来自：1)自动驾驶研发（ADAS/辅助驾驶）；2)Amazon物流车队的路线优化软件。但收入主体仍是卖车，非AI直接驱动。Amazon合同提供稳定需求但与AI capex周期关联弱。AI退潮对RIVN基本面冲击有限。 【risk】现金48亿尚可但长期负债44亿压力大，持续亏损烧钱，Amazon客户集中度极高，量产爬坡缓慢，EV竞争加剧（特斯拉/福特），估值仍偏高于基本面，政策补贴不确定性叠加，综合风险偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 39.877192982456144
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

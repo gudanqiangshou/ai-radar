@@ -1,0 +1,201 @@
+{
+  "ticker": "ACLS",
+  "name": "Axcelis Technologies",
+  "header": {
+    "name": "Axcelis Technologies",
+    "ticker": "ACLS",
+    "sector": "Semiconductor Equipment",
+    "sector_id": "semiconductor_equipment",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "离子注入设备 — 功率半导体 + 成熟节点产能扩张",
+    "price": 162.14999389648438,
+    "change_1d": 0.32,
+    "composite": 34.54135338345864,
+    "tier_letter": "C",
+    "description": [
+      "Axcelis Technologies 的 AI 产业链位置为 Semiconductor Equipment。",
+      "AI 角色：离子注入设备 — 功率半导体 + 成熟节点产能扩张。当前内部综合评分 34。",
+      "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:37",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$162.15",
+        "日内涨跌": "+0.32%",
+        "1日涨跌": "+0.32%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-1.77%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "572,700",
+        "量比20日": "0.82",
+        "52周高点": "168.14",
+        "52周低点": "153.02",
+        "距52周高点": "-3.56%",
+        "距52周低点": "+5.97%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Semiconductor Equipment",
+        "AI角色": "离子注入设备 — 功率半导体 + 成熟节点产能扩张",
+        "投资确定性": "—",
+        "收入": "$845.44M",
+        "收入同比": "3.30%",
+        "毛利率": "43.61%",
+        "经营利润率": "4.00%",
+        "净利率": "11.93%",
+        "经营现金流": "—",
+        "资本开支": "-$11.29M",
+        "自由现金流": "$49.11M",
+        "FCF利润率": "5.81%",
+        "现金及短投": "$366.60M",
+        "总债务": "$70.50M",
+        "净现金/债务": "—",
+        "流通股本": "30.73M",
+        "ROE": "9.74%",
+        "债务/权益": "0.01",
+        "市值": "$4.98B",
+        "企业价值": "$4.69B",
+        "P/E TTM": "50.20",
+        "Forward P/E": "34.98",
+        "P/S": "5.89",
+        "EV/Sales": "5.54",
+        "EV/EBITDA": "43.34",
+        "EV/FCF": "95.45",
+        "FCF收益率": "0.99%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 10.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "Axcelis在功率半导体离子注入领域具备较强技术积累与客户粘性，Purion系列产品形成差异化，但市场规模有限、竞争对手（Applied Materials、Sumitomo）实力雄厚。毛利率44%尚可，ROE偏低，规模效应与品牌护城河中等，整体护城河属于细分领域中等偏强水平。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 22.0,
+          "reasoning": "Axcelis主攻离子注入设备，核心市场是功率半导体（SiC/IGBT）和成熟节点，与AI算力直接capex关联弱。AI间接拉动电动车/工业功率需求，但主要增长驱动是EV周期和成熟制程扩产，非AI数据中心直接受益标的。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 14.285714285714285,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 12.857142857142858,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 60.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 42.0,
+          "reasoning": "ACLS专注于离子注入设备，产品线集中度高，功率半导体/成熟节点需求受周期波动影响显著。中国市场占营收约40%，面临出口管制升级风险。现金储备3.67亿尚可，但无长期负债数据增加不确定性。客户集中度数据缺失，整体风险中等偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 34.54135338345864,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:37",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Axcelis Technologies（ACLS）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Axcelis在功率半导体离子注入领域具备较强技术积累与客户粘性，Purion系列产品形成差异化，但市场规模有限、竞争对手（Applied Materials、Sumitomo）实力雄厚。毛利率44%尚可，ROE偏低，规模效应与品牌护城河中等，整体护城河属于细分领域中等偏强水平。 【ai_exposure】Axcelis主攻离子注入设备，核心市场是功率半导体（SiC/IGBT）和成熟节点，与AI算力直接capex关联弱。AI间接拉动电动车/工业功率需求，但主要增长驱动是EV周期和成熟制程扩产，非AI数据中心直接受益标的。 【risk】ACLS专注于离子注入设备，产品线集中度高，功率半导体/成熟节点需求受周期波动影响显著。中国市场占营收约40%，面临出口管制升级风险。现金储备3.67亿尚可，但无长期负债数据增加不确定性。客户集中度数据缺失，整体风险中等偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 34.54135338345864
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

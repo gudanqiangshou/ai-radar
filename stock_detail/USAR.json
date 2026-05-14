@@ -1,0 +1,201 @@
+{
+  "ticker": "USAR",
+  "name": "USA Rare Earth",
+  "header": {
+    "name": "USA Rare Earth",
+    "ticker": "USAR",
+    "sector": "Critical Minerals / Rare Earths",
+    "sector_id": "critical_minerals",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "美国本土稀土加工 — 永磁电机 + 国防供应链备份",
+    "price": 25.420000076293945,
+    "change_1d": -0.51,
+    "composite": 33.64705882352942,
+    "tier_letter": "C",
+    "description": [
+      "USA Rare Earth 的 AI 产业链位置为 Critical Minerals / Rare Earths。",
+      "AI 角色：美国本土稀土加工 — 永磁电机 + 国防供应链备份。当前内部综合评分 33。",
+      "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:42",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$25.42",
+        "日内涨跌": "-0.51%",
+        "1日涨跌": "-0.51%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-3.35%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "15,609,100",
+        "量比20日": "0.93",
+        "52周高点": "28.01",
+        "52周低点": "24.45",
+        "距52周高点": "-9.25%",
+        "距52周低点": "+3.97%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Critical Minerals / Rare Earths",
+        "AI角色": "美国本土稀土加工 — 永磁电机 + 国防供应链备份",
+        "投资确定性": "—",
+        "收入": "$1.64M",
+        "收入同比": "—",
+        "毛利率": "11.87%",
+        "经营利润率": "-862.20%",
+        "净利率": "0.00%",
+        "经营现金流": "—",
+        "资本开支": "-$37.36M",
+        "自由现金流": "-$47.19M",
+        "FCF利润率": "-2871.88%",
+        "现金及短投": "$359.92M",
+        "总债务": "$3.05M",
+        "净现金/债务": "—",
+        "流通股本": "217.99M",
+        "ROE": "-107.16%",
+        "债务/权益": "0.00",
+        "市值": "$5.54B",
+        "企业价值": "$5.19B",
+        "P/E TTM": "—",
+        "Forward P/E": "-18.97",
+        "P/S": "3372.61",
+        "EV/Sales": "3161.68",
+        "EV/EBITDA": "-112.20",
+        "EV/FCF": "-110.09",
+        "FCF收益率": "-0.85%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 20.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 38.0,
+          "reasoning": "USAR具备美国本土稀土加工的政策红利与国防供应链定位，监管壁垒较强；但TTM营收仅164万、毛利率12%、ROE为-1.07，规模效应几乎为零，技术工艺尚未形成差异化壁垒，客户粘性与品牌认知仍处早期，护城河更多依赖政策庇护而非商业竞争力。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 22.0,
+          "reasoning": "USAR主营美国本土稀土开采与加工，终端需求以国防、永磁电机（EV/风电）为主。AI数据中心扩张间接拉动稀土需求（散热、电机），但AI capex并非直接驱动力。国防供应链定位使其与AI周期相关性低，属间接受益。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 21.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 56.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 32.0,
+          "reasoning": "USAR处于早期开发阶段，无营收、无负债数据，现金约3.6亿为主要支撑。稀土加工高度依赖政策补贴与国防合同落地，客户集中度不明，技术商业化风险高，估值受主题炒作驱动波动剧烈，整体风险偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 33.64705882352942,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:42",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "USA Rare Earth（USAR）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】USAR具备美国本土稀土加工的政策红利与国防供应链定位，监管壁垒较强；但TTM营收仅164万、毛利率12%、ROE为-1.07，规模效应几乎为零，技术工艺尚未形成差异化壁垒，客户粘性与品牌认知仍处早期，护城河更多依赖政策庇护而非商业竞争力。 【ai_exposure】USAR主营美国本土稀土开采与加工，终端需求以国防、永磁电机（EV/风电）为主。AI数据中心扩张间接拉动稀土需求（散热、电机），但AI capex并非直接驱动力。国防供应链定位使其与AI周期相关性低，属间接受益。 【risk】USAR处于早期开发阶段，无营收、无负债数据，现金约3.6亿为主要支撑。稀土加工高度依赖政策补贴与国防合同落地，客户集中度不明，技术商业化风险高，估值受主题炒作驱动波动剧烈，整体风险偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 33.64705882352942
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

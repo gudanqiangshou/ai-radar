@@ -11,15 +11,15 @@
     "ai_role": "比特币矿场转 AI 云 — 算力 + 电力资产",
     "price": 24.920000076293945,
     "change_1d": 1.67,
-    "composite": 30.210526315789476,
+    "composite": 37.09774436090225,
     "tier_letter": "C",
     "description": [
       "Riot Platforms 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：比特币矿场转 AI 云 — 算力 + 电力资产。当前内部综合评分 30。",
+      "AI 角色：比特币矿场转 AI 云 — 算力 + 电力资产。当前内部综合评分 37。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:39",
     "status_label": "减持"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 18.0,
+          "value": 27.142857142857142,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 32.0,
+          "value": 51.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 12.0,
+          "value": 27.142857142857142,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 56.0,
+          "value": 60.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 30.210526315789476,
+          "value": 37.09774436090225,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:39",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 30.210526315789476
+          "value": 37.09774436090225
         }
       ]
     }

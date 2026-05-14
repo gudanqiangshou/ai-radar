@@ -11,15 +11,15 @@
     "ai_role": "可观测性平台 — AI 工作负载监控扩张",
     "price": 205.30999755859375,
     "change_1d": 2.69,
-    "composite": 62.333333333333336,
+    "composite": 60.29323308270676,
     "tier_letter": "B",
     "description": [
       "Datadog 的 AI 产业链位置为 Data / Software Platform。",
-      "AI 角色：可观测性平台 — AI 工作负载监控扩张。当前内部综合评分 62。",
+      "AI 角色：可观测性平台 — AI 工作负载监控扩张。当前内部综合评分 60。",
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:39",
     "status_label": "持有"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 88.33333333333334,
+          "value": 82.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 92.0,
+          "value": 94.28571428571428,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 88.33333333333334,
+          "value": 81.25,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 62.333333333333336,
+          "value": 60.29323308270676,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:39",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 62.333333333333336
+          "value": 60.29323308270676
         },
         {
           "date": "2026-05-14",

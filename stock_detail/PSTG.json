@@ -11,7 +11,7 @@
     "ai_role": "全闪存阵列 — Meta AI 大单签约，AI 数据存储",
     "price": 84.43000030517578,
     "change_1d": 1.32,
-    "composite": 47.1764705882353,
+    "composite": 47.94957983193277,
     "tier_letter": "B",
     "description": [
       "Pure Storage 的 AI 产业链位置为 Data Center Infrastructure。",
@@ -19,7 +19,7 @@
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:38",
     "status_label": "观察"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 33.333333333333336,
+          "value": 33.71428571428571,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 20.0,
+          "value": 22.285714285714285,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 58.333333333333336,
+          "value": 60.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 47.1764705882353,
+          "value": 47.94957983193277,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:38",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -261,7 +261,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 47.1764705882353
+          "value": 47.94957983193277
         },
         {
           "date": "2026-05-14",

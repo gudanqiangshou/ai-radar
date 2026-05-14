@@ -1,0 +1,201 @@
+{
+  "ticker": "QLYS",
+  "name": "Qualys",
+  "header": {
+    "name": "Qualys",
+    "ticker": "QLYS",
+    "sector": "Cybersecurity",
+    "sector_id": "cybersecurity",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "云端漏洞管理 + 合规自动化",
+    "price": 86.5,
+    "change_1d": -4.02,
+    "composite": 69.54239766081871,
+    "tier_letter": "C",
+    "description": [
+      "Qualys 的 AI 产业链位置为 Cybersecurity。",
+      "AI 角色：云端漏洞管理 + 合规自动化。当前内部综合评分 69。",
+      "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:40",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$86.50",
+        "日内涨跌": "-4.02%",
+        "1日涨跌": "-4.02%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-5.50%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "792,000",
+        "量比20日": "1.08",
+        "52周高点": "94.38",
+        "52周低点": "85.27",
+        "距52周高点": "-8.35%",
+        "距52周低点": "+1.44%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Cybersecurity",
+        "AI角色": "云端漏洞管理 + 合规自动化",
+        "投资确定性": "—",
+        "收入": "$684.86M",
+        "收入同比": "9.80%",
+        "毛利率": "83.18%",
+        "经营利润率": "35.02%",
+        "净利率": "29.41%",
+        "经营现金流": "—",
+        "资本开支": "-$4.62M",
+        "自由现金流": "$237.36M",
+        "FCF利润率": "34.66%",
+        "现金及短投": "$471.35M",
+        "总债务": "$52.23M",
+        "净现金/债务": "—",
+        "流通股本": "35.22M",
+        "ROE": "37.72%",
+        "债务/权益": "0.02",
+        "市值": "$3.05B",
+        "企业价值": "$2.63B",
+        "P/E TTM": "15.53",
+        "Forward P/E": "10.47",
+        "P/S": "4.45",
+        "EV/Sales": "3.84",
+        "EV/EBITDA": "10.72",
+        "EV/FCF": "11.07",
+        "FCF收益率": "7.79%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 96.25,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "Qualys凭借云原生架构、统一平台（VMDR+合规）及83%高毛利率构建一定壁垒，企业客户切换成本中等。但面临Tenable、CrowdStrike、Wiz等强竞争，AI转型节奏偏慢，营收规模偏小，护城河宽度有限。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 22.0,
+          "reasoning": "Qualys将AI嵌入TruRisk平台用于漏洞优先级排序和合规自动化，属于产品增强而非核心收入驱动。其业务基础是订阅制云安全平台，AI为辅助功能，不直接依赖AI capex支出，客户采购决策由合规需求驱动而非AI投资逻辑。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 6.666666666666666,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 96.25,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 75.55555555555556,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "Qualys现金充裕（~4.7亿），无明显长期负债，财务结构稳健。但云安全赛道竞争激烈（CrowdStrike、Tenable、Microsoft），产品线集中于漏洞管理存在替代风险，AI驱动的安全平台整合趋势对其独立工具模式构成压力，估值中等偏高，整体风险适中。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 69.54239766081871,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:40",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Qualys（QLYS）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Qualys凭借云原生架构、统一平台（VMDR+合规）及83%高毛利率构建一定壁垒，企业客户切换成本中等。但面临Tenable、CrowdStrike、Wiz等强竞争，AI转型节奏偏慢，营收规模偏小，护城河宽度有限。 【ai_exposure】Qualys将AI嵌入TruRisk平台用于漏洞优先级排序和合规自动化，属于产品增强而非核心收入驱动。其业务基础是订阅制云安全平台，AI为辅助功能，不直接依赖AI capex支出，客户采购决策由合规需求驱动而非AI投资逻辑。 【risk】Qualys现金充裕（~4.7亿），无明显长期负债，财务结构稳健。但云安全赛道竞争激烈（CrowdStrike、Tenable、Microsoft），产品线集中于漏洞管理存在替代风险，AI驱动的安全平台整合趋势对其独立工具模式构成压力，估值中等偏高，整体风险适中。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 69.54239766081871
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

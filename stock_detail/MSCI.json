@@ -11,15 +11,15 @@
     "ai_role": "指数 + ESG + 风险分析 — 数据壁垒高",
     "price": 570.9099731445312,
     "change_1d": -1.75,
-    "composite": 50.99999999999999,
+    "composite": 48.33333333333333,
     "tier_letter": "B",
     "description": [
       "MSCI Inc 的 AI 产业链位置为 Financial / Research Data。",
-      "AI 角色：指数 + ESG + 风险分析 — 数据壁垒高。当前内部综合评分 50。",
+      "AI 角色：指数 + ESG + 风险分析 — 数据壁垒高。当前内部综合评分 48。",
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:41",
     "status_label": "观察"
   },
   "panels": [
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 80.0,
+          "value": 64.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 50.99999999999999,
+          "value": 48.33333333333333,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:41",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -269,7 +269,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 50.99999999999999
+          "value": 48.33333333333333
         },
         {
           "date": "2026-05-14",

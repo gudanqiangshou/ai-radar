@@ -1,0 +1,201 @@
+{
+  "ticker": "MCHP",
+  "name": "Microchip Technology",
+  "header": {
+    "name": "Microchip Technology",
+    "ticker": "MCHP",
+    "sector": "Compute / GPU / ASIC",
+    "sector_id": "compute_gpu_asic",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "MCU + 模拟 — 工业 / 汽车 / IoT 边缘 AI",
+    "price": 96.70999908447266,
+    "change_1d": -1.01,
+    "composite": 46.49760765550239,
+    "tier_letter": "C",
+    "description": [
+      "Microchip Technology 的 AI 产业链位置为 Compute / GPU / ASIC。",
+      "AI 角色：MCU + 模拟 — 工业 / 汽车 / IoT 边缘 AI。当前内部综合评分 46。",
+      "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:36",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$96.71",
+        "日内涨跌": "-1.01%",
+        "1日涨跌": "-1.01%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-2.34%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "12,890,900",
+        "量比20日": "0.79",
+        "52周高点": "101.18",
+        "52周低点": "94.42",
+        "距52周高点": "-4.42%",
+        "距52周低点": "+2.43%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Compute / GPU / ASIC",
+        "AI角色": "MCU + 模拟 — 工业 / 汽车 / IoT 边缘 AI",
+        "投资确定性": "—",
+        "收入": "$4.71B",
+        "收入同比": "35.10%",
+        "毛利率": "57.73%",
+        "经营利润率": "17.14%",
+        "净利率": "4.88%",
+        "经营现金流": "—",
+        "资本开支": "-$91.10M",
+        "自由现金流": "$819.90M",
+        "FCF利润率": "17.40%",
+        "现金及短投": "$240.30M",
+        "总债务": "$5.50B",
+        "净现金/债务": "-$5.13B",
+        "流通股本": "541.14M",
+        "ROE": "3.40%",
+        "债务/权益": "0.11",
+        "市值": "$52.33B",
+        "企业价值": "$57.62B",
+        "P/E TTM": "439.59",
+        "Forward P/E": "23.64",
+        "P/S": "11.10",
+        "EV/Sales": "12.23",
+        "EV/EBITDA": "46.50",
+        "EV/FCF": "70.28",
+        "FCF收益率": "1.57%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 33.63636363636364,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "MCHP在MCU/模拟领域拥有深厚专利积累与客户粘性（工业/汽车设计周期长达5-10年），但在Compute/GPU/ASIC板块几乎无直接布局，边缘AI定位受限于算力天花板。当前净利率仅5%、ROE 3%显示财务护城河正在收窄，与英伟达/AMD等GPU巨头相比竞争壁垒薄弱。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 22.0,
+          "reasoning": "MCHP主营MCU与模拟芯片，服务工业/汽车/IoT边缘场景，AI推理需求带来边缘MCU升级机会，但核心收入仍由传统嵌入式控制驱动，与数据中心AI capex直接关联极弱，AI更多是产品迭代叙事而非收入结构性驱动力。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 63.63636363636364,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 21.81818181818182,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 59.09090909090909,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 38.0,
+          "reasoning": "MCHP长期负债54亿美元而现金仅2.4亿，杠杆率极高；半导体周期下行叠加库存去化压力；工业/汽车终端需求疲软；中美贸易摩擦威胁出口；MCU市场竞争激烈（ST、NXP、Renesas）。财务脆弱性与周期风险并存，综合风险偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 46.49760765550239,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:36",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Microchip Technology（MCHP）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】MCHP在MCU/模拟领域拥有深厚专利积累与客户粘性（工业/汽车设计周期长达5-10年），但在Compute/GPU/ASIC板块几乎无直接布局，边缘AI定位受限于算力天花板。当前净利率仅5%、ROE 3%显示财务护城河正在收窄，与英伟达/AMD等GPU巨头相比竞争壁垒薄弱。 【ai_exposure】MCHP主营MCU与模拟芯片，服务工业/汽车/IoT边缘场景，AI推理需求带来边缘MCU升级机会，但核心收入仍由传统嵌入式控制驱动，与数据中心AI capex直接关联极弱，AI更多是产品迭代叙事而非收入结构性驱动力。 【risk】MCHP长期负债54亿美元而现金仅2.4亿，杠杆率极高；半导体周期下行叠加库存去化压力；工业/汽车终端需求疲软；中美贸易摩擦威胁出口；MCU市场竞争激烈（ST、NXP、Renesas）。财务脆弱性与周期风险并存，综合风险偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 46.49760765550239
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

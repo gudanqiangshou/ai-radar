@@ -1,0 +1,201 @@
+{
+  "ticker": "AAOI",
+  "name": "Applied Optoelectronics",
+  "header": {
+    "name": "Applied Optoelectronics",
+    "ticker": "AAOI",
+    "sector": "Networking / Optical",
+    "sector_id": "networking_optical",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "光模块 — 数据中心 100G/400G 自研路线",
+    "price": 223.10000610351562,
+    "change_1d": 18.49,
+    "composite": 32.44444444444444,
+    "tier_letter": "C",
+    "description": [
+      "Applied Optoelectronics 的 AI 产业链位置为 Networking / Optical。",
+      "AI 角色：光模块 — 数据中心 100G/400G 自研路线。当前内部综合评分 32。",
+      "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:38",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$223.10",
+        "日内涨跌": "+18.49%",
+        "1日涨跌": "+18.49%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "+20.66%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "18,369,000",
+        "量比20日": "1.11",
+        "52周高点": "233.67",
+        "52周低点": "150.54",
+        "距52周高点": "-4.52%",
+        "距52周低点": "+48.20%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Networking / Optical",
+        "AI角色": "光模块 — 数据中心 100G/400G 自研路线",
+        "投资确定性": "—",
+        "收入": "$507.00M",
+        "收入同比": "51.40%",
+        "毛利率": "29.64%",
+        "经营利润率": "-8.60%",
+        "净利率": "-8.55%",
+        "经营现金流": "—",
+        "资本开支": "-$179.53M",
+        "自由现金流": "-$445.58M",
+        "FCF利润率": "-87.89%",
+        "现金及短投": "$439.70M",
+        "总债务": "$280.42M",
+        "净现金/债务": "$309.88M",
+        "流通股本": "80.24M",
+        "ROE": "-6.13%",
+        "债务/权益": "0.02",
+        "市值": "$17.90B",
+        "企业价值": "$17.74B",
+        "P/E TTM": "—",
+        "Forward P/E": "46.75",
+        "P/S": "35.31",
+        "EV/Sales": "35.00",
+        "EV/EBITDA": "-646.23",
+        "EV/FCF": "-39.82",
+        "FCF收益率": "-2.49%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 0.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 38.0,
+          "reasoning": "AAOI具备垂直整合（芯片到模块）的技术Know-how，但专利壁垒薄弱，客户集中度高（亚马逊占大头），切换成本低，规模远不及II-VI/Coherent，毛利率30%偏低且持续亏损，护城河较窄。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 72.0,
+          "reasoning": "AAOI约70-80%收入来自数据中心光模块（100G/400G），直接受AI基础设施capex驱动，主要客户为超大规模云厂商。但公司规模小、客户集中度高、竞争激烈（Coherent/II-VI），AI退潮时营收弹性极大，非纯AI标的但高度依赖AI数据中心扩张周期。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 80.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 0.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 51.111111111111114,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 28.0,
+          "reasoning": "AAOI财务杠杆尚可（现金4.4亿 vs 长债1.3亿），但客户高度集中于少数超大规模云厂商，营收波动剧烈，历史亏损记录明显。100G/400G市场竞争激烈，面临Coherent、II-VI等大厂及客户自研压力。中美地缘政治风险对光器件供应链构成持续威胁，整体风险偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 32.44444444444444,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:38",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Applied Optoelectronics（AAOI）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】AAOI具备垂直整合（芯片到模块）的技术Know-how，但专利壁垒薄弱，客户集中度高（亚马逊占大头），切换成本低，规模远不及II-VI/Coherent，毛利率30%偏低且持续亏损，护城河较窄。 【ai_exposure】AAOI约70-80%收入来自数据中心光模块（100G/400G），直接受AI基础设施capex驱动，主要客户为超大规模云厂商。但公司规模小、客户集中度高、竞争激烈（Coherent/II-VI），AI退潮时营收弹性极大，非纯AI标的但高度依赖AI数据中心扩张周期。 【risk】AAOI财务杠杆尚可（现金4.4亿 vs 长债1.3亿），但客户高度集中于少数超大规模云厂商，营收波动剧烈，历史亏损记录明显。100G/400G市场竞争激烈，面临Coherent、II-VI等大厂及客户自研压力。中美地缘政治风险对光器件供应链构成持续威胁，整体风险偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 32.44444444444444
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

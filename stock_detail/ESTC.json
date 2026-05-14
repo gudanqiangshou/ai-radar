@@ -11,16 +11,16 @@
     "ai_role": "Elasticsearch + ELK — 搜索 + 向量搜索（RAG）",
     "price": 48.56999969482422,
     "change_1d": -3.03,
-    "composite": 58.438596491228076,
+    "composite": 53.93984962406015,
     "tier_letter": "C",
     "description": [
       "Elastic 的 AI 产业链位置为 Data / Software Platform。",
-      "AI 角色：Elasticsearch + ELK — 搜索 + 向量搜索（RAG）。当前内部综合评分 58。",
+      "AI 角色：Elasticsearch + ELK — 搜索 + 向量搜索（RAG）。当前内部综合评分 53。",
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
-    "status_label": "持有"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:39",
+    "status_label": "观察"
   },
   "panels": [
     {
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 50.33333333333333,
+          "value": 41.07142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 18.0,
+          "value": 26.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 53.666666666666664,
+          "value": 39.82142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 93.33333333333333,
+          "value": 86.25,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 58.438596491228076,
+          "value": 53.93984962406015,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:39",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 58.438596491228076
+          "value": 53.93984962406015
         }
       ]
     }

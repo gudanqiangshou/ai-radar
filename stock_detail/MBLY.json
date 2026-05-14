@@ -11,15 +11,15 @@
     "ai_role": "ADAS / 自动驾驶视觉芯片 — Intel 系",
     "price": 10.529999732971191,
     "change_1d": 14.08,
-    "composite": 61.421052631578945,
+    "composite": 58.789473684210535,
     "tier_letter": "B",
     "description": [
       "Mobileye 的 AI 产业链位置为 Autonomous / Mobility。",
-      "AI 角色：ADAS / 自动驾驶视觉芯片 — Intel 系。当前内部综合评分 61。",
+      "AI 角色：ADAS / 自动驾驶视觉芯片 — Intel 系。当前内部综合评分 58。",
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:41",
     "status_label": "持有"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 60.0,
+          "value": 58.333333333333336,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 90.0,
+          "value": 93.33333333333334,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 42.5,
+          "value": 40.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 62.5,
+          "value": 51.666666666666664,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 61.421052631578945,
+          "value": 58.789473684210535,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:02",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:41",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 61.421052631578945
+          "value": 58.789473684210535
         },
         {
           "date": "2026-05-14",

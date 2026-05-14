@@ -1,0 +1,201 @@
+{
+  "ticker": "NTLA",
+  "name": "Intellia Therapeutics",
+  "header": {
+    "name": "Intellia Therapeutics",
+    "ticker": "NTLA",
+    "sector": "Healthcare AI",
+    "sector_id": "healthcare_ai",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "体内基因编辑 — CRISPR/Cas9 in vivo 临床领先",
+    "price": 14.279999732971191,
+    "change_1d": 2.07,
+    "composite": 33.815789473684205,
+    "tier_letter": "C",
+    "description": [
+      "Intellia Therapeutics 的 AI 产业链位置为 Healthcare AI。",
+      "AI 角色：体内基因编辑 — CRISPR/Cas9 in vivo 临床领先。当前内部综合评分 33。",
+      "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:41",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$14.28",
+        "日内涨跌": "+2.07%",
+        "1日涨跌": "+2.07%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-0.97%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "3,752,200",
+        "量比20日": "0.63",
+        "52周高点": "15.55",
+        "52周低点": "13.52",
+        "距52周高点": "-8.17%",
+        "距52周低点": "+5.62%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Healthcare AI",
+        "AI角色": "体内基因编辑 — CRISPR/Cas9 in vivo 临床领先",
+        "投资确定性": "—",
+        "收入": "$66.09M",
+        "收入同比": "-9.50%",
+        "毛利率": "0.00%",
+        "经营利润率": "-668.07%",
+        "净利率": "0.00%",
+        "经营现金流": "—",
+        "资本开支": "-$1.13M",
+        "自由现金流": "-$235.23M",
+        "FCF利润率": "-355.92%",
+        "现金及短投": "$375.99M",
+        "总债务": "$80.49M",
+        "净现金/债务": "—",
+        "流通股本": "139.72M",
+        "ROE": "-56.34%",
+        "债务/权益": "0.04",
+        "市值": "$2.00B",
+        "企业价值": "$1.70B",
+        "P/E TTM": "—",
+        "Forward P/E": "-7.73",
+        "P/S": "30.19",
+        "EV/Sales": "25.72",
+        "EV/EBITDA": "-4.13",
+        "EV/FCF": "-7.23",
+        "FCF收益率": "-11.79%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 23.5,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "Intellia在体内CRISPR领域拥有核心专利授权（源自Broad/MIT）及先发临床数据壁垒，NTLA-2001等管线具稀缺性。但专利争议持续、竞争者（Beam、Prime Medicine）追赶，营收依赖合作里程碑，商业化护城河尚未成型，规模效应与品牌溢价仍弱。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 12.0,
+          "reasoning": "Intellia是CRISPR基因编辑公司，核心驱动力是分子生物学平台与临床管线（NTLA-2001等），而非AI capex。AI仅作为辅助工具用于靶点发现和数据分析，不构成收入来源，与AI基础设施投资周期几乎无关联。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 36.666666666666664,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 30.166666666666664,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 28.333333333333343,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 18.0,
+          "reasoning": "临床早期生物技术公司，现金约3.76亿美元但无营收，烧钱率高，跑道有限；体内CRISPR疗法监管路径不确定，脱靶安全性风险大；管线高度集中，竞争激烈（Beam、Prime等）；无近期催化剂信息，估值依赖临床成功预期，失败风险极高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 33.815789473684205,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:41",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Intellia Therapeutics（NTLA）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Intellia在体内CRISPR领域拥有核心专利授权（源自Broad/MIT）及先发临床数据壁垒，NTLA-2001等管线具稀缺性。但专利争议持续、竞争者（Beam、Prime Medicine）追赶，营收依赖合作里程碑，商业化护城河尚未成型，规模效应与品牌溢价仍弱。 【ai_exposure】Intellia是CRISPR基因编辑公司，核心驱动力是分子生物学平台与临床管线（NTLA-2001等），而非AI capex。AI仅作为辅助工具用于靶点发现和数据分析，不构成收入来源，与AI基础设施投资周期几乎无关联。 【risk】临床早期生物技术公司，现金约3.76亿美元但无营收，烧钱率高，跑道有限；体内CRISPR疗法监管路径不确定，脱靶安全性风险大；管线高度集中，竞争激烈（Beam、Prime等）；无近期催化剂信息，估值依赖临床成功预期，失败风险极高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 33.815789473684205
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

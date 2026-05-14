@@ -11,16 +11,16 @@
     "ai_role": "矿场转型 GPU 云 — 比特币 + AI 双业务",
     "price": 55.16999816894531,
     "change_1d": -2.46,
-    "composite": 52.210526315789465,
+    "composite": 56.3609022556391,
     "tier_letter": "C",
     "description": [
       "Iris Energy 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：矿场转型 GPU 云 — 比特币 + AI 双业务。当前内部综合评分 52。",
+      "AI 角色：矿场转型 GPU 云 — 比特币 + AI 双业务。当前内部综合评分 56。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:38",
+    "status_label": "持有"
   },
   "panels": [
     {
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 80.0,
+          "value": 85.71428571428572,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 28.0,
+          "value": 48.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 84.0,
+          "value": 88.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 52.210526315789465,
+          "value": 56.3609022556391,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:38",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 52.210526315789465
+          "value": 56.3609022556391
         },
         {
           "date": "2026-05-14",

@@ -11,15 +11,15 @@
     "ai_role": "达芬奇手术机器人 — 全球垄断 + AI 辅助手术演进",
     "price": 432.2699890136719,
     "change_1d": 0.09,
-    "composite": 63.39473684210527,
+    "composite": 65.54385964912281,
     "tier_letter": "A",
     "description": [
       "Intuitive Surgical 的 AI 产业链位置为 Healthcare AI。",
-      "AI 角色：达芬奇手术机器人 — 全球垄断 + AI 辅助手术演进。当前内部综合评分 63。",
+      "AI 角色：达芬奇手术机器人 — 全球垄断 + AI 辅助手术演进。当前内部综合评分 65。",
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:41",
     "status_label": "持有"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 87.5,
+          "value": 86.66666666666667,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 55.0,
+          "value": 70.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 92.5,
+          "value": 95.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 7.5,
+          "value": 10.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 63.39473684210527,
+          "value": 65.54385964912281,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:41",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 63.39473684210527
+          "value": 65.54385964912281
         },
         {
           "date": "2026-05-14",

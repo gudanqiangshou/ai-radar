@@ -1,0 +1,201 @@
+{
+  "ticker": "SONO",
+  "name": "Sonos",
+  "header": {
+    "name": "Sonos",
+    "ticker": "SONO",
+    "sector": "Consumer AI / Device",
+    "sector_id": "consumer_ai_device",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "智能音箱 + 空间音频 — 家庭 AI 入口候选",
+    "price": 14.640000343322754,
+    "change_1d": -0.48,
+    "composite": 36.21052631578947,
+    "tier_letter": "C",
+    "description": [
+      "Sonos 的 AI 产业链位置为 Consumer AI / Device。",
+      "AI 角色：智能音箱 + 空间音频 — 家庭 AI 入口候选。当前内部综合评分 36。",
+      "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:42",
+    "status_label": "减持"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$14.64",
+        "日内涨跌": "-0.48%",
+        "1日涨跌": "-0.48%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-3.81%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "1,530,600",
+        "量比20日": "0.61",
+        "52周高点": "15.55",
+        "52周低点": "14.47",
+        "距52周高点": "-5.85%",
+        "距52周低点": "+1.17%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Consumer AI / Device",
+        "AI角色": "智能音箱 + 空间音频 — 家庭 AI 入口候选",
+        "投资确定性": "—",
+        "收入": "$1.46B",
+        "收入同比": "8.40%",
+        "毛利率": "45.01%",
+        "经营利润率": "-9.11%",
+        "净利率": "1.62%",
+        "经营现金流": "—",
+        "资本开支": "-$21.53M",
+        "自由现金流": "$119.64M",
+        "FCF利润率": "8.20%",
+        "现金及短投": "$249.05M",
+        "总债务": "$58.68M",
+        "净现金/债务": "—",
+        "流通股本": "119.13M",
+        "ROE": "6.17%",
+        "债务/权益": "0.03",
+        "市值": "$1.74B",
+        "企业价值": "$1.55B",
+        "P/E TTM": "86.12",
+        "Forward P/E": "13.56",
+        "P/S": "1.19",
+        "EV/Sales": "1.06",
+        "EV/EBITDA": "15.01",
+        "EV/FCF": "12.99",
+        "FCF收益率": "6.86%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 18.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 42.0,
+          "reasoning": "Sonos拥有多房间音频专利与Trueplay调音技术，品牌溢价明显，用户生态切换成本中等。但AI能力薄弱、无自有语音助手，依赖Alexa/Google，规模有限（TTM营收约14.6亿），面临亚马逊、苹果、谷歌强势竞争，家庭AI入口地位存疑。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 18.0,
+          "reasoning": "Sonos核心收入来自硬件销售（扬声器/音响），AI功能（语音助手集成、音效优化）属于辅助体验层，非独立收入来源。公司近期因App重设计失误导致用户流失，AI战略尚未成型，与AI capex驱动的增长逻辑关联极弱。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 32.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 0.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 80.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 28.0,
+          "reasoning": "Sonos财务数据不透明（负债率N/A），现金约2.5亿但长期负债未知，流动性存疑。核心业务高端音箱市场受苹果/亚马逊/谷歌三面夹击，AI入口竞争力弱。近期App重设计引发用户强烈反弹，品牌受损。无近期正面催化剂，估值支撑薄弱，综合风险偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 36.21052631578947,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:42",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Sonos（SONO）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Sonos拥有多房间音频专利与Trueplay调音技术，品牌溢价明显，用户生态切换成本中等。但AI能力薄弱、无自有语音助手，依赖Alexa/Google，规模有限（TTM营收约14.6亿），面临亚马逊、苹果、谷歌强势竞争，家庭AI入口地位存疑。 【ai_exposure】Sonos核心收入来自硬件销售（扬声器/音响），AI功能（语音助手集成、音效优化）属于辅助体验层，非独立收入来源。公司近期因App重设计失误导致用户流失，AI战略尚未成型，与AI capex驱动的增长逻辑关联极弱。 【risk】Sonos财务数据不透明（负债率N/A），现金约2.5亿但长期负债未知，流动性存疑。核心业务高端音箱市场受苹果/亚马逊/谷歌三面夹击，AI入口竞争力弱。近期App重设计引发用户强烈反弹，品牌受损。无近期正面催化剂，估值支撑薄弱，综合风险偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 36.21052631578947
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

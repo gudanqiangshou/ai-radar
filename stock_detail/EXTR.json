@@ -11,15 +11,15 @@
     "ai_role": "云原生网络管理 — 边缘 AI 网络",
     "price": 22.770000457763672,
     "change_1d": -0.09,
-    "composite": 42.84210526315789,
+    "composite": 44.7719298245614,
     "tier_letter": "C",
     "description": [
       "Extreme Networks 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：云原生网络管理 — 边缘 AI 网络。当前内部综合评分 42。",
+      "AI 角色：云原生网络管理 — 边缘 AI 网络。当前内部综合评分 44。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:37",
     "status_label": "观察"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 30.0,
+          "value": 34.44444444444444,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 19.999999999999996,
+          "value": 17.77777777777778,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 15.0,
+          "value": 24.444444444444446,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 42.84210526315789,
+          "value": 44.7719298245614,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:37",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 42.84210526315789
+          "value": 44.7719298245614
         }
       ]
     }

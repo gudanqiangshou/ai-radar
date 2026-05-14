@@ -11,15 +11,15 @@
     "ai_role": "企业网络龙头 + Splunk 可观测性 — 收购 JNPR 增强",
     "price": 101.87000274658203,
     "change_1d": 2.6,
-    "composite": 69.57894736842105,
+    "composite": 66.7719298245614,
     "tier_letter": "B",
     "description": [
       "Cisco Systems 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：企业网络龙头 + Splunk 可观测性 — 收购 JNPR 增强。当前内部综合评分 69。",
+      "AI 角色：企业网络龙头 + Splunk 可观测性 — 收购 JNPR 增强。当前内部综合评分 66。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:00",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:37",
     "status_label": "持有"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 80.00000000000001,
+          "value": 70.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 33.333333333333336,
+          "value": 26.666666666666664,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 78.33333333333333,
+          "value": 71.11111111111111,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 71.66666666666667,
+          "value": 77.77777777777777,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 69.57894736842105,
+          "value": 66.7719298245614,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:00",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:37",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 69.57894736842105
+          "value": 66.7719298245614
         }
       ]
     }

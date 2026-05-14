@@ -1,0 +1,201 @@
+{
+  "ticker": "ICE",
+  "name": "Intercontinental Exchange",
+  "header": {
+    "name": "Intercontinental Exchange",
+    "ticker": "ICE",
+    "sector": "Financial / Research Data",
+    "sector_id": "financial_research_data",
+    "market": "US",
+    "tier": 2,
+    "ai_role": "NYSE 母公司 + 抵押贷款数据 + 大宗商品交易",
+    "price": 154.8000030517578,
+    "change_1d": -0.65,
+    "composite": 70.26315789473684,
+    "tier_letter": "B",
+    "description": [
+      "Intercontinental Exchange 的 AI 产业链位置为 Financial / Research Data。",
+      "AI 角色：NYSE 母公司 + 抵押贷款数据 + 大宗商品交易。当前内部综合评分 70。",
+      "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": null,
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:41",
+    "status_label": "持有"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$154.80",
+        "日内涨跌": "-0.65%",
+        "1日涨跌": "-0.65%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-1.91%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "2,097,900",
+        "量比20日": "0.74",
+        "52周高点": "158.90",
+        "52周低点": "152.67",
+        "距52周高点": "-2.58%",
+        "距52周低点": "+1.40%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Financial / Research Data",
+        "AI角色": "NYSE 母公司 + 抵押贷款数据 + 大宗商品交易",
+        "投资确定性": "—",
+        "收入": "$10.44B",
+        "收入同比": "20.40%",
+        "毛利率": "100.00%",
+        "经营利润率": "57.31%",
+        "净利率": "37.67%",
+        "经营现金流": "—",
+        "资本开支": "-$778.00M",
+        "自由现金流": "$3.74B",
+        "FCF利润率": "35.87%",
+        "现金及短投": "$863.00M",
+        "总债务": "$20.98B",
+        "净现金/债务": "-$17.76B",
+        "流通股本": "565.51M",
+        "ROE": "13.85%",
+        "债务/权益": "0.24",
+        "市值": "$87.54B",
+        "企业价值": "$107.75B",
+        "P/E TTM": "22.53",
+        "Forward P/E": "17.62",
+        "P/S": "8.39",
+        "EV/Sales": "10.33",
+        "EV/EBITDA": "16.27",
+        "EV/FCF": "28.79",
+        "FCF收益率": "4.28%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": 63.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 82.0,
+          "reasoning": "ICE坐拥NYSE交易所牌照与清算网络，具备强监管壁垒与网络效应；抵押贷款数据（ICE Mortgage Technology）及大宗商品基准价格形成高切换成本。主要风险在于数据业务竞争加剧（Bloomberg/Refinitiv）及监管政策变动，ROE偏低反映重资产特性。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 22.0,
+          "reasoning": "ICE核心收入来自交易所手续费、清算及抵押贷款数据服务，AI非直接驱动。旗下Black Knight/Encompass数据资产可间接受益于AI需求，但AI capex传导路径弱，属于数据基础设施的边缘受益者，非AI主题标的。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 92.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": 64.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 74.0,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 62.0,
+          "reasoning": "ICE护城河深厚（NYSE+期货交易所+抵押贷款数据），收入多元且具粘性。但长期负债188亿美元偏高，利息覆盖需关注；抵押贷款业务受利率周期影响显著；交易所受反垄断监管压力持续；估值历史偏高，回撤风险中等。整体属低中风险蓝筹。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 70.26315789473684,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:41",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Intercontinental Exchange（ICE）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】ICE坐拥NYSE交易所牌照与清算网络，具备强监管壁垒与网络效应；抵押贷款数据（ICE Mortgage Technology）及大宗商品基准价格形成高切换成本。主要风险在于数据业务竞争加剧（Bloomberg/Refinitiv）及监管政策变动，ROE偏低反映重资产特性。 【ai_exposure】ICE核心收入来自交易所手续费、清算及抵押贷款数据服务，AI非直接驱动。旗下Black Knight/Encompass数据资产可间接受益于AI需求，但AI capex传导路径弱，属于数据基础设施的边缘受益者，非AI主题标的。 【risk】ICE护城河深厚（NYSE+期货交易所+抵押贷款数据），收入多元且具粘性。但长期负债188亿美元偏高，利息覆盖需关注；抵押贷款业务受利率周期影响显著；交易所受反垄断监管压力持续；估值历史偏高，回撤风险中等。整体属低中风险蓝筹。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 70.26315789473684
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

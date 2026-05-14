@@ -11,7 +11,7 @@
     "ai_role": "Robotaxi 平台聚合 — Waymo/AUR 多方合作",
     "price": 74.69999694824219,
     "change_1d": -2.17,
-    "composite": 66.55263157894737,
+    "composite": 66.75438596491227,
     "tier_letter": "B",
     "description": [
       "Uber Technologies 的 AI 产业链位置为 Autonomous / Mobility。",
@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:41",
     "status_label": "持有"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 92.5,
+          "value": 95.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 0.0,
+          "value": 24.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 57.5,
+          "value": 43.33333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 66.55263157894737,
+          "value": 66.75438596491227,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:41",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 66.55263157894737
+          "value": 66.75438596491227
         }
       ]
     }

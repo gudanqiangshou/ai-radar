@@ -11,7 +11,7 @@
     "ai_role": "AI 服务器 + PC — NVIDIA GPU 集成生态合作伙伴",
     "price": 243.8699951171875,
     "change_1d": 2.06,
-    "composite": 55.166666666666664,
+    "composite": 55.16666666666667,
     "tier_letter": "B",
     "description": [
       "Dell Technologies 的 AI 产业链位置为 Consumer AI / Device。",
@@ -19,7 +19,7 @@
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:42",
     "status_label": "持有"
   },
   "panels": [
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 86.66666666666666,
+          "value": 92.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 56.66666666666667,
+          "value": 54.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 55.166666666666664,
+          "value": 55.16666666666667,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:03",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:42",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 55.166666666666664
+          "value": 55.16666666666667
         },
         {
           "date": "2026-05-14",

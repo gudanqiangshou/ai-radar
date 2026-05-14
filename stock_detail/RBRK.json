@@ -1,0 +1,201 @@
+{
+  "ticker": "RBRK",
+  "name": "Rubrik",
+  "header": {
+    "name": "Rubrik",
+    "ticker": "RBRK",
+    "sector": "Cybersecurity",
+    "sector_id": "cybersecurity",
+    "market": "US",
+    "tier": 3,
+    "ai_role": "数据安全 + 网络勒索病毒恢复 — 数据备份 AI 化",
+    "price": 59.47999954223633,
+    "change_1d": -1.64,
+    "composite": 48.99999999999999,
+    "tier_letter": "C",
+    "description": [
+      "Rubrik 的 AI 产业链位置为 Cybersecurity。",
+      "AI 角色：数据安全 + 网络勒索病毒恢复 — 数据备份 AI 化。当前内部综合评分 48。",
+      "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
+    ],
+    "data_warning": "数据不全",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:40",
+    "status_label": "观察"
+  },
+  "panels": [
+    {
+      "id": "technical",
+      "title": "价格与技术指标",
+      "type": "metrics_grid",
+      "data": {
+        "最新价": "$59.48",
+        "日内涨跌": "-1.64%",
+        "1日涨跌": "-1.64%",
+        "5日涨跌": "—",
+        "1月涨跌": "—",
+        "3月涨跌": "—",
+        "6月涨跌": "—",
+        "1年涨跌": "—",
+        "YTD涨跌": "-4.33%",
+        "20日均线": "—",
+        "50日均线": "—",
+        "200日均线": "—",
+        "RSI 14": "—",
+        "MACD": "—",
+        "20日波动率": "—",
+        "成交量": "2,766,300",
+        "量比20日": "1.05",
+        "52周高点": "62.93",
+        "52周低点": "58.04",
+        "距52周高点": "-5.48%",
+        "距52周低点": "+2.48%",
+        "20日支撑": "—",
+        "20日压力": "—"
+      }
+    },
+    {
+      "id": "fundamentals",
+      "title": "基本面与产业链",
+      "type": "mixed",
+      "data": {
+        "AI产业链位置": "Cybersecurity",
+        "AI角色": "数据安全 + 网络勒索病毒恢复 — 数据备份 AI 化",
+        "投资确定性": "—",
+        "收入": "$1.32B",
+        "收入同比": "46.30%",
+        "毛利率": "80.10%",
+        "经营利润率": "-21.81%",
+        "净利率": "-26.50%",
+        "经营现金流": "—",
+        "资本开支": "-$45.07M",
+        "自由现金流": "$392.85M",
+        "FCF利润率": "29.85%",
+        "现金及短投": "$1.68B",
+        "总债务": "$1.17B",
+        "净现金/债务": "$545.05M",
+        "流通股本": "160.94M",
+        "ROE": "—",
+        "债务/权益": "0.10",
+        "市值": "$12.24B",
+        "企业价值": "$11.52B",
+        "P/E TTM": "—",
+        "Forward P/E": "102.76",
+        "P/S": "9.30",
+        "EV/Sales": "8.76",
+        "EV/EBITDA": "-35.99",
+        "EV/FCF": "29.33",
+        "FCF收益率": "3.21%",
+        "估值分位": "—",
+        "内部合理区间": "—"
+      }
+    },
+    {
+      "id": "scores",
+      "title": "评分",
+      "type": "score_grid_3x3",
+      "data": [
+        {
+          "label": "Business Quality",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+        },
+        {
+          "label": "Moat",
+          "value": 62.0,
+          "reasoning": "Rubrik凭借零信任数据架构与AI驱动勒索软件恢复构建技术壁垒，企业级客户切换成本高、合约粘性强。但竞争对手（Cohesity、Veeam、Commvault）压力大，规模效应尚未成熟，持续亏损（净利率-27%）限制护城河深化速度。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "AI Exposure",
+          "value": 28.0,
+          "reasoning": "Rubrik核心业务是数据备份与勒索软件恢复，AI主要体现在产品功能增强（如AI驱动的威胁检测、数据分类），而非直接受AI capex驱动。收入增长主要来自企业安全支出而非AI基础设施投资，AI是辅助差异化手段而非核心增长引擎。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Growth",
+          "value": 64.44444444444444,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+        },
+        {
+          "label": "Profitability",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+        },
+        {
+          "label": "Valuation",
+          "value": 37.77777777777777,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+        },
+        {
+          "label": "Momentum",
+          "value": null,
+          "reasoning": null,
+          "is_ai": false,
+          "is_quant": true,
+          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+        },
+        {
+          "label": "Risk",
+          "value": 32.0,
+          "reasoning": "RBRK尚未盈利，持续烧钱，长期负债11.3亿但现金16.8亿尚可支撑。网络安全赛道竞争激烈（Veeam、Cohesity、Commvault），估值偏高（高P/S倍数），客户集中度数据缺失增加不确定性。AI化叙事支撑增长预期，但盈利路径不明，整体风险偏高。",
+          "is_ai": true,
+          "is_quant": false
+        },
+        {
+          "label": "Warren Composite",
+          "value": 48.99999999999999,
+          "is_composite": true,
+          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+        }
+      ]
+    },
+    {
+      "id": "external_views",
+      "title": "外部观点",
+      "type": "external",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:40",
+      "data": null,
+      "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
+    },
+    {
+      "id": "ai_view",
+      "title": "Rubrik（RBRK）AI 投资观点",
+      "type": "ai_text",
+      "data": {
+        "text": "【moat】Rubrik凭借零信任数据架构与AI驱动勒索软件恢复构建技术壁垒，企业级客户切换成本高、合约粘性强。但竞争对手（Cohesity、Veeam、Commvault）压力大，规模效应尚未成熟，持续亏损（净利率-27%）限制护城河深化速度。 【ai_exposure】Rubrik核心业务是数据备份与勒索软件恢复，AI主要体现在产品功能增强（如AI驱动的威胁检测、数据分类），而非直接受AI capex驱动。收入增长主要来自企业安全支出而非AI基础设施投资，AI是辅助差异化手段而非核心增长引擎。 【risk】RBRK尚未盈利，持续烧钱，长期负债11.3亿但现金16.8亿尚可支撑。网络安全赛道竞争激烈（Veeam、Cohesity、Commvault），估值偏高（高P/S倍数），客户集中度数据缺失增加不确定性。AI化叙事支撑增长预期，但盈利路径不明，整体风险偏高。"
+      }
+    },
+    {
+      "id": "news",
+      "title": "相关新闻 (近 7 天)",
+      "type": "news_list",
+      "data": []
+    },
+    {
+      "id": "score_history",
+      "title": "评分历史曲线 (12 周)",
+      "type": "chart",
+      "data": [
+        {
+          "date": "2026-05-13",
+          "value": 48.99999999999999
+        }
+      ]
+    }
+  ],
+  "updated_at": "2026-05-13"
+}

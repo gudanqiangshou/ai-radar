@@ -11,15 +11,15 @@
     "ai_role": "模拟芯片 — AI 服务器电源管理 + 工业 AI 受益",
     "price": 306.3399963378906,
     "change_1d": 3.78,
-    "composite": 61.47368421052631,
+    "composite": 62.0,
     "tier_letter": "C",
     "description": [
       "Texas Instruments 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：模拟芯片 — AI 服务器电源管理 + 工业 AI 受益。当前内部综合评分 61。",
+      "AI 角色：模拟芯片 — AI 服务器电源管理 + 工业 AI 受益。当前内部综合评分 62。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:22:59",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:36",
     "status_label": "持有"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 65.0,
+          "value": 69.0909090909091,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 42.5,
+          "value": 38.18181818181817,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -126,7 +126,7 @@
         },
         {
           "label": "Profitability",
-          "value": 67.5,
+          "value": 76.36363636363637,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 61.25,
+          "value": 56.36363636363637,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 61.47368421052631,
+          "value": 62.0,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:22:59",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:36",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -192,7 +192,7 @@
       "data": [
         {
           "date": "2026-05-13",
-          "value": 61.47368421052631
+          "value": 62.0
         }
       ]
     }

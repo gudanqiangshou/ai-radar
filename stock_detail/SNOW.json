@@ -11,15 +11,15 @@
     "ai_role": "云原生数据仓库 + Cortex AI / Snowpark 数据平台",
     "price": 152.3699951171875,
     "change_1d": 0.26,
-    "composite": 32.03508771929825,
+    "composite": 33.67857142857142,
     "tier_letter": "A",
     "description": [
       "Snowflake 的 AI 产业链位置为 Data / Software Platform。",
-      "AI 角色：云原生数据仓库 + Cortex AI / Snowpark 数据平台。当前内部综合评分 32。",
+      "AI 角色：云原生数据仓库 + Cortex AI / Snowpark 数据平台。当前内部综合评分 33。",
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": "数据不全",
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 12:23:01",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:06:39",
     "status_label": "减持"
   },
   "panels": [
@@ -96,7 +96,7 @@
       "data": [
         {
           "label": "Business Quality",
-          "value": 0.0,
+          "value": 3.75,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -118,7 +118,7 @@
         },
         {
           "label": "Growth",
-          "value": 74.0,
+          "value": 81.07142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "Valuation",
-          "value": 31.666666666666657,
+          "value": 31.25,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "Warren Composite",
-          "value": 32.03508771929825,
+          "value": 33.67857142857142,
           "is_composite": true,
           "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
         }
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 12:23:01",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:06:39",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -277,7 +277,7 @@
         },
         {
           "date": "2026-05-13",
-          "value": 32.03508771929825
+          "value": 33.67857142857142
         },
         {
           "date": "2026-05-14",
