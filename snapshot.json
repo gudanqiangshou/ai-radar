@@ -5,14 +5,15 @@
     "ai_universe": 159,
     "core_30": 26,
     "high_52w": 0,
-    "ew_today": 0.535251698914176,
-    "ew_ytd": 5.404977264463531,
+    "ew_today": 0.5529736446395221,
+    "ew_ytd": 29.971710290043504,
     "spx_today": 0.5849246488426663,
     "qqq_today": 1.0562230418850789,
     "spx_ytd": 8.54096856597044,
     "qqq_ytd": 16.569354720857135,
-    "up_count": 65,
-    "down_count": 65,
+    "up_count": 76,
+    "down_count": 82,
+    "flat_count": 1,
     "risk_regime": "偏进攻"
   },
   "sectors": [
@@ -800,7 +801,16 @@
       "tier": 1,
       "price": 274.89,
       "change_1d": -6.37,
-      "composite": 62.790000000000006
+      "composite": 62.790000000000006,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 99287539712.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 72.0952380952381,
+      "growth_score": 55.904761904761905,
+      "profitability_score": 66.66666666666666,
+      "momentum_score": 15.476190476190476,
+      "quality_score": 51.42857142857142
     },
     {
       "ticker": "VST",
@@ -810,7 +820,16 @@
       "tier": 1,
       "price": 142.61,
       "change_1d": -2.9,
-      "composite": 70.34
+      "composite": 70.34,
+      "status": "buy_zone",
+      "rating": "B",
+      "market_cap": 48085590016.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 86.5952380952381,
+      "growth_score": 51.80952380952381,
+      "profitability_score": 78.09523809523809,
+      "momentum_score": 7.142857142857143,
+      "quality_score": 79.04761904761905
     },
     {
       "ticker": "GEV",
@@ -820,7 +839,16 @@
       "tier": 1,
       "price": 1062.57,
       "change_1d": -0.88,
-      "composite": 55.95190476190477
+      "composite": 55.95190476190477,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 285533798400.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 19.54761904761905,
+      "growth_score": 61.57142857142857,
+      "profitability_score": 66.19047619047618,
+      "momentum_score": 64.52380952380952,
+      "quality_score": 57.14285714285714
     },
     {
       "ticker": "TLN",
@@ -830,7 +858,16 @@
       "tier": 1,
       "price": 351.03,
       "change_1d": -6.29,
-      "composite": 51.86380952380952
+      "composite": 51.86380952380952,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 16040318976.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 57.78571428571429,
+      "growth_score": 62.714285714285715,
+      "profitability_score": 29.047619047619047,
+      "momentum_score": 30.476190476190474,
+      "quality_score": 42.38095238095238
     },
     {
       "ticker": "ETN",
@@ -840,7 +877,16 @@
       "tier": 1,
       "price": 406.94,
       "change_1d": 1.35,
-      "composite": 60.54476190476191
+      "composite": 60.54476190476191,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 158014799872.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 45.0,
+      "growth_score": 62.666666666666664,
+      "profitability_score": 59.52380952380953,
+      "momentum_score": 49.04761904761905,
+      "quality_score": 64.76190476190476
     },
     {
       "ticker": "VRT",
@@ -850,7 +896,16 @@
       "tier": 1,
       "price": 369.99,
       "change_1d": 0.78,
-      "composite": 61.99952380952382
+      "composite": 61.99952380952382,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 142116405248.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 18.38095238095238,
+      "growth_score": 78.1904761904762,
+      "profitability_score": 70.0,
+      "momentum_score": 85.95238095238095,
+      "quality_score": 75.23809523809523
     },
     {
       "ticker": "NEE",
@@ -860,7 +915,16 @@
       "tier": 2,
       "price": 94.85,
       "change_1d": 0.27,
-      "composite": 64.83142857142857
+      "composite": 64.83142857142857,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 197794627584.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 47.5,
+      "growth_score": 35.14285714285714,
+      "profitability_score": 82.85714285714286,
+      "momentum_score": 51.42857142857143,
+      "quality_score": 82.85714285714286
     },
     {
       "ticker": "SO",
@@ -870,7 +934,16 @@
       "tier": 2,
       "price": 93.14,
       "change_1d": -0.35,
-      "composite": 66.35285714285715
+      "composite": 66.35285714285715,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 104996823040.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 67.92857142857143,
+      "growth_score": 34.33333333333333,
+      "profitability_score": 71.9047619047619,
+      "momentum_score": 28.333333333333336,
+      "quality_score": 73.80952380952381
     },
     {
       "ticker": "DUK",
@@ -880,7 +953,16 @@
       "tier": 2,
       "price": 123.9,
       "change_1d": -0.94,
-      "composite": 66.42666666666666
+      "composite": 66.42666666666666,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 96591970304.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 72.76190476190476,
+      "growth_score": 41.42857142857143,
+      "profitability_score": 67.14285714285714,
+      "momentum_score": 20.476190476190478,
+      "quality_score": 70.47619047619047
     },
     {
       "ticker": "BE",
@@ -890,7 +972,16 @@
       "tier": 2,
       "price": 289.76,
       "change_1d": 3.23,
-      "composite": 38.09476190476191
+      "composite": 38.09476190476191,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 82420457472.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 3.0,
+      "growth_score": 100.0,
+      "profitability_score": 22.857142857142858,
+      "momentum_score": 94.04761904761905,
+      "quality_score": 26.666666666666668
     },
     {
       "ticker": "PWR",
@@ -900,7 +991,16 @@
       "tier": 2,
       "price": 773.72,
       "change_1d": 1.03,
-      "composite": 48.19
+      "composite": 48.19,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 116104527872.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 35.02380952380952,
+      "growth_score": 71.38095238095238,
+      "profitability_score": 32.857142857142854,
+      "momentum_score": 86.42857142857142,
+      "quality_score": 30.0
     },
     {
       "ticker": "MOD",
@@ -910,7 +1010,16 @@
       "tier": 2,
       "price": 279.2,
       "change_1d": 1.06,
-      "composite": 43.21380952380953
+      "composite": 43.21380952380953,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 14722550784.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 39.5,
+      "growth_score": 79.28571428571428,
+      "profitability_score": 31.904761904761905,
+      "momentum_score": 73.0952380952381,
+      "quality_score": 31.42857142857143
     },
     {
       "ticker": "NVT",
@@ -920,7 +1029,16 @@
       "tier": 2,
       "price": 172.91,
       "change_1d": 1.27,
-      "composite": 55.84
+      "composite": 55.84,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 27963082752.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 36.761904761904766,
+      "growth_score": 81.47619047619048,
+      "profitability_score": 46.19047619047619,
+      "momentum_score": 87.61904761904762,
+      "quality_score": 52.857142857142854
     },
     {
       "ticker": "POWL",
@@ -930,7 +1048,16 @@
       "tier": 2,
       "price": 300.84,
       "change_1d": -2.34,
-      "composite": 57.2804761904762
+      "composite": 57.2804761904762,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 10960097280.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 21.85714285714286,
+      "growth_score": 50.095238095238095,
+      "profitability_score": 80.47619047619048,
+      "momentum_score": 86.9047619047619,
+      "quality_score": 69.52380952380952
     },
     {
       "ticker": "HUBB",
@@ -940,7 +1067,16 @@
       "tier": 2,
       "price": 483.79,
       "change_1d": -0.45,
-      "composite": 60.96380952380953
+      "composite": 60.96380952380953,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 25564323840.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 63.452380952380956,
+      "growth_score": 36.523809523809526,
+      "profitability_score": 72.38095238095238,
+      "momentum_score": 12.857142857142858,
+      "quality_score": 65.71428571428571
     },
     {
       "ticker": "TT",
@@ -950,7 +1086,16 @@
       "tier": 3,
       "price": 471.02,
       "change_1d": 0.72,
-      "composite": 53.744761904761916
+      "composite": 53.744761904761916,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 104121548800.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 50.52380952380952,
+      "growth_score": 31.857142857142858,
+      "profitability_score": 58.57142857142857,
+      "momentum_score": 40.476190476190474,
+      "quality_score": 60.47619047619048
     },
     {
       "ticker": "CARR",
@@ -960,7 +1105,16 @@
       "tier": 3,
       "price": 65.57,
       "change_1d": 0.02,
-      "composite": 43.424285714285716
+      "composite": 43.424285714285716,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 54461157376.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 73.33333333333333,
+      "growth_score": 30.761904761904763,
+      "profitability_score": 29.52380952380952,
+      "momentum_score": 47.38095238095238,
+      "quality_score": 31.428571428571427
     },
     {
       "ticker": "JCI",
@@ -970,7 +1124,16 @@
       "tier": 3,
       "price": 143.8,
       "change_1d": 1.96,
-      "composite": 55.47904761904762
+      "composite": 55.47904761904762,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 87734624256.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 61.76190476190476,
+      "growth_score": 44.952380952380956,
+      "profitability_score": 52.38095238095238,
+      "momentum_score": 53.33333333333333,
+      "quality_score": 55.23809523809524
     },
     {
       "ticker": "UEC",
@@ -980,7 +1143,16 @@
       "tier": 3,
       "price": 15.37,
       "change_1d": -0.84,
-      "composite": 33.719523809523814
+      "composite": 33.719523809523814,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 7534693376.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 68.57142857142857,
+      "growth_score": 22.047619047619047,
+      "profitability_score": 7.619047619047619,
+      "momentum_score": 53.57142857142856,
+      "quality_score": 6.428571428571429
     },
     {
       "ticker": "CCJ",
@@ -990,7 +1162,16 @@
       "tier": 3,
       "price": 115.39,
       "change_1d": -1.32,
-      "composite": 48.55666666666667
+      "composite": 48.55666666666667,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 50256150528.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 10.69047619047619,
+      "growth_score": 30.23809523809524,
+      "profitability_score": 62.857142857142854,
+      "momentum_score": 34.047619047619044,
+      "quality_score": 58.095238095238095
     },
     {
       "ticker": "OKLO",
@@ -1000,7 +1181,16 @@
       "tier": 3,
       "price": 69.66,
       "change_1d": -5.39,
-      "composite": 27.417687074829924
+      "composite": 27.417687074829924,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 12120213504.0,
+      "market_cap_bucket": "small",
+      "valuation_score": null,
+      "growth_score": null,
+      "profitability_score": 8.095238095238095,
+      "momentum_score": 49.52380952380951,
+      "quality_score": 5.9523809523809526
     },
     {
       "ticker": "SMR",
@@ -1010,7 +1200,16 @@
       "tier": 3,
       "price": 11.96,
       "change_1d": -0.33,
-      "composite": 31.518571428571427
+      "composite": 31.518571428571427,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 4139425280.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 64.83333333333334,
+      "growth_score": 0.0,
+      "profitability_score": 2.857142857142857,
+      "momentum_score": 27.857142857142858,
+      "quality_score": 9.047619047619046
     },
     {
       "ticker": "NVDA",
@@ -1020,7 +1219,16 @@
       "tier": 1,
       "price": 225.83,
       "change_1d": 2.29,
-      "composite": 77.9909090909091
+      "composite": 77.9909090909091,
+      "status": "buy_zone",
+      "rating": "B",
+      "market_cap": 5469721067520.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 61.81818181818182,
+      "growth_score": 60.0,
+      "profitability_score": 100.0,
+      "momentum_score": 16.81818181818182,
+      "quality_score": 94.54545454545455
     },
     {
       "ticker": "AMD",
@@ -1030,7 +1238,16 @@
       "tier": 1,
       "price": 445.5,
       "change_1d": -0.62,
-      "composite": 46.16818181818182
+      "composite": 46.16818181818182,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 726432546816.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 20.909090909090907,
+      "growth_score": 83.63636363636363,
+      "profitability_score": 31.81818181818182,
+      "momentum_score": 69.54545454545455,
+      "quality_score": 35.45454545454545
     },
     {
       "ticker": "AVGO",
@@ -1040,7 +1257,16 @@
       "tier": 1,
       "price": 416.79,
       "change_1d": -0.6,
-      "composite": 66.91818181818182
+      "composite": 66.91818181818182,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 1973362491392.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 43.63636363636364,
+      "growth_score": 41.81818181818181,
+      "profitability_score": 88.18181818181819,
+      "momentum_score": 10.90909090909091,
+      "quality_score": 88.18181818181819
     },
     {
       "ticker": "MRVL",
@@ -1050,7 +1276,16 @@
       "tier": 2,
       "price": 177.95,
       "change_1d": 8.18,
-      "composite": 52.33181818181819
+      "composite": 52.33181818181819,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 155609841664.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 24.545454545454533,
+      "growth_score": 52.72727272727272,
+      "profitability_score": 61.81818181818183,
+      "momentum_score": 57.727272727272734,
+      "quality_score": 52.727272727272734
     },
     {
       "ticker": "ARM",
@@ -1060,7 +1295,16 @@
       "tier": 2,
       "price": 221.21,
       "change_1d": 6.39,
-      "composite": 52.036363636363646
+      "composite": 52.036363636363646,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 235367137280.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 3.636363636363626,
+      "growth_score": 43.63636363636364,
+      "profitability_score": 55.454545454545446,
+      "momentum_score": 39.09090909090909,
+      "quality_score": 68.18181818181819
     },
     {
       "ticker": "INTC",
@@ -1070,7 +1314,16 @@
       "tier": 3,
       "price": 120.29,
       "change_1d": -0.27,
-      "composite": 29.35454545454546
+      "composite": 29.35454545454546,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 604577529856.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 35.45454545454547,
+      "growth_score": 50.90909090909091,
+      "profitability_score": 3.6363636363636367,
+      "momentum_score": 85.45454545454545,
+      "quality_score": 4.545454545454546
     },
     {
       "ticker": "QCOM",
@@ -1080,7 +1333,16 @@
       "tier": 2,
       "price": 213.17,
       "change_1d": 1.36,
-      "composite": 62.895454545454555
+      "composite": 62.895454545454555,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 224681181184.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 93.63636363636364,
+      "growth_score": 7.272727272727273,
+      "profitability_score": 65.45454545454544,
+      "momentum_score": 42.27272727272728,
+      "quality_score": 62.72727272727272
     },
     {
       "ticker": "TXN",
@@ -1090,7 +1352,16 @@
       "tier": 3,
       "price": 306.34,
       "change_1d": 3.78,
-      "composite": 61.513636363636365
+      "composite": 61.513636363636365,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 278797811712.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 56.36363636363637,
+      "growth_score": 34.54545454545455,
+      "profitability_score": 76.36363636363637,
+      "momentum_score": 59.54545454545455,
+      "quality_score": 69.0909090909091
     },
     {
       "ticker": "ON",
@@ -1100,7 +1371,16 @@
       "tier": 3,
       "price": 115.71,
       "change_1d": 11.14,
-      "composite": 46.35000000000001
+      "composite": 46.35000000000001,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 45347119104.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 74.54545454545455,
+      "growth_score": 38.18181818181819,
+      "profitability_score": 30.909090909090907,
+      "momentum_score": 76.81818181818181,
+      "quality_score": 26.363636363636363
     },
     {
       "ticker": "MCHP",
@@ -1110,7 +1390,16 @@
       "tier": 3,
       "price": 96.71,
       "change_1d": -1.01,
-      "composite": 45.013636363636365
+      "composite": 45.013636363636365,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 52333211648.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 59.09090909090909,
+      "growth_score": 60.0,
+      "profitability_score": 21.81818181818182,
+      "momentum_score": 24.090909090909093,
+      "quality_score": 33.63636363636364
     },
     {
       "ticker": "ADI",
@@ -1120,7 +1409,16 @@
       "tier": 2,
       "price": 432.39,
       "change_1d": 3.04,
-      "composite": 57.25909090909092
+      "composite": 57.25909090909092,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 211094601728.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 47.27272727272728,
+      "growth_score": 58.18181818181819,
+      "profitability_score": 59.09090909090909,
+      "momentum_score": 39.54545454545455,
+      "quality_score": 60.00000000000001
     },
     {
       "ticker": "STM",
@@ -1130,7 +1428,16 @@
       "tier": 3,
       "price": 63.39,
       "change_1d": 9.43,
-      "composite": 40.71818181818182
+      "composite": 40.71818181818182,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 56340660224.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 79.0909090909091,
+      "growth_score": 69.0909090909091,
+      "profitability_score": 5.454545454545455,
+      "momentum_score": 78.18181818181819,
+      "quality_score": 4.545454545454546
     },
     {
       "ticker": "MU",
@@ -1140,7 +1447,16 @@
       "tier": 1,
       "price": 803.63,
       "change_1d": 4.83,
-      "composite": 68.6
+      "composite": 68.6,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 906280894464.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 85.0,
+      "growth_score": 60.0,
+      "profitability_score": 55.0,
+      "momentum_score": 100.0,
+      "quality_score": 60.0
     },
     {
       "ticker": "WDC",
@@ -1150,7 +1466,16 @@
       "tier": 3,
       "price": 494.09,
       "change_1d": 1.09,
-      "composite": 56.1
+      "composite": 56.1,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 170303995904.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 65.0,
+      "growth_score": 50.0,
+      "profitability_score": 65.0,
+      "momentum_score": 0.0,
+      "quality_score": 60.0
     },
     {
       "ticker": "STX",
@@ -1160,7 +1485,16 @@
       "tier": 3,
       "price": 817.35,
       "change_1d": 1.06,
-      "composite": 34.1
+      "composite": 34.1,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 183273553920.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 0.0,
+      "growth_score": 40.0,
+      "profitability_score": 30.0,
+      "momentum_score": 50.0,
+      "quality_score": 30.0
     },
     {
       "ticker": "TSM",
@@ -1170,7 +1504,16 @@
       "tier": 1,
       "price": 399.8,
       "change_1d": 0.63,
-      "composite": 79.19999999999997
+      "composite": 79.19999999999997,
+      "status": "buy_zone",
+      "rating": "B",
+      "market_cap": 2073522733056.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 74.0,
+      "growth_score": 48.0,
+      "profitability_score": 100.0,
+      "momentum_score": 2.0,
+      "quality_score": 100.0
     },
     {
       "ticker": "ASX",
@@ -1180,7 +1523,16 @@
       "tier": 2,
       "price": 35.47,
       "change_1d": 3.47,
-      "composite": 56.15
+      "composite": 56.15,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 77819265024.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 72.0,
+      "growth_score": 56.0,
+      "profitability_score": 38.0,
+      "momentum_score": 65.0,
+      "quality_score": 38.0
     },
     {
       "ticker": "AMKR",
@@ -1190,7 +1542,16 @@
       "tier": 3,
       "price": 74.61,
       "change_1d": 1.58,
-      "composite": 31.400000000000002
+      "composite": 31.400000000000002,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 18493767680.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 24.0,
+      "growth_score": 44.0,
+      "profitability_score": 12.0,
+      "momentum_score": 26.0,
+      "quality_score": 12.0
     },
     {
       "ticker": "UMC",
@@ -1200,7 +1561,16 @@
       "tier": 3,
       "price": 15.92,
       "change_1d": -0.87,
-      "composite": 66.2
+      "composite": 66.2,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 39996690432.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 94.0,
+      "growth_score": 28.0,
+      "profitability_score": 74.0,
+      "momentum_score": 82.0,
+      "quality_score": 68.0
     },
     {
       "ticker": "GFS",
@@ -1210,7 +1580,16 @@
       "tier": 3,
       "price": 74.99,
       "change_1d": 3.94,
-      "composite": 38.9
+      "composite": 38.9,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 41125748736.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 20.0,
+      "growth_score": 24.0,
+      "profitability_score": 40.0,
+      "momentum_score": 62.0,
+      "quality_score": 38.0
     },
     {
       "ticker": "KLIC",
@@ -1220,7 +1599,16 @@
       "tier": 3,
       "price": 104.27,
       "change_1d": 6.4,
-      "composite": 47.55
+      "composite": 47.55,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 5456749056.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 16.0,
+      "growth_score": 100.0,
+      "profitability_score": 36.0,
+      "momentum_score": 63.0,
+      "quality_score": 44.0
     },
     {
       "ticker": "ASML",
@@ -1230,7 +1618,16 @@
       "tier": 1,
       "price": 1581.58,
       "change_1d": 3.99,
-      "composite": 61.45714285714287
+      "composite": 61.45714285714287,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 609568882688.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 31.42857142857143,
+      "growth_score": 34.285714285714285,
+      "profitability_score": 71.42857142857143,
+      "momentum_score": 32.857142857142854,
+      "quality_score": 71.42857142857143
     },
     {
       "ticker": "AMAT",
@@ -1240,7 +1637,16 @@
       "tier": 1,
       "price": 436.61,
       "change_1d": 1.25,
-      "composite": 59.242857142857154
+      "composite": 59.242857142857154,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 346497974272.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 72.85714285714286,
+      "growth_score": 22.857142857142858,
+      "profitability_score": 51.42857142857143,
+      "momentum_score": 62.857142857142854,
+      "quality_score": 50.0
     },
     {
       "ticker": "LRCX",
@@ -1250,7 +1656,16 @@
       "tier": 1,
       "price": 295.44,
       "change_1d": 2.14,
-      "composite": 61.68571428571428
+      "composite": 61.68571428571428,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 369468702720.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 22.85714285714286,
+      "growth_score": 62.857142857142854,
+      "profitability_score": 74.28571428571428,
+      "momentum_score": 72.85714285714285,
+      "quality_score": 71.42857142857143
     },
     {
       "ticker": "KLAC",
@@ -1260,7 +1675,16 @@
       "tier": 2,
       "price": 1849.71,
       "change_1d": 2.12,
-      "composite": 68.65714285714286
+      "composite": 68.65714285714286,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 241623023616.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 28.57142857142857,
+      "growth_score": 31.428571428571427,
+      "profitability_score": 100.0,
+      "momentum_score": 29.999999999999996,
+      "quality_score": 100.0
     },
     {
       "ticker": "ENTG",
@@ -1270,7 +1694,16 @@
       "tier": 3,
       "price": 145.04,
       "change_1d": -0.19,
-      "composite": 42.650000000000006
+      "composite": 42.650000000000006,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 22089590784.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 75.71428571428572,
+      "growth_score": 34.285714285714285,
+      "profitability_score": 15.714285714285715,
+      "momentum_score": 17.857142857142854,
+      "quality_score": 12.857142857142858
     },
     {
       "ticker": "MKSI",
@@ -1280,7 +1713,16 @@
       "tier": 3,
       "price": 317.31,
       "change_1d": 1.79,
-      "composite": 55.70714285714286
+      "composite": 55.70714285714286,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 21432426496.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 95.71428571428571,
+      "growth_score": 82.85714285714286,
+      "profitability_score": 14.285714285714285,
+      "momentum_score": 74.99999999999999,
+      "quality_score": 20.0
     },
     {
       "ticker": "TER",
@@ -1290,7 +1732,16 @@
       "tier": 3,
       "price": 363.38,
       "change_1d": 1.38,
-      "composite": 53.81428571428571
+      "composite": 53.81428571428571,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 56884289536.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 12.857142857142861,
+      "growth_score": 88.57142857142857,
+      "profitability_score": 59.99999999999999,
+      "momentum_score": 24.285714285714285,
+      "quality_score": 64.28571428571428
     },
     {
       "ticker": "ACLS",
@@ -1300,7 +1751,16 @@
       "tier": 3,
       "price": 162.15,
       "change_1d": 0.32,
-      "composite": 39.885714285714286
+      "composite": 39.885714285714286,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 4983500800.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 60.0,
+      "growth_score": 42.857142857142854,
+      "profitability_score": 12.857142857142858,
+      "momentum_score": 84.28571428571429,
+      "quality_score": 10.0
     },
     {
       "ticker": "CDNS",
@@ -1310,7 +1770,16 @@
       "tier": 1,
       "price": 354.55,
       "change_1d": -0.97,
-      "composite": 66.05000000000001
+      "composite": 66.05000000000001,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 97790558208.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 15.0,
+      "growth_score": 20.0,
+      "profitability_score": 100.0,
+      "momentum_score": 55.0,
+      "quality_score": 100.0
     },
     {
       "ticker": "SNPS",
@@ -1320,7 +1789,16 @@
       "tier": 1,
       "price": 509.28,
       "change_1d": -0.77,
-      "composite": 45.550000000000004
+      "composite": 45.550000000000004,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 97558708224.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 55.0,
+      "growth_score": 60.0,
+      "profitability_score": 0.0,
+      "momentum_score": 40.0,
+      "quality_score": 15.0
     },
     {
       "ticker": "KEYS",
@@ -1330,7 +1808,16 @@
       "tier": 3,
       "price": 361.19,
       "change_1d": -0.13,
-      "composite": 58.9
+      "composite": 58.9,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 61944987648.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 80.0,
+      "growth_score": 70.0,
+      "profitability_score": 50.0,
+      "momentum_score": 55.0,
+      "quality_score": 35.0
     },
     {
       "ticker": "ANET",
@@ -1340,7 +1827,16 @@
       "tier": 1,
       "price": 140.69,
       "change_1d": -1.3,
-      "composite": 68.93333333333334
+      "composite": 68.93333333333334,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 177152540672.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 56.66666666666667,
+      "growth_score": 33.333333333333336,
+      "profitability_score": 100.0,
+      "momentum_score": 0.0,
+      "quality_score": 86.66666666666667
     },
     {
       "ticker": "CIEN",
@@ -1350,7 +1846,16 @@
       "tier": 2,
       "price": 577.9,
       "change_1d": 0.13,
-      "composite": 40.62777777777778
+      "composite": 40.62777777777778,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 81714159616.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 23.33333333333333,
+      "growth_score": 57.77777777777778,
+      "profitability_score": 22.22222222222222,
+      "momentum_score": 59.44444444444444,
+      "quality_score": 25.55555555555555
     },
     {
       "ticker": "COHR",
@@ -1360,7 +1865,16 @@
       "tier": 2,
       "price": 403.71,
       "change_1d": 7.94,
-      "composite": 43.17777777777778
+      "composite": 43.17777777777778,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 78981554176.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 46.66666666666667,
+      "growth_score": 46.66666666666666,
+      "profitability_score": 26.66666666666666,
+      "momentum_score": 72.22222222222223,
+      "quality_score": 20.0
     },
     {
       "ticker": "LITE",
@@ -1370,7 +1884,16 @@
       "tier": 2,
       "price": 1030.37,
       "change_1d": 3.83,
-      "composite": 49.9388888888889
+      "composite": 49.9388888888889,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 80162783232.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 17.777777777777786,
+      "growth_score": 82.22222222222223,
+      "profitability_score": 55.55555555555556,
+      "momentum_score": 42.77777777777778,
+      "quality_score": 46.66666666666667
     },
     {
       "ticker": "CSCO",
@@ -1380,7 +1903,16 @@
       "tier": 2,
       "price": 101.87,
       "change_1d": 2.6,
-      "composite": 64.4888888888889
+      "composite": 64.4888888888889,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 402375639040.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 77.77777777777777,
+      "growth_score": 13.333333333333332,
+      "profitability_score": 71.11111111111111,
+      "momentum_score": 47.77777777777778,
+      "quality_score": 70.0
     },
     {
       "ticker": "FFIV",
@@ -1390,7 +1922,16 @@
       "tier": 3,
       "price": 357.4,
       "change_1d": 0.68,
-      "composite": 64.06666666666666
+      "composite": 64.06666666666666,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 20164239360.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 88.88888888888889,
+      "growth_score": 28.888888888888893,
+      "profitability_score": 56.66666666666666,
+      "momentum_score": 43.33333333333333,
+      "quality_score": 66.66666666666666
     },
     {
       "ticker": "EXTR",
@@ -1400,7 +1941,16 @@
       "tier": 3,
       "price": 22.77,
       "change_1d": -0.09,
-      "composite": 45.86666666666667
+      "composite": 45.86666666666667,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 2977817088.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 90.0,
+      "growth_score": 31.11111111111111,
+      "profitability_score": 24.444444444444446,
+      "momentum_score": 40.0,
+      "quality_score": 34.44444444444444
     },
     {
       "ticker": "AAOI",
@@ -1410,7 +1960,16 @@
       "tier": 3,
       "price": 223.1,
       "change_1d": 18.49,
-      "composite": 35.35
+      "composite": 35.35,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 17902161920.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 51.111111111111114,
+      "growth_score": 80.0,
+      "profitability_score": 0.0,
+      "momentum_score": 90.55555555555556,
+      "quality_score": 0.0
     },
     {
       "ticker": "CRDO",
@@ -1420,7 +1979,16 @@
       "tier": 2,
       "price": 189.36,
       "change_1d": -4.64,
-      "composite": 67.0111111111111
+      "composite": 67.0111111111111,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 34927439872.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 38.88888888888889,
+      "growth_score": 68.88888888888889,
+      "profitability_score": 88.88888888888889,
+      "momentum_score": 43.33333333333333,
+      "quality_score": 85.55555555555554
     },
     {
       "ticker": "ALAB",
@@ -1430,7 +1998,16 @@
       "tier": 2,
       "price": 224.09,
       "change_1d": 9.62,
-      "composite": 52.738888888888894
+      "composite": 52.738888888888894,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 38410805248.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 8.888888888888886,
+      "growth_score": 57.77777777777777,
+      "profitability_score": 54.44444444444444,
+      "momentum_score": 60.555555555555564,
+      "quality_score": 64.44444444444444
     },
     {
       "ticker": "DLR",
@@ -1440,7 +2017,16 @@
       "tier": 1,
       "price": 193.31,
       "change_1d": -1.0,
-      "composite": 41.48571428571429
+      "composite": 41.48571428571429,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 69146804224.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 12.857142857142861,
+      "growth_score": 68.57142857142857,
+      "profitability_score": 28.857142857142858,
+      "momentum_score": 37.142857142857146,
+      "quality_score": 28.857142857142858
     },
     {
       "ticker": "EQIX",
@@ -1450,7 +2036,16 @@
       "tier": 1,
       "price": 1077.28,
       "change_1d": -0.31,
-      "composite": 46.12142857142858
+      "composite": 46.12142857142858,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 106245931008.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 27.142857142857153,
+      "growth_score": 64.28571428571428,
+      "profitability_score": 37.714285714285715,
+      "momentum_score": 56.42857142857142,
+      "quality_score": 26.285714285714285
     },
     {
       "ticker": "IRM",
@@ -1460,7 +2055,16 @@
       "tier": 2,
       "price": 126.12,
       "change_1d": -0.07,
-      "composite": 59.70329670329668
+      "composite": 59.70329670329668,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 37523812352.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 50.0,
+      "growth_score": 90.0,
+      "profitability_score": null,
+      "momentum_score": 72.14285714285714,
+      "quality_score": null
     },
     {
       "ticker": "PSTG",
@@ -1470,7 +2074,16 @@
       "tier": 2,
       "price": 84.43,
       "change_1d": 1.32,
-      "composite": 49.45238095238095
+      "composite": 49.45238095238095,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 22405251072.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 60.0,
+      "growth_score": null,
+      "profitability_score": 22.285714285714285,
+      "momentum_score": 75.0,
+      "quality_score": 33.71428571428571
     },
     {
       "ticker": "NTAP",
@@ -1480,7 +2093,16 @@
       "tier": 3,
       "price": 118.58,
       "change_1d": 2.02,
-      "composite": 66.50714285714285
+      "composite": 66.50714285714285,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 23485997056.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 95.71428571428571,
+      "growth_score": 27.14285714285714,
+      "profitability_score": 65.71428571428572,
+      "momentum_score": 77.85714285714285,
+      "quality_score": 67.14285714285714
     },
     {
       "ticker": "AMT",
@@ -1490,7 +2112,16 @@
       "tier": 3,
       "price": 173.87,
       "change_1d": -2.77,
-      "composite": 62.42857142857143
+      "composite": 62.42857142857143,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 81004822528.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 67.14285714285714,
+      "growth_score": 19.999999999999996,
+      "profitability_score": 84.0,
+      "momentum_score": 0.0,
+      "quality_score": 83.99999999999999
     },
     {
       "ticker": "CCI",
@@ -1500,7 +2131,16 @@
       "tier": 3,
       "price": 89.62,
       "change_1d": -2.05,
-      "composite": 42.483516483516475
+      "composite": 42.483516483516475,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 39114825728.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 40.0,
+      "growth_score": 5.714285714285714,
+      "profitability_score": null,
+      "momentum_score": 32.857142857142854,
+      "quality_score": null
     },
     {
       "ticker": "DBRG",
@@ -1510,7 +2150,16 @@
       "tier": 3,
       "price": 15.65,
       "change_1d": 0.13,
-      "composite": 57.828571428571436
+      "composite": 57.828571428571436,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 3046478848.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 47.14285714285714,
+      "growth_score": 71.42857142857143,
+      "profitability_score": 58.57142857142857,
+      "momentum_score": 48.57142857142857,
+      "quality_score": 64.28571428571429
     },
     {
       "ticker": "MSFT",
@@ -1520,7 +2169,16 @@
       "tier": 1,
       "price": 405.21,
       "change_1d": -0.63,
-      "composite": 67.10000000000001
+      "composite": 67.10000000000001,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 3010076082176.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 54.0,
+      "growth_score": 32.0,
+      "profitability_score": 82.0,
+      "momentum_score": 36.0,
+      "quality_score": 76.0
     },
     {
       "ticker": "GOOGL",
@@ -1530,7 +2188,16 @@
       "tier": 1,
       "price": 402.62,
       "change_1d": 3.94,
-      "composite": 59.35000000000001
+      "composite": 59.35000000000001,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 4877919977472.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 0.0,
+      "growth_score": 88.0,
+      "profitability_score": 72.0,
+      "momentum_score": 95.0,
+      "quality_score": 64.0
     },
     {
       "ticker": "AMZN",
@@ -1540,7 +2207,16 @@
       "tier": 1,
       "price": 270.13,
       "change_1d": 1.62,
-      "composite": 40.25000000000001
+      "composite": 40.25000000000001,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 2905818005504.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 44.0,
+      "growth_score": 44.0,
+      "profitability_score": 0.0,
+      "momentum_score": 79.0,
+      "quality_score": 0.0
     },
     {
       "ticker": "META",
@@ -1550,7 +2226,16 @@
       "tier": 1,
       "price": 616.63,
       "change_1d": 2.26,
-      "composite": 64.4
+      "composite": 64.4,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 1565267984384.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 80.0,
+      "growth_score": 76.0,
+      "profitability_score": 56.0,
+      "momentum_score": 32.0,
+      "quality_score": 64.0
     },
     {
       "ticker": "ORCL",
@@ -1560,7 +2245,16 @@
       "tier": 2,
       "price": 189.76,
       "change_1d": 1.57,
-      "composite": 56.099999999999994
+      "composite": 56.099999999999994,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 545758478336.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 28.0,
+      "growth_score": 60.0,
+      "profitability_score": 58.0,
+      "momentum_score": 56.0,
+      "quality_score": 64.0
     },
     {
       "ticker": "IBM",
@@ -1570,7 +2264,16 @@
       "tier": 3,
       "price": 214.64,
       "change_1d": -2.09,
-      "composite": 47.20000000000001
+      "composite": 47.20000000000001,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 201736978432.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 94.0,
+      "growth_score": 0.0,
+      "profitability_score": 32.0,
+      "momentum_score": 2.0,
+      "quality_score": 32.0
     },
     {
       "ticker": "CRWV",
@@ -1580,7 +2283,16 @@
       "tier": 1,
       "price": 111.31,
       "change_1d": 3.3,
-      "composite": 63.17857142857142
+      "composite": 63.17857142857142,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 60727435264.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 68.57142857142857,
+      "growth_score": 65.71428571428571,
+      "profitability_score": 65.71428571428571,
+      "momentum_score": 11.428571428571429,
+      "quality_score": 70.0
     },
     {
       "ticker": "NBIS",
@@ -1590,7 +2302,16 @@
       "tier": 2,
       "price": 207.27,
       "change_1d": 15.72,
-      "composite": 67.54285714285714
+      "composite": 67.54285714285714,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 52625477632.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 70.0,
+      "growth_score": 100.0,
+      "profitability_score": 74.28571428571428,
+      "momentum_score": 84.28571428571428,
+      "quality_score": 80.0
     },
     {
       "ticker": "IREN",
@@ -1600,7 +2321,16 @@
       "tier": 3,
       "price": 55.17,
       "change_1d": -2.46,
-      "composite": 54.25714285714286
+      "composite": 54.25714285714286,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 19716581376.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 40.0,
+      "growth_score": 37.14285714285714,
+      "profitability_score": 88.57142857142857,
+      "momentum_score": 37.14285714285714,
+      "quality_score": 85.71428571428572
     },
     {
       "ticker": "APLD",
@@ -1610,7 +2340,16 @@
       "tier": 3,
       "price": 45.48,
       "change_1d": 3.53,
-      "composite": 52.864285714285714
+      "composite": 52.864285714285714,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 12996798464.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 37.14285714285714,
+      "growth_score": 80.0,
+      "profitability_score": 68.57142857142857,
+      "momentum_score": 73.57142857142856,
+      "quality_score": 60.0
     },
     {
       "ticker": "RIOT",
@@ -1620,7 +2359,16 @@
       "tier": 3,
       "price": 24.92,
       "change_1d": 1.67,
-      "composite": 41.028571428571425
+      "composite": 41.028571428571425,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 9423528960.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 60.0,
+      "growth_score": 68.57142857142857,
+      "profitability_score": 27.142857142857142,
+      "momentum_score": 81.42857142857143,
+      "quality_score": 27.142857142857142
     },
     {
       "ticker": "CIFR",
@@ -1630,7 +2378,16 @@
       "tier": 3,
       "price": 21.24,
       "change_1d": 5.88,
-      "composite": 21.82857142857143
+      "composite": 21.82857142857143,
+      "status": "exit",
+      "rating": "F",
+      "market_cap": 8688204800.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 12.857142857142861,
+      "growth_score": 17.142857142857142,
+      "profitability_score": 32.857142857142854,
+      "momentum_score": 37.14285714285714,
+      "quality_score": 20.0
     },
     {
       "ticker": "MARA",
@@ -1640,7 +2397,16 @@
       "tier": 3,
       "price": 12.75,
       "change_1d": 0.24,
-      "composite": 23.76428571428572
+      "composite": 23.76428571428572,
+      "status": "exit",
+      "rating": "F",
+      "market_cap": 4861198848.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 48.57142857142858,
+      "growth_score": 22.857142857142858,
+      "profitability_score": 4.285714285714286,
+      "momentum_score": 36.42857142857143,
+      "quality_score": 12.857142857142858
     },
     {
       "ticker": "CLSK",
@@ -1650,7 +2416,16 @@
       "tier": 3,
       "price": 13.3,
       "change_1d": -1.26,
-      "composite": 38.385714285714286
+      "composite": 38.385714285714286,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 3412894464.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 62.857142857142854,
+      "growth_score": 8.571428571428571,
+      "profitability_score": 38.57142857142857,
+      "momentum_score": 38.57142857142857,
+      "quality_score": 44.285714285714285
     },
     {
       "ticker": "SNOW",
@@ -1660,7 +2435,16 @@
       "tier": 1,
       "price": 152.37,
       "change_1d": 0.26,
-      "composite": 32.16875
+      "composite": 32.16875,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 52674306048.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 31.25,
+      "growth_score": 62.5,
+      "profitability_score": 0.0,
+      "momentum_score": 40.625,
+      "quality_score": 3.75
     },
     {
       "ticker": "DDOG",
@@ -1670,7 +2454,16 @@
       "tier": 2,
       "price": 205.31,
       "change_1d": 2.69,
-      "composite": 62.38125
+      "composite": 62.38125,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 73082183680.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 0.0,
+      "growth_score": 100.0,
+      "profitability_score": 81.25,
+      "momentum_score": 90.625,
+      "quality_score": 82.5
     },
     {
       "ticker": "MDB",
@@ -1680,7 +2473,16 @@
       "tier": 2,
       "price": 303.0,
       "change_1d": -1.85,
-      "composite": 49.69375
+      "composite": 49.69375,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 24351967232.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 48.75,
+      "growth_score": 60.0,
+      "profitability_score": 47.14285714285714,
+      "momentum_score": 51.875,
+      "quality_score": 42.14285714285714
     },
     {
       "ticker": "CFLT",
@@ -1690,7 +2492,16 @@
       "tier": 3,
       "price": 30.99,
       "change_1d": 0.0,
-      "composite": 38.55
+      "composite": 38.55,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 11133729792.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 36.25,
+      "growth_score": 60.0,
+      "profitability_score": 13.035714285714285,
+      "momentum_score": 56.25,
+      "quality_score": 20.535714285714285
     },
     {
       "ticker": "ESTC",
@@ -1700,7 +2511,16 @@
       "tier": 3,
       "price": 48.57,
       "change_1d": -3.03,
-      "composite": 51.225
+      "composite": 51.225,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 5027043840.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 86.25,
+      "growth_score": 20.0,
+      "profitability_score": 39.82142857142857,
+      "momentum_score": 12.5,
+      "quality_score": 41.07142857142857
     },
     {
       "ticker": "GTLB",
@@ -1710,7 +2530,16 @@
       "tier": 3,
       "price": 22.05,
       "change_1d": -4.46,
-      "composite": 50.9125
+      "composite": 50.9125,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 3723182848.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 66.25,
+      "growth_score": 37.5,
+      "profitability_score": 30.357142857142854,
+      "momentum_score": 11.25,
+      "quality_score": 52.857142857142854
     },
     {
       "ticker": "DBX",
@@ -1720,7 +2549,16 @@
       "tier": 3,
       "price": 26.2,
       "change_1d": 1.51,
-      "composite": 48.59615384615383
+      "composite": 48.59615384615383,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 6112477184.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 70.0,
+      "growth_score": 25.0,
+      "profitability_score": null,
+      "momentum_score": 63.75,
+      "quality_score": null
     },
     {
       "ticker": "TWLO",
@@ -1730,7 +2568,16 @@
       "tier": 3,
       "price": 192.61,
       "change_1d": -0.09,
-      "composite": 58.025
+      "composite": 58.025,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 29233162240.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 42.5,
+      "growth_score": 57.5,
+      "profitability_score": 83.21428571428571,
+      "momentum_score": 90.0,
+      "quality_score": 58.21428571428571
     },
     {
       "ticker": "BILL",
@@ -1740,7 +2587,16 @@
       "tier": 3,
       "price": 39.96,
       "change_1d": -3.08,
-      "composite": 59.868750000000006
+      "composite": 59.868750000000006,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 3979885056.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 68.75,
+      "growth_score": 27.5,
+      "profitability_score": 70.17857142857143,
+      "momentum_score": 33.125,
+      "quality_score": 75.17857142857143
     },
     {
       "ticker": "PLTR",
@@ -1750,7 +2606,16 @@
       "tier": 1,
       "price": 130.05,
       "change_1d": -4.37,
-      "composite": 65.23636363636363
+      "composite": 65.23636363636363,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 311770447872.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 0.0,
+      "growth_score": 96.36363636363637,
+      "profitability_score": 94.54545454545455,
+      "momentum_score": 71.81818181818181,
+      "quality_score": 91.81818181818181
     },
     {
       "ticker": "CRM",
@@ -1760,7 +2625,16 @@
       "tier": 1,
       "price": 165.84,
       "change_1d": -3.19,
-      "composite": 56.85
+      "composite": 56.85,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 135666032640.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 66.36363636363637,
+      "growth_score": 47.27272727272727,
+      "profitability_score": 47.272727272727266,
+      "momentum_score": 48.63636363636364,
+      "quality_score": 46.36363636363636
     },
     {
       "ticker": "NOW",
@@ -1770,7 +2644,16 @@
       "tier": 1,
       "price": 87.05,
       "change_1d": -2.19,
-      "composite": 42.10000000000001
+      "composite": 42.10000000000001,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 89775366144.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 14.545454545454547,
+      "growth_score": 50.909090909090914,
+      "profitability_score": 32.72727272727272,
+      "momentum_score": 37.27272727272727,
+      "quality_score": 35.45454545454545
     },
     {
       "ticker": "ADBE",
@@ -1780,7 +2663,16 @@
       "tier": 2,
       "price": 236.07,
       "change_1d": -1.98,
-      "composite": 75.44090909090909
+      "composite": 75.44090909090909,
+      "status": "buy_zone",
+      "rating": "B",
+      "market_cap": 95419498496.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 77.27272727272728,
+      "growth_score": 49.09090909090909,
+      "profitability_score": 88.18181818181819,
+      "momentum_score": 69.54545454545456,
+      "quality_score": 92.72727272727273
     },
     {
       "ticker": "AI",
@@ -1790,7 +2682,16 @@
       "tier": 3,
       "price": 8.65,
       "change_1d": -1.59,
-      "composite": 37.46363636363636
+      "composite": 37.46363636363636,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 1256769024.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 97.27272727272727,
+      "growth_score": 21.818181818181817,
+      "profitability_score": 0.0,
+      "momentum_score": 54.54545454545455,
+      "quality_score": 0.0
     },
     {
       "ticker": "INTU",
@@ -1800,7 +2701,16 @@
       "tier": 2,
       "price": 371.71,
       "change_1d": -4.13,
-      "composite": 56.87727272727273
+      "composite": 56.87727272727273,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 103437254656.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 39.09090909090909,
+      "growth_score": 49.090909090909086,
+      "profitability_score": 62.72727272727273,
+      "momentum_score": 56.81818181818182,
+      "quality_score": 64.54545454545455
     },
     {
       "ticker": "WDAY",
@@ -1810,7 +2720,16 @@
       "tier": 2,
       "price": 116.5,
       "change_1d": -1.79,
-      "composite": 44.89090909090909
+      "composite": 44.89090909090909,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 29088366592.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 68.18181818181819,
+      "growth_score": 36.36363636363636,
+      "profitability_score": 18.181818181818183,
+      "momentum_score": 30.454545454545457,
+      "quality_score": 20.90909090909091
     },
     {
       "ticker": "SAP",
@@ -1820,7 +2739,16 @@
       "tier": 2,
       "price": 160.82,
       "change_1d": -3.86,
-      "composite": 53.190909090909095
+      "composite": 53.190909090909095,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 189595910144.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 37.272727272727266,
+      "growth_score": 40.0,
+      "profitability_score": 65.45454545454545,
+      "momentum_score": 26.363636363636363,
+      "quality_score": 49.090909090909086
     },
     {
       "ticker": "HUBS",
@@ -1830,7 +2758,16 @@
       "tier": 3,
       "price": 179.0,
       "change_1d": -0.32,
-      "composite": 40.009090909090915
+      "composite": 40.009090909090915,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 9167975424.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 49.09090909090909,
+      "growth_score": 49.09090909090909,
+      "profitability_score": 9.090909090909092,
+      "momentum_score": 0.9090909090909092,
+      "quality_score": 30.909090909090914
     },
     {
       "ticker": "DUOL",
@@ -1840,7 +2777,16 @@
       "tier": 3,
       "price": 104.98,
       "change_1d": -0.97,
-      "composite": 57.12272727272728
+      "composite": 57.12272727272728,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 4891345408.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 48.18181818181819,
+      "growth_score": 69.0909090909091,
+      "profitability_score": 66.36363636363636,
+      "momentum_score": 68.63636363636364,
+      "quality_score": 53.63636363636363
     },
     {
       "ticker": "ZM",
@@ -1850,7 +2796,16 @@
       "tier": 3,
       "price": 102.43,
       "change_1d": -0.51,
-      "composite": 53.6909090909091
+      "composite": 53.6909090909091,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 30190374912.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 38.18181818181819,
+      "growth_score": 45.45454545454545,
+      "profitability_score": 75.45454545454545,
+      "momentum_score": 100.0,
+      "quality_score": 65.45454545454545
     },
     {
       "ticker": "PATH",
@@ -1860,7 +2815,16 @@
       "tier": 3,
       "price": 9.47,
       "change_1d": -5.39,
-      "composite": 52.87727272727273
+      "composite": 52.87727272727273,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 4928599040.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 64.54545454545455,
+      "growth_score": 45.45454545454545,
+      "profitability_score": 40.0,
+      "momentum_score": 35.0,
+      "quality_score": 49.0909090909091
     },
     {
       "ticker": "CRWD",
@@ -1870,7 +2834,16 @@
       "tier": 1,
       "price": 562.57,
       "change_1d": 3.0,
-      "composite": 49.48611111111112
+      "composite": 49.48611111111112,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 143194619904.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 42.22222222222222,
+      "growth_score": 71.11111111111111,
+      "profitability_score": 35.27777777777778,
+      "momentum_score": 77.7777777777778,
+      "quality_score": 33.05555555555556
     },
     {
       "ticker": "PANW",
@@ -1880,7 +2853,16 @@
       "tier": 2,
       "price": 227.79,
       "change_1d": 5.65,
-      "composite": 55.16944444444446
+      "composite": 55.16944444444446,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 184737677312.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 20.0,
+      "growth_score": 55.55555555555556,
+      "profitability_score": 76.94444444444446,
+      "momentum_score": 91.66666666666666,
+      "quality_score": 56.94444444444444
     },
     {
       "ticker": "ZS",
@@ -1890,7 +2872,16 @@
       "tier": 2,
       "price": 152.43,
       "change_1d": 4.28,
-      "composite": 52.78888888888889
+      "composite": 52.78888888888889,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 24509325312.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 66.66666666666667,
+      "growth_score": 51.111111111111114,
+      "profitability_score": 41.666666666666664,
+      "momentum_score": 26.111111111111114,
+      "quality_score": 43.888888888888886
     },
     {
       "ticker": "NET",
@@ -1900,7 +2891,16 @@
       "tier": 2,
       "price": 192.62,
       "change_1d": 3.12,
-      "composite": 37.65694444444445
+      "composite": 37.65694444444445,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 68084666368.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 26.666666666666657,
+      "growth_score": 75.55555555555556,
+      "profitability_score": 19.305555555555557,
+      "momentum_score": 25.555555555555557,
+      "quality_score": 12.63888888888889
     },
     {
       "ticker": "S",
@@ -1910,7 +2910,16 @@
       "tier": 3,
       "price": 16.08,
       "change_1d": 2.16,
-      "composite": 39.67777777777778
+      "composite": 39.67777777777778,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 5471645696.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 58.88888888888889,
+      "growth_score": 60.0,
+      "profitability_score": 0.0,
+      "momentum_score": 66.66666666666666,
+      "quality_score": 6.666666666666666
     },
     {
       "ticker": "FTNT",
@@ -1920,7 +2929,16 @@
       "tier": 2,
       "price": 117.69,
       "change_1d": 3.35,
-      "composite": 70.2611111111111
+      "composite": 70.2611111111111,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 86225387520.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 37.777777777777786,
+      "growth_score": 66.66666666666666,
+      "profitability_score": 92.22222222222223,
+      "momentum_score": 97.22222222222223,
+      "quality_score": 92.22222222222223
     },
     {
       "ticker": "OKTA",
@@ -1930,7 +2948,16 @@
       "tier": 2,
       "price": 78.2,
       "change_1d": -1.09,
-      "composite": 57.018055555555556
+      "composite": 57.018055555555556,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 13712092160.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 61.11111111111111,
+      "growth_score": 31.11111111111111,
+      "profitability_score": 65.41666666666666,
+      "momentum_score": 34.44444444444444,
+      "quality_score": 62.08333333333333
     },
     {
       "ticker": "TENB",
@@ -1940,7 +2967,16 @@
       "tier": 3,
       "price": 20.58,
       "change_1d": -2.05,
-      "composite": 51.31527777777779
+      "composite": 51.31527777777779,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 2269397248.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 73.33333333333334,
+      "growth_score": 13.333333333333332,
+      "profitability_score": 50.13888888888889,
+      "momentum_score": 26.666666666666664,
+      "quality_score": 53.47222222222222
     },
     {
       "ticker": "QLYS",
@@ -1950,7 +2986,16 @@
       "tier": 3,
       "price": 86.5,
       "change_1d": -4.02,
-      "composite": 66.48194444444445
+      "composite": 66.48194444444445,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 3046271232.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 75.55555555555556,
+      "growth_score": 6.666666666666666,
+      "profitability_score": 96.25,
+      "momentum_score": 8.333333333333332,
+      "quality_score": 96.25
     },
     {
       "ticker": "RBRK",
@@ -1960,7 +3005,16 @@
       "tier": 3,
       "price": 59.48,
       "change_1d": -1.64,
-      "composite": 49.41880341880341
+      "composite": 49.41880341880341,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 12241568768.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 37.77777777777777,
+      "growth_score": 68.88888888888889,
+      "profitability_score": null,
+      "momentum_score": 45.55555555555556,
+      "quality_score": null
     },
     {
       "ticker": "ROK",
@@ -1970,7 +3024,16 @@
       "tier": 2,
       "price": 454.99,
       "change_1d": -0.02,
-      "composite": 59.9
+      "composite": 59.9,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 50628534272.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 14.0,
+      "growth_score": 88.0,
+      "profitability_score": 64.0,
+      "momentum_score": 100.0,
+      "quality_score": 74.0
     },
     {
       "ticker": "EMR",
@@ -1980,7 +3043,16 @@
       "tier": 2,
       "price": 137.76,
       "change_1d": 0.35,
-      "composite": 66.45
+      "composite": 66.45,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 77159366656.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 66.0,
+      "growth_score": 36.0,
+      "profitability_score": 76.0,
+      "momentum_score": 69.0,
+      "quality_score": 78.0
     },
     {
       "ticker": "HON",
@@ -1990,7 +3062,16 @@
       "tier": 2,
       "price": 217.96,
       "change_1d": -0.27,
-      "composite": 55.300000000000004
+      "composite": 55.300000000000004,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 138111041536.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 68.0,
+      "growth_score": 32.0,
+      "profitability_score": 54.0,
+      "momentum_score": 64.0,
+      "quality_score": 44.0
     },
     {
       "ticker": "SYM",
@@ -2000,7 +3081,16 @@
       "tier": 3,
       "price": 49.73,
       "change_1d": -3.1,
-      "composite": 30.9
+      "composite": 30.9,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 30018707456.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 30.0,
+      "growth_score": 60.0,
+      "profitability_score": 0.0,
+      "momentum_score": 30.0,
+      "quality_score": 0.0
     },
     {
       "ticker": "IR",
@@ -2010,7 +3100,16 @@
       "tier": 3,
       "price": 71.39,
       "change_1d": -2.49,
-      "composite": 48.0
+      "composite": 48.0,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 27937536000.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 88.0,
+      "growth_score": 32.0,
+      "profitability_score": 20.0,
+      "momentum_score": 6.0,
+      "quality_score": 32.0
     },
     {
       "ticker": "PH",
@@ -2020,7 +3119,16 @@
       "tier": 3,
       "price": 882.37,
       "change_1d": 0.12,
-      "composite": 58.75000000000001
+      "composite": 58.75000000000001,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 111254847488.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 34.0,
+      "growth_score": 52.0,
+      "profitability_score": 86.0,
+      "momentum_score": 31.0,
+      "quality_score": 72.0
     },
     {
       "ticker": "TSLA",
@@ -2030,7 +3138,16 @@
       "tier": 1,
       "price": 445.27,
       "change_1d": 2.73,
-      "composite": 57.333333333333336
+      "composite": 57.333333333333336,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 1672311078912.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 5.0,
+      "growth_score": 69.33333333333334,
+      "profitability_score": 76.66666666666667,
+      "momentum_score": 71.66666666666666,
+      "quality_score": 75.0
     },
     {
       "ticker": "MBLY",
@@ -2040,7 +3157,16 @@
       "tier": 2,
       "price": 10.53,
       "change_1d": 14.08,
-      "composite": 58.51666666666667
+      "composite": 58.51666666666667,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 8868219904.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 51.666666666666664,
+      "growth_score": 86.66666666666666,
+      "profitability_score": 40.0,
+      "momentum_score": 66.66666666666669,
+      "quality_score": 58.333333333333336
     },
     {
       "ticker": "AUR",
@@ -2050,7 +3176,16 @@
       "tier": 3,
       "price": 8.4,
       "change_1d": 16.34,
-      "composite": 45.33333333333332
+      "composite": 45.33333333333332,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 16474104832.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 65.0,
+      "growth_score": null,
+      "profitability_score": 25.0,
+      "momentum_score": 100.0,
+      "quality_score": 24.999999999999996
     },
     {
       "ticker": "UBER",
@@ -2060,7 +3195,16 @@
       "tier": 2,
       "price": 74.7,
       "change_1d": -2.17,
-      "composite": 66.91666666666667
+      "composite": 66.91666666666667,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 152059232256.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 43.33333333333333,
+      "growth_score": 37.33333333333333,
+      "profitability_score": 100.0,
+      "momentum_score": 43.33333333333333,
+      "quality_score": 95.0
     },
     {
       "ticker": "LCID",
@@ -2070,7 +3214,16 @@
       "tier": 3,
       "price": 6.39,
       "change_1d": 6.32,
-      "composite": 25.15833333333334
+      "composite": 25.15833333333334,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 2493740800.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 51.66666666666667,
+      "growth_score": 48.0,
+      "profitability_score": 6.666666666666666,
+      "momentum_score": 2.4999999999999996,
+      "quality_score": 3.333333333333333
     },
     {
       "ticker": "RIVN",
@@ -2080,7 +3233,16 @@
       "tier": 3,
       "price": 14.27,
       "change_1d": 2.29,
-      "composite": 37.88333333333334
+      "composite": 37.88333333333334,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 19162703872.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 73.33333333333334,
+      "growth_score": 18.666666666666664,
+      "profitability_score": 28.33333333333333,
+      "momentum_score": 26.666666666666664,
+      "quality_score": 28.33333333333333
     },
     {
       "ticker": "GM",
@@ -2090,7 +3252,16 @@
       "tier": 3,
       "price": 75.81,
       "change_1d": -0.82,
-      "composite": 50.14166666666667
+      "composite": 50.14166666666667,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 68355235840.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 60.0,
+      "growth_score": 20.0,
+      "profitability_score": 73.33333333333333,
+      "momentum_score": 39.16666666666666,
+      "quality_score": 65.0
     },
     {
       "ticker": "ISRG",
@@ -2100,7 +3271,16 @@
       "tier": 1,
       "price": 432.27,
       "change_1d": 0.09,
-      "composite": 60.47500000000001
+      "composite": 60.47500000000001,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 153093963776.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 10.0,
+      "growth_score": 43.33333333333333,
+      "profitability_score": 95.0,
+      "momentum_score": 17.5,
+      "quality_score": 86.66666666666667
     },
     {
       "ticker": "TEM",
@@ -2110,7 +3290,16 @@
       "tier": 2,
       "price": 45.9,
       "change_1d": -2.24,
-      "composite": 55.06666666666666
+      "composite": 55.06666666666666,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 8242022912.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 90.0,
+      "growth_score": 46.66666666666666,
+      "profitability_score": 36.666666666666664,
+      "momentum_score": 36.66666666666666,
+      "quality_score": 29.999999999999996
     },
     {
       "ticker": "VEEV",
@@ -2120,7 +3309,16 @@
       "tier": 2,
       "price": 155.73,
       "change_1d": -2.31,
-      "composite": 61.966666666666676
+      "composite": 61.966666666666676,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 25414932480.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 36.66666666666666,
+      "growth_score": 19.999999999999996,
+      "profitability_score": 87.33333333333334,
+      "momentum_score": 31.666666666666668,
+      "quality_score": 85.66666666666667
     },
     {
       "ticker": "GH",
@@ -2130,7 +3328,16 @@
       "tier": 3,
       "price": 98.47,
       "change_1d": -1.47,
-      "composite": 67.9230769230769
+      "composite": 67.9230769230769,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 13057115136.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 73.33333333333334,
+      "growth_score": 76.66666666666667,
+      "profitability_score": null,
+      "momentum_score": 88.33333333333333,
+      "quality_score": null
     },
     {
       "ticker": "CRSP",
@@ -2140,7 +3347,16 @@
       "tier": 3,
       "price": 52.75,
       "change_1d": -0.15,
-      "composite": 43.483333333333334
+      "composite": 43.483333333333334,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 5087673856.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 35.0,
+      "growth_score": 93.33333333333334,
+      "profitability_score": 29.5,
+      "momentum_score": 59.16666666666667,
+      "quality_score": 26.166666666666668
     },
     {
       "ticker": "NTLA",
@@ -2150,7 +3366,16 @@
       "tier": 3,
       "price": 14.28,
       "change_1d": 2.07,
-      "composite": 37.74999999999999
+      "composite": 37.74999999999999,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 1995234048.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 28.333333333333343,
+      "growth_score": 50.0,
+      "profitability_score": 30.166666666666664,
+      "momentum_score": 85.83333333333333,
+      "quality_score": 23.5
     },
     {
       "ticker": "BNTX",
@@ -2160,7 +3385,16 @@
       "tier": 3,
       "price": 92.23,
       "change_1d": -1.53,
-      "composite": 53.775000000000006
+      "composite": 53.775000000000006,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 23323514880.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 76.66666666666667,
+      "growth_score": 20.0,
+      "profitability_score": 31.333333333333332,
+      "momentum_score": 30.833333333333336,
+      "quality_score": 54.666666666666664
     },
     {
       "ticker": "SPGI",
@@ -2170,7 +3404,16 @@
       "tier": 1,
       "price": 406.55,
       "change_1d": -4.15,
-      "composite": 47.87500000000001
+      "composite": 47.87500000000001,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 120338792448.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 66.0,
+      "growth_score": 32.0,
+      "profitability_score": 21.5,
+      "momentum_score": 23.0,
+      "quality_score": 21.5
     },
     {
       "ticker": "MSCI",
@@ -2180,7 +3423,16 @@
       "tier": 2,
       "price": 570.91,
       "change_1d": -1.75,
-      "composite": 54.30769230769231
+      "composite": 54.30769230769231,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 41520906240.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 0.0,
+      "growth_score": 88.0,
+      "profitability_score": null,
+      "momentum_score": 78.0,
+      "quality_score": null
     },
     {
       "ticker": "MCO",
@@ -2190,7 +3442,16 @@
       "tier": 2,
       "price": 438.32,
       "change_1d": -2.97,
-      "composite": 53.45
+      "composite": 53.45,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 76564176896.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 26.0,
+      "growth_score": 28.0,
+      "profitability_score": 58.0,
+      "momentum_score": 51.0,
+      "quality_score": 58.0
     },
     {
       "ticker": "FDS",
@@ -2200,7 +3461,16 @@
       "tier": 3,
       "price": 201.87,
       "change_1d": -6.51,
-      "composite": 46.925
+      "composite": 46.925,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 7354351616.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 100.0,
+      "growth_score": 0.0,
+      "profitability_score": 22.5,
+      "momentum_score": 3.0,
+      "quality_score": 22.5
     },
     {
       "ticker": "NDAQ",
@@ -2210,7 +3480,16 @@
       "tier": 3,
       "price": 90.21,
       "change_1d": 0.8,
-      "composite": 61.00000000000001
+      "composite": 61.00000000000001,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 51017433088.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 34.0,
+      "growth_score": 60.0,
+      "profitability_score": 57.0,
+      "momentum_score": 98.0,
+      "quality_score": 66.0
     },
     {
       "ticker": "ICE",
@@ -2220,7 +3499,16 @@
       "tier": 2,
       "price": 154.8,
       "change_1d": -0.65,
-      "composite": 69.1
+      "composite": 69.1,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 87541342208.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 74.0,
+      "growth_score": 92.0,
+      "profitability_score": 64.0,
+      "momentum_score": 47.0,
+      "quality_score": 63.0
     },
     {
       "ticker": "AAPL",
@@ -2230,7 +3518,16 @@
       "tier": 1,
       "price": 298.87,
       "change_1d": 1.38,
-      "composite": 66.60000000000001
+      "composite": 66.60000000000001,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 4389609930752.0,
+      "market_cap_bucket": "large",
+      "valuation_score": 0.0,
+      "growth_score": 72.0,
+      "profitability_score": 100.0,
+      "momentum_score": 76.0,
+      "quality_score": 94.0
     },
     {
       "ticker": "DELL",
@@ -2240,7 +3537,16 @@
       "tier": 2,
       "price": 243.87,
       "change_1d": 2.06,
-      "composite": 59.46153846153846
+      "composite": 59.46153846153846,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 158561517568.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 54.0,
+      "growth_score": 100.0,
+      "profitability_score": null,
+      "momentum_score": 95.0,
+      "quality_score": null
     },
     {
       "ticker": "HPQ",
@@ -2250,7 +3556,16 @@
       "tier": 3,
       "price": 21.26,
       "change_1d": 0.85,
-      "composite": 52.538461538461526
+      "composite": 52.538461538461526,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 19516350464.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 100.0,
+      "growth_score": 8.0,
+      "profitability_score": null,
+      "momentum_score": 29.0,
+      "quality_score": null
     },
     {
       "ticker": "LOGI",
@@ -2260,7 +3575,16 @@
       "tier": 3,
       "price": 103.99,
       "change_1d": 0.42,
-      "composite": 49.25000000000001
+      "composite": 49.25000000000001,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 14922772480.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 46.0,
+      "growth_score": 28.0,
+      "profitability_score": 62.0,
+      "momentum_score": 49.0,
+      "quality_score": 56.0
     },
     {
       "ticker": "GRMN",
@@ -2270,7 +3594,16 @@
       "tier": 3,
       "price": 232.02,
       "change_1d": -2.09,
-      "composite": 56.10000000000001
+      "composite": 56.10000000000001,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 44746498048.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 20.0,
+      "growth_score": 68.0,
+      "profitability_score": 66.0,
+      "momentum_score": 32.0,
+      "quality_score": 72.0
     },
     {
       "ticker": "SONO",
@@ -2280,7 +3613,16 @@
       "tier": 3,
       "price": 14.64,
       "change_1d": -0.48,
-      "composite": 34.55
+      "composite": 34.55,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 1744043776.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 80.0,
+      "growth_score": 24.0,
+      "profitability_score": 0.0,
+      "momentum_score": 19.0,
+      "quality_score": 18.0
     },
     {
       "ticker": "IONQ",
@@ -2290,7 +3632,16 @@
       "tier": 2,
       "price": 55.26,
       "change_1d": -1.09,
-      "composite": 69.21666666666667
+      "composite": 69.21666666666667,
+      "status": "hold",
+      "rating": "B",
+      "market_cap": 20626896896.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 53.33333333333334,
+      "growth_score": 80.0,
+      "profitability_score": 100.0,
+      "momentum_score": 100.0,
+      "quality_score": 90.0
     },
     {
       "ticker": "RGTI",
@@ -2300,7 +3651,16 @@
       "tier": 3,
       "price": 18.42,
       "change_1d": -3.43,
-      "composite": 37.86666666666667
+      "composite": 37.86666666666667,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 6121124352.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 80.0,
+      "growth_score": 33.33333333333333,
+      "profitability_score": 23.33333333333333,
+      "momentum_score": 8.333333333333332,
+      "quality_score": 23.33333333333333
     },
     {
       "ticker": "QBTS",
@@ -2310,7 +3670,16 @@
       "tier": 3,
       "price": 21.44,
       "change_1d": -4.07,
-      "composite": 38.31666666666666
+      "composite": 38.31666666666666,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 7941942784.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 46.66666666666667,
+      "growth_score": 0.0,
+      "profitability_score": 19.999999999999996,
+      "momentum_score": 28.33333333333333,
+      "quality_score": 46.666666666666664
     },
     {
       "ticker": "QUBT",
@@ -2320,7 +3689,16 @@
       "tier": 3,
       "price": 11.03,
       "change_1d": -6.37,
-      "composite": 39.449999999999996
+      "composite": 39.449999999999996,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 2487650816.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 20.0,
+      "growth_score": 86.66666666666666,
+      "profitability_score": 56.66666666666666,
+      "momentum_score": 63.33333333333332,
+      "quality_score": 40.0
     },
     {
       "ticker": "MP",
@@ -2330,7 +3708,16 @@
       "tier": 2,
       "price": 63.73,
       "change_1d": -2.84,
-      "composite": 51.5
+      "composite": 51.5,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 11345353728.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 37.5,
+      "growth_score": 76.0,
+      "profitability_score": 32.0,
+      "momentum_score": 36.0,
+      "quality_score": 56.0
     },
     {
       "ticker": "ALB",
@@ -2340,7 +3727,16 @@
       "tier": 2,
       "price": 200.94,
       "change_1d": -2.23,
-      "composite": 52.8
+      "composite": 52.8,
+      "status": "watch",
+      "rating": "C",
+      "market_cap": 23697788928.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 30.5,
+      "growth_score": 72.0,
+      "profitability_score": 68.0,
+      "momentum_score": 60.0,
+      "quality_score": 60.0
     },
     {
       "ticker": "LAC",
@@ -2350,7 +3746,16 @@
       "tier": 3,
       "price": 5.48,
       "change_1d": -1.62,
-      "composite": 46.28571428571427
+      "composite": 46.28571428571427,
+      "status": "watch",
+      "rating": "D",
+      "market_cap": 1911541376.0,
+      "market_cap_bucket": "small",
+      "valuation_score": null,
+      "growth_score": null,
+      "profitability_score": 57.0,
+      "momentum_score": 56.0,
+      "quality_score": 38.0
     },
     {
       "ticker": "SQM",
@@ -2360,7 +3765,16 @@
       "tier": 3,
       "price": 91.62,
       "change_1d": -3.18,
-      "composite": 63.9
+      "composite": 63.9,
+      "status": "hold",
+      "rating": "C",
+      "market_cap": 26170138624.0,
+      "market_cap_bucket": "mid",
+      "valuation_score": 37.0,
+      "growth_score": 44.0,
+      "profitability_score": 100.0,
+      "momentum_score": 54.0,
+      "quality_score": 88.0
     },
     {
       "ticker": "FMC",
@@ -2370,7 +3784,16 @@
       "tier": 3,
       "price": 12.73,
       "change_1d": -3.19,
-      "composite": 32.6
+      "composite": 32.6,
+      "status": "reduce",
+      "rating": "F",
+      "market_cap": 1591826688.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 66.0,
+      "growth_score": 0.0,
+      "profitability_score": 22.0,
+      "momentum_score": 0.0,
+      "quality_score": 38.0
     },
     {
       "ticker": "USAR",
@@ -2380,7 +3803,16 @@
       "tier": 3,
       "price": 25.42,
       "change_1d": -0.51,
-      "composite": 37.00000000000001
+      "composite": 37.00000000000001,
+      "status": "reduce",
+      "rating": "D",
+      "market_cap": 5541193728.0,
+      "market_cap_bucket": "small",
+      "valuation_score": 56.0,
+      "growth_score": null,
+      "profitability_score": 21.0,
+      "momentum_score": 94.0,
+      "quality_score": 20.0
     }
   ]
 }

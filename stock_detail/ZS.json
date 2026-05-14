@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:49",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:40",
     "status_label": "观察"
   },
   "panels": [
@@ -100,7 +100,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+          "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
           "label": "Moat",
@@ -122,7 +122,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+          "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
           "label": "Profitability",
@@ -130,7 +130,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+          "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
           "label": "Valuation",
@@ -138,7 +138,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+          "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
           "label": "Momentum",
@@ -146,7 +146,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+          "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
           "label": "Risk",
@@ -159,7 +159,7 @@
           "label": "Warren Composite",
           "value": 52.78888888888889,
           "is_composite": true,
-          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+          "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
       ]
     },
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:49",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:40",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -185,70 +185,6 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ZS/",
-          "title": "Zscaler, Inc. (ZS) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ZS/news/",
-          "title": "Zscaler, Inc. (ZS) Latest Stock News & Headlines - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/ZS",
-          "title": "Zscaler, Inc. (ZS) Stock Price, Quote, News & Analysis - Seeking Alpha",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/0ZC.F/",
-          "title": "Zscaler, Inc. (0ZC.F) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/ZS",
-          "title": "ZS: Zscaler Inc - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ZS/community/",
-          "title": "Zscaler, Inc. (ZS) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/zscaler-inc-zs-bull-case-015331379.html",
-          "title": "Zscaler, Inc. (ZS): A Bull Case Theory - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/article/4891775-zscaler-strong-double-digit-growth-ahead",
-          "title": "Zscaler: Strong Double-Digit Growth Ahead (NASDAQ:ZS)",
-          "sentiment": null,
-          "impact": null
-        },
-        {
           "date": "2026-05-13",
           "source": "Simply Wall St.",
           "url": "https://finance.yahoo.com/news/high-growth-tech-stocks-us-113806041.html",
@@ -261,6 +197,22 @@
           "source": "Simply Wall St.",
           "url": "https://finance.yahoo.com/news/time-reassess-zscaler-zs-recent-032001915.html",
           "title": "Is It Time To Reassess Zscaler (ZS) After Recent Share Price Rebound?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/news/zscaler-ixt-zero-trust-sim-020748262.html",
+          "title": "Zscaler IXT Zero Trust SIM Partnership Expands Critical Infrastructure Opportunity",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-cash-heavy-stocks-target-133255994.html",
+          "title": "2 Cash-Heavy Stocks to Target This Week and 1 We Turn Down",
           "sentiment": null,
           "impact": null
         }

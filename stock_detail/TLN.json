@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:44",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:35",
     "status_label": "持有"
   },
   "panels": [
@@ -100,7 +100,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+          "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
           "label": "Moat",
@@ -122,7 +122,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+          "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
           "label": "Profitability",
@@ -130,7 +130,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+          "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
           "label": "Valuation",
@@ -138,7 +138,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+          "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
           "label": "Momentum",
@@ -146,7 +146,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+          "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
           "label": "Risk",
@@ -159,7 +159,7 @@
           "label": "Warren Composite",
           "value": 51.86380952380952,
           "is_composite": true,
-          "formula": "Composite = 0.28×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×risk + 0.05×momentum + 0.02×ai_exposure\n（power_grid_nuclear 板块覆盖权重，已归一化）"
+          "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
       ]
     },
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 13:46:44",
+      "title_meta": "Yahoo Finance 参考 · ok · 2026-05-14 14:41:35",
       "data": {
         "target_mean": 475.1707,
         "target_high": 595.0,
@@ -198,54 +198,6 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/TLN/",
-          "title": "Talen Energy Corporation (TLN) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/TLN/news?page=2",
-          "title": "Talen Energy Corporation (TLN) Latest Stock News | Seeking Alpha",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/TLN/news/",
-          "title": "Talen Energy Corporation (TLN) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/talen-energy-corporation-tln-bull-181537433.html",
-          "title": "Talen Energy Corporation (TLN): A Bull Case Theory - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "barrons.com",
-          "url": "https://www.barrons.com/market-data/stocks/tln",
-          "title": "TLN | Talen Energy Corp. Stock Overview (U.S.: Nasdaq) | Barron's",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "uk.finance.yahoo.com",
-          "url": "https://uk.finance.yahoo.com/quote/1TLN.MI/news/",
-          "title": "TALEN ENERGY CORP (1TLN.MI) latest stock news and headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
           "date": "2026-05-13",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/news/talen-energy-tln-falls-following-182856309.html",
@@ -274,6 +226,54 @@
           "source": "seekingalpha.com",
           "url": "https://seekingalpha.com/symbol/TLN",
           "title": "Talen Energy Corporation (TLN) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/tln",
+          "title": "TLN Stock Price | Talen Energy Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/talen-energy-stock-soars-over-164312743.html",
+          "title": "Talen Energy Stock Soars Over 20% on Purchase of 2 Plants in AI ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/talen-energy-corporation-tln-bull-235413616.html",
+          "title": "Talen Energy Corporation (TLN): A Bull Case Theory - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/talen-energy-corporation-tln-target-121948579.html",
+          "title": "Talen Energy Corporation (TLN) Target Lifted to $474 at Morgan ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/tln?gaa_at=eafs&gaa_n=AWEtsqcmHeDx9r2t-QeELcZBlW07bgGuzGS37_lTT9MuPejgSWmaETHHtKGD&gaa_ts=69be340e&gaa_sig=m9IXaW5aN0pDo4YLEg0-tREYWMy4iQSTgUYyEwYJuH8yGvXYrvQg1n00n2x57abD756CR7_YOGLcg0k8AgOCmA%3D%3D",
+          "title": "TLN Stock Price | Talen Energy Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-13",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/tln?gaa_at=eafs&gaa_n=AWEtsqelBoYu5xLVl_BYMEpYMhuewQGD8mnPPsRrAsIHMSZX4SQ5pimI2OIv&gaa_ts=69be34d5&gaa_sig=8gT32Xl-JysCcaVM6i4vh8GSqLZb3Lmrt-sqs7fWQ0thEtV8ssRPnQMWQqfvdL9K_aktGtHgrtTcXS5TrcerKA%3D%3D",
+          "title": "TLN Stock Price | Talen Energy Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
           "sentiment": null,
           "impact": null
         }

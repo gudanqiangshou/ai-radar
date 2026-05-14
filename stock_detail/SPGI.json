@@ -19,7 +19,7 @@
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-14 13:46:50",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-14 14:41:41",
     "status_label": "观察"
   },
   "panels": [
@@ -100,7 +100,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(roe, sector) +\n0.30 * percentile(gross_margin, sector) +\n0.20 * percentile(net_margin, sector) +\n0.20 * percentile(op_margin, sector)"
+          "formula": "0.30 * ROE 分位 +\n0.30 * 毛利率 分位 +\n0.20 * 净利率 分位 +\n0.20 * 营业利润率 分位"
         },
         {
           "label": "Moat",
@@ -122,7 +122,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.60 * percentile(revenue_growth_yoy, sector) +\n0.40 * percentile(return_ytd, sector)"
+          "formula": "0.60 * 营收同比 分位 +\n0.40 * YTD 涨幅 分位"
         },
         {
           "label": "Profitability",
@@ -130,7 +130,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.40 * percentile(op_margin, sector) +\n0.30 * percentile(net_margin, sector) +\n0.30 * percentile(roe, sector)"
+          "formula": "0.40 * 营业利润率 分位 +\n0.30 * 净利率 分位 +\n0.30 * ROE 分位"
         },
         {
           "label": "Valuation",
@@ -138,7 +138,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "100 - (0.40 * percentile(forward_pe, sector) +\n       0.30 * percentile(ev_ebitda, sector) +\n       0.30 * percentile(ev_revenue, sector))"
+          "formula": "100 - (0.40 * 预期 PE 分位 +\n       0.30 * EV/EBITDA 分位 +\n       0.30 * EV/营收 分位)"
         },
         {
           "label": "Momentum",
@@ -146,7 +146,7 @@
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
-          "formula": "0.30 * percentile(return_1m, sector) +\n0.25 * percentile(return_3m, sector) +\n0.20 * percentile(return_6m, sector) +\n0.15 * percentile(rsi14, sector) +\n0.10 * percentile(dist_from_52w_high, sector)"
+          "formula": "0.30 * 1 月涨幅 分位 +\n0.25 * 3 月涨幅 分位 +\n0.20 * 6 月涨幅 分位 +\n0.15 * RSI(14) 分位 +\n0.10 * 距 52 周高 分位"
         },
         {
           "label": "Risk",
@@ -159,7 +159,7 @@
           "label": "Warren Composite",
           "value": 47.87500000000001,
           "is_composite": true,
-          "formula": "Composite = 0.25×business_quality + 0.20×moat + 0.20×valuation + 0.10×growth + 0.10×profitability + 0.05×ai_exposure + 0.05×risk + 0.05×momentum"
+          "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
       ]
     },
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 13:46:50",
+      "title_meta": "Yahoo Finance 参考 · 无数据 · 2026-05-14 14:41:41",
       "data": null,
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
     },
@@ -185,70 +185,6 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-14",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/US/XNYS/SPGI",
-          "title": "SPGI | S&P Global Inc. Stock Price & News - WSJ",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/SPGI/news/",
-          "title": "S&P Global Inc. (SPGI) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/p-global-inc-spgi-one-004120146.html",
-          "title": "Is S&P Global Inc. (SPGI) One of the Best Blue Chip Stocks to Buy for the Long Term?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/too-consider-p-global-spgi-180719689.html",
-          "title": "Is It Too Late To Consider S&P Global (SPGI) After Strong Multi Year ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/p-global-spgi-loses-13-143502533.html",
-          "title": "S&P Global (SPGI) Loses 13.2% in 4 Weeks, Here's Why a Trend ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/SPGI.VI/",
-          "title": "S&P Global Inc. (SPGI.VI) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/SPGI",
-          "title": "S&P Global Inc. (SPGI) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/3-reasons-fans-p-global-040130256.html",
-          "title": "3 Reasons We’re Fans of S&P Global (SPGI)",
-          "sentiment": null,
-          "impact": null
-        },
-        {
           "date": "2026-05-13",
           "source": "StockStory",
           "url": "https://finance.yahoo.com/news/3-reasons-avoid-ait-1-022855054.html",
@@ -261,6 +197,30 @@
           "source": "Reuters",
           "url": "https://finance.yahoo.com/news/p-revises-mexicos-outlook-negative-215718318.html",
           "title": "S&P revises Mexico's outlook to 'negative' on debt, growth concerns",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/news/sector-financial-stocks-higher-afternoon-195752034.html",
+          "title": "Sector Update: Financial Stocks Higher Late Afternoon",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-12",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-global-sets-mobility-board-132038930.html",
+          "title": "S&P Global Sets Mobility Board As Spinoff Story Takes Shape",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-11",
+          "source": "TheStreet",
+          "url": "https://www.thestreet.com/investing/louis-navellier-says-rare-stock-signal-has-a-90-success-rate",
+          "title": "Louis Navellier says rare stock signal has a 90% success rate",
           "sentiment": null,
           "impact": null
         }

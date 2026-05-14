@@ -2,13 +2,18 @@
 async function initDashboard() {
   const data = await fetch('snapshot.json').then(r => r.json());
   window.__snapshot = data;
+  // 注入 sector_id → name_zh 映射给 filters.js 和 screener table 用
+  window._sectorZh = {};
+  (data.sectors || []).forEach(s => {
+    if (s.sector_id && s.name_zh) window._sectorZh[s.sector_id] = s.name_zh;
+  });
   renderTopbar(data.topbar);
   renderMovers(data.movers);
   renderCore30(data.core30);
   renderHeatmap(data.sectors);
   renderNewsFeed(data.top_news);
   renderScreener(data.screener);
-  document.getElementById('screener-title').textContent = `${data.screener.length} 股票筛选表`;
+  document.getElementById('screener-title').textContent = `${data.screener.length} 只股票筛选`;
 
   // 默认选中 Core 30 第一只
   if (data.core30.length > 0) loadDetail(data.core30[0].ticker);
@@ -39,8 +44,15 @@ function renderTopbar(t) {
       <div class="stat-val ${ytdFmt.cls}">${ytdFmt.text}</div>
       <div class="stat-label">等权 YTD</div>${cmp(t.qqq_ytd, 'QQQ')}
     </div>
-    <div class="stat"><div class="stat-val"><span class="pos">${escapeHtml(t.up_count ?? '—')}</span> / <span class="neg">${escapeHtml(t.down_count ?? '—')}</span></div><div class="stat-label">上涨 / 下跌</div></div>
-    <div class="stat"><div class="stat-val warn">${escapeHtml(t.risk_regime)}</div><div class="stat-label">Risk Regime</div></div>`;
+    <div class="stat" title="基于该 ticker 最近两个交易日比较；持平=收盘相同或数据不全">
+      <div class="stat-val">
+        <span class="pos">${escapeHtml(t.up_count ?? '—')}</span> /
+        <span class="neg">${escapeHtml(t.down_count ?? '—')}</span> /
+        <span style="color:#888">${escapeHtml(t.flat_count ?? '—')}</span>
+      </div>
+      <div class="stat-label">涨 / 跌 / 持平</div>
+    </div>
+    <div class="stat"><div class="stat-val warn">${escapeHtml(t.risk_regime)}</div><div class="stat-label">市场态势</div></div>`;
 }
 
 function renderMovers(movers) {
@@ -116,7 +128,7 @@ function renderHeatmap(sectors) {
     const todayCls = (s.change_today || 0) >= 0 ? 'green' : 'red';
     const todayColor = (s.change_today || 0) >= 0 ? '#5fb878' : '#e54696';
     return `<div class="sector ${todayCls}" data-sector="${escapeAttr(s.sector_id)}">
-      <div class="sn">${escapeHtml(s.name)}</div>
+      <div class="sn">${escapeHtml(s.name_zh || s.name)}</div>
       <div class="sc" style="color:${todayColor}">${s.change_today >= 0 ? '+' : ''}${(s.change_today || 0).toFixed(2)}%</div>
       <div class="meta">${escapeHtml(s.quotes_count || 0)}/${escapeHtml(s.stock_count)} 报价 · Core ${escapeHtml(s.core_count || 0)}</div>
       <div class="meta">5D ${fmtPct(s.change_5d)} · 1M ${fmtPct(s.change_1m)}</div>
