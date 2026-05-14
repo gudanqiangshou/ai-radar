@@ -115,6 +115,11 @@ h2 { color:#fff; margin-bottom:8px; }
    严格与 src/render/web/js/filters.js renderTable 对齐 */
 .table-head { display:grid; grid-template-columns: 56px 96px 1fr 110px 44px 80px 60px 60px 60px 60px 60px 70px; gap:4px; padding:6px 10px; background:#11243c; font-size:10px; color:#888; }
 .table-row { display:grid; grid-template-columns: 56px 96px 1fr 110px 44px 80px 60px 60px 60px 60px 60px 70px; gap:4px; padding:6px 10px; font-size:11px; border-bottom:1px solid #11243c; }
+/* screener 表头排序：6 个数值列点击切 asc/desc/off */
+.table-head .sortable { cursor:pointer; user-select:none; transition:color 0.15s; }
+.table-head .sortable:hover { color:#fff; }
+.table-head .sortable[data-sort]:has(+ .sortable),
+.table-head .sortable { position:relative; }
 .table-row:hover { background:#11243c; }
 
 /* === 右侧详情 === */

@@ -1,6 +1,8 @@
 // src/render/web/js/filters.js
 let _allStocks = [];
 let _activeFilters = {};
+let _sortField = null;     // 当前排序字段 (market_cap / change_1d / change_1m ...)
+let _sortDir = 'desc';     // 'asc' / 'desc'
 
 function renderScreener(stocks) {
   _allStocks = stocks;
@@ -124,13 +126,57 @@ const _fmtPctCell = (v) => {
   };
 };
 
+// 排序辅助：null/undefined 永远沉到尾部，无论升降序
+function _sortStocks(stocks) {
+  if (!_sortField) return stocks;
+  const dir = _sortDir === 'asc' ? 1 : -1;
+  return [...stocks].sort((a, b) => {
+    const va = a[_sortField], vb = b[_sortField];
+    const aNull = va === null || va === undefined;
+    const bNull = vb === null || vb === undefined;
+    if (aNull && bNull) return 0;
+    if (aNull) return 1;
+    if (bNull) return -1;
+    return (va < vb ? -1 : va > vb ? 1 : 0) * dir;
+  });
+}
+
+function _sortIndicator(field) {
+  if (_sortField !== field) return '';
+  return _sortDir === 'asc' ? ' ↑' : ' ↓';
+}
+
+function _attachSortHandlers() {
+  document.querySelectorAll('.table-head .sortable').forEach(el => {
+    el.addEventListener('click', () => {
+      const field = el.dataset.sort;
+      if (_sortField === field) {
+        // toggle asc / desc / off
+        if (_sortDir === 'desc') { _sortDir = 'asc'; }
+        else { _sortField = null; }
+      } else {
+        _sortField = field;
+        _sortDir = 'desc';   // 数值列默认从高到低
+      }
+      applyFilters();   // re-filter + re-sort + re-render
+    });
+  });
+}
+
 function renderTable(stocks) {
   // 12 列 head + row 严格对齐（src/render/web/css/theme.css .table-head/.table-row）
   // 代码 名称 AI角色 板块 Tier 市值 涨跌(1D) 1M 3M 1Y YTD Composite
+  // 6 个数值列可排序：市值 / 涨跌 / 1M / 3M / 1Y / YTD（数值列 click 表头切换 asc/desc/off）
+  stocks = _sortStocks(stocks);
   const head = `<div class="table-head">
     <div>代码</div><div>名称</div><div>AI 角色</div><div>板块</div>
-    <div>Tier</div><div>市值</div>
-    <div>涨跌</div><div>1M</div><div>3M</div><div>1Y</div><div>YTD</div>
+    <div>Tier</div>
+    <div class="sortable" data-sort="market_cap">市值${_sortIndicator('market_cap')}</div>
+    <div class="sortable" data-sort="change_1d">涨跌${_sortIndicator('change_1d')}</div>
+    <div class="sortable" data-sort="change_1m">1M${_sortIndicator('change_1m')}</div>
+    <div class="sortable" data-sort="change_3m">3M${_sortIndicator('change_3m')}</div>
+    <div class="sortable" data-sort="change_1y">1Y${_sortIndicator('change_1y')}</div>
+    <div class="sortable" data-sort="change_ytd">YTD${_sortIndicator('change_ytd')}</div>
     <div>Composite</div>
   </div>`;
   const rows = stocks.map(s => {
@@ -161,4 +207,5 @@ function renderTable(stocks) {
   document.querySelectorAll('#screener-table .table-row').forEach(el => {
     el.addEventListener('click', () => loadDetail(el.dataset.ticker));
   });
+  _attachSortHandlers();
 }
