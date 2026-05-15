@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "AWS + Anthropic 战略股东 + Trainium/Inferentia 自研芯片",
-    "price": 267.2200012207031,
-    "change_1d": -1.08,
+    "price": 264.1400146484375,
+    "change_1d": -1.15,
     "composite": 40.1,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:03",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$267.22",
-        "日内涨跌": "-1.08%",
-        "1日涨跌": "-1.08%",
-        "5日涨跌": "-2.00%",
-        "1月涨跌": "+7.31%",
-        "3月涨跌": "+34.42%",
-        "6月涨跌": "+13.86%",
-        "1年涨跌": "+27.10%",
-        "YTD涨跌": "+17.98%",
-        "20日均线": "263.85",
-        "50日均线": "235.80",
-        "200日均线": "229.25",
-        "RSI 14": "62.90",
-        "MACD": "9.70",
-        "20日波动率": "20.90%",
-        "成交量": "31,151,517",
-        "量比20日": "0.67",
+        "最新价": "$264.14",
+        "日内涨跌": "-1.15%",
+        "1日涨跌": "-1.15%",
+        "5日涨跌": "-3.13%",
+        "1月涨跌": "+6.29%",
+        "3月涨跌": "+32.87%",
+        "6月涨跌": "+12.55%",
+        "1年涨跌": "+28.74%",
+        "YTD涨跌": "+16.62%",
+        "20日均线": "264.53",
+        "50日均线": "236.71",
+        "200日均线": "229.42",
+        "RSI 14": "58.56",
+        "MACD": "8.76",
+        "20日波动率": "21.57%",
+        "成交量": "39,244,039",
+        "量比20日": "0.86",
         "52周高点": "278.56",
         "52周低点": "196.00",
-        "距52周高点": "-4.07%",
-        "距52周低点": "+36.34%",
+        "距52周高点": "-5.18%",
+        "距52周低点": "+34.77%",
         "20日支撑": "245.37",
         "20日压力": "278.56"
       }
@@ -76,15 +76,15 @@
         "流通股本": "10.76B",
         "ROE": "24.29%",
         "债务/权益": "0.08",
-        "市值": "$2.87T",
-        "企业价值": "$3.00T",
-        "市盈率 TTM": "32.00",
-        "预期市盈率": "27.07",
-        "市销率": "3.87",
-        "EV / 营收": "4.04",
-        "EV / EBITDA": "19.24",
-        "EV / FCF": "305.74",
-        "FCF 收益率": "0.34%",
+        "市值": "$2.84T",
+        "企业价值": "$2.97T",
+        "市盈率 TTM": "31.60",
+        "预期市盈率": "26.75",
+        "市销率": "3.83",
+        "EV / 营收": "3.99",
+        "EV / EBITDA": "19.04",
+        "EV / FCF": "302.55",
+        "FCF 收益率": "0.35%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 62 位分析师 · 2026-05-15 05:16:05",
+      "title_meta": "Yahoo Finance · 62 位分析师 · 2026-05-16 05:14:03",
       "data": {
         "target_mean": 311.55145,
         "target_high": 370.0,
         "target_low": 207.0,
-        "upside_pct": 16.59,
+        "upside_pct": 17.95,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -246,34 +246,34 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/amzn",
-          "title": "Amazon.com Inc. Stock Quote (U.S.: Nasdaq) - AMZN - MarketWatch",
+          "date": "2026-05-15",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/how-to-navigate-the-tech-led-market-201704557.html",
+          "title": "How to navigate the tech-led market",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/AMZN/history/",
-          "title": "Amazon.com, Inc. (AMZN) Stock Historical Prices & Data - Yahoo Finance",
+          "date": "2026-05-15",
+          "source": "Bloomberg",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/trump-traded-nvidia-boeing-intel-030913697.html",
+          "title": "Trump’s More Than 3,700 Trades Astonish Wall Street Insiders",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/AMZN/",
-          "title": "Amazon.com, Inc. (AMZN) Stock Price, News, Quote & History",
+          "date": "2026-05-15",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/ch-robinson-stock-price-upgrade-b56d86ca?siteid=yhoof2&yptr=yahoo",
+          "title": "C.H. Robinson Stock Is Actually a Better Bet After Negative SCOTUS Ruling.",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/AMZN",
-          "title": "AMZN: Amazon.com Inc - Stock Price, Quote and News - CNBC",
+          "date": "2026-05-15",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/sandisk-insiders-stock-sales-4d6134a2?siteid=yhoof2&yptr=yahoo",
+          "title": "SanDisk Stock Is Up 494% This Year. Insiders Are Cashing In on the AI-Fueled Surge.",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 40.1
+        },
+        {
+          "date": "2026-05-16",
+          "value": 40.1
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

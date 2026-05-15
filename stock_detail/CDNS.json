@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "EDA 三巨头 — 数字仿真 + AI 芯片设计 IP",
-    "price": 352.8399963378906,
-    "change_1d": -0.48,
-    "composite": 64.92500000000001,
+    "price": 347.239990234375,
+    "change_1d": -1.59,
+    "composite": 65.30000000000001,
     "tier_letter": "A",
     "description": [
       "Cadence Design Systems 的 AI 产业链位置为 EDA / Design Software。",
-      "AI 角色：EDA 三巨头 — 数字仿真 + AI 芯片设计 IP。当前内部综合评分 64。",
+      "AI 角色：EDA 三巨头 — 数字仿真 + AI 芯片设计 IP。当前内部综合评分 65。",
       "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:02",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$352.84",
-        "日内涨跌": "-0.48%",
-        "1日涨跌": "-0.48%",
-        "5日涨跌": "-2.72%",
-        "1月涨跌": "+20.68%",
-        "3月涨跌": "+17.83%",
-        "6月涨跌": "+12.04%",
-        "1年涨跌": "+10.47%",
-        "YTD涨跌": "+13.67%",
-        "20日均线": "340.19",
-        "50日均线": "308.32",
-        "200日均线": "322.93",
-        "RSI 14": "63.53",
-        "MACD": "15.43",
-        "20日波动率": "37.97%",
-        "成交量": "1,450,177",
-        "量比20日": "0.56",
+        "最新价": "$347.24",
+        "日内涨跌": "-1.59%",
+        "1日涨跌": "-1.59%",
+        "5日涨跌": "-4.26%",
+        "1月涨跌": "+14.19%",
+        "3月涨跌": "+15.96%",
+        "6月涨跌": "+10.26%",
+        "1年涨跌": "+8.93%",
+        "YTD涨跌": "+11.87%",
+        "20日均线": "342.00",
+        "50日均线": "309.26",
+        "200日均线": "322.81",
+        "RSI 14": "59.03",
+        "MACD": "14.13",
+        "20日波动率": "38.76%",
+        "成交量": "1,698,593",
+        "量比20日": "0.66",
         "52周高点": "376.45",
         "52周低点": "262.75",
-        "距52周高点": "-6.27%",
-        "距52周低点": "+34.29%",
-        "20日支撑": "308.40",
+        "距52周高点": "-7.76%",
+        "距52周低点": "+32.16%",
+        "20日支撑": "309.60",
         "20日压力": "365.01"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "275.82M",
         "ROE": "20.66%",
         "债务/权益": "0.03",
-        "市值": "$97.32B",
-        "企业价值": "$99.33B",
-        "市盈率 TTM": "82.25",
-        "预期市盈率": "37.61",
-        "市销率": "17.60",
-        "EV / 营收": "17.97",
-        "EV / EBITDA": "49.31",
-        "EV / FCF": "66.26",
-        "FCF 收益率": "1.54%",
+        "市值": "$95.77B",
+        "企业价值": "$98.86B",
+        "市盈率 TTM": "80.75",
+        "预期市盈率": "37.02",
+        "市销率": "17.32",
+        "EV / 营收": "17.88",
+        "EV / EBITDA": "49.08",
+        "EV / FCF": "65.94",
+        "FCF 收益率": "1.57%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 32.5,
+          "value": 40.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 64.92500000000001,
+          "value": 65.30000000000001,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 26 位分析师 · 2026-05-15 05:16:04",
+      "title_meta": "Yahoo Finance · 26 位分析师 · 2026-05-16 05:14:02",
       "data": {
         "target_mean": 379.5473,
         "target_high": 425.0,
         "target_low": 275.0,
-        "upside_pct": 7.57,
+        "upside_pct": 9.3,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -197,6 +197,46 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/cdns/research-ratings?frm=0&us_privacy=1---&fledge=1&uab=64&uamb=0&uapv=13.5.2&data=event%3Dgtag.config&mod=quotes",
+          "title": "Cadence Design Systems Inc. Research & Ratings | CDNS - Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CDNS.VI/news/",
+          "title": "Cadence Design Systems, Inc. (CDNS.VI) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/CDNS/historical-prices",
+          "title": "Cadence Design Systems Inc. Price & News - WSJ | CDNS",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/CDNS.MX/latest-news/",
+          "title": "Cadence Design Systems, Inc. (CDNS.MX) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/CDNS/research-ratings",
+          "title": "CDNS | Cadence Design Systems Inc. Analyst Estimates & Ratings",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -230,50 +270,10 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/CDNS",
-          "title": "CDNS: Cadence Design Systems Inc - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CDNS/",
-          "title": "Cadence Design Systems, Inc. (CDNS) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CDNS/press-releases/",
-          "title": "Cadence Design Systems, Inc. (CDNS) Latest Press Releases & Corporate News - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/CDNS",
-          "title": "CDNS Cadence Design Systems, Inc. Stock Price & Overview",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CDNS/news/",
-          "title": "Cadence Design Systems, Inc. (CDNS) Latest Stock News & Headlines - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/CDNS.MX/latest-news/",
-          "title": "Cadence Design Systems, Inc. (CDNS.MX) Stock Price, News, Quote & History - Yahoo Finance",
+          "date": "2026-05-15",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/2-large-cap-stocks-long-192455746.html",
+          "title": "2 Large-Cap Stocks for Long-Term Investors and 1 We Ignore",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 64.92500000000001
+        },
+        {
+          "date": "2026-05-16",
+          "value": 65.30000000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

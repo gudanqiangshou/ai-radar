@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 2,
     "ai_role": "数据中心互联 (DCI) + 光网络系统",
-    "price": 591.5700073242188,
-    "change_1d": 2.37,
-    "composite": 40.988888888888894,
+    "price": 554.4600219726562,
+    "change_1d": -6.27,
+    "composite": 39.738888888888894,
     "tier_letter": "B",
     "description": [
       "Ciena 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：数据中心互联 (DCI) + 光网络系统。当前内部综合评分 40。",
+      "AI 角色：数据中心互联 (DCI) + 光网络系统。当前内部综合评分 39。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
-    "status_label": "观察"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:02",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$591.57",
-        "日内涨跌": "+2.37%",
-        "1日涨跌": "+2.37%",
-        "5日涨跌": "+7.93%",
-        "1月涨跌": "+26.62%",
-        "3月涨跌": "+94.65%",
-        "6月涨跌": "+208.58%",
-        "1年涨跌": "+643.83%",
-        "YTD涨跌": "+140.42%",
-        "20日均线": "532.28",
-        "50日均线": "455.67",
-        "200日均线": "258.55",
-        "RSI 14": "67.89",
-        "MACD": "35.48",
-        "20日波动率": "63.15%",
-        "成交量": "1,119,407",
-        "量比20日": "0.56",
+        "最新价": "$554.46",
+        "日内涨跌": "-6.27%",
+        "1日涨跌": "-6.27%",
+        "5日涨跌": "+1.16%",
+        "1月涨跌": "+16.54%",
+        "3月涨跌": "+82.44%",
+        "6月涨跌": "+189.22%",
+        "1年涨跌": "+594.81%",
+        "YTD涨跌": "+125.34%",
+        "20日均线": "534.63",
+        "50日均线": "460.77",
+        "200日均线": "260.86",
+        "RSI 14": "57.62",
+        "MACD": "32.81",
+        "20日波动率": "67.84%",
+        "成交量": "2,420,403",
+        "量比20日": "1.20",
         "52周高点": "598.84",
         "52周低点": "70.77",
-        "距52周高点": "-1.21%",
-        "距52周低点": "+735.91%",
+        "距52周高点": "-7.41%",
+        "距52周低点": "+683.47%",
         "20日支撑": "461.07",
         "20日压力": "598.84"
       }
@@ -76,15 +76,15 @@
         "流通股本": "141.40M",
         "ROE": "8.20%",
         "债务/权益": "0.02",
-        "市值": "$83.65B",
-        "企业价值": "$82.00B",
-        "市盈率 TTM": "379.21",
-        "预期市盈率": "68.37",
-        "市销率": "16.32",
-        "EV / 营收": "16.00",
-        "EV / EBITDA": "143.74",
-        "EV / FCF": "117.27",
-        "FCF 收益率": "0.84%",
+        "市值": "$78.40B",
+        "企业价值": "$83.94B",
+        "市盈率 TTM": "346.54",
+        "预期市盈率": "64.09",
+        "市销率": "15.30",
+        "EV / 营收": "16.38",
+        "EV / EBITDA": "147.13",
+        "EV / FCF": "120.03",
+        "FCF 收益率": "0.89%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 23.33333333333333,
+          "value": 20.000000000000014,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 66.66666666666667,
+          "value": 55.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 40.988888888888894,
+          "value": 39.738888888888894,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-15 05:16:04",
+      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-16 05:14:02",
       "data": {
         "target_mean": 410.90585,
         "target_high": 660.0,
         "target_low": 240.0,
-        "upside_pct": -30.54,
+        "upside_pct": -25.89,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,30 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CIEN/chart/",
+          "title": "Ciena Corporation (CIEN) Interactive Stock Chart - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/CIEN/latest-news/",
+          "title": "Ciena Corporation (CIEN) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CIEN.MX/company-insights/",
+          "title": "Ciena Corporation (CIEN.MX) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/news/ciena-falls-weak-full-guidance-124014806.html",
@@ -222,6 +246,22 @@
           "impact": null
         },
         {
+          "date": "2026-05-15",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/how-to-invest/investors-corner/stock-market-winners-new-cerebras-ipo-new-america/?src=A00220&yptr=yahoo",
+          "title": "Stock Market Winners Tend To Have The 'New' In Spades. Here's Where To Find Them.",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Motley Fool",
+          "url": "https://www.fool.com/coverage/filings/2026/05/14/why-one-investor-may-be-losing-confidence-in-gitlab/",
+          "title": "Why One Investor May Be Losing Confidence in GitLab",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-14",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/CIEN/news/",
@@ -234,46 +274,6 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/news/ciena-corporation-cien-gaining-hyperscaler-133530471.html",
           "title": "Ciena Corporation (CIEN) is Gaining From Hyperscaler And AI ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/CIEN",
-          "title": "Ciena Corporation (CIEN) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CIEN/hiring-trends/",
-          "title": "Ciena Corporation (CIEN) Stock Price, News, Quote & History ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "barrons.com",
-          "url": "https://www.barrons.com/market-data/stocks/cien",
-          "title": "CIEN | Ciena Corp. Stock Overview (U.S.: NYSE) - Barron's",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CIEN/",
-          "title": "Ciena Corporation (CIEN) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CIEN/community/",
-          "title": "Ciena Corporation (CIEN) Stock Forum & Discussion - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 40.988888888888894
+        },
+        {
+          "date": "2026-05-16",
+          "value": 39.738888888888894
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

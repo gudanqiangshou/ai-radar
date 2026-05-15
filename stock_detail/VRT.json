@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "数据中心热管理 + 电源管理，高密度机柜液冷领先",
-    "price": 376.2300109863281,
-    "change_1d": 1.69,
-    "composite": 62.09476190476191,
+    "price": 370.94000244140625,
+    "change_1d": -1.41,
+    "composite": 61.84476190476192,
     "tier_letter": "A",
     "description": [
       "Vertiv 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：数据中心热管理 + 电源管理，高密度机柜液冷领先。当前内部综合评分 62。",
+      "AI 角色：数据中心热管理 + 电源管理，高密度机柜液冷领先。当前内部综合评分 61。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:00",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$376.23",
-        "日内涨跌": "+1.69%",
-        "1日涨跌": "+1.69%",
-        "5日涨跌": "+10.67%",
-        "1月涨跌": "+21.17%",
-        "3月涨跌": "+60.42%",
-        "6月涨跌": "+120.06%",
-        "1年涨跌": "+243.65%",
-        "YTD涨跌": "+114.24%",
-        "20日均线": "333.36",
-        "50日均线": "294.22",
-        "200日均线": "201.98",
-        "RSI 14": "72.08",
-        "MACD": "22.38",
-        "20日波动率": "57.14%",
-        "成交量": "3,588,348",
-        "量比20日": "0.62",
+        "最新价": "$370.94",
+        "日内涨跌": "-1.41%",
+        "1日涨跌": "-1.41%",
+        "5日涨跌": "+9.11%",
+        "1月涨跌": "+23.17%",
+        "3月涨跌": "+58.16%",
+        "6月涨跌": "+116.96%",
+        "1年涨跌": "+252.00%",
+        "YTD涨跌": "+111.23%",
+        "20日均线": "336.54",
+        "50日均线": "296.65",
+        "200日均线": "203.11",
+        "RSI 14": "68.87",
+        "MACD": "22.41",
+        "20日波动率": "56.61%",
+        "成交量": "4,680,110",
+        "量比20日": "0.81",
         "52周高点": "379.93",
         "52周低点": "101.00",
-        "距52周高点": "-0.97%",
-        "距52周低点": "+272.50%",
+        "距52周高点": "-2.37%",
+        "距52周低点": "+267.27%",
         "20日支撑": "293.88",
         "20日压力": "379.93"
       }
@@ -76,15 +76,15 @@
         "流通股本": "384.11M",
         "ROE": "45.10%",
         "债务/权益": "0.02",
-        "市值": "$144.51B",
-        "企业价值": "$142.88B",
-        "市盈率 TTM": "94.06",
-        "预期市盈率": "43.02",
-        "市销率": "13.33",
-        "EV / 营收": "13.18",
-        "EV / EBITDA": "59.96",
-        "EV / FCF": "72.72",
-        "FCF 收益率": "1.36%",
+        "市值": "$142.48B",
+        "企业价值": "$145.28B",
+        "市盈率 TTM": "92.97",
+        "预期市盈率": "42.41",
+        "市销率": "13.14",
+        "EV / 营收": "13.40",
+        "EV / EBITDA": "60.96",
+        "EV / FCF": "73.94",
+        "FCF 收益率": "1.38%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 18.38095238095238,
+          "value": 16.47619047619048,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 87.85714285714285,
+          "value": 90.47619047619047,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 62.09476190476191,
+          "value": 61.84476190476192,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 25 位分析师 · 2026-05-15 05:16:02",
+      "title_meta": "Yahoo Finance · 25 位分析师 · 2026-05-16 05:14:00",
       "data": {
-        "target_mean": 342.68,
-        "target_high": 425.0,
+        "target_mean": 355.52,
+        "target_high": 500.0,
         "target_low": 188.0,
-        "upside_pct": -8.92,
+        "upside_pct": -4.16,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 25,
         "next_earnings": "2026-07-29",
-        "eps_estimate": 1.42783,
+        "eps_estimate": 1.42878,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,30 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/vrt",
+          "title": "VRT Stock Price | Vertiv Holdings Co Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/VRT/",
+          "title": "(VRT) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/VRT/sec-filing/",
+          "title": "Vertiv Holdings Co (VRT) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -222,58 +246,34 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/VRT/dividends",
-          "title": "Vertiv Holdings Co (VRT) Stock Price, News, Quote & History ...",
+          "date": "2026-05-15",
+          "source": "Investing.com",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/loop-capital-sees-ai-infrastructure-193026866.html",
+          "title": "Loop Capital sees AI Infrastructure boom driving growth for Vertiv Holdings",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/VRT.MX/news/",
-          "title": "VERTIV HOLDINGS CO (VRT.MX) Latest Stock News & Headlines ...",
+          "date": "2026-05-15",
+          "source": "Reuters",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/institutional-investors-boosted-holdings-ai-171718421.html",
+          "title": "Institutional investors boosted holdings of AI infrastructure plays during first quarter",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-holdings-vrt-among-companies-155611215.html",
-          "title": "Vertiv Holdings (VRT) Is Among The Companies That Partnered ...",
+          "date": "2026-05-15",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/vrt-vs-aph-ai-infrastructure-170500418.html",
+          "title": "VRT vs. APH: Which AI Infrastructure Stock Is the Smarter Buy Now?",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/vertiv-vrt-house-fire-says-140658512.html",
-          "title": "Vertiv (VRT) Is “A House of Fire,” Says Jim Cramer - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/photonics-phase-3-ai-infrastructure-103000049.html",
-          "title": "Photonics is 'phase 3' of AI infrastructure build. But what is photonics?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/vertiv-vrt-names-frieda-chief-161439520.html",
-          "title": "Vertiv (VRT) Names Frieda He as Chief Procurement Officer",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Exec Edge",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/vinson-elkins-accelerating-ai-infrastructure-154459380.html",
-          "title": "Vinson & Elkins: Accelerating AI Infrastructure & Power Constraints Reshape the Market",
+          "date": "2026-05-15",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-making-big-moves-yesterday-124455038.html",
+          "title": "Stocks making big moves yesterday: NESR, The Trade Desk, Vertiv, Hain Celestial, and IonQ",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 62.09476190476191
+        },
+        {
+          "date": "2026-05-16",
+          "value": 61.84476190476192
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

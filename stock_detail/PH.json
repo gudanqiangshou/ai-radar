@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "运动控制 + 流体 — 工业 + 航空 AI 设备配套",
-    "price": 880.4299926757812,
-    "change_1d": -0.22,
-    "composite": 59.05000000000001,
+    "price": 862.719970703125,
+    "change_1d": -2.01,
+    "composite": 59.30000000000001,
     "tier_letter": "C",
     "description": [
       "Parker Hannifin 的 AI 产业链位置为 Industrial Automation / Robotics。",
@@ -19,7 +19,7 @@
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$880.43",
-        "日内涨跌": "-0.22%",
-        "1日涨跌": "-0.22%",
-        "5日涨跌": "+0.18%",
-        "1月涨跌": "-10.62%",
-        "3月涨跌": "-12.11%",
-        "6月涨跌": "+5.83%",
-        "1年涨跌": "+30.47%",
-        "YTD涨跌": "-1.52%",
-        "20日均线": "923.19",
-        "50日均线": "924.88",
-        "200日均线": "859.60",
-        "RSI 14": "39.43",
-        "MACD": "-19.17",
-        "20日波动率": "30.57%",
-        "成交量": "525,244",
-        "量比20日": "0.66",
+        "最新价": "$862.72",
+        "日内涨跌": "-2.01%",
+        "1日涨跌": "-2.01%",
+        "5日涨跌": "-1.83%",
+        "1月涨跌": "-10.48%",
+        "3月涨跌": "-13.88%",
+        "6月涨跌": "+3.70%",
+        "1年涨跌": "+28.26%",
+        "YTD涨跌": "-3.50%",
+        "20日均线": "916.88",
+        "50日均线": "922.83",
+        "200日均线": "860.25",
+        "RSI 14": "35.59",
+        "MACD": "-20.33",
+        "20日波动率": "27.69%",
+        "成交量": "677,302",
+        "量比20日": "0.85",
         "52周高点": "1034.96",
         "52周低点": "637.21",
-        "距52周高点": "-14.93%",
-        "距52周低点": "+38.17%",
-        "20日支撑": "860.49",
-        "20日压力": "1029.00"
+        "距52周高点": "-16.64%",
+        "距52周低点": "+35.39%",
+        "20日支撑": "855.82",
+        "20日压力": "1001.28"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "126.09M",
         "ROE": "24.84%",
         "债务/权益": "0.09",
-        "市值": "$111.01B",
-        "企业价值": "$120.37B",
-        "市盈率 TTM": "32.50",
-        "预期市盈率": "25.87",
-        "市销率": "5.29",
-        "EV / 营收": "5.74",
-        "EV / EBITDA": "21.97",
-        "EV / FCF": "43.38",
-        "FCF 收益率": "2.50%",
+        "市值": "$108.78B",
+        "企业价值": "$120.12B",
+        "市盈率 TTM": "31.81",
+        "预期市盈率": "25.35",
+        "市销率": "5.18",
+        "EV / 营收": "5.72",
+        "EV / EBITDA": "21.92",
+        "EV / FCF": "43.30",
+        "FCF 收益率": "2.55%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 37.0,
+          "value": 42.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 59.05000000000001,
+          "value": 59.30000000000001,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 24 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 24 位分析师 · 2026-05-16 05:14:06",
       "data": {
-        "target_mean": 1037.0416,
+        "target_mean": 1035.0416,
         "target_high": 1147.0,
         "target_low": 680.0,
-        "upside_pct": 17.79,
+        "upside_pct": 19.97,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 24,
         "next_earnings": "2026-08-06",
-        "eps_estimate": 8.26697,
+        "eps_estimate": 8.26451,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -198,6 +198,70 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ph?gaa_at=eafs&gaa_n=AWEtsqe-yZXbnJbIeTPC2inwTJfdgyZxBEU11h0mhPkIGIT0Z6pmqINfbQ2g&gaa_ts=6947a876&gaa_sig=1bd7qoNYh4c4bWQdUC4hd1xHy-uYDatH-nk3oJ73gxkj1DX_dNLrLuhAs3m0_Eg04rwEl6tovysXgygjFCTPNA%3D%3D",
+          "title": "PH Stock Price | Parker Hannifin Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ph?gaa_at=eafs&gaa_n=AWEtsqehrpeCXXBbVE85TBZFQs7G2LF6-dQNoSUdP_MuB6PMKSDxWqWnwQ7n&gaa_ts=695b76c9&gaa_sig=tjSEW_Hiucb10DHM6XmHLFDA_ru5IwOJloXNkJmge7S7Re9Ergj0be4nGAE9cTwe5STt5GnKvEs_gUPINIRFkg%3D%3D",
+          "title": "PH Stock Price | Parker Hannifin Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ph?gaa_at=eafs&gaa_n=AWEtsqc-KOC9ARlpP0Q8Bn0jIGpGrTQnJS6XnNhTECCnnuS1dc1oOxkCf1Vp&gaa_ts=695b76ca&gaa_sig=RSEHn2QkdAXZsV_LvnTBqrqjADmK8knBukp6i6zxtFU8DgPpUXrDq3I5gdSAAeHKfclvxOKE6iBqw_Yjcuechw%3D%3D",
+          "title": "PH Stock Price | Parker Hannifin Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ph?gaa_at=eafs&gaa_n=AWEtsqdVfBI2QgWx2TaACfLL2NCRIWQF921d1rgg9ZicfZBTNM7fnbuMv0ZU&gaa_ts=69432a88&gaa_sig=kIcDCizDK-qa7uL-QsmPjuDmyl2fUTf-4sUijoLN73IBxAlZrWnElaXl6ppea8xMct7goweZFwMNR8yKDd7Ggg%3D%3D",
+          "title": "PH Stock Price | Parker Hannifin Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ph?gaa_at=eafs&gaa_n=AWEtsqdINtkrhVhIrTwmrMrJnuXjgko6qk-yDJI5VbTA5IEhfaouCe_wWtWC&gaa_ts=694c235a&gaa_sig=74uca60-TgaK7DiKkvkrVSXBAB_mw_PpyobI-0JOWnfgYWqGtYxCq8qqrcnEyFOjpDNqv5_uq334aZ2bySGaLA%3D%3D",
+          "title": "PH Stock Price | Parker Hannifin Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ph?gaa_at=eafs&gaa_n=AWEtsqeBa6J_3EDvCM5lbDZPQR4Lu5wnegCq-Opb6vQUJABMULbzAEdD9XhA&gaa_ts=69435366&gaa_sig=BQxpSQlYaBfpAuOiGTVf7CWhh3HV-fpceb15KFZVvbFQd1C-0eq2_KCcQCD0P_v5BxBZ2Ufbv9E6LgWjwzhHoQ%3D%3D",
+          "title": "PH Stock Price | Parker Hannifin Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ph?gaa_at=eafs&gaa_n=AWEtsqfVQTskOoFL91kZZqhuXYYPSi776mHoQb0PPIiT2zGUvXm193XtD3-_&gaa_ts=694204f7&gaa_sig=d5GVOy9TXVoTajZikL6aJaQuHsvR8uqVUCFdKxp9CHL2y4K5_rxUBuGRkl0qABJgO-tEkQFCwFS9TgMaXJbcsA%3D%3D",
+          "title": "PH Stock Price | Parker Hannifin Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ph?gaa_at=eafs&gaa_n=AWEtsqd8lSdSVeH4EuagwIt31W51J3Xb-u2qZ0LXELQDVmFAyWF08qQJ5DWK&gaa_ts=694c76e6&gaa_sig=Tk0bN8--rb_Gr6tui_ZtsI5XVY91iICs7ZkGdvO3DlFO5UosS9MYq0b0vTjA2YFCiwdQB0SYuddXikntxKHa3Q%3D%3D",
+          "title": "PH Stock Price | Parker Hannifin Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "reuters.com",
           "url": "https://www.reuters.com/markets/companies/PH/",
@@ -210,70 +274,6 @@
           "source": "ca.finance.yahoo.com",
           "url": "https://ca.finance.yahoo.com/quote/PH.MX/news/",
           "title": "Parker-Hannifin Corporation (PH.MX) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "uk.finance.yahoo.com",
-          "url": "https://uk.finance.yahoo.com/quote/PH/latest-news/",
-          "title": "Parker-Hannifin Corporation (PH) stock price, news, quote and history",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "sg.finance.yahoo.com",
-          "url": "https://sg.finance.yahoo.com/quote/PH.MX/news/",
-          "title": "Parker-Hannifin Corporation (PH.MX) latest stock news and headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/PH/news?page=8",
-          "title": "Page 8 | Parker-Hannifin Corporation (PH) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PH/research-reports/",
-          "title": "Parker-Hannifin Corporation (PH) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PH/",
-          "title": "Parker-Hannifin Corporation (PH) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PH/news/",
-          "title": "Parker-Hannifin Corporation (PH) Latest Stock News & Headlines - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/parker-hannifin-insiders-sell-us-120008968.html",
-          "title": "Parker-Hannifin Insiders Sell US$18m Of Stock, Possibly Signalling Caution",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/why-parker-hannifin-corporation-ph-212143169.html",
-          "title": "Here’s Why Parker-Hannifin Corporation (PH) is One of the Best Liquid Cooling Stocks to Buy for AI Data Centers",
           "sentiment": null,
           "impact": null
         }
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 59.05000000000001
+        },
+        {
+          "date": "2026-05-16",
+          "value": 59.30000000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

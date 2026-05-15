@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Llama 开源 + 自研 MTIA + 最大 AI capex 之一（自用）",
-    "price": 618.4299926757812,
-    "change_1d": 0.29,
+    "price": 614.22998046875,
+    "change_1d": -0.68,
     "composite": 64.4,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$618.43",
-        "日内涨跌": "+0.29%",
-        "1日涨跌": "+0.29%",
-        "5日涨跌": "+1.44%",
-        "1月涨跌": "-6.65%",
-        "3月涨跌": "-3.34%",
-        "6月涨跌": "+1.47%",
-        "1年涨跌": "-6.21%",
-        "YTD涨跌": "-4.92%",
-        "20日均线": "638.43",
-        "50日均线": "622.80",
-        "200日均线": "673.83",
-        "RSI 14": "47.08",
-        "MACD": "-6.63",
-        "20日波动率": "37.50%",
-        "成交量": "10,031,286",
-        "量比20日": "0.63",
+        "最新价": "$614.23",
+        "日内涨跌": "-0.68%",
+        "1日涨跌": "-0.68%",
+        "5日涨跌": "+0.75%",
+        "1月涨跌": "-8.54%",
+        "3月涨跌": "-3.99%",
+        "6月涨跌": "+0.78%",
+        "1年涨跌": "-4.60%",
+        "YTD涨跌": "-5.56%",
+        "20日均线": "634.71",
+        "50日均线": "621.87",
+        "200日均线": "673.42",
+        "RSI 14": "45.59",
+        "MACD": "-6.52",
+        "20日波动率": "36.63%",
+        "成交量": "12,639,380",
+        "量比20日": "0.80",
         "52周高点": "796.25",
         "52周低点": "520.26",
-        "距52周高点": "-22.33%",
-        "距52周低点": "+18.87%",
+        "距52周高点": "-22.86%",
+        "距52周低点": "+18.06%",
         "20日支撑": "592.60",
-        "20日压力": "691.52"
+        "20日压力": "683.38"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "2.20B",
         "ROE": "32.93%",
         "债务/权益": "0.06",
-        "市值": "$1.57T",
-        "企业价值": "$1.57T",
-        "市盈率 TTM": "22.49",
-        "预期市盈率": "17.09",
-        "市销率": "7.30",
-        "EV / 营收": "7.31",
-        "EV / EBITDA": "14.37",
-        "EV / FCF": "61.46",
-        "FCF 收益率": "1.63%",
+        "市值": "$1.56T",
+        "企业价值": "$1.58T",
+        "市盈率 TTM": "22.32",
+        "预期市盈率": "16.97",
+        "市销率": "7.25",
+        "EV / 营收": "7.33",
+        "EV / EBITDA": "14.41",
+        "EV / FCF": "61.64",
+        "FCF 收益率": "1.64%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 58 位分析师 · 2026-05-15 05:16:05",
+      "title_meta": "Yahoo Finance · 58 位分析师 · 2026-05-16 05:14:03",
       "data": {
         "target_mean": 826.69104,
         "target_high": 1015.0,
         "target_low": 614.0,
-        "upside_pct": 33.68,
+        "upside_pct": 34.59,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
         "previous_rating_letter": "A",
         "n_analysts": 58,
         "next_earnings": "2026-07-30",
-        "eps_estimate": 7.48333,
+        "eps_estimate": 7.50889,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/META",
+          "title": "Meta Platforms, Inc. (META) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/meta",
+          "title": "Meta Platforms Inc. Stock Quote (U.S.: Nasdaq) - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/META",
+          "title": "Meta Platforms Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/META.TO/",
+          "title": "Meta Platforms, Inc. (META.TO) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "sg.finance.yahoo.com",
@@ -230,50 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/META/news/",
-          "title": "Meta Platforms, Inc. (META) Latest Stock News & Headlines",
+          "date": "2026-05-15",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/the-global-memory-shortage-is-coming-for-nintendo-195727638.html",
+          "title": "The global memory shortage is coming for Nintendo",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/us/XNAS/META",
-          "title": "META | Meta Platforms Inc. Stock Price & News - WSJ",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/META/news?filter=&page=7",
-          "title": "Meta Platforms, Inc. (META) Latest Stock News | Seeking Alpha",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "sg.finance.yahoo.com",
-          "url": "https://sg.finance.yahoo.com/quote/META.VI/news/",
-          "title": "Meta Platforms, Inc. (META.VI) latest stock news and headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/META/",
-          "title": "Meta Platforms, Inc. (META) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/1FB.MI/news/",
-          "title": "Meta Platforms, Inc. (1FB.MI) Latest Stock News & Headlines ...",
+          "date": "2026-05-15",
+          "source": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/the-market-is-at-the-start-of-the-next-commodity-supercycle-carlyles-jeff-currie-says-181208277.html",
+          "title": "The market is at the start of the next commodity supercycle, Carlyle's Jeff Currie says",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 64.4
+        },
+        {
+          "date": "2026-05-16",
+          "value": 64.4
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

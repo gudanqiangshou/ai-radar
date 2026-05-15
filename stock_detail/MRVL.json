@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "定制 AI ASIC + 高速光网络（800G/1.6T DSP）",
-    "price": 182.5800018310547,
-    "change_1d": 2.6,
-    "composite": 52.763636363636365,
+    "price": 176.88999938964844,
+    "change_1d": -3.12,
+    "composite": 53.05909090909091,
     "tier_letter": "B",
     "description": [
       "Marvell Technology 的 AI 产业链位置为 Compute / GPU / ASIC。",
-      "AI 角色：定制 AI ASIC + 高速光网络（800G/1.6T DSP）。当前内部综合评分 52。",
+      "AI 角色：定制 AI ASIC + 高速光网络（800G/1.6T DSP）。当前内部综合评分 53。",
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$182.58",
-        "日内涨跌": "+2.60%",
-        "1日涨跌": "+2.60%",
-        "5日涨跌": "+7.32%",
-        "1月涨跌": "+36.43%",
-        "3月涨跌": "+132.26%",
-        "6月涨跌": "+111.20%",
-        "1年涨跌": "+177.06%",
-        "YTD涨跌": "+104.25%",
-        "20日均线": "162.74",
-        "50日均线": "126.17",
-        "200日均线": "92.75",
-        "RSI 14": "71.25",
-        "MACD": "13.95",
-        "20日波动率": "63.18%",
-        "成交量": "32,552,117",
-        "量比20日": "1.23",
+        "最新价": "$176.89",
+        "日内涨跌": "-3.12%",
+        "1日涨跌": "-3.12%",
+        "5日涨跌": "+3.97%",
+        "1月涨跌": "+31.42%",
+        "3月涨跌": "+125.02%",
+        "6月涨跌": "+104.62%",
+        "1年涨跌": "+171.30%",
+        "YTD涨跌": "+97.89%",
+        "20日均线": "164.60",
+        "50日均线": "128.19",
+        "200日均线": "93.23",
+        "RSI 14": "65.87",
+        "MACD": "13.63",
+        "20日波动率": "64.24%",
+        "成交量": "24,665,555",
+        "量比20日": "0.94",
         "52周高点": "192.15",
         "52周低点": "58.61",
-        "距52周高点": "-4.98%",
-        "距52周低点": "+211.52%",
-        "20日支撑": "133.16",
+        "距52周高点": "-7.94%",
+        "距52周低点": "+201.81%",
+        "20日支撑": "143.93",
         "20日压力": "192.15"
       }
     },
@@ -73,18 +73,18 @@
         "现金及短投": "$2.64B",
         "总债务": "$4.79B",
         "净现金/债务": "-$1.33B",
-        "流通股本": "874.46M",
+        "流通股本": "875.55M",
         "ROE": "19.25%",
         "债务/权益": "0.03",
-        "市值": "$159.66B",
-        "企业价值": "$157.73B",
-        "市盈率 TTM": "59.28",
-        "预期市盈率": "33.67",
-        "市销率": "19.48",
-        "EV / 营收": "19.25",
-        "EV / EBITDA": "59.99",
-        "EV / FCF": "109.33",
-        "FCF 收益率": "0.90%",
+        "市值": "$154.88B",
+        "企业价值": "$161.78B",
+        "市盈率 TTM": "57.62",
+        "预期市盈率": "32.61",
+        "市销率": "18.90",
+        "EV / 营收": "19.74",
+        "EV / EBITDA": "61.52",
+        "EV / FCF": "112.13",
+        "FCF 收益率": "0.93%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 59.09090909090909,
+          "value": 65.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 52.763636363636365,
+          "value": 53.05909090909091,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 39 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 39 位分析师 · 2026-05-16 05:14:01",
       "data": {
-        "target_mean": 130.28372,
-        "target_high": 195.0,
+        "target_mean": 137.05295,
+        "target_high": 210.0,
         "target_low": 85.0,
-        "upside_pct": -28.64,
+        "upside_pct": -22.52,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
         "previous_rating_letter": "A",
         "n_analysts": 39,
         "next_earnings": "2026-05-28",
-        "eps_estimate": 0.79663,
+        "eps_estimate": 0.78937,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -198,6 +198,46 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/MRVL.O/",
+          "title": "(MRVL.O) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MRVL.VI/news/",
+          "title": "Marvell Technology, Inc. (MRVL.VI) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MRVL.VI/",
+          "title": "Marvell Technology, Inc. (MRVL.VI) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-inc-mrvl-good-182304609.html",
+          "title": "Is Marvell Technology, Inc. (MRVL) A Good Stock To Buy Now?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-marvell-technology-mrvl-stock-002132163.html",
+          "title": "Why Is Marvell Technology (MRVL) Stock Soaring Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/MRVL/history/",
@@ -214,66 +254,26 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/MRVL",
-          "title": "Marvell Technology, Inc. (MRVL) Stock Price, Quote, News & Analysis",
+          "date": "2026-05-15",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/market-trend/stock-market-today/stock-market-today-dow-jones-sp500-nasdaq-oil-prices-yields-applied-materials-nvidia-cerebras-ipo/?src=A00220&yptr=yahoo",
+          "title": "Stock Market Today: Dow Loses 500 Points As Yields, Oil Rally; Nvidia Falls (Live Coverage)",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/MRVL",
-          "title": "MRVL: Marvell Technology Inc - Stock Price, Quote and News - CNBC",
+          "date": "2026-05-15",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-ai-partnerships-amd-google-202005552.html",
+          "title": "Marvell’s AI Partnerships With AMD Google And Amazon Test Lofty Valuation",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/MRVL/",
-          "title": "Marvell Technology, Inc. (MRVL) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/MRVL/news/",
-          "title": "Marvell Technology, Inc. (MRVL) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/MRVL/news?page=23",
-          "title": "Marvell Technology, Inc. (MRVL) Latest Stock News | Seeking Alpha",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/MRVL/news?p=MRVL&ncid=yahooproperties_stockrecom_g40boan2td8",
-          "title": "Marvell Technology, Inc. (MRVL) Latest Stock News & Headlines - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/mrvl",
-          "title": "Marvell Technology Inc. Stock Quote (U.S. - MRVL - MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
+          "date": "2026-05-15",
           "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/14/micron-is-up-698-in-a-year-these-3-stocks-under-15-ride-the-same-ai-memory-wave-before-wall-street-notices/",
-          "title": "Micron Is Up 698% in a Year. These 3 Stocks Under $15 Ride the Same AI Memory Wave Before Wall Street Notices",
+          "url": "https://247wallst.com/investing/2026/05/15/this-tiny-ai-stock-is-suddenly-getting-massive-attention/",
+          "title": "This Tiny AI Stock Is Suddenly Getting Massive Attention",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 52.763636363636365
+        },
+        {
+          "date": "2026-05-16",
+          "value": 53.05909090909091
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

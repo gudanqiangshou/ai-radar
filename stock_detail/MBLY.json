@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "ADAS / 自动驾驶视觉芯片 — Intel 系",
-    "price": 10.380000114440918,
-    "change_1d": -1.42,
-    "composite": 57.85000000000001,
+    "price": 10.020000457763672,
+    "change_1d": -3.47,
+    "composite": 57.01666666666667,
     "tier_letter": "B",
     "description": [
       "Mobileye 的 AI 产业链位置为 Autonomous / Mobility。",
@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:06",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$10.38",
-        "日内涨跌": "-1.42%",
-        "1日涨跌": "-1.42%",
-        "5日涨跌": "+12.95%",
-        "1月涨跌": "+36.22%",
-        "3月涨跌": "+12.95%",
-        "6月涨跌": "-15.75%",
-        "1年涨跌": "-37.92%",
-        "YTD涨跌": "-7.57%",
-        "20日均线": "8.89",
-        "50日均线": "8.05",
-        "200日均线": "11.16",
-        "RSI 14": "74.48",
-        "MACD": "0.53",
-        "20日波动率": "68.71%",
-        "成交量": "7,727,962",
-        "量比20日": "1.05",
+        "最新价": "$10.02",
+        "日内涨跌": "-3.47%",
+        "1日涨跌": "-3.47%",
+        "5日涨跌": "+9.03%",
+        "1月涨跌": "+29.79%",
+        "3月涨跌": "+9.03%",
+        "6月涨跌": "-18.67%",
+        "1年涨跌": "-37.14%",
+        "YTD涨跌": "-10.77%",
+        "20日均线": "9.00",
+        "50日均线": "8.09",
+        "200日均线": "11.14",
+        "RSI 14": "67.09",
+        "MACD": "0.54",
+        "20日波动率": "70.91%",
+        "成交量": "5,272,676",
+        "量比20日": "0.72",
         "52周高点": "20.18",
         "52周低点": "6.47",
-        "距52周高点": "-48.56%",
-        "距52周低点": "+60.43%",
+        "距52周高点": "-50.35%",
+        "距52周低点": "+54.87%",
         "20日支撑": "7.80",
         "20日压力": "10.81"
       }
@@ -76,15 +76,15 @@
         "流通股本": "244.42M",
         "ROE": "-40.65%",
         "债务/权益": "0.01",
-        "市值": "$8.74B",
-        "企业价值": "$7.59B",
+        "市值": "$8.44B",
+        "企业价值": "$7.46B",
         "市盈率 TTM": "—",
-        "预期市盈率": "28.81",
-        "市销率": "4.34",
-        "EV / 营收": "3.77",
-        "EV / EBITDA": "-26.34",
-        "EV / FCF": "12.82",
-        "FCF 收益率": "6.77%",
+        "预期市盈率": "27.81",
+        "市销率": "4.19",
+        "EV / 营收": "3.70",
+        "EV / EBITDA": "-25.90",
+        "EV / FCF": "12.61",
+        "FCF 收益率": "7.01%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 80.0,
+          "value": 73.33333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 66.66666666666669,
+          "value": 63.33333333333334,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 57.85000000000001,
+          "value": 57.01666666666667,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 28 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 28 位分析师 · 2026-05-16 05:14:06",
       "data": {
         "target_mean": 13.425,
         "target_high": 27.0,
         "target_low": 8.5,
-        "upside_pct": 29.34,
+        "upside_pct": 33.98,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,54 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/article/4888381-mobileye-stuck-in-neutral",
+          "title": "Mobileye Stock: Stuck In Neutral (NASDAQ:MBLY) | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "robinhood.com",
+          "url": "https://robinhood.com/us/en/stocks/MBLY/",
+          "title": "Mobileye Global: MBLY Stock Price Quote & News | Robinhood",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/MBLY.MX/latest-news/",
+          "title": "MOBILEYE GLOBAL INC (MBLY.MX) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "kraken.com",
+          "url": "https://www.kraken.com/stocks/mbly",
+          "title": "Mobileye Global (MBLY) Stock price today - quote & chart",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/mobileye-global-mbly-down-6-151049744.html",
+          "title": "Mobileye Global (MBLY) Is Down 6.1% After 2026 “Transition Year ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ir.mobileye.com",
+          "url": "https://ir.mobileye.com/",
+          "title": "Mobileye | Investor Relations",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/MBLY/hiring-trends/",
@@ -222,58 +270,10 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-mobileye-mbly-shares-soaring-101323110.html",
-          "title": "Why Are Mobileye (MBLY) Shares Soaring Today",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/MBLY",
-          "title": "MBLY: Mobileye Global Inc - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/MBLY/news?page=3",
-          "title": "Mobileye Global Inc. (MBLY) Latest Stock News | Seeking Alpha",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/MBLY/news/",
-          "title": "Mobileye Global Inc. (MBLY) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "barrons.com",
-          "url": "https://www.barrons.com/market-data/stocks/mbly",
-          "title": "MBLY | Mobileye Global Inc. Cl A Stock Overview (U.S. - Barron's",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/MBLY.MX/news/",
-          "title": "MOBILEYE GLOBAL INC (MBLY.MX) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/markets/companies/MBLY.O/profile/",
-          "title": "(MBLY.O) | Stock Price & Latest News | Reuters",
+          "date": "2026-05-15",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/westports-q1-earnings-beat-estimates-135900390.html",
+          "title": "Westport's Q1 Earnings Beat Estimates on Cespira HPDI Demand Strength",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 57.85000000000001
+        },
+        {
+          "date": "2026-05-16",
+          "value": 57.01666666666667
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

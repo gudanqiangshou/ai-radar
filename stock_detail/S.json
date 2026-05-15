@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "Singularity AI 自治安全 — 端点替代赛道",
-    "price": 16.510000228881836,
-    "change_1d": 2.67,
-    "composite": 39.42777777777778,
+    "price": 16.860000610351562,
+    "change_1d": 2.12,
+    "composite": 39.59444444444444,
     "tier_letter": "C",
     "description": [
       "SentinelOne 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "减持"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$16.51",
-        "日内涨跌": "+2.67%",
-        "1日涨跌": "+2.67%",
-        "5日涨跌": "-0.48%",
-        "1月涨跌": "+29.49%",
-        "3月涨跌": "+19.03%",
-        "6月涨跌": "-1.67%",
-        "1年涨跌": "-18.43%",
-        "YTD涨跌": "+12.77%",
-        "20日均线": "15.13",
-        "50日均线": "14.21",
-        "200日均线": "15.60",
-        "RSI 14": "64.07",
-        "MACD": "0.68",
-        "20日波动率": "46.71%",
-        "成交量": "5,368,198",
-        "量比20日": "0.81",
+        "最新价": "$16.86",
+        "日内涨跌": "+2.12%",
+        "1日涨跌": "+2.12%",
+        "5日涨跌": "+1.63%",
+        "1月涨跌": "+27.15%",
+        "3月涨跌": "+21.56%",
+        "6月涨跌": "+0.42%",
+        "1年涨跌": "-16.20%",
+        "YTD涨跌": "+15.16%",
+        "20日均线": "15.27",
+        "50日均线": "14.26",
+        "200日均线": "15.59",
+        "RSI 14": "66.24",
+        "MACD": "0.73",
+        "20日波动率": "46.90%",
+        "成交量": "7,975,462",
+        "量比20日": "1.18",
         "52周高点": "21.40",
         "52周低点": "11.81",
-        "距52周高点": "-22.85%",
-        "距52周低点": "+39.80%",
+        "距52周高点": "-21.21%",
+        "距52周低点": "+42.76%",
         "20日支撑": "13.52",
-        "20日压力": "16.72"
+        "20日压力": "17.38"
       }
     },
     {
@@ -73,18 +73,18 @@
         "现金及短投": "$628.67M",
         "总债务": "$15.00M",
         "净现金/债务": "—",
-        "流通股本": "333.98M",
+        "流通股本": "335.18M",
         "ROE": "-29.02%",
         "债务/权益": "0.00",
-        "市值": "$5.62B",
-        "企业价值": "$4.86B",
+        "市值": "$5.76B",
+        "企业价值": "$5.00B",
         "市盈率 TTM": "—",
-        "预期市盈率": "34.62",
-        "市销率": "5.61",
-        "EV / 营收": "4.85",
-        "EV / EBITDA": "-18.12",
-        "EV / FCF": "17.11",
-        "FCF 收益率": "5.05%",
+        "预期市盈率": "35.36",
+        "市销率": "5.75",
+        "EV / 营收": "5.00",
+        "EV / EBITDA": "-18.66",
+        "EV / FCF": "17.63",
+        "FCF 收益率": "4.93%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 61.66666666666666,
+          "value": 64.99999999999999,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 39.42777777777778,
+          "value": 39.59444444444444,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 34 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 34 位分析师 · 2026-05-16 05:14:05",
       "data": {
         "target_mean": 18.5,
         "target_high": 26.0,
         "target_low": 14.0,
-        "upside_pct": 12.05,
+        "upside_pct": 9.73,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/S1.MX/news/",
+          "title": "SENTINELONE INC (S1.MX) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sentinelone-one-best-mid-cap-144320009.html",
+          "title": "SentinelOne (S) is One of the Best Mid-Cap Growth Stocks to Invest in, Here is Why",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -260,22 +276,6 @@
           "title": "SentinelOne, Inc. (S) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/S",
-          "title": "SentinelOne, Inc. (S) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/sentinelone-beats-stock-market-upswing-230004748.html",
-          "title": "SentinelOne (S) Beats Stock Market Upswing: What Investors Need ...",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 39.42777777777778
+        },
+        {
+          "date": "2026-05-16",
+          "value": 39.59444444444444
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

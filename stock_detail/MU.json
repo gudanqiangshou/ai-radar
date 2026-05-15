@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股",
-    "price": 776.010009765625,
-    "change_1d": -3.44,
-    "composite": 67.725,
+    "price": 724.6599731445312,
+    "change_1d": -6.62,
+    "composite": 65.725,
     "tier_letter": "A",
     "description": [
       "Micron Technology 的 AI 产业链位置为 Memory / Storage。",
-      "AI 角色：HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股。当前内部综合评分 67。",
+      "AI 角色：HBM3E 进入 NVIDIA 供应链，DRAM + NAND 三巨头唯一美股。当前内部综合评分 65。",
       "Memory / Storage 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$776.01",
-        "日内涨跌": "-3.44%",
-        "1日涨跌": "-3.44%",
-        "5日涨跌": "+3.91%",
-        "1月涨跌": "+66.65%",
-        "3月涨跌": "+88.51%",
-        "6月涨跌": "+214.39%",
-        "1年涨跌": "+714.11%",
-        "YTD涨跌": "+146.02%",
-        "20日均线": "592.19",
-        "50日均线": "479.69",
-        "200日均线": "304.08",
-        "RSI 14": "75.62",
-        "MACD": "92.16",
-        "20日波动率": "83.39%",
-        "成交量": "42,112,651",
-        "量比20日": "0.90",
+        "最新价": "$724.66",
+        "日内涨跌": "-6.62%",
+        "1日涨跌": "-6.62%",
+        "5日涨跌": "-2.97%",
+        "1月涨跌": "+58.84%",
+        "3月涨跌": "+76.03%",
+        "6月涨跌": "+193.59%",
+        "1年涨跌": "+659.20%",
+        "YTD涨跌": "+129.74%",
+        "20日均线": "605.66",
+        "50日均线": "486.24",
+        "200日均线": "307.13",
+        "RSI 14": "66.28",
+        "MACD": "88.42",
+        "20日波动率": "89.24%",
+        "成交量": "47,015,490",
+        "量比20日": "0.99",
         "52周高点": "818.67",
         "52周低点": "90.93",
-        "距52周高点": "-5.21%",
-        "距52周低点": "+753.41%",
+        "距52周高点": "-11.48%",
+        "距52周低点": "+696.94%",
         "20日支撑": "435.90",
         "20日压力": "818.67"
       }
@@ -76,15 +76,15 @@
         "流通股本": "1.13B",
         "ROE": "39.82%",
         "债务/权益": "0.01",
-        "市值": "$875.13B",
-        "企业价值": "$902.49B",
-        "市盈率 TTM": "36.57",
-        "预期市盈率": "7.62",
-        "市销率": "15.06",
-        "EV / 营收": "15.53",
-        "EV / EBITDA": "24.52",
-        "EV / FCF": "311.90",
-        "FCF 收益率": "0.33%",
+        "市值": "$817.22B",
+        "企业价值": "$871.34B",
+        "市盈率 TTM": "34.20",
+        "预期市盈率": "7.06",
+        "市销率": "14.06",
+        "EV / 营收": "14.99",
+        "EV / EBITDA": "23.68",
+        "EV / FCF": "301.14",
+        "FCF 收益率": "0.35%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 82.5,
+          "value": 42.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 67.725,
+          "value": 65.725,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,17 +167,17 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 42 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 41 位分析师 · 2026-05-16 05:14:01",
       "data": {
-        "target_mean": 573.9048,
+        "target_mean": 584.2439,
         "target_high": 1000.0,
         "target_low": 249.0,
-        "upside_pct": -26.04,
+        "upside_pct": -19.38,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
         "previous_rating_letter": "A",
-        "n_analysts": 42,
+        "n_analysts": 41,
         "next_earnings": "2026-06-25",
         "eps_estimate": 18.97141,
         "revenue_estimate": null
@@ -197,6 +197,14 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MU/history/",
+          "title": "Micron Technology, Inc. (MU) Stock Historical Prices & Data",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "marketwatch.com",
@@ -254,26 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/MU/news/",
-          "title": "Micron Technology, Inc. (MU) Latest Stock News & Headlines",
+          "date": "2026-05-15",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/memory-chip-stock-etf-sandisk-micron-a7f40b97?siteid=yhoof2&yptr=yahoo",
+          "title": "This Memory Chip ETF Is Off the Charts. The Chip Stock Boom Is Only Part of It.",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/MU.NE/news/",
-          "title": "Micron Technology, Inc. (MU.NE) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/mu?ref=sa-stock",
-          "title": "Micron Technology, Inc. (MU) Stock Price, News, Quote & History ...",
+          "date": "2026-05-15",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/sandisk-insiders-stock-sales-4d6134a2?siteid=yhoof2&yptr=yahoo",
+          "title": "SanDisk Stock Is Up 494% This Year. Insiders Are Cashing In on the AI-Fueled Surge.",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 67.725
+        },
+        {
+          "date": "2026-05-16",
+          "value": 65.725
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

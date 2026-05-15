@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "可再生能源龙头 + 大型科技公司长期 PPA",
-    "price": 95.68000030517578,
-    "change_1d": 0.88,
-    "composite": 64.90285714285714,
+    "price": 93.36000061035156,
+    "change_1d": -2.42,
+    "composite": 65.1052380952381,
     "tier_letter": "B",
     "description": [
       "NextEra Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：可再生能源龙头 + 大型科技公司长期 PPA。当前内部综合评分 64。",
+      "AI 角色：可再生能源龙头 + 大型科技公司长期 PPA。当前内部综合评分 65。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:00",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$95.68",
-        "日内涨跌": "+0.88%",
-        "1日涨跌": "+0.88%",
-        "5日涨跌": "+2.77%",
-        "1月涨跌": "+4.79%",
-        "3月涨跌": "+2.00%",
-        "6月涨跌": "+14.07%",
-        "1年涨跌": "+32.54%",
-        "YTD涨跌": "+18.23%",
-        "20日均线": "94.50",
-        "50日均线": "93.05",
-        "200日均线": "84.16",
-        "RSI 14": "55.22",
-        "MACD": "0.60",
-        "20日波动率": "34.47%",
-        "成交量": "4,039,994",
-        "量比20日": "0.47",
+        "最新价": "$93.36",
+        "日内涨跌": "-2.42%",
+        "1日涨跌": "-2.42%",
+        "5日涨跌": "+0.28%",
+        "1月涨跌": "+2.32%",
+        "3月涨跌": "-0.47%",
+        "6月涨跌": "+11.30%",
+        "1年涨跌": "+25.23%",
+        "YTD涨跌": "+15.36%",
+        "20日均线": "94.57",
+        "50日均线": "93.09",
+        "200日均线": "84.28",
+        "RSI 14": "47.56",
+        "MACD": "0.44",
+        "20日波动率": "35.73%",
+        "成交量": "11,262,910",
+        "量比20日": "1.27",
         "52周高点": "98.75",
         "52周低点": "63.88",
-        "距52周高点": "-3.11%",
-        "距52周低点": "+49.78%",
+        "距52周高点": "-5.46%",
+        "距52周低点": "+46.15%",
         "20日支撑": "89.90",
         "20日压力": "98.75"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$91.95B",
         "流通股本": "2.09B",
         "ROE": "10.32%",
-        "债务/权益": "0.52",
-        "市值": "$199.53B",
-        "企业价值": "$311.61B",
-        "市盈率 TTM": "24.28",
-        "预期市盈率": "21.79",
-        "市销率": "7.16",
-        "EV / 营收": "11.18",
-        "EV / EBITDA": "22.01",
-        "EV / FCF": "-16.89",
-        "FCF 收益率": "-9.25%",
+        "债务/权益": "0.54",
+        "市值": "$194.69B",
+        "企业价值": "$313.34B",
+        "市盈率 TTM": "23.70",
+        "预期市盈率": "21.26",
+        "市销率": "6.99",
+        "EV / 营收": "11.24",
+        "EV / EBITDA": "22.13",
+        "EV / FCF": "-16.98",
+        "FCF 收益率": "-9.48%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 49.04761904761906,
+          "value": 53.095238095238095,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 64.90285714285714,
+          "value": 65.1052380952381,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-15 05:16:02",
+      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-16 05:14:00",
       "data": {
-        "target_mean": 98.93,
+        "target_mean": 99.15727,
         "target_high": 112.0,
         "target_low": 55.0,
-        "upside_pct": 3.4,
+        "upside_pct": 6.21,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 22,
         "next_earnings": "2026-07-22",
-        "eps_estimate": 1.0881,
+        "eps_estimate": 1.08469,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,14 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/nee",
+          "title": "NEE | NextEra Energy Inc. Stock Overview (U.S.: NYSE) | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -246,6 +254,14 @@
           "impact": null
         },
         {
+          "date": "2026-05-14",
+          "source": "GuruFocus.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/robert-bruces-strategic-moves-closer-210512712.html",
+          "title": "Robert Bruce's Strategic Moves: A Closer Look at Beta Bionics Inc's Impactful Addition",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-13",
           "source": "ca.finance.yahoo.com",
           "url": "https://ca.finance.yahoo.com/quote/NEE-PT/news/",
@@ -258,22 +274,6 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/NEE.NE/",
           "title": "NextEra Energy, Inc. (NEE.NE) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/NEE/",
-          "title": "NextEra Energy, Inc. (NEE) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/nee",
-          "title": "NextEra Energy Inc. Stock Quote (U.S.: NYSE) - NEE - MarketWatch",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 64.90285714285714
+        },
+        {
+          "date": "2026-05-16",
+          "value": 65.1052380952381
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

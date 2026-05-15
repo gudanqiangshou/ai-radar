@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "AIP 企业 AI 平台 — 政府 + 大型企业用 AI 决策",
-    "price": 133.72999572753906,
-    "change_1d": 2.83,
-    "composite": 65.10000000000001,
+    "price": 133.99000549316406,
+    "change_1d": 0.19,
+    "composite": 64.48636363636363,
     "tier_letter": "A",
     "description": [
       "Palantir Technologies 的 AI 产业链位置为 AI Application。",
-      "AI 角色：AIP 企业 AI 平台 — 政府 + 大型企业用 AI 决策。当前内部综合评分 65。",
+      "AI 角色：AIP 企业 AI 平台 — 政府 + 大型企业用 AI 决策。当前内部综合评分 64。",
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:04",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$133.73",
-        "日内涨跌": "+2.83%",
-        "1日涨跌": "+2.83%",
-        "5日涨跌": "-2.95%",
-        "1月涨跌": "-1.45%",
-        "3月涨跌": "+1.77%",
-        "6月涨跌": "-23.15%",
-        "1年涨跌": "+2.73%",
-        "YTD涨跌": "-20.33%",
-        "20日均线": "140.41",
-        "50日均线": "144.78",
-        "200日均线": "163.48",
-        "RSI 14": "43.15",
-        "MACD": "-2.79",
-        "20日波动率": "49.71%",
-        "成交量": "36,888,598",
-        "量比20日": "0.82",
+        "最新价": "$133.99",
+        "日内涨跌": "+0.19%",
+        "1日涨跌": "+0.19%",
+        "5日涨跌": "-2.76%",
+        "1月涨跌": "-5.74%",
+        "3月涨跌": "+1.96%",
+        "6月涨跌": "-23.00%",
+        "1年涨跌": "+4.58%",
+        "YTD涨跌": "-20.18%",
+        "20日均线": "139.79",
+        "50日均线": "144.40",
+        "200日均线": "163.35",
+        "RSI 14": "43.48",
+        "MACD": "-2.81",
+        "20日波动率": "48.62%",
+        "成交量": "32,292,176",
+        "量比20日": "0.73",
         "52周高点": "207.52",
         "52周低点": "118.93",
-        "距52周高点": "-35.56%",
-        "距52周低点": "+12.44%",
+        "距52周高点": "-35.43%",
+        "距52周低点": "+12.66%",
         "20日支撑": "128.75",
         "20日压力": "152.68"
       }
@@ -76,14 +76,14 @@
         "流通股本": "2.30B",
         "ROE": "32.59%",
         "债务/权益": "0.00",
-        "市值": "$320.59B",
-        "企业价值": "$304.06B",
-        "市盈率 TTM": "151.97",
-        "预期市盈率": "64.77",
-        "市销率": "61.37",
-        "EV / 营收": "58.20",
-        "EV / EBITDA": "150.66",
-        "EV / FCF": "173.45",
+        "市值": "$321.22B",
+        "企业价值": "$312.88B",
+        "市盈率 TTM": "148.88",
+        "预期市盈率": "64.90",
+        "市销率": "61.49",
+        "EV / 营收": "59.89",
+        "EV / EBITDA": "155.03",
+        "EV / FCF": "178.49",
         "FCF 收益率": "0.55%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 69.0909090909091,
+          "value": 56.81818181818182,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 65.10000000000001,
+          "value": 64.48636363636363,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 27 位分析师 · 2026-05-15 05:16:06",
+      "title_meta": "Yahoo Finance · 27 位分析师 · 2026-05-16 05:14:04",
       "data": {
         "target_mean": 183.7289,
         "target_high": 255.0,
         "target_low": 70.0,
-        "upside_pct": 37.39,
+        "upside_pct": 37.12,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,30 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/PLTR.BA/news/",
+          "title": "Palantir Technologies Inc. (PLTR.BA) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/PLTR.MX/news/",
+          "title": "Palantir Technologies Inc. (PLTR.MX) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/palantir-growing-jaw-dropping-rate-180500959.html",
+          "title": "Palantir Is Growing at a Jaw-Dropping Rate, but Is the Stock a Buy?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/PLTR/latest-news/",
@@ -214,66 +238,42 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/pltr",
-          "title": "Palantir Technologies Inc. Stock Quote (U.S. - PLTR - MarketWatch",
+          "date": "2026-05-15",
+          "source": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/05/15/where-will-palantir-stock-be-in-5-years/",
+          "title": "Where Will Palantir Stock Be in 5 Years?",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PLTR/news/",
-          "title": "Palantir Technologies Inc. (PLTR) Latest Stock News & Headlines",
+          "date": "2026-05-15",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/15/microsoft-vs-palantir-two-ai-plays-one-winner/",
+          "title": "Microsoft vs Palantir: Two AI Plays, One Winner",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PLTR/history/",
-          "title": "Palantir Technologies Inc. (PLTR) Stock Historical Prices & Data",
+          "date": "2026-05-15",
+          "source": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/05/15/this-tech-stock-has-outperformed-the-nasdaq-3-year/",
+          "title": "This Tech Stock Has Outperformed the Nasdaq 3 Years Running, but Is Down 25% in 2026. Is Now the Time to Buy?",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PLTR/",
-          "title": "Palantir Technologies Inc. (PLTR) Stock Price, News, Quote & History",
+          "date": "2026-05-15",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/15/this-will-be-palantir-technologies-stock-price-in-2030/",
+          "title": "This Will Be Palantir Technologies Stock Price in 2030",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/PLTR",
-          "title": "PLTR: Palantir Technologies Inc - Stock Price, Quote and News",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "nz.finance.yahoo.com",
-          "url": "https://nz.finance.yahoo.com/quote/PLTR/latest-news/",
-          "title": "Palantir Technologies Inc. (PLTR) stock price, news, quote and history",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/PLTR",
-          "title": "Palantir Technologies Inc. (PLTR) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/PLTR.MX/news/",
-          "title": "Palantir Technologies Inc. (PLTR.MX) Latest Stock News ...",
+          "date": "2026-05-15",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exploring-us-high-growth-tech-113821331.html",
+          "title": "Exploring US High Growth Tech Stocks This May 2026",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 65.10000000000001
+        },
+        {
+          "date": "2026-05-16",
+          "value": 64.48636363636363
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

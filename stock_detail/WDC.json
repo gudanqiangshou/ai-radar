@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "企业级 NAND/HDD — AI 训练数据存储受益",
-    "price": 489.1499938964844,
-    "change_1d": -1.0,
-    "composite": 56.1,
+    "price": 482.0199890136719,
+    "change_1d": -1.46,
+    "composite": 57.225,
     "tier_letter": "C",
     "description": [
       "Western Digital 的 AI 产业链位置为 Memory / Storage。",
-      "AI 角色：企业级 NAND/HDD — AI 训练数据存储受益。当前内部综合评分 56。",
+      "AI 角色：企业级 NAND/HDD — AI 训练数据存储受益。当前内部综合评分 57。",
       "Memory / Storage 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$489.15",
-        "日内涨跌": "-1.00%",
-        "1日涨跌": "-1.00%",
-        "5日涨跌": "+1.91%",
-        "1月涨跌": "+33.57%",
-        "3月涨跌": "+73.72%",
-        "6月涨跌": "+209.92%",
-        "1年涨跌": "+894.21%",
-        "YTD涨跌": "+160.60%",
-        "20日均线": "435.98",
-        "50日均线": "354.09",
-        "200日均线": "209.55",
-        "RSI 14": "69.14",
-        "MACD": "42.02",
-        "20日波动率": "52.58%",
-        "成交量": "4,791,536",
-        "量比20日": "0.60",
+        "最新价": "$482.02",
+        "日内涨跌": "-1.46%",
+        "1日涨跌": "-1.46%",
+        "5日涨跌": "+0.42%",
+        "1月涨跌": "+32.06%",
+        "3月涨跌": "+71.18%",
+        "6月涨跌": "+205.40%",
+        "1年涨跌": "+868.88%",
+        "YTD涨跌": "+156.80%",
+        "20日均线": "441.46",
+        "50日均线": "358.54",
+        "200日均线": "211.61",
+        "RSI 14": "66.46",
+        "MACD": "40.19",
+        "20日波动率": "53.35%",
+        "成交量": "6,995,293",
+        "量比20日": "0.87",
         "52周高点": "525.15",
-        "52周低点": "48.58",
-        "距52周高点": "-6.86%",
-        "距52周低点": "+906.90%",
-        "20日支撑": "366.18",
+        "52周低点": "48.81",
+        "距52周高点": "-8.21%",
+        "距52周低点": "+887.54%",
+        "20日支撑": "366.40",
         "20日压力": "525.15"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "344.68M",
         "ROE": "85.92%",
         "债务/权益": "0.01",
-        "市值": "$168.60B",
-        "企业价值": "$168.79B",
-        "市盈率 TTM": "29.29",
-        "预期市盈率": "28.08",
-        "市销率": "14.32",
-        "EV / 营收": "14.33",
-        "EV / EBITDA": "42.97",
-        "EV / FCF": "81.35",
-        "FCF 收益率": "1.23%",
+        "市值": "$166.14B",
+        "企业价值": "$167.09B",
+        "市盈率 TTM": "28.81",
+        "预期市盈率": "27.67",
+        "市销率": "14.11",
+        "EV / 营收": "14.19",
+        "EV / EBITDA": "42.54",
+        "EV / FCF": "80.52",
+        "FCF 收益率": "1.25%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 0.0,
+          "value": 22.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 56.1,
+          "value": 57.225,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 23 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 23 位分析师 · 2026-05-16 05:14:01",
       "data": {
-        "target_mean": 497.3913,
+        "target_mean": 505.0,
         "target_high": 660.0,
         "target_low": 360.0,
-        "upside_pct": 1.68,
+        "upside_pct": 4.77,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,70 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/wdc?gaa_at=eafs&gaa_n=AWEtsqep7_uGwgvav0rbRhDVwC9h5006E5OA-WT60-gZnLNRvm5CksD7sSoS&gaa_ts=697b073a&gaa_sig=gEgCN0QQIjylmWcpOxo8YWBTS24mXfKcmivuXa7C9GcRAMKB85F4vs6YA0gkeYldBGAEd6qJuOxWhOtqK02ZPw%3D%3D",
+          "title": "WDC Stock Price | Western Digital Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/wdc?gaa_at=eafs&gaa_n=AWEtsqd7e2u6L1mCFudx8linIR2JH69eWBEZ2Guk_xbx9Cw2QdtAnpLhppQy&gaa_ts=697d2f54&gaa_sig=UzxcisAzpQSFn5jFY9J19iBZTR1nDpwZfy955vpiOyPdt_8KKGpJg4ktM6tim3Ky3GUVf5s8BIM6ukNZ_ZmgCQ%3D%3D",
+          "title": "WDC Stock Price | Western Digital Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/wdc?gaa_at=eafs&gaa_n=AWEtsqfvFxd0Ln-5YO55yFQ9uQT4EeEvZckfM6Pyi4dn-L6VTlS7FKmI5psQ&gaa_ts=697c0bb8&gaa_sig=icu7Ewl5fjS3ebW_DxbW9fGxdhxRIUo5IwH3W3NDPFPcoijUExyLb7ZEnPN7G2KyDn7r205geVOwT7-kDQXiNA%3D%3D",
+          "title": "WDC Stock Price | Western Digital Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/wdc?gaa_at=eafs&gaa_n=AWEtsqfwGmlHPfM6rW2Maeyq2JPQxqm3zBKJcuomgijh4a4p5GU9G-3OAOWy&gaa_ts=697a41d9&gaa_sig=kUlIFklx_MZduHEr3Lnx6LqfIV2Zgc01-2J4PhKTGMlMiW5LVJk4WsuVmw2JY47mfvYH1m17HlwzBQKQ7l7kWg%3D%3D",
+          "title": "WDC Stock Price | Western Digital Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/wdc?gaa_at=eafs&gaa_n=AWEtsqcPPLtNc-ptRoEutWhgYn1tgHWCJvk0s-jixsUKnBZt6hJbgWVnrjSs&gaa_ts=697b6c5b&gaa_sig=NQsPqOaqHpUI3p-xYTDWO9CPM3grbJz39OAZP_dxOrdQgwixlqLm5bJEpXU3R-HzYZMfi54HSiwA-JMCU1i6kg%3D%3D",
+          "title": "WDC Stock Price | Western Digital Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/wdc?gaa_at=eafs&gaa_n=AWEtsqdjY1aPeI-ZcS3G8E1JiTGyMNjozGcAZpU2AM8Jlk7PUWtftUA2KVF4&gaa_ts=697bf975&gaa_sig=9zH7YK4_5vhzrBaPt0t2tittGT84tKkTToJd4O-6AUKfxszXJQduvEIoCIHODsX895U--pxejVzCOPknL71TYQ%3D%3D",
+          "title": "WDC Stock Price | Western Digital Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/wdc?gaa_at=eafs&gaa_n=AWEtsqe6uz-SzjLTiAPfCGWMI-qFjRdkcIhi_k6FAAH58q2u4K4grkPnEoqK&gaa_ts=6984479a&gaa_sig=YcLg99fwQBGSYK-sJq6acExy9apjbQ3rhEL_XI4DxOShd2HUaDdfUV7pB-LfdoZxG8sQM7jZ_3Ol8dvIKDIDzg%3D%3D",
+          "title": "WDC Stock Price | Western Digital Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/wdc?gaa_at=eafs&gaa_n=AWEtsqc-0vLSQOZ8Mxky3wPS_E-1iSlapJ5YpVrIOGFQusriRvUQQZDQOztl&gaa_ts=697b6a0f&gaa_sig=GJipfmfep8z59cL_V86K7AU3adgdbyCok7w0tOzQfO5XW01KsMbg-21DiHokLT9Tcnsgxj6_Tq0gXLWgygGDVw%3D%3D",
+          "title": "WDC Stock Price | Western Digital Corp. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "sg.finance.yahoo.com",
           "url": "https://sg.finance.yahoo.com/quote/WDC.SG/news/",
@@ -210,70 +274,6 @@
           "source": "sg.finance.yahoo.com",
           "url": "https://sg.finance.yahoo.com/quote/WDC.DU/news/",
           "title": "Western Digital Corp (WDC.DU) latest stock news and headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/WDC.F/news/",
-          "title": "Western Digital Corporation (WDC.F) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/markets/companies/WDC.O/profile/",
-          "title": "(WDC.O) | Stock Price & Latest News | Reuters",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/WDC/news/",
-          "title": "Western Digital Corporation (WDC) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/WDC.VI/news/",
-          "title": "Western Digital Corporation (WDC.VI) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/WDC.HM/news/",
-          "title": "Western Digital Corp (WDC.HM) Latest Stock News & Headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/WDC/latest-news/",
-          "title": "Western Digital Corporation (WDC) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/WDC",
-          "title": "WDC Western Digital Corporation Stock Price & Overview",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/WDC/news?page=25",
-          "title": "Page 25 | Western Digital Corporation (WDC) Latest Stock News ...",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 56.1
+        },
+        {
+          "date": "2026-05-16",
+          "value": 57.225
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

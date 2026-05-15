@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 2,
     "ai_role": "量测 / 缺陷检测垄断 — 先进制程良率把关",
-    "price": 1892.93994140625,
-    "change_1d": 2.34,
+    "price": 1804.3199462890625,
+    "change_1d": -4.68,
     "composite": 67.33571428571429,
     "tier_letter": "B",
     "description": [
@@ -19,7 +19,7 @@
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:02",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$1,892.94",
-        "日内涨跌": "+2.34%",
-        "1日涨跌": "+2.34%",
-        "5日涨跌": "+1.27%",
-        "1月涨跌": "+5.40%",
-        "3月涨跌": "+29.29%",
-        "6月涨跌": "+66.88%",
-        "1年涨跌": "+135.15%",
-        "YTD涨跌": "+48.53%",
-        "20日均线": "1812.03",
-        "50日均线": "1645.65",
-        "200日均线": "1300.92",
-        "RSI 14": "61.43",
-        "MACD": "51.19",
-        "20日波动率": "48.80%",
-        "成交量": "807,112",
-        "量比20日": "0.77",
+        "最新价": "$1,804.32",
+        "日内涨跌": "-4.68%",
+        "1日涨跌": "-4.68%",
+        "5日涨跌": "-3.47%",
+        "1月涨跌": "+3.22%",
+        "3月涨跌": "+23.23%",
+        "6月涨跌": "+59.07%",
+        "1年涨跌": "+123.86%",
+        "YTD涨跌": "+41.57%",
+        "20日均线": "1812.67",
+        "50日均线": "1653.15",
+        "200日均线": "1305.32",
+        "RSI 14": "53.07",
+        "MACD": "46.19",
+        "20日波动率": "50.89%",
+        "成交量": "968,829",
+        "量比20日": "0.92",
         "52周高点": "1939.36",
         "52周低点": "740.44",
-        "距52周高点": "-2.39%",
-        "距52周低点": "+155.65%",
+        "距52周高点": "-6.96%",
+        "距52周低点": "+143.68%",
         "20日支撑": "1646.00",
         "20日压力": "1939.36"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$929.12M",
         "流通股本": "130.63M",
         "ROE": "94.98%",
-        "债务/权益": "0.02",
-        "市值": "$247.27B",
-        "企业价值": "$242.81B",
-        "市盈率 TTM": "53.58",
-        "预期市盈率": "38.00",
-        "市销率": "18.88",
-        "EV / 营收": "18.54",
-        "EV / EBITDA": "41.51",
-        "EV / FCF": "84.01",
-        "FCF 收益率": "1.17%",
+        "债务/权益": "0.03",
+        "市值": "$235.69B",
+        "企业价值": "$248.46B",
+        "市盈率 TTM": "50.97",
+        "预期市盈率": "36.22",
+        "市销率": "18.00",
+        "EV / 营收": "18.97",
+        "EV / EBITDA": "42.47",
+        "EV / FCF": "85.97",
+        "FCF 收益率": "1.23%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 29 位分析师 · 2026-05-15 05:16:04",
+      "title_meta": "Yahoo Finance · 29 位分析师 · 2026-05-16 05:14:02",
       "data": {
         "target_mean": 1851.6897,
         "target_high": 2100.0,
         "target_low": 1500.0,
-        "upside_pct": -2.18,
+        "upside_pct": 2.63,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,38 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/kla-corporation-klac-placed-positive-222729354.html",
+          "title": "KLA Corporation (KLAC) Placed on Positive Catalyst Watch Ahead of Investor Day",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/KLAC/press-releases/",
+          "title": "KLA Corporation (KLAC) Latest Press Releases & Corporate News",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/KLAC",
+          "title": "KLA Corporation (KLAC) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/KLAC/fair-value/",
+          "title": "KLA Corporation (KLAC) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "seekingalpha.com",
           "url": "https://seekingalpha.com/symbol/KLAC/news?page=14",
@@ -222,6 +254,14 @@
           "impact": null
         },
         {
+          "date": "2026-05-15",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/15/forget-micron-every-dollar-of-ai-memory-spending-has-to-pass-through-these-2-stocks-first/",
+          "title": "Forget Micron. Every Dollar of AI Memory Spending Has to Pass Through These 2 Stocks First",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-14",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/KLAC/news/",
@@ -234,46 +274,6 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/news/kla-klac-beats-stock-market-220003516.html",
           "title": "KLA (KLAC) Beats Stock Market Upswing: What Investors Need to ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/kla-corporation-stock-klac-underperforming-151524317.html",
-          "title": "KLA Corporation Stock: Is KLAC Underperforming the Technology ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/KLAC.VI/latest-news/",
-          "title": "KLA Corporation (KLAC.VI) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/KLAC.MX/latest-news/",
-          "title": "KLA Corporation (KLAC.MX) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/KLAC/",
-          "title": "KLA Corporation (KLAC) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/KLAC/profile/",
-          "title": "KLA Corporation (KLAC) Company Profile & Facts - Yahoo Finance",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 67.33571428571429
+        },
+        {
+          "date": "2026-05-16",
+          "value": 67.33571428571429
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

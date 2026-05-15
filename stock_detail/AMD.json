@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "MI300/MI355X 数据中心 GPU 第二极，CPU x86 站稳",
-    "price": 449.70001220703125,
-    "change_1d": 0.94,
-    "composite": 45.96363636363636,
+    "price": 424.1000061035156,
+    "change_1d": -5.69,
+    "composite": 45.804545454545455,
     "tier_letter": "A",
     "description": [
       "AMD 的 AI 产业链位置为 Compute / GPU / ASIC。",
@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$449.70",
-        "日内涨跌": "+0.94%",
-        "1日涨跌": "+0.94%",
-        "5日涨跌": "-1.21%",
-        "1月涨跌": "+76.30%",
-        "3月涨跌": "+116.91%",
-        "6月涨跌": "+82.20%",
-        "1年涨跌": "+282.01%",
-        "YTD涨跌": "+101.24%",
-        "20日均线": "364.43",
-        "50日均线": "274.72",
-        "200日均线": "222.97",
-        "RSI 14": "76.70",
-        "MACD": "52.85",
-        "20日波动率": "98.31%",
-        "成交量": "26,027,177",
-        "量比20日": "0.55",
+        "最新价": "$424.10",
+        "日内涨跌": "-5.69%",
+        "1日涨跌": "-5.69%",
+        "5日涨跌": "-6.83%",
+        "1月涨跌": "+64.30%",
+        "3月涨跌": "+104.56%",
+        "6月涨跌": "+71.83%",
+        "1年涨跌": "+268.81%",
+        "YTD涨跌": "+89.78%",
+        "20日均线": "371.71",
+        "50日均线": "279.21",
+        "200日均线": "224.19",
+        "RSI 14": "67.29",
+        "MACD": "50.24",
+        "20日波动率": "102.31%",
+        "成交量": "28,617,173",
+        "量比20日": "0.61",
         "52周高点": "469.22",
         "52周低点": "107.67",
-        "距52周高点": "-4.16%",
-        "距52周低点": "+317.67%",
+        "距52周高点": "-9.62%",
+        "距52周低点": "+293.89%",
         "20日支撑": "272.00",
         "20日压力": "469.22"
       }
@@ -76,15 +76,15 @@
         "流通股本": "1.63B",
         "ROE": "8.06%",
         "债务/权益": "0.01",
-        "市值": "$733.28B",
-        "企业价值": "$717.96B",
-        "市盈率 TTM": "150.91",
-        "预期市盈率": "34.84",
-        "市销率": "19.58",
-        "EV / 营收": "19.17",
-        "EV / EBITDA": "96.63",
-        "EV / FCF": "100.09",
-        "FCF 收益率": "0.98%",
+        "市值": "$691.54B",
+        "企业价值": "$724.81B",
+        "市盈率 TTM": "140.90",
+        "预期市盈率": "32.74",
+        "市销率": "18.46",
+        "EV / 营收": "19.35",
+        "EV / EBITDA": "97.55",
+        "EV / FCF": "101.04",
+        "FCF 收益率": "1.04%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 72.72727272727272,
+          "value": 69.54545454545455,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 45.96363636363636,
+          "value": 45.804545454545455,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,16 +167,16 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 48 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 48 位分析师 · 2026-05-16 05:14:01",
       "data": {
-        "target_mean": 451.58334,
+        "target_mean": 457.83334,
         "target_high": 625.0,
         "target_low": 225.0,
-        "upside_pct": 0.42,
-        "rating": "strong_buy",
-        "rating_letter": "A",
+        "upside_pct": 7.95,
+        "rating": "buy",
+        "rating_letter": "A-",
         "rating_change": "维持",
-        "previous_rating_letter": "A",
+        "previous_rating_letter": "A-",
         "n_analysts": 48,
         "next_earnings": "2026-08-05",
         "eps_estimate": 1.60552,
@@ -198,6 +198,70 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AMD/news",
+          "title": "Advanced Micro Devices, Inc. (AMD) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/amd-amd-stock-trades-down-164104691.html",
+          "title": "AMD (AMD) Stock Trades Down, Here Is Why",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-amd-amd-stock-trading-192601711.html",
+          "title": "Why AMD (AMD) Stock Is Trading Up Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/amd-amd-stock-trades-why-161119652.html",
+          "title": "AMD (AMD) Stock Trades Up, Here Is Why",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-amd-stock-jumping-today-164316975.html?fr=sycsrp_catchall",
+          "title": "Why AMD Stock Is Jumping Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-amd-stock-jumping-today-164316975.html",
+          "title": "Why AMD Stock Is Jumping Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/amd-stock-buy-now-220500073.html",
+          "title": "Is AMD Stock a Buy Now?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-amd-amd-stock-trading-172043151.html",
+          "title": "Why AMD (AMD) Stock Is Trading Up Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "reuters.com",
           "url": "https://www.reuters.com/markets/companies/AMD.O/",
@@ -210,70 +274,6 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/AMD/community/",
           "title": "Advanced Micro Devices, Inc. (AMD) Stock Forum & Discussion",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/AMD/latest-news/",
-          "title": "Advanced Micro Devices, Inc. (AMD) Stock Price, News, Quote ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/too-buy-advanced-micro-devices-173500535.html",
-          "title": "Is It Too Late to Buy Advanced Micro Devices (AMD) Stock After Its ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/AMD.TO/",
-          "title": "Advanced Micro Devices, Inc. (AMD.TO) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/amd",
-          "title": "Advanced Micro Devices Inc. Stock Quote (U.S. - AMD - MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/AMD",
-          "title": "AMD: Advanced Micro Devices Inc - Stock Price, Quote and News",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/AMD/news/",
-          "title": "Advanced Micro Devices, Inc. (AMD) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/AMD",
-          "title": "AMD Advanced Micro Devices, Inc. Stock Price & Overview",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/AMD",
-          "title": "Advanced Micro Devices Inc. (AMD) Stock Price Today - WSJ",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 45.96363636363636
+        },
+        {
+          "date": "2026-05-16",
+          "value": 45.804545454545455
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

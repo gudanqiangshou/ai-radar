@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "达芬奇手术机器人 — 全球垄断 + AI 辅助手术演进",
-    "price": 428.05999755859375,
-    "change_1d": -0.97,
+    "price": 421.1199951171875,
+    "change_1d": -1.62,
     "composite": 61.183333333333344,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:06",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$428.06",
-        "日内涨跌": "-0.97%",
-        "1日涨跌": "-0.97%",
-        "5日涨跌": "-4.89%",
-        "1月涨跌": "-8.38%",
-        "3月涨跌": "-11.89%",
-        "6月涨跌": "-22.10%",
-        "1年涨跌": "-24.36%",
-        "YTD涨跌": "-23.83%",
-        "20日均线": "455.44",
-        "50日均线": "464.37",
-        "200日均线": "497.32",
-        "RSI 14": "36.06",
-        "MACD": "-9.95",
-        "20日波动率": "42.61%",
-        "成交量": "2,143,019",
-        "量比20日": "0.87",
+        "最新价": "$421.12",
+        "日内涨跌": "-1.62%",
+        "1日涨跌": "-1.62%",
+        "5日涨跌": "-6.43%",
+        "1月涨跌": "-10.09%",
+        "3月涨跌": "-13.32%",
+        "6月涨跌": "-23.36%",
+        "1年涨跌": "-24.84%",
+        "YTD涨跌": "-25.06%",
+        "20日均线": "453.04",
+        "50日均线": "462.86",
+        "200日均线": "496.92",
+        "RSI 14": "33.52",
+        "MACD": "-10.97",
+        "20日波动率": "41.58%",
+        "成交量": "2,370,728",
+        "量比20日": "0.97",
         "52周高点": "603.88",
         "52周低点": "417.74",
-        "距52周高点": "-29.12%",
-        "距52周低点": "+2.47%",
+        "距52周高点": "-30.26%",
+        "距52周低点": "+0.81%",
         "20日支撑": "417.74",
         "20日压力": "491.15"
       }
@@ -76,15 +76,15 @@
         "流通股本": "354.16M",
         "ROE": "17.23%",
         "债务/权益": "0.00",
-        "市值": "$151.60B",
-        "企业价值": "$148.70B",
-        "市盈率 TTM": "52.14",
-        "预期市盈率": "36.27",
-        "市销率": "14.33",
-        "EV / 营收": "14.05",
-        "EV / EBITDA": "38.27",
-        "EV / FCF": "65.97",
-        "FCF 收益率": "1.49%",
+        "市值": "$149.15B",
+        "企业价值": "$147.21B",
+        "市盈率 TTM": "51.23",
+        "预期市盈率": "35.72",
+        "市销率": "14.09",
+        "EV / 营收": "13.91",
+        "EV / EBITDA": "37.89",
+        "EV / FCF": "65.31",
+        "FCF 收益率": "1.51%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 29 位分析师 · 2026-05-15 05:16:08",
+      "title_meta": "Yahoo Finance · 30 位分析师 · 2026-05-16 05:14:06",
       "data": {
-        "target_mean": 576.9062,
+        "target_mean": 577.00934,
         "target_high": 750.0,
         "target_low": 378.0,
-        "upside_pct": 34.77,
+        "upside_pct": 37.02,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
-        "n_analysts": 29,
+        "n_analysts": 30,
         "next_earnings": "2026-07-22",
-        "eps_estimate": 2.50278,
+        "eps_estimate": 2.50267,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,30 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ISRG.VI/news/",
+          "title": "Intuitive Surgical, Inc. (ISRG.VI) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/isrg",
+          "title": "Intuitive Surgical Inc. Stock Quote (U.S. - ISRG - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/intuitive-surgical-inc-isrg-stock-215003306.html",
+          "title": "Intuitive Surgical, Inc. (ISRG) Stock Sinks As Market Gains: Here's Why",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -218,6 +242,14 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/ISRG.NE/news/",
           "title": "Intuitive Surgical, Inc. (ISRG.NE) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/15/surgical-robotics-meets-ai-intuitive-surgical-medtronic-and-stryker-are-the-sleeper-plays-of-the-healthcare-boom/",
+          "title": "Surgical Robotics Meets AI: Intuitive Surgical, Medtronic, and Stryker Are the Sleeper Plays of the Healthcare Boom",
           "sentiment": null,
           "impact": null
         },
@@ -244,38 +276,6 @@
           "title": "Intuitive Surgical, Inc. (ISRG) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/ISRG",
-          "title": "Intuitive Surgical, Inc. (ISRG) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ISRG/latest-news/",
-          "title": "Intuitive Surgical, Inc. (ISRG) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "sg.finance.yahoo.com",
-          "url": "https://sg.finance.yahoo.com/quote/ISRG.TO/news/",
-          "title": "Intuitive Surgical, Inc. (ISRG.TO) latest stock news and headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/markets/companies/ISRG.O/",
-          "title": "(ISRG.O) | Stock Price & Latest News - Reuters",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 61.183333333333344
+        },
+        {
+          "date": "2026-05-16",
+          "value": 61.183333333333344
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

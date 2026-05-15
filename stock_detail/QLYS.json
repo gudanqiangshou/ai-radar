@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "云端漏洞管理 + 合规自动化",
-    "price": 86.7300033569336,
-    "change_1d": 0.27,
-    "composite": 66.23194444444445,
+    "price": 90.0199966430664,
+    "change_1d": 3.79,
+    "composite": 66.48194444444445,
     "tier_letter": "C",
     "description": [
       "Qualys 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$86.73",
-        "日内涨跌": "+0.27%",
-        "1日涨跌": "+0.27%",
-        "5日涨跌": "-8.01%",
-        "1月涨跌": "+4.22%",
-        "3月涨跌": "-17.33%",
-        "6月涨跌": "-39.59%",
-        "1年涨跌": "-36.05%",
-        "YTD涨跌": "-33.80%",
-        "20日均线": "88.20",
-        "50日均线": "89.73",
-        "200日均线": "120.56",
-        "RSI 14": "45.69",
-        "MACD": "0.24",
-        "20日波动率": "47.51%",
-        "成交量": "632,265",
-        "量比20日": "0.72",
+        "最新价": "$90.02",
+        "日内涨跌": "+3.79%",
+        "1日涨跌": "+3.79%",
+        "5日涨跌": "-4.52%",
+        "1月涨跌": "+5.69%",
+        "3月涨跌": "-14.19%",
+        "6月涨跌": "-37.30%",
+        "1年涨跌": "-33.76%",
+        "YTD涨跌": "-31.29%",
+        "20日均线": "88.55",
+        "50日均线": "89.54",
+        "200日均线": "120.33",
+        "RSI 14": "51.45",
+        "MACD": "0.28",
+        "20日波动率": "48.89%",
+        "成交量": "531,042",
+        "量比20日": "0.63",
         "52周高点": "155.47",
         "52周低点": "74.51",
-        "距52周高点": "-44.21%",
-        "距52周低点": "+16.40%",
+        "距52周高点": "-42.10%",
+        "距52周低点": "+20.82%",
         "20日支撑": "81.40",
         "20日压力": "95.72"
       }
@@ -76,15 +76,15 @@
         "流通股本": "35.22M",
         "ROE": "37.72%",
         "债务/权益": "0.02",
-        "市值": "$3.05B",
-        "企业价值": "$2.63B",
-        "市盈率 TTM": "15.57",
-        "预期市盈率": "10.50",
-        "市销率": "4.46",
-        "EV / 营收": "3.84",
-        "EV / EBITDA": "10.72",
-        "EV / FCF": "11.07",
-        "FCF 收益率": "7.77%",
+        "市值": "$3.17B",
+        "企业价值": "$2.64B",
+        "市盈率 TTM": "16.16",
+        "预期市盈率": "10.90",
+        "市销率": "4.63",
+        "EV / 营收": "3.85",
+        "EV / EBITDA": "10.75",
+        "EV / FCF": "11.10",
+        "FCF 收益率": "7.49%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 3.3333333333333335,
+          "value": 8.333333333333332,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 66.23194444444445,
+          "value": 66.48194444444445,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-16 05:14:05",
       "data": {
         "target_mean": 107.38684,
         "target_high": 161.0,
         "target_low": 85.0,
-        "upside_pct": 23.82,
+        "upside_pct": 19.29,
         "rating": "hold",
         "rating_letter": "B",
         "rating_change": "维持",
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QLYS/history/",
+          "title": "Qualys, Inc. (QLYS) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/QLYS.MX/news/",
+          "title": "Qualys, Inc. (QLYS.MX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "seekingalpha.com",
@@ -260,22 +276,6 @@
           "title": "Qualys, Inc. (QLYS.MX) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-sell-qlys-1-210055207.html",
-          "title": "3 Reasons to Sell QLYS and 1 Stock to Buy Instead",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/12/5-cybersecurity-stocks-that-may-be-acquired-in-2026s-ma-wave/",
-          "title": "5 Cybersecurity Stocks That May Be Acquired in 2026’s M&A Wave",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 66.23194444444445
+        },
+        {
+          "date": "2026-05-16",
+          "value": 66.48194444444445
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

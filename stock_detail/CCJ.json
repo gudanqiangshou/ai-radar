@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "全球最大铀生产商 + 核燃料服务",
-    "price": 112.51000213623047,
-    "change_1d": -2.5,
-    "composite": 48.782857142857154,
+    "price": 107.51000213623047,
+    "change_1d": -4.44,
+    "composite": 48.54476190476191,
     "tier_letter": "C",
     "description": [
       "Cameco 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$112.51",
-        "日内涨跌": "-2.50%",
-        "1日涨跌": "-2.50%",
-        "5日涨跌": "-3.63%",
-        "1月涨跌": "-3.06%",
-        "3月涨跌": "-0.35%",
-        "6月涨跌": "+32.74%",
-        "1年涨跌": "+111.09%",
-        "YTD涨跌": "+14.15%",
-        "20日均线": "119.38",
-        "50日均线": "114.65",
-        "200日均线": "99.22",
-        "RSI 14": "44.67",
-        "MACD": "0.02",
-        "20日波动率": "66.60%",
-        "成交量": "2,934,608",
-        "量比20日": "0.90",
+        "最新价": "$107.51",
+        "日内涨跌": "-4.44%",
+        "1日涨跌": "-4.44%",
+        "5日涨跌": "-7.91%",
+        "1月涨跌": "-9.74%",
+        "3月涨跌": "-4.77%",
+        "6月涨跌": "+26.84%",
+        "1年涨跌": "+108.39%",
+        "YTD涨跌": "+9.08%",
+        "20日均线": "118.72",
+        "50日均线": "114.51",
+        "200日均线": "99.37",
+        "RSI 14": "40.21",
+        "MACD": "-0.77",
+        "20日波动率": "68.18%",
+        "成交量": "3,068,640",
+        "量比20日": "0.95",
         "52周高点": "135.24",
         "52周低点": "50.03",
-        "距52周高点": "-16.81%",
-        "距52周低点": "+124.89%",
-        "20日支撑": "110.12",
+        "距52周高点": "-20.50%",
+        "距52周低点": "+114.89%",
+        "20日支撑": "107.27",
         "20日压力": "131.21"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "435.53M",
         "ROE": "9.60%",
         "债务/权益": "0.02",
-        "市值": "$49.00B",
-        "企业价值": "$50.16B",
-        "市盈率 TTM": "104.18",
-        "预期市盈率": "59.71",
-        "市销率": "13.85",
-        "EV / 营收": "14.18",
-        "EV / EBITDA": "56.11",
-        "EV / FCF": "80.28",
-        "FCF 收益率": "1.28%",
+        "市值": "$46.82B",
+        "企业价值": "$48.90B",
+        "市盈率 TTM": "98.63",
+        "预期市盈率": "55.56",
+        "市销率": "13.24",
+        "EV / 营收": "13.82",
+        "EV / EBITDA": "54.71",
+        "EV / FCF": "78.27",
+        "FCF 收益率": "1.33%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 34.76190476190476,
+          "value": 30.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 48.782857142857154,
+          "value": 48.54476190476191,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 9 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 9 位分析师 · 2026-05-16 05:14:01",
       "data": {
-        "target_mean": 138.24745,
-        "target_high": 173.6849,
-        "target_low": 82.20899,
-        "upside_pct": 22.88,
+        "target_mean": 137.90764,
+        "target_high": 173.28824,
+        "target_low": 82.02124,
+        "upside_pct": 28.27,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 9,
         "next_earnings": "2026-07-31",
-        "eps_estimate": 0.38124,
+        "eps_estimate": 0.36694,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -198,6 +198,14 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CCJ/news?ncid=yahooproperties_peoplealso_km0o32z3jzm",
+          "title": "Cameco Corporation (CCJ) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/CCJ/history/",
@@ -210,6 +218,38 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/CCJ/research-reports/",
           "title": "Cameco Corporation (CCJ) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/research/options/uranium-cameco-stock-options-trade-income-investing-markets/?src=A00220&yptr=yahoo",
+          "title": "Extract A Glowing Return From Highly Volatile Cameco Stock",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/cameco-ccj-remains-beneficiary-long-173639686.html",
+          "title": "Cameco (CCJ) Remains A Beneficiary Of The Long-Term Upside In Western Nuclear Fuel Infrastructure, According To GLJ Research",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/denison-mines-advance-phoenix-uranium-160600959.html",
+          "title": "Can Denison Mines Advance Phoenix With Uranium-Backed Funding Plan?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/denison-mines-dnn-drills-promising-154521307.html",
+          "title": "Denison Mines (DNN) Drills Into Promising Uranium Ground Near Cigar Lake",
           "sentiment": null,
           "impact": null
         },
@@ -236,46 +276,6 @@
           "title": "(CCJ) | Stock Price & Latest News - Reuters",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CCJ/",
-          "title": "Cameco Corporation (CCJ) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/CCJ",
-          "title": "CCJ: Cameco Corp - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/cameco-stock-ccj-falls-6-180914515.html",
-          "title": "Cameco Stock (CCJ) Falls 6% But Retail Traders Stay Bullish",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/CCJ",
-          "title": "Cameco Corporation (CCJ) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CCJ/news/",
-          "title": "Cameco Corporation (CCJ) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 48.782857142857154
+        },
+        {
+          "date": "2026-05-16",
+          "value": 48.54476190476191
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "农化 + 锂衍生 — 多元化关键化学品",
-    "price": 13.5600004196167,
-    "change_1d": 6.52,
-    "composite": 32.6,
+    "price": 14.170000076293945,
+    "change_1d": 4.5,
+    "composite": 32.9,
     "tier_letter": "C",
     "description": [
       "FMC Corporation 的 AI 产业链位置为 Critical Minerals / Rare Earths。",
@@ -19,7 +19,7 @@
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:07",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$13.56",
-        "日内涨跌": "+6.52%",
-        "1日涨跌": "+6.52%",
-        "5日涨跌": "+1.19%",
-        "1月涨跌": "-22.16%",
-        "3月涨跌": "-5.44%",
-        "6月涨跌": "-2.45%",
-        "1年涨跌": "-63.53%",
-        "YTD涨跌": "-5.44%",
-        "20日均线": "14.70",
+        "最新价": "$14.17",
+        "日内涨跌": "+4.50%",
+        "1日涨跌": "+4.50%",
+        "5日涨跌": "+5.75%",
+        "1月涨跌": "-18.66%",
+        "3月涨跌": "-1.19%",
+        "6月涨跌": "+1.94%",
+        "1年涨跌": "-63.87%",
+        "YTD涨跌": "-1.19%",
+        "20日均线": "14.55",
         "50日均线": "15.30",
-        "200日均线": "21.30",
-        "RSI 14": "40.33",
-        "MACD": "-0.75",
-        "20日波动率": "65.30%",
-        "成交量": "3,483,493",
-        "量比20日": "1.08",
+        "200日均线": "21.16",
+        "RSI 14": "45.71",
+        "MACD": "-0.68",
+        "20日波动率": "68.18%",
+        "成交量": "4,779,580",
+        "量比20日": "1.42",
         "52周高点": "44.78",
         "52周低点": "12.17",
-        "距52周高点": "-69.72%",
-        "距52周低点": "+11.42%",
+        "距52周高点": "-68.36%",
+        "距52周低点": "+16.43%",
         "20日支撑": "12.66",
         "20日压力": "17.44"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$2.38B",
         "流通股本": "125.05M",
         "ROE": "-78.37%",
-        "债务/权益": "2.75",
-        "市值": "$1.70B",
-        "企业价值": "$5.89B",
+        "债务/权益": "2.63",
+        "市值": "$1.77B",
+        "企业价值": "$5.99B",
         "市盈率 TTM": "—",
-        "预期市盈率": "6.16",
-        "市销率": "0.49",
-        "EV / 营收": "1.71",
-        "EV / EBITDA": "17.72",
-        "EV / FCF": "257.14",
-        "FCF 收益率": "1.35%",
+        "预期市盈率": "6.43",
+        "市销率": "0.52",
+        "EV / 营收": "1.74",
+        "EV / EBITDA": "18.03",
+        "EV / FCF": "261.68",
+        "FCF 收益率": "1.29%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 0.0,
+          "value": 6.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 32.6,
+          "value": 32.9,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,17 +167,17 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 17 位分析师 · 2026-05-15 05:16:09",
+      "title_meta": "Yahoo Finance · 16 位分析师 · 2026-05-16 05:14:07",
       "data": {
-        "target_mean": 17.70588,
+        "target_mean": 17.25,
         "target_high": 26.0,
         "target_low": 13.0,
-        "upside_pct": 30.57,
+        "upside_pct": 21.74,
         "rating": "hold",
         "rating_letter": "B",
         "rating_change": "维持",
         "previous_rating_letter": "B",
-        "n_analysts": 17,
+        "n_analysts": 16,
         "next_earnings": "2026-07-30",
         "eps_estimate": 0.21419,
         "revenue_estimate": null
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/0IK3.IL/news/",
+          "title": "0IK3.IL,0P0001H57E,28123 (0IK3.IL) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/FMC/",
+          "title": "FMC Corporation (FMC) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -260,14 +276,6 @@
           "title": "FMC Corporation (FMC) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/fmc-fmc-down-11-6-051848428.html",
-          "title": "FMC (FMC) Is Down 11.6% After Reaffirming 2026 Guidance Despite Q1 Loss And India Exit – Has The Bull Case Changed?",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -283,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 32.6
+        },
+        {
+          "date": "2026-05-16",
+          "value": 32.9
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

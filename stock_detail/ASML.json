@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "EUV 光刻独家垄断 — N3/N2/A14 必经",
-    "price": 1584.510009765625,
-    "change_1d": 0.19,
-    "composite": 61.064285714285724,
+    "price": 1501.81005859375,
+    "change_1d": -5.22,
+    "composite": 60.992857142857154,
     "tier_letter": "A",
     "description": [
       "ASML Holding 的 AI 产业链位置为 Semiconductor Equipment。",
-      "AI 角色：EUV 光刻独家垄断 — N3/N2/A14 必经。当前内部综合评分 61。",
+      "AI 角色：EUV 光刻独家垄断 — N3/N2/A14 必经。当前内部综合评分 60。",
       "Semiconductor Equipment 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:02",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$1,584.51",
-        "日内涨跌": "+0.19%",
-        "1日涨跌": "+0.19%",
-        "5日涨跌": "-0.47%",
-        "1月涨跌": "+4.36%",
-        "3月涨跌": "+12.65%",
-        "6月涨跌": "+57.35%",
-        "1年涨跌": "+106.07%",
-        "YTD涨跌": "+36.15%",
-        "20日均线": "1476.34",
-        "50日均线": "1414.65",
-        "200日均线": "1152.39",
-        "RSI 14": "60.91",
-        "MACD": "42.94",
-        "20日波动率": "48.11%",
-        "成交量": "1,406,116",
-        "量比20日": "0.83",
+        "最新价": "$1,501.81",
+        "日内涨跌": "-5.22%",
+        "1日涨跌": "-5.22%",
+        "5日涨跌": "-5.67%",
+        "1月涨跌": "+1.35%",
+        "3月涨跌": "+6.77%",
+        "6月涨跌": "+49.14%",
+        "1年涨跌": "+98.03%",
+        "YTD涨跌": "+29.05%",
+        "20日均线": "1478.44",
+        "50日均线": "1417.32",
+        "200日均线": "1156.29",
+        "RSI 14": "52.34",
+        "MACD": "38.35",
+        "20日波动率": "51.09%",
+        "成交量": "1,780,154",
+        "量比20日": "1.05",
         "52周高点": "1603.49",
         "52周低点": "683.48",
-        "距52周高点": "-1.18%",
-        "距52周低点": "+131.83%",
+        "距52周高点": "-6.34%",
+        "距52周低点": "+119.73%",
         "20日支撑": "1364.81",
         "20日压力": "1603.49"
       }
@@ -76,15 +76,15 @@
         "流通股本": "385.42M",
         "ROE": "52.24%",
         "债务/权益": "0.00",
-        "市值": "$610.70B",
-        "企业价值": "$603.87B",
-        "市盈率 TTM": "51.92",
-        "预期市盈率": "33.01",
-        "市销率": "18.13",
-        "EV / 营收": "17.92",
-        "EV / EBITDA": "47.53",
-        "EV / FCF": "73.26",
-        "FCF 收益率": "1.35%",
+        "市值": "$578.82B",
+        "企业价值": "$605.00B",
+        "市盈率 TTM": "49.37",
+        "预期市盈率": "31.34",
+        "市销率": "17.18",
+        "EV / 营收": "17.96",
+        "EV / EBITDA": "47.62",
+        "EV / FCF": "73.39",
+        "FCF 收益率": "1.42%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 25.0,
+          "value": 23.57142857142857,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 61.064285714285724,
+          "value": 60.992857142857154,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-15 05:16:04",
+      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-16 05:14:02",
       "data": {
-        "target_mean": 1666.4293,
-        "target_high": 1999.6766,
-        "target_low": 902.94116,
-        "upside_pct": 5.17,
+        "target_mean": 1660.6151,
+        "target_high": 1992.6996,
+        "target_low": 899.7907,
+        "upside_pct": 10.57,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -198,10 +198,66 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/ASML.TO/news/",
+          "title": "ASML Holding N.V. (ASML.TO) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/ASME.SG/news/",
+          "title": "ASML Holding NV (ASME.SG) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/ASML/",
           "title": "ASML Holding N.V. (ASML) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-end-lower-201939611.html",
+          "title": "US Equity Markets End Lower as Rising Oil, Bond Yields Stoke Inflation Concerns",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-fall-afternoon-194823391.html",
+          "title": "Sector Update: Tech Stocks Fall Late Afternoon",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/sectors/technology/articles/sector-tech-stocks-fall-afternoon-175012746.html",
+          "title": "Sector Update: Tech Stocks Fall in Afternoon Trading",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Reuters",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/european-shares-slip-inflation-worries-072659000.html",
+          "title": "STOXX 600 logs weekly losses on Iran war-linked inflation woes",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "MT Newswires",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/european-stocks-tracking-lower-friday-154748801.html",
+          "title": "European Stocks Tracking Lower in Friday Trading; Lack of US-China Trade Deal Hits Tech Shares",
           "sentiment": null,
           "impact": null
         },
@@ -218,62 +274,6 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/ASML.AS/news/",
           "title": "ASML Holding N.V. (ASML.AS) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/ASML",
-          "title": "ASML Holding N.V. (ASML) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ASML/news/",
-          "title": "ASML Holding N.V. (ASML) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/ASML/news?page=6",
-          "title": "ASML Holding N.V. (ASML) Latest Stock News | Seeking Alpha",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/ASML.BA/news/",
-          "title": "ASML Holding N.V. (ASML.BA) Latest Stock News & Headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/asml",
-          "title": "ASML Holding N.V. Stock Quote (U.S.: Nasdaq)",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "sg.finance.yahoo.com",
-          "url": "https://sg.finance.yahoo.com/quote/ASME.HA/news/",
-          "title": "ASML Holding NV (ASME.HA) latest stock news and headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/retail-investors-leaning-away-software-141600541.html",
-          "title": "Are retail investors leaning away from software amid tech rally?",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 61.064285714285724
+        },
+        {
+          "date": "2026-05-16",
+          "value": 60.992857142857154
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

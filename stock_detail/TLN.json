@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Susquehanna 核电 + AWS 数据中心直接 PPA",
-    "price": 352.8800048828125,
-    "change_1d": 0.53,
-    "composite": 51.69714285714285,
+    "price": 334.239990234375,
+    "change_1d": -5.28,
+    "composite": 51.43523809523809,
     "tier_letter": "A",
     "description": [
       "Talen Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:00",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$352.88",
-        "日内涨跌": "+0.53%",
-        "1日涨跌": "+0.53%",
-        "5日涨跌": "-8.67%",
-        "1月涨跌": "+2.06%",
-        "3月涨跌": "-6.32%",
-        "6月涨跌": "-2.23%",
-        "1年涨跌": "+44.08%",
-        "YTD涨跌": "-11.05%",
-        "20日均线": "366.80",
-        "50日均线": "342.47",
-        "200日均线": "372.61",
-        "RSI 14": "46.62",
-        "MACD": "7.55",
-        "20日波动率": "59.15%",
-        "成交量": "595,395",
-        "量比20日": "0.87",
+        "最新价": "$334.24",
+        "日内涨跌": "-5.28%",
+        "1日涨跌": "-5.28%",
+        "5日涨跌": "-13.49%",
+        "1月涨跌": "-5.39%",
+        "3月涨跌": "-11.27%",
+        "6月涨跌": "-7.39%",
+        "1年涨跌": "+36.54%",
+        "YTD涨跌": "-15.75%",
+        "20日均线": "365.24",
+        "50日均线": "342.46",
+        "200日均线": "372.42",
+        "RSI 14": "40.87",
+        "MACD": "4.15",
+        "20日波动率": "61.84%",
+        "成交量": "645,138",
+        "量比20日": "0.96",
         "52周高点": "451.28",
         "52周低点": "232.34",
-        "距52周高点": "-21.80%",
-        "距52周低点": "+51.88%",
+        "距52周高点": "-25.94%",
+        "距52周低点": "+43.86%",
         "20日支撑": "328.32",
         "20日压力": "416.68"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$5.76B",
         "流通股本": "45.40M",
         "ROE": "-1.86%",
-        "债务/权益": "0.42",
-        "市值": "$16.12B",
-        "企业价值": "$21.73B",
+        "债务/权益": "0.45",
+        "市值": "$15.27B",
+        "企业价值": "$21.81B",
         "市盈率 TTM": "—",
-        "预期市盈率": "10.32",
-        "市销率": "4.98",
-        "EV / 营收": "6.71",
-        "EV / EBITDA": "33.22",
-        "EV / FCF": "15.67",
-        "FCF 收益率": "8.60%",
+        "预期市盈率": "9.77",
+        "市销率": "4.72",
+        "EV / 营收": "6.74",
+        "EV / EBITDA": "33.35",
+        "EV / FCF": "15.73",
+        "FCF 收益率": "9.08%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 64.61904761904762,
+          "value": 62.714285714285715,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 23.33333333333333,
+          "value": 21.9047619047619,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 51.69714285714285,
+          "value": 51.43523809523809,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-15 05:16:02",
+      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-16 05:14:00",
       "data": {
         "target_mean": 475.104,
         "target_high": 595.0,
         "target_low": 388.56,
-        "upside_pct": 34.64,
+        "upside_pct": 42.14,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -198,6 +198,14 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/1TLN.MI/latest-news/",
+          "title": "TALEN ENERGY CORP (1TLN.MI) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "wsj.com",
           "url": "https://www.wsj.com/market-data/quotes/TLN",
@@ -210,6 +218,14 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/TLN/insider-sentiment/",
           "title": "Talen Energy Corporation (TLN) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/weighing-talen-energy-tln-valuation-101651208.html",
+          "title": "Weighing Talen Energy (TLN) Valuation After Weak Q1 2026 Earnings And Insider Selling",
           "sentiment": null,
           "impact": null
         },
@@ -260,22 +276,6 @@
           "title": "TALEN ENERGY CORP (1TLN.MI) latest stock news and headlines ...",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/talen-energy-tln-falls-following-182856309.html",
-          "title": "Talen Energy (TLN) Falls Following a Decline in Utilities",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/TLN",
-          "title": "TLN: Talen Energy Corp - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 51.69714285714285
+        },
+        {
+          "date": "2026-05-16",
+          "value": 51.43523809523809
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

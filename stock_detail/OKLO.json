@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "小型模块化反应堆（SMR）— AI 长期电力解决方案",
-    "price": 67.20999908447266,
-    "change_1d": -3.52,
-    "composite": 26.70340136054421,
+    "price": 62.25,
+    "change_1d": -7.38,
+    "composite": 25.904081632653057,
     "tier_letter": "C",
     "description": [
       "Oklo Inc 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：小型模块化反应堆（SMR）— AI 长期电力解决方案。当前内部综合评分 26。",
+      "AI 角色：小型模块化反应堆（SMR）— AI 长期电力解决方案。当前内部综合评分 25。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "减持"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$67.21",
-        "日内涨跌": "-3.52%",
-        "1日涨跌": "-3.52%",
-        "5日涨跌": "-7.31%",
-        "1月涨跌": "+14.73%",
-        "3月涨跌": "+2.31%",
-        "6月涨跌": "-31.12%",
-        "1年涨跌": "+81.60%",
-        "YTD涨跌": "-13.61%",
-        "20日均线": "70.99",
-        "50日均线": "61.46",
-        "200日均线": "86.46",
-        "RSI 14": "49.33",
-        "MACD": "2.89",
-        "20日波动率": "127.36%",
-        "成交量": "13,091,266",
-        "量比20日": "0.80",
+        "最新价": "$62.25",
+        "日内涨跌": "-7.38%",
+        "1日涨跌": "-7.38%",
+        "5日涨跌": "-14.15%",
+        "1月涨跌": "-1.74%",
+        "3月涨跌": "-5.24%",
+        "6月涨跌": "-36.20%",
+        "1年涨跌": "+66.40%",
+        "YTD涨跌": "-19.99%",
+        "20日均线": "70.77",
+        "50日均线": "61.47",
+        "200日均线": "86.39",
+        "RSI 14": "45.11",
+        "MACD": "1.98",
+        "20日波动率": "129.60%",
+        "成交量": "11,762,227",
+        "量比20日": "0.75",
         "52周高点": "193.84",
-        "52周低点": "34.10",
-        "距52周高点": "-65.33%",
-        "距52周低点": "+97.10%",
-        "20日支撑": "62.22",
+        "52周低点": "34.45",
+        "距52周高点": "-67.89%",
+        "距52周低点": "+80.70%",
+        "20日支撑": "61.73",
         "20日压力": "81.50"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "173.99M",
         "ROE": "-12.24%",
         "债务/权益": "0.00",
-        "市值": "$11.69B",
-        "企业价值": "$9.91B",
+        "市值": "$10.83B",
+        "企业价值": "$9.49B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-78.45",
+        "预期市盈率": "-71.73",
         "市销率": "—",
         "EV / 营收": "—",
-        "EV / EBITDA": "-57.60",
-        "EV / FCF": "-124.19",
-        "FCF 收益率": "-0.68%",
+        "EV / EBITDA": "-55.13",
+        "EV / FCF": "-118.85",
+        "FCF 收益率": "-0.74%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 39.52380952380952,
+          "value": 28.333333333333332,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 26.70340136054421,
+          "value": 25.904081632653057,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-16 05:14:01",
       "data": {
-        "target_mean": 90.65789,
+        "target_mean": 91.21053,
         "target_high": 140.0,
         "target_low": 14.0,
-        "upside_pct": 34.89,
+        "upside_pct": 46.52,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/OKLO/",
+          "title": "Oklo Inc. (OKLO) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/OKLO/news/",
+          "title": "Oklo Inc. (OKLO) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/OKLO.N/key-metrics/valuation/",
+          "title": "OKLO.N - | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/oklo",
+          "title": "OKLO | Oklo Inc. Stock Overview (U.S.: NYSE) | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "ca.finance.yahoo.com",
@@ -238,42 +270,10 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "uk.finance.yahoo.com",
-          "url": "https://uk.finance.yahoo.com/quote/OKLO.MX/news/",
-          "title": "OKLO INC (OKLO.MX) latest stock news and headlines – Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/OKLO/chart/",
-          "title": "Oklo Inc. (OKLO) Interactive Stock Chart - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/OKLO/latest-news/",
-          "title": "Oklo Inc. (OKLO) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/14/why-oklo-stock-fell-further-on-thursday/",
-          "title": "Why Oklo Stock Fell Further on Thursday",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/14/should-you-buy-oklo-stock-before-jul-4/",
-          "title": "Should You Buy Oklo Stock Before Jul. 4?",
+          "date": "2026-05-15",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/jpmorgan-stops-short-turning-bullish-173632369.html",
+          "title": "JPMorgan Stops Short Of Turning Bullish On Oklo (OKLO) Despite Strong SMR Outlook, Check Out Why",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 26.70340136054421
+        },
+        {
+          "date": "2026-05-16",
+          "value": 25.904081632653057
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

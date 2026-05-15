@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "基因编辑 + AI 靶点 — Casgevy 首个获批",
-    "price": 50.45000076293945,
-    "change_1d": -4.36,
-    "composite": 41.9,
+    "price": 48.40999984741211,
+    "change_1d": -4.04,
+    "composite": 41.56666666666666,
     "tier_letter": "C",
     "description": [
       "CRISPR Therapeutics 的 AI 产业链位置为 Healthcare AI。",
@@ -19,7 +19,7 @@
       "Healthcare AI 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:06",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$50.45",
-        "日内涨跌": "-4.36%",
-        "1日涨跌": "-4.36%",
-        "5日涨跌": "-7.99%",
-        "1月涨跌": "-11.27%",
-        "3月涨跌": "-4.94%",
-        "6月涨跌": "-3.96%",
-        "1年涨跌": "+41.71%",
-        "YTD涨跌": "-6.17%",
-        "20日均线": "53.38",
-        "50日均线": "51.63",
-        "200日均线": "55.98",
-        "RSI 14": "44.61",
-        "MACD": "0.04",
-        "20日波动率": "66.07%",
-        "成交量": "1,661,159",
-        "量比20日": "0.92",
+        "最新价": "$48.41",
+        "日内涨跌": "-4.04%",
+        "1日涨跌": "-4.04%",
+        "5日涨跌": "-11.71%",
+        "1月涨跌": "-14.71%",
+        "3月涨跌": "-8.78%",
+        "6月涨跌": "-7.84%",
+        "1年涨跌": "+33.32%",
+        "YTD涨跌": "-9.97%",
+        "20日均线": "52.90",
+        "50日均线": "51.45",
+        "200日均线": "55.94",
+        "RSI 14": "40.67",
+        "MACD": "-0.31",
+        "20日波动率": "65.04%",
+        "成交量": "1,973,494",
+        "量比20日": "1.09",
         "52周高点": "78.48",
         "52周低点": "34.87",
-        "距52周高点": "-35.72%",
-        "距52周低点": "+44.68%",
-        "20日支撑": "48.77",
-        "20日压力": "59.16"
+        "距52周高点": "-38.32%",
+        "距52周低点": "+38.83%",
+        "20日支撑": "48.25",
+        "20日压力": "58.60"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "$1.86B",
         "流通股本": "96.45M",
         "ROE": "-31.21%",
-        "债务/权益": "0.16",
-        "市值": "$4.87B",
-        "企业价值": "$3.43B",
+        "债务/权益": "0.17",
+        "市值": "$4.67B",
+        "企业价值": "$3.21B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-12.61",
-        "市销率": "1185.92",
-        "EV / 营收": "836.83",
-        "EV / EBITDA": "-6.46",
-        "EV / FCF": "-13.16",
-        "FCF 收益率": "-5.36%",
+        "预期市盈率": "-12.10",
+        "市销率": "1137.97",
+        "EV / 营收": "782.77",
+        "EV / EBITDA": "-6.05",
+        "EV / FCF": "-12.31",
+        "FCF 收益率": "-5.59%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 54.16666666666667,
+          "value": 47.5,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 41.9,
+          "value": 41.56666666666666,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-15 05:16:08",
+      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-16 05:14:06",
       "data": {
-        "target_mean": 82.54545,
+        "target_mean": 82.81818,
         "target_high": 291.0,
         "target_low": 33.0,
-        "upside_pct": 63.62,
+        "upside_pct": 71.08,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRSP/",
+          "title": "CRISPR Therapeutics AG (CRSP) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/crispr-therapeutics-crsp-latest-trial-102848342.html",
+          "title": "What CRISPR Therapeutics’ (CRSP) Latest Trial Results Mean for Investors",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "barrons.com",
@@ -260,22 +276,6 @@
           "title": "CRISPR Therapeutics AG (1CG.DU) latest stock news and headlines",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-11",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/11/1-top-wall-street-analyst-thinks-crispr-therapeuti/",
-          "title": "1 Top Wall Street Analyst Thinks CRISPR Therapeutics Could More Than Double. Should You Buy the Stock Hand Over Fist?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-08",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/sectors/healthcare/articles/vrtxs-alyftrek-journavx-casgevy-see-171700137.html",
-          "title": "VRTX's Alyftrek, Journavx & Casgevy See Strong Momentum in Q1 Earnings",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 41.9
+        },
+        {
+          "date": "2026-05-16",
+          "value": 41.56666666666666
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Falcon AI 驱动端点安全 — 行业标杆",
-    "price": 579.9500122070312,
-    "change_1d": 3.09,
-    "composite": 49.48611111111112,
+    "price": 594.0800170898438,
+    "change_1d": 2.44,
+    "composite": 49.54166666666667,
     "tier_letter": "A",
     "description": [
       "CrowdStrike 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$579.95",
-        "日内涨跌": "+3.09%",
-        "1日涨跌": "+3.09%",
-        "5日涨跌": "+9.89%",
-        "1月涨跌": "+45.54%",
-        "3月涨跌": "+34.99%",
-        "6月涨跌": "+7.89%",
-        "1年涨跌": "+33.03%",
-        "YTD涨跌": "+27.86%",
-        "20日均线": "480.43",
-        "50日均线": "439.18",
-        "200日均线": "459.81",
-        "RSI 14": "81.07",
-        "MACD": "36.20",
-        "20日波动率": "42.22%",
-        "成交量": "2,744,072",
-        "量比20日": "0.99",
-        "52周高点": "583.78",
+        "最新价": "$594.08",
+        "日内涨跌": "+2.44%",
+        "1日涨跌": "+2.44%",
+        "5日涨跌": "+12.56%",
+        "1月涨跌": "+44.49%",
+        "3月涨跌": "+38.27%",
+        "6月涨跌": "+10.52%",
+        "1年涨跌": "+37.57%",
+        "YTD涨跌": "+30.98%",
+        "20日均线": "488.94",
+        "50日均线": "442.54",
+        "200日均线": "460.47",
+        "RSI 14": "82.57",
+        "MACD": "39.81",
+        "20日波动率": "42.28%",
+        "成交量": "3,853,355",
+        "量比20日": "1.36",
+        "52周高点": "598.25",
         "52周低点": "342.72",
-        "距52周高点": "-0.66%",
-        "距52周低点": "+69.22%",
+        "距52周高点": "-0.70%",
+        "距52周低点": "+73.34%",
         "20日支撑": "417.02",
-        "20日压力": "583.78"
+        "20日压力": "598.25"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "254.54M",
         "ROE": "-4.14%",
         "债务/权益": "0.01",
-        "市值": "$147.62B",
-        "企业价值": "$138.31B",
+        "市值": "$151.22B",
+        "企业价值": "$142.72B",
         "市盈率 TTM": "—",
-        "预期市盈率": "93.96",
-        "市销率": "30.68",
-        "EV / 营收": "28.74",
-        "EV / EBITDA": "-2963.95",
-        "EV / FCF": "86.20",
-        "FCF 收益率": "1.09%",
+        "预期市盈率": "96.25",
+        "市销率": "31.42",
+        "EV / 营收": "29.66",
+        "EV / EBITDA": "-3058.41",
+        "EV / FCF": "88.94",
+        "FCF 收益率": "1.06%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 77.7777777777778,
+          "value": 78.8888888888889,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 49.48611111111112,
+          "value": 49.54166666666667,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 51 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 51 位分析师 · 2026-05-16 05:14:05",
       "data": {
-        "target_mean": 493.19452,
+        "target_mean": 495.58667,
         "target_high": 706.0,
         "target_low": 368.0,
-        "upside_pct": -14.96,
+        "upside_pct": -16.58,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 51,
         "next_earnings": "2026-06-04",
-        "eps_estimate": 1.06745,
+        "eps_estimate": 1.06751,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -198,6 +198,70 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CRWD",
+          "title": "CRWD CrowdStrike Holdings, Inc. Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/crowdstrike-crwd-stock-trades-why-003751204.html",
+          "title": "CrowdStrike (CRWD) Stock Trades Up, Here Is Why - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/news/4594034-crowdstrike-shares-surge-for-seven-consecutive-sessions",
+          "title": "CrowdStrike shares surge for seven consecutive sessions",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/crwd",
+          "title": "CRWD Stock Price | CrowdStrike Holdings Inc. Cl A Stock Quote (U.S.",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Investor's Business Daily",
+          "url": "https://www.investors.com/stock-lists/new-highs/crowdstrike-crwd-stock-new-highs/?src=A00220&yptr=yahoo",
+          "title": "CrowdStrike Leads This Group Of Four Stocks To New Highs",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/15/oppenheimer-hikes-palo-alto-networks-price-target-to-275-cyberark-becomes-idira-identity-security-just-got-real/",
+          "title": "Oppenheimer Hikes Palo Alto Networks Price Target to $275: CyberArk Becomes Idira, Identity Security Just Got Real",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/4-security-stocks-focus-flourishing-141800641.html",
+          "title": "4 Security Stocks to Focus on From a Flourishing Industry",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "BeInCrypto",
+          "url": "https://beincrypto.com/north-korea-crypto-theft-crowdstrike/",
+          "title": "North Korea’s Crypto Theft Surged 51% in 2025, CrowdStrike Finds",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-14",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/CRWD/news/",
@@ -210,70 +274,6 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/CRWD/latest-news/",
           "title": "META_TITLE_QUOTE - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/CRWD",
-          "title": "CRWD: CrowdStrike Holdings Inc - Stock Price, Quote and News",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CRWD/",
-          "title": "CrowdStrike Holdings, Inc. (CRWD) Stock Price, News, Quote ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-saying-crowdstrike-crwd-stock-155612328.html",
-          "title": "What Are Analysts Saying About CrowdStrike (CRWD) Stock?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/CRWD.TO/news/",
-          "title": "CrowdStrike Holdings, Inc. (CRWD.TO) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CRWD.MX/news?p=CRWD.MX&ncid=yahooproperties_peoplealso_km0o32z3jzm",
-          "title": "CrowdStrike Holdings, Inc. (CRWD.MX) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/raise-crowdstrike-crwd-numbers-says-115809760.html",
-          "title": "I Would Raise CrowdStrike (CRWD)'s Numbers, Says Jim Cramer",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/ibd-stock-analysis/palo-alto-stock-panw-cybersecurity-stocks-to-watch/?src=A00220&yptr=yahoo",
-          "title": "Cybersecurity Giant Unlocks New Buy Zone While Flashing These Telltale Clues",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-crowdstrike-one-highest-163754857.html",
-          "title": "Jim Cramer on CrowdStrike: “I Need This One to Go the Highest”",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 49.48611111111112
+        },
+        {
+          "date": "2026-05-16",
+          "value": 49.54166666666667
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "模拟芯片 — AI 服务器电源管理 + 工业 AI 受益",
-    "price": 308.1700134277344,
-    "change_1d": 0.6,
-    "composite": 60.69545454545455,
+    "price": 302.7300109863281,
+    "change_1d": -1.77,
+    "composite": 60.96818181818182,
     "tier_letter": "C",
     "description": [
       "Texas Instruments 的 AI 产业链位置为 Compute / GPU / ASIC。",
@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$308.17",
-        "日内涨跌": "+0.60%",
-        "1日涨跌": "+0.60%",
-        "5日涨跌": "+7.08%",
-        "1月涨跌": "+40.80%",
-        "3月涨跌": "+36.26%",
-        "6月涨跌": "+93.42%",
-        "1年涨跌": "+64.50%",
-        "YTD涨跌": "+73.60%",
-        "20日均线": "274.50",
-        "50日均线": "229.15",
-        "200日均线": "197.16",
-        "RSI 14": "80.18",
-        "MACD": "21.50",
-        "20日波动率": "73.48%",
-        "成交量": "5,600,633",
-        "量比20日": "0.62",
+        "最新价": "$302.73",
+        "日内涨跌": "-1.77%",
+        "1日涨跌": "-1.77%",
+        "5日涨跌": "+5.19%",
+        "1月涨跌": "+39.96%",
+        "3月涨跌": "+33.86%",
+        "6月涨跌": "+90.00%",
+        "1年涨跌": "+61.17%",
+        "YTD涨跌": "+70.53%",
+        "20日均线": "278.14",
+        "50日均线": "231.24",
+        "200日均线": "197.73",
+        "RSI 14": "74.49",
+        "MACD": "21.09",
+        "20日波动率": "74.32%",
+        "成交量": "6,570,094",
+        "量比20日": "0.73",
         "52周高点": "310.29",
         "52周低点": "152.73",
-        "距52周高点": "-0.68%",
-        "距52周低点": "+101.77%",
-        "20日支撑": "224.67",
+        "距52周高点": "-2.44%",
+        "距52周低点": "+98.21%",
+        "20日支撑": "230.02",
         "20日压力": "310.29"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "910.09M",
         "ROE": "32.35%",
         "债务/权益": "0.05",
-        "市值": "$280.46B",
-        "企业价值": "$287.74B",
-        "市盈率 TTM": "52.68",
-        "预期市盈率": "32.69",
-        "市销率": "15.21",
-        "EV / 营收": "15.61",
-        "EV / EBITDA": "33.21",
-        "EV / FCF": "269.36",
-        "FCF 收益率": "0.38%",
+        "市值": "$275.51B",
+        "企业价值": "$289.41B",
+        "市盈率 TTM": "51.66",
+        "预期市盈率": "32.11",
+        "市销率": "14.94",
+        "EV / 营收": "15.70",
+        "EV / EBITDA": "33.40",
+        "EV / FCF": "270.92",
+        "FCF 收益率": "0.39%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 57.72727272727273,
+          "value": 63.18181818181818,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 60.69545454545455,
+          "value": 60.96818181818182,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 32 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 32 位分析师 · 2026-05-16 05:14:01",
       "data": {
-        "target_mean": 280.625,
+        "target_mean": 283.9375,
         "target_high": 340.0,
         "target_low": 200.0,
-        "upside_pct": -8.94,
+        "upside_pct": -6.21,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,46 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/txn",
+          "title": "TXN | Texas Instruments Inc. Stock Overview (U.S.: Nasdaq) | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/TXN",
+          "title": "TXN Texas Instruments Incorporated Stock Price & Overview",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/why-texas-instruments-txn-stock-122123972.html",
+          "title": "Why Texas Instruments (TXN) Stock Is Trading Up Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TXN.NE/",
+          "title": "Texas Instruments Incorporated (TXN.NE) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TXN.TO/",
+          "title": "Texas Instruments Incorporated (TXN.TO) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "cnbc.com",
@@ -236,46 +276,6 @@
           "title": "Texas Instruments Inc. (TXN) Stock Price Today - WSJ",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/txn",
-          "title": "TXN Stock Price | Texas Instruments Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/us/xnas/txn",
-          "title": "TXN | Texas Instruments Inc. Stock Price & News - WSJ",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/texas-instruments-soars-after-data-center-demand-buoys-sales-215201314.html",
-          "title": "Texas Instruments Rises the Most Since 2000 on Rosy Forecast",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-incorporated-txn-attracting-130003713.html",
-          "title": "Texas Instruments Incorporated (TXN) is Attracting Investor Attention: Here is What You Should Know",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-analog-unit-extend-125600311.html",
-          "title": "Can Texas Instruments' Analog Unit Extend Its Strong Sales Growth Run?",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 60.69545454545455
+        },
+        {
+          "date": "2026-05-16",
+          "value": 60.96818181818182
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

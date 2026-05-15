@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "开关设备 + 中压电气，电网设备小盘股",
-    "price": 296.9800109863281,
-    "change_1d": -1.28,
-    "composite": 57.41142857142858,
+    "price": 292.6499938964844,
+    "change_1d": -1.46,
+    "composite": 57.256666666666675,
     "tier_letter": "B",
     "description": [
       "Powell Industries 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:00",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$296.98",
-        "日内涨跌": "-1.28%",
-        "1日涨跌": "-1.28%",
-        "5日涨跌": "-4.01%",
-        "1月涨跌": "+26.69%",
-        "3月涨跌": "+52.28%",
-        "6月涨跌": "+170.26%",
-        "1年涨跌": "+382.21%",
-        "YTD涨跌": "+152.73%",
-        "20日均线": "276.08",
-        "50日均线": "223.92",
-        "200日均线": "144.90",
-        "RSI 14": "63.15",
-        "MACD": "24.76",
-        "20日波动率": "65.55%",
-        "成交量": "556,024",
-        "量比20日": "0.77",
+        "最新价": "$292.65",
+        "日内涨跌": "-1.46%",
+        "1日涨跌": "-1.46%",
+        "5日涨跌": "-5.41%",
+        "1月涨跌": "+27.39%",
+        "3月涨跌": "+50.06%",
+        "6月涨跌": "+166.32%",
+        "1年涨跌": "+393.90%",
+        "YTD涨跌": "+149.05%",
+        "20日均线": "278.67",
+        "50日均线": "226.42",
+        "200日均线": "145.98",
+        "RSI 14": "60.87",
+        "MACD": "22.91",
+        "20日波动率": "65.69%",
+        "成交量": "1,257,969",
+        "量比20日": "1.69",
         "52周高点": "328.00",
         "52周低点": "54.75",
-        "距52周高点": "-9.46%",
-        "距52周低点": "+442.40%",
-        "20日支撑": "230.71",
+        "距52周高点": "-10.78%",
+        "距52周低点": "+434.49%",
+        "20日支撑": "235.43",
         "20日压力": "328.00"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "36.43M",
         "ROE": "29.90%",
         "债务/权益": "0.00",
-        "市值": "$10.82B",
-        "企业价值": "$10.42B",
-        "市盈率 TTM": "58.12",
-        "预期市盈率": "43.20",
-        "市销率": "9.56",
-        "EV / 营收": "9.20",
-        "EV / EBITDA": "44.93",
-        "EV / FCF": "73.27",
-        "FCF 收益率": "1.31%",
+        "市值": "$10.66B",
+        "企业价值": "$10.28B",
+        "市盈率 TTM": "57.05",
+        "预期市盈率": "42.57",
+        "市销率": "9.42",
+        "EV / 营收": "9.08",
+        "EV / EBITDA": "44.33",
+        "EV / FCF": "72.28",
+        "FCF 收益率": "1.33%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 23.76190476190476,
+          "value": 21.85714285714286,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 81.90476190476191,
+          "value": 86.42857142857143,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 57.41142857142858,
+          "value": 57.256666666666675,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 4 位分析师 · 2026-05-15 05:16:02",
+      "title_meta": "Yahoo Finance · 4 位分析师 · 2026-05-16 05:14:00",
       "data": {
         "target_mean": 316.25,
         "target_high": 360.0,
         "target_low": 252.0,
-        "upside_pct": 6.49,
+        "upside_pct": 8.06,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,22 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/PW2.F/latest-news/",
+          "title": "Powell Industries, Inc. (PW2.F) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/POWL/news?page=3",
+          "title": "Page 3 | Powell Industries, Inc. (POWL) Latest Stock News | Seeking ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "marketwatch.com",
           "url": "https://www.marketwatch.com/investing/stock/powl",
@@ -210,6 +226,14 @@
           "source": "ca.finance.yahoo.com",
           "url": "https://ca.finance.yahoo.com/quote/POWL/research-reports/",
           "title": "Powell Industries, Inc. (POWL) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/powell-rises-52-3-three-161000984.html",
+          "title": "Powell Rises 52.3% in Three Months: Should You Buy the Stock Now or Wait?",
           "sentiment": null,
           "impact": null
         },
@@ -252,30 +276,6 @@
           "title": "Why Powell Industries (POWL) Outpaced the Stock Market Today",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/powell-industries-powl-rallied-robust-130549634.html",
-          "title": "Powell Industries (POWL) Rallied on Robust Momentum in Orders and Backlog",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/powell-industries-powl-valuation-check-071326324.html",
-          "title": "Powell Industries (POWL) Valuation Check After Record AI Data Center Order And Strong Utility Demand",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/POWL/",
-          "title": "Powell Industries, Inc. (POWL) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 57.41142857142858
+        },
+        {
+          "date": "2026-05-16",
+          "value": 57.256666666666675
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

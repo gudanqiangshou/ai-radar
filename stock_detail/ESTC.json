@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "Elasticsearch + ELK — 搜索 + 向量搜索（RAG）",
-    "price": 49.779998779296875,
-    "change_1d": 2.49,
-    "composite": 51.4125,
+    "price": 50.599998474121094,
+    "change_1d": 1.65,
+    "composite": 51.50625,
     "tier_letter": "C",
     "description": [
       "Elastic 的 AI 产业链位置为 Data / Software Platform。",
@@ -19,7 +19,7 @@
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:04",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$49.78",
-        "日内涨跌": "+2.49%",
-        "1日涨跌": "+2.49%",
-        "5日涨跌": "-4.73%",
-        "1月涨跌": "+9.67%",
-        "3月涨跌": "-19.15%",
-        "6月涨跌": "-45.19%",
-        "1年涨跌": "-46.51%",
-        "YTD涨跌": "-31.39%",
-        "20日均线": "48.83",
-        "50日均线": "49.87",
-        "200日均线": "70.66",
-        "RSI 14": "50.97",
-        "MACD": "0.13",
-        "20日波动率": "48.77%",
-        "成交量": "1,471,949",
-        "量比20日": "0.88",
+        "最新价": "$50.60",
+        "日内涨跌": "+1.65%",
+        "1日涨跌": "+1.65%",
+        "5日涨跌": "-3.16%",
+        "1月涨跌": "+6.50%",
+        "3月涨跌": "-17.82%",
+        "6月涨跌": "-44.29%",
+        "1年涨跌": "-45.11%",
+        "YTD涨跌": "-30.26%",
+        "20日均线": "48.98",
+        "50日均线": "49.82",
+        "200日均线": "70.47",
+        "RSI 14": "53.33",
+        "MACD": "0.20",
+        "20日波动率": "48.97%",
+        "成交量": "2,408,211",
+        "量比20日": "1.43",
         "52周高点": "96.07",
         "52周低点": "42.05",
-        "距52周高点": "-48.18%",
-        "距52周低点": "+18.38%",
+        "距52周高点": "-47.33%",
+        "距52周低点": "+20.33%",
         "20日支撑": "44.31",
         "20日压力": "53.33"
       }
@@ -76,15 +76,15 @@
         "流通股本": "103.50M",
         "ROE": "-10.24%",
         "债务/权益": "0.11",
-        "市值": "$5.15B",
-        "企业价值": "$4.37B",
+        "市值": "$5.24B",
+        "企业价值": "$4.50B",
         "市盈率 TTM": "—",
-        "预期市盈率": "17.51",
-        "市销率": "3.07",
-        "EV / 营收": "2.61",
-        "EV / EBITDA": "-265.19",
-        "EV / FCF": "11.29",
-        "FCF 收益率": "7.51%",
+        "预期市盈率": "17.80",
+        "市销率": "3.12",
+        "EV / 营收": "2.68",
+        "EV / EBITDA": "-272.79",
+        "EV / FCF": "11.61",
+        "FCF 收益率": "7.39%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 16.25,
+          "value": 18.125,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 51.4125,
+          "value": 51.50625,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 26 位分析师 · 2026-05-15 05:16:06",
+      "title_meta": "Yahoo Finance · 26 位分析师 · 2026-05-16 05:14:04",
       "data": {
         "target_mean": 78.59072,
         "target_high": 116.0,
         "target_low": 49.35866,
-        "upside_pct": 57.88,
+        "upside_pct": 55.32,
         "rating": "none",
         "rating_letter": "—",
         "rating_change": "维持",
@@ -197,6 +197,46 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ESTC",
+          "title": "ESTC: Elastic NV - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-elastic-n-v-estc-171831632.html",
+          "title": "Why Elastic N.V. (ESTC) Remains a High-Growth Stock in the AI-Driven Cybersecurity Market",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/why-elastic-estc-stock-falling-200132974.html",
+          "title": "Why Elastic (ESTC) Stock Is Falling Today",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/elastic-estc-stock-trades-why-165118492.html",
+          "title": "Elastic (ESTC) Stock Trades Up, Here Is Why - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/elastic-estc-down-10-1-171435539.html",
+          "title": "Elastic (ESTC) Is Down 10.1% After Raising Guidance and ...",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -236,46 +276,6 @@
           "title": "Why Elastic (ESTC) Stock Is Nosediving - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-analysts-watching-elastic-n-170330842.html",
-          "title": "Why Analysts Are Watching Elastic N.V. (ESTC) Closely",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ESTC/",
-          "title": "Elastic N.V. (ESTC) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/assessing-elastic-estc-valuation-multimodal-081508072.html",
-          "title": "Assessing Elastic (ESTC) Valuation After New Multimodal AI Embedding Launch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/1-growth-stock-stash-2-134855847.html",
-          "title": "1 Growth Stock to Stash and 2 That Underwhelm",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-11",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ceva-ceva-q1-earnings-revenues-121006304.html",
-          "title": "Ceva (CEVA) Q1 Earnings and Revenues Beat Estimates",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 51.4125
+        },
+        {
+          "date": "2026-05-16",
+          "value": 51.50625
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "边缘网络 + Workers AI 推理 — 边缘 AI 平台",
-    "price": 199.80999755859375,
-    "change_1d": 3.73,
-    "composite": 37.90694444444445,
+    "price": 197.55999755859375,
+    "change_1d": -1.13,
+    "composite": 37.65694444444445,
     "tier_letter": "B",
     "description": [
       "Cloudflare 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$199.81",
-        "日内涨跌": "+3.73%",
-        "1日涨跌": "+3.73%",
-        "5日涨跌": "+1.88%",
-        "1月涨跌": "+11.84%",
-        "3月涨跌": "+2.02%",
-        "6月涨跌": "-5.12%",
-        "1年涨跌": "+29.34%",
-        "YTD涨跌": "+1.93%",
-        "20日均线": "211.56",
-        "50日均线": "207.58",
-        "200日均线": "204.08",
-        "RSI 14": "46.71",
-        "MACD": "-0.31",
-        "20日波动率": "101.14%",
-        "成交量": "4,089,157",
-        "量比20日": "0.87",
+        "最新价": "$197.56",
+        "日内涨跌": "-1.13%",
+        "1日涨跌": "-1.13%",
+        "5日涨跌": "+0.73%",
+        "1月涨跌": "+3.91%",
+        "3月涨跌": "+0.87%",
+        "6月涨跌": "-6.19%",
+        "1年涨跌": "+29.29%",
+        "YTD涨跌": "+0.79%",
+        "20日均线": "211.39",
+        "50日均线": "207.68",
+        "200日均线": "204.06",
+        "RSI 14": "45.89",
+        "MACD": "-1.11",
+        "20日波动率": "101.08%",
+        "成交量": "3,383,284",
+        "量比20日": "0.72",
         "52周高点": "260.00",
-        "52周低点": "150.45",
-        "距52周高点": "-23.15%",
-        "距52周低点": "+32.81%",
+        "52周低点": "150.59",
+        "距52周高点": "-24.02%",
+        "距52周低点": "+31.19%",
         "20日支撑": "185.75",
         "20日压力": "258.88"
       }
@@ -76,15 +76,15 @@
         "流通股本": "319.53M",
         "ROE": "-5.88%",
         "债务/权益": "0.05",
-        "市值": "$70.63B",
-        "企业价值": "$67.45B",
+        "市值": "$69.83B",
+        "企业价值": "$69.99B",
         "市盈率 TTM": "—",
-        "预期市盈率": "131.46",
-        "市销率": "30.33",
-        "EV / 营收": "28.96",
-        "EV / EBITDA": "-1858.87",
-        "EV / FCF": "89.33",
-        "FCF 收益率": "1.07%",
+        "预期市盈率": "129.54",
+        "市销率": "29.99",
+        "EV / 营收": "30.05",
+        "EV / EBITDA": "-1928.91",
+        "EV / FCF": "92.70",
+        "FCF 收益率": "1.08%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 30.555555555555557,
+          "value": 25.555555555555557,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 37.90694444444445,
+          "value": 37.65694444444445,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 31 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 31 位分析师 · 2026-05-16 05:14:05",
       "data": {
         "target_mean": 234.17741,
         "target_high": 300.0,
         "target_low": 135.0,
-        "upside_pct": 17.2,
+        "upside_pct": 18.53,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 31,
         "next_earnings": "2026-07-31",
-        "eps_estimate": 0.2698,
+        "eps_estimate": 0.26959,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/2026/05/07/cloudflare-net-q1-2026-stock-earnings-layoffs.html",
+          "title": "Cloudflare stock sinks after earnings, cutting over 20% of employees",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/NET/news?page=5",
+          "title": "Page 5 | Cloudflare, Inc. (NET) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -260,22 +276,6 @@
           "title": "Why Cloudflare (NET) Stock Is Trading Lower Today",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/net",
-          "title": "NET Stock Price | Cloudflare Inc. Cl A Stock Quote (U.S. - MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/NET",
-          "title": "Cloudflare, Inc. (NET) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 37.90694444444445
+        },
+        {
+          "date": "2026-05-16",
+          "value": 37.65694444444445
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

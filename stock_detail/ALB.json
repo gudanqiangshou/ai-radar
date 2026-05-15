@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "锂矿龙头 — 电池关键原料",
-    "price": 191.10000610351562,
-    "change_1d": -4.9,
-    "composite": 52.8,
+    "price": 180.3800048828125,
+    "change_1d": -5.61,
+    "composite": 52.5,
     "tier_letter": "B",
     "description": [
       "Albemarle 的 AI 产业链位置为 Critical Minerals / Rare Earths。",
@@ -19,7 +19,7 @@
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:07",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$191.10",
-        "日内涨跌": "-4.90%",
-        "1日涨跌": "-4.90%",
-        "5日涨跌": "-6.10%",
-        "1月涨跌": "+0.65%",
-        "3月涨跌": "+14.88%",
-        "6月涨跌": "+65.97%",
-        "1年涨跌": "+212.87%",
-        "YTD涨跌": "+32.77%",
-        "20日均线": "196.11",
-        "50日均线": "182.57",
-        "200日均线": "135.36",
-        "RSI 14": "48.86",
-        "MACD": "4.53",
-        "20日波动率": "56.26%",
-        "成交量": "2,162,475",
-        "量比20日": "1.01",
+        "最新价": "$180.38",
+        "日内涨跌": "-5.61%",
+        "1日涨跌": "-5.61%",
+        "5日涨跌": "-11.37%",
+        "1月涨跌": "-2.70%",
+        "3月涨跌": "+8.43%",
+        "6月涨跌": "+56.66%",
+        "1年涨跌": "+199.04%",
+        "YTD涨跌": "+25.32%",
+        "20日均线": "195.24",
+        "50日均线": "182.90",
+        "200日均线": "135.92",
+        "RSI 14": "42.83",
+        "MACD": "2.82",
+        "20日波动率": "52.01%",
+        "成交量": "2,576,422",
+        "量比20日": "1.24",
         "52周高点": "221.00",
         "52周低点": "53.70",
-        "距52周高点": "-13.53%",
-        "距52周低点": "+255.87%",
-        "20日支撑": "184.51",
+        "距52周高点": "-18.38%",
+        "距52周低点": "+235.90%",
+        "20日支撑": "179.57",
         "20日压力": "221.00"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "117.93M",
         "ROE": "-1.82%",
         "债务/权益": "0.09",
-        "市值": "$22.54B",
-        "企业价值": "$27.11B",
+        "市值": "$21.27B",
+        "企业价值": "$25.95B",
         "市盈率 TTM": "—",
-        "预期市盈率": "17.45",
-        "市销率": "4.10",
-        "EV / 营收": "4.93",
-        "EV / EBITDA": "25.39",
-        "EV / FCF": "37.82",
-        "FCF 收益率": "3.18%",
+        "预期市盈率": "16.47",
+        "市销率": "3.87",
+        "EV / 营收": "4.72",
+        "EV / EBITDA": "24.31",
+        "EV / FCF": "36.20",
+        "FCF 收益率": "3.37%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 60.0,
+          "value": 54.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 52.8,
+          "value": 52.5,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-15 05:16:09",
+      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-16 05:14:07",
       "data": {
         "target_mean": 211.37636,
         "target_high": 264.0,
         "target_low": 83.28,
-        "upside_pct": 10.61,
+        "upside_pct": 17.18,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,14 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/alb",
+          "title": "ALB Stock Price | Albemarle Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -226,6 +234,14 @@
           "source": "reuters.com",
           "url": "https://www.reuters.com/markets/companies/ALB.N/financials/title_income-annual/",
           "title": "ALB.N - | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/3-momentum-anomaly-stocks-buy-134100466.html",
+          "title": "3 Momentum Anomaly Stocks to Buy as Markets Bask in Tech Rally",
           "sentiment": null,
           "impact": null
         },
@@ -260,22 +276,6 @@
           "title": "ALB: Albemarle Corp - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ALB/research-reports",
-          "title": "Albemarle Corporation (ALB) Stock Price, News, Quote & History ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/ALB/latest-news/",
-          "title": "Albemarle Corporation (ALB) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 52.8
+        },
+        {
+          "date": "2026-05-16",
+          "value": 52.5
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "中小企业 AP/AR 自动化 + AI 财务",
-    "price": 39.4900016784668,
-    "change_1d": -1.18,
-    "composite": 59.837500000000006,
+    "price": 40.06999969482422,
+    "change_1d": 1.47,
+    "composite": 59.525000000000006,
     "tier_letter": "C",
     "description": [
       "BILL Holdings 的 AI 产业链位置为 Data / Software Platform。",
@@ -19,7 +19,7 @@
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:04",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$39.49",
-        "日内涨跌": "-1.18%",
-        "1日涨跌": "-1.18%",
-        "5日涨跌": "-5.59%",
-        "1月涨跌": "+6.73%",
-        "3月涨跌": "-15.96%",
-        "6月涨跌": "-21.57%",
-        "1年涨跌": "-17.78%",
-        "YTD涨跌": "-21.89%",
-        "20日均线": "38.92",
-        "50日均线": "39.19",
-        "200日均线": "46.27",
-        "RSI 14": "51.20",
-        "MACD": "0.34",
-        "20日波动率": "58.44%",
-        "成交量": "2,006,558",
-        "量比20日": "0.91",
+        "最新价": "$40.07",
+        "日内涨跌": "+1.47%",
+        "1日涨跌": "+1.47%",
+        "5日涨跌": "-4.21%",
+        "1月涨跌": "+1.93%",
+        "3月涨跌": "-14.73%",
+        "6月涨跌": "-20.42%",
+        "1年涨跌": "-14.44%",
+        "YTD涨跌": "-20.75%",
+        "20日均线": "38.99",
+        "50日均线": "39.09",
+        "200日均线": "46.25",
+        "RSI 14": "53.29",
+        "MACD": "0.36",
+        "20日波动率": "58.41%",
+        "成交量": "2,465,337",
+        "量比20日": "1.10",
         "52周高点": "57.21",
         "52周低点": "34.44",
-        "距52周高点": "-30.97%",
-        "距52周低点": "+14.66%",
+        "距52周高点": "-29.96%",
+        "距52周低点": "+16.35%",
         "20日支撑": "36.05",
         "20日压力": "43.57"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "$338.49M",
         "流通股本": "99.60M",
         "ROE": "0.00%",
-        "债务/权益": "0.48",
-        "市值": "$3.93B",
-        "企业价值": "$3.69B",
+        "债务/权益": "0.47",
+        "市值": "$3.99B",
+        "企业价值": "$3.65B",
         "市盈率 TTM": "inf",
-        "预期市盈率": "12.16",
-        "市销率": "2.46",
-        "EV / 营收": "2.31",
-        "EV / EBITDA": "110.38",
-        "EV / FCF": "22.03",
-        "FCF 收益率": "4.26%",
+        "预期市盈率": "12.34",
+        "市销率": "2.49",
+        "EV / 营收": "2.28",
+        "EV / EBITDA": "108.98",
+        "EV / FCF": "21.75",
+        "FCF 收益率": "4.20%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 32.5,
+          "value": 26.25,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 59.837500000000006,
+          "value": 59.525000000000006,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 21 位分析师 · 2026-05-15 05:16:06",
+      "title_meta": "Yahoo Finance · 21 位分析师 · 2026-05-16 05:14:04",
       "data": {
-        "target_mean": 54.85714,
+        "target_mean": 55.14286,
         "target_high": 77.0,
         "target_low": 42.0,
-        "upside_pct": 38.91,
+        "upside_pct": 37.62,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 21,
         "next_earnings": "2026-05-08",
-        "eps_estimate": 0.70204,
+        "eps_estimate": 0.70137,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/BILL",
+          "title": "BILL: BILL Holdings Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/BILL/latest-news/",
+          "title": "BILL Holdings, Inc. (BILL) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/bill",
+          "title": "BILL Holdings Inc. Stock Quote (U.S.: NYSE) - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/0M5.HA/news/",
+          "title": "Bill.com Holdings Inc (0M5.HA) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "sg.finance.yahoo.com",
@@ -244,38 +276,6 @@
           "title": "BILL.N - | Stock Price & Latest News | Reuters",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/bill-holdings-bill-rebuilding-case-072732974.html",
-          "title": "How BILL Holdings (BILL) Is Rebuilding Its Case as a Takeover Target",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/markets/companies/BILL.N/",
-          "title": "(BILL.N) | Stock Price & Latest News | Reuters",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/wall-street-analysts-believe-bill-135503614.html",
-          "title": "Wall Street Analysts Believe BILL Holdings (BILL) Could Rally 32.82%: Here's is How to Trade",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/why-bill-holdings-bill-7-132145331.html",
-          "title": "Why BILL Holdings (BILL) Is Up 7.6% After First GAAP Profit And $1 Billion Buyback Program",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 59.837500000000006
+        },
+        {
+          "date": "2026-05-16",
+          "value": 59.525000000000006
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

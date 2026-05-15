@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "HVAC + 数据中心制冷，规模大但 AI 弹性低",
-    "price": 481.6700134277344,
-    "change_1d": 2.26,
-    "composite": 54.268571428571434,
+    "price": 466.6000061035156,
+    "change_1d": -3.13,
+    "composite": 54.387619047619054,
     "tier_letter": "C",
     "description": [
       "Trane Technologies 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$481.67",
-        "日内涨跌": "+2.26%",
-        "1日涨跌": "+2.26%",
-        "5日涨跌": "+3.32%",
-        "1月涨跌": "+2.36%",
-        "3月涨跌": "+3.52%",
-        "6月涨跌": "+15.19%",
-        "1年涨跌": "+14.78%",
-        "YTD涨跌": "+21.02%",
-        "20日均线": "479.58",
-        "50日均线": "451.65",
-        "200日均线": "426.79",
-        "RSI 14": "56.22",
-        "MACD": "5.37",
-        "20日波动率": "28.60%",
-        "成交量": "581,579",
-        "量比20日": "0.44",
+        "最新价": "$466.60",
+        "日内涨跌": "-3.13%",
+        "1日涨跌": "-3.13%",
+        "5日涨跌": "+0.09%",
+        "1月涨跌": "+0.87%",
+        "3月涨跌": "+0.29%",
+        "6月涨跌": "+11.58%",
+        "1年涨跌": "+10.48%",
+        "YTD涨跌": "+17.24%",
+        "20日均线": "479.11",
+        "50日均线": "452.26",
+        "200日均线": "426.96",
+        "RSI 14": "48.36",
+        "MACD": "4.23",
+        "20日波动率": "28.36%",
+        "成交量": "1,042,566",
+        "量比20日": "0.79",
         "52周高点": "503.47",
         "52周低点": "348.06",
-        "距52周高点": "-4.33%",
-        "距52周低点": "+38.39%",
-        "20日支撑": "461.57",
+        "距52周高点": "-7.32%",
+        "距52周低点": "+34.06%",
+        "20日支撑": "464.05",
         "20日压力": "503.47"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "221.06M",
         "ROE": "36.63%",
         "债务/权益": "0.04",
-        "市值": "$106.48B",
-        "企业价值": "$107.68B",
-        "市盈率 TTM": "36.80",
-        "预期市盈率": "28.32",
-        "市销率": "4.93",
-        "EV / 营收": "4.99",
-        "EV / EBITDA": "25.44",
-        "EV / FCF": "40.45",
-        "FCF 收益率": "2.50%",
+        "市值": "$103.14B",
+        "企业价值": "$110.04B",
+        "市盈率 TTM": "35.62",
+        "预期市盈率": "27.39",
+        "市销率": "4.77",
+        "EV / 营收": "5.09",
+        "EV / EBITDA": "25.99",
+        "EV / FCF": "41.33",
+        "FCF 收益率": "2.58%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 50.95238095238094,
+          "value": 53.33333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 54.268571428571434,
+          "value": 54.387619047619054,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 23 位分析师 · 2026-05-15 05:16:02",
+      "title_meta": "Yahoo Finance · 23 位分析师 · 2026-05-16 05:14:01",
       "data": {
-        "target_mean": 517.6878,
+        "target_mean": 518.3835,
         "target_high": 585.0,
         "target_low": 402.0,
-        "upside_pct": 7.48,
+        "upside_pct": 11.1,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 23,
         "next_earnings": "2026-07-29",
-        "eps_estimate": 4.26473,
+        "eps_estimate": 4.26436,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/I1RP34.SA/news/",
+          "title": "Trane Technologies plc (I1RP34.SA) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/TTN.MX/news/",
+          "title": "Trane Technologies plc (TTN.MX) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -260,22 +276,6 @@
           "title": "Trane Technologies plc (TT) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/tt",
-          "title": "Trane Technologies PLC Stock Quote (U.S.: NYSE) - TT - MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/TT/community/",
-          "title": "Trane Technologies plc (TT) Stock Forum & Discussion",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 54.268571428571434
+        },
+        {
+          "date": "2026-05-16",
+          "value": 54.387619047619054
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

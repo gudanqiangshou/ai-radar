@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "L4 自动驾驶卡车 — Uber/Volvo 合作",
-    "price": 8.180000305175781,
-    "change_1d": -2.62,
+    "price": 7.710000038146973,
+    "change_1d": -5.75,
     "composite": 45.33333333333332,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:06",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$8.18",
-        "日内涨跌": "-2.62%",
-        "1日涨跌": "-2.62%",
-        "5日涨跌": "+15.54%",
-        "1月涨跌": "+75.16%",
-        "3月涨跌": "+82.59%",
-        "6月涨跌": "+98.06%",
-        "1年涨跌": "+19.24%",
-        "YTD涨跌": "+111.37%",
-        "20日均线": "6.16",
-        "50日均线": "5.05",
-        "200日均线": "4.97",
-        "RSI 14": "79.98",
-        "MACD": "0.86",
-        "20日波动率": "92.58%",
-        "成交量": "49,760,710",
-        "量比20日": "1.62",
+        "最新价": "$7.71",
+        "日内涨跌": "-5.75%",
+        "1日涨跌": "-5.75%",
+        "5日涨跌": "+8.90%",
+        "1月涨跌": "+45.47%",
+        "3月涨跌": "+72.10%",
+        "6月涨跌": "+86.68%",
+        "1年涨跌": "+13.05%",
+        "YTD涨跌": "+99.22%",
+        "20日均线": "6.28",
+        "50日均线": "5.11",
+        "200日均线": "4.98",
+        "RSI 14": "70.41",
+        "MACD": "0.85",
+        "20日波动率": "97.08%",
+        "成交量": "42,133,492",
+        "量比20日": "1.35",
         "52周高点": "8.56",
         "52周低点": "3.60",
-        "距52周高点": "-4.50%",
-        "距52周低点": "+127.22%",
+        "距52周高点": "-9.98%",
+        "距52周低点": "+114.17%",
         "20日支撑": "4.79",
         "20日压力": "8.56"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "—",
         "流通股本": "1.65B",
         "ROE": "-44.33%",
-        "债务/权益": "0.00",
-        "市值": "$16.04B",
-        "企业价值": "$15.33B",
+        "债务/权益": "0.01",
+        "市值": "$15.12B",
+        "企业价值": "$14.90B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-19.32",
-        "市销率": "4010.66",
-        "EV / 营收": "3832.03",
-        "EV / EBITDA": "-16.96",
-        "EV / FCF": "-38.15",
-        "FCF 收益率": "-2.50%",
+        "预期市盈率": "-18.21",
+        "市销率": "3780.22",
+        "EV / 营收": "3724.16",
+        "EV / EBITDA": "-16.48",
+        "EV / FCF": "-37.08",
+        "FCF 收益率": "-2.66%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-16 05:14:06",
       "data": {
         "target_mean": 10.559,
         "target_high": 15.0,
         "target_low": 3.59,
-        "upside_pct": 29.08,
+        "upside_pct": 36.95,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/AUR/latest-news/",
+          "title": "Aurora Innovation, Inc. (AUR) stock price, news, quote and history ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/aur",
+          "title": "Aurora Innovation Inc. Stock Quote (U.S.: Nasdaq) - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -260,22 +276,6 @@
           "title": "Aurora Innovation, Inc. (AUR) Stock Price, News, Quote & History ...",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "sg.finance.yahoo.com",
-          "url": "https://sg.finance.yahoo.com/quote/AUR/latest-news/",
-          "title": "Aurora Innovation, Inc. (AUR) stock price, news, quote and history",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/why-analysts-positive-aurora-innovation-102354656.html",
-          "title": "Here's Why Analysts Are Positive on Aurora Innovation, Inc. (AUR)",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 45.33333333333332
+        },
+        {
+          "date": "2026-05-16",
+          "value": 45.33333333333332
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

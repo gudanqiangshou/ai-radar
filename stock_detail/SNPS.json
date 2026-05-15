@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "EDA 龙头 + Ansys 合并增强多物理仿真",
-    "price": 510.0199890136719,
-    "change_1d": 0.15,
+    "price": 502.4200134277344,
+    "change_1d": -1.49,
     "composite": 46.300000000000004,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "EDA / Design Software 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:02",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$510.02",
-        "日内涨跌": "+0.15%",
-        "1日涨跌": "+0.15%",
-        "5日涨跌": "-1.25%",
-        "1月涨跌": "+21.78%",
-        "3月涨跌": "+16.69%",
-        "6月涨跌": "+30.83%",
-        "1年涨跌": "-1.48%",
-        "YTD涨跌": "+6.16%",
-        "20日均线": "491.16",
-        "50日均线": "446.02",
-        "200日均线": "475.19",
-        "RSI 14": "66.92",
-        "MACD": "20.53",
-        "20日波动率": "42.61%",
-        "成交量": "1,105,267",
-        "量比20日": "0.68",
+        "最新价": "$502.42",
+        "日内涨跌": "-1.49%",
+        "1日涨跌": "-1.49%",
+        "5日涨跌": "-2.72%",
+        "1月涨跌": "+14.59%",
+        "3月涨跌": "+14.95%",
+        "6月涨跌": "+28.88%",
+        "1年涨跌": "-2.34%",
+        "YTD涨跌": "+4.58%",
+        "20日均线": "493.80",
+        "50日均线": "447.22",
+        "200日均线": "474.47",
+        "RSI 14": "61.70",
+        "MACD": "19.10",
+        "20日波动率": "43.10%",
+        "成交量": "1,386,023",
+        "量比20日": "0.86",
         "52周高点": "651.73",
         "52周低点": "376.18",
-        "距52周高点": "-21.74%",
-        "距52周低点": "+35.58%",
-        "20日支撑": "447.18",
+        "距52周高点": "-22.91%",
+        "距52周低点": "+33.56%",
+        "20日支撑": "447.43",
         "20日压力": "519.71"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "191.56M",
         "ROE": "5.54%",
         "债务/权益": "0.11",
-        "市值": "$97.70B",
-        "企业价值": "$106.22B",
-        "市盈率 TTM": "78.22",
-        "预期市盈率": "29.91",
-        "市销率": "12.20",
-        "EV / 营收": "13.27",
-        "EV / EBITDA": "65.77",
-        "EV / FCF": "34.31",
-        "FCF 收益率": "3.17%",
+        "市值": "$96.24B",
+        "企业价值": "$106.36B",
+        "市盈率 TTM": "76.94",
+        "预期市盈率": "29.47",
+        "市销率": "12.02",
+        "EV / 营收": "13.28",
+        "EV / EBITDA": "65.86",
+        "EV / FCF": "34.35",
+        "FCF 收益率": "3.22%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 26 位分析师 · 2026-05-15 05:16:04",
+      "title_meta": "Yahoo Finance · 26 位分析师 · 2026-05-16 05:14:02",
       "data": {
         "target_mean": 534.6481,
         "target_high": 650.0,
         "target_low": 403.85,
-        "upside_pct": 4.83,
+        "upside_pct": 6.41,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,14 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/SNPS.MX/news?ncid=yahooproperties_peoplealso_km0o32z3jzm",
+          "title": "Synopsys, Inc. (SNPS.MX) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/SNPS/news?ncid=yahooproperties_peoplealso_km0o32z3jzm",
@@ -210,6 +218,14 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/markets/stocks/articles/synopsys-snps-beats-stock-market-214503224.html",
           "title": "Synopsys (SNPS) Beats Stock Market Upswing: What Investors Need to Know",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/15/synopsys-price-prediction-the-ai-play-with-big-upside-this-year/",
+          "title": "Synopsys Price Prediction: The AI Play With Big Upside This Year",
           "sentiment": null,
           "impact": null
         },
@@ -260,22 +276,6 @@
           "title": "Synopsys, Inc. (SNPS) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/SNPS/latest-news/",
-          "title": "Synopsys, Inc. (SNPS) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/synopsys-snps-stock-sinks-market-224504114.html",
-          "title": "Synopsys (SNPS) Stock Sinks As Market Gains: Here's Why",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 46.300000000000004
+        },
+        {
+          "date": "2026-05-16",
+          "value": 46.300000000000004
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

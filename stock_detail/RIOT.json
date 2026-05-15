@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "比特币矿场转 AI 云 — 算力 + 电力资产",
-    "price": 24.6200008392334,
-    "change_1d": -1.2,
-    "composite": 40.599999999999994,
+    "price": 23.489999771118164,
+    "change_1d": -4.59,
+    "composite": 41.778571428571425,
     "tier_letter": "C",
     "description": [
       "Riot Platforms 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：比特币矿场转 AI 云 — 算力 + 电力资产。当前内部综合评分 40。",
+      "AI 角色：比特币矿场转 AI 云 — 算力 + 电力资产。当前内部综合评分 41。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:04",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$24.62",
-        "日内涨跌": "-1.20%",
-        "1日涨跌": "-1.20%",
-        "5日涨跌": "+2.24%",
-        "1月涨跌": "+35.87%",
-        "3月涨跌": "+61.76%",
-        "6月涨跌": "+76.49%",
-        "1年涨跌": "+176.32%",
-        "YTD涨跌": "+73.87%",
-        "20日均线": "20.29",
-        "50日均线": "16.92",
-        "200日均线": "16.17",
-        "RSI 14": "71.44",
-        "MACD": "2.35",
-        "20日波动率": "92.23%",
-        "成交量": "13,446,586",
-        "量比20日": "0.66",
+        "最新价": "$23.49",
+        "日内涨跌": "-4.59%",
+        "1日涨跌": "-4.59%",
+        "5日涨跌": "-2.45%",
+        "1月涨跌": "+34.85%",
+        "3月涨跌": "+54.34%",
+        "6月涨跌": "+68.39%",
+        "1年涨跌": "+170.00%",
+        "YTD涨跌": "+65.89%",
+        "20日均线": "20.56",
+        "50日均线": "17.08",
+        "200日均线": "16.22",
+        "RSI 14": "64.57",
+        "MACD": "2.25",
+        "20日波动率": "93.12%",
+        "成交量": "13,758,251",
+        "量比20日": "0.69",
         "52周高点": "25.86",
         "52周低点": "7.93",
-        "距52周高点": "-4.80%",
-        "距52周低点": "+210.47%",
+        "距52周高点": "-9.16%",
+        "距52周低点": "+196.22%",
         "20日支撑": "15.31",
         "20日压力": "25.86"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$382.00M",
         "流通股本": "378.15M",
         "ROE": "-32.49%",
-        "债务/权益": "0.09",
-        "市值": "$9.31B",
-        "企业价值": "$10.10B",
+        "债务/权益": "0.10",
+        "市值": "$8.88B",
+        "企业价值": "$9.98B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-40.01",
-        "市销率": "14.25",
-        "EV / 营收": "15.45",
-        "EV / EBITDA": "-30.90",
-        "EV / FCF": "-22.64",
-        "FCF 收益率": "-4.79%",
+        "预期市盈率": "-38.17",
+        "市销率": "13.60",
+        "EV / 营收": "15.28",
+        "EV / EBITDA": "-30.55",
+        "EV / FCF": "-22.39",
+        "FCF 收益率": "-5.02%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 60.0,
+          "value": 64.28571428571428,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 72.85714285714285,
+          "value": 79.28571428571428,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 40.599999999999994,
+          "value": 41.778571428571425,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,17 +167,17 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-15 05:16:05",
+      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-16 05:14:04",
       "data": {
-        "target_mean": 24.96667,
+        "target_mean": 24.91579,
         "target_high": 30.0,
         "target_low": 12.9,
-        "upside_pct": 1.41,
-        "rating": "strong_buy",
-        "rating_letter": "A",
+        "upside_pct": 6.07,
+        "rating": "buy",
+        "rating_letter": "A-",
         "rating_change": "维持",
-        "previous_rating_letter": "A",
-        "n_analysts": 18,
+        "previous_rating_letter": "A-",
+        "n_analysts": 19,
         "next_earnings": "2026-07-31",
         "eps_estimate": -0.22592,
         "revenue_estimate": null
@@ -197,6 +197,46 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/RIOT/news?ncid=yahooproperties_peoplealso_km0o32z3jzm",
+          "title": "Riot Platforms, Inc. (RIOT) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AP4N.F/news/",
+          "title": "Riot Platforms, Inc. (AP4N.F) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AP4N.F/",
+          "title": "Riot Platforms, Inc. (AP4N.F) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/RIOT.MX/news/",
+          "title": "META_TITLE_QUOTE - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/RIOT.BA/news/",
+          "title": "RIOT PLATFORMS INC RIOT PLATFOR (RIOT.BA) Latest Stock ...",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -236,46 +276,6 @@
           "title": "Riot Platforms, Inc. (RIOT) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/riot-platforms-inc-riot-gets-101908551.html",
-          "title": "Riot Platforms, Inc. (RIOT) Gets a Price Target Hike on AMD Lease Deal",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "markets.ft.com",
-          "url": "https://markets.ft.com/data/equities/tearsheet/summary?s=RIOT:NAQ",
-          "title": "Riot Platforms Inc, RIOT:NAQ summary - FT.com",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/riot-platforms-inc-riot-trending-140005377.html",
-          "title": "Riot Platforms, Inc. (RIOT) Is a Trending Stock: Facts to Know Before ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Investing.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-boom-turns-bitcoin-miners-173441472.html",
-          "title": "AI boom turns bitcoin miners Into Wall Street’s hottest data center bet",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/hold-apld-16-9x-p-154000228.html",
-          "title": "Should You Hold APLD at 16.9x P/S? 3 Reasons Despite the Premium",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 40.599999999999994
+        },
+        {
+          "date": "2026-05-16",
+          "value": 41.778571428571425
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

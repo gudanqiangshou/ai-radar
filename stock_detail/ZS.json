@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "零信任 SASE 代表 — AI 加速威胁检测",
-    "price": 153.6999969482422,
-    "change_1d": 0.83,
-    "composite": 52.455555555555556,
+    "price": 161.0500030517578,
+    "change_1d": 4.78,
+    "composite": 52.62222222222222,
     "tier_letter": "B",
     "description": [
       "Zscaler 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$153.70",
-        "日内涨跌": "+0.83%",
-        "1日涨跌": "+0.83%",
-        "5日涨跌": "+1.03%",
-        "1月涨跌": "+25.29%",
-        "3月涨跌": "-13.52%",
-        "6月涨跌": "-48.67%",
-        "1年涨跌": "-37.12%",
-        "YTD涨跌": "-30.32%",
-        "20日均线": "141.20",
-        "50日均线": "142.59",
-        "200日均线": "227.44",
-        "RSI 14": "60.53",
-        "MACD": "3.04",
-        "20日波动率": "57.94%",
-        "成交量": "3,989,223",
-        "量比20日": "1.51",
+        "最新价": "$161.05",
+        "日内涨跌": "+4.78%",
+        "1日涨跌": "+4.78%",
+        "5日涨跌": "+5.86%",
+        "1月涨跌": "+22.93%",
+        "3月涨跌": "-9.38%",
+        "6月涨跌": "-46.22%",
+        "1年涨跌": "-34.51%",
+        "YTD涨跌": "-26.98%",
+        "20日均线": "142.52",
+        "50日均线": "142.57",
+        "200日均线": "226.80",
+        "RSI 14": "65.53",
+        "MACD": "4.01",
+        "20日波动率": "59.65%",
+        "成交量": "4,025,238",
+        "量比20日": "1.48",
         "52周高点": "336.99",
         "52周低点": "114.62",
-        "距52周高点": "-54.39%",
-        "距52周低点": "+34.09%",
+        "距52周高点": "-52.21%",
+        "距52周低点": "+40.50%",
         "20日支撑": "127.79",
-        "20日压力": "158.04"
+        "20日压力": "162.73"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "$1.81B",
         "流通股本": "160.79M",
         "ROE": "-3.56%",
-        "债务/权益": "0.08",
-        "市值": "$24.71B",
-        "企业价值": "$22.86B",
+        "债务/权益": "0.07",
+        "市值": "$25.90B",
+        "企业价值": "$23.07B",
         "市盈率 TTM": "—",
-        "预期市盈率": "33.50",
-        "市销率": "8.23",
-        "EV / 营收": "7.62",
-        "EV / EBITDA": "-336.13",
-        "EV / FCF": "22.39",
-        "FCF 收益率": "4.13%",
+        "预期市盈率": "35.10",
+        "市销率": "8.63",
+        "EV / 营收": "7.69",
+        "EV / EBITDA": "-339.13",
+        "EV / FCF": "22.59",
+        "FCF 收益率": "3.94%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 19.444444444444443,
+          "value": 22.77777777777778,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 52.455555555555556,
+          "value": 52.62222222222222,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 45 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 45 位分析师 · 2026-05-16 05:14:05",
       "data": {
         "target_mean": 224.1189,
         "target_high": 330.0,
         "target_low": 140.0,
-        "upside_pct": 45.82,
+        "upside_pct": 39.16,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,14 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/ZS/latest-news/",
+          "title": "Zscaler, Inc. (ZS) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -238,6 +246,14 @@
           "impact": null
         },
         {
+          "date": "2026-05-15",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-analysts-think-zscaler-133003078.html",
+          "title": "Wall Street Analysts Think Zscaler (ZS) Is a Good Investment: Is It?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-14",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/ZS/",
@@ -258,22 +274,6 @@
           "source": "seekingalpha.com",
           "url": "https://seekingalpha.com/symbol/ZS",
           "title": "Zscaler, Inc. (ZS) Stock Price, Quote, News & Analysis - Seeking Alpha",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/0ZC.F/",
-          "title": "Zscaler, Inc. (0ZC.F) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/ZS",
-          "title": "ZS: Zscaler Inc - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 52.455555555555556
+        },
+        {
+          "date": "2026-05-16",
+          "value": 52.62222222222222
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

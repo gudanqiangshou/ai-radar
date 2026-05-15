@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "FSD + Robotaxi + Optimus — 端到端 AI 物理化",
-    "price": 443.29998779296875,
-    "change_1d": -0.44,
-    "composite": 56.958333333333336,
+    "price": 422.239990234375,
+    "change_1d": -4.75,
+    "composite": 56.875,
     "tier_letter": "A",
     "description": [
       "Tesla 的 AI 产业链位置为 Autonomous / Mobility。",
@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:06",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$443.30",
-        "日内涨跌": "-0.44%",
-        "1日涨跌": "-0.44%",
-        "5日涨跌": "+3.49%",
-        "1月涨跌": "+21.72%",
-        "3月涨跌": "+6.19%",
-        "6月涨跌": "+9.63%",
-        "1年涨跌": "+27.50%",
-        "YTD涨跌": "+1.19%",
-        "20日均线": "400.24",
-        "50日均线": "386.45",
-        "200日均线": "406.88",
-        "RSI 14": "69.02",
-        "MACD": "16.18",
-        "20日波动率": "35.60%",
-        "成交量": "45,182,287",
-        "量比20日": "0.73",
+        "最新价": "$422.24",
+        "日内涨跌": "-4.75%",
+        "1日涨跌": "-4.75%",
+        "5日涨跌": "-1.43%",
+        "1月涨跌": "+7.73%",
+        "3月涨跌": "+1.15%",
+        "6月涨跌": "+4.42%",
+        "1年涨跌": "+23.17%",
+        "YTD涨跌": "-3.61%",
+        "20日均线": "401.32",
+        "50日均线": "386.78",
+        "200日均线": "407.40",
+        "RSI 14": "57.96",
+        "MACD": "15.32",
+        "20日波动率": "39.33%",
+        "成交量": "50,510,893",
+        "量比20日": "0.84",
         "52周高点": "498.83",
         "52周低点": "273.21",
-        "距52周高点": "-11.13%",
-        "距52周低点": "+62.26%",
+        "距52周高点": "-15.35%",
+        "距52周低点": "+54.55%",
         "20日支撑": "364.02",
         "20日压力": "453.40"
       }
@@ -76,15 +76,15 @@
         "流通股本": "3.76B",
         "ROE": "4.90%",
         "债务/权益": "0.01",
-        "市值": "$1.66T",
+        "市值": "$1.59T",
         "企业价值": "$1.64T",
-        "市盈率 TTM": "414.30",
-        "预期市盈率": "176.33",
-        "市销率": "17.01",
-        "EV / 营收": "16.80",
-        "EV / EBITDA": "148.20",
-        "EV / FCF": "313.05",
-        "FCF 收益率": "0.32%",
+        "市盈率 TTM": "380.40",
+        "预期市盈率": "167.95",
+        "市销率": "16.20",
+        "EV / 营收": "16.72",
+        "EV / EBITDA": "147.53",
+        "EV / FCF": "311.64",
+        "FCF 收益率": "0.33%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 64.16666666666666,
+          "value": 62.49999999999999,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 56.958333333333336,
+          "value": 56.875,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 41 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 41 位分析师 · 2026-05-16 05:14:06",
       "data": {
         "target_mean": 412.25366,
         "target_high": 600.0,
         "target_low": 123.0,
-        "upside_pct": -7.0,
+        "upside_pct": -2.37,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TSLA/news?p=TSLA",
+          "title": "Tesla, Inc. (TSLA) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/TSLA.MX/news/",
+          "title": "Tesla, Inc. (TSLA.MX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/TSLA.O/",
+          "title": "(TSLA.O) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/TSLA.TO/news/",
+          "title": "Tesla, Inc. (TSLA.TO) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "marketwatch.com",
@@ -244,38 +276,6 @@
           "title": "Tesla, Inc. (TSLA.BA) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/TSLA",
-          "title": "TSLA: Tesla Inc - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/2026/03/25/tesla-stock-true-believers-could-be-losing-faith.html",
-          "title": "Tesla stock true believers could be losing faith",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/2026/04/15/tesla-tsla-stock-analyst-upgrade-software-updates.html",
-          "title": "Tesla stock adds nearly 8% as Elon Musk touts chip progress - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/TSLA/news/",
-          "title": "Tesla, Inc. (TSLA) Latest Stock News & Headlines - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 56.958333333333336
+        },
+        {
+          "date": "2026-05-16",
+          "value": 56.875
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "超导量子计算 — 通用门量子设计",
-    "price": 19.270000457763672,
-    "change_1d": 4.64,
+    "price": 17.850000381469727,
+    "change_1d": -7.37,
     "composite": 37.86666666666667,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:07",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$19.27",
-        "日内涨跌": "+4.64%",
-        "1日涨跌": "+4.64%",
-        "5日涨跌": "+1.74%",
-        "1月涨跌": "+14.23%",
-        "3月涨跌": "+19.76%",
-        "6月涨跌": "-24.37%",
-        "1年涨跌": "+65.55%",
-        "YTD涨跌": "-18.35%",
-        "20日均线": "18.22",
-        "50日均线": "16.63",
-        "200日均线": "22.99",
-        "RSI 14": "56.48",
-        "MACD": "0.73",
-        "20日波动率": "86.41%",
-        "成交量": "32,753,590",
-        "量比20日": "1.13",
+        "最新价": "$17.85",
+        "日内涨跌": "-7.37%",
+        "1日涨跌": "-7.37%",
+        "5日涨跌": "-5.76%",
+        "1月涨跌": "-6.59%",
+        "3月涨跌": "+10.94%",
+        "6月涨跌": "-29.95%",
+        "1年涨跌": "+54.68%",
+        "YTD涨跌": "-24.36%",
+        "20日均线": "18.13",
+        "50日均线": "16.65",
+        "200日均线": "23.01",
+        "RSI 14": "50.00",
+        "MACD": "0.61",
+        "20日波动率": "90.05%",
+        "成交量": "26,107,140",
+        "量比20日": "0.92",
         "52周高点": "58.15",
-        "52周低点": "10.18",
-        "距52周高点": "-66.86%",
-        "距52周低点": "+89.29%",
+        "52周低点": "10.30",
+        "距52周高点": "-69.30%",
+        "距52周低点": "+73.30%",
         "20日支撑": "15.30",
         "20日压力": "21.02"
       }
@@ -76,14 +76,14 @@
         "流通股本": "332.40M",
         "ROE": "-57.09%",
         "债务/权益": "0.00",
-        "市值": "$6.41B",
-        "企业价值": "$5.71B",
+        "市值": "$5.93B",
+        "企业价值": "$5.99B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-94.77",
-        "市销率": "639.51",
-        "EV / 营收": "570.05",
-        "EV / EBITDA": "-71.35",
-        "EV / FCF": "-919.45",
+        "预期市盈率": "-87.79",
+        "市销率": "592.38",
+        "EV / 营收": "598.43",
+        "EV / EBITDA": "-74.90",
+        "EV / FCF": "-965.21",
         "FCF 收益率": "-0.10%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 12 位分析师 · 2026-05-15 05:16:09",
+      "title_meta": "Yahoo Finance · 12 位分析师 · 2026-05-16 05:14:07",
       "data": {
         "target_mean": 29.2425,
         "target_high": 40.0,
         "target_low": 15.91,
-        "upside_pct": 51.75,
+        "upside_pct": 63.82,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/RGTIW/news/",
+          "title": "Rigetti Computing, Inc. (RGTIW) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/RGTI/latest-news/",
+          "title": "Rigetti Computing, Inc. (RGTI) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -260,22 +276,6 @@
           "title": "RGTI Stock Price | Rigetti Computing Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/RGTI/",
-          "title": "Rigetti Computing, Inc. (RGTI) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/RGTI",
-          "title": "RGTI: Rigetti Computing Inc - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 37.86666666666667
+        },
+        {
+          "date": "2026-05-16",
+          "value": 37.86666666666667
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

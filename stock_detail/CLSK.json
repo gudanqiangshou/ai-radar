@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "矿场 + 微电网 + AI 算力 — 能源 + 算力组合",
-    "price": 13.979999542236328,
-    "change_1d": 5.11,
+    "price": 13.109999656677246,
+    "change_1d": -6.22,
     "composite": 38.385714285714286,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:04",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$13.98",
-        "日内涨跌": "+5.11%",
-        "1日涨跌": "+5.11%",
-        "5日涨跌": "-1.55%",
-        "1月涨跌": "+24.05%",
-        "3月涨跌": "+41.93%",
-        "6月涨跌": "+27.55%",
-        "1年涨跌": "+45.47%",
-        "YTD涨跌": "+21.04%",
-        "20日均线": "12.84",
-        "50日均线": "10.96",
+        "最新价": "$13.11",
+        "日内涨跌": "-6.22%",
+        "1日涨跌": "-6.22%",
+        "5日涨跌": "-7.68%",
+        "1月涨跌": "+16.43%",
+        "3月涨跌": "+33.10%",
+        "6月涨跌": "+19.62%",
+        "1年涨跌": "+40.06%",
+        "YTD涨跌": "+13.51%",
+        "20日均线": "12.90",
+        "50日均线": "11.03",
         "200日均线": "12.28",
-        "RSI 14": "62.31",
-        "MACD": "0.87",
-        "20日波动率": "74.86%",
-        "成交量": "16,498,037",
-        "量比20日": "0.78",
+        "RSI 14": "54.70",
+        "MACD": "0.78",
+        "20日波动率": "77.83%",
+        "成交量": "16,921,632",
+        "量比20日": "0.83",
         "52周高点": "23.61",
         "52周低点": "8.00",
-        "距52周高点": "-40.79%",
-        "距52周低点": "+74.75%",
+        "距52周高点": "-44.47%",
+        "距52周低点": "+63.87%",
         "20日支撑": "11.13",
         "20日压力": "15.04"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$1.53B",
         "流通股本": "256.61M",
         "ROE": "-34.80%",
-        "债务/权益": "0.50",
-        "市值": "$3.59B",
-        "企业价值": "$4.94B",
+        "债务/权益": "0.53",
+        "市值": "$3.36B",
+        "企业价值": "$5.12B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-22.73",
-        "市销率": "4.85",
-        "EV / 营收": "6.68",
-        "EV / EBITDA": "-12.75",
-        "EV / FCF": "-16.44",
-        "FCF 收益率": "-8.38%",
+        "预期市盈率": "-21.32",
+        "市销率": "4.55",
+        "EV / 营收": "6.92",
+        "EV / EBITDA": "-13.20",
+        "EV / FCF": "-17.02",
+        "FCF 收益率": "-8.94%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 12 位分析师 · 2026-05-15 05:16:06",
+      "title_meta": "Yahoo Finance · 12 位分析师 · 2026-05-16 05:14:04",
       "data": {
-        "target_mean": 19.70833,
+        "target_mean": 20.375,
         "target_high": 26.0,
         "target_low": 16.0,
-        "upside_pct": 40.98,
+        "upside_pct": 55.42,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
         "previous_rating_letter": "A",
         "n_analysts": 12,
         "next_earnings": "2026-08-07",
-        "eps_estimate": -0.18,
+        "eps_estimate": -0.255,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,46 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CLSK/dividends/",
+          "title": "CleanSpark, Inc. (CLSK) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/CLSK/latest-news/",
+          "title": "CleanSpark, Inc. (CLSK) stock price, news, quote and history ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/cleanspark-inc-clsk-ramps-bitcoin-131509918.html",
+          "title": "Cleanspark Inc. (CLSK) Ramps up Bitcoin Production amid AI infrastructure Expansion Spree",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CLSK.MX/latest-news/",
+          "title": "CleanSpark, Inc. (CLSK.MX) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/quote/CLSK:SW",
+          "title": "CLSK: Cleanspark Inc Stock Price Quote - BX ... - Bloomberg News",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "seekingalpha.com",
@@ -236,46 +276,6 @@
           "title": "CleanSpark, Inc. (CLSK) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/CLSK",
-          "title": "CLSK: CleanSpark Inc - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CLSK/community/",
-          "title": "CleanSpark, Inc. (CLSK) Stock Forum & Discussion - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/CLSK/press-releases/",
-          "title": "CleanSpark, Inc. (CLSK) Latest Press Releases & Corporate News",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/worth-investing-cleanspark-clsk-based-133004741.html",
-          "title": "Is It Worth Investing in CleanSpark (CLSK) Based on Wall Street's Bullish Views?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/surging-50-past-month-cleanspark-172152537.html",
-          "title": "After Surging 50% in Past Month, CleanSpark Inc (CLSK) Stock Rises More?",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 38.385714285714286
+        },
+        {
+          "date": "2026-05-16",
+          "value": 38.385714285714286
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

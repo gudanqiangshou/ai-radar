@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "美国本土代工 — 成熟节点 + 国防/汽车 + Chips Act",
-    "price": 73.83999633789062,
-    "change_1d": -1.53,
-    "composite": 37.55,
+    "price": 71.02999877929688,
+    "change_1d": -3.81,
+    "composite": 37.7,
     "tier_letter": "C",
     "description": [
       "GlobalFoundries 的 AI 产业链位置为 Foundry / Packaging。",
@@ -19,7 +19,7 @@
       "Foundry / Packaging 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:02",
     "status_label": "减持"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$73.84",
-        "日内涨跌": "-1.53%",
-        "1日涨跌": "-1.53%",
-        "5日涨跌": "-0.38%",
-        "1月涨跌": "+52.53%",
-        "3月涨跌": "+50.72%",
-        "6月涨跌": "+123.42%",
-        "1年涨跌": "+84.46%",
-        "YTD涨跌": "+100.27%",
-        "20日均线": "66.18",
-        "50日均线": "53.67",
-        "200日均线": "41.42",
-        "RSI 14": "70.73",
-        "MACD": "6.31",
-        "20日波动率": "60.03%",
-        "成交量": "2,320,128",
-        "量比20日": "0.46",
+        "最新价": "$71.03",
+        "日内涨跌": "-3.81%",
+        "1日涨跌": "-3.81%",
+        "5日涨跌": "-4.17%",
+        "1月涨跌": "+47.03%",
+        "3月涨跌": "+44.99%",
+        "6月涨跌": "+114.92%",
+        "1年涨跌": "+79.64%",
+        "YTD涨跌": "+92.65%",
+        "20日均线": "67.00",
+        "50日均线": "54.13",
+        "200日均线": "41.58",
+        "RSI 14": "63.52",
+        "MACD": "5.91",
+        "20日波动率": "57.96%",
+        "成交量": "3,228,973",
+        "量比20日": "0.66",
         "52周高点": "76.98",
         "52周低点": "31.51",
-        "距52周高点": "-4.08%",
-        "距52周低点": "+134.34%",
-        "20日支撑": "52.00",
+        "距52周高点": "-7.73%",
+        "距52周低点": "+125.42%",
+        "20日支撑": "56.65",
         "20日压力": "76.98"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "548.42M",
         "ROE": "6.83%",
         "债务/权益": "0.04",
-        "市值": "$40.50B",
-        "企业价值": "$39.90B",
-        "市盈率 TTM": "53.12",
-        "预期市盈率": "29.79",
-        "市销率": "5.92",
-        "EV / 营收": "5.83",
-        "EV / EBITDA": "19.63",
-        "EV / FCF": "33.45",
-        "FCF 收益率": "2.95%",
+        "市值": "$38.95B",
+        "企业价值": "$39.27B",
+        "市盈率 TTM": "51.10",
+        "预期市盈率": "28.65",
+        "市销率": "5.70",
+        "EV / 营收": "5.74",
+        "EV / EBITDA": "19.32",
+        "EV / FCF": "32.92",
+        "FCF 收益率": "3.06%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 51.0,
+          "value": 54.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 37.55,
+          "value": 37.7,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 20 位分析师 · 2026-05-15 05:16:04",
+      "title_meta": "Yahoo Finance · 20 位分析师 · 2026-05-16 05:14:02",
       "data": {
         "target_mean": 78.9516,
         "target_high": 125.0,
         "target_low": 60.0,
-        "upside_pct": 6.92,
+        "upside_pct": 11.15,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GFS/",
+          "title": "GLOBALFOUNDRIES Inc. (GFS) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/GFS/news?page=4",
+          "title": "GLOBALFOUNDRIES Inc. (GFS) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/news/4550148-globalfoundries-rises-after-q4-beat-plans-up-to-500m-buyback",
+          "title": "GlobalFoundries rises after Q4 beat, plans up to $500 M buyback",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GFS/latest-news/",
+          "title": "GLOBALFOUNDRIES Inc. (GFS) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "marketwatch.com",
@@ -244,38 +276,6 @@
           "title": "GLOBALFOUNDRIES Inc. (GFS) Stock Price, Quote, News & Analysis",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/76J.SG/news/",
-          "title": "GLOBALFOUNDRIES Inc. (76J.SG) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/GFS/news?page=2",
-          "title": "Page 2 | GLOBALFOUNDRIES Inc. (GFS) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/lightwave-logic-lwlg-hits-time-021603230.html",
-          "title": "Lightwave Logic (LWLG) Hits All-Time High as Investors Bet on Strong Q1",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/1905335/this-little-known-tech-stock-is-up-60-in-2026-it-powers-apples-face-id-tech",
-          "title": "This Little-Known Tech Stock Is Up 60% in 2026. It Powers Apple’s Face ID Tech.",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 37.55
+        },
+        {
+          "date": "2026-05-16",
+          "value": 37.7
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

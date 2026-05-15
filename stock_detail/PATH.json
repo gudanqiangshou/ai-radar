@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "RPA + Agentic Automation — 企业流程 AI",
-    "price": 9.670000076293945,
-    "change_1d": 2.11,
-    "composite": 52.2409090909091,
+    "price": 10.270000457763672,
+    "change_1d": 6.2,
+    "composite": 53.80909090909091,
     "tier_letter": "C",
     "description": [
       "UiPath 的 AI 产业链位置为 AI Application。",
-      "AI 角色：RPA + Agentic Automation — 企业流程 AI。当前内部综合评分 52。",
+      "AI 角色：RPA + Agentic Automation — 企业流程 AI。当前内部综合评分 53。",
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$9.67",
-        "日内涨跌": "+2.11%",
-        "1日涨跌": "+2.11%",
-        "5日涨跌": "-10.38%",
-        "1月涨跌": "-3.49%",
-        "3月涨跌": "-14.58%",
-        "6月涨跌": "-31.08%",
-        "1年涨跌": "-26.80%",
-        "YTD涨跌": "-39.11%",
-        "20日均线": "10.45",
-        "50日均线": "10.90",
-        "200日均线": "13.01",
-        "RSI 14": "38.89",
-        "MACD": "-0.22",
-        "20日波动率": "49.55%",
-        "成交量": "26,985,497",
-        "量比20日": "0.98",
+        "最新价": "$10.27",
+        "日内涨跌": "+6.20%",
+        "1日涨跌": "+6.20%",
+        "5日涨跌": "-4.82%",
+        "1月涨跌": "-3.20%",
+        "3月涨跌": "-9.28%",
+        "6月涨跌": "-26.80%",
+        "1年涨跌": "-21.42%",
+        "YTD涨跌": "-35.33%",
+        "20日均线": "10.44",
+        "50日均线": "10.87",
+        "200日均线": "13.00",
+        "RSI 14": "47.30",
+        "MACD": "-0.20",
+        "20日波动率": "54.44%",
+        "成交量": "46,808,753",
+        "量比20日": "1.63",
         "52周高点": "19.84",
         "52周低点": "9.20",
-        "距52周高点": "-51.26%",
-        "距52周低点": "+5.11%",
+        "距52周高点": "-48.24%",
+        "距52周低点": "+11.63%",
         "20日支撑": "9.20",
         "20日压力": "11.27"
       }
@@ -76,15 +76,15 @@
         "流通股本": "455.75M",
         "ROE": "14.37%",
         "债务/权益": "0.02",
-        "市值": "$5.03B",
-        "企业价值": "$3.57B",
-        "市盈率 TTM": "18.60",
-        "预期市盈率": "10.75",
-        "市销率": "3.12",
-        "EV / 营收": "2.22",
-        "EV / EBITDA": "47.27",
-        "EV / FCF": "7.54",
-        "FCF 收益率": "9.41%",
+        "市值": "$5.34B",
+        "企业价值": "$3.68B",
+        "市盈率 TTM": "19.75",
+        "预期市盈率": "11.41",
+        "市销率": "3.32",
+        "EV / 营收": "2.28",
+        "EV / EBITDA": "48.65",
+        "EV / FCF": "7.76",
+        "FCF 收益率": "8.86%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 38.18181818181818,
+          "value": 49.090909090909086,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 36.81818181818182,
+          "value": 46.36363636363637,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 52.2409090909091,
+          "value": 53.80909090909091,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 16 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 16 位分析师 · 2026-05-16 05:14:05",
       "data": {
-        "target_mean": 13.62375,
+        "target_mean": 13.49875,
         "target_high": 17.0,
         "target_low": 10.98,
-        "upside_pct": 40.89,
+        "upside_pct": 31.44,
         "rating": "hold",
         "rating_letter": "B",
         "rating_change": "维持",
@@ -197,6 +197,46 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PATH/press-releases/",
+          "title": "UiPath, Inc. (PATH) Latest Press Releases & Corporate News - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PATH/",
+          "title": "UiPath, Inc. (PATH) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/PATH",
+          "title": "PATH: UiPath Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/PATH.MX/news/",
+          "title": "UiPath, Inc. (PATH.MX) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/uipath-path-jumps-12-56-112342218.html",
+          "title": "UiPath (PATH) Jumps 12.56% as AI Frenzy Sparks Rosy Prospects",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -236,46 +276,6 @@
           "title": "UiPath, Inc. (PATH) Latest Stock News | Seeking Alpha",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/uipath-path-stock-sinks-market-224504233.html",
-          "title": "UiPath (PATH) Stock Sinks As Market Gains: Here's Why",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PATH/community/",
-          "title": "UiPath, Inc. (PATH) Stock Forum & Discussion - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PATH/latest-news/",
-          "title": "UiPath, Inc. (PATH) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/coverage/filings/2026/05/13/is-netskope-stock-a-buy-after-sapphire-ventures-purchased-5-7-million-shares/",
-          "title": "Is Netskope Stock a Buy After Sapphire Ventures Purchased 5.7 Million Shares?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/why-uipath-path-dipped-more-214502149.html",
-          "title": "Why UiPath (PATH) Dipped More Than Broader Market Today",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 52.2409090909091
+        },
+        {
+          "date": "2026-05-16",
+          "value": 53.80909090909091
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

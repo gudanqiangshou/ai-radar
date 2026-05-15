@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "高速 SerDes / DSP — 800G+ 光通信芯片",
-    "price": 184.5399932861328,
-    "change_1d": -2.55,
-    "composite": 65.67777777777776,
+    "price": 172.1699981689453,
+    "change_1d": -6.7,
+    "composite": 65.98333333333332,
     "tier_letter": "B",
     "description": [
       "Credo Technology 的 AI 产业链位置为 Networking / Optical。",
@@ -19,7 +19,7 @@
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$184.54",
-        "日内涨跌": "-2.55%",
-        "1日涨跌": "-2.55%",
-        "5日涨跌": "-2.10%",
-        "1月涨跌": "+15.68%",
-        "3月涨跌": "+51.96%",
-        "6月涨跌": "+26.81%",
-        "1年涨跌": "+208.65%",
-        "YTD涨跌": "+28.85%",
-        "20日均线": "185.03",
-        "50日均线": "141.60",
-        "200日均线": "141.07",
-        "RSI 14": "55.55",
-        "MACD": "14.61",
-        "20日波动率": "89.48%",
-        "成交量": "4,932,601",
-        "量比20日": "0.80",
+        "最新价": "$172.17",
+        "日内涨跌": "-6.70%",
+        "1日涨跌": "-6.70%",
+        "5日涨跌": "-8.67%",
+        "1月涨跌": "+2.27%",
+        "3月涨跌": "+41.77%",
+        "6月涨跌": "+18.31%",
+        "1年涨跌": "+188.97%",
+        "YTD涨跌": "+20.21%",
+        "20日均线": "185.60",
+        "50日均线": "142.75",
+        "200日均线": "141.35",
+        "RSI 14": "49.99",
+        "MACD": "12.28",
+        "20日波动率": "93.44%",
+        "成交量": "5,501,017",
+        "量比20日": "0.91",
         "52周高点": "213.80",
         "52周低点": "57.21",
-        "距52周高点": "-13.69%",
-        "距52周低点": "+222.57%",
-        "20日支撑": "152.09",
+        "距52周高点": "-19.47%",
+        "距52周低点": "+200.94%",
+        "20日支撑": "160.20",
         "20日压力": "210.97"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "184.45M",
         "ROE": "27.54%",
         "债务/权益": "0.00",
-        "市值": "$34.04B",
-        "企业价值": "$33.64B",
-        "市盈率 TTM": "101.40",
-        "预期市盈率": "33.46",
-        "市销率": "31.87",
-        "EV / 营收": "31.50",
-        "EV / EBITDA": "96.05",
-        "EV / FCF": "195.32",
-        "FCF 收益率": "0.51%",
+        "市值": "$31.76B",
+        "企业价值": "$32.75B",
+        "市盈率 TTM": "94.08",
+        "预期市盈率": "31.21",
+        "市销率": "29.73",
+        "EV / 营收": "30.66",
+        "EV / EBITDA": "93.51",
+        "EV / FCF": "190.16",
+        "FCF 收益率": "0.54%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 68.88888888888889,
+          "value": 64.44444444444444,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 38.88888888888889,
+          "value": 43.333333333333336,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 16.666666666666664,
+          "value": 13.888888888888888,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 65.67777777777776,
+          "value": 65.98333333333332,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-15 05:16:05",
+      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-16 05:14:03",
       "data": {
         "target_mean": 209.08556,
         "target_high": 260.0,
         "target_low": 170.0,
-        "upside_pct": 13.3,
+        "upside_pct": 21.44,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -197,6 +197,14 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/CRDO/community/",
+          "title": "Credo Technology Group Holding Ltd (CRDO) Stock Forum ...",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "seekingalpha.com",
@@ -268,14 +276,6 @@
           "title": "ALAB Benefits From Strong UALink Growth: More Upside Ahead?",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/credos-balance-sheet-power-next-135200530.html",
-          "title": "Will Credo's Balance Sheet Power the Next Phase of AI Expansion?",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 65.67777777777776
+        },
+        {
+          "date": "2026-05-16",
+          "value": 65.98333333333332
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

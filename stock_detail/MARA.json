@@ -9,18 +9,18 @@
     "market": "US",
     "tier": 3,
     "ai_role": "比特币矿场龙头 — 部分算力转 AI/HPC",
-    "price": 13.289999961853027,
-    "change_1d": 4.24,
-    "composite": 24.192857142857147,
+    "price": 12.4399995803833,
+    "change_1d": -6.4,
+    "composite": 25.44285714285715,
     "tier_letter": "C",
     "description": [
       "MARA Holdings 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
-      "AI 角色：比特币矿场龙头 — 部分算力转 AI/HPC。当前内部综合评分 24。",
+      "AI 角色：比特币矿场龙头 — 部分算力转 AI/HPC。当前内部综合评分 25。",
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
-    "status_label": "退出"
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:04",
+    "status_label": "减持"
   },
   "panels": [
     {
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$13.29",
-        "日内涨跌": "+4.24%",
-        "1日涨跌": "+4.24%",
-        "5日涨跌": "+2.70%",
-        "1月涨跌": "+26.69%",
-        "3月涨跌": "+67.80%",
-        "6月涨跌": "+10.84%",
-        "1年涨跌": "-16.26%",
-        "YTD涨跌": "+34.11%",
-        "20日均线": "12.05",
-        "50日均线": "10.22",
-        "200日均线": "12.79",
-        "RSI 14": "65.68",
-        "MACD": "0.83",
-        "20日波动率": "68.19%",
-        "成交量": "51,030,376",
-        "量比20日": "1.12",
+        "最新价": "$12.44",
+        "日内涨跌": "-6.40%",
+        "1日涨跌": "-6.40%",
+        "5日涨跌": "-3.86%",
+        "1月涨跌": "+18.82%",
+        "3月涨跌": "+57.07%",
+        "6月涨跌": "+3.75%",
+        "1年涨跌": "-20.66%",
+        "YTD涨跌": "+25.53%",
+        "20日均线": "12.09",
+        "50日均线": "10.29",
+        "200日均线": "12.77",
+        "RSI 14": "56.61",
+        "MACD": "0.76",
+        "20日波动率": "72.81%",
+        "成交量": "39,621,554",
+        "量比20日": "0.88",
         "52周高点": "23.45",
         "52周低点": "6.66",
-        "距52周高点": "-43.33%",
-        "距52周低点": "+99.55%",
+        "距52周高点": "-46.95%",
+        "距52周低点": "+86.79%",
         "20日支撑": "10.27",
         "20日压力": "13.80"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$2.69B",
         "流通股本": "381.27M",
         "ROE": "-67.33%",
-        "债务/权益": "0.49",
-        "市值": "$5.07B",
-        "企业价值": "$6.91B",
+        "债务/权益": "0.52",
+        "市值": "$4.74B",
+        "企业价值": "$7.12B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-10.44",
-        "市销率": "5.84",
-        "EV / 营收": "7.97",
-        "EV / EBITDA": "-9.28",
-        "EV / FCF": "-13.02",
-        "FCF 收益率": "-10.48%",
+        "预期市盈率": "-9.77",
+        "市销率": "5.47",
+        "EV / 营收": "8.20",
+        "EV / EBITDA": "-9.55",
+        "EV / FCF": "-13.40",
+        "FCF 收益率": "-11.20%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 22.857142857142858,
+          "value": 34.285714285714285,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 45.0,
+          "value": 47.14285714285714,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 24.192857142857147,
+          "value": 25.44285714285715,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-15 05:16:06",
+      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-16 05:14:04",
       "data": {
-        "target_mean": 18.021,
+        "target_mean": 18.321,
         "target_high": 30.0,
         "target_low": 8.5,
-        "upside_pct": 35.6,
+        "upside_pct": 47.27,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 10,
         "next_earnings": "2026-07-29",
-        "eps_estimate": -0.51,
+        "eps_estimate": -0.435,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,62 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MARA/news/",
+          "title": "MARA Holdings, Inc. (MARA) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/M44.F/",
+          "title": "MARA Holdings, Inc. (M44.F) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MARA.VI/",
+          "title": "MARA Holdings, Inc. (MARA.VI) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/MARA/",
+          "title": "MARA Holdings, Inc. (MARA) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/1MARA.MI/",
+          "title": "MARA HOLDINGS (1MARA.MI) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/reasons-why-retain-mara-stock-172700820.html",
+          "title": "Reasons Why You Should Retain MARA Stock in Your Portfolio",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/MARA.MX/latest-news/",
+          "title": "MARA Holdings, Inc. (MARA.MX) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "cnbc.com",
@@ -220,62 +276,6 @@
           "title": "MARA Holdings, Inc. (MARA) - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/US5657881067.SG/news/",
-          "title": "MARA Holdings Inc. (US5657881067.SG) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/MARA",
-          "title": "MARA Holdings, Inc. (MARA) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/1MARA.MI/news/",
-          "title": "MARA HOLDINGS (1MARA.MI) Latest Stock News & Headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "barrons.com",
-          "url": "https://www.barrons.com/market-data/stocks/mara",
-          "title": "MARA | MARA Holdings Inc. Stock Overview (U.S.: Nasdaq) | Barron's",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "bloomberg.com",
-          "url": "https://www.bloomberg.com/quote/MARA:AV",
-          "title": "MARA Holdings Inc Stock Price Quote - Vienna ... - Bloomberg News",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/14/coinbase-spikes-10-strategy-rallies-7-marathon-rises-6-as-crypto-stocks-catch-regulatory-tailwind/",
-          "title": "Coinbase Spikes 10%, Strategy Rallies 7%, Marathon Rises 6% as Crypto Stocks Catch Regulatory Tailwind",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Blockspace",
-          "url": "https://blockspace.media/podcast/maras-q1-earnings-nebius-blowout-q1-the-1000-bull-case-for-mstr/",
-          "title": "MARA’s Q1 Earnings, Nebius’ Blowout Q1, the $1,000 Bull Case for MSTR",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 24.192857142857147
+        },
+        {
+          "date": "2026-05-16",
+          "value": 25.44285714285715
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

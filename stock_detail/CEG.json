@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 1,
     "ai_role": "核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头",
-    "price": 275.260009765625,
-    "change_1d": 0.13,
-    "composite": 62.742380952380955,
+    "price": 267.20001220703125,
+    "change_1d": -2.93,
+    "composite": 63.03047619047619,
     "tier_letter": "A",
     "description": [
       "Constellation Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头。当前内部综合评分 62。",
+      "AI 角色：核电 PPA — Microsoft/Meta 长期签约，clean firm power 龙头。当前内部综合评分 63。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:00",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$275.26",
-        "日内涨跌": "+0.13%",
-        "1日涨跌": "+0.13%",
-        "5日涨跌": "-9.34%",
-        "1月涨跌": "-7.20%",
-        "3月涨跌": "-4.57%",
-        "6月涨跌": "-18.69%",
-        "1年涨跌": "-4.47%",
-        "YTD涨跌": "-24.84%",
-        "20日均线": "300.81",
-        "50日均线": "298.72",
-        "200日均线": "326.21",
-        "RSI 14": "38.09",
-        "MACD": "-1.90",
-        "20日波动率": "53.74%",
-        "成交量": "3,606,034",
-        "量比20日": "1.14",
+        "最新价": "$267.20",
+        "日内涨跌": "-2.93%",
+        "1日涨跌": "-2.93%",
+        "5日涨跌": "-12.00%",
+        "1月涨跌": "-9.34%",
+        "3月涨跌": "-7.36%",
+        "6月涨跌": "-21.07%",
+        "1年涨跌": "-6.05%",
+        "YTD涨跌": "-27.04%",
+        "20日均线": "299.36",
+        "50日均线": "297.42",
+        "200日均线": "325.82",
+        "RSI 14": "35.18",
+        "MACD": "-4.11",
+        "20日波动率": "54.48%",
+        "成交量": "3,379,288",
+        "量比20日": "1.05",
         "52周高点": "412.70",
         "52周低点": "243.30",
-        "距52周高点": "-33.30%",
-        "距52周低点": "+13.14%",
-        "20日支撑": "268.98",
+        "距52周高点": "-35.26%",
+        "距52周低点": "+9.82%",
+        "20日支撑": "266.57",
         "20日压力": "328.80"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "361.19M",
         "ROE": "16.10%",
         "债务/权益": "0.23",
-        "市值": "$99.42B",
-        "企业价值": "$121.23B",
-        "市盈率 TTM": "23.89",
-        "预期市盈率": "20.21",
-        "市销率": "3.33",
+        "市值": "$96.51B",
+        "企业价值": "$121.36B",
+        "市盈率 TTM": "23.21",
+        "预期市盈率": "19.62",
+        "市销率": "3.23",
         "EV / 营收": "4.06",
-        "EV / EBITDA": "15.23",
-        "EV / FCF": "-27.07",
-        "FCF 收益率": "-4.50%",
+        "EV / EBITDA": "15.25",
+        "EV / FCF": "-27.10",
+        "FCF 收益率": "-4.64%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 72.0952380952381,
+          "value": 73.5952380952381,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 14.523809523809524,
+          "value": 14.285714285714285,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 62.742380952380955,
+          "value": 63.03047619047619,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 20 位分析师 · 2026-05-15 05:16:02",
+      "title_meta": "Yahoo Finance · 20 位分析师 · 2026-05-16 05:14:00",
       "data": {
         "target_mean": 367.4815,
         "target_high": 441.0,
         "target_low": 272.4,
-        "upside_pct": 33.5,
+        "upside_pct": 37.53,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,38 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/us/xnas/ceg?eafs_enabled=false",
+          "title": "CEG | Constellation Energy Corp. Stock Price & News - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/CEG/latest-news/",
+          "title": "Constellation Energy Corporation (CEG) stock price, news, quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CEG/",
+          "title": "Constellation Energy Corporation (CEG) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CEGS.NE/latest-news/",
+          "title": "CONSTELLATION ENERGY CORP (CEGS.NE) Stock Price, News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "uk.finance.yahoo.com",
           "url": "https://uk.finance.yahoo.com/quote/CEGS.NE/news/",
@@ -214,66 +246,34 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/constellation-energy-corporation-ceg-good-200924094.html",
-          "title": "Is Constellation Energy Corporation (CEG) A Good Stock To Buy ...",
+          "date": "2026-05-15",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/ford-soars-20-on-battery-storage-push-135235539.html",
+          "title": "Ford soars 20% on battery storage push",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/CEG/historical-prices",
-          "title": "Constellation Energy Corp. Price & News - WSJ | CEG",
+          "date": "2026-05-15",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/constellation-energy-ceg-posts-64-154512090.html",
+          "title": "Constellation Energy (CEG) Posts a 64% Revenue Jump and Raises Its Full-Year Outlook",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/CEGS%3ACA",
-          "title": "Constellation Energy Corporation (CEGS:CA) Stock Price, Quote ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
+          "date": "2026-05-15",
           "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/grants-nuclear-reactors-stocks-e23d92f1?siteid=yhoof2&yptr=yahoo",
-          "title": "The U.S. Is Handing Out Money for Nuclear Reactors. These Stocks Benefit.",
+          "url": "https://www.barrons.com/articles/treasury-yields-trump-china-things-to-know-today-c8517fed?siteid=yhoof2&yptr=yahoo",
+          "title": "Markets Get Blindsided and 5 Other Things to Know Today",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "MT Newswires",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-rise-afternoon-195528716.html",
-          "title": "Sector Update: Energy Stocks Rise Late Afternoon",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "MT Newswires",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/sector-energy-stocks-higher-thursday-180015892.html",
-          "title": "Sector Update: Energy Stocks Higher Thursday Afternoon",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Exec Edge",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/vinson-elkins-accelerating-ai-infrastructure-154459380.html",
-          "title": "Vinson & Elkins: Accelerating AI Infrastructure & Power Constraints Reshape the Market",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/1934386/constellation-energys-13-billion-cash-flow-outlook-shows-ais-power-trade-is-just-beginning",
-          "title": "Constellation Energy’s $13 Billion Cash Flow Outlook Shows AI’s Power Trade Is Just Beginning",
+          "date": "2026-05-15",
+          "source": "Barrons.com",
+          "url": "https://www.barrons.com/articles/nuclear-reactor-stocks-e23d92f1?siteid=yhoof2&yptr=yahoo",
+          "title": "5 Stocks That Benefit From the Government’s $94 Million Spending Spree on Nuclear Reactors",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 62.742380952380955
+        },
+        {
+          "date": "2026-05-16",
+          "value": 63.03047619047619
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

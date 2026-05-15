@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "智能音箱 + 空间音频 — 家庭 AI 入口候选",
-    "price": 14.6899995803833,
-    "change_1d": 0.34,
-    "composite": 35.14999999999999,
+    "price": 14.829999923706055,
+    "change_1d": 0.95,
+    "composite": 33.8,
     "tier_letter": "C",
     "description": [
       "Sonos 的 AI 产业链位置为 Consumer AI / Device。",
-      "AI 角色：智能音箱 + 空间音频 — 家庭 AI 入口候选。当前内部综合评分 35。",
+      "AI 角色：智能音箱 + 空间音频 — 家庭 AI 入口候选。当前内部综合评分 33。",
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:07",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$14.69",
-        "日内涨跌": "+0.34%",
-        "1日涨跌": "+0.34%",
-        "5日涨跌": "-2.46%",
-        "1月涨跌": "+7.54%",
-        "3月涨跌": "-5.29%",
-        "6月涨跌": "-11.29%",
-        "1年涨跌": "+34.52%",
-        "YTD涨跌": "-16.01%",
-        "20日均线": "14.71",
-        "50日均线": "14.01",
-        "200日均线": "15.42",
-        "RSI 14": "52.90",
+        "最新价": "$14.83",
+        "日内涨跌": "+0.95%",
+        "1日涨跌": "+0.95%",
+        "5日涨跌": "-1.53%",
+        "1月涨跌": "+7.00%",
+        "3月涨跌": "-4.38%",
+        "6月涨跌": "-10.45%",
+        "1年涨跌": "+36.93%",
+        "YTD涨跌": "-15.21%",
+        "20日均线": "14.73",
+        "50日均线": "14.00",
+        "200日均线": "15.43",
+        "RSI 14": "54.85",
         "MACD": "0.20",
-        "20日波动率": "36.89%",
-        "成交量": "1,330,218",
-        "量比20日": "0.79",
+        "20日波动率": "36.63%",
+        "成交量": "1,438,992",
+        "量比20日": "0.84",
         "52周高点": "19.82",
         "52周低点": "9.65",
-        "距52周高点": "-25.88%",
-        "距52周低点": "+52.23%",
+        "距52周高点": "-25.18%",
+        "距52周低点": "+53.68%",
         "20日支撑": "12.83",
         "20日压力": "15.55"
       }
@@ -76,15 +76,15 @@
         "流通股本": "119.13M",
         "ROE": "6.17%",
         "债务/权益": "0.03",
-        "市值": "$1.75B",
-        "企业价值": "$1.55B",
-        "市盈率 TTM": "86.41",
-        "预期市盈率": "13.60",
-        "市销率": "1.20",
-        "EV / 营收": "1.06",
-        "EV / EBITDA": "15.01",
-        "EV / FCF": "12.99",
-        "FCF 收益率": "6.84%",
+        "市值": "$1.77B",
+        "企业价值": "$1.56B",
+        "市盈率 TTM": "87.24",
+        "预期市盈率": "13.73",
+        "市销率": "1.21",
+        "EV / 营收": "1.07",
+        "EV / EBITDA": "15.07",
+        "EV / FCF": "13.04",
+        "FCF 收益率": "6.77%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 80.0,
+          "value": 74.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 31.0,
+          "value": 28.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 35.14999999999999,
+          "value": 33.8,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 4 位分析师 · 2026-05-15 05:16:09",
+      "title_meta": "Yahoo Finance · 4 位分析师 · 2026-05-16 05:14:07",
       "data": {
         "target_mean": 19.125,
         "target_high": 21.0,
         "target_low": 16.5,
-        "upside_pct": 30.19,
+        "upside_pct": 28.96,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/SONO/sec-filing/",
+          "title": "Sonos, Inc. (SONO) stock price, news, quote and history - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/SONO.VI/latest-news/",
+          "title": "Sonos, Inc. (SONO.VI) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "cnbc.com",
@@ -260,22 +276,6 @@
           "title": "Sonos, Inc. (SONO) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sonos-q1-earnings-call-top-034055501.html",
-          "title": "Sonos’s Q1 Earnings Call: Our Top 5 Analyst Questions",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/sonos-nasdaq-sono-posting-promising-191814022.html",
-          "title": "Sonos (NASDAQ:SONO) Is Posting Promising Earnings But The Good News Doesn’t Stop There",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 35.14999999999999
+        },
+        {
+          "date": "2026-05-16",
+          "value": 33.8
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

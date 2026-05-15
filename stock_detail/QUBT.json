@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "光子量子计算 — 室温量子退火 + 影像处理",
-    "price": 11.729999542236328,
-    "change_1d": 6.35,
+    "price": 10.505000114440918,
+    "change_1d": -10.44,
     "composite": 39.449999999999996,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Quantum / Frontier Computing 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:07",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$11.73",
-        "日内涨跌": "+6.35%",
-        "1日涨跌": "+6.35%",
-        "5日涨跌": "+22.19%",
-        "1月涨跌": "+44.64%",
-        "3月涨跌": "+38.49%",
-        "6月涨跌": "+10.66%",
-        "1年涨跌": "+31.35%",
-        "YTD涨跌": "+6.54%",
-        "20日均线": "9.72",
-        "50日均线": "8.29",
-        "200日均线": "12.38",
-        "RSI 14": "67.01",
-        "MACD": "0.78",
-        "20日波动率": "99.48%",
-        "成交量": "36,581,070",
-        "量比20日": "1.55",
+        "最新价": "$10.51",
+        "日内涨跌": "-10.44%",
+        "1日涨跌": "-10.44%",
+        "5日涨跌": "+9.43%",
+        "1月涨跌": "+11.76%",
+        "3月涨跌": "+24.03%",
+        "6月涨跌": "-0.90%",
+        "1年涨跌": "+13.69%",
+        "YTD涨跌": "-4.59%",
+        "20日均线": "9.76",
+        "50日均线": "8.35",
+        "200日均线": "12.36",
+        "RSI 14": "56.61",
+        "MACD": "0.74",
+        "20日波动率": "107.82%",
+        "成交量": "21,629,160",
+        "量比20日": "0.92",
         "52周高点": "25.84",
         "52周低点": "6.18",
-        "距52周高点": "-54.61%",
-        "距52周低点": "+89.81%",
+        "距52周高点": "-59.35%",
+        "距52周低点": "+69.98%",
         "20日支撑": "7.98",
         "20日压力": "14.45"
       }
@@ -76,15 +76,15 @@
         "流通股本": "225.53M",
         "ROE": "-4.37%",
         "债务/权益": "0.00",
-        "市值": "$2.65B",
-        "企业价值": "$1.51B",
+        "市值": "$2.37B",
+        "企业价值": "$1.66B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-54.14",
-        "市销率": "610.41",
-        "EV / 营收": "347.71",
-        "EV / EBITDA": "-26.01",
-        "EV / FCF": "-37.34",
-        "FCF 收益率": "-1.53%",
+        "预期市盈率": "-48.48",
+        "市销率": "546.66",
+        "EV / 营收": "384.14",
+        "EV / EBITDA": "-28.73",
+        "EV / FCF": "-41.25",
+        "FCF 收益率": "-1.70%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 6 位分析师 · 2026-05-15 05:16:09",
+      "title_meta": "Yahoo Finance · 6 位分析师 · 2026-05-16 05:14:07",
       "data": {
         "target_mean": 17.83333,
         "target_high": 27.0,
         "target_low": 10.0,
-        "upside_pct": 52.03,
+        "upside_pct": 69.76,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 6,
         "next_earnings": "2026-08-11",
-        "eps_estimate": -0.08,
+        "eps_estimate": -0.04667,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -198,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/does-quantum-computing-inc-qubt-135503732.html",
-          "title": "Does Quantum Computing Inc. (QUBT) Have the Potential to Rally 61.65% as Wall Street Analysts Expect?",
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QUBT.MX/latest-news/",
+          "title": "QUANTUM COMPUTING INC (QUBT.MX) Stock Price, News, Quote ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/1909493/as-revenue-surges-nearly-9-000-the-quantum-computing-stock-story-is-still-in-the-early-stagesc",
-          "title": "As Revenue Surges Nearly 9,000%, the Quantum Computing Stock Story Is Still in the ‘Early Stages’c",
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/qubt",
+          "title": "QUBT Stock Price | Quantum Computing Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/quantum-computing-acquisitions-fab-ramp-002905686.html",
-          "title": "Quantum Computing Acquisitions And Fab Ramp Test Market Optimism",
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/QUBT.MX/news/",
+          "title": "QUANTUM COMPUTING INC (QUBT.MX) Latest Stock News ...",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/news/quantum-computing-qubt-revenues-soar-232928295.html",
-          "title": "Quantum Computing (QUBT) Revenues Soar 9,300%, Shares Climb 15.7%",
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QUBT/latest-news/",
+          "title": "META_TITLE_QUOTE - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QUBT/news/",
+          "title": "Quantum Computing Inc. (QUBT) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/QUBT",
+          "title": "Quantum Computing Inc. (QUBT) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/QUBT.O/profile/",
+          "title": "(QUBT.O) | Stock Price & Latest News | Reuters",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/QUBT/",
+          "title": "Quantum Computing Inc. (QUBT) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/15/quantum-computing-stock-shock-ionq-rigetti-d-wave-and-quantum-computing-inc-fall-6-to-9/",
+          "title": "Quantum Computing Stock Shock: IonQ, Rigetti, D-Wave, and Quantum Computing Inc. Fall 6% to 9%",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
           "source": "Barrons.com",
-          "url": "https://www.barrons.com/articles/stock-movers-9191624b?siteid=yhoof2&yptr=yahoo",
-          "title": "These Stocks Are Today’s Movers: Qualcomm, Intel, Micron, Zebra, Nvidia, Quantum Computing, GameStop, and More",
+          "url": "https://www.barrons.com/articles/ionq-stock-price-quantum-buy-now-0f1d5627?siteid=yhoof2&yptr=yahoo",
+          "title": "IonQ and 5 More Stocks to Play Quantum Fever",
           "sentiment": null,
           "impact": null
         }
@@ -251,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 39.449999999999996
+        },
+        {
+          "date": "2026-05-16",
+          "value": 39.449999999999996
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

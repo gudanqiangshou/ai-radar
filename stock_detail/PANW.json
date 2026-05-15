@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "平台化整合 — Prisma SASE + Cortex AI XDR",
-    "price": 238.2100067138672,
-    "change_1d": 4.57,
-    "composite": 55.25277777777779,
+    "price": 242.8300018310547,
+    "change_1d": 1.94,
+    "composite": 55.19722222222224,
     "tier_letter": "B",
     "description": [
       "Palo Alto Networks 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$238.21",
-        "日内涨跌": "+4.57%",
-        "1日涨跌": "+4.57%",
-        "5日涨跌": "+14.59%",
-        "1月涨跌": "+47.42%",
-        "3月涨跌": "+42.68%",
-        "6月涨跌": "+16.06%",
-        "1年涨跌": "+24.78%",
-        "YTD涨跌": "+32.80%",
-        "20日均线": "190.15",
-        "50日均线": "174.00",
-        "200日均线": "185.34",
-        "RSI 14": "85.17",
-        "MACD": "14.85",
-        "20日波动率": "43.62%",
-        "成交量": "10,094,178",
-        "量比20日": "1.43",
-        "52周高点": "239.15",
+        "最新价": "$242.83",
+        "日内涨跌": "+1.94%",
+        "1日涨跌": "+1.94%",
+        "5日涨跌": "+16.81%",
+        "1月涨跌": "+47.97%",
+        "3月涨跌": "+45.45%",
+        "6月涨跌": "+18.31%",
+        "1年涨跌": "+25.88%",
+        "YTD涨跌": "+35.38%",
+        "20日均线": "193.90",
+        "50日均线": "175.60",
+        "200日均线": "185.64",
+        "RSI 14": "86.10",
+        "MACD": "16.74",
+        "20日波动率": "43.35%",
+        "成交量": "11,224,749",
+        "量比20日": "1.55",
+        "52周高点": "245.80",
         "52周低点": "139.57",
-        "距52周高点": "-0.39%",
-        "距52周低点": "+70.67%",
+        "距52周高点": "-1.21%",
+        "距52周低点": "+73.98%",
         "20日支撑": "165.20",
-        "20日压力": "239.15"
+        "20日压力": "245.80"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "811.00M",
         "ROE": "16.26%",
         "债务/权益": "0.00",
-        "市值": "$193.19B",
-        "企业价值": "$181.80B",
-        "市盈率 TTM": "132.34",
-        "预期市盈率": "60.00",
-        "市销率": "19.53",
-        "EV / 营收": "18.38",
-        "EV / EBITDA": "118.32",
-        "EV / FCF": "63.58",
-        "FCF 收益率": "1.48%",
+        "市值": "$196.94B",
+        "企业价值": "$190.30B",
+        "市盈率 TTM": "134.16",
+        "预期市盈率": "61.16",
+        "市销率": "19.91",
+        "EV / 营收": "19.23",
+        "EV / EBITDA": "123.85",
+        "EV / FCF": "66.56",
+        "FCF 收益率": "1.45%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 93.33333333333333,
+          "value": 92.22222222222223,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 55.25277777777779,
+          "value": 55.19722222222224,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 50 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 50 位分析师 · 2026-05-16 05:14:05",
       "data": {
-        "target_mean": 207.5608,
+        "target_mean": 210.1608,
         "target_high": 265.0,
         "target_low": 114.0,
-        "upside_pct": -12.87,
+        "upside_pct": -13.45,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,10 +198,58 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PANW/",
+          "title": "Palo Alto Networks, Inc. (PANW) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/PANW",
+          "title": "Palo Alto Networks, Inc. (PANW) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/PANW",
+          "title": "PANW: Palo Alto Networks Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "ca.finance.yahoo.com",
           "url": "https://ca.finance.yahoo.com/quote/PANW.TO/news/",
           "title": "Palo Alto Networks, Inc. (PANW.TO) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/05/15/oppenheimer-hikes-palo-alto-networks-price-target-to-275-cyberark-becomes-idira-identity-security-just-got-real/",
+          "title": "Oppenheimer Hikes Palo Alto Networks Price Target to $275: CyberArk Becomes Idira, Identity Security Just Got Real",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/most-watched-stock-palo-alto-130003683.html",
+          "title": "Is Most-Watched Stock Palo Alto Networks, Inc. (PANW) Worth Betting on Now?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-idira-puts-051037616.html",
+          "title": "Palo Alto Networks Idira Puts Identity Security At Core Of AI Story",
           "sentiment": null,
           "impact": null
         },
@@ -228,54 +276,6 @@
           "title": "Palo Alto Networks, Inc. (PANW.MX) Latest Stock News & Headlines ...",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "au.finance.yahoo.com",
-          "url": "https://au.finance.yahoo.com/quote/PANW.MX/news/",
-          "title": "Palo Alto Networks, Inc. (PANW.MX) latest stock news and headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/panw",
-          "title": "Palo Alto Networks Inc. Stock Quote (U.S. - PANW - MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "sg.finance.yahoo.com",
-          "url": "https://sg.finance.yahoo.com/quote/PANW.TO/news/",
-          "title": "Palo Alto Networks, Inc. (PANW.TO) latest stock news and headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PANW.BA/news/",
-          "title": "Palo Alto Networks, Inc. (PANW.BA) Latest Stock News & Headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/us/xnas/PANW/",
-          "title": "PANW | Palo Alto Networks Inc. Stock Price & News - WSJ",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/research/ibd-stock-analysis/palo-alto-stock-panw-cybersecurity-stocks-to-watch/?src=A00220&yptr=yahoo",
-          "title": "Cybersecurity Giant Unlocks New Buy Zone While Flashing These Telltale Clues",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 55.25277777777779
+        },
+        {
+          "date": "2026-05-16",
+          "value": 55.19722222222224
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

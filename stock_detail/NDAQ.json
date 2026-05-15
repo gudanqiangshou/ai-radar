@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "交易所 + 监管科技 + 数据 SaaS",
-    "price": 90.93000030517578,
-    "change_1d": 0.8,
+    "price": 91.05999755859375,
+    "change_1d": 0.14,
     "composite": 61.00000000000001,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:06",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$90.93",
-        "日内涨跌": "+0.80%",
-        "1日涨跌": "+0.80%",
-        "5日涨跌": "+2.27%",
-        "1月涨跌": "+4.87%",
-        "3月涨跌": "+14.42%",
-        "6月涨跌": "+4.42%",
-        "1年涨跌": "+12.18%",
-        "YTD涨跌": "-5.93%",
-        "20日均线": "89.50",
-        "50日均线": "87.36",
-        "200日均线": "90.41",
-        "RSI 14": "59.26",
-        "MACD": "0.75",
-        "20日波动率": "18.41%",
-        "成交量": "3,220,640",
-        "量比20日": "0.97",
+        "最新价": "$91.06",
+        "日内涨跌": "+0.14%",
+        "1日涨跌": "+0.14%",
+        "5日涨跌": "+2.42%",
+        "1月涨跌": "+2.83%",
+        "3月涨跌": "+14.58%",
+        "6月涨跌": "+4.57%",
+        "1年涨跌": "+12.03%",
+        "YTD涨跌": "-5.79%",
+        "20日均线": "89.63",
+        "50日均线": "87.41",
+        "200日均线": "90.38",
+        "RSI 14": "59.74",
+        "MACD": "0.81",
+        "20日波动率": "18.35%",
+        "成交量": "2,258,714",
+        "量比20日": "0.68",
         "52周高点": "101.79",
         "52周低点": "77.09",
-        "距52周高点": "-10.67%",
-        "距52周低点": "+17.95%",
+        "距52周高点": "-10.54%",
+        "距52周低点": "+18.12%",
         "20日支撑": "84.88",
         "20日压力": "93.05"
       }
@@ -75,15 +75,15 @@
         "净现金/债务": "-$8.00B",
         "流通股本": "565.54M",
         "ROE": "16.20%",
-        "债务/权益": "0.19",
-        "市值": "$51.42B",
-        "企业价值": "$60.01B",
-        "市盈率 TTM": "27.39",
-        "预期市盈率": "20.55",
-        "市销率": "9.49",
-        "EV / 营收": "11.07",
-        "EV / EBITDA": "18.66",
-        "EV / FCF": "38.48",
+        "债务/权益": "0.18",
+        "市值": "$51.50B",
+        "企业价值": "$60.42B",
+        "市盈率 TTM": "27.43",
+        "预期市盈率": "20.58",
+        "市销率": "9.50",
+        "EV / 营收": "11.15",
+        "EV / EBITDA": "18.79",
+        "EV / FCF": "38.74",
         "FCF 收益率": "3.03%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-15 05:16:08",
+      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-16 05:14:06",
       "data": {
         "target_mean": 107.0,
         "target_high": 120.0,
         "target_low": 82.0,
-        "upside_pct": 17.67,
+        "upside_pct": 17.5,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,42 +198,82 @@
       "type": "news_list",
       "data": [
         {
-          "date": "2026-05-14",
-          "source": "CryptoProwl",
-          "url": "https://www.cryptoprowl.com/releases/cerebras-stock-nearly-doubles-in-blockbuster-ipo-5483",
-          "title": "Cerebras Stock Nearly Doubles In Blockbuster IPO",
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NDAQ/news/",
+          "title": "Nasdaq, Inc. (NDAQ) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ndaq-stock-trades-above-50-133200355.html",
-          "title": "NDAQ Stock Trades Above 50-Day SMA: What Should Investors Do Now?",
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NDAQ/latest-news/",
+          "title": "Nasdaq, Inc. (NDAQ) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
-          "source": "Barchart",
-          "url": "https://www.barchart.com/story/news/1877761/nasdaq-stock-outlook-is-wall-street-bullish-or-bearish",
-          "title": "Nasdaq Stock Outlook: Is Wall Street Bullish or Bearish?",
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NDAQ/press-releases/",
+          "title": "Nasdaq, Inc. (NDAQ) Latest Press Releases & Corporate News - Yahoo Finance",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-12",
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NDAQ/",
+          "title": "Nasdaq, Inc. (NDAQ) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/NDAQ",
+          "title": "Check out Nasdaq's stock price (NDAQ) in real time",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NDAQ/chart/",
+          "title": "Nasdaq, Inc. (NDAQ) Interactive Stock Chart - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/NDAQ-USD.SW/news/",
+          "title": "NASDAQ INC (NDAQ-USD.SW) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/NDAQ.MX/news/",
+          "title": "Nasdaq, Inc. (NDAQ.MX) Latest Stock News & Headlines - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
           "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-ndaq-fairly-priced-recent-060837473.html",
-          "title": "Is Nasdaq (NDAQ) Fairly Priced After Recent Pullback And AI Partnership Hopes?",
+          "url": "https://finance.yahoo.com/markets/crypto/articles/congressional-nasdaq-buying-raises-questions-201937982.html",
+          "title": "Congressional Nasdaq Buying Raises Questions For Digital Asset Policy Outlook",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-11",
-          "source": "CryptoProwl",
-          "url": "https://www.cryptoprowl.com/releases/cerebras-to-raise-ipo-price-amid-strong-demand-4440",
-          "title": "Cerebras To Raise IPO Price Amid Strong Demand",
+          "date": "2026-05-15",
+          "source": "Benzinga",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/congresswomans-nasdaq-buying-spree-raises-180104215.html",
+          "title": "Congresswoman's Nasdaq Buying Spree Raises Red Flags — What You Need To Know",
           "sentiment": null,
           "impact": null
         }
@@ -251,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 61.00000000000001
+        },
+        {
+          "date": "2026-05-16",
+          "value": 61.00000000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

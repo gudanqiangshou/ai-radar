@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "近线大容量 HDD — 数据中心存储扩张直接受益",
-    "price": 804.760009765625,
-    "change_1d": -1.54,
-    "composite": 34.975,
+    "price": 795.469970703125,
+    "change_1d": -1.15,
+    "composite": 35.85,
     "tier_letter": "C",
     "description": [
       "Seagate Technology 的 AI 产业链位置为 Memory / Storage。",
-      "AI 角色：近线大容量 HDD — 数据中心存储扩张直接受益。当前内部综合评分 34。",
+      "AI 角色：近线大容量 HDD — 数据中心存储扩张直接受益。当前内部综合评分 35。",
       "Memory / Storage 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:02",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$804.76",
-        "日内涨跌": "-1.54%",
-        "1日涨跌": "-1.54%",
-        "5日涨跌": "+2.83%",
-        "1月涨跌": "+50.86%",
-        "3月涨跌": "+88.92%",
-        "6月涨跌": "+211.67%",
-        "1年涨跌": "+665.05%",
-        "YTD涨跌": "+179.88%",
-        "20日均线": "686.49",
-        "50日均线": "531.06",
-        "200日均线": "334.71",
-        "RSI 14": "75.55",
-        "MACD": "86.33",
-        "20日波动率": "58.49%",
-        "成交量": "2,353,298",
-        "量比20日": "0.49",
+        "最新价": "$795.47",
+        "日内涨跌": "-1.15%",
+        "1日涨跌": "-1.15%",
+        "5日涨跌": "+1.64%",
+        "1月涨跌": "+53.09%",
+        "3月涨跌": "+86.73%",
+        "6月涨跌": "+208.07%",
+        "1年涨跌": "+640.45%",
+        "YTD涨跌": "+176.65%",
+        "20日均线": "698.88",
+        "50日均线": "539.62",
+        "200日均线": "337.95",
+        "RSI 14": "73.08",
+        "MACD": "83.11",
+        "20日波动率": "59.54%",
+        "成交量": "2,778,232",
+        "量比20日": "0.59",
         "52周高点": "841.31",
         "52周低点": "103.73",
-        "距52周高点": "-4.34%",
-        "距52周低点": "+675.82%",
+        "距52周高点": "-5.45%",
+        "距52周低点": "+666.87%",
         "20日支撑": "531.61",
         "20日压力": "841.31"
       }
@@ -76,15 +76,15 @@
         "流通股本": "224.23M",
         "ROE": "1787.97%",
         "债务/权益": "0.02",
-        "市值": "$180.45B",
-        "企业价值": "$186.31B",
-        "市盈率 TTM": "76.35",
-        "预期市盈率": "30.63",
-        "市销率": "16.39",
-        "EV / 营收": "16.92",
-        "EV / EBITDA": "53.02",
-        "EV / FCF": "115.72",
-        "FCF 收益率": "0.89%",
+        "市值": "$178.37B",
+        "企业价值": "$183.48B",
+        "市盈率 TTM": "75.47",
+        "预期市盈率": "30.28",
+        "市销率": "16.20",
+        "EV / 营收": "16.66",
+        "EV / EBITDA": "52.22",
+        "EV / FCF": "113.96",
+        "FCF 收益率": "0.90%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 67.5,
+          "value": 85.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 34.975,
+          "value": 35.85,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,16 +167,16 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-16 05:14:02",
       "data": {
         "target_mean": 806.3182,
         "target_high": 1000.0,
         "target_low": 545.0,
-        "upside_pct": 0.19,
-        "rating": "strong_buy",
-        "rating_letter": "A",
+        "upside_pct": 1.36,
+        "rating": "buy",
+        "rating_letter": "A-",
         "rating_change": "维持",
-        "previous_rating_letter": "A",
+        "previous_rating_letter": "A-",
         "n_analysts": 22,
         "next_earnings": "2026-07-29",
         "eps_estimate": 5.05821,
@@ -198,6 +198,14 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/847.HM/news/",
+          "title": "Seagate Technology Holdings PLC (847.HM) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/STX/community/",
@@ -218,6 +226,14 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/news/seagate-technology-stx-stock-know-201631498.html",
           "title": "Seagate Technology (STX) Stock Is Up, What You Need To Know",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sandisk-rides-strong-datacenter-revenues-145100407.html",
+          "title": "Sandisk Rides on Strong Datacenter Revenues: More Upside Ahead?",
           "sentiment": null,
           "impact": null
         },
@@ -260,22 +276,6 @@
           "title": "Seagate Technology Holdings plc (STX) Stock Price, News, Quote ...",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/seagate-technology-stx-unstoppable-technology-093536108.html",
-          "title": "Is Seagate Technology (STX) an Unstoppable Technology Stock To ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/STX/analysis/",
-          "title": "Seagate Technology Holdings plc (STX) Analyst Ratings, Estimates ...",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 34.975
+        },
+        {
+          "date": "2026-05-16",
+          "value": 35.85
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

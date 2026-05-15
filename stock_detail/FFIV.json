@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "应用交付控制 (ADC) — AI 流量治理",
-    "price": 364.5899963378906,
-    "change_1d": 2.01,
-    "composite": 63.261111111111106,
+    "price": 362.5799865722656,
+    "change_1d": -0.55,
+    "composite": 62.761111111111106,
     "tier_letter": "C",
     "description": [
       "F5 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：应用交付控制 (ADC) — AI 流量治理。当前内部综合评分 63。",
+      "AI 角色：应用交付控制 (ADC) — AI 流量治理。当前内部综合评分 62。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$364.59",
-        "日内涨跌": "+2.01%",
-        "1日涨跌": "+2.01%",
-        "5日涨跌": "+2.98%",
-        "1月涨跌": "+23.51%",
-        "3月涨跌": "+33.10%",
-        "6月涨跌": "+55.81%",
-        "1年涨跌": "+29.48%",
-        "YTD涨跌": "+42.07%",
-        "20日均线": "328.83",
-        "50日均线": "306.64",
-        "200日均线": "290.41",
-        "RSI 14": "75.44",
-        "MACD": "16.23",
-        "20日波动率": "37.35%",
-        "成交量": "952,975",
-        "量比20日": "1.17",
-        "52周高点": "365.52",
+        "最新价": "$362.58",
+        "日内涨跌": "-0.55%",
+        "1日涨跌": "-0.55%",
+        "5日涨跌": "+2.42%",
+        "1月涨跌": "+21.23%",
+        "3月涨跌": "+32.36%",
+        "6月涨跌": "+54.95%",
+        "1年涨跌": "+28.27%",
+        "YTD涨跌": "+41.29%",
+        "20日均线": "331.41",
+        "50日均线": "308.22",
+        "200日均线": "290.72",
+        "RSI 14": "73.43",
+        "MACD": "16.50",
+        "20日波动率": "37.69%",
+        "成交量": "536,830",
+        "量比20日": "0.66",
+        "52周高点": "365.82",
         "52周低点": "223.76",
-        "距52周高点": "-0.25%",
-        "距52周低点": "+62.94%",
+        "距52周高点": "-0.89%",
+        "距52周低点": "+62.04%",
         "20日支撑": "290.60",
-        "20日压力": "365.52"
+        "20日压力": "365.82"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "56.42M",
         "ROE": "20.34%",
         "债务/权益": "0.01",
-        "市值": "$20.57B",
-        "企业价值": "$18.98B",
-        "市盈率 TTM": "29.91",
-        "预期市盈率": "20.86",
-        "市销率": "6.38",
-        "EV / 营收": "5.89",
-        "EV / EBITDA": "21.02",
-        "EV / FCF": "25.00",
-        "FCF 收益率": "3.69%",
+        "市值": "$20.46B",
+        "企业价值": "$19.39B",
+        "市盈率 TTM": "29.77",
+        "预期市盈率": "20.74",
+        "市销率": "6.34",
+        "EV / 营收": "6.01",
+        "EV / EBITDA": "21.47",
+        "EV / FCF": "25.54",
+        "FCF 收益率": "3.71%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 20.0,
+          "value": 13.333333333333332,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 45.0,
+          "value": 48.33333333333333,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 63.261111111111106,
+          "value": 62.761111111111106,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,16 +167,16 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-15 05:16:04",
+      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-16 05:14:03",
       "data": {
         "target_mean": 337.4,
         "target_high": 375.0,
         "target_low": 250.0,
-        "upside_pct": -7.46,
-        "rating": "hold",
-        "rating_letter": "B",
+        "upside_pct": -6.94,
+        "rating": "none",
+        "rating_letter": "—",
         "rating_change": "维持",
-        "previous_rating_letter": "B",
+        "previous_rating_letter": "—",
         "n_analysts": 10,
         "next_earnings": "2026-07-30",
         "eps_estimate": 3.99925,
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/FFV.F/",
+          "title": "F5, Inc. (FFV.F) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/FFIV",
+          "title": "F5, Inc. (FFIV) Stock Price, Quote, News & Analysis | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "wsj.com",
@@ -260,22 +276,6 @@
           "title": "F5, Inc. (FFIV) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-12",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/why-f5s-nasdaq-ffiv-earnings-130456059.html",
-          "title": "Why F5's (NASDAQ:FFIV) Earnings Are Better Than They Seem",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-11",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/1-cash-producing-stock-keep-214055526.html",
-          "title": "1 Cash-Producing Stock to Keep an Eye On and 2 We Brush Off",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 63.261111111111106
+        },
+        {
+          "date": "2026-05-16",
+          "value": 62.761111111111106
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

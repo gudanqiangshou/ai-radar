@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 2,
     "ai_role": "OCI + AI 数据中心 GPU 租赁 — Stargate / OpenAI 长约",
-    "price": 195.61000061035156,
-    "change_1d": 3.08,
+    "price": 192.9499969482422,
+    "change_1d": -1.36,
     "composite": 56.25,
     "tier_letter": "B",
     "description": [
@@ -19,7 +19,7 @@
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$195.61",
-        "日内涨跌": "+3.08%",
-        "1日涨跌": "+3.08%",
-        "5日涨跌": "-0.17%",
-        "1月涨跌": "+20.01%",
-        "3月涨跌": "+22.15%",
-        "6月涨跌": "-12.22%",
-        "1年涨跌": "+20.04%",
-        "YTD涨跌": "-0.05%",
-        "20日均线": "181.15",
-        "50日均线": "163.21",
-        "200日均线": "209.89",
-        "RSI 14": "65.23",
-        "MACD": "8.95",
-        "20日波动率": "51.26%",
-        "成交量": "20,540,617",
-        "量比20日": "0.75",
+        "最新价": "$192.95",
+        "日内涨跌": "-1.36%",
+        "1日涨跌": "-1.36%",
+        "5日涨跌": "-1.53%",
+        "1月涨跌": "+13.63%",
+        "3月涨跌": "+20.49%",
+        "6月涨跌": "-13.42%",
+        "1年涨跌": "+21.05%",
+        "YTD涨跌": "-1.41%",
+        "20日均线": "182.05",
+        "50日均线": "163.97",
+        "200日均线": "209.60",
+        "RSI 14": "62.51",
+        "MACD": "8.80",
+        "20日波动率": "51.00%",
+        "成交量": "15,610,771",
+        "量比20日": "0.60",
         "52周高点": "345.72",
         "52周低点": "134.57",
-        "距52周高点": "-43.42%",
-        "距52周低点": "+45.36%",
+        "距52周高点": "-44.19%",
+        "距52周低点": "+43.38%",
         "20日支撑": "160.33",
         "20日压力": "200.71"
       }
@@ -76,15 +76,15 @@
         "流通股本": "2.88B",
         "ROE": "57.57%",
         "债务/权益": "0.29",
-        "市值": "$562.58B",
-        "企业价值": "$674.30B",
-        "市盈率 TTM": "35.06",
-        "预期市盈率": "24.35",
-        "市销率": "8.78",
-        "EV / 营收": "10.52",
-        "EV / EBITDA": "24.57",
-        "EV / FCF": "-30.24",
-        "FCF 收益率": "-3.96%",
+        "市值": "$554.93B",
+        "企业价值": "$691.13B",
+        "市盈率 TTM": "34.64",
+        "预期市盈率": "24.02",
+        "市销率": "8.66",
+        "EV / 营收": "10.79",
+        "EV / EBITDA": "25.19",
+        "EV / FCF": "-30.99",
+        "FCF 收益率": "-4.02%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 39 位分析师 · 2026-05-15 05:16:05",
+      "title_meta": "Yahoo Finance · 39 位分析师 · 2026-05-16 05:14:03",
       "data": {
         "target_mean": 242.74307,
         "target_high": 400.0,
         "target_low": 155.0,
-        "upside_pct": 24.1,
+        "upside_pct": 25.81,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ORCL/news?page=37",
+          "title": "Oracle Corporation (ORCL) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/oracle-orcl-stock-sinks-market-224504454.html",
+          "title": "Oracle (ORCL) Stock Sinks As Market Gains: What You Should Know",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ORCL.SW/news/",
+          "title": "ORACLE CORP (ORCL.SW) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/oracle-stock-sinks-as-ai-costs-jump-past-wall-street-estimates-200454370.html",
+          "title": "Oracle stock sinks as AI costs jump past Wall Street estimates",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -244,38 +276,6 @@
           "title": "Oracle Corporation (ORCL.SN) Stock Price, News, Quote & History ...",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/ORCL",
-          "title": "Oracle Corporation (ORCL) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ORCL/",
-          "title": "Oracle Corporation (ORCL) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/ORCL",
-          "title": "ORCL: Oracle Corp - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ORCL/news/",
-          "title": "Oracle Corporation (ORCL) Latest Stock News & Headlines",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 56.25
+        },
+        {
+          "date": "2026-05-16",
+          "value": 56.25
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

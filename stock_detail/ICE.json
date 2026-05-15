@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "NYSE 母公司 + 抵押贷款数据 + 大宗商品交易",
-    "price": 155.72000122070312,
-    "change_1d": 0.59,
-    "composite": 69.8,
+    "price": 154.36000061035156,
+    "change_1d": -0.87,
+    "composite": 67.9,
     "tier_letter": "B",
     "description": [
       "Intercontinental Exchange 的 AI 产业链位置为 Financial / Research Data。",
-      "AI 角色：NYSE 母公司 + 抵押贷款数据 + 大宗商品交易。当前内部综合评分 69。",
+      "AI 角色：NYSE 母公司 + 抵押贷款数据 + 大宗商品交易。当前内部综合评分 67。",
       "Financial / Research Data 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:06",
     "status_label": "持有"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$155.72",
-        "日内涨跌": "+0.59%",
-        "1日涨跌": "+0.59%",
-        "5日涨跌": "-0.06%",
-        "1月涨跌": "-3.90%",
-        "3月涨跌": "+2.26%",
-        "6月涨跌": "+2.40%",
-        "1年涨跌": "-9.43%",
-        "YTD涨跌": "-2.67%",
-        "20日均线": "156.94",
-        "50日均线": "159.16",
-        "200日均线": "163.54",
-        "RSI 14": "45.64",
-        "MACD": "-1.27",
-        "20日波动率": "16.82%",
-        "成交量": "1,435,015",
-        "量比20日": "0.45",
+        "最新价": "$154.36",
+        "日内涨跌": "-0.87%",
+        "1日涨跌": "-0.87%",
+        "5日涨跌": "-0.94%",
+        "1月涨跌": "-6.49%",
+        "3月涨跌": "+1.37%",
+        "6月涨跌": "+1.51%",
+        "1年涨跌": "-11.72%",
+        "YTD涨跌": "-3.52%",
+        "20日均线": "156.59",
+        "50日均线": "158.97",
+        "200日均线": "163.38",
+        "RSI 14": "42.90",
+        "MACD": "-1.32",
+        "20日波动率": "16.31%",
+        "成交量": "2,191,106",
+        "量比20日": "0.71",
         "52周高点": "189.35",
         "52周低点": "143.17",
-        "距52周高点": "-17.76%",
-        "距52周低点": "+8.77%",
+        "距52周高点": "-18.48%",
+        "距52周低点": "+7.82%",
         "20日支撑": "152.35",
-        "20日压力": "164.33"
+        "20日压力": "163.00"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "565.51M",
         "ROE": "13.85%",
         "债务/权益": "0.24",
-        "市值": "$88.06B",
-        "企业价值": "$107.75B",
-        "市盈率 TTM": "22.67",
-        "预期市盈率": "17.72",
-        "市销率": "8.44",
-        "EV / 营收": "10.33",
-        "EV / EBITDA": "16.27",
-        "EV / FCF": "28.79",
-        "FCF 收益率": "4.25%",
+        "市值": "$87.29B",
+        "企业价值": "$108.27B",
+        "市盈率 TTM": "22.47",
+        "预期市盈率": "17.57",
+        "市销率": "8.37",
+        "EV / 营收": "10.38",
+        "EV / EBITDA": "16.34",
+        "EV / FCF": "28.92",
+        "FCF 收益率": "4.29%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 74.0,
+          "value": 68.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 61.0,
+          "value": 47.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 69.8,
+          "value": 67.9,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-15 05:16:08",
+      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-16 05:14:06",
       "data": {
         "target_mean": 200.66667,
         "target_high": 251.0,
         "target_low": 174.0,
-        "upside_pct": 28.86,
+        "upside_pct": 30.0,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -197,6 +197,54 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ICE/",
+          "title": "Intercontinental Exchange, Inc. (ICE) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/intercontinental-exchange-ice-fell-due-131146399.html",
+          "title": "Intercontinental Exchange (ICE) Fell Due to Investors’ Rotation",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ICE.MX/",
+          "title": "Intercontinental Exchange, Inc. (ICE.MX) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/ice",
+          "title": "ICE Stock Price | Intercontinental Exchange Inc. Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ICE/news/",
+          "title": "Intercontinental Exchange, Inc. (ICE) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "au.finance.yahoo.com",
+          "url": "https://au.finance.yahoo.com/quote/ICE.MX/latest-news/",
+          "title": "Intercontinental Exchange, Inc. (ICE.MX) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "reuters.com",
@@ -228,54 +276,6 @@
           "title": "Intercontinental Exchange, Inc. (ICE) Stock Price, News, Quote ...",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/ICE.MX/news/",
-          "title": "Intercontinental Exchange, Inc. (ICE.MX) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/ICE/historical-prices",
-          "title": "Intercontinental Exchange Inc. Price & News - WSJ | ICE",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/intercontinental-exchange-ice-fell-due-135545070.html",
-          "title": "Intercontinental Exchange (ICE) Fell Due to AI-Related Concerns",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/time-reassess-intercontinental-exchange-ice-200652197.html",
-          "title": "Is It Time To Reassess Intercontinental Exchange (ICE) After Recent ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ndaq-stock-trades-above-50-133200355.html",
-          "title": "NDAQ Stock Trades Above 50-Day SMA: What Should Investors Do Now?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Benzinga",
-          "url": "https://finance.yahoo.com/news/polymarket-volume-slides-first-time-180310948.html",
-          "title": "Polymarket Volume Slides First Time In 8 Months: Is The Prediction Market Boom Slowing?",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 69.8
+        },
+        {
+          "date": "2026-05-16",
+          "value": 67.9
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

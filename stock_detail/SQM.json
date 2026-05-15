@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "智利锂矿龙头 — 全球第二大锂供应商",
-    "price": 86.80000305175781,
-    "change_1d": -5.26,
-    "composite": 63.9,
+    "price": 84.26000213623047,
+    "change_1d": -2.93,
+    "composite": 63.599999999999994,
     "tier_letter": "C",
     "description": [
       "Sociedad Quimica y Minera 的 AI 产业链位置为 Critical Minerals / Rare Earths。",
@@ -19,7 +19,7 @@
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:07",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$86.80",
-        "日内涨跌": "-5.26%",
-        "1日涨跌": "-5.26%",
-        "5日涨跌": "-5.02%",
-        "1月涨跌": "-2.40%",
-        "3月涨跌": "+22.41%",
-        "6月涨跌": "+59.12%",
-        "1年涨跌": "+142.12%",
-        "YTD涨跌": "+24.48%",
-        "20日均线": "90.38",
-        "50日均线": "83.72",
-        "200日均线": "64.04",
-        "RSI 14": "46.54",
-        "MACD": "2.03",
-        "20日波动率": "44.62%",
-        "成交量": "1,069,526",
-        "量比20日": "0.89",
+        "最新价": "$84.26",
+        "日内涨跌": "-2.93%",
+        "1日涨跌": "-2.93%",
+        "5日涨跌": "-7.80%",
+        "1月涨跌": "-3.83%",
+        "3月涨跌": "+18.83%",
+        "6月涨跌": "+54.46%",
+        "1年涨跌": "+140.19%",
+        "YTD涨跌": "+20.84%",
+        "20日均线": "90.15",
+        "50日均线": "83.99",
+        "200日均线": "64.27",
+        "RSI 14": "42.70",
+        "MACD": "1.35",
+        "20日波动率": "38.99%",
+        "成交量": "1,341,835",
+        "量比20日": "1.15",
         "52周高点": "98.00",
         "52周低点": "29.36",
-        "距52周高点": "-11.43%",
-        "距52周低点": "+195.64%",
-        "20日支撑": "83.98",
+        "距52周高点": "-14.02%",
+        "距52周低点": "+186.99%",
+        "20日支撑": "82.67",
         "20日压力": "98.00"
       }
     },
@@ -75,16 +75,16 @@
         "净现金/债务": "-$1.50B",
         "流通股本": "142.82M",
         "ROE": "9.67%",
-        "债务/权益": "0.19",
-        "市值": "$24.79B",
-        "企业价值": "$30.58B",
+        "债务/权益": "0.20",
+        "市值": "$24.07B",
+        "企业价值": "$29.20B",
         "市盈率 TTM": "—",
-        "预期市盈率": "15.98",
-        "市销率": "5.42",
-        "EV / 营收": "6.68",
-        "EV / EBITDA": "20.70",
-        "EV / FCF": "71.17",
-        "FCF 收益率": "1.73%",
+        "预期市盈率": "15.10",
+        "市销率": "5.26",
+        "EV / 营收": "6.38",
+        "EV / EBITDA": "19.77",
+        "EV / FCF": "67.96",
+        "FCF 收益率": "1.79%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 54.0,
+          "value": 48.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 63.9,
+          "value": 63.599999999999994,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-15 05:16:09",
+      "title_meta": "Yahoo Finance · 18 位分析师 · 2026-05-16 05:14:07",
       "data": {
         "target_mean": 78.99722,
         "target_high": 106.0,
         "target_low": 40.0,
-        "upside_pct": -8.99,
+        "upside_pct": -6.25,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/sqm",
+          "title": "SQM Stock Price | Sociedad Quimica y Minera De Chile S.A. ADR Stock Quote (U.S.: NYSE) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SQM/community-insights",
+          "title": "Sociedad Química y Minera de Chile S.A. (SQM) Stock Price, News ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SQM-B.SN/news/",
+          "title": "Sociedad Química y Minera de Chile SA (SQM-B.SN) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/SQM-A.SN/news/",
+          "title": "Sociedad Química y Minera de Chile S.A. (SQM-A.SN) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -244,38 +276,6 @@
           "title": "Sociedad Química y Minera de Chile S.A. (SQM) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/SQM/chart/",
-          "title": "Sociedad Química y Minera de Chile SA (SQM) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/SQM/news?page=2",
-          "title": "Sociedad Química y Minera de Chile S.A. (SQM) Latest Stock News ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/kros-q1-earnings-beat-estimates-132600498.html",
-          "title": "KRO's Q1 Earnings Beat Estimates on Cost Actions, Sales Miss",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/news/oec-q1-earnings-miss-lower-132300583.html",
-          "title": "OEC Q1 Earnings Miss on Lower Pricing, Sales Down Y/Y",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 63.9
+        },
+        {
+          "date": "2026-05-16",
+          "value": 63.599999999999994
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

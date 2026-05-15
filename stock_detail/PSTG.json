@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "全闪存阵列 — Meta AI 大单签约，AI 数据存储",
-    "price": 84.43000030517578,
-    "change_1d": 1.32,
-    "composite": 49.65079365079365,
+    "price": 83.80000305175781,
+    "change_1d": -0.75,
+    "composite": 49.253968253968246,
     "tier_letter": "B",
     "description": [
       "Pure Storage 的 AI 产业链位置为 Data Center Infrastructure。",
@@ -19,7 +19,7 @@
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:03",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$84.43",
-        "日内涨跌": "+1.32%",
-        "1日涨跌": "+1.32%",
-        "5日涨跌": "+8.02%",
-        "1月涨跌": "+33.49%",
-        "3月涨跌": "+19.23%",
-        "6月涨跌": "-0.19%",
-        "1年涨跌": "—",
-        "YTD涨跌": "+22.34%",
-        "20日均线": "73.61",
-        "50日均线": "66.74",
-        "200日均线": "73.76",
-        "RSI 14": "72.00",
-        "MACD": "4.62",
-        "20日波动率": "52.74%",
-        "成交量": "2,616,772",
-        "量比20日": "0.89",
+        "最新价": "$83.80",
+        "日内涨跌": "-0.75%",
+        "1日涨跌": "-0.75%",
+        "5日涨跌": "+7.22%",
+        "1月涨跌": "+30.94%",
+        "3月涨跌": "+13.47%",
+        "6月涨跌": "-0.93%",
+        "1年涨跌": "+48.48%",
+        "YTD涨跌": "+21.43%",
+        "20日均线": "74.41",
+        "50日均线": "67.19",
+        "200日均线": "73.88",
+        "RSI 14": "70.31",
+        "MACD": "4.76",
+        "20日波动率": "51.91%",
+        "成交量": "2,466,963",
+        "量比20日": "0.84",
         "52周高点": "100.59",
         "52周低点": "50.20",
-        "距52周高点": "-16.07%",
-        "距52周低点": "+68.19%",
-        "20日支撑": "64.54",
+        "距52周高点": "-16.69%",
+        "距52周低点": "+66.93%",
+        "20日支撑": "66.24",
         "20日压力": "93.92"
       }
     },
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 78.57142857142858,
+          "value": 71.42857142857144,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 49.65079365079365,
+          "value": 49.253968253968246,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-15 05:16:05",
+      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-16 05:14:03",
       "data": {
         "target_mean": 89.89474,
         "target_high": 105.0,
         "target_low": 63.0,
-        "upside_pct": 6.47,
+        "upside_pct": 7.27,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,14 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/PSTG/details/",
+          "title": "Everpure, Inc. (PSTG) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -268,14 +276,6 @@
           "title": "Why Are Pure Storage (PSTG) Shares Soaring Today - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/why-pure-storage-pstg-outpaced-230004015.html",
-          "title": "Why Pure Storage (PSTG) Outpaced the Stock Market Today",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 49.65079365079365
+        },
+        {
+          "date": "2026-05-16",
+          "value": 49.253968253968246
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

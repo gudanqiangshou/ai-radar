@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "SMR 核电 — DOE 认证领先，长期主题",
-    "price": 12.0600004196167,
-    "change_1d": 0.84,
-    "composite": 31.649523809523807,
+    "price": 11.229999542236328,
+    "change_1d": -6.88,
+    "composite": 30.947142857142858,
     "tier_letter": "C",
     "description": [
       "NuScale Power 的 AI 产业链位置为 Power / Grid / Nuclear。",
-      "AI 角色：SMR 核电 — DOE 认证领先，长期主题。当前内部综合评分 31。",
+      "AI 角色：SMR 核电 — DOE 认证领先，长期主题。当前内部综合评分 30。",
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$12.06",
-        "日内涨跌": "+0.84%",
-        "1日涨跌": "+0.84%",
-        "5日涨跌": "-3.90%",
-        "1月涨跌": "+17.66%",
-        "3月涨跌": "-15.72%",
-        "6月涨跌": "-46.28%",
-        "1年涨跌": "-47.43%",
-        "YTD涨跌": "-26.06%",
-        "20日均线": "12.39",
-        "50日均线": "11.60",
-        "200日均线": "24.06",
-        "RSI 14": "49.84",
-        "MACD": "0.19",
-        "20日波动率": "121.35%",
-        "成交量": "25,975,466",
-        "量比20日": "0.69",
+        "最新价": "$11.23",
+        "日内涨跌": "-6.88%",
+        "1日涨跌": "-6.88%",
+        "5日涨跌": "-10.52%",
+        "1月涨跌": "-4.10%",
+        "3月涨跌": "-21.52%",
+        "6月涨跌": "-49.98%",
+        "1年涨跌": "-53.21%",
+        "YTD涨跌": "-31.15%",
+        "20日均线": "12.32",
+        "50日均线": "11.58",
+        "200日均线": "23.86",
+        "RSI 14": "45.21",
+        "MACD": "0.09",
+        "20日波动率": "117.63%",
+        "成交量": "24,819,155",
+        "量比20日": "0.70",
         "52周高点": "57.42",
         "52周低点": "8.85",
-        "距52周高点": "-79.00%",
-        "距52周低点": "+36.27%",
+        "距52周高点": "-80.44%",
+        "距52周低点": "+26.89%",
         "20日支撑": "10.83",
         "20日压力": "14.20"
       }
@@ -76,15 +76,15 @@
         "流通股本": "346.11M",
         "ROE": "-83.05%",
         "债务/权益": "0.00",
-        "市值": "$4.17B",
-        "企业价值": "$3.20B",
+        "市值": "$3.89B",
+        "企业价值": "$3.23B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-19.69",
-        "市销率": "223.58",
-        "EV / 营收": "171.30",
-        "EV / EBITDA": "-15.74",
-        "EV / FCF": "-19.74",
-        "FCF 收益率": "-3.88%",
+        "预期市盈率": "-18.33",
+        "市销率": "208.19",
+        "EV / 营收": "173.15",
+        "EV / EBITDA": "-15.91",
+        "EV / FCF": "-19.96",
+        "FCF 收益率": "-4.17%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 30.476190476190474,
+          "value": 16.428571428571427,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 31.649523809523807,
+          "value": 30.947142857142858,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 14 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 14 位分析师 · 2026-05-16 05:14:01",
       "data": {
         "target_mean": 16.5,
         "target_high": 28.0,
         "target_low": 7.0,
-        "upside_pct": 36.82,
+        "upside_pct": 46.93,
         "rating": "hold",
         "rating_letter": "B",
         "rating_change": "维持",
@@ -198,6 +198,14 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/SMR/historical-prices",
+          "title": "NuScale Power Corp. Price & News - WSJ | SMR",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/SMR/latest-news/",
@@ -210,6 +218,30 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/news/nuscale-smr-shares-slide-10-174643880.html",
           "title": "NuScale (SMR) Shares Slide 10% as B. Riley Flags Concerns Over ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/05/15/spacex-is-going-public-heres-how-nuscale-power-cou/",
+          "title": "SpaceX Is Going Public -- Here's How NuScale Power Can Benefit",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/nuscale-power-smr-among-best-173628848.html",
+          "title": "NuScale Power (SMR) Is Among The Best Nuclear Energy Stocks To Buy As SMRs Go Mainstream",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-smr-one-best-154749753.html",
+          "title": "Is NuScale Power (SMR) One of the Best Uranium Stocks to Buy Despite a Revenue Decline?",
           "sentiment": null,
           "impact": null
         },
@@ -244,38 +276,6 @@
           "title": "NuScale Power Corporation (SMR) Stock Price, News, Quote ...",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/nuscale-power-smr-among-best-185512176.html",
-          "title": "NuScale Power (SMR) – Among the Best Energy Stocks to Buy According to Wall Street Analysts",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/SMR/related-analysis?page=2",
-          "title": "NuScale Power Corporation (SMR) Competitor Stock Analysis ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/SMR",
-          "title": "SMR NuScale Power Corporation Stock Price & Overview",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/smr",
-          "title": "SMR Stock Price | NuScale Power Corp. Stock Quote (U.S.: NYSE) | MarketWatch",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 31.649523809523807
+        },
+        {
+          "date": "2026-05-16",
+          "value": 30.947142857142858
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

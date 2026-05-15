@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "豪华电动车 + AI 智能驾驶 — Saudi PIF 大股东",
-    "price": 6.269999980926514,
-    "change_1d": -1.88,
-    "composite": 25.03333333333334,
+    "price": 6.039999961853027,
+    "change_1d": -3.67,
+    "composite": 25.15833333333334,
     "tier_letter": "C",
     "description": [
       "Lucid Group 的 AI 产业链位置为 Autonomous / Mobility。",
@@ -19,7 +19,7 @@
       "Autonomous / Mobility 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:06",
     "status_label": "减持"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$6.27",
-        "日内涨跌": "-1.88%",
-        "1日涨跌": "-1.88%",
-        "5日涨跌": "-1.10%",
-        "1月涨跌": "-28.75%",
-        "3月涨跌": "-39.01%",
-        "6月涨跌": "-55.85%",
-        "1年涨跌": "-77.28%",
-        "YTD涨跌": "-43.77%",
-        "20日均线": "6.36",
-        "50日均线": "8.31",
-        "200日均线": "14.09",
-        "RSI 14": "39.87",
-        "MACD": "-0.60",
-        "20日波动率": "80.19%",
-        "成交量": "15,384,725",
-        "量比20日": "0.68",
+        "最新价": "$6.04",
+        "日内涨跌": "-3.67%",
+        "1日涨跌": "-3.67%",
+        "5日涨跌": "-4.73%",
+        "1月涨跌": "-26.43%",
+        "3月涨跌": "-41.25%",
+        "6月涨跌": "-57.46%",
+        "1年涨跌": "-77.55%",
+        "YTD涨跌": "-45.83%",
+        "20日均线": "6.30",
+        "50日均线": "8.24",
+        "200日均线": "14.00",
+        "RSI 14": "37.43",
+        "MACD": "-0.58",
+        "20日波动率": "79.28%",
+        "成交量": "13,256,920",
+        "量比20日": "0.61",
         "52周高点": "33.70",
         "52周低点": "5.62",
-        "距52周高点": "-81.39%",
-        "距52周低点": "+11.57%",
+        "距52周高点": "-82.08%",
+        "距52周低点": "+7.47%",
         "20日支撑": "5.62",
-        "20日压力": "7.88"
+        "20日压力": "7.69"
       }
     },
     {
@@ -75,16 +75,16 @@
         "净现金/债务": "-$1.35B",
         "流通股本": "390.26M",
         "ROE": "-97.59%",
-        "债务/权益": "1.29",
-        "市值": "$2.45B",
-        "企业价值": "$7.35B",
+        "债务/权益": "1.34",
+        "市值": "$2.36B",
+        "企业价值": "$7.30B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-1.34",
-        "市销率": "1.75",
-        "EV / 营收": "5.25",
-        "EV / EBITDA": "-2.23",
-        "EV / FCF": "-2.42",
-        "FCF 收益率": "-124.04%",
+        "预期市盈率": "-1.29",
+        "市销率": "1.68",
+        "EV / 营收": "5.21",
+        "EV / EBITDA": "-2.22",
+        "EV / FCF": "-2.41",
+        "FCF 收益率": "-128.76%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 0.0,
+          "value": 2.4999999999999996,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 25.03333333333334,
+          "value": 25.15833333333334,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-15 05:16:08",
+      "title_meta": "Yahoo Finance · 10 位分析师 · 2026-05-16 05:14:06",
       "data": {
         "target_mean": 8.7,
         "target_high": 17.0,
         "target_low": 5.0,
-        "upside_pct": 38.76,
+        "upside_pct": 44.04,
         "rating": "hold",
         "rating_letter": "B",
         "rating_change": "维持",
@@ -197,6 +197,54 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/lcid/stock-grader?amp%25252525252525253Bmod=%252527nvOpzp%25252525252525253B%252525252525252520AND%2525252525252525201%25252525252525253D1%252525252525252520OR%252525252525252520(%25252525252525253C%252527%252525252525252522%25252525252525253EiKO))%25252525252525252C&amp%2525252525252525253Bmod=%25252527nvOpzp%2525252525252525253B%25252525252525252520AND%252525252525252525201%2525252525252525253D1%25252525252525252520OR%25252525252525252520(%2525252525252525253C%25252527%25252525252525252522%2525252525252525253EiKO))%2525252525252525252C&eafs_enabled=false",
+          "title": "Lucid Group Inc. Stock Grades | LCID | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/lcid",
+          "title": "LCID | Lucid Group Inc. Stock Overview (U.S.: Nasdaq) | Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LCID/community-insights",
+          "title": "Lucid Group, Inc. (LCID) Stock Price, News, Quote & History - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/LCID/community-insights/",
+          "title": "Lucid Group, Inc. (LCID) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/LCID.MX/news/",
+          "title": "Lucid Group, Inc. (LCID.MX) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "reuters.com",
+          "url": "https://www.reuters.com/markets/companies/LCID.O/",
+          "title": "(LCID.O) | Stock Price & Latest News - Reuters",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -228,54 +276,6 @@
           "title": "LCID: Lucid Group Inc - Stock Price, Quote and News - CNBC",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "uk.finance.yahoo.com",
-          "url": "https://uk.finance.yahoo.com/quote/LCID.MX/news/",
-          "title": "Lucid Group, Inc. (LCID.MX) latest stock news and headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/lcid",
-          "title": "LCID Stock Price | Lucid Group Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/LCID",
-          "title": "Lucid Group, Inc. (LCID) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/LCID/",
-          "title": "Lucid Group, Inc. (LCID) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "MarketBeat",
-          "url": "https://www.marketbeat.com/instant-alerts/lucid-diagnostics-q1-earnings-call-highlights-2026-05-14/?utm_source=yahoofinance&utm_medium=yahoofinance",
-          "title": "Lucid Diagnostics Q1 Earnings Call Highlights",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/investing/2026/05/14/is-lucid-under-7-a-bargain-or-a-trap-heres-the/",
-          "title": "Is Lucid Under $7 a Bargain or a Trap? Here's the Honest Answer.",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 25.03333333333334
+        },
+        {
+          "date": "2026-05-16",
+          "value": 25.15833333333334
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "漏洞管理 + 暴露面 — 攻击面降级",
-    "price": 20.450000762939453,
-    "change_1d": -0.63,
-    "composite": 51.093055555555566,
+    "price": 21.489999771118164,
+    "change_1d": 5.09,
+    "composite": 51.23194444444445,
     "tier_letter": "C",
     "description": [
       "Tenable 的 AI 产业链位置为 Cybersecurity。",
@@ -19,7 +19,7 @@
       "Cybersecurity 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$20.45",
-        "日内涨跌": "-0.63%",
-        "1日涨跌": "-0.63%",
-        "5日涨跌": "-6.32%",
-        "1月涨跌": "+14.44%",
-        "3月涨跌": "-9.31%",
-        "6月涨跌": "-24.20%",
-        "1年涨跌": "-38.01%",
-        "YTD涨跌": "-10.03%",
-        "20日均线": "20.66",
-        "50日均线": "19.60",
-        "200日均线": "24.83",
-        "RSI 14": "51.25",
-        "MACD": "0.48",
-        "20日波动率": "38.75%",
-        "成交量": "2,766,714",
-        "量比20日": "0.82",
+        "最新价": "$21.49",
+        "日内涨跌": "+5.09%",
+        "1日涨跌": "+5.09%",
+        "5日涨跌": "-1.56%",
+        "1月涨跌": "+13.52%",
+        "3月涨跌": "-4.70%",
+        "6月涨跌": "-20.35%",
+        "1年涨跌": "-35.10%",
+        "YTD涨跌": "-5.46%",
+        "20日均线": "20.77",
+        "50日均线": "19.61",
+        "200日均线": "24.78",
+        "RSI 14": "58.88",
+        "MACD": "0.50",
+        "20日波动率": "42.01%",
+        "成交量": "2,477,534",
+        "量比20日": "0.74",
         "52周高点": "35.69",
         "52周低点": "15.73",
-        "距52周高点": "-42.70%",
-        "距52周低点": "+30.01%",
-        "20日支撑": "18.95",
+        "距52周高点": "-39.79%",
+        "距52周低点": "+36.62%",
+        "20日支撑": "19.02",
         "20日压力": "22.34"
       }
     },
@@ -75,16 +75,16 @@
         "净现金/债务": "$6.67M",
         "流通股本": "110.27M",
         "ROE": "-3.73%",
-        "债务/权益": "0.19",
-        "市值": "$2.26B",
-        "企业价值": "$2.33B",
+        "债务/权益": "0.18",
+        "市值": "$2.37B",
+        "企业价值": "$2.32B",
         "市盈率 TTM": "—",
-        "预期市盈率": "9.44",
-        "市销率": "2.21",
-        "EV / 营收": "2.28",
-        "EV / EBITDA": "57.50",
-        "EV / FCF": "9.11",
-        "FCF 收益率": "11.34%",
+        "预期市盈率": "9.92",
+        "市销率": "2.32",
+        "EV / 营收": "2.27",
+        "EV / EBITDA": "57.15",
+        "EV / FCF": "9.06",
+        "FCF 收益率": "10.79%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 22.222222222222218,
+          "value": 24.999999999999996,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 51.093055555555566,
+          "value": 51.23194444444445,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 20 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 20 位分析师 · 2026-05-16 05:14:05",
       "data": {
         "target_mean": 27.05,
         "target_high": 38.0,
         "target_low": 20.0,
-        "upside_pct": 32.27,
+        "upside_pct": 25.87,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,14 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/TENB.MX/news/",
+          "title": "Tenable Holdings, Inc. (TENB.MX) Latest Stock News & Headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -262,18 +270,10 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
+          "date": "2026-05-15",
           "source": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/ringcentral-tenable-wix-samsara-mongodb-143655360.html",
-          "title": "RingCentral, Tenable, Wix, Samsara, and MongoDB Shares Are Falling, What You Need To Know",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "24/7 Wall St.",
-          "url": "https://247wallst.com/investing/2026/05/13/ai-threats-are-accelerating-and-these-3-cybersecurity-stocks-under-30-are-built-to-win/",
-          "title": "AI Threats Are Accelerating and These 3 Cybersecurity Stocks Under $30 Are Built to Win",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/1-software-stock-exciting-potential-120455955.html",
+          "title": "1 Software Stock with Exciting Potential and 2 We Brush Off",
           "sentiment": null,
           "impact": null
         }
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 51.093055555555566
+        },
+        {
+          "date": "2026-05-16",
+          "value": 51.23194444444445
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

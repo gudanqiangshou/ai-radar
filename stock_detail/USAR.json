@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 3,
     "ai_role": "美国本土稀土加工 — 永磁电机 + 国防供应链备份",
-    "price": 24.829999923706055,
-    "change_1d": -2.32,
+    "price": 24.389999389648438,
+    "change_1d": -1.77,
     "composite": 37.00000000000001,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Critical Minerals / Rare Earths 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:09",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:07",
     "status_label": "减持"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$24.83",
-        "日内涨跌": "-2.32%",
-        "1日涨跌": "-2.32%",
-        "5日涨跌": "-7.90%",
-        "1月涨跌": "+46.14%",
-        "3月涨跌": "+28.02%",
-        "6月涨跌": "+71.36%",
-        "1年涨跌": "+179.30%",
-        "YTD涨跌": "+75.48%",
-        "20日均线": "24.67",
-        "50日均线": "20.27",
-        "200日均线": "18.75",
-        "RSI 14": "55.10",
-        "MACD": "1.79",
-        "20日波动率": "114.16%",
-        "成交量": "18,241,493",
-        "量比20日": "0.87",
+        "最新价": "$24.39",
+        "日内涨跌": "-1.77%",
+        "1日涨跌": "-1.77%",
+        "5日涨跌": "-9.53%",
+        "1月涨跌": "+32.92%",
+        "3月涨跌": "+25.75%",
+        "6月涨跌": "+68.32%",
+        "1年涨跌": "+157.82%",
+        "YTD涨跌": "+72.37%",
+        "20日均线": "24.89",
+        "50日均线": "20.37",
+        "200日均线": "18.82",
+        "RSI 14": "53.42",
+        "MACD": "1.59",
+        "20日波动率": "112.10%",
+        "成交量": "13,354,615",
+        "量比20日": "0.64",
         "52周高点": "43.98",
         "52周低点": "8.00",
-        "距52周高点": "-43.54%",
-        "距52周低点": "+210.37%",
-        "20日支撑": "19.22",
+        "距52周高点": "-44.54%",
+        "距52周低点": "+204.87%",
+        "20日支撑": "21.27",
         "20日压力": "28.69"
       }
     },
@@ -71,19 +71,19 @@
         "自由现金流": "-$47.19M",
         "FCF 利润率": "-2871.88%",
         "现金及短投": "$359.92M",
-        "总债务": "$3.05M",
+        "总债务": "$1.28M",
         "净现金/债务": "—",
-        "流通股本": "217.99M",
+        "流通股本": "223.04M",
         "ROE": "-107.16%",
         "债务/权益": "0.00",
-        "市值": "$5.41B",
-        "企业价值": "$5.19B",
+        "市值": "$5.44B",
+        "企业价值": "$3.67B",
         "市盈率 TTM": "—",
-        "预期市盈率": "-18.53",
-        "市销率": "3294.33",
-        "EV / 营收": "3161.68",
-        "EV / EBITDA": "-112.20",
-        "EV / FCF": "-110.09",
+        "预期市盈率": "-21.39",
+        "市销率": "741.02",
+        "EV / 营收": "500.42",
+        "EV / EBITDA": "-50.37",
+        "EV / FCF": "-77.86",
         "FCF 收益率": "-0.87%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 7 位分析师 · 2026-05-15 05:16:09",
+      "title_meta": "Yahoo Finance · 7 位分析师 · 2026-05-16 05:14:07",
       "data": {
-        "target_mean": 36.57143,
+        "target_mean": 37.28571,
         "target_high": 45.0,
         "target_low": 30.0,
-        "upside_pct": 47.29,
+        "upside_pct": 52.87,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
         "previous_rating_letter": "A",
         "n_analysts": 7,
         "next_earnings": "2026-08-11",
-        "eps_estimate": -0.22,
+        "eps_estimate": -0.08,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,62 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-inc-usar-194946946.html",
+          "title": "Is USA Rare Earth, Inc. (USAR) A Good Stock To Buy Now?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/IPXX?source=content_type%3Areact%7Curl_first_level%3Asymbol%7Csection%3Adiscover_more%7Csymbol%3ANSFEX",
+          "title": "USA Rare Earth, Inc. (USAR) Stock Price, Quote, News & Analysis ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/USAR/community/",
+          "title": "USA Rare Earth, Inc. (USAR) Stock Forum & Discussion",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/usar-stock-swings-strategic-texas-002339306.html",
+          "title": "USAR stock swings after strategic Texas rare earth deal",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/USAR/historical-prices",
+          "title": "USA Rare Earth Inc. Price & News - WSJ | USAR",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/usar",
+          "title": "USAR Stock Price | USA Rare Earth Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/USAR.MX/latest-news/",
+          "title": "USA RARE EARTH INC (USAR.MX) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "cnbc.com",
@@ -220,62 +276,6 @@
           "title": "USA Rare Earth, Inc. (USAR) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/USAR",
-          "title": "USA Rare Earth, Inc. (USAR) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/usa-rare-earth-stock-soaring-145738556.html",
-          "title": "USA Rare Earth Stock is Soaring in 2026, Is it Still a Buy?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/usa-rare-earth-usar-surges-015937884.html",
-          "title": "USA Rare Earth (USAR) Surges 7.5% Ahead of Q1 Earnings",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/look-usa-rare-earth-usar-160728024.html",
-          "title": "A Look At USA Rare Earth (USAR) Valuation After Recent Share ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/look-usa-rare-earth-usar-020854701.html",
-          "title": "A Look At USA Rare Earth (USAR) Valuation After Recent Share Price Momentum",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Motley Fool",
-          "url": "https://www.fool.com/earnings/call-transcripts/2026/05/14/usa-rare-earth-usar-q1-2026-earnings-transcript/",
-          "title": "USA Rare Earth (USAR) Q1 2026 Earnings Transcript",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "MT Newswires",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/usa-rare-earth-showed-continued-145236988.html",
-          "title": "USA Rare Earth Showed Continued Momentum Across Mine-to-Magnet Platform in Q1, Wedbush Says",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 37.00000000000001
+        },
+        {
+          "date": "2026-05-16",
+          "value": 37.00000000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

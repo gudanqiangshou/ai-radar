@@ -10,7 +10,7 @@
     "tier": 3,
     "ai_role": "数字基础设施 PE — 数据中心 / 通信塔 / 光纤组合",
     "price": 15.65999984741211,
-    "change_1d": 0.06,
+    "change_1d": 0.0,
     "composite": 58.221428571428575,
     "tier_letter": "C",
     "description": [
@@ -19,7 +19,7 @@
       "Data Center Infrastructure 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:03",
     "status_label": "持有"
   },
   "panels": [
@@ -29,28 +29,28 @@
       "type": "metrics_grid",
       "data": {
         "最新价": "$15.66",
-        "日内涨跌": "+0.06%",
-        "1日涨跌": "+0.06%",
+        "日内涨跌": "+0.00%",
+        "1日涨跌": "+0.00%",
         "5日涨跌": "+0.19%",
-        "1月涨跌": "+0.51%",
+        "1月涨跌": "+0.45%",
         "3月涨跌": "+1.62%",
         "6月涨跌": "+63.12%",
-        "1年涨跌": "+64.67%",
+        "1年涨跌": "+32.38%",
         "YTD涨跌": "+1.82%",
-        "20日均线": "15.60",
-        "50日均线": "15.50",
-        "200日均线": "13.45",
+        "20日均线": "15.61",
+        "50日均线": "15.51",
+        "200日均线": "13.47",
         "RSI 14": "67.63",
         "MACD": "0.04",
         "20日波动率": "2.02%",
-        "成交量": "2,354,126",
-        "量比20日": "0.66",
-        "52周高点": "15.66",
+        "成交量": "3,201,106",
+        "量比20日": "0.90",
+        "52周高点": "15.68",
         "52周低点": "8.94",
-        "距52周高点": "-0.03%",
+        "距52周高点": "-0.13%",
         "距52周低点": "+75.17%",
         "20日支撑": "15.51",
-        "20日压力": "15.66"
+        "20日压力": "15.68"
       }
     },
     {
@@ -81,9 +81,9 @@
         "市盈率 TTM": "29.55",
         "预期市盈率": "39.15",
         "市销率": "25.25",
-        "EV / 营收": "32.13",
-        "EV / EBITDA": "-1358.74",
-        "EV / FCF": "-92.39",
+        "EV / 营收": "32.14",
+        "EV / EBITDA": "-1359.38",
+        "EV / FCF": "-92.43",
         "FCF 收益率": "-1.38%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,16 +167,16 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 6 位分析师 · 2026-05-15 05:16:05",
+      "title_meta": "Yahoo Finance · 6 位分析师 · 2026-05-16 05:14:03",
       "data": {
         "target_mean": 16.0,
         "target_high": 16.0,
         "target_low": 16.0,
         "upside_pct": 2.17,
-        "rating": "hold",
-        "rating_letter": "B",
+        "rating": "none",
+        "rating_letter": "—",
         "rating_change": "维持",
-        "previous_rating_letter": "B",
+        "previous_rating_letter": "—",
         "n_analysts": 6,
         "next_earnings": "2026-04-29",
         "eps_estimate": null,
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DBRG-PH/",
+          "title": "DigitalBridge Group, Inc. (DBRG-PH) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/dbrg?countrycode=mx",
+          "title": "DBRG Stock Price | DigitalBridge Group Inc. Stock Quote (Mexico) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -275,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 58.221428571428575
+        },
+        {
+          "date": "2026-05-16",
+          "value": 58.221428571428575
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "AI 语言学习 — GPT-4 集成 Max 订阅",
-    "price": 109.15499877929688,
-    "change_1d": 3.98,
-    "composite": 57.690909090909095,
+    "price": 112.05999755859375,
+    "change_1d": 2.66,
+    "composite": 57.327272727272735,
     "tier_letter": "C",
     "description": [
       "Duolingo 的 AI 产业链位置为 AI Application。",
@@ -19,7 +19,7 @@
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$109.15",
-        "日内涨跌": "+3.98%",
-        "1日涨跌": "+3.98%",
-        "5日涨跌": "+1.08%",
-        "1月涨跌": "+19.35%",
-        "3月涨跌": "-3.03%",
-        "6月涨跌": "-41.02%",
-        "1年涨跌": "-79.81%",
-        "YTD涨跌": "-38.15%",
-        "20日均线": "106.06",
-        "50日均线": "100.93",
-        "200日均线": "198.68",
-        "RSI 14": "55.31",
-        "MACD": "1.72",
-        "20日波动率": "56.35%",
-        "成交量": "1,569,954",
-        "量比20日": "0.75",
-        "52周高点": "544.93",
+        "最新价": "$112.06",
+        "日内涨跌": "+2.66%",
+        "1日涨跌": "+2.66%",
+        "5日涨跌": "+3.77%",
+        "1月涨跌": "+13.44%",
+        "3月涨跌": "-0.45%",
+        "6月涨跌": "-39.45%",
+        "1年涨跌": "-78.88%",
+        "YTD涨跌": "-36.50%",
+        "20日均线": "106.63",
+        "50日均线": "101.14",
+        "200日均线": "197.54",
+        "RSI 14": "58.36",
+        "MACD": "2.02",
+        "20日波动率": "55.62%",
+        "成交量": "1,428,390",
+        "量比20日": "0.70",
+        "52周高点": "541.46",
         "52周低点": "87.89",
-        "距52周高点": "-79.97%",
-        "距52周低点": "+24.20%",
+        "距52周高点": "-79.30%",
+        "距52周低点": "+27.50%",
         "20日支撑": "98.30",
         "20日压力": "115.93"
       }
@@ -76,15 +76,15 @@
         "流通股本": "40.24M",
         "ROE": "36.96%",
         "债务/权益": "0.02",
-        "市值": "$5.09B",
-        "企业价值": "$3.73B",
-        "市盈率 TTM": "12.49",
-        "预期市盈率": "13.77",
-        "市销率": "4.63",
-        "EV / 营收": "3.40",
-        "EV / EBITDA": "21.03",
-        "EV / FCF": "11.94",
-        "FCF 收益率": "6.14%",
+        "市值": "$5.22B",
+        "企业价值": "$3.93B",
+        "市盈率 TTM": "12.82",
+        "预期市盈率": "14.13",
+        "市销率": "4.75",
+        "EV / 营收": "3.57",
+        "EV / EBITDA": "22.13",
+        "EV / FCF": "12.57",
+        "FCF 收益率": "5.98%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 72.72727272727272,
+          "value": 69.0909090909091,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 57.690909090909095,
+          "value": 57.327272727272735,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 17 位分析师 · 2026-05-15 05:16:06",
+      "title_meta": "Yahoo Finance · 17 位分析师 · 2026-05-16 05:14:05",
       "data": {
         "target_mean": 104.25412,
         "target_high": 145.0,
         "target_low": 81.0,
-        "upside_pct": -4.49,
+        "upside_pct": -6.97,
         "rating": "hold",
         "rating_letter": "B",
         "rating_change": "维持",
         "previous_rating_letter": "B",
         "n_analysts": 17,
         "next_earnings": "2026-05-05",
-        "eps_estimate": 1.58,
+        "eps_estimate": 1.53585,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,54 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUOL/",
+          "title": "Duolingo, Inc. (DUOL) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/DUOL",
+          "title": "DUOL: Duolingo Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUOL.MX/",
+          "title": "Duolingo, Inc. (DUOL.MX) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/DUOL/news?p=DUOL&ncid=stockrec",
+          "title": "Duolingo, Inc. (DUOL) Latest Stock News & Headlines - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/duol",
+          "title": "DUOL Stock Price | Duolingo Inc. Stock Quote (U.S. - MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/DUOL.MX/press-releases/",
+          "title": "Duolingo, Inc. (DUOL.MX) latest press releases and corporate news – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -228,54 +276,6 @@
           "title": "Duolingo, Inc. (DUOL) Stock Price, News, Quote & History - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/DUOL.MX/latest-news/",
-          "title": "Duolingo, Inc. (DUOL.MX) Stock Price, News, Quote & History ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "wsj.com",
-          "url": "https://www.wsj.com/market-data/quotes/DUOL/research-ratings",
-          "title": "DUOL | Duolingo Inc. Analyst Estimates & Ratings - WSJ",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "sg.finance.yahoo.com",
-          "url": "https://sg.finance.yahoo.com/quote/DUOL/latest-news/",
-          "title": "Duolingo, Inc. (DUOL) stock price, news, quote and history - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/duolingo-duol-stock-know-174057018.html",
-          "title": "Duolingo (DUOL) Stock Is Up, What You Need To Know",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "StockStory",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/5-must-read-analyst-questions-031655036.html",
-          "title": "5 Must-Read Analyst Questions From Duolingo’s Q1 Earnings Call",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Simply Wall St.",
-          "url": "https://finance.yahoo.com/news/look-duolingo-duol-valuation-recent-161300976.html",
-          "title": "A Look At Duolingo (DUOL) Valuation After Recent Share Price Swings",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 57.690909090909095
+        },
+        {
+          "date": "2026-05-16",
+          "value": 57.327272727272735
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

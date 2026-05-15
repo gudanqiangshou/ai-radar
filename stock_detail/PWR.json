@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "电网 EPC 工程龙头，AI 电力扩张铲子",
-    "price": 780.0800170898438,
-    "change_1d": 0.82,
-    "composite": 48.21380952380952,
+    "price": 769.989990234375,
+    "change_1d": -1.29,
+    "composite": 48.06857142857143,
     "tier_letter": "B",
     "description": [
       "Quanta Services 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:00",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$780.08",
-        "日内涨跌": "+0.82%",
-        "1日涨跌": "+0.82%",
-        "5日涨跌": "+4.71%",
-        "1月涨跌": "+31.24%",
-        "3月涨跌": "+48.85%",
-        "6月涨跌": "+81.71%",
-        "1年涨跌": "+127.33%",
-        "YTD涨跌": "+77.42%",
-        "20日均线": "698.13",
-        "50日均线": "619.41",
-        "200日均线": "484.31",
-        "RSI 14": "72.80",
-        "MACD": "50.95",
-        "20日波动率": "62.40%",
-        "成交量": "825,889",
-        "量比20日": "0.68",
+        "最新价": "$769.99",
+        "日内涨跌": "-1.29%",
+        "1日涨跌": "-1.29%",
+        "5日涨跌": "+3.35%",
+        "1月涨跌": "+30.11%",
+        "3月涨跌": "+46.92%",
+        "6月涨跌": "+79.36%",
+        "1年涨跌": "+126.22%",
+        "YTD涨跌": "+75.13%",
+        "20日均线": "706.53",
+        "50日均线": "623.82",
+        "200日均线": "486.10",
+        "RSI 14": "69.29",
+        "MACD": "49.34",
+        "20日波动率": "63.05%",
+        "成交量": "1,012,283",
+        "量比20日": "0.84",
         "52周高点": "788.75",
         "52周低点": "320.56",
-        "距52周高点": "-1.10%",
-        "距52周低点": "+143.35%",
-        "20日支撑": "584.58",
+        "距52周高点": "-2.38%",
+        "距52周低点": "+140.20%",
+        "20日支撑": "599.00",
         "20日压力": "788.75"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "150.06M",
         "ROE": "13.53%",
         "债务/权益": "0.05",
-        "市值": "$117.06B",
-        "企业价值": "$122.16B",
-        "市盈率 TTM": "107.30",
-        "预期市盈率": "47.55",
-        "市销率": "3.89",
-        "EV / 营收": "4.06",
-        "EV / EBITDA": "45.94",
-        "EV / FCF": "117.78",
-        "FCF 收益率": "0.89%",
+        "市值": "$115.54B",
+        "企业价值": "$123.11B",
+        "市盈率 TTM": "106.21",
+        "预期市盈率": "46.94",
+        "市销率": "3.84",
+        "EV / 营收": "4.09",
+        "EV / EBITDA": "46.30",
+        "EV / FCF": "118.70",
+        "FCF 收益率": "0.90%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 35.02380952380952,
+          "value": 33.52380952380952,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 86.90476190476188,
+          "value": 90.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 48.21380952380952,
+          "value": 48.06857142857143,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 24 位分析师 · 2026-05-15 05:16:02",
+      "title_meta": "Yahoo Finance · 24 位分析师 · 2026-05-16 05:14:00",
       "data": {
         "target_mean": 747.8408,
         "target_high": 901.0,
         "target_low": 420.0,
-        "upside_pct": -4.13,
+        "upside_pct": -2.88,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,14 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/PWR.MX/news/",
+          "title": "QUANTA SERVICES (PWR.MX) Latest Stock News & Headlines - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/PWR/press-releases/",
@@ -218,6 +226,14 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/markets/stocks/articles/quanta-services-pwr-stock-slides-220003943.html",
           "title": "Quanta Services (PWR) Stock Slides as Market Rises - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/quanta-services-pwr-valuation-check-005948951.html",
+          "title": "Quanta Services (PWR) Valuation Check After Raised 2026 Profit Outlook And Strong AI Infrastructure Momentum",
           "sentiment": null,
           "impact": null
         },
@@ -260,22 +276,6 @@
           "title": "Quanta Services (PWR) Benefits from Energy-Related Infrastructure Growth",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/PWR/news/",
-          "title": "Quanta Services, Inc. (PWR) - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "cnbc.com",
-          "url": "https://www.cnbc.com/quotes/PWR",
-          "title": "PWR: Quanta Services Inc - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 48.21380952380952
+        },
+        {
+          "date": "2026-05-16",
+          "value": 48.06857142857143
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

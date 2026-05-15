@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Google Cloud + 自研 TPU + Gemini — 全栈 AI 玩家",
-    "price": 401.07000732421875,
-    "change_1d": -0.38,
+    "price": 396.7799987792969,
+    "change_1d": -1.07,
     "composite": 59.35000000000001,
     "tier_letter": "A",
     "description": [
@@ -19,7 +19,7 @@
       "Cloud / Hyperscaler 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:05",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$401.07",
-        "日内涨跌": "-0.38%",
-        "1日涨跌": "-0.38%",
-        "5日涨跌": "+0.07%",
-        "1月涨跌": "+20.47%",
-        "3月涨跌": "+31.19%",
-        "6月涨跌": "+45.10%",
-        "1年涨跌": "+142.53%",
-        "YTD涨跌": "+27.26%",
-        "20日均线": "370.14",
-        "50日均线": "330.82",
-        "200日均线": "290.30",
-        "RSI 14": "74.16",
-        "MACD": "20.81",
-        "20日波动率": "42.00%",
-        "成交量": "21,077,099",
-        "量比20日": "0.75",
+        "最新价": "$396.78",
+        "日内涨跌": "-1.07%",
+        "1日涨跌": "-1.07%",
+        "5日涨跌": "-1.00%",
+        "1月涨跌": "+17.70%",
+        "3月涨跌": "+29.79%",
+        "6月涨跌": "+43.55%",
+        "1年涨跌": "+142.00%",
+        "YTD涨跌": "+25.90%",
+        "20日均线": "372.89",
+        "50日均线": "332.74",
+        "200日均线": "291.31",
+        "RSI 14": "70.23",
+        "MACD": "20.13",
+        "20日波动率": "42.48%",
+        "成交量": "20,173,447",
+        "量比20日": "0.73",
         "52周高点": "403.70",
-        "52周低点": "159.61",
-        "距52周高点": "-0.65%",
-        "距52周低点": "+151.28%",
+        "52周低点": "162.00",
+        "距52周高点": "-1.71%",
+        "距52周低点": "+144.93%",
         "20日支撑": "331.35",
         "20日压力": "403.70"
       }
@@ -76,14 +76,14 @@
         "流通股本": "5.82B",
         "ROE": "38.88%",
         "债务/权益": "0.02",
-        "市值": "$4.86T",
-        "企业价值": "$4.85T",
-        "市盈率 TTM": "30.55",
-        "预期市盈率": "27.73",
-        "市销率": "11.50",
-        "EV / 营收": "11.47",
-        "EV / EBITDA": "30.05",
-        "EV / FCF": "176.44",
+        "市值": "$4.81T",
+        "企业价值": "$4.83T",
+        "市盈率 TTM": "30.27",
+        "预期市盈率": "27.46",
+        "市销率": "11.38",
+        "EV / 营收": "11.43",
+        "EV / EBITDA": "29.93",
+        "EV / FCF": "175.75",
         "FCF 收益率": "0.57%",
         "估值分位": "—",
         "内部合理区间": "—"
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 52 位分析师 · 2026-05-15 05:16:05",
+      "title_meta": "Yahoo Finance · 52 位分析师 · 2026-05-16 05:14:03",
       "data": {
         "target_mean": 427.88712,
         "target_high": 515.0,
         "target_low": 334.22,
-        "upside_pct": 6.69,
+        "upside_pct": 7.84,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
@@ -197,6 +197,46 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GOOGL/news/",
+          "title": "Alphabet Inc. (GOOGL) Latest Stock News & Headlines",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/GOOGL/news?ncid=mbr_yfnacqad00000015",
+          "title": "Alphabet Inc. (GOOGL) Latest Stock News & Headlines - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "bloomberg.com",
+          "url": "https://www.bloomberg.com/quote/GOOGL:IM",
+          "title": "GOOGL: Alphabet Inc Stock Price Quote - - Bloomberg",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/GOOGL.MX/news/",
+          "title": "Alphabet Inc. (GOOGL.MX) latest stock news and headlines – Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/GOOGL/latest-news/",
+          "title": "Alphabet Inc. (GOOGL) stock price, news, quote and history - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "marketwatch.com",
@@ -236,46 +276,6 @@
           "title": "Alphabet Inc. (GOOGL) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/GOOGL/news?page=48",
-          "title": "Alphabet Inc. (GOOGL) Latest Stock News | Seeking Alpha",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/article/4902412-alphabet-buy-ahead-of-a-strong-catalyst",
-          "title": "Alphabet: Buy Ahead Of A Strong Catalyst",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/GOOGL.SN/news?ncid=yahooproperties_peoplealso_km0o32z3jzm",
-          "title": "Alphabet Inc. (GOOGL.SN) Latest Stock News & Headlines - Yahoo ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "uk.finance.yahoo.com",
-          "url": "https://uk.finance.yahoo.com/quote/GOOGL/news/",
-          "title": "Alphabet Inc. (GOOGL) latest stock news and headlines",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/alphabet-soars-googl-stock-still-123002510.html",
-          "title": "Alphabet Soars — Is GOOGL Stock Still a Buy for 2026?",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 59.35000000000001
+        },
+        {
+          "date": "2026-05-16",
+          "value": 59.35000000000001
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

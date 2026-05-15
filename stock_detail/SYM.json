@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "AI 仓储机器人 — Walmart 大单核心客户",
-    "price": 50.150001525878906,
-    "change_1d": 0.84,
-    "composite": 30.599999999999998,
+    "price": 47.31999969482422,
+    "change_1d": -5.64,
+    "composite": 29.799999999999997,
     "tier_letter": "C",
     "description": [
       "Symbotic 的 AI 产业链位置为 Industrial Automation / Robotics。",
-      "AI 角色：AI 仓储机器人 — Walmart 大单核心客户。当前内部综合评分 30。",
+      "AI 角色：AI 仓储机器人 — Walmart 大单核心客户。当前内部综合评分 29。",
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "减持"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$50.15",
-        "日内涨跌": "+0.84%",
-        "1日涨跌": "+0.84%",
-        "5日涨跌": "-4.09%",
-        "1月涨跌": "-11.33%",
-        "3月涨跌": "-8.74%",
-        "6月涨跌": "-13.80%",
-        "1年涨跌": "+79.11%",
-        "YTD涨跌": "-22.69%",
-        "20日均线": "57.81",
-        "50日均线": "54.61",
-        "200日均线": "58.65",
-        "RSI 14": "37.31",
-        "MACD": "-1.39",
-        "20日波动率": "56.95%",
-        "成交量": "1,684,190",
-        "量比20日": "0.98",
+        "最新价": "$47.32",
+        "日内涨跌": "-5.64%",
+        "1日涨跌": "-5.64%",
+        "5日涨跌": "-9.50%",
+        "1月涨跌": "-19.44%",
+        "3月涨跌": "-13.89%",
+        "6月涨跌": "-18.67%",
+        "1年涨跌": "+75.65%",
+        "YTD涨跌": "-27.05%",
+        "20日均线": "57.02",
+        "50日均线": "54.49",
+        "200日均线": "58.62",
+        "RSI 14": "32.98",
+        "MACD": "-1.84",
+        "20日波动率": "55.88%",
+        "成交量": "2,099,214",
+        "量比20日": "1.24",
         "52周高点": "87.88",
         "52周低点": "26.03",
-        "距52周高点": "-42.93%",
-        "距52周低点": "+92.66%",
-        "20日支撑": "48.13",
+        "距52周高点": "-46.15%",
+        "距52周低点": "+81.79%",
+        "20日支撑": "46.83",
         "20日压力": "67.08"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "127.22M",
         "ROE": "-5.73%",
         "债务/权益": "0.00",
-        "市值": "$30.27B",
-        "企业价值": "$4.69B",
+        "市值": "$28.56B",
+        "企业价值": "$4.74B",
         "市盈率 TTM": "—",
-        "预期市盈率": "65.77",
-        "市销率": "12.03",
-        "EV / 营收": "1.86",
-        "EV / EBITDA": "206.97",
-        "EV / FCF": "14.15",
-        "FCF 收益率": "1.09%",
+        "预期市盈率": "62.06",
+        "市销率": "11.35",
+        "EV / 营收": "1.88",
+        "EV / EBITDA": "209.33",
+        "EV / FCF": "14.31",
+        "FCF 收益率": "1.16%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 24.0,
+          "value": 8.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 30.599999999999998,
+          "value": 29.799999999999997,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 17 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 17 位分析师 · 2026-05-16 05:14:05",
       "data": {
         "target_mean": 65.39882,
         "target_high": 84.0,
         "target_low": 44.0,
-        "upside_pct": 30.41,
+        "upside_pct": 38.21,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,30 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SYM/fair-value/",
+          "title": "Symbotic Inc. (SYM) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/SYM/dividends/",
+          "title": "Symbotic Inc. (SYM) Stock Price, News, Quote & History - Yahoo ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/symbotic-inc-sym-trending-stock-130002843.html",
+          "title": "Symbotic Inc. (SYM) Is a Trending Stock: Facts to Know Before ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/SYM/press-releases/",
@@ -214,6 +238,30 @@
           "impact": null
         },
         {
+          "date": "2026-05-15",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/walmart-partnership-puts-spotlight-symbotic-020856791.html",
+          "title": "Walmart Partnership Puts Spotlight On Symbotic’s AI Logistics And Valuation",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Motley Fool",
+          "url": "https://www.fool.com/coverage/filings/2026/05/14/why-this-tech-fund-made-a-usd5-8-million-bet-on-an-ai-chip-stock-up-nearly-200-post-ipo/",
+          "title": "Why This Tech Fund Made a $5.8 Million Bet on an AI Chip Stock Up Nearly 200% Post-IPO",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Motley Fool",
+          "url": "https://www.fool.com/coverage/filings/2026/05/14/this-ai-semiconductor-stock-beat-the-s-and-p-500-by-9-points-a-fund-just-exited-completely/",
+          "title": "This AI Semiconductor Stock Beat the S&P 500 by 9 Points. A Fund Just Exited Completely",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-14",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/SYM/news/",
@@ -226,54 +274,6 @@
           "source": "cnbc.com",
           "url": "https://www.cnbc.com/quotes/SYM",
           "title": "SYM: Symbotic Inc - Stock Price, Quote and News - CNBC",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/sym",
-          "title": "SYM Stock Price | Symbotic Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/SYM",
-          "title": "Symbotic Inc. (SYM) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/SYM/",
-          "title": "Symbotic Inc. (SYM) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/symbotic-inc-sym-bull-case-193113353.html",
-          "title": "Symbotic Inc. (SYM): A Bull Case Theory - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/SYM/latest-news/",
-          "title": "META_TITLE_QUOTE - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/symbotic-sym-valuation-check-share-161451874.html",
-          "title": "Symbotic (SYM) Valuation Check As Share Price Momentum Cools ...",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 30.599999999999998
+        },
+        {
+          "date": "2026-05-16",
+          "value": 29.799999999999997
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

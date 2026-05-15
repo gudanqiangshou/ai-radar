@@ -9,8 +9,8 @@
     "market": "US",
     "tier": 2,
     "ai_role": "工业自动化 + 数字孪生 — 美国本土自动化龙头",
-    "price": 456.5400085449219,
-    "change_1d": 0.34,
+    "price": 448.739990234375,
+    "change_1d": -1.71,
     "composite": 59.9,
     "tier_letter": "B",
     "description": [
@@ -19,7 +19,7 @@
       "Industrial Automation / Robotics 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "持有"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$456.54",
-        "日内涨跌": "+0.34%",
-        "1日涨跌": "+0.34%",
-        "5日涨跌": "+0.58%",
-        "1月涨跌": "+12.65%",
-        "3月涨跌": "+15.76%",
-        "6月涨跌": "+21.06%",
-        "1年涨跌": "+48.45%",
-        "YTD涨跌": "+14.55%",
-        "20日均线": "425.13",
-        "50日均线": "392.77",
-        "200日均线": "380.12",
-        "RSI 14": "69.88",
-        "MACD": "18.02",
-        "20日波动率": "42.23%",
-        "成交量": "460,195",
-        "量比20日": "0.58",
+        "最新价": "$448.74",
+        "日内涨跌": "-1.71%",
+        "1日涨跌": "-1.71%",
+        "5日涨跌": "-1.13%",
+        "1月涨跌": "+12.92%",
+        "3月涨跌": "+13.79%",
+        "6月涨跌": "+18.99%",
+        "1年涨跌": "+45.76%",
+        "YTD涨跌": "+12.59%",
+        "20日均线": "426.78",
+        "50日均线": "394.17",
+        "200日均线": "380.61",
+        "RSI 14": "64.18",
+        "MACD": "17.34",
+        "20日波动率": "41.90%",
+        "成交量": "870,386",
+        "量比20日": "1.08",
         "52周高点": "463.49",
         "52周低点": "298.70",
-        "距52周高点": "-1.50%",
-        "距52周低点": "+52.84%",
+        "距52周高点": "-3.18%",
+        "距52周低点": "+50.23%",
         "20日支撑": "396.30",
         "20日压力": "463.49"
       }
@@ -76,15 +76,15 @@
         "流通股本": "111.27M",
         "ROE": "27.18%",
         "债务/权益": "0.08",
-        "市值": "$50.80B",
-        "企业价值": "$54.31B",
-        "市盈率 TTM": "47.31",
-        "预期市盈率": "31.59",
-        "市销率": "5.77",
-        "EV / 营收": "6.17",
-        "EV / EBITDA": "27.58",
-        "EV / FCF": "55.73",
-        "FCF 收益率": "1.92%",
+        "市值": "$49.93B",
+        "企业价值": "$54.49B",
+        "市盈率 TTM": "46.60",
+        "预期市盈率": "31.05",
+        "市销率": "5.67",
+        "EV / 营收": "6.19",
+        "EV / EBITDA": "27.67",
+        "EV / FCF": "55.91",
+        "FCF 收益率": "1.95%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 25 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 25 位分析师 · 2026-05-16 05:14:05",
       "data": {
         "target_mean": 459.6884,
         "target_high": 525.0,
         "target_low": 282.0,
-        "upside_pct": 0.69,
+        "upside_pct": 2.44,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -198,6 +198,22 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/news/rockwell-automation-stock-rok-outperforming-085625665.html",
+          "title": "Rockwell Automation Stock: Is ROK Outperforming the Industrial Sector?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/ROK/latest-news/",
+          "title": "Rockwell Automation Inc. (ROK) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "seekingalpha.com",
           "url": "https://seekingalpha.com/symbol/ROK/news?page=4",
@@ -210,6 +226,14 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/news/wall-street-analysts-predicting-rockwell-135701115.html",
           "title": "Are Wall Street Analysts Predicting Rockwell Automation Stock Will Climb or Sink?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "StockStory",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-insightful-analyst-questions-rockwell-014855495.html",
+          "title": "5 Insightful Analyst Questions From Rockwell Automation’s Q1 Earnings Call",
           "sentiment": null,
           "impact": null
         },
@@ -252,30 +276,6 @@
           "title": "Rockwell Automation, Inc. (ROK) Stock Price, News, Quote & History",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "seekingalpha.com",
-          "url": "https://seekingalpha.com/symbol/ROK",
-          "title": "Rockwell Automation, Inc. (ROK) Stock Price, Quote, News & Analysis",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/markets/companies/ROK.P/profile/",
-          "title": "(ROK.P) | Stock Price & Latest News | Reuters",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "marketwatch.com",
-          "url": "https://www.marketwatch.com/investing/stock/rok",
-          "title": "ROK Stock Price | Rockwell Automation Inc. Stock Quote (U.S.: NYSE) | MarketWatch",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 59.9
+        },
+        {
+          "date": "2026-05-16",
+          "value": 59.9
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

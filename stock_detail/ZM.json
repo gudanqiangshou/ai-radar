@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 3,
     "ai_role": "Zoom AI Companion — 会议总结 / 转录 / 智能写作",
-    "price": 98.2300033569336,
-    "change_1d": -4.1,
-    "composite": 53.48636363636365,
+    "price": 100.16000366210938,
+    "change_1d": 1.96,
+    "composite": 54.03181818181819,
     "tier_letter": "C",
     "description": [
       "Zoom Video 的 AI 产业链位置为 AI Application。",
-      "AI 角色：Zoom AI Companion — 会议总结 / 转录 / 智能写作。当前内部综合评分 53。",
+      "AI 角色：Zoom AI Companion — 会议总结 / 转录 / 智能写作。当前内部综合评分 54。",
       "AI Application 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:07",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:05",
     "status_label": "观察"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$98.23",
-        "日内涨跌": "-4.10%",
-        "1日涨跌": "-4.10%",
-        "5日涨跌": "-10.05%",
-        "1月涨跌": "+19.21%",
-        "3月涨跌": "+6.08%",
-        "6月涨跌": "+16.64%",
-        "1年涨跌": "+17.97%",
-        "YTD涨跌": "+17.89%",
-        "20日均线": "98.55",
-        "50日均线": "87.01",
-        "200日均线": "84.32",
-        "RSI 14": "52.80",
-        "MACD": "4.98",
-        "20日波动率": "45.78%",
-        "成交量": "5,896,579",
-        "量比20日": "1.26",
+        "最新价": "$100.16",
+        "日内涨跌": "+1.96%",
+        "1日涨跌": "+1.96%",
+        "5日涨跌": "-8.29%",
+        "1月涨跌": "+12.50%",
+        "3月涨跌": "+8.16%",
+        "6月涨跌": "+18.93%",
+        "1年涨跌": "+19.45%",
+        "YTD涨跌": "+20.21%",
+        "20日均线": "99.16",
+        "50日均线": "87.46",
+        "200日均线": "84.45",
+        "RSI 14": "55.52",
+        "MACD": "4.49",
+        "20日波动率": "45.91%",
+        "成交量": "6,569,359",
+        "量比20日": "1.35",
         "52周高点": "111.56",
         "52周低点": "69.15",
-        "距52周高点": "-11.95%",
-        "距52周低点": "+42.05%",
-        "20日支撑": "87.11",
+        "距52周高点": "-10.22%",
+        "距52周低点": "+44.84%",
+        "20日支撑": "87.19",
         "20日压力": "111.56"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "266.04M",
         "ROE": "20.28%",
         "债务/权益": "0.00",
-        "市值": "$28.95B",
-        "企业价值": "$22.42B",
-        "市盈率 TTM": "15.89",
-        "预期市盈率": "16.00",
-        "市销率": "5.95",
-        "EV / 营收": "4.61",
-        "EV / EBITDA": "17.59",
-        "EV / FCF": "11.42",
-        "FCF 收益率": "6.78%",
+        "市值": "$29.52B",
+        "企业价值": "$21.19B",
+        "市盈率 TTM": "16.21",
+        "预期市盈率": "16.31",
+        "市销率": "6.06",
+        "EV / 营收": "4.35",
+        "EV / EBITDA": "16.62",
+        "EV / FCF": "10.79",
+        "FCF 收益率": "6.65%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -134,7 +134,7 @@
         },
         {
           "label": "估值",
-          "value": 38.18181818181819,
+          "value": 40.90909090909091,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 53.48636363636365,
+          "value": 54.03181818181819,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 27 位分析师 · 2026-05-15 05:16:07",
+      "title_meta": "Yahoo Finance · 27 位分析师 · 2026-05-16 05:14:05",
       "data": {
-        "target_mean": 97.33333,
-        "target_high": 115.0,
+        "target_mean": 97.92593,
+        "target_high": 122.0,
         "target_low": 66.0,
-        "upside_pct": -0.91,
-        "rating": "none",
-        "rating_letter": "—",
+        "upside_pct": -2.23,
+        "rating": "buy",
+        "rating_letter": "A-",
         "rating_change": "维持",
-        "previous_rating_letter": "—",
+        "previous_rating_letter": "A-",
         "n_analysts": 27,
         "next_earnings": "2026-05-22",
-        "eps_estimate": 1.41671,
+        "eps_estimate": 1.41706,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ZM/",
+          "title": "Zoom Communications, Inc. (ZM) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/ZM.BA/",
+          "title": "Zoom Communications, Inc. (ZM.BA) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/5ZM.DU/latest-news/",
+          "title": "Zoom Video Communications Inc (5ZM.DU) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/5ZM.BE/news/",
+          "title": "Zoom Video Communications Inc (5ZM.BE) - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -244,38 +276,6 @@
           "title": "Zoom Video Communications Inc (5ZM.HA) - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/5ZM.SG/",
-          "title": "Zoom Video Communications Inc (5ZM.SG) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/zoom-communications-inc-zm-attracting-130003124.html",
-          "title": "Zoom Communications, Inc. (ZM) is Attracting Investor Attention: Here is What You Should Know",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/vnet-group-vnet-surges-25-110900381.html",
-          "title": "VNET Group (VNET) Surges 25.1%: Is This an Indication of Further Gains?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Benzinga",
-          "url": "https://finance.yahoo.com/news/cathie-wood-bets-kalshi-her-183134360.html",
-          "title": "Cathie Wood Bets On Kalshi, But Her Ark Innovation ETF Hasn't Been Great At Timing Winners",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 53.48636363636365
+        },
+        {
+          "date": "2026-05-16",
+          "value": 54.03181818181819
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

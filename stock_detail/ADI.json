@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 2,
     "ai_role": "高性能模拟 + 信号链 — AI 数据中心 + 工业自动化",
-    "price": 426.7900085449219,
-    "change_1d": -1.3,
-    "composite": 57.39545454545455,
+    "price": 417.489990234375,
+    "change_1d": -2.18,
+    "composite": 57.80454545454546,
     "tier_letter": "B",
     "description": [
       "Analog Devices 的 AI 产业链位置为 Compute / GPU / ASIC。",
@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$426.79",
-        "日内涨跌": "-1.30%",
-        "1日涨跌": "-1.30%",
-        "5日涨跌": "+2.47%",
-        "1月涨跌": "+22.43%",
-        "3月涨跌": "+26.61%",
-        "6月涨跌": "+81.70%",
-        "1年涨跌": "+88.16%",
-        "YTD涨跌": "+55.91%",
-        "20日均线": "401.09",
-        "50日均线": "354.63",
-        "200日均线": "289.31",
-        "RSI 14": "69.59",
-        "MACD": "20.20",
-        "20日波动率": "37.95%",
-        "成交量": "2,793,677",
-        "量比20日": "0.78",
+        "最新价": "$417.49",
+        "日内涨跌": "-2.18%",
+        "1日涨跌": "-2.18%",
+        "5日涨跌": "+0.23%",
+        "1月涨跌": "+19.99%",
+        "3月涨跌": "+23.85%",
+        "6月涨跌": "+77.74%",
+        "1年涨跌": "+83.82%",
+        "YTD涨跌": "+52.51%",
+        "20日均线": "403.39",
+        "50日均线": "356.38",
+        "200日均线": "290.24",
+        "RSI 14": "63.24",
+        "MACD": "19.15",
+        "20日波动率": "36.38%",
+        "成交量": "3,633,700",
+        "量比20日": "1.04",
         "52周高点": "435.72",
         "52周低点": "206.00",
-        "距52周高点": "-2.05%",
-        "距52周低点": "+107.18%",
-        "20日支撑": "357.82",
+        "距52周高点": "-4.18%",
+        "距52周低点": "+102.67%",
+        "20日支撑": "369.70",
         "20日压力": "435.72"
       }
     },
@@ -76,15 +76,15 @@
         "流通股本": "488.20M",
         "ROE": "7.86%",
         "债务/权益": "0.04",
-        "市值": "$208.36B",
-        "企业价值": "$215.75B",
-        "市盈率 TTM": "77.74",
-        "预期市盈率": "32.26",
-        "市销率": "17.72",
-        "EV / 营收": "18.35",
-        "EV / EBITDA": "39.52",
-        "EV / FCF": "52.12",
-        "FCF 收益率": "1.99%",
+        "市值": "$203.82B",
+        "企业价值": "$213.01B",
+        "市盈率 TTM": "76.46",
+        "预期市盈率": "31.52",
+        "市销率": "17.34",
+        "EV / 营收": "18.12",
+        "EV / EBITDA": "39.02",
+        "EV / FCF": "51.46",
+        "FCF 收益率": "2.03%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 27.727272727272727,
+          "value": 35.90909090909091,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 57.39545454545455,
+          "value": 57.80454545454546,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 31 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 31 位分析师 · 2026-05-16 05:14:01",
       "data": {
-        "target_mean": 397.9355,
-        "target_high": 490.0,
+        "target_mean": 406.58066,
+        "target_high": 510.0,
         "target_low": 295.0,
-        "upside_pct": -6.76,
+        "upside_pct": -2.61,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 31,
         "next_earnings": "2026-05-20",
-        "eps_estimate": 2.90088,
+        "eps_estimate": 2.90199,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,46 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/ADI",
+          "title": "Analog Devices, Inc. (ADI) Stock Price, Quote, News & Analysis | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/ADI/",
+          "title": "Analog Devices, Inc. (ADI) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/ADI",
+          "title": "ADI: Analog Devices Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/analog-devices-adi-beats-stock-220003629.html",
+          "title": "Analog Devices (ADI) Beats Stock Market Upswing: What Investors Need to Know",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/ADI/latest-news/",
+          "title": "Analog Devices, Inc. (ADI) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -236,46 +276,6 @@
           "title": "Analog Devices, Inc. (ADI) Latest Stock News | Seeking Alpha",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/ADI.VI/news/",
-          "title": "Analog Devices, Inc. (ADI.VI) Latest Stock News & Headlines ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/too-consider-analog-devices-adi-031246441.html",
-          "title": "Is It Too Late To Consider Analog Devices (ADI) After 103% One ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/ADI.BA/latest-news/",
-          "title": "Analog Devices, Inc. (ADI.BA) Stock Price, News, Quote & History ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/monolithic-powers-improved-automotive-solutions-161100486.html",
-          "title": "Can Monolithic Power's Improved Automotive Solutions Drive Growth?",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/texas-instruments-analog-unit-extend-125600311.html",
-          "title": "Can Texas Instruments' Analog Unit Extend Its Strong Sales Growth Run?",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 57.39545454545455
+        },
+        {
+          "date": "2026-05-16",
+          "value": 57.80454545454546
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

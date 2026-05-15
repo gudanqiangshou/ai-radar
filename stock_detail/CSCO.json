@@ -9,17 +9,17 @@
     "market": "US",
     "tier": 2,
     "ai_role": "企业网络龙头 + Splunk 可观测性 — 收购 JNPR 增强",
-    "price": 115.52999877929688,
-    "change_1d": 13.41,
-    "composite": 65.96111111111112,
+    "price": 118.20999908447266,
+    "change_1d": 2.32,
+    "composite": 67.76666666666667,
     "tier_letter": "B",
     "description": [
       "Cisco Systems 的 AI 产业链位置为 Networking / Optical。",
-      "AI 角色：企业网络龙头 + Splunk 可观测性 — 收购 JNPR 增强。当前内部综合评分 65。",
+      "AI 角色：企业网络龙头 + Splunk 可观测性 — 收购 JNPR 增强。当前内部综合评分 67。",
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:03",
     "status_label": "持有"
   },
   "panels": [
@@ -28,28 +28,28 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$115.53",
-        "日内涨跌": "+13.41%",
-        "1日涨跌": "+13.41%",
-        "5日涨跌": "+19.63%",
-        "1月涨跌": "+39.85%",
-        "3月涨跌": "+50.33%",
-        "6月涨跌": "+48.12%",
-        "1年涨跌": "+88.50%",
-        "YTD涨跌": "+51.93%",
-        "20日均线": "93.09",
-        "50日均线": "85.15",
-        "200日均线": "76.40",
-        "RSI 14": "87.47",
-        "MACD": "5.56",
-        "20日波动率": "52.31%",
-        "成交量": "70,247,469",
-        "量比20日": "3.00",
+        "最新价": "$118.21",
+        "日内涨跌": "+2.32%",
+        "1日涨跌": "+2.32%",
+        "5日涨跌": "+22.41%",
+        "1月涨跌": "+43.53%",
+        "3月涨跌": "+53.82%",
+        "6月涨跌": "+51.55%",
+        "1年涨跌": "+83.96%",
+        "YTD涨跌": "+55.46%",
+        "20日均线": "94.69",
+        "50日均线": "85.92",
+        "200日均线": "76.65",
+        "RSI 14": "88.46",
+        "MACD": "6.76",
+        "20日波动率": "52.35%",
+        "成交量": "38,469,028",
+        "量比20日": "1.58",
         "52周高点": "119.36",
-        "52周低点": "60.85",
-        "距52周高点": "-3.21%",
-        "距52周低点": "+89.86%",
-        "20日支撑": "84.60",
+        "52周低点": "62.30",
+        "距52周高点": "-0.96%",
+        "距52周低点": "+89.74%",
+        "20日支撑": "85.78",
         "20日压力": "119.36"
       }
     },
@@ -62,7 +62,7 @@
         "AI角色": "企业网络龙头 + Splunk 可观测性 — 收购 JNPR 增强",
         "投资确定性": "—",
         "收入": "$59.05B",
-        "收入同比": "9.70%",
+        "收入同比": "12.00%",
         "毛利率": "64.81%",
         "经营利润率": "24.87%",
         "净利率": "18.76%",
@@ -71,20 +71,20 @@
         "自由现金流": "$10.13B",
         "FCF 利润率": "17.15%",
         "现金及短投": "$15.78B",
-        "总债务": "$31.74B",
+        "总债务": "$31.30B",
         "净现金/债务": "-$5.59B",
         "流通股本": "3.95B",
         "ROE": "23.75%",
         "债务/权益": "0.07",
-        "市值": "$456.33B",
-        "企业价值": "$418.34B",
-        "市盈率 TTM": "41.56",
-        "预期市盈率": "24.85",
-        "市销率": "7.73",
-        "EV / 营收": "7.08",
-        "EV / EBITDA": "25.68",
-        "EV / FCF": "41.30",
-        "FCF 收益率": "2.22%",
+        "市值": "$466.92B",
+        "企业价值": "$471.24B",
+        "市盈率 TTM": "39.40",
+        "预期市盈率": "24.93",
+        "市销率": "7.69",
+        "EV / 营收": "7.76",
+        "EV / EBITDA": "27.76",
+        "EV / FCF": "46.52",
+        "FCF 收益率": "2.17%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 22.222222222222225,
+          "value": 35.55555555555556,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 59.44444444444444,
+          "value": 68.88888888888889,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 65.96111111111112,
+          "value": 67.76666666666667,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,19 +167,19 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-15 05:16:04",
+      "title_meta": "Yahoo Finance · 22 位分析师 · 2026-05-16 05:14:03",
       "data": {
-        "target_mean": 89.54455,
-        "target_high": 110.0,
-        "target_low": 75.0,
-        "upside_pct": -22.49,
+        "target_mean": 117.95364,
+        "target_high": 150.0,
+        "target_low": 84.98,
+        "upside_pct": -0.22,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
         "previous_rating_letter": "A-",
         "n_analysts": 22,
         "next_earnings": "2026-08-13",
-        "eps_estimate": 1.03625,
+        "eps_estimate": 1.1695,
         "revenue_estimate": null
       },
       "disclaimer": "仅作外部市场预期参考，不覆盖 AI 投资观点的内部买卖价。"
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "barrons.com",
+          "url": "https://www.barrons.com/market-data/stocks/csco%20",
+          "title": "CSCO | Cisco Systems Inc. Stock Overview (U.S.: Nasdaq) - Barron's",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "marketwatch.com",
+          "url": "https://www.marketwatch.com/investing/stock/csco",
+          "title": "CSCO Stock Price | Cisco Systems Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -260,22 +276,6 @@
           "title": "Cisco Systems, Inc. (CSCO.TO) Latest Stock News & Headlines - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Yahoo Finance Video",
-          "url": "https://finance.yahoo.com/video/cisco-surges-on-q3-ai-demand-while-cutting-4000-jobs-in-ai-overhaul-135252913.html",
-          "title": "Cisco surges on Q3 AI demand, while cutting 4,000 jobs in AI overhaul",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Investor's Business Daily",
-          "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-cerebras-ipo-soars-trump-xi-summit-continues/?src=A00220&yptr=yahoo",
-          "title": "Dow Jones Futures: Stocks Power Up As Nvidia Runs, Cerebras IPO Soars; Trump-Xi Summit Continues",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 65.96111111111112
+        },
+        {
+          "date": "2026-05-16",
+          "value": 67.76666666666667
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "Gaudi AI 加速器 + 自有 fab（18A 工艺），转型中",
-    "price": 115.93000030517578,
-    "change_1d": -3.62,
-    "composite": 29.218181818181822,
+    "price": 108.7699966430664,
+    "change_1d": -6.18,
+    "composite": 29.081818181818186,
     "tier_letter": "C",
     "description": [
       "Intel 的 AI 产业链位置为 Compute / GPU / ASIC。",
@@ -19,7 +19,7 @@
       "Compute / GPU / ASIC 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:03",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:01",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$115.93",
-        "日内涨跌": "-3.62%",
-        "1日涨跌": "-3.62%",
-        "5日涨跌": "-7.20%",
-        "1月涨跌": "+81.68%",
-        "3月涨跌": "+147.77%",
-        "6月涨跌": "+226.38%",
-        "1年涨跌": "+438.71%",
-        "YTD涨跌": "+194.39%",
-        "20日均线": "95.56",
-        "50日均线": "68.24",
-        "200日均线": "44.35",
-        "RSI 14": "69.71",
-        "MACD": "16.26",
-        "20日波动率": "119.46%",
-        "成交量": "115,100,089",
-        "量比20日": "0.74",
+        "最新价": "$108.77",
+        "日内涨跌": "-6.18%",
+        "1日涨跌": "-6.18%",
+        "5日涨跌": "-12.93%",
+        "1月涨跌": "+67.49%",
+        "3月涨跌": "+132.46%",
+        "6月涨跌": "+206.22%",
+        "1年涨跌": "+404.73%",
+        "YTD涨跌": "+176.21%",
+        "20日均线": "97.57",
+        "50日均线": "69.50",
+        "200日均线": "44.79",
+        "RSI 14": "62.25",
+        "MACD": "15.00",
+        "20日波动率": "123.40%",
+        "成交量": "129,762,698",
+        "量比20日": "0.83",
         "52周高点": "132.75",
         "52周低点": "18.97",
-        "距52周高点": "-12.67%",
-        "距52周低点": "+511.12%",
+        "距52周高点": "-18.06%",
+        "距52周低点": "+473.38%",
         "20日支撑": "64.47",
         "20日压力": "132.75"
       }
@@ -76,15 +76,15 @@
         "流通股本": "5.03B",
         "ROE": "-2.91%",
         "债务/权益": "0.08",
-        "市值": "$582.66B",
-        "企业价值": "$630.41B",
+        "市值": "$546.68B",
+        "企业价值": "$608.50B",
         "市盈率 TTM": "—",
-        "预期市盈率": "75.56",
-        "市销率": "10.84",
-        "EV / 营收": "11.73",
-        "EV / EBITDA": "44.48",
-        "EV / FCF": "-75.94",
-        "FCF 收益率": "-1.42%",
+        "预期市盈率": "70.89",
+        "市销率": "10.17",
+        "EV / 营收": "11.32",
+        "EV / EBITDA": "42.93",
+        "EV / FCF": "-73.30",
+        "FCF 收益率": "-1.52%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 82.72727272727272,
+          "value": 80.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 29.218181818181822,
+          "value": 29.081818181818186,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 42 位分析师 · 2026-05-15 05:16:03",
+      "title_meta": "Yahoo Finance · 42 位分析师 · 2026-05-16 05:14:01",
       "data": {
-        "target_mean": 84.43333,
-        "target_high": 120.0,
+        "target_mean": 85.00476,
+        "target_high": 124.0,
         "target_low": 20.4,
-        "upside_pct": -27.17,
+        "upside_pct": -21.85,
         "rating": "hold",
         "rating_letter": "B",
         "rating_change": "维持",
@@ -197,6 +197,22 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/sectors/technology/article/intel-stock-soars-on-q1-earnings-beat-strong-outlook-191552257.html",
+          "title": "Intel stock soars on Q1 earnings beat, strong outlook",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "wsj.com",
+          "url": "https://www.wsj.com/market-data/quotes/INTC",
+          "title": "Intel Corp. (INTC) Stock Price Today - WSJ",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "marketwatch.com",
@@ -246,34 +262,18 @@
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/INTC.TO/news/",
-          "title": "Intel Corporation (INTC.TO) Latest Stock News & Headlines",
+          "date": "2026-05-15",
+          "source": "Yahoo Finance Video",
+          "url": "https://finance.yahoo.com/video/cerebras-ipo-in-focus-as-nvidia-earnings-loom-150653421.html",
+          "title": "Cerebras IPO in focus as Nvidia earnings loom",
           "sentiment": null,
           "impact": null
         },
         {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/INTC/",
-          "title": "Intel Corporation (INTC) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/INTC/latest-news/",
-          "title": "Intel Corporation (INTC) Stock Price, News, Quote & History",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/INTC/community/",
-          "title": "Intel Corporation (INTC) Stock Forum & Discussion - Yahoo Finance",
+          "date": "2026-05-15",
+          "source": "Motley Fool",
+          "url": "https://www.fool.com/investing/2026/05/15/why-tower-semiconductor-stock-skyrocketed-this-wee/",
+          "title": "Why Tower Semiconductor Stock Skyrocketed This Week",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 29.218181818181822
+        },
+        {
+          "date": "2026-05-16",
+          "value": 29.081818181818186
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

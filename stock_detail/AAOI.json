@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "光模块 — 数据中心 100G/400G 自研路线",
-    "price": 203.57000732421875,
-    "change_1d": -8.75,
-    "composite": 34.65555555555556,
+    "price": 190.36000061035156,
+    "change_1d": -6.49,
+    "composite": 34.516666666666666,
     "tier_letter": "C",
     "description": [
       "Applied Optoelectronics 的 AI 产业链位置为 Networking / Optical。",
@@ -19,7 +19,7 @@
       "Networking / Optical 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:04",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:03",
     "status_label": "减持"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$203.57",
-        "日内涨跌": "-8.75%",
-        "1日涨跌": "-8.75%",
-        "5日涨跌": "+36.68%",
-        "1月涨跌": "+39.06%",
-        "3月涨跌": "+357.87%",
-        "6月涨跌": "+848.38%",
-        "1年涨跌": "+965.25%",
-        "YTD涨跌": "+414.07%",
-        "20日均线": "167.25",
-        "50日均线": "133.72",
-        "200日均线": "58.34",
-        "RSI 14": "62.04",
-        "MACD": "18.81",
-        "20日波动率": "165.59%",
-        "成交量": "11,971,758",
-        "量比20日": "1.03",
+        "最新价": "$190.36",
+        "日内涨跌": "-6.49%",
+        "1日涨跌": "-6.49%",
+        "5日涨跌": "+27.81%",
+        "1月涨跌": "+33.54%",
+        "3月涨跌": "+328.16%",
+        "6月涨跌": "+786.84%",
+        "1年涨跌": "+908.80%",
+        "YTD涨跌": "+380.71%",
+        "20日均线": "168.79",
+        "50日均线": "135.51",
+        "200日均线": "59.18",
+        "RSI 14": "57.77",
+        "MACD": "18.20",
+        "20日波动率": "168.18%",
+        "成交量": "8,400,178",
+        "量比20日": "0.73",
         "52周高点": "233.67",
         "52周低点": "15.06",
-        "距52周高点": "-12.88%",
-        "距52周低点": "+1251.73%",
+        "距52周高点": "-18.53%",
+        "距52周低点": "+1164.01%",
         "20日支撑": "132.63",
         "20日压力": "233.67"
       }
@@ -76,15 +76,15 @@
         "流通股本": "80.24M",
         "ROE": "-6.13%",
         "债务/权益": "0.02",
-        "市值": "$16.34B",
-        "企业价值": "$17.74B",
+        "市值": "$15.28B",
+        "企业价值": "$16.18B",
         "市盈率 TTM": "—",
-        "预期市盈率": "42.66",
-        "市销率": "32.22",
-        "EV / 营收": "35.00",
-        "EV / EBITDA": "-646.23",
-        "EV / FCF": "-39.82",
-        "FCF 收益率": "-2.73%",
+        "预期市盈率": "39.89",
+        "市销率": "30.13",
+        "EV / 营收": "31.91",
+        "EV / EBITDA": "-589.15",
+        "EV / FCF": "-36.30",
+        "FCF 收益率": "-2.92%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 76.66666666666667,
+          "value": 73.8888888888889,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 34.65555555555556,
+          "value": 34.516666666666666,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 5 位分析师 · 2026-05-15 05:16:05",
+      "title_meta": "Yahoo Finance · 5 位分析师 · 2026-05-16 05:14:03",
       "data": {
         "target_mean": 151.3,
         "target_high": 220.0,
         "target_low": 57.5,
-        "upside_pct": -25.68,
+        "upside_pct": -20.52,
         "rating": "buy",
         "rating_letter": "A-",
         "rating_change": "维持",
@@ -197,6 +197,54 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAOI/chart/",
+          "title": "Applied Optoelectronics, Inc. (AAOI) Interactive Stock Chart",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-inc-aaoi-good-202107817.html",
+          "title": "Is Applied Optoelectronics, Inc. (AAOI) A Good Stock To Buy Now?",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAOI/community-insights",
+          "title": "Applied Optoelectronics, Inc. (AAOI) Stock Price, News, Quote ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAOI/community/",
+          "title": "Applied Optoelectronics, Inc. (AAOI) Stock Forum & Discussion",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/AAOI/sec-filing/",
+          "title": "Applied Optoelectronics, Inc. (AAOI) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/article/4905187-applied-optoelectronics-why-this-12b-turnaround-is-just-getting-started",
+          "title": "Applied Optoelectronics: Why This $12B Turnaround Is Just Getting ...",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "seekingalpha.com",
@@ -228,54 +276,6 @@
           "title": "Applied Optoelectronics, Inc. (AAOI) Latest Stock News & Headlines",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-rips-24-lumentum-155212285.html",
-          "title": "Applied Optoelectronics Rips 24%, Lumentum Jumps 17%, Coherent Rallies 13% as Optics Trade Catches Fire",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/AAOI/",
-          "title": "Applied Optoelectronics, Inc. (AAOI) Stock Price, News, Quote ...",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-earns-rating-022034634.html",
-          "title": "Applied Optoelectronics (AAOI) Earns New Rating, PT Upgrade, Soars 24%",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-climbs-17-013123305.html",
-          "title": "Applied Optoelectronics (AAOI) Climbs 17.7% Ahead of Upbeat Earnings",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-applied-optoelectronics-don-163803200.html",
-          "title": "Jim Cramer on Applied Optoelectronics: “I Don’t Recommend Buying These Stocks Up Here”",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/applied-optoelectronics-partnership-mediacom-game-135500781.html",
-          "title": "Is Applied Optoelectronics' Partnership With Mediacom a Game-Changer?",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 34.65555555555556
+        },
+        {
+          "date": "2026-05-16",
+          "value": 34.516666666666666
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

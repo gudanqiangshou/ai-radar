@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "AI PC + 打印 — 消费/中小企业 AI PC 第二",
-    "price": 20.770000457763672,
-    "change_1d": -2.3,
-    "composite": 52.538461538461526,
+    "price": 20.809999465942383,
+    "change_1d": 0.19,
+    "composite": 52.69230769230767,
     "tier_letter": "C",
     "description": [
       "HP Inc 的 AI 产业链位置为 Consumer AI / Device。",
@@ -19,7 +19,7 @@
       "Consumer AI / Device 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:08",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:07",
     "status_label": "观察"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$20.77",
-        "日内涨跌": "-2.30%",
-        "1日涨跌": "-2.30%",
-        "5日涨跌": "-8.42%",
-        "1月涨跌": "+9.37%",
-        "3月涨跌": "+7.84%",
-        "6月涨跌": "-15.33%",
-        "1年涨跌": "-27.50%",
-        "YTD涨跌": "-6.10%",
-        "20日均线": "20.70",
-        "50日均线": "19.64",
-        "200日均线": "23.19",
-        "RSI 14": "52.36",
-        "MACD": "0.51",
-        "20日波动率": "51.20%",
-        "成交量": "14,945,839",
-        "量比20日": "0.93",
+        "最新价": "$20.81",
+        "日内涨跌": "+0.19%",
+        "1日涨跌": "+0.19%",
+        "5日涨跌": "-8.25%",
+        "1月涨跌": "+8.22%",
+        "3月涨跌": "+8.05%",
+        "6月涨跌": "-15.17%",
+        "1年涨跌": "-27.69%",
+        "YTD涨跌": "-5.92%",
+        "20日均线": "20.75",
+        "50日均线": "19.67",
+        "200日均线": "23.17",
+        "RSI 14": "52.67",
+        "MACD": "0.46",
+        "20日波动率": "51.17%",
+        "成交量": "15,856,623",
+        "量比20日": "0.97",
         "52周高点": "29.55",
         "52周低点": "17.56",
-        "距52周高点": "-29.71%",
-        "距52周低点": "+18.28%",
+        "距52周高点": "-29.58%",
+        "距52周低点": "+18.51%",
         "20日支撑": "19.50",
         "20日压力": "22.78"
       }
@@ -76,15 +76,15 @@
         "流通股本": "914.55M",
         "ROE": "—",
         "债务/权益": "0.57",
-        "市值": "$19.07B",
-        "企业价值": "$27.23B",
-        "市盈率 TTM": "7.87",
-        "预期市盈率": "6.98",
+        "市值": "$19.10B",
+        "企业价值": "$26.78B",
+        "市盈率 TTM": "7.88",
+        "预期市盈率": "7.00",
         "市销率": "0.34",
         "EV / 营收": "0.48",
-        "EV / EBITDA": "6.11",
-        "EV / FCF": "9.64",
-        "FCF 收益率": "14.82%",
+        "EV / EBITDA": "6.01",
+        "EV / FCF": "9.48",
+        "FCF 收益率": "14.79%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 29.0,
+          "value": 31.0,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 52.538461538461526,
+          "value": 52.69230769230767,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,12 +167,12 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 16 位分析师 · 2026-05-15 05:16:08",
+      "title_meta": "Yahoo Finance · 16 位分析师 · 2026-05-16 05:14:07",
       "data": {
         "target_mean": 19.43125,
         "target_high": 26.4,
         "target_low": 16.0,
-        "upside_pct": -6.45,
+        "upside_pct": -6.63,
         "rating": "hold",
         "rating_letter": "B",
         "rating_change": "维持",
@@ -197,6 +197,46 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/quote/HPQ/",
+          "title": "HP Inc. (HPQ) Stock Price, News, Quote & History - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "cnbc.com",
+          "url": "https://www.cnbc.com/quotes/HPQ",
+          "title": "HPQ: HP Inc - Stock Price, Quote and News - CNBC",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/HPQ/news?page=33",
+          "title": "HP Inc. (HPQ) Latest Stock News | Seeking Alpha",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/HPQ.BA/news/",
+          "title": "HP Inc. (HPQ.BA) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "finance.yahoo.com",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/hp-inc-hpq-gets-ok-014936221.html",
+          "title": "HP Inc. (HPQ) Gets OK for Initiatives to Boost Growth, Jumps 7.7%",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "wsj.com",
@@ -236,46 +276,6 @@
           "title": "Why HP (HPQ) Stock Is Trading Up Today - Yahoo Finance",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/HPQ.SN/news/",
-          "title": "HP Inc. (HPQ.SN) Latest Stock News & Headlines - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/HPQ/dividends/",
-          "title": "HP Inc. (HPQ) Stock Price, News, Quote & History - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Zacks",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/identiv-inc-inve-reports-q1-213504342.html",
-          "title": "Identiv, Inc. (INVE) Reports Q1 Loss, Tops Revenue Estimates",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Moneywise",
-          "url": "https://finance.yahoo.com/news/forget-chromebooks-pixelbooks-google-just-202500646.html",
-          "title": "Forget Chromebooks and Pixelbooks: Google just introduced Googlebooks, which are specifically designed for AI",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "Bloomberg",
-          "url": "https://finance.yahoo.com/news/memory-crunch-deepens-chasm-between-040536146.html",
-          "title": "Memory Crunch Deepens Chasm Between Stock Winners and Losers",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 52.538461538461526
+        },
+        {
+          "date": "2026-05-16",
+          "value": 52.69230769230767
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

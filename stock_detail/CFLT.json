@@ -19,7 +19,7 @@
       "Data / Software Platform 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:04",
     "status_label": "减持"
   },
   "panels": [
@@ -167,7 +167,7 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 8 位分析师 · 2026-05-15 05:16:06",
+      "title_meta": "Yahoo Finance · 8 位分析师 · 2026-05-16 05:14:04",
       "data": {
         "target_mean": 31.0,
         "target_high": 31.0,
@@ -197,6 +197,14 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CFLT.MX/",
+          "title": "Confluent, Inc. (CFLT.MX) Stock Price, News, Quote & History ...",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
@@ -268,14 +276,6 @@
           "title": "Countdown to Confluent (CFLT) Q4 Earnings: A Look at Estimates Beyond Revenue and EPS",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/assessing-confluent-cflt-valuation-recent-060926352.html",
-          "title": "Assessing Confluent (CFLT) Valuation After Recent Share Price Momentum",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 38.45625
+        },
+        {
+          "date": "2026-05-16",
+          "value": 38.45625
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

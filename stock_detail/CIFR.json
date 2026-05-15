@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 3,
     "ai_role": "矿场 + 高密度算力基础设施 — 类似 IREN 转型",
-    "price": 22.290000915527344,
-    "change_1d": 4.94,
-    "composite": 21.82857142857143,
+    "price": 20.329999923706055,
+    "change_1d": -8.79,
+    "composite": 21.364285714285717,
     "tier_letter": "C",
     "description": [
       "Cipher Mining 的 AI 产业链位置为 AI Cloud / GPU Cloud。",
@@ -19,7 +19,7 @@
       "AI Cloud / GPU Cloud 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:06",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:04",
     "status_label": "退出"
   },
   "panels": [
@@ -28,27 +28,27 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$22.29",
-        "日内涨跌": "+4.94%",
-        "1日涨跌": "+4.94%",
-        "5日涨跌": "+8.47%",
-        "1月涨跌": "+20.81%",
-        "3月涨跌": "+35.75%",
-        "6月涨跌": "+55.22%",
-        "1年涨跌": "+573.41%",
-        "YTD涨跌": "+37.59%",
-        "20日均线": "19.36",
-        "50日均线": "16.62",
-        "200日均线": "15.08",
-        "RSI 14": "65.70",
-        "MACD": "1.32",
-        "20日波动率": "112.70%",
-        "成交量": "27,427,367",
-        "量比20日": "1.00",
+        "最新价": "$20.33",
+        "日内涨跌": "-8.79%",
+        "1日涨跌": "-8.79%",
+        "5日涨跌": "-1.07%",
+        "1月涨跌": "+12.94%",
+        "3月涨跌": "+23.81%",
+        "6月涨跌": "+41.57%",
+        "1年涨跌": "+541.32%",
+        "YTD涨跌": "+25.49%",
+        "20日均线": "19.41",
+        "50日均线": "16.72",
+        "200日均线": "15.16",
+        "RSI 14": "55.79",
+        "MACD": "1.23",
+        "20日波动率": "111.53%",
+        "成交量": "20,362,582",
+        "量比20日": "0.76",
         "52周高点": "25.52",
         "52周低点": "3.02",
-        "距52周高点": "-12.66%",
-        "距52周低点": "+638.08%",
+        "距52周高点": "-20.34%",
+        "距52周低点": "+573.18%",
         "20日支撑": "16.48",
         "20日压力": "22.97"
       }
@@ -75,16 +75,16 @@
         "净现金/债务": "-$3.66B",
         "流通股本": "409.05M",
         "ROE": "-121.73%",
-        "债务/权益": "0.52",
-        "市值": "$9.12B",
-        "企业价值": "$12.75B",
+        "债务/权益": "0.57",
+        "市值": "$8.32B",
+        "企业价值": "$13.17B",
         "市盈率 TTM": "—",
-        "预期市盈率": "47.43",
-        "市销率": "43.45",
-        "EV / 营收": "60.74",
-        "EV / EBITDA": "76.86",
-        "EV / FCF": "-4.32",
-        "FCF 收益率": "-32.33%",
+        "预期市盈率": "43.26",
+        "市销率": "39.63",
+        "EV / 营收": "62.79",
+        "EV / EBITDA": "79.45",
+        "EV / FCF": "-4.47",
+        "FCF 收益率": "-35.45%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 17.142857142857142,
+          "value": 11.428571428571429,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 37.14285714285714,
+          "value": 39.285714285714285,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 21.82857142857143,
+          "value": 21.364285714285717,
           "is_composite": true,
           "formula": "综合分 = 0.25×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×AI 暴露度 + 0.05×风险 + 0.05×动量"
         }
@@ -167,17 +167,17 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 14 位分析师 · 2026-05-15 05:16:06",
+      "title_meta": "Yahoo Finance · 15 位分析师 · 2026-05-16 05:14:04",
       "data": {
-        "target_mean": 30.07143,
+        "target_mean": 30.2,
         "target_high": 53.0,
         "target_low": 22.0,
-        "upside_pct": 34.91,
+        "upside_pct": 48.55,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
         "previous_rating_letter": "A",
-        "n_analysts": 14,
+        "n_analysts": 15,
         "next_earnings": "2026-08-06",
         "eps_estimate": -0.055,
         "revenue_estimate": null
@@ -197,6 +197,38 @@
       "title": "相关新闻 (近 7 天)",
       "type": "news_list",
       "data": [
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/3A9.SG/news/",
+          "title": "Cipher Mining Inc (3A9.SG) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/3A9.HM/news/",
+          "title": "Cipher Mining Inc (3A9.HM) latest stock news and headlines ...",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "seekingalpha.com",
+          "url": "https://seekingalpha.com/symbol/CIFR",
+          "title": "Cipher Digital Inc. (CIFR) Stock Price, Quote, News & Analysis",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "ca.finance.yahoo.com",
+          "url": "https://ca.finance.yahoo.com/quote/CIFR/latest-news/",
+          "title": "Cipher Digital Inc. (CIFR) Stock Price, News, Quote & History",
+          "sentiment": null,
+          "impact": null
+        },
         {
           "date": "2026-05-15",
           "source": "cnbc.com",
@@ -244,38 +276,6 @@
           "title": "Cipher Mining Inc. (CIFR) Stock Sinks As Market Gains: Here's Why",
           "sentiment": null,
           "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/cipher-mining-inc-cifr-stock-230004542.html",
-          "title": "Cipher Mining Inc. (CIFR) Stock Sinks As Market Gains: Here's Why",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-15",
-          "source": "ca.finance.yahoo.com",
-          "url": "https://ca.finance.yahoo.com/quote/CIFRW/news/",
-          "title": "Cipher Digital Inc. (CIFRW) Latest Stock News & Headlines - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Blockspace",
-          "url": "https://blockspace.media/insight/alpine-fox-13f-bitcoin-mining-positions/",
-          "title": "Alpine Fox 13F shows large Cipher, IREN and IBIT positions",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Investopedia",
-          "url": "https://www.investopedia.com/bitcoin-miners-that-got-into-ai-have-soaring-stocks-these-experts-see-more-gains-ahead-11974824",
-          "title": "Bitcoin Miners That Got Into AI Have Soaring Stocks. These Experts See More Gains Ahead",
-          "sentiment": null,
-          "impact": null
         }
       ]
     },
@@ -291,9 +291,13 @@
         {
           "date": "2026-05-15",
           "value": 21.82857142857143
+        },
+        {
+          "date": "2026-05-16",
+          "value": 21.364285714285717
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }

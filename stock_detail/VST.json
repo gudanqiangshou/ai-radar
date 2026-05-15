@@ -9,9 +9,9 @@
     "market": "US",
     "tier": 1,
     "ai_role": "Merchant Power + 核电（Comanche Peak），AI 数据中心 PPA 受益",
-    "price": 141.89999389648438,
-    "change_1d": -0.5,
-    "composite": 70.16142857142857,
+    "price": 139.67999267578125,
+    "change_1d": -1.56,
+    "composite": 70.68523809523809,
     "tier_letter": "A",
     "description": [
       "Vistra Energy 的 AI 产业链位置为 Power / Grid / Nuclear。",
@@ -19,7 +19,7 @@
       "Power / Grid / Nuclear 板块在 AI 数据中心 capex 周期中处于关键位置。"
     ],
     "data_warning": null,
-    "data_source_text": "Yahoo Finance · 更新 2026-05-15 05:16:02",
+    "data_source_text": "Yahoo Finance · 更新 2026-05-16 05:14:00",
     "status_label": "买入区"
   },
   "panels": [
@@ -28,29 +28,29 @@
       "title": "价格与技术指标",
       "type": "metrics_grid",
       "data": {
-        "最新价": "$141.90",
-        "日内涨跌": "-0.50%",
-        "1日涨跌": "-0.50%",
-        "5日涨跌": "-3.94%",
-        "1月涨跌": "-13.46%",
-        "3月涨跌": "-17.25%",
-        "6月涨跌": "-18.77%",
-        "1年涨跌": "-8.29%",
-        "YTD涨跌": "-14.12%",
-        "20日均线": "155.71",
-        "50日均线": "156.83",
-        "200日均线": "176.04",
-        "RSI 14": "36.74",
-        "MACD": "-3.40",
-        "20日波动率": "42.93%",
-        "成交量": "4,315,392",
-        "量比20日": "0.90",
+        "最新价": "$139.68",
+        "日内涨跌": "-1.56%",
+        "1日涨跌": "-1.56%",
+        "5日涨跌": "-5.44%",
+        "1月涨跌": "-14.28%",
+        "3月涨跌": "-18.55%",
+        "6月涨跌": "-20.04%",
+        "1年涨跌": "-8.14%",
+        "YTD涨跌": "-15.46%",
+        "20日均线": "154.52",
+        "50日均线": "156.27",
+        "200日均线": "175.70",
+        "RSI 14": "35.10",
+        "MACD": "-4.05",
+        "20日波动率": "42.99%",
+        "成交量": "6,581,832",
+        "量比20日": "1.33",
         "52周高点": "219.82",
-        "52周低点": "138.53",
-        "距52周高点": "-35.45%",
-        "距52周低点": "+2.43%",
-        "20日支撑": "139.51",
-        "20日压力": "168.49"
+        "52周低点": "137.81",
+        "距52周高点": "-36.46%",
+        "距52周低点": "+1.36%",
+        "20日支撑": "137.81",
+        "20日压力": "168.42"
       }
     },
     {
@@ -76,15 +76,15 @@
         "流通股本": "337.18M",
         "ROE": "42.90%",
         "债务/权益": "0.42",
-        "市值": "$47.85B",
-        "企业价值": "$69.84B",
-        "市盈率 TTM": "23.73",
-        "预期市盈率": "12.57",
-        "市销率": "2.46",
-        "EV / 营收": "3.59",
-        "EV / EBITDA": "10.29",
-        "EV / FCF": "146.46",
-        "FCF 收益率": "1.00%",
+        "市值": "$47.10B",
+        "企业价值": "$69.60B",
+        "市盈率 TTM": "23.40",
+        "预期市盈率": "12.38",
+        "市销率": "2.42",
+        "EV / 营收": "3.58",
+        "EV / EBITDA": "10.25",
+        "EV / FCF": "145.96",
+        "FCF 收益率": "1.01%",
         "估值分位": "—",
         "内部合理区间": "—"
       }
@@ -118,7 +118,7 @@
         },
         {
           "label": "成长性",
-          "value": 51.80952380952381,
+          "value": 55.61904761904762,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -142,7 +142,7 @@
         },
         {
           "label": "动量",
-          "value": 3.5714285714285716,
+          "value": 6.428571428571429,
           "reasoning": null,
           "is_ai": false,
           "is_quant": true,
@@ -157,7 +157,7 @@
         },
         {
           "label": "综合 · Warren",
-          "value": 70.16142857142857,
+          "value": 70.68523809523809,
           "is_composite": true,
           "formula": "综合分 = 0.28×业务质量 + 0.20×护城河 + 0.20×估值 + 0.10×成长性 + 0.10×盈利能力 + 0.05×风险 + 0.05×动量 + 0.02×AI 暴露度\n（Power / Grid / Nuclear 板块覆盖权重，已归一化）"
         }
@@ -167,17 +167,17 @@
       "id": "external_views",
       "title": "外部观点",
       "type": "external",
-      "title_meta": "Yahoo Finance · 19 位分析师 · 2026-05-15 05:16:02",
+      "title_meta": "Yahoo Finance · 17 位分析师 · 2026-05-16 05:14:00",
       "data": {
-        "target_mean": 227.52632,
+        "target_mean": 225.05882,
         "target_high": 320.0,
         "target_low": 97.0,
-        "upside_pct": 60.34,
+        "upside_pct": 61.12,
         "rating": "strong_buy",
         "rating_letter": "A",
         "rating_change": "维持",
         "previous_rating_letter": "A",
-        "n_analysts": 19,
+        "n_analysts": 17,
         "next_earnings": "2026-08-06",
         "eps_estimate": 2.59081,
         "revenue_estimate": null
@@ -198,6 +198,30 @@
       "type": "news_list",
       "data": [
         {
+          "date": "2026-05-16",
+          "source": "sg.finance.yahoo.com",
+          "url": "https://sg.finance.yahoo.com/quote/ZVST.NE/",
+          "title": "VISTRA (VST) BMO CDR (CAD HEDGE (ZVST.NE) stock price, news, quote and history - Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "nz.finance.yahoo.com",
+          "url": "https://nz.finance.yahoo.com/quote/ZVST.NE/news/",
+          "title": "VISTRA (VST) BMO CDR (CAD HEDGE (ZVST.NE) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-16",
+          "source": "uk.finance.yahoo.com",
+          "url": "https://uk.finance.yahoo.com/quote/VST.MX/news/",
+          "title": "Vistra Corp. (VST.MX) latest stock news and headlines – Yahoo Finance",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-15",
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-stock-trades-above-50-132800109.html",
@@ -214,6 +238,30 @@
           "impact": null
         },
         {
+          "date": "2026-05-15",
+          "source": "Insider Monkey",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-raises-price-target-vistra-132346672.html",
+          "title": "JPMorgan Raises its Price Target on Vistra (VST)",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Simply Wall St.",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/vistra-vst-valuation-check-strong-131502935.html",
+          "title": "Vistra (VST) Valuation Check After Strong Earnings And Expanding Data Center Power Agreements",
+          "sentiment": null,
+          "impact": null
+        },
+        {
+          "date": "2026-05-15",
+          "source": "Zacks",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/best-ai-energy-stocks-buy-120000669.html",
+          "title": "Best AI Energy Stocks to Buy Now Down 30%: CEG, VST",
+          "sentiment": null,
+          "impact": null
+        },
+        {
           "date": "2026-05-14",
           "source": "cnbc.com",
           "url": "https://www.cnbc.com/quotes/VST",
@@ -226,54 +274,6 @@
           "source": "finance.yahoo.com",
           "url": "https://finance.yahoo.com/quote/VST/press-releases/",
           "title": "Vistra Corp. (VST) Latest Press Releases & Corporate News",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/quote/VST/news/",
-          "title": "Vistra Corp. (VST) Latest Stock News & Headlines - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "reuters.com",
-          "url": "https://www.reuters.com/markets/companies/VST.N/",
-          "title": "(VST.N) | Stock Price & Latest News - Reuters",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "finance.yahoo.com",
-          "url": "https://finance.yahoo.com/news/vistra-corp-vst-sees-fresh-162017853.html",
-          "title": "Vistra Corp (VST) Sees Fresh Analyst Bullishness - Yahoo Finance",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Exec Edge",
-          "url": "https://finance.yahoo.com/sectors/technology/articles/vinson-elkins-accelerating-ai-infrastructure-154459380.html",
-          "title": "Vinson & Elkins: Accelerating AI Infrastructure & Power Constraints Reshape the Market",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-14",
-          "source": "Insider Monkey",
-          "url": "https://finance.yahoo.com/sectors/energy/articles/vistra-vst-advances-4-5-113217950.html",
-          "title": "Vistra (VST) Advances 4.5 GW Capacity Growth Amid Projected Multi-Year Load Increase",
-          "sentiment": null,
-          "impact": null
-        },
-        {
-          "date": "2026-05-13",
-          "source": "barrons.com",
-          "url": "https://www.barrons.com/market-data/stocks/vst",
-          "title": "VST | Vistra Corp. Stock Overview (U.S.: NYSE) - Barron's",
           "sentiment": null,
           "impact": null
         }
@@ -299,9 +299,13 @@
         {
           "date": "2026-05-15",
           "value": 70.16142857142857
+        },
+        {
+          "date": "2026-05-16",
+          "value": 70.68523809523809
         }
       ]
     }
   ],
-  "updated_at": "2026-05-15"
+  "updated_at": "2026-05-16"
 }
